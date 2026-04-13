@@ -65,6 +65,133 @@ export const MOCK_SCHEDULE_20260411: { date: string; venues: Venue[] } = {
   ],
 };
 
+// ==========================================
+// 直近土・日（本日2026-04-13から数えて4/18・4/19）
+// USE_MOCK=true 時にこれらの日付で開催ありを返す
+// ==========================================
+
+/** 土曜（4/18）モック: 東京・京都・新潟 */
+export const MOCK_SCHEDULE_20260418: { date: string; venues: Venue[] } = {
+  date: '20260418',
+  venues: [
+    {
+      name: '東京',
+      code: '05',
+      races: [
+        { raceId: '202605030501', raceNum: 1,  startTime: '10:05', raceName: '3歳未勝利',      grade: null, headCount: 16 },
+        { raceId: '202605030502', raceNum: 2,  startTime: '10:40', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202605030503', raceNum: 3,  startTime: '11:15', raceName: '3歳未勝利',      grade: null, headCount: 15 },
+        { raceId: '202605030504', raceNum: 4,  startTime: '11:50', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202605030505', raceNum: 5,  startTime: '12:25', raceName: '4歳以上2勝クラス', grade: null, headCount: 13 },
+        { raceId: '202605030506', raceNum: 6,  startTime: '13:00', raceName: '3歳2勝クラス',   grade: null, headCount: 14 },
+        { raceId: '202605030507', raceNum: 7,  startTime: '13:35', raceName: '4歳以上1勝クラス', grade: null, headCount: 15 },
+        { raceId: '202605030508', raceNum: 8,  startTime: '14:05', raceName: '4歳以上3勝クラス', grade: null, headCount: 11 },
+        { raceId: '202605030509', raceNum: 9,  startTime: '14:35', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202605030510', raceNum: 10, startTime: '15:10', raceName: 'フローラステークス', grade: 'G2', headCount: 18 },
+        { raceId: '202605030511', raceNum: 11, startTime: '15:45', raceName: '皐月賞',          grade: 'G1', headCount: 18 },
+        { raceId: '202605030512', raceNum: 12, startTime: '16:20', raceName: '4歳以上1勝クラス', grade: null, headCount: 16 },
+      ],
+    },
+    {
+      name: '京都',
+      code: '08',
+      races: [
+        { raceId: '202608020501', raceNum: 1,  startTime: '10:05', raceName: '3歳未勝利',      grade: null, headCount: 16 },
+        { raceId: '202608020502', raceNum: 2,  startTime: '10:40', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202608020503', raceNum: 3,  startTime: '11:15', raceName: '3歳未勝利',      grade: null, headCount: 13 },
+        { raceId: '202608020504', raceNum: 4,  startTime: '11:50', raceName: '4歳以上2勝クラス', grade: null, headCount: 12 },
+        { raceId: '202608020505', raceNum: 5,  startTime: '12:25', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202608020506', raceNum: 6,  startTime: '13:00', raceName: '4歳以上3勝クラス', grade: null, headCount: 10 },
+        { raceId: '202608020507', raceNum: 7,  startTime: '13:35', raceName: '3歳2勝クラス',   grade: null, headCount: 14 },
+        { raceId: '202608020508', raceNum: 8,  startTime: '14:05', raceName: '4歳以上オープン',  grade: 'OP', headCount: 12 },
+        { raceId: '202608020509', raceNum: 9,  startTime: '14:35', raceName: '4歳以上1勝クラス', grade: null, headCount: 15 },
+        { raceId: '202608020510', raceNum: 10, startTime: '15:10', raceName: 'マイラーズカップ', grade: 'G2', headCount: 14 },
+        { raceId: '202608020511', raceNum: 11, startTime: '15:45', raceName: '桜花賞',          grade: 'G1', headCount: 18 },
+        { raceId: '202608020512', raceNum: 12, startTime: '16:20', raceName: '4歳以上1勝クラス', grade: null, headCount: 16 },
+      ],
+    },
+    {
+      name: '新潟',
+      code: '04',
+      races: [
+        { raceId: '202604010501', raceNum: 1,  startTime: '10:05', raceName: '3歳未勝利',      grade: null, headCount: 15 },
+        { raceId: '202604010502', raceNum: 2,  startTime: '10:40', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202604010503', raceNum: 3,  startTime: '11:15', raceName: '3歳未勝利',      grade: null, headCount: 16 },
+        { raceId: '202604010504', raceNum: 4,  startTime: '11:50', raceName: '3歳1勝クラス',   grade: null, headCount: 12 },
+        { raceId: '202604010505', raceNum: 5,  startTime: '12:25', raceName: '4歳以上2勝クラス', grade: null, headCount: 13 },
+        { raceId: '202604010506', raceNum: 6,  startTime: '13:00', raceName: '3歳2勝クラス',   grade: null, headCount: 11 },
+        { raceId: '202604010507', raceNum: 7,  startTime: '13:35', raceName: '4歳以上1勝クラス', grade: null, headCount: 15 },
+        { raceId: '202604010508', raceNum: 8,  startTime: '14:05', raceName: '4歳以上3勝クラス', grade: null, headCount: 10 },
+        { raceId: '202604010509', raceNum: 9,  startTime: '14:35', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202604010510', raceNum: 10, startTime: '15:10', raceName: '新潟大賞典',      grade: 'G3', headCount: 16 },
+        { raceId: '202604010511', raceNum: 11, startTime: '15:45', raceName: '4歳以上オープン',  grade: 'OP', headCount: 11 },
+        { raceId: '202604010512', raceNum: 12, startTime: '16:20', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+      ],
+    },
+  ],
+};
+
+/** 日曜（4/19）モック: 東京・京都・新潟 */
+export const MOCK_SCHEDULE_20260419: { date: string; venues: Venue[] } = {
+  date: '20260419',
+  venues: [
+    {
+      name: '東京',
+      code: '05',
+      races: [
+        { raceId: '202605030601', raceNum: 1,  startTime: '10:05', raceName: '3歳未勝利',      grade: null, headCount: 16 },
+        { raceId: '202605030602', raceNum: 2,  startTime: '10:40', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202605030603', raceNum: 3,  startTime: '11:15', raceName: '3歳未勝利',      grade: null, headCount: 15 },
+        { raceId: '202605030604', raceNum: 4,  startTime: '11:50', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202605030605', raceNum: 5,  startTime: '12:25', raceName: '4歳以上2勝クラス', grade: null, headCount: 13 },
+        { raceId: '202605030606', raceNum: 6,  startTime: '13:00', raceName: '3歳2勝クラス',   grade: null, headCount: 14 },
+        { raceId: '202605030607', raceNum: 7,  startTime: '13:35', raceName: '4歳以上1勝クラス', grade: null, headCount: 15 },
+        { raceId: '202605030608', raceNum: 8,  startTime: '14:05', raceName: '4歳以上3勝クラス', grade: null, headCount: 11 },
+        { raceId: '202605030609', raceNum: 9,  startTime: '14:35', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202605030610', raceNum: 10, startTime: '15:10', raceName: '天皇賞（春）トライアル', grade: 'G2', headCount: 12 },
+        { raceId: '202605030611', raceNum: 11, startTime: '15:45', raceName: '天皇賞（春）',    grade: 'G1', headCount: 18 },
+        { raceId: '202605030612', raceNum: 12, startTime: '16:20', raceName: '4歳以上1勝クラス', grade: null, headCount: 16 },
+      ],
+    },
+    {
+      name: '京都',
+      code: '08',
+      races: [
+        { raceId: '202608020601', raceNum: 1,  startTime: '10:05', raceName: '3歳未勝利',      grade: null, headCount: 15 },
+        { raceId: '202608020602', raceNum: 2,  startTime: '10:40', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202608020603', raceNum: 3,  startTime: '11:15', raceName: '3歳未勝利',      grade: null, headCount: 13 },
+        { raceId: '202608020604', raceNum: 4,  startTime: '11:50', raceName: '4歳以上2勝クラス', grade: null, headCount: 12 },
+        { raceId: '202608020605', raceNum: 5,  startTime: '12:25', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202608020606', raceNum: 6,  startTime: '13:00', raceName: '4歳以上3勝クラス', grade: null, headCount: 11 },
+        { raceId: '202608020607', raceNum: 7,  startTime: '13:35', raceName: '3歳2勝クラス',   grade: null, headCount: 14 },
+        { raceId: '202608020608', raceNum: 8,  startTime: '14:05', raceName: '4歳以上オープン',  grade: 'OP', headCount: 10 },
+        { raceId: '202608020609', raceNum: 9,  startTime: '14:35', raceName: '4歳以上1勝クラス', grade: null, headCount: 15 },
+        { raceId: '202608020610', raceNum: 10, startTime: '15:10', raceName: '読売マイラーズC',  grade: 'G2', headCount: 16 },
+        { raceId: '202608020611', raceNum: 11, startTime: '15:45', raceName: 'NHKマイルカップ', grade: 'G1', headCount: 18 },
+        { raceId: '202608020612', raceNum: 12, startTime: '16:20', raceName: '4歳以上1勝クラス', grade: null, headCount: 16 },
+      ],
+    },
+    {
+      name: '新潟',
+      code: '04',
+      races: [
+        { raceId: '202604010601', raceNum: 1,  startTime: '10:05', raceName: '3歳未勝利',      grade: null, headCount: 16 },
+        { raceId: '202604010602', raceNum: 2,  startTime: '10:40', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202604010603', raceNum: 3,  startTime: '11:15', raceName: '3歳未勝利',      grade: null, headCount: 15 },
+        { raceId: '202604010604', raceNum: 4,  startTime: '11:50', raceName: '3歳1勝クラス',   grade: null, headCount: 12 },
+        { raceId: '202604010605', raceNum: 5,  startTime: '12:25', raceName: '4歳以上2勝クラス', grade: null, headCount: 13 },
+        { raceId: '202604010606', raceNum: 6,  startTime: '13:00', raceName: '3歳2勝クラス',   grade: null, headCount: 11 },
+        { raceId: '202604010607', raceNum: 7,  startTime: '13:35', raceName: '4歳以上1勝クラス', grade: null, headCount: 15 },
+        { raceId: '202604010608', raceNum: 8,  startTime: '14:05', raceName: '4歳以上3勝クラス', grade: null, headCount: 10 },
+        { raceId: '202604010609', raceNum: 9,  startTime: '14:35', raceName: '3歳1勝クラス',   grade: null, headCount: 16 },
+        { raceId: '202604010610', raceNum: 10, startTime: '15:10', raceName: '4歳以上オープン',  grade: 'OP', headCount: 12 },
+        { raceId: '202604010611', raceNum: 11, startTime: '15:45', raceName: '4歳以上1勝クラス', grade: null, headCount: 14 },
+        { raceId: '202604010612', raceNum: 12, startTime: '16:20', raceName: '4歳以上1勝クラス', grade: null, headCount: 16 },
+      ],
+    },
+  ],
+};
+
 export const MOCK_SCHEDULE_20260412: { date: string; venues: Venue[] } = {
   date: '20260412',
   venues: [

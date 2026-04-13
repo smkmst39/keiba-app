@@ -9,7 +9,12 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import type { Venue, RaceEntry, Grade, ScheduleResponse } from '@/lib/scraper/types';
 import { getCache, setCache } from '@/lib/cache';
-import { MOCK_SCHEDULE_20260411, MOCK_SCHEDULE_20260412 } from '@/lib/scraper/__mocks__/schedule-20260411';
+import {
+  MOCK_SCHEDULE_20260411,
+  MOCK_SCHEDULE_20260412,
+  MOCK_SCHEDULE_20260418,
+  MOCK_SCHEDULE_20260419,
+} from '@/lib/scraper/__mocks__/schedule-20260411';
 
 // キャッシュTTL: 30分
 const CACHE_TTL_SCHEDULE = 1800;
@@ -157,9 +162,23 @@ export async function GET(req: Request) {
 
   // モックモード
   if (process.env.USE_MOCK === 'true') {
-    // 日付に応じてモックデータを選択
-    const mockData =
-      date === '20260412' ? MOCK_SCHEDULE_20260412 : MOCK_SCHEDULE_20260411;
+    // 土日（開催あり）の日付のみデータを返す。それ以外は空レスポンス（開催なし）
+    const MOCK_MAP: Record<string, { date: string; venues: Venue[] }> = {
+      '20260411': MOCK_SCHEDULE_20260411,
+      '20260412': MOCK_SCHEDULE_20260412,
+      '20260418': MOCK_SCHEDULE_20260418,
+      '20260419': MOCK_SCHEDULE_20260419,
+    };
+    const mockData = MOCK_MAP[date];
+    if (!mockData) {
+      // 開催なしの日 → success: true, venues: [] を返す
+      const res: ScheduleResponse = {
+        success: true,
+        data: [{ date, venues: [] }],
+        meta: { fetchedAt: new Date().toISOString(), cached: false, mock: true },
+      };
+      return NextResponse.json(res);
+    }
     const data = { ...mockData, date };
     setCache(cacheKey, data, CACHE_TTL_SCHEDULE);
     const res: ScheduleResponse = {
@@ -173,15 +192,12 @@ export async function GET(req: Request) {
   // 実データ取得
   const venues = await scrapeSchedule(date);
   if (!venues || venues.length === 0) {
-    // スクレイピング失敗時はモックにフォールバック
-    console.warn(`[api/schedule] ${date}のスクレイピング失敗、モックにフォールバック`);
-    const mockData =
-      date === '20260412' ? MOCK_SCHEDULE_20260412 : MOCK_SCHEDULE_20260411;
-    const data = { ...mockData, date };
+    // スクレイピング失敗時は開催なしとして返す（モックへのフォールバックは廃止）
+    console.warn(`[api/schedule] ${date}のスクレイピング失敗またはデータなし`);
     const res: ScheduleResponse = {
       success: true,
-      data: [data],
-      meta: { fetchedAt: new Date().toISOString(), cached: false, mock: true },
+      data: [{ date, venues: [] }],
+      meta: { fetchedAt: new Date().toISOString(), cached: false, mock: false },
     };
     return NextResponse.json(res);
   }

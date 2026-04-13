@@ -5,9 +5,9 @@
 // 日付タブ → 競馬場タブ → レース一覧 の3階層UI
 // ==========================================
 
-import { useState, useEffect, useMemo, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import type { Race, Grade } from '@/lib/scraper/types';
-import { useSchedule, getScheduleDates, type DaySchedule } from '@/app/hooks/useSchedule';
+import { useSchedule, type DaySchedule } from '@/app/hooks/useSchedule';
 import { useRaceData } from '@/app/hooks/useRaceData';
 
 type Props = {
@@ -100,7 +100,6 @@ function RaceItem({
         transition: 'background 0.1s',
       }}
     >
-      {/* R番号 */}
       <span style={{
         minWidth: '2.2rem',
         fontWeight: 700,
@@ -109,16 +108,13 @@ function RaceItem({
       }}>
         {raceNum}R
       </span>
-      {/* 発走時刻 */}
       <span style={{ minWidth: '3rem', fontSize: '0.82rem', color: '#666', fontVariantNumeric: 'tabular-nums' }}>
         {startTime}
       </span>
-      {/* レース名 + グレード */}
       <span style={{ flex: 1, fontSize: '0.88rem', color: '#222', fontWeight: selected ? 700 : 400 }}>
         {raceName}
       </span>
       <GradeBadge grade={grade} />
-      {/* 頭数 */}
       {headCount > 0 && (
         <span style={{ fontSize: '0.78rem', color: '#888', minWidth: '2.5rem', textAlign: 'right' }}>
           {headCount}頭
@@ -185,39 +181,27 @@ const spinnerStyle: React.CSSProperties = {
 // メインコンポーネント
 // ==========================================
 export function RaceSchedule({ onRaceLoaded }: Props) {
-  const dates = useMemo(() => getScheduleDates(), []);
-  const { schedule, isLoading, error } = useSchedule(dates);
+  // useSchedule は引数なし（14日分を内部で順次取得）
+  const { schedule, isLoading, error } = useSchedule();
 
-  // dates[1] = 本日の日付文字列
-  const todayStr = dates[1];
+  // schedule は開催ありの日のみ格納されているのでそのまま availableDates として使う
+  const availableDates = schedule.map((s) => s.date);
 
-  // 開催レースが1件以上ある日だけに絞り込む
-  const availableDates = useMemo(
-    () => dates.filter(date => {
-      const day = schedule.find(s => s.date === date);
-      return day && day.venues.length > 0;
-    }),
-    [dates, schedule]
-  );
-
-  const [selectedDate, setSelectedDate]   = useState<string>(todayStr); // 初期値: 本日
-  const [selectedVenue, setSelectedVenue] = useState<string | null>(null);
+  // デフォルト: 最も近い開催日（availableDates[0]）
+  const [selectedDate, setSelectedDate]     = useState<string | null>(null);
+  const [selectedVenue, setSelectedVenue]   = useState<string | null>(null);
   const [selectedRaceId, setSelectedRaceId] = useState<string | null>(null);
   const [fetchingRaceId, setFetchingRaceId] = useState<string | null>(null);
 
-  // スケジュール初回読込後: 本日に開催がなければ最初の開催日に補正
+  // スケジュール取得後、初回のみデフォルト日付を設定
   const initialDateSetRef = useRef(false);
   useEffect(() => {
     if (isLoading || availableDates.length === 0 || initialDateSetRef.current) return;
     initialDateSetRef.current = true;
-    // 本日が開催ありなら変更不要
-    if (availableDates.includes(todayStr)) return;
-    // 本日が開催なし → 最初の開催日へ
     setSelectedDate(availableDates[0]);
-    setSelectedVenue(null);
-  }, [availableDates, isLoading, todayStr]);
+  }, [availableDates, isLoading]);
 
-  // スケジュール取得後にデフォルト競馬場をセット
+  // 日付が変わったらデフォルト競馬場を設定
   useEffect(() => {
     const day = schedule.find((s) => s.date === selectedDate);
     if (day && day.venues.length > 0 && !selectedVenue) {
@@ -225,7 +209,6 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
     }
   }, [schedule, selectedDate, selectedVenue]);
 
-  // 日付切り替え時に競馬場をリセット
   const handleDateChange = (date: string) => {
     setSelectedDate(date);
     setSelectedVenue(null);
@@ -233,7 +216,6 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
     setFetchingRaceId(null);
   };
 
-  // 競馬場切り替え時にレース選択をリセット
   const handleVenueChange = (code: string) => {
     setSelectedVenue(code);
     setSelectedRaceId(null);
@@ -258,7 +240,7 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
 
       {/* 日付タブ（開催ありの日のみ表示） */}
       <div style={styles.tabRow}>
-        {isLoading
+        {isLoading && availableDates.length === 0
           ? [80, 90, 80].map((w, i) => <Skeleton key={i} width={`${w}px`} height="28px" />)
           : availableDates.map((d) => (
               <TabBtn key={d} label={formatDate(d)} active={selectedDate === d} onClick={() => handleDateChange(d)} />
@@ -269,7 +251,7 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
       {error && <p style={{ color: '#e53e3e', fontSize: '0.9rem', margin: '0.5rem 0' }}>⚠ {error}</p>}
 
       {/* 競馬場タブ */}
-      {isLoading ? (
+      {isLoading && availableDates.length === 0 ? (
         <div style={{ ...styles.tabRow, gap: '0.5rem' }}>
           {[80, 60, 70].map((w, i) => <Skeleton key={i} width={`${w}px`} height="28px" />)}
         </div>
@@ -282,7 +264,7 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
       ) : null}
 
       {/* レース一覧 */}
-      {isLoading ? (
+      {isLoading && availableDates.length === 0 ? (
         <div style={styles.raceList}>
           {Array.from({ length: 6 }).map((_, i) => (
             <div key={i} style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', padding: '0.55rem 0' }}>
@@ -305,7 +287,7 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
         </div>
       ) : !isLoading && availableDates.length === 0 ? (
         <p style={{ color: '#888', fontSize: '0.9rem', padding: '1rem 0' }}>
-          本日の開催はありません
+          本日から14日以内の開催はありません
         </p>
       ) : (
         <p style={{ color: '#888', fontSize: '0.9rem', padding: '1rem 0' }}>
