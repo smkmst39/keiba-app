@@ -19,6 +19,13 @@ export type Horse = {
   ev?: number;         // 単勝期待値（calcEV で付与）
 };
 
+/**
+ * レース表示モード
+ * - confirmed: 枠順確定済み（通常モード）
+ * - pre-entry: 枠順未確定（仮予想モード）。オッズ・枠番なし
+ */
+export type RaceMode = 'confirmed' | 'pre-entry';
+
 /** レース情報 */
 export type Race = {
   raceId: string;                 // netkeibaレースID（例: "202606030511"）
@@ -28,6 +35,7 @@ export type Race = {
   surface: 'turf' | 'dirt';      // 芝 or ダート
   horses: Horse[];                // 出走馬リスト
   fetchedAt: Date;                // データ取得日時
+  mode?: RaceMode;               // 省略時は 'confirmed' として扱う
 };
 
 /** 馬券の券種 */

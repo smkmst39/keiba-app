@@ -10,6 +10,27 @@ import type { Race, Horse, BetType, ComboOddsData } from '@/lib/scraper/types';
 import { useComboOdds } from '@/app/hooks/useComboOdds';
 import { calcComboEV } from '@/lib/score/calculator';
 
+// 仮予想モードバナー
+function PreEntryBanner() {
+  return (
+    <div style={{
+      background: '#fffbeb',
+      border: '1px solid #f6ad55',
+      borderRadius: '6px',
+      padding: '0.6rem 1rem',
+      marginBottom: '1rem',
+      fontSize: '0.85rem',
+      color: '#744210',
+    }}>
+      <strong>⚠️ 枠順確定前のため仮予想モードで表示しています</strong>
+      <div style={{ marginTop: '0.25rem', color: '#92400e' }}>
+        （枠順確定: 土曜レース→木曜夕方 / 日曜レース→金曜夕方）<br />
+        馬名はあいうえお順・仮番号で表示。オッズ・期待値は枠順確定後に表示されます。
+      </div>
+    </div>
+  );
+}
+
 // ==========================================
 // 枠色定義（JRA標準 — 変更禁止）
 // ==========================================
@@ -44,17 +65,23 @@ function oddsColor(odds: number): string {
 
 // ==========================================
 // 馬ピル（枠色付き選択ボタン）
+// preEntry=true のとき枠番バッジを灰色で表示
 // ==========================================
 function HorsePill({
   horse,
   selected,
   onClick,
+  preEntry = false,
 }: {
   horse: Horse;
   selected: boolean;
   onClick: () => void;
+  preEntry?: boolean;
 }) {
-  const waku = WAKU_COLORS[horse.waku] ?? WAKU_COLORS[1];
+  const waku = preEntry
+    ? { bg: '#e2e8f0', border: '#a0aec0', text: '#4a5568' }  // 灰色（仮番号）
+    : (WAKU_COLORS[horse.waku] ?? WAKU_COLORS[1]);
+
   return (
     <button
       onClick={onClick}
@@ -73,7 +100,7 @@ function HorsePill({
         outlineOffset: '1px',
       }}
     >
-      {/* 枠番バッジ */}
+      {/* 枠番バッジ（仮予想モードは灰色） */}
       <span
         style={{
           display: 'inline-block',
@@ -89,7 +116,7 @@ function HorsePill({
           fontWeight: 700,
         }}
       >
-        {horse.waku}
+        {horse.id}
       </span>
       <span>{horse.id}番 {horse.name}</span>
     </button>
@@ -460,13 +487,15 @@ type Props = { race: Race };
 const EMPTY_FORM_SEL: FormSel = { A: [], B: [], C: [] };
 
 export function BakenSimulator({ race }: Props) {
+  const isPreEntry = race.mode === 'pre-entry';
+
   const [betType, setBetType] = useState<BetType>('tan');
   const [mode, setMode]       = useState<SelectMode>('box');
   const [boxSel, setBoxSel]   = useState<number[]>([]);
   const [formSel, setFormSel] = useState<FormSel>(EMPTY_FORM_SEL);
 
-  // 組み合わせオッズを非同期取得
-  const comboOdds = useComboOdds(race.raceId);
+  // 組み合わせオッズを非同期取得（仮予想モード時は取得しない）
+  const comboOdds = useComboOdds(isPreEntry ? '' : race.raceId);
 
   // レースが切り替わったら全選択状態をリセット
   useEffect(() => {
@@ -534,8 +563,13 @@ export function BakenSimulator({ race }: Props) {
   };
 
   // 実EV降順（null最後）・上位50件
+  // 仮予想モードではEV計算不可のためスコア降順で表示
   const sortedCombos = useMemo((): ResolvedCombo[] => {
     const resolved = combos.map((c): ResolvedCombo => {
+      // 仮予想モード: オッズ・EVなし、スコアのみ
+      if (isPreEntry) {
+        return { ...c, realOdds: null, realEV: null, isEstimated: false };
+      }
       // 単勝・複勝は馬データのオッズ・EVをそのまま使う
       if (betType === 'tan' || betType === 'fuku') {
         return { ...c, realOdds: c.estOdds, realEV: c.ev, isEstimated: false };
@@ -558,6 +592,8 @@ export function BakenSimulator({ race }: Props) {
 
     return resolved
       .sort((a, b) => {
+        // 仮予想モードはスコア降順
+        if (isPreEntry) return b.score - a.score;
         if (a.realEV !== null && b.realEV !== null) return b.realEV - a.realEV;
         if (a.realEV !== null) return -1;
         if (b.realEV !== null) return 1;
@@ -565,10 +601,13 @@ export function BakenSimulator({ race }: Props) {
       })
       .slice(0, 50);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [combos, comboOdds.data, betType, race.horses]);
+  }, [combos, comboOdds.data, betType, race.horses, isPreEntry]);
 
   return (
     <div style={{ fontFamily: 'sans-serif' }}>
+      {/* 仮予想モードバナー */}
+      {isPreEntry && <PreEntryBanner />}
+
       {/* レース情報ヘッダー */}
       <div style={styles.raceHeader}>
         <h2 style={{ margin: 0, fontSize: '1.3rem' }}>{race.name}</h2>
@@ -641,6 +680,7 @@ export function BakenSimulator({ race }: Props) {
                   horse={horse}
                   selected={boxSel.includes(horse.id)}
                   onClick={() => toggleBox(horse.id)}
+                  preEntry={isPreEntry}
                 />
               ))}
             </div>
@@ -664,6 +704,7 @@ export function BakenSimulator({ race }: Props) {
                       horse={horse}
                       selected={formSel[col].includes(horse.id)}
                       onClick={() => toggleForm(col, horse.id)}
+                      preEntry={isPreEntry}
                     />
                   ))}
                 </div>
@@ -703,23 +744,25 @@ export function BakenSimulator({ race }: Props) {
         </div>
       )}
 
-      {/* 全馬EV一覧（単勝）— EV降順 */}
-      <div style={styles.section}>
-        <h3 style={styles.sectionTitle}>EV一覧（単勝）</h3>
-        <div style={styles.cardGrid}>
-          {evSortedHorses.map((horse, i) => (
-            <ComboCard
-              key={horse.id}
-              label={`${horse.id}番 ${horse.name}`}
-              ev={horse.ev ?? 0}
-              score={horse.score ?? 0}
-              oddsDisplay={horse.odds}
-              isEstimated={false}
-              rank={i}
-            />
-          ))}
+      {/* 全馬EV一覧（単勝）— EV降順 / 仮予想モードでは非表示 */}
+      {!isPreEntry && (
+        <div style={styles.section}>
+          <h3 style={styles.sectionTitle}>EV一覧（単勝）</h3>
+          <div style={styles.cardGrid}>
+            {evSortedHorses.map((horse, i) => (
+              <ComboCard
+                key={horse.id}
+                label={`${horse.id}番 ${horse.name}`}
+                ev={horse.ev ?? 0}
+                score={horse.score ?? 0}
+                oddsDisplay={horse.odds}
+                isEstimated={false}
+                rank={i}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

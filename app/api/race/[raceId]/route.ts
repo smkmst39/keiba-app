@@ -6,10 +6,17 @@
 
 import { NextResponse } from 'next/server';
 import type { Race, RaceApiResponse } from '@/lib/scraper/types';
-import { scrapeRace } from '@/lib/scraper/netkeiba';
+import { fetchRaceData, fetchPreEntry } from '@/lib/scraper/netkeiba';
 import { calcAllScores, validateScores } from '@/lib/score/calculator';
 import { getCache, setCache } from '@/lib/cache';
 import { MOCK_NZT_2026 } from '@/lib/scraper/__mocks__/202606030511';
+
+export const maxDuration = 30;
+export const dynamic = 'force-dynamic';
+
+// キャッシュTTL（秒）
+const TTL_CONFIRMED  = 600;   // 通常モード: 10分
+const TTL_PRE_ENTRY  = 1800;  // 仮予想モード: 30分（オッズ未発売のため長め）
 
 export async function GET(
   _req: Request,
@@ -42,26 +49,36 @@ export async function GET(
 
     if (process.env.USE_MOCK === 'true') {
       // モックモード: 15頭の本番相当モックデータを返す
-      race = { ...MOCK_NZT_2026, raceId, fetchedAt: new Date() };
+      race = { ...MOCK_NZT_2026, raceId, fetchedAt: new Date(), mode: 'confirmed' };
     } else {
-      // 本番モード: netkeibaからスクレイピング
-      race = await scrapeRace(raceId);
+      // ステップ1: 枠順確定済みの出馬表をスクレイピング
+      race = await fetchRaceData(raceId);
+
+      // ステップ2: 確定データが取れなければ仮予想モード（登録馬リスト）を試みる
+      if (!race) {
+        console.warn(`[api/race] 出馬表取得失敗 raceId=${raceId}, 仮予想モードを試みます`);
+        race = await fetchPreEntry(raceId);
+      }
+
+      // ステップ3: それも失敗したらモックにフォールバック
+      if (!race) {
+        console.warn(`[api/race] 仮予想モード取得失敗 raceId=${raceId}, モックにフォールバック`);
+        race = { ...MOCK_NZT_2026, raceId, fetchedAt: new Date(), mode: 'confirmed' };
+      }
     }
 
-    if (!race) {
-      // スクレイピング失敗時: モックデータにフォールバック
-      console.warn(`[api/race] レースデータ取得失敗 raceId=${raceId}, モックにフォールバック`);
-      race = { ...MOCK_NZT_2026, raceId, fetchedAt: new Date() };
-    }
-
-    // スコア・EV計算（全馬分まとめて計算）
+    // スコア計算（全馬分まとめて計算）
+    // 仮予想モードでは odds=0 のため EV は 0 になる（validateScores はスキップ）
     race = calcAllScores(race);
 
-    // 健全性チェック（コンソールに出力）
-    validateScores(race.horses);
+    // 健全性チェック（通常モードのみ。仮予想モードではEVが全0のため意味がない）
+    if (race.mode !== 'pre-entry') {
+      validateScores(race.horses);
+    }
 
-    // キャッシュに保存
-    setCache(`race:${raceId}`, race);
+    // キャッシュに保存（TTLはモードによって変える）
+    const ttl = race.mode === 'pre-entry' ? TTL_PRE_ENTRY : TTL_CONFIRMED;
+    setCache(`race:${raceId}`, race, ttl);
 
     const res: RaceApiResponse = { success: true, data: race };
     return NextResponse.json(res, {

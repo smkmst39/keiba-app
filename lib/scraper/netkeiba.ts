@@ -478,6 +478,95 @@ export async function fetchComboOdds(raceId: string): Promise<ComboOddsData | nu
 }
 
 // ==========================================
+// 仮予想モード: 枠順確定前の登録馬リスト取得
+// ==========================================
+
+/**
+ * shutuba_past.html から枠順確定前の登録馬リストを取得する
+ *
+ * 枠順確定前なのでwaku=0・odds=0・lastThreeF=0。
+ * 馬名はあいうえお順でソートし、1番から仮番号を振る。
+ */
+export async function fetchPreEntry(raceId: string): Promise<Race | null> {
+  const url = `${BASE_RACE}/shutuba_past.html?race_id=${raceId}`;
+  const html = await fetchHtml(url);
+  if (!html) return null;
+
+  try {
+    const $ = cheerio.load(html);
+
+    // --- レース基本情報 ---
+    const name = $(SELECTORS.raceTitle).first().text().trim() || '不明';
+    const raceDataText = $(SELECTORS.raceData).first().text();
+    const distanceMatch = raceDataText.match(/(\d{3,4})m/);
+    const distance = distanceMatch ? parseInt(distanceMatch[1], 10) : 0;
+    const surface: 'turf' | 'dirt' = raceDataText.includes('ダート') ? 'dirt' : 'turf';
+    const course = courseFromRaceId(raceId);
+
+    // --- 登録馬リスト ---
+    type RawHorse = { name: string; jockey: string; trainer: string };
+    const rawHorses: RawHorse[] = [];
+
+    // id="tr_N" 形式の行のみが出走馬行（ヘッダ・フッタは除外）
+    $('tr.HorseList[id^="tr_"]').each((_i, row) => {
+      try {
+        const h02 = $(row).find('.Horse02');
+        const horseName = h02.find('a').first().text().trim() || h02.text().trim();
+        if (!horseName) return;
+
+        const jockeyA = $(row).find('.Jockey a').first();
+        const jockey = jockeyA.text().trim();
+
+        const h05 = $(row).find('.Horse05');
+        const trainerRaw = (h05.find('a').first().text().trim() || h05.text().trim()).trim();
+        const trainer = trainerRaw.replace(/^(栗東・|美浦・|地方・)/, '');
+
+        rawHorses.push({ name: horseName, jockey, trainer });
+      } catch {
+        // パース失敗は無視
+      }
+    });
+
+    if (rawHorses.length === 0) {
+      console.warn(`[scraper] fetchPreEntry: 登録馬が0件 raceId=${raceId}`);
+      return null;
+    }
+
+    // あいうえお順でソートして仮番号を振る
+    rawHorses.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
+
+    const horses: Horse[] = rawHorses.map((h, i) => ({
+      id: i + 1,
+      name: h.name,
+      waku: 0,          // 枠順未確定
+      odds: 0,          // オッズ未発売
+      fukuOddsMin: 0,
+      fukuOddsMax: 0,
+      jockey: h.jockey,
+      trainer: h.trainer,
+      weight: 0,
+      weightDiff: 0,
+      lastThreeF: 0,    // スクレイピング対象外（仮予想モードでは0）
+    }));
+
+    console.log(`[scraper] fetchPreEntry: ${horses.length}頭取得 raceId=${raceId}`);
+    return {
+      raceId,
+      name,
+      course,
+      distance,
+      surface,
+      horses,
+      fetchedAt: new Date(),
+      mode: 'pre-entry',
+    };
+  } catch (e) {
+    console.error('[scraper] fetchPreEntry: パース失敗:', e);
+    return null;
+  }
+}
+
+// ==========================================
 // 後方互換ラッパー（route.ts から呼ばれる）
 // ==========================================
 
