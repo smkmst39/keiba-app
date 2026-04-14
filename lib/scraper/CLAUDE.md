@@ -70,19 +70,34 @@ const TRAINING_SELECTORS = {
 };
 ```
 
-### スケジュールページ（race_list.html）（最終確認: 2026-04-12）
+### スケジュールページ（race_list_sub.html）（最終確認: 2026-04-14）
+
+※ race_list.html はJS SPAのためaxiosでは取得不可。race_list_sub.html（SSR・UTF-8）を使用する。
 
 ```typescript
-// 競馬場ブロックタイトル（場名テキストを含む）
-const titleEl = '.RaceList_DataTitle';
+// スクレイピングURL（race_list.html → race_list_sub.html に変更）
+// GET https://race.netkeiba.com/top/race_list_sub.html?kaisai_date={date}
+// エンコーディング: UTF-8（responseType: 'text'で取得）
 
-// レース行（タイトル要素の次の兄弟要素群）
-const itemEl  = '.RaceList_DataItem';
+// DOM構造:
+// dl.RaceList_DataList
+//   dt.RaceList_DataHeader （競馬場ブロックヘッダ）
+//     p.RaceList_DataTitle  → "3回 中山 7日目" (競馬場名を含む)
+//   dd.RaceList_Data
+//     ul > li.RaceList_DataItem （レース行）
+
+// 競馬場ブロック
+const headerEl  = '.RaceList_DataHeader';
+const titleEl   = '.RaceList_DataTitle';   // テキストに競馬場名が含まれる
+
+// レース行（.RaceList_DataHeader の次の dd.RaceList_Data 配下）
+const itemEl    = '.RaceList_DataItem';
 
 // 各レース行内の要素
-const raceNum   = '.RaceList_Num';        // "1R", "11R"
-const startTime = '.RaceList_Itemtime';   // "15:45"
-const raceName  = '.RaceList_ItemTitle';  // "ニュージーランドトロフィー"
+const raceNum   = '.Race_Num span';        // "9R", "12R" （MyRaceCheckのspanを除く最初のspan）
+const startTime = '.RaceList_Itemtime';    // "14:25"
+const raceName  = '.ItemTitle';            // "袖ケ浦特別"（.RaceList_ItemTitle内）
+const headCount = '.RaceList_Itemnumber';  // "14頭"
 const gradeIcon = '[class*="Icon_GradeType"]'; // G1=GradeType1, G2=2, G3=3, L=5, OP=15/16
 const raceIdHref = 'a[href*="race_id="]'; // href から race_id= の12桁を抽出
 ```

@@ -55,41 +55,44 @@ function courseCodeFromRaceId(raceId: string): string {
 
 /** race_list.html をスクレイピングして Venue[] を返す */
 async function scrapeSchedule(date: string): Promise<Venue[] | null> {
-  const url = `https://race.netkeiba.com/top/race_list.html?kaisai_date=${date}`;
+  // race_list.html はJS SPAのためaxiosで取得不可。
+  // race_list_sub.html はSSRのためHTMLが直接返る（UTF-8エンコード）。
+  const url = `https://race.netkeiba.com/top/race_list_sub.html?kaisai_date=${date}`;
   try {
-    // 原因3: タイムアウトを20秒に延長
     const res = await axios.get(url, {
       headers: REQUEST_HEADERS,
       timeout: 20000,
-      responseType: 'arraybuffer',
+      responseType: 'text', // UTF-8テキストとして取得（EUC-JPデコード不要）
     });
-    const html = new TextDecoder('euc-jp', { fatal: false }).decode(res.data);
+    const html = res.data as string;
     const $ = cheerio.load(html);
 
     const venueMap = new Map<string, Venue>();
 
     // 各競馬場ブロックを処理
-    $('.RaceList_DataTitle').each((_i, titleEl) => {
-      // 競馬場名はタイトルテキストから取得
-      const titleText = $(titleEl).text().trim();
-      // 競馬場名マップと照合
+    // 構造: dt.RaceList_DataHeader → dd.RaceList_Data > ul > li.RaceList_DataItem
+    $('.RaceList_DataHeader').each((_i, headerEl) => {
+      const titleText = $(headerEl).find('.RaceList_DataTitle').text().trim();
       const venueName = Object.values(COURSE_MAP).find((name) => titleText.includes(name));
       if (!venueName) return;
 
       const venueCode = Object.entries(COURSE_MAP).find(([, v]) => v === venueName)?.[0] ?? '';
 
-      // このブロック配下のレース一覧
+      // 直後のddにあるレース一覧を取得
       const races: RaceEntry[] = [];
-      $(titleEl).nextUntil('.RaceList_DataTitle', '.RaceList_DataItem').each((_j, itemEl) => {
+      $(headerEl).next('dd.RaceList_Data').find('.RaceList_DataItem').each((_j, itemEl) => {
         try {
-          const href = $(itemEl).find('a[href*="race_id="]').attr('href') ?? '';
+          const href = $(itemEl).find('a[href*="race_id="]').first().attr('href') ?? '';
           const raceIdMatch = href.match(/race_id=(\d{12})/);
           if (!raceIdMatch) return;
           const raceId = raceIdMatch[1];
 
-          const raceNum = parseInt($(itemEl).find('.RaceList_Num').text().trim(), 10) || 0;
+          // レース番号: .Race_Num span テキストから取得（例: "9R" → 9）
+          const raceNumText = $(itemEl).find('.Race_Num span').first().text().trim();
+          const raceNum = parseInt(raceNumText.replace('R', ''), 10) || parseInt(raceId.slice(10, 12), 10);
+
           const startTime = $(itemEl).find('.RaceList_Itemtime').text().trim();
-          const raceName = $(itemEl).find('.RaceList_ItemTitle').text().trim() || '不明';
+          const raceName = $(itemEl).find('.ItemTitle').text().trim() || '不明';
 
           // グレードバッジ
           let grade: Grade = null;
@@ -101,8 +104,8 @@ async function scrapeSchedule(date: string): Promise<Venue[] | null> {
             }
           }
 
-          // 頭数: "16頭" 等のテキストから抽出
-          const headText = $(itemEl).find('.RaceList_Item').text();
+          // 頭数: "14頭" 等のテキストから抽出
+          const headText = $(itemEl).find('.RaceList_Itemnumber').text();
           const headMatch = headText.match(/(\d+)頭/);
           const headCount = headMatch ? parseInt(headMatch[1], 10) : 0;
 
@@ -118,23 +121,7 @@ async function scrapeSchedule(date: string): Promise<Venue[] | null> {
       }
     });
 
-    // raceId から場コードを使ってフォールバック処理（タイトルが取れなかった場合）
-    if (venueMap.size === 0) {
-      // 別アプローチ: hrefa の raceId から場コードを逆引き
-      $('a[href*="race_id="]').each((_i, a) => {
-        const href = $(a).attr('href') ?? '';
-        const m = href.match(/race_id=(\d{12})/);
-        if (!m) return;
-        const raceId = m[1];
-        const code = courseCodeFromRaceId(raceId);
-        const name = COURSE_MAP[code];
-        if (!name) return;
-        if (!venueMap.has(code)) venueMap.set(code, { name, code, races: [] });
-      });
-
-      if (venueMap.size === 0) return null;
-    }
-
+    if (venueMap.size === 0) return null;
     return Array.from(venueMap.values());
   } catch (err) {
     // 詳細なエラーログ（Vercelログで原因を特定するため）
