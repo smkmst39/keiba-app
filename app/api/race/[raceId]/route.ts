@@ -49,12 +49,9 @@ export async function GET(
     }
 
     if (!race) {
-      const res: RaceApiResponse = {
-        success: false,
-        data: null,
-        error: `レース情報が取得できませんでした: raceId=${raceId}`,
-      };
-      return NextResponse.json(res, { status: 404 });
+      // スクレイピング失敗時: モックデータにフォールバック
+      console.warn(`[api/race] レースデータ取得失敗 raceId=${raceId}, モックにフォールバック`);
+      race = { ...MOCK_NZT_2026, raceId, fetchedAt: new Date() };
     }
 
     // スコア・EV計算（全馬分まとめて計算）
