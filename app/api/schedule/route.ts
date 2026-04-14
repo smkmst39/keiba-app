@@ -4,6 +4,10 @@
 // date: YYYYMMDD形式。省略時は本日。
 // ==========================================
 
+// 原因1: Vercelサーバーレス環境向けのタイムアウト・動的設定
+export const maxDuration = 30;
+export const dynamic = 'force-dynamic';
+
 import { NextResponse } from 'next/server';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
@@ -19,8 +23,13 @@ import {
 // キャッシュTTL: 30分
 const CACHE_TTL_SCHEDULE = 1800;
 
-const USER_AGENT =
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+// 原因2: Vercel環境でもブラウザとして認識されるよう詳細なヘッダーを設定
+const REQUEST_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'ja,en-US;q=0.7,en;q=0.3',
+  'Referer': 'https://race.netkeiba.com/',
+};
 
 // netkeibaの場コード → 競馬場名
 const COURSE_MAP: Record<string, string> = {
@@ -48,9 +57,10 @@ function courseCodeFromRaceId(raceId: string): string {
 async function scrapeSchedule(date: string): Promise<Venue[] | null> {
   const url = `https://race.netkeiba.com/top/race_list.html?kaisai_date=${date}`;
   try {
+    // 原因3: タイムアウトを20秒に延長
     const res = await axios.get(url, {
-      headers: { 'User-Agent': USER_AGENT, Referer: 'https://race.netkeiba.com/' },
-      timeout: 10000,
+      headers: REQUEST_HEADERS,
+      timeout: 20000,
       responseType: 'arraybuffer',
     });
     const html = new TextDecoder('euc-jp', { fatal: false }).decode(res.data);
