@@ -43,10 +43,10 @@ horse.pastResults // 過去成績配列
 - クラス名は変更されやすいため、**構造ベース**のセレクタを優先する
 - セレクタを変更したときは必ずこのファイルに変更理由を記録する
 
-### 現在のセレクタ（最終更新: 2026-04-12 実HTML確認済み）
+### 現在のセレクタ（最終更新: 2026-04-15）
 
 ```typescript
-// 出馬表
+// 出馬表（確定モード: shutuba.html）
 const SELECTORS = {
   horseRow:    'tr.HorseList',
   horseNumber: 'td[class^="Umaban"]', // "Umaban1", "Umaban2" に対応
@@ -57,10 +57,18 @@ const SELECTORS = {
   weight:      'td.Weight',
 };
 
-// オッズ: HTMLではなくJSON APIを使用
-// GET https://race.netkeiba.com/api/api_get_jra_odds.html?type=1&race_id={raceId}
+// オッズ: HTMLではなくJSON APIを使用（2026-04-15 調査確定）
+// GET https://race.netkeiba.com/api/api_get_jra_odds.html?type=1&race_id={raceId}&action=init
 // type=1: 単勝 → data.odds["1"]["01"] = [odds, "", rank]
 // type=2: 複勝 → data.odds["2"]["01"] = [min, max, rank]
+//
+// ⚠️ 重要: action=init パラメーターが必須
+//   付けない → status="middle"（データなし）
+//   付ける   → status="yoso"（予想オッズ）or status="result"（確定オッズ）
+//
+// yoso時のキー形式: 登録番号（ゼロ埋めなし整数）= shutuba_past.html の tr_N の N と一致
+// result時のキー形式: 馬番（ゼロ埋め2桁）"01"〜"18"
+// どちらも parseInt でパース可能
 
 // 調教: oikiriページに数値タイムなし。評価テキスト→近似秒数に変換
 const TRAINING_SELECTORS = {

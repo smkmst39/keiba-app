@@ -244,9 +244,10 @@ export async function fetchOdds(raceId: string): Promise<OddsMap> {
   const map: OddsMap = new Map();
 
   // 単勝と複勝を並列取得
+  // action=init を付けないと status="middle" になる（予想オッズが取れない）
   const [tanJson, fukuJson] = await Promise.all([
-    fetchJson(`${BASE_API}/api_get_jra_odds.html?type=1&race_id=${raceId}`),
-    fetchJson(`${BASE_API}/api_get_jra_odds.html?type=2&race_id=${raceId}`),
+    fetchJson(`${BASE_API}/api_get_jra_odds.html?type=1&race_id=${raceId}&action=init`),
+    fetchJson(`${BASE_API}/api_get_jra_odds.html?type=2&race_id=${raceId}&action=init`),
   ]);
 
   // 単勝パース
@@ -484,16 +485,20 @@ export async function fetchComboOdds(raceId: string): Promise<ComboOddsData | nu
 /**
  * shutuba_past.html から枠順確定前の登録馬リストを取得する
  *
- * 枠順確定前なのでwaku=0・odds=0・lastThreeF=0。
+ * 枠順確定前なのでwaku=0・lastThreeF=0。
  * 馬名はあいうえお順でソートし、1番から仮番号を振る。
+ * 予想オッズは fetchOdds (action=init) で取得して registrationId で紐付ける。
+ * - status="yoso" → 予想オッズあり、EVを計算する
+ * - status="middle" → 未発売、odds=0のままUI側で非表示
  */
 export async function fetchPreEntry(raceId: string): Promise<Race | null> {
   const url = `${BASE_RACE}/shutuba_past.html?race_id=${raceId}`;
 
   // 馬名スクレイピングと予想オッズ取得を並列実行
+  // fetchOdds は action=init 付きで呼ぶため yoso オッズも取得できる
   const [html, oddsMap] = await Promise.all([
     fetchHtml(url),
-    fetchOdds(raceId),  // status='yoso'の場合に予想オッズが入る
+    fetchOdds(raceId),
   ]);
   if (!html) return null;
 
@@ -508,7 +513,7 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
     const surface: 'turf' | 'dirt' = raceDataText.includes('ダート') ? 'dirt' : 'turf';
     const course = courseFromRaceId(raceId);
 
-    // --- 登録馬リスト（tr_N のN＝馬番号でオッズと紐付け） ---
+    // --- 登録馬リスト（tr_N の N = 登録番号でオッズAPIと紐付け） ---
     type RawHorse = {
       registrationId: number;  // tr_N の N（オッズAPIキーと一致）
       name: string;
