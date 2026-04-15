@@ -11,26 +11,42 @@ import { useComboOdds } from '@/app/hooks/useComboOdds';
 import { calcComboEV } from '@/lib/score/calculator';
 
 // 仮予想モードバナー
-// hasOdds=true のとき「予想オッズ使用」テキストに変更
+// hasOdds=true のとき予想オッズ使用の旨を追加表示
 function PreEntryBanner({ hasOdds }: { hasOdds: boolean }) {
   return (
     <div style={{
       background: '#fffbeb',
       border: '1px solid #f6ad55',
       borderRadius: '6px',
-      padding: '0.6rem 1rem',
+      padding: '0.75rem 1rem',
       marginBottom: '1rem',
       fontSize: '0.85rem',
       color: '#744210',
+      lineHeight: '1.6',
     }}>
       <strong>⚠️ 枠順確定前のため仮予想モードで表示しています</strong>
-      <div style={{ marginTop: '0.25rem', color: '#92400e' }}>
-        {hasOdds ? (
-          <>予想オッズを使用した参考値です。枠順確定後に実オッズで更新されます。</>
-        ) : (
-          <>（枠順確定: 土曜レース→木曜夕方 / 日曜レース→金曜夕方）<br />
-          馬名はあいうえお順・仮番号で表示。オッズ・期待値は枠順確定後に表示されます。</>
-        )}
+      {hasOdds && (
+        <div style={{ marginTop: '0.2rem' }}>
+          予想オッズを使用した参考値です。枠順確定後に実オッズで更新されます。
+        </div>
+      )}
+      <div style={{ marginTop: '0.2rem' }}>
+        現在は単勝の参考予想のみご利用いただけます。
+      </div>
+      <div style={{
+        marginTop: '0.5rem',
+        paddingTop: '0.5rem',
+        borderTop: '1px solid #f6ad55',
+        color: '#92400e',
+      }}>
+        <strong>📅 枠順確定スケジュール</strong>
+        <div style={{ marginTop: '0.2rem', paddingLeft: '0.5rem' }}>
+          ・土曜レース → 木曜 17時頃に確定<br />
+          ・日曜レース → 金曜 17時頃に確定
+        </div>
+        <div style={{ marginTop: '0.3rem' }}>
+          確定後にページを再読み込みすると全券種が利用可能になります。
+        </div>
       </div>
     </div>
   );
@@ -626,20 +642,31 @@ export function BakenSimulator({ race }: Props) {
 
       {/* 券種タブ */}
       <div style={styles.tabRow}>
-        {BET_CONFIGS.map(({ type, label }) => (
-          <button
-            key={type}
-            onClick={() => handleBetType(type)}
-            style={{
-              ...styles.tab,
-              background: betType === type ? '#2b6cb0' : '#edf2f7',
-              color: betType === type ? '#fff' : '#333',
-              fontWeight: betType === type ? 700 : 400,
-            }}
-          >
-            {label}
-          </button>
-        ))}
+        {BET_CONFIGS.map(({ type, label }) => {
+          // 仮予想モードでは単勝のみ選択可能、他はグレーアウト
+          const disabled = isPreEntry && type !== 'tan';
+          return (
+            <button
+              key={type}
+              onClick={() => !disabled && handleBetType(type)}
+              title={disabled ? '枠順確定後に利用可能になります' : undefined}
+              style={{
+                ...styles.tab,
+                background: disabled
+                  ? '#e2e8f0'
+                  : betType === type ? '#2b6cb0' : '#edf2f7',
+                color: disabled
+                  ? '#a0aec0'
+                  : betType === type ? '#fff' : '#333',
+                fontWeight: betType === type ? 700 : 400,
+                cursor: disabled ? 'not-allowed' : 'pointer',
+                opacity: disabled ? 0.7 : 1,
+              }}
+            >
+              {label}
+            </button>
+          );
+        })}
       </div>
 
       {/* ボックス/フォーメーション切り替え */}
