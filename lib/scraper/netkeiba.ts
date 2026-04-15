@@ -519,6 +519,8 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
       name: string;
       jockey: string;
       trainer: string;
+      jockeyCode: string;      // db.netkeiba.com 騎手コード（勝率取得に使用）
+      trainerCode: string;     // db.netkeiba.com 調教師コード
     };
     const rawHorses: RawHorse[] = [];
 
@@ -533,14 +535,21 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
         const horseName = h02.find('a').first().text().trim() || h02.text().trim();
         if (!horseName) return;
 
-        const jockeyA = $(row).find('.Jockey a').first();
-        const jockey = jockeyA.text().trim();
+        // 騎手名・騎手コード（href から抽出）
+        const jockeyEl = $(row).find('.Jockey a').first();
+        const jockey = jockeyEl.text().trim();
+        const jockeyHref = jockeyEl.attr('href') ?? '';
+        const jockeyCode = jockeyHref.match(/\/jockey\/result\/recent\/(\w+)/)?.[1] ?? '';
 
+        // 調教師名・調教師コード
         const h05 = $(row).find('.Horse05');
-        const trainerRaw = (h05.find('a').first().text().trim() || h05.text().trim()).trim();
+        const trainerEl = h05.find('a').first();
+        const trainerRaw = (trainerEl.text().trim() || h05.text().trim()).trim();
         const trainer = trainerRaw.replace(/^(栗東・|美浦・|地方・)/, '');
+        const trainerHref = trainerEl.attr('href') ?? '';
+        const trainerCode = trainerHref.match(/\/trainer\/result\/recent\/(\w+)/)?.[1] ?? '';
 
-        rawHorses.push({ registrationId, name: horseName, jockey, trainer });
+        rawHorses.push({ registrationId, name: horseName, jockey, trainer, jockeyCode, trainerCode });
       } catch {
         // パース失敗は無視
       }
@@ -574,6 +583,8 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
         fukuOddsMax: oddsData?.fukuOddsMax ?? 0,
         jockey: h.jockey,
         trainer: h.trainer,
+        jockeyCode: h.jockeyCode,   // スコア計算で勝率取得に使用
+        trainerCode: h.trainerCode,
         weight: 0,
         weightDiff: 0,
         lastThreeF: 0,

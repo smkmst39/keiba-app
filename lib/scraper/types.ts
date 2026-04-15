@@ -15,6 +15,8 @@ export type Horse = {
   weight: number;      // 馬体重（kg）
   weightDiff: number;  // 馬体重増減（kg）
   lastThreeF: number;  // 前走上がり3F（秒）
+  jockeyCode?: string; // db.netkeiba.com 騎手コード（pre-entryモードで付与）
+  trainerCode?: string;// db.netkeiba.com 調教師コード（pre-entryモードで付与）
   score?: number;      // 計算後スコア（0-100）
   ev?: number;         // 単勝期待値（calcEV で付与）
 };

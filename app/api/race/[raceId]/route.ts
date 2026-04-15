@@ -7,7 +7,8 @@
 import { NextResponse } from 'next/server';
 import type { Race, RaceApiResponse } from '@/lib/scraper/types';
 import { fetchRaceData, fetchPreEntry } from '@/lib/scraper/netkeiba';
-import { calcAllScores, validateScores } from '@/lib/score/calculator';
+import { calcAllScores, calcPreEntryScores, validateScores } from '@/lib/score/calculator';
+import { fetchRacePersonStats } from '@/lib/scraper/stats';
 import { getCache, setCache } from '@/lib/cache';
 import { MOCK_NZT_2026 } from '@/lib/scraper/__mocks__/202606030511';
 
@@ -67,11 +68,18 @@ export async function GET(
       }
     }
 
-    // スコア計算（全馬分まとめて計算）
-    // 仮予想モードでは odds=0 のため EV は 0 になる（validateScores はスキップ）
-    race = calcAllScores(race);
+    // スコア計算
+    if (race.mode === 'pre-entry') {
+      // 仮予想モード: 騎手・調教師勝率ベースのスコア（フェーズA）
+      // jockeyCode / trainerCode が Horse に付与済みのため、並列で勝率を取得する
+      const { jockeyRates, trainerRates } = await fetchRacePersonStats(race.horses);
+      race = calcPreEntryScores(race, jockeyRates, trainerRates);
+    } else {
+      // 通常モード: 上がり3F・調教・馬体重等によるスコア
+      race = calcAllScores(race);
+    }
 
-    // 健全性チェック（通常モードのみ。仮予想モードではEVが全0のため意味がない）
+    // 健全性チェック（通常モードのみ。仮予想モードはEVが全0または参考値のため除外）
     if (race.mode !== 'pre-entry') {
       validateScores(race.horses);
     }

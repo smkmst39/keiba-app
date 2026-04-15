@@ -392,6 +392,67 @@ export function calcComboEV(
 }
 
 // ==========================================
+// 仮予想モード専用スコア計算
+// ==========================================
+
+/**
+ * 値の配列をレース内の最小・最大で 0〜100 に正規化する
+ * 全馬が同値のときは一律 50 を返す
+ */
+function normalizeWithinRace(values: number[]): number[] {
+  if (values.length === 0) return [];
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  if (max === min) return values.map(() => 50);
+  return values.map((v) => ((v - min) / (max - min)) * 100);
+}
+
+/**
+ * 仮予想モード（pre-entry）専用のスコア計算
+ *
+ * 仮予想モードでは馬体重・調教・上がり3Fが取得できないため、
+ * 騎手勝率50% + 調教師勝率50% のシンプルな構成でスコアを算出する。
+ * オッズはスコアに使わず、EV計算のみに使用する（有無両対応）。
+ *
+ * @param race         fetchPreEntry が返した Race（mode='pre-entry'）
+ * @param jockeyRates  騎手名 → 当年勝率（0.0〜1.0）
+ * @param trainerRates 調教師名 → 当年勝率（0.0〜1.0）
+ */
+export function calcPreEntryScores(
+  race: Race,
+  jockeyRates: Map<string, number>,
+  trainerRates: Map<string, number>,
+): Race {
+  const horses = race.horses;
+
+  // 騎手・調教師の勝率を取得（未取得は 0 → 正規化後は最低スコア）
+  const jockeyValues  = horses.map((h) => jockeyRates.get(h.jockey)  ?? 0);
+  const trainerValues = horses.map((h) => trainerRates.get(h.trainer) ?? 0);
+
+  // レース内で 0〜100 に正規化
+  const jockeyScores  = normalizeWithinRace(jockeyValues);
+  const trainerScores = normalizeWithinRace(trainerValues);
+
+  // 騎手50% + 調教師50% = 総合スコア（重みの合計 = 1.0）
+  const scoredHorses = horses.map((horse, i) => {
+    const score = clamp(jockeyScores[i] * 0.5 + trainerScores[i] * 0.5, 0, 100);
+    console.log(
+      `[pre-entry score] ${horse.name}: 騎手 ${horse.jockey} 勝率 ${(jockeyValues[i] * 100).toFixed(1)}% / ` +
+      `調教師 ${horse.trainer} 勝率 ${(trainerValues[i] * 100).toFixed(1)}% → スコア ${score.toFixed(0)}`
+    );
+    return { ...horse, score };
+  });
+
+  // EV計算（オッズがある馬のみ有効、ない馬は 0）
+  const finalHorses: Horse[] = scoredHorses.map((horse) => ({
+    ...horse,
+    ev: calcEV(horse, horse.odds, 'tan', scoredHorses),
+  }));
+
+  return { ...race, horses: finalHorses };
+}
+
+// ==========================================
 // 健全性チェック
 // ==========================================
 
