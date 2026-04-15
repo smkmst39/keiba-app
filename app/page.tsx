@@ -9,6 +9,7 @@ import { useState } from 'react';
 import type { Race } from '@/lib/scraper/types';
 import { RaceSelector } from '@/app/components/RaceSelector';
 import { BakenSimulator } from '@/app/components/BakenSimulator';
+import { RaceReport } from '@/app/components/RaceReport';
 
 export default function Home() {
   const [race, setRace]   = useState<Race | null>(null);
@@ -30,9 +31,14 @@ export default function Home() {
 
       {/* シミュレーター本体 */}
       {race ? (
-        <section style={styles.card}>
-          <BakenSimulator race={race} />
-        </section>
+        <>
+          <section style={styles.card}>
+            <BakenSimulator race={race} />
+          </section>
+          <section style={styles.card}>
+            <RaceReport race={race} />
+          </section>
+        </>
       ) : (
         <section style={{ ...styles.card, ...styles.empty }}>
           <p>上のリストからレースを選択してください</p>
