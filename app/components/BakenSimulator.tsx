@@ -11,7 +11,8 @@ import { useComboOdds } from '@/app/hooks/useComboOdds';
 import { calcComboEV } from '@/lib/score/calculator';
 
 // 仮予想モードバナー
-function PreEntryBanner() {
+// hasOdds=true のとき「予想オッズ使用」テキストに変更
+function PreEntryBanner({ hasOdds }: { hasOdds: boolean }) {
   return (
     <div style={{
       background: '#fffbeb',
@@ -24,8 +25,12 @@ function PreEntryBanner() {
     }}>
       <strong>⚠️ 枠順確定前のため仮予想モードで表示しています</strong>
       <div style={{ marginTop: '0.25rem', color: '#92400e' }}>
-        （枠順確定: 土曜レース→木曜夕方 / 日曜レース→金曜夕方）<br />
-        馬名はあいうえお順・仮番号で表示。オッズ・期待値は枠順確定後に表示されます。
+        {hasOdds ? (
+          <>予想オッズを使用した参考値です。枠順確定後に実オッズで更新されます。</>
+        ) : (
+          <>（枠順確定: 土曜レース→木曜夕方 / 日曜レース→金曜夕方）<br />
+          馬名はあいうえお順・仮番号で表示。オッズ・期待値は枠順確定後に表示されます。</>
+        )}
       </div>
     </div>
   );
@@ -488,14 +493,17 @@ const EMPTY_FORM_SEL: FormSel = { A: [], B: [], C: [] };
 
 export function BakenSimulator({ race }: Props) {
   const isPreEntry = race.mode === 'pre-entry';
+  // 予想オッズが1頭でも取得できていれば true
+  const hasEstimatedOdds = isPreEntry && race.horses.some(h => h.odds > 0);
 
   const [betType, setBetType] = useState<BetType>('tan');
   const [mode, setMode]       = useState<SelectMode>('box');
   const [boxSel, setBoxSel]   = useState<number[]>([]);
   const [formSel, setFormSel] = useState<FormSel>(EMPTY_FORM_SEL);
 
-  // 組み合わせオッズを非同期取得（仮予想モード時は取得しない）
-  const comboOdds = useComboOdds(isPreEntry ? '' : race.raceId);
+  // 組み合わせオッズを非同期取得
+  // 仮予想モードでかつ予想オッズもない場合はスキップ
+  const comboOdds = useComboOdds((isPreEntry && !hasEstimatedOdds) ? '' : race.raceId);
 
   // レースが切り替わったら全選択状態をリセット
   useEffect(() => {
@@ -566,8 +574,8 @@ export function BakenSimulator({ race }: Props) {
   // 仮予想モードではEV計算不可のためスコア降順で表示
   const sortedCombos = useMemo((): ResolvedCombo[] => {
     const resolved = combos.map((c): ResolvedCombo => {
-      // 仮予想モード: オッズ・EVなし、スコアのみ
-      if (isPreEntry) {
+      // 仮予想モードかつオッズ未取得: スコアのみ表示
+      if (isPreEntry && !hasEstimatedOdds) {
         return { ...c, realOdds: null, realEV: null, isEstimated: false };
       }
       // 単勝・複勝は馬データのオッズ・EVをそのまま使う
@@ -592,8 +600,8 @@ export function BakenSimulator({ race }: Props) {
 
     return resolved
       .sort((a, b) => {
-        // 仮予想モードはスコア降順
-        if (isPreEntry) return b.score - a.score;
+        // 仮予想モードかつオッズなし: スコア降順
+        if (isPreEntry && !hasEstimatedOdds) return b.score - a.score;
         if (a.realEV !== null && b.realEV !== null) return b.realEV - a.realEV;
         if (a.realEV !== null) return -1;
         if (b.realEV !== null) return 1;
@@ -601,12 +609,12 @@ export function BakenSimulator({ race }: Props) {
       })
       .slice(0, 50);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [combos, comboOdds.data, betType, race.horses, isPreEntry]);
+  }, [combos, comboOdds.data, betType, race.horses, isPreEntry, hasEstimatedOdds]);
 
   return (
     <div style={{ fontFamily: 'sans-serif' }}>
       {/* 仮予想モードバナー */}
-      {isPreEntry && <PreEntryBanner />}
+      {isPreEntry && <PreEntryBanner hasOdds={hasEstimatedOdds} />}
 
       {/* レース情報ヘッダー */}
       <div style={styles.raceHeader}>
@@ -744,8 +752,8 @@ export function BakenSimulator({ race }: Props) {
         </div>
       )}
 
-      {/* 全馬EV一覧（単勝）— EV降順 / 仮予想モードでは非表示 */}
-      {!isPreEntry && (
+      {/* 全馬EV一覧（単勝）— EV降順 / 仮予想モードかつオッズなしの場合は非表示 */}
+      {(!isPreEntry || hasEstimatedOdds) && (
         <div style={styles.section}>
           <h3 style={styles.sectionTitle}>EV一覧（単勝）</h3>
           <div style={styles.cardGrid}>

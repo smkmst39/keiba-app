@@ -489,7 +489,12 @@ export async function fetchComboOdds(raceId: string): Promise<ComboOddsData | nu
  */
 export async function fetchPreEntry(raceId: string): Promise<Race | null> {
   const url = `${BASE_RACE}/shutuba_past.html?race_id=${raceId}`;
-  const html = await fetchHtml(url);
+
+  // 馬名スクレイピングと予想オッズ取得を並列実行
+  const [html, oddsMap] = await Promise.all([
+    fetchHtml(url),
+    fetchOdds(raceId),  // status='yoso'の場合に予想オッズが入る
+  ]);
   if (!html) return null;
 
   try {
@@ -503,13 +508,22 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
     const surface: 'turf' | 'dirt' = raceDataText.includes('ダート') ? 'dirt' : 'turf';
     const course = courseFromRaceId(raceId);
 
-    // --- 登録馬リスト ---
-    type RawHorse = { name: string; jockey: string; trainer: string };
+    // --- 登録馬リスト（tr_N のN＝馬番号でオッズと紐付け） ---
+    type RawHorse = {
+      registrationId: number;  // tr_N の N（オッズAPIキーと一致）
+      name: string;
+      jockey: string;
+      trainer: string;
+    };
     const rawHorses: RawHorse[] = [];
 
     // id="tr_N" 形式の行のみが出走馬行（ヘッダ・フッタは除外）
     $('tr.HorseList[id^="tr_"]').each((_i, row) => {
       try {
+        const rowId = $(row).attr('id') ?? '';            // "tr_2", "tr_15" など
+        const registrationId = parseInt(rowId.replace('tr_', ''), 10);
+        if (!registrationId) return;
+
         const h02 = $(row).find('.Horse02');
         const horseName = h02.find('a').first().text().trim() || h02.text().trim();
         if (!horseName) return;
@@ -521,7 +535,7 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
         const trainerRaw = (h05.find('a').first().text().trim() || h05.text().trim()).trim();
         const trainer = trainerRaw.replace(/^(栗東・|美浦・|地方・)/, '');
 
-        rawHorses.push({ name: horseName, jockey, trainer });
+        rawHorses.push({ registrationId, name: horseName, jockey, trainer });
       } catch {
         // パース失敗は無視
       }
@@ -532,22 +546,34 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
       return null;
     }
 
+    // 予想オッズが取得できたか確認
+    const hasEstimatedOdds = oddsMap.size > 0;
+    if (hasEstimatedOdds) {
+      console.log(`[scraper] fetchPreEntry: 予想オッズ取得成功 ${oddsMap.size}頭分 raceId=${raceId}`);
+    } else {
+      console.log(`[scraper] fetchPreEntry: 予想オッズ未発売 raceId=${raceId}`);
+    }
+
     // あいうえお順でソートして仮番号を振る
     rawHorses.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
 
-    const horses: Horse[] = rawHorses.map((h, i) => ({
-      id: i + 1,
-      name: h.name,
-      waku: 0,          // 枠順未確定
-      odds: 0,          // オッズ未発売
-      fukuOddsMin: 0,
-      fukuOddsMax: 0,
-      jockey: h.jockey,
-      trainer: h.trainer,
-      weight: 0,
-      weightDiff: 0,
-      lastThreeF: 0,    // スクレイピング対象外（仮予想モードでは0）
-    }));
+    const horses: Horse[] = rawHorses.map((h, i) => {
+      // registrationId で予想オッズを引く（なければ 0）
+      const oddsData = oddsMap.get(h.registrationId);
+      return {
+        id: i + 1,
+        name: h.name,
+        waku: 0,
+        odds: oddsData?.odds ?? 0,
+        fukuOddsMin: oddsData?.fukuOddsMin ?? 0,
+        fukuOddsMax: oddsData?.fukuOddsMax ?? 0,
+        jockey: h.jockey,
+        trainer: h.trainer,
+        weight: 0,
+        weightDiff: 0,
+        lastThreeF: 0,
+      };
+    });
 
     console.log(`[scraper] fetchPreEntry: ${horses.length}頭取得 raceId=${raceId}`);
     return {
