@@ -75,8 +75,10 @@ export async function GET(
       const { jockeyRates, trainerRates } = await fetchRacePersonStats(race.horses);
       race = calcPreEntryScores(race, jockeyRates, trainerRates);
     } else {
-      // 通常モード: 上がり3F・調教・馬体重等によるスコア
-      race = calcAllScores(race);
+      // 通常モード: 上がり3F・調教・馬体重等によるスコア + 騎手評価（勝率ベース）
+      // fetchRaceCard で jockeyCode を取得済みのため、勝率を並列取得して calcAllScores に渡す
+      const { jockeyRates } = await fetchRacePersonStats(race.horses);
+      race = calcAllScores(race, jockeyRates);
     }
 
     // 健全性チェック（通常モードのみ。仮予想モードはEVが全0または参考値のため除外）

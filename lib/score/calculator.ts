@@ -134,13 +134,26 @@ function scorePrevClass(_horse: Horse): number {
 
 /**
  * 騎手評価スコア（0〜100）
- * Phase 1-C: 未実装のため中立値 50 を返す。
- * Phase 1-D 以降で騎手リーディングデータが取得できたら実装。
+ * jockeyRates（騎手名→当年勝率）をレース内で正規化して返す。
+ * jockeyRates が空の場合は中立値 50 を返す（データ未取得時のフォールバック）。
+ *
+ * 正規化: レース内最低勝率=0, 最高勝率=100 として線形補間（normalizeWithinRace）
  */
-function scoreJockey(_horse: Horse, _allHorses: Horse[]): number {
-  // TODO: Phase 1-D で実装
-  // レース内騎手リーディング順位を線形スケール
-  return 50;
+function scoreJockeyFromRates(allHorses: Horse[], jockeyRates: Map<string, number>): number[] {
+  if (jockeyRates.size === 0) return allHorses.map(() => 50);
+
+  const values = allHorses.map((h) => jockeyRates.get(h.jockey) ?? 0);
+  const scores = normalizeWithinRace(values);
+
+  // 騎手ごとの勝率とスコアをログ出力（確定モードのデバッグ用）
+  allHorses.forEach((h, i) => {
+    const rate = values[i];
+    console.log(
+      `[score] 騎手 ${h.jockey}: 勝率 ${(rate * 100).toFixed(1)}% → 騎手スコア ${scores[i].toFixed(0)}`
+    );
+  });
+
+  return scores;
 }
 
 // ==========================================
@@ -153,12 +166,14 @@ function scoreJockey(_horse: Horse, _allHorses: Horse[]): number {
  * @param allHorses 全出走馬（相対評価のために必要）
  * @param threeFScores 上がり3F の事前計算済みスコア配列（インデックス = allHorses の順）
  * @param trainingScores 調教の事前計算済みスコア配列
+ * @param jockeyScores 騎手評価の事前計算済みスコア配列（normalizeWithinRace 済み）
  */
 function calcScoreInternal(
   horse: Horse,
   allHorses: Horse[],
   threeFScores: number[],
   trainingScores: number[],
+  jockeyScores: number[],
 ): number {
   const idx = allHorses.findIndex((h) => h.id === horse.id);
 
@@ -168,7 +183,7 @@ function calcScoreInternal(
     courseRecord: scoreCourseRecord(horse),
     prevClass:    scorePrevClass(horse),
     weightChange: scoreWeightChange(horse),
-    jockey:       scoreJockey(horse, allHorses),
+    jockey:       idx >= 0 ? jockeyScores[idx] : 50,
   };
 
   const total =
@@ -186,25 +201,34 @@ function calcScoreInternal(
  * 1頭分のスコアを計算して返す（0〜100）
  * @param horse 対象馬
  * @param allHorses 全出走馬（相対評価のために必要）
+ * @param jockeyRates 騎手名 → 当年勝率（省略時は全馬50の中立値）
  */
-export function calcScore(horse: Horse, allHorses: Horse[]): number {
+export function calcScore(
+  horse: Horse,
+  allHorses: Horse[],
+  jockeyRates: Map<string, number> = new Map(),
+): number {
   const threeFScores   = scoreLastThreeF(allHorses);
   const trainingScores = scoreTraining(allHorses);
-  return calcScoreInternal(horse, allHorses, threeFScores, trainingScores);
+  const jockeyScores   = scoreJockeyFromRates(allHorses, jockeyRates);
+  return calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores);
 }
 
 /**
  * 全馬のスコアと単勝EVを計算して Race オブジェクトに付与して返す
+ * @param race スコア未計算の Race オブジェクト
+ * @param jockeyRates 騎手名 → 当年勝率（route.ts で fetchRacePersonStats から取得）
  */
-export function calcAllScores(race: Race): Race {
+export function calcAllScores(race: Race, jockeyRates: Map<string, number> = new Map()): Race {
   const allHorses = race.horses;
 
   // 相対評価スコアは全馬まとめて計算（ループ内で毎回計算しないよう最適化）
   const threeFScores   = scoreLastThreeF(allHorses);
   const trainingScores = scoreTraining(allHorses);
+  const jockeyScores   = scoreJockeyFromRates(allHorses, jockeyRates);
 
   const scored = allHorses.map((horse) => {
-    const score = calcScoreInternal(horse, allHorses, threeFScores, trainingScores);
+    const score = calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores);
     return { ...horse, score };
   });
 
@@ -518,9 +542,10 @@ export function validateScores(horses: Horse[]): boolean {
 export function calculateScores(horses: Horse[]): Horse[] {
   const threeFScores   = scoreLastThreeF(horses);
   const trainingScores = scoreTraining(horses);
+  const jockeyScores   = scoreJockeyFromRates(horses, new Map()); // jockeyRates なし → 全馬50
   return horses.map((horse) => ({
     ...horse,
-    score: calcScoreInternal(horse, horses, threeFScores, trainingScores),
+    score: calcScoreInternal(horse, horses, threeFScores, trainingScores, jockeyScores),
   }));
 }
 

@@ -141,6 +141,8 @@ type RaceCardResult = {
     trainer: string;
     weight: number;
     weightDiff: number;
+    jockeyCode: string;  // db.netkeiba.com 騎手コード（勝率取得に使用）
+    trainerCode: string; // db.netkeiba.com 調教師コード
   }>;
 };
 
@@ -196,13 +198,20 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
         const name = horseNameRaw.split(/\s/)[0] ?? horseNameRaw;
 
         // 騎手・調教師: リンクがある場合はそちら、なければtd直接
-        const jockeyEl = $(row).find(SELECTORS.jockey);
-        const jockey = (jockeyEl.find('a').text().trim() || jockeyEl.text().trim()).split(/\s/)[0];
+        // hrefから騎手コード・調教師コードも抽出する（勝率取得に使用）
+        const jockeyEl   = $(row).find(SELECTORS.jockey);
+        const jockeyLink = jockeyEl.find('a').first();
+        const jockey     = (jockeyLink.text().trim() || jockeyEl.text().trim()).split(/\s/)[0];
+        const jockeyHref = jockeyLink.attr('href') ?? '';
+        const jockeyCode = jockeyHref.match(/\/jockey\/result\/recent\/(\w+)/)?.[1] ?? '';
 
-        const trainerEl = $(row).find(SELECTORS.trainer);
-        const trainerRaw = (trainerEl.find('a').text().trim() || trainerEl.text().trim()).trim();
+        const trainerEl   = $(row).find(SELECTORS.trainer);
+        const trainerLink = trainerEl.find('a').first();
+        const trainerRaw  = (trainerLink.text().trim() || trainerEl.text().trim()).trim();
         // "栗東奥村豊" のように所属込みの場合がある → 末尾2〜4文字が名前
-        const trainer = trainerRaw.replace(/^(栗東|美浦|地方)/, '');
+        const trainer     = trainerRaw.replace(/^(栗東|美浦|地方)/, '');
+        const trainerHref = trainerLink.attr('href') ?? '';
+        const trainerCode = trainerHref.match(/\/trainer\/result\/recent\/(\w+)/)?.[1] ?? '';
 
         // 馬体重: "432(0)" や "476(+2)" のような形式
         const weightText = $(row).find(SELECTORS.weight).text().trim();
@@ -210,7 +219,7 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
         const weight = weightMatch ? parseInt(weightMatch[1], 10) : 0;
         const weightDiff = weightMatch ? parseInt(weightMatch[2], 10) : 0;
 
-        horseMap.set(id, { id, name, waku, jockey, trainer, weight, weightDiff });
+        horseMap.set(id, { id, name, waku, jockey, trainer, weight, weightDiff, jockeyCode, trainerCode });
       } catch (e) {
         console.error('[scraper] 馬行のパース失敗:', e);
       }
