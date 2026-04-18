@@ -142,7 +142,24 @@ function scorePrevClass(_horse: Horse): number {
 function scoreJockeyFromRates(allHorses: Horse[], jockeyRates: Map<string, number>): number[] {
   if (jockeyRates.size === 0) return allHorses.map(() => 50);
 
-  const values = allHorses.map((h) => jockeyRates.get(h.jockey) ?? 0);
+  // 0%除外した勝率でレース内平均を計算（外国人・短期免許騎手のフォールバック用）
+  const knownRates = allHorses
+    .map((h) => jockeyRates.get(h.jockey) ?? 0)
+    .filter((r) => r > 0);
+  const raceAvgRate = knownRates.length > 0 ? mean(knownRates) : 0;
+
+  // 勝率が取得できなかった騎手（0%）はレース内平均で代替する
+  const values = allHorses.map((h) => {
+    const rate = jockeyRates.get(h.jockey) ?? 0;
+    if (rate === 0 && raceAvgRate > 0) {
+      console.log(
+        `[score] 騎手 ${h.jockey}: 勝率 0% → 平均値 ${(raceAvgRate * 100).toFixed(1)}% で代替`
+      );
+      return raceAvgRate;
+    }
+    return rate;
+  });
+
   const scores = normalizeWithinRace(values);
 
   // 騎手ごとの勝率とスコアをログ出力（確定モードのデバッグ用）
