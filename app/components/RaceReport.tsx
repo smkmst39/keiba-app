@@ -627,7 +627,7 @@ export function RaceReport({ race }: Props) {
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.8rem', minWidth: '600px' }}>
             <thead>
               <tr style={{ background: '#2d3748', color: '#fff' }}>
-                {['番', '馬名', '印', '人気', 'オッズ', '脚質', '調教', '総合スコア'].map(h => (
+                {['番', '馬名', '印', '人気', 'オッズ', '騎手', '脚質', '調教', '総合スコア'].map(h => (
                   <th key={h} style={{ ...th, color: '#fff', background: 'transparent' }}>{h}</th>
                 ))}
               </tr>
@@ -664,6 +664,7 @@ export function RaceReport({ race }: Props) {
                     <td style={{ ...td, textAlign: 'right' }}>
                       {horse.odds > 0 ? `${horse.odds}倍` : '-'}
                     </td>
+                    <td style={{ ...td, textAlign: 'center', color: '#333' }}>{horse.jockey}</td>
                     <td style={{ ...td, textAlign: 'center', color: '#555' }}>{runStyle}</td>
                     <td style={{ ...td, textAlign: 'center', color: '#555' }}>{trainEval}</td>
                     <td style={td}>

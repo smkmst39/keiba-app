@@ -115,7 +115,6 @@ function HorsePill({
         borderRadius: '999px',
         cursor: 'pointer',
         background: selected ? '#ebf8ff' : '#f7f7f7',
-        fontSize: '0.85rem',
         fontWeight: selected ? 700 : 400,
         outline: selected ? '2px solid #2b6cb0' : 'none',
         outlineOffset: '1px',
@@ -135,11 +134,17 @@ function HorsePill({
           lineHeight: '1.2rem',
           textAlign: 'center',
           fontWeight: 700,
+          flexShrink: 0,
         }}
       >
         {horse.id}
       </span>
-      <span>{horse.id}番 {horse.name}</span>
+      {/* 馬名（上段）＋ 騎手名（下段・小フォント）の2行レイアウト
+          スマホでピル幅が広がりすぎないよう縦積みにする */}
+      <span style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.3 }}>
+        <span style={{ fontSize: '0.85rem' }}>{horse.id}番 {horse.name}</span>
+        <span style={{ fontSize: '0.72rem', color: '#718096', fontWeight: 400 }}>{horse.jockey}</span>
+      </span>
     </button>
   );
 }
