@@ -460,8 +460,9 @@ function buildOddsMap(
  *  type=6: ワイド type=7: 三連複 type=8: 三連単
  */
 export async function fetchComboOdds(raceId: string): Promise<ComboOddsData | null> {
+  // ⚠️ action=init が必須。付けないと status="middle" でデータが返らない（type=1,2と同じ）
   const urls = [3, 4, 5, 6, 7, 8].map(
-    (t) => `${BASE_API}/api_get_jra_odds.html?type=${t}&race_id=${raceId}`
+    (t) => `${BASE_API}/api_get_jra_odds.html?type=${t}&race_id=${raceId}&action=init`
   );
 
   const [wakuJ, umarenJ, umatanJ, wideJ, sanfukuJ, santanJ] = await Promise.all(

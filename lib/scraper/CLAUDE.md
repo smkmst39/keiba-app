@@ -58,17 +58,22 @@ const SELECTORS = {
 };
 
 // オッズ: HTMLではなくJSON APIを使用（2026-04-15 調査確定）
-// GET https://race.netkeiba.com/api/api_get_jra_odds.html?type=1&race_id={raceId}&action=init
-// type=1: 単勝 → data.odds["1"]["01"] = [odds, "", rank]
-// type=2: 複勝 → data.odds["2"]["01"] = [min, max, rank]
+// GET https://race.netkeiba.com/api/api_get_jra_odds.html?type={N}&race_id={raceId}&action=init
+// type=1: 単勝   → data.odds["1"]["01"] = [odds, "", rank]
+// type=2: 複勝   → data.odds["2"]["01"] = [min, max, rank]
+// type=3: 枠連   → data.odds["3"]["12"] = [odds, "", rank]   ← キーは1桁+1桁
+// type=4: 馬連   → data.odds["4"]["0102"] = [odds, "", rank] ← キーはゼロ埋め2桁×2
+// type=5: 馬単   → data.odds["5"]["0102"] = [odds, "", rank]
+// type=6: ワイド → data.odds["6"]["0102"] = [下限, 上限, rank]
+// type=7: 三連複 → data.odds["7"]["010203"] = [odds, "", rank]
+// type=8: 三連単 → data.odds["8"]["010203"] = [odds, "", rank]
 //
-// ⚠️ 重要: action=init パラメーターが必須
-//   付けない → status="middle"（データなし）
-//   付ける   → status="yoso"（予想オッズ）or status="result"（確定オッズ）
+// ⚠️ 重要: action=init パラメーターが全typeで必須
+//   付けない → status="middle"かつdata.oddsが空 or 文字列（データなし）
+//   付ける   → data.oddsにデータあり（statusが"middle"でもデータは取れる場合あり）
 //
-// yoso時のキー形式: 登録番号（ゼロ埋めなし整数）= shutuba_past.html の tr_N の N と一致
-// result時のキー形式: 馬番（ゼロ埋め2桁）"01"〜"18"
-// どちらも parseInt でパース可能
+// キー形式: ゼロ埋め馬番の連結（type=3のみ1桁ずつ）
+// parsePairKey / parseTripleKey / parseWakuKey で "1-2" / "1-2-3" 形式に変換
 
 // 調教: oikiriページに数値タイムなし。評価テキスト→近似秒数に変換
 const TRAINING_SELECTORS = {
