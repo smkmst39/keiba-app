@@ -19,6 +19,8 @@ export type Horse = {
   trainerCode?: string;// db.netkeiba.com 調教師コード（pre-entryモードで付与）
   score?: number;      // 計算後スコア（0-100）
   ev?: number;         // 単勝期待値（calcEV で付与）
+  prevRaceName?: string;  // 前走レース名（出馬表の前走リンクのテキスト）
+  prevRaceClass?: number; // 前走クラススコア（15-100。classifyPrevRace 参照）
 };
 
 /**

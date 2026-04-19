@@ -8,6 +8,7 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import type { Race, Horse, ComboOddsData, RaceResult } from './types';
 import { MOCK_NZT_2026 } from './__mocks__/202606030511';
+import { classifyPrevRace } from '../score/calculator';
 
 // ==========================================
 // 定数
@@ -143,8 +144,9 @@ type RaceCardResult = {
     trainer: string;
     weight: number;
     weightDiff: number;
-    jockeyCode: string;  // db.netkeiba.com 騎手コード（勝率取得に使用）
-    trainerCode: string; // db.netkeiba.com 調教師コード
+    jockeyCode: string;    // db.netkeiba.com 騎手コード（勝率取得に使用）
+    trainerCode: string;   // db.netkeiba.com 調教師コード
+    prevRaceName?: string; // 前走レース名（スコア計算の前走クラス判定に使用）
   }>;
 };
 
@@ -232,7 +234,21 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
         const weight = weightMatch ? parseInt(weightMatch[1], 10) : 0;
         const weightDiff = weightMatch ? parseInt(weightMatch[2], 10) : 0;
 
-        horseMap.set(id, { id, name, waku, jockey, trainer, weight, weightDiff, jockeyCode, trainerCode });
+        // 前走レース名: HorseList 行内で href="...race_id=XXXXXXXXXXXX" となっている
+        //   a タグのテキストを前走名として採用 (当該レース自身の race_id は除外)
+        //   最初にヒットしたものが直近の前走
+        let prevRaceName: string | undefined;
+        $(row).find('a[href*="race_id="]').each((_j, el) => {
+          if (prevRaceName) return;
+          const href = $(el).attr('href') ?? '';
+          const m = href.match(/race_id=(\d{12})/);
+          if (!m) return;
+          if (m[1] === raceId) return; // 自レースへのリンクはスキップ
+          const txt = $(el).text().trim();
+          if (txt && !/^\d+$/.test(txt)) prevRaceName = txt; // 数字だけのリンクは除外
+        });
+
+        horseMap.set(id, { id, name, waku, jockey, trainer, weight, weightDiff, jockeyCode, trainerCode, prevRaceName });
       } catch (e) {
         console.error('[scraper] 馬行のパース失敗:', e);
       }
@@ -398,6 +414,8 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
       fukuOddsMin: odds.fukuOddsMin,
       fukuOddsMax: odds.fukuOddsMax,
       lastThreeF,
+      // 前走クラス: prevRaceName があれば classify、なければ undefined（scorePrevClass が50で代替）
+      prevRaceClass: card.prevRaceName ? classifyPrevRace(card.prevRaceName) : undefined,
     });
   }
 

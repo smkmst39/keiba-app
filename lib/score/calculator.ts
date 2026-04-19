@@ -14,7 +14,7 @@ const WEIGHTS = {
   lastThreeF:   0.25,  // 上がり3F（前走または調教）
   training:     0.20,  // 調教ラスト1F
   courseRecord: 0.20,  // 同コース成績（Phase 1-C では暫定値）
-  prevClass:    0.15,  // 前走クラス（Phase 1-C では暫定値）
+  prevClass:    0.15,  // 前走クラス（classifyPrevRace で実データから判定）
   weightChange: 0.10,  // 馬体重増減
   jockey:       0.10,  // 騎手評価（Phase 1-C では暫定値）
 } as const;
@@ -131,14 +131,55 @@ function scoreCourseRecord(_horse: Horse): number {
 }
 
 /**
- * 前走クラススコア（0〜100）
- * Phase 1-C: 未実装のため中立値 50 を返す。
- * Phase 1-D 以降で Horse 型に prevClass が追加されたら実装。
+ * 前走レース名から前走クラススコア（0〜100）を判定する
+ *
+ * 表記ゆれに対応する:
+ *   - G1 / GⅠ / Ｇ１ / (G1) などすべて同一扱い
+ *   - 1勝クラス / 500万下 / 1勝 など旧新称混在
+ *
+ * 不明な場合は 35（やや低め = 判定不能を不利に扱う）を返す。
  */
-function scorePrevClass(_horse: Horse): number {
-  // TODO: Phase 1-D で実装
-  // const map = { G1: 100, G2: 85, G3: 70, OP: 55, '1勝': 40, '未勝利': 20 };
-  // return map[horse.prevClass] ?? 50;
+export function classifyPrevRace(name: string): number {
+  if (!name) return 50; // 前走情報なし = 中立
+
+  const n = name
+    .replace(/[ＧｇGg]/g, 'G')
+    .replace(/[Ⅰ１]/g, '1')
+    .replace(/[Ⅱ２]/g, '2')
+    .replace(/[Ⅲ３]/g, '3');
+
+  // グレード競走
+  if (/G1/.test(n)) return 100;
+  if (/G2/.test(n)) return 85;
+  if (/G3/.test(n)) return 70;
+
+  // リステッド
+  if (/\(L\)|\[L\]|リステッド/i.test(n)) return 60;
+
+  // オープン特別
+  if (/オープン|OP/.test(n)) return 55;
+
+  // 条件戦 (新旧両表記に対応)
+  if (/3勝|1600万/.test(n)) return 50;
+  if (/2勝|1000万/.test(n)) return 40;
+  if (/1勝|500万/.test(n)) return 30;
+  if (/未勝利/.test(n)) return 20;
+  if (/新馬/.test(n)) return 15;
+
+  // 不明（地方交流・海外等）: やや低めで返す
+  return 35;
+}
+
+/**
+ * 前走クラススコア（0〜100）
+ *
+ * Horse.prevRaceClass が付与されていればその値、
+ * なければ Horse.prevRaceName から classifyPrevRace で判定する。
+ * どちらもなければ中立値 50。
+ */
+function scorePrevClass(horse: Horse): number {
+  if (typeof horse.prevRaceClass === 'number') return horse.prevRaceClass;
+  if (horse.prevRaceName) return classifyPrevRace(horse.prevRaceName);
   return 50;
 }
 
