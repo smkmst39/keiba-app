@@ -70,8 +70,8 @@ const WAKU_COLORS: Record<number, { bg: string; border: string; text: string }> 
 // EVバッジ色（app/components/CLAUDE.md 準拠）
 // ==========================================
 function evBadgeStyle(ev: number): React.CSSProperties {
-  if (ev >= 1.0) return { background: '#276749', color: '#fff' }; // 緑 - 買い推奨
-  if (ev >= 0.75) return { background: '#c05621', color: '#fff' }; // 橙 - 要検討
+  if (ev >= 1.05) return { background: '#276749', color: '#fff' }; // 緑 - 買い推奨
+  if (ev >= 0.90) return { background: '#c05621', color: '#fff' }; // 橙 - 要検討
   return { background: '#9b2c2c', color: '#fff' };                 // 赤 - 非推奨
 }
 
@@ -172,11 +172,11 @@ function ComboCard({
   const evStyle = ev !== null ? evBadgeStyle(ev) : { background: '#718096', color: '#fff' };
   const cardBorder =
     rank === 0 && ev !== null ? '2px solid #276749' :
-    ev !== null && ev >= 1.0  ? '2px solid #3182ce' :
+    ev !== null && ev >= 1.05 ? '2px solid #3182ce' :
     '1px solid #ddd';
   const cardBg =
     rank === 0 && ev !== null ? '#f0fff4' :
-    ev !== null && ev >= 1.0  ? '#ebf8ff' :
+    ev !== null && ev >= 1.05 ? '#ebf8ff' :
     '#fff';
 
   const oddsText =

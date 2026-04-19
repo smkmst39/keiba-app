@@ -29,6 +29,16 @@ if (Math.abs(_WEIGHTS_SUM - 1.0) > 1e-9) {
 const CORRECTION_FACTOR = 0.2;
 const MAX_CORRECTION = 0.20;
 
+/**
+ * corr の一律オフセット。全馬の EV を -0.02 ほど下方修正する。
+ * 目的: EV≥1.05 フィルタで大穴ノイズを排除し、真に有望な馬のみを残す。
+ * 795 レースバックテストで EV≥1.0 の 53% が大穴・実勝率 1.2% だったため導入。
+ */
+const CORR_OFFSET = -0.02;
+
+/** 買い推奨とする EV 閾値（UI の色分けやフィルタ用） */
+export const EV_THRESHOLD_BUY = 1.05;
+
 // ==========================================
 // ユーティリティ
 // ==========================================
@@ -308,7 +318,7 @@ export function calcAdjProb(horse: Horse, allHorses: Horse[]): number {
   const deviation  = ((horse.score ?? 50) - avg) / avg;
   const oddsWeight = getOddsWeight(horse.odds);
   const corr       = clamp(
-    deviation * CORRECTION_FACTOR * oddsWeight,
+    deviation * CORRECTION_FACTOR * oddsWeight + CORR_OFFSET,
     -MAX_CORRECTION,
     MAX_CORRECTION,
   );

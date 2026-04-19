@@ -36,15 +36,15 @@ export const WAKU_COLORS: Record = {
 ## 期待値の色分けルール
 
 ```typescript
-// EVバッジの色
-ev >= 1.0  → 緑（sg class）  // 買い推奨
-ev >= 0.75 → 橙（sm class）  // 要検討
-ev <  0.75 → 赤（sb class）  // 非推奨
+// EVバッジの色（EV_THRESHOLD_BUY = 1.05 を採用。lib/score/calculator.ts で定数化）
+ev >= 1.05 → 緑（sg class）  // 買い推奨
+ev >= 0.90 → 橙（sm class）  // 要検討
+ev <  0.90 → 赤（sb class）  // 非推奨
 
 // カードのボーダー強調
-i === 0（最高EV） → 緑ボーダー + 緑背景
-ev >= 1.0（買い） → 青ボーダー + 青背景
-ev <  0.6         → opacity: 0.75（薄く表示）
+i === 0（最高EV）  → 緑ボーダー + 緑背景
+ev >= 1.05（買い） → 青ボーダー + 青背景
+ev <  0.6          → opacity: 0.75（薄く表示）
 ```
 
 ---

@@ -53,7 +53,7 @@ function scoreRankOf(horseId: number, horses: Race['horses']): number {
 /** accuracy を計算して VerificationData を構築 */
 function buildVerificationData(race: Race, result: RaceResult): VerificationData {
   const top3ids = result.results.filter(r => r.rank <= 3).map(r => r.horseId);
-  const highEVHorses = race.horses.filter(h => (h.ev ?? 0) >= 1.0);
+  const highEVHorses = race.horses.filter(h => (h.ev ?? 0) >= 1.05);
   const top3EVCount = highEVHorses.filter(h => top3ids.includes(h.id)).length;
 
   // 1着馬のスコア順位
@@ -357,7 +357,7 @@ export function RaceVerification({ race }: { race: Race }) {
                         </td>
                         <td style={{
                           ...cell, textAlign: 'center',
-                          color: (horse?.ev ?? 0) >= 1.0 ? '#276749' : '#718096',
+                          color: (horse?.ev ?? 0) >= 1.05 ? '#276749' : '#718096',
                         }}>
                           {horse ? (horse.ev ?? 0).toFixed(3) : '-'}
                         </td>

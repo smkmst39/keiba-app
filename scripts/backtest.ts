@@ -28,6 +28,12 @@ const REPORT_PATH = path.join(VERIFICATION_DIR, 'backtest_report.md');
 /** 既存実装と同じ上限。CORRECTION_FACTOR だけ可変にして比較する */
 const MAX_CORRECTION = 0.20;
 
+/** corr のオフセット (lib/score/calculator.ts と同一) */
+const CORR_OFFSET = -0.02;
+
+/** 買い推奨 EV 閾値 (lib/score/calculator.ts と同一) */
+const EV_THRESHOLD_BUY = 1.05;
+
 /** 比較する CORRECTION_FACTOR 値 */
 const FACTORS_TO_TEST = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30] as const;
 
@@ -73,8 +79,13 @@ function sameSequence(a: number[], b: number[]): boolean {
 
 type Prediction = VerificationData['predictions'][number];
 
-/** バックテスト計算モード */
-type EvMode = 'linear' | 'nonlinear';
+/**
+ * バックテスト計算モード
+ *   linear    : corr = dev * factor                      (旧版・オフセットなし)
+ *   nonlinear : corr = dev * factor * oddsW              (オッズ帯ウェイトのみ)
+ *   offset    : corr = dev * factor * oddsW + OFFSET     (本番版。EV≥1.05 閾値と組み合わせる)
+ */
+type EvMode = 'linear' | 'nonlinear' | 'offset';
 
 /**
  * オッズ帯別ウェイト（lib/score/calculator.ts の getOddsWeight と同一）
@@ -98,7 +109,7 @@ function getOddsWeight(odds: number): number {
 function recalcEV(
   preds: Prediction[],
   factor: number,
-  mode: EvMode = 'nonlinear',
+  mode: EvMode = 'offset',
 ): Array<Prediction & { evRecalc: number }> {
   const scores = preds.map((p) => p.score);
   const avg = mean(scores);
@@ -107,8 +118,9 @@ function recalcEV(
   return preds.map((p) => {
     if (p.odds <= 0) return { ...p, evRecalc: 0 };
     const deviation = (p.score - avg) / avg;
-    const oddsW = mode === 'nonlinear' ? getOddsWeight(p.odds) : 1.0;
-    const corr = clamp(deviation * factor * oddsW, -MAX_CORRECTION, MAX_CORRECTION);
+    const oddsW     = (mode === 'nonlinear' || mode === 'offset') ? getOddsWeight(p.odds) : 1.0;
+    const offset    = mode === 'offset' ? CORR_OFFSET : 0;
+    const corr = clamp(deviation * factor * oddsW + offset, -MAX_CORRECTION, MAX_CORRECTION);
     const mktProb = 1 / p.odds;
     const adjProb = mktProb * (1 + corr);
     const evRecalc = adjProb * p.odds; // = 1 + corr
@@ -189,6 +201,141 @@ function simulateBets(
 }
 
 // ----------------------------------------
+// EV閾値フィルタ戦略のシミュレーション
+//   「EV ≥ EV_THRESHOLD_BUY の馬だけを買う」戦略
+//   - 単勝: 該当馬1点ずつ (n点 = 100n円)
+//   - 馬連: 該当馬が2頭以上ならBOX (nC2点)
+//   - 三連複: 該当馬が3頭以上ならBOX (nC3点)
+//   - 三連単: 該当馬が3頭以上ならBOX (nP3 = n*(n-1)*(n-2)点)
+//   該当馬が券種の最小頭数に満たないレースは不参加 (投資も計上しない)
+// ----------------------------------------
+
+/** 組み合わせ (順不同 C(n, k)) */
+function combinations<T>(arr: T[], k: number): T[][] {
+  if (k === 0) return [[]];
+  if (arr.length < k) return [];
+  const [head, ...rest] = arr;
+  return [
+    ...combinations(rest, k - 1).map((c) => [head, ...c]),
+    ...combinations(rest, k),
+  ];
+}
+
+/** 順列 (順序あり P(n, k))。小規模用 */
+function permutations<T>(arr: T[], k: number): T[][] {
+  if (k === 0) return [[]];
+  const result: T[][] = [];
+  for (let i = 0; i < arr.length; i++) {
+    const rest = [...arr.slice(0, i), ...arr.slice(i + 1)];
+    for (const p of permutations(rest, k - 1)) {
+      result.push([arr[i], ...p]);
+    }
+  }
+  return result;
+}
+
+function simulateThresholdBets(
+  preds: Array<Prediction & { evRecalc: number }>,
+  vd: VerificationData,
+): {
+  tan:     { cost: number; payout: number; hit: boolean; participated: boolean };
+  umaren:  { cost: number; payout: number; hit: boolean; participated: boolean };
+  sanfuku: { cost: number; payout: number; hit: boolean; participated: boolean };
+  santan:  { cost: number; payout: number; hit: boolean; participated: boolean };
+} {
+  const picks = preds.filter((p) => p.evRecalc >= EV_THRESHOLD_BUY && p.odds > 0);
+  const ids = picks.map((p) => p.horseId);
+  const n = ids.length;
+
+  // 単勝: n 点
+  let tanCost = 0, tanPay = 0, tanHit = false;
+  if (n >= 1) {
+    tanCost = 100 * n;
+    for (const id of ids) {
+      const winner = vd.results.payouts.tan.find((t) => t.horseId === id);
+      if (winner) { tanHit = true; tanPay += winner.payout; }
+    }
+  }
+
+  // 馬連 BOX: nC2 点 (順不同)
+  let umCost = 0, umPay = 0, umHit = false;
+  if (n >= 2) {
+    const combos = combinations(ids, 2);
+    umCost = 100 * combos.length;
+    for (const combo of combos) {
+      for (const u of vd.results.payouts.umaren) {
+        const nums = u.combination.split('-').map(Number);
+        if (sameSet(combo, nums)) { umHit = true; umPay += u.payout; break; }
+      }
+    }
+  }
+
+  // 三連複 BOX: nC3 点 (順不同)
+  let sfCost = 0, sfPay = 0, sfHit = false;
+  if (n >= 3) {
+    const combos = combinations(ids, 3);
+    sfCost = 100 * combos.length;
+    for (const combo of combos) {
+      for (const s of vd.results.payouts.sanfuku) {
+        const nums = s.combination.split('-').map(Number);
+        if (sameSet(combo, nums)) { sfHit = true; sfPay += s.payout; break; }
+      }
+    }
+  }
+
+  // 三連単 BOX: nP3 点 (順序あり)
+  let stCost = 0, stPay = 0, stHit = false;
+  if (n >= 3) {
+    const perms = permutations(ids, 3);
+    stCost = 100 * perms.length;
+    for (const perm of perms) {
+      for (const s of vd.results.payouts.santan) {
+        const nums = s.combination.split('-').map(Number);
+        if (sameSequence(perm, nums)) { stHit = true; stPay += s.payout; break; }
+      }
+    }
+  }
+
+  return {
+    tan:     { cost: tanCost, payout: tanPay, hit: tanHit, participated: n >= 1 },
+    umaren:  { cost: umCost,  payout: umPay,  hit: umHit,  participated: n >= 2 },
+    sanfuku: { cost: sfCost,  payout: sfPay,  hit: sfHit,  participated: n >= 3 },
+    santan:  { cost: stCost,  payout: stPay,  hit: stHit,  participated: n >= 3 },
+  };
+}
+
+type ThresholdStats = BetStats & { participatedRaces: number };
+
+function aggregateThreshold(
+  allData: VerificationData[],
+  factor: number,
+  mode: EvMode,
+): { tan: ThresholdStats; umaren: ThresholdStats; sanfuku: ThresholdStats; santan: ThresholdStats; totalPicked: number } {
+  const mk = (): ThresholdStats => ({ hits: 0, races: 0, totalCost: 0, totalPayout: 0, participatedRaces: 0 });
+  const agg = { tan: mk(), umaren: mk(), sanfuku: mk(), santan: mk() };
+  let totalPicked = 0;
+
+  for (const vd of allData) {
+    if (vd.predictions.length === 0) continue;
+    const recalc = recalcEV(vd.predictions, factor, mode);
+    const picksCount = recalc.filter((p) => p.evRecalc >= EV_THRESHOLD_BUY && p.odds > 0).length;
+    totalPicked += picksCount;
+    const bets = simulateThresholdBets(recalc, vd);
+
+    (['tan', 'umaren', 'sanfuku', 'santan'] as const).forEach((k) => {
+      agg[k].races++;
+      if (bets[k].participated) {
+        agg[k].participatedRaces++;
+        agg[k].totalCost   += bets[k].cost;
+        agg[k].totalPayout += bets[k].payout;
+        if (bets[k].hit) agg[k].hits++;
+      }
+    });
+  }
+  return { ...agg, totalPicked };
+}
+
+// ----------------------------------------
 // 集計メトリクス
 // ----------------------------------------
 
@@ -248,7 +395,7 @@ function computeEvFilterDistribution(
     for (const r of vd.results.results) rankMap.set(r.horseId, r.rank);
 
     for (const p of recalc) {
-      if (p.evRecalc >= 1.0 && p.odds > 0) {
+      if (p.evRecalc >= EV_THRESHOLD_BUY && p.odds > 0) {
         total++;
         const b = bandOf(p.odds);
         bands[b].count++;
@@ -421,23 +568,30 @@ async function main(): Promise<void> {
   // ---- 1. 全体サマリー ----
   const summary = computeOverallSummary(allData);
 
-  // ---- 2 & 3. 馬券種別 × 補正係数マトリクス（線形・非線形）----
-  const byFactor = new Map<number, ReturnType<typeof aggregateByFactor>>();
-  const byFactorLinear = new Map<number, ReturnType<typeof aggregateByFactor>>();
+  // ---- 2 & 3. 馬券種別 × 補正係数マトリクス（3モード）----
+  const byFactor       = new Map<number, ReturnType<typeof aggregateByFactor>>(); // offset モード (本番)
+  const byFactorNonlin = new Map<number, ReturnType<typeof aggregateByFactor>>(); // nonlinear のみ
+  const byFactorLinear = new Map<number, ReturnType<typeof aggregateByFactor>>(); // linear のみ
   for (const f of FACTORS_TO_TEST) {
-    byFactor.set(f, aggregateByFactor(allData, f, 'nonlinear'));
+    byFactor.set(f,       aggregateByFactor(allData, f, 'offset'));
+    byFactorNonlin.set(f, aggregateByFactor(allData, f, 'nonlinear'));
     byFactorLinear.set(f, aggregateByFactor(allData, f, 'linear'));
   }
   const currentFactor = 0.20;
-  const currentAgg    = byFactor.get(currentFactor)!;      // 非線形（修正後）
-  const linearAgg     = byFactorLinear.get(currentFactor)!; // 線形（修正前）
+  const currentAgg    = byFactor.get(currentFactor)!;       // offset (本番)
+  const nonlinearAgg  = byFactorNonlin.get(currentFactor)!; // 前回版
+  const linearAgg     = byFactorLinear.get(currentFactor)!; // 旧版
 
   // ---- 4. オッズ帯分析 ----
   const bands = computeOddsBandAnalysis(allData);
 
-  // ---- EV≥1.0 のオッズ帯別分布（修正前/後）----
-  const evFilterBefore = computeEvFilterDistribution(allData, 'linear',    currentFactor);
-  const evFilterAfter  = computeEvFilterDistribution(allData, 'nonlinear', currentFactor);
+  // ---- EV≥BUY のオッズ帯別分布（3モード）----
+  const evFilterLinear    = computeEvFilterDistribution(allData, 'linear',    currentFactor);
+  const evFilterNonlinear = computeEvFilterDistribution(allData, 'nonlinear', currentFactor);
+  const evFilterOffset    = computeEvFilterDistribution(allData, 'offset',    currentFactor);
+  // 後方互換エイリアス
+  const evFilterBefore = evFilterNonlinear;
+  const evFilterAfter  = evFilterOffset;
 
   // ---- 最適補正係数（非線形モード）----
   const factorRanked = FACTORS_TO_TEST.map((f) => {
@@ -470,7 +624,7 @@ async function main(): Promise<void> {
   log(`  EV≥1.0 の馬が3着以内に入った率    : ${summary.ev10In3Rate.toFixed(1)}%`);
   log('');
 
-  log('▼ 2. 馬券種別の的中率と回収率  (CORRECTION_FACTOR=0.20 / 非線形補正 = 修正後)');
+  log(`▼ 2. 馬券種別の的中率と回収率  (CORRECTION_FACTOR=0.20 / offset モード = 本番 / EV≥${EV_THRESHOLD_BUY})`);
   log('-'.repeat(72));
   log(`  単勝   (EV1位 1点買い、100円×${currentAgg.tan.races}R)`);
   log(`    ${fmtBetStats(currentAgg.tan)}`);
@@ -482,45 +636,84 @@ async function main(): Promise<void> {
   log(`    ${fmtBetStats(currentAgg.santan)}`);
   log('');
 
-  // ---------- 修正前 vs 修正後 比較 ----------
-  log('▼ 2-B. 修正前 (線形補正) vs 修正後 (非線形補正 = オッズ帯別ウェイト) の比較');
+  // ---------- 3モード比較 (linear → nonlinear → offset) ----------
+  log('▼ 2-B. 3モードの回収率比較  (linear = 旧 / nonlinear = オッズ帯ウェイト / offset = +corr-offset・本番)');
   log('-'.repeat(72));
-  log('  | 券種     | 修正前 的中率 | 修正前 回収率 | 修正後 的中率 | 修正後 回収率 | 回収率差分 |');
-  log('  |----------|---------------|---------------|---------------|---------------|------------|');
+  log('  | 券種     | linear 回収率 | nonlinear 回収率 | offset 回収率  | linear→offset 差分 |');
+  log('  |----------|---------------|------------------|----------------|---------------------|');
+  const totals = { linear: { c: 0, p: 0 }, nonlinear: { c: 0, p: 0 }, offset: { c: 0, p: 0 } };
   (['tan', 'umaren', 'sanfuku', 'santan'] as const).forEach((k) => {
     const label = { tan: '単勝   ', umaren: '馬連   ', sanfuku: '三連複 ', santan: '三連単 ' }[k];
-    const before = linearAgg[k];
-    const after  = currentAgg[k];
-    const diffPt = roiOf(after) - roiOf(before);
-    log(`  | ${label} | ${pct(before.hits, before.races).padStart(13)} | ${(roiOf(before).toFixed(1) + '%').padStart(13)} | ${pct(after.hits, after.races).padStart(13)} | ${(roiOf(after).toFixed(1) + '%').padStart(13)} | ${(diffPt >= 0 ? '+' : '') + diffPt.toFixed(1) + 'pt'} |`);
+    const l = linearAgg[k];
+    const n = nonlinearAgg[k];
+    const o = currentAgg[k];
+    const diffPt = roiOf(o) - roiOf(l);
+    const sign = diffPt >= 0 ? '+' : '';
+    totals.linear.c += l.totalCost;       totals.linear.p += l.totalPayout;
+    totals.nonlinear.c += n.totalCost;    totals.nonlinear.p += n.totalPayout;
+    totals.offset.c += o.totalCost;       totals.offset.p += o.totalPayout;
+    log(`  | ${label} | ${(roiOf(l).toFixed(1) + '%').padStart(13)} | ${(roiOf(n).toFixed(1) + '%').padStart(16)} | ${(roiOf(o).toFixed(1) + '%').padStart(14)} | ${(sign + diffPt.toFixed(1) + 'pt').padStart(19)} |`);
   });
-  // 総合
-  {
-    const bCost = linearAgg.tan.totalCost + linearAgg.umaren.totalCost + linearAgg.sanfuku.totalCost + linearAgg.santan.totalCost;
-    const bPay  = linearAgg.tan.totalPayout + linearAgg.umaren.totalPayout + linearAgg.sanfuku.totalPayout + linearAgg.santan.totalPayout;
-    const aCost = currentAgg.tan.totalCost + currentAgg.umaren.totalCost + currentAgg.sanfuku.totalCost + currentAgg.santan.totalCost;
-    const aPay  = currentAgg.tan.totalPayout + currentAgg.umaren.totalPayout + currentAgg.sanfuku.totalPayout + currentAgg.santan.totalPayout;
-    const bRoi  = bCost > 0 ? (bPay / bCost) * 100 : 0;
-    const aRoi  = aCost > 0 ? (aPay / aCost) * 100 : 0;
-    log(`  | 総合     | ${'-'.padStart(13)} | ${(bRoi.toFixed(1) + '%').padStart(13)} | ${'-'.padStart(13)} | ${(aRoi.toFixed(1) + '%').padStart(13)} | ${(aRoi - bRoi >= 0 ? '+' : '') + (aRoi - bRoi).toFixed(1) + 'pt'} |`);
-  }
+  const lRoi = totals.linear.c > 0    ? (totals.linear.p    / totals.linear.c)    * 100 : 0;
+  const nRoi = totals.nonlinear.c > 0 ? (totals.nonlinear.p / totals.nonlinear.c) * 100 : 0;
+  const oRoi = totals.offset.c > 0    ? (totals.offset.p    / totals.offset.c)    * 100 : 0;
+  const dT = oRoi - lRoi;
+  log(`  | 総合     | ${(lRoi.toFixed(1) + '%').padStart(13)} | ${(nRoi.toFixed(1) + '%').padStart(16)} | ${(oRoi.toFixed(1) + '%').padStart(14)} | ${((dT >= 0 ? '+' : '') + dT.toFixed(1) + 'pt').padStart(19)} |`);
   log('');
 
-  log('▼ 2-C. EV≥1.0 判定のオッズ帯分布の変化');
+  log(`▼ 2-C. EV≥${EV_THRESHOLD_BUY} 判定のオッズ帯分布の変化 (全モードで同一閾値 ${EV_THRESHOLD_BUY})`);
   log('-'.repeat(72));
-  log('  | オッズ帯       | 修正前 該当馬 | 修正前 占有率 | 修正前 勝率 | 修正後 該当馬 | 修正後 占有率 | 修正後 勝率 |');
-  log('  |----------------|---------------|---------------|-------------|---------------|---------------|-------------|');
+  log('  | オッズ帯       | linear 頭数 | linear 勝率 | nonlinear 頭数 | nonlinear 勝率 | offset 頭数 | offset 勝率 |');
+  log('  |----------------|-------------|-------------|----------------|----------------|-------------|-------------|');
   for (const key of Object.keys(ODDS_BAND) as Band[]) {
-    const b = evFilterBefore[key];
-    const a = evFilterAfter[key];
-    const bShare = evFilterBefore.total > 0 ? (b.count / evFilterBefore.total) * 100 : 0;
-    const aShare = evFilterAfter.total > 0  ? (a.count / evFilterAfter.total)  * 100 : 0;
-    const bWin   = b.count > 0 ? (b.winners / b.count) * 100 : 0;
-    const aWin   = a.count > 0 ? (a.winners / a.count) * 100 : 0;
+    const l = evFilterLinear[key];
+    const n = evFilterNonlinear[key];
+    const o = evFilterOffset[key];
+    const lWin = l.count > 0 ? (l.winners / l.count) * 100 : 0;
+    const nWin = n.count > 0 ? (n.winners / n.count) * 100 : 0;
+    const oWin = o.count > 0 ? (o.winners / o.count) * 100 : 0;
     const label  = ODDS_BAND[key].label.padEnd(14);
-    log(`  | ${label} | ${b.count.toString().padStart(13)} | ${(bShare.toFixed(1) + '%').padStart(13)} | ${(bWin.toFixed(1) + '%').padStart(11)} | ${a.count.toString().padStart(13)} | ${(aShare.toFixed(1) + '%').padStart(13)} | ${(aWin.toFixed(1) + '%').padStart(11)} |`);
+    log(`  | ${label} | ${l.count.toString().padStart(11)} | ${(lWin.toFixed(1) + '%').padStart(11)} | ${n.count.toString().padStart(14)} | ${(nWin.toFixed(1) + '%').padStart(14)} | ${o.count.toString().padStart(11)} | ${(oWin.toFixed(1) + '%').padStart(11)} |`);
   }
-  log(`  | 合計           | ${evFilterBefore.total.toString().padStart(13)} |           100% |             | ${evFilterAfter.total.toString().padStart(13)} |           100% |             |`);
+  log(`  | 合計           | ${evFilterLinear.total.toString().padStart(11)} |             | ${evFilterNonlinear.total.toString().padStart(14)} |                | ${evFilterOffset.total.toString().padStart(11)} |             |`);
+  // 大穴占有率
+  const longshotShare = (agg: ReturnType<typeof computeEvFilterDistribution>): number =>
+    agg.total > 0 ? (agg.longshot.count / agg.total) * 100 : 0;
+  log(`  → 大穴占有率: linear=${longshotShare(evFilterLinear).toFixed(1)}%, nonlinear=${longshotShare(evFilterNonlinear).toFixed(1)}%, offset=${longshotShare(evFilterOffset).toFixed(1)}%`);
+  log('');
+
+  // ---------- 2-D. 閾値フィルタ戦略 ----------
+  log(`▼ 2-D. EV≥${EV_THRESHOLD_BUY} 閾値フィルタ戦略 (offset モード / 該当馬のみ買う)`);
+  log('-'.repeat(72));
+  const thOffset    = aggregateThreshold(allData, currentFactor, 'offset');
+  const thNonlinear = aggregateThreshold(allData, currentFactor, 'nonlinear');
+  const thLinear    = aggregateThreshold(allData, currentFactor, 'linear');
+
+  const thRowConsole = (label: string, s: ThresholdStats): void => {
+    const roi = s.totalCost > 0 ? (s.totalPayout / s.totalCost) * 100 : 0;
+    const hitRate = s.participatedRaces > 0 ? (s.hits / s.participatedRaces) * 100 : 0;
+    log(
+      `  ${label} 参加${s.participatedRaces}/${s.races}R 的中${s.hits} (${hitRate.toFixed(1)}%) ` +
+      `投資${s.totalCost.toLocaleString()}円 払戻${s.totalPayout.toLocaleString()}円 回収率${roi.toFixed(1)}%`,
+    );
+  };
+  log(`  [offset モード, 閾値 ${EV_THRESHOLD_BUY}]`);
+  thRowConsole('単勝   ', thOffset.tan);
+  thRowConsole('馬連BOX', thOffset.umaren);
+  thRowConsole('三連複BOX', thOffset.sanfuku);
+  thRowConsole('三連単BOX', thOffset.santan);
+  log(`  該当馬の総抽出数: ${thOffset.totalPicked} 頭 (795R 合計)`);
+  log('');
+
+  log('  [モード別 総合回収率比較]');
+  const thTotalRoi = (agg: ReturnType<typeof aggregateThreshold>): number => {
+    const c = agg.tan.totalCost + agg.umaren.totalCost + agg.sanfuku.totalCost + agg.santan.totalCost;
+    const p = agg.tan.totalPayout + agg.umaren.totalPayout + agg.sanfuku.totalPayout + agg.santan.totalPayout;
+    return c > 0 ? (p / c) * 100 : 0;
+  };
+  log(`    linear    : 総合 ${thTotalRoi(thLinear).toFixed(1)}%`);
+  log(`    nonlinear : 総合 ${thTotalRoi(thNonlinear).toFixed(1)}%`);
+  log(`    offset    : 総合 ${thTotalRoi(thOffset).toFixed(1)}%`);
   log('');
 
   log('▼ 3. 補正係数の最適化');
