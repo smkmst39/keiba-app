@@ -72,6 +72,7 @@ export function useSchedule(): UseScheduleResult {
       setSchedule([]);
 
       const dates = getScheduleDates();
+      console.log('[useSchedule] fetchする日付一覧:', dates);
       let foundCount = 0;
 
       // 全日付を並列フェッチ。完了した日付から即座に UI を更新
@@ -80,18 +81,22 @@ export function useSchedule(): UseScheduleResult {
           fetchDaySchedule(date).then((day) => {
             if (day && !cancelled) {
               foundCount++;
+              console.log('[useSchedule] 開催あり:', date, `(${day.venues.map(v => v.name).join('・')})`);
               // 日付昇順を維持しながら追加
               setSchedule((prev) => {
                 const next = [...prev, day];
                 next.sort((a, b) => a.date.localeCompare(b.date));
                 return next;
               });
+            } else if (!day) {
+              console.log('[useSchedule] 開催なし or 取得失敗:', date);
             }
           })
         )
       );
 
       if (!cancelled) {
+        console.log('[useSchedule] 取得完了 foundCount:', foundCount);
         if (foundCount === 0) setError('開催スケジュールの取得に失敗しました');
         setIsLoading(false);
       }

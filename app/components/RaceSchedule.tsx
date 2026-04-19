@@ -186,6 +186,7 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
 
   // schedule は開催ありの日のみ格納されているのでそのまま availableDates として使う
   const availableDates = schedule.map((s) => s.date);
+  console.log('[RaceSchedule] availableDates:', availableDates, 'isLoading:', isLoading);
 
   const [selectedDate, setSelectedDate]     = useState<string | null>(null);
   const [selectedVenue, setSelectedVenue]   = useState<string | null>(null);
