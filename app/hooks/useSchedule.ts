@@ -2,7 +2,7 @@
 
 // ==========================================
 // 開催スケジュール取得フック
-// 本日から14日分を順番に取得し、開催ありの日を最大3件見つけた時点で打ち切る
+// 過去7日間〜翌々日（合計10日）を順番に取得し、開催ありの日をすべて収集する
 // ==========================================
 
 import { useState, useEffect } from 'react';
@@ -19,16 +19,23 @@ export type UseScheduleResult = {
   error: string | null;
 };
 
-/** 本日から14日分の日付文字列を返す（今日〜13日後） */
+/** YYYYMMDD 形式の今日の日付文字列を返す */
+export function getTodayStr(): string {
+  const d = new Date();
+  return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+}
+
+/** 過去7日間〜翌々日の日付文字列を返す（合計10日分・昇順） */
 export function getScheduleDates(): string[] {
   const today = new Date();
-  const formatDate = (d: Date) =>
+  const fmt = (d: Date) =>
     `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
 
-  return Array.from({ length: 14 }, (_, i) => {
+  // -7日前から +2日後まで: i=0 → -7, i=9 → +2
+  return Array.from({ length: 10 }, (_, i) => {
     const d = new Date(today);
-    d.setDate(today.getDate() + i);
-    return formatDate(d);
+    d.setDate(today.getDate() - 7 + i);
+    return fmt(d);
   });
 }
 
@@ -47,11 +54,10 @@ async function fetchDaySchedule(date: string): Promise<DaySchedule | null> {
 
 /**
  * 開催スケジュールを取得するフック
- * - 14日分を先頭から順次取得
- * - 開催ありの日が MIN_FOUND 件見つかった時点で取得を打ち切る
+ * - 過去7日間〜翌々日（10日分）を先頭から順次取得
+ * - 打ち切りなし。開催ありの日をすべて収集する
+ * - 見つかった都度 UI を更新して応答性を高める
  */
-const MIN_FOUND = 3;
-
 export function useSchedule(): UseScheduleResult {
   const [schedule, setSchedule] = useState<DaySchedule[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -70,13 +76,11 @@ export function useSchedule(): UseScheduleResult {
 
       for (const date of dates) {
         if (cancelled) return;
-
         const day = await fetchDaySchedule(date);
         if (day) {
           found.push(day);
           // 見つかった都度 UI を更新して応答性を高める
           if (!cancelled) setSchedule([...found]);
-          if (found.length >= MIN_FOUND) break;
         }
       }
 

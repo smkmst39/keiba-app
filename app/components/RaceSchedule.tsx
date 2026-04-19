@@ -7,7 +7,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import type { Race, Grade } from '@/lib/scraper/types';
-import { useSchedule, type DaySchedule } from '@/app/hooks/useSchedule';
+import { useSchedule, getTodayStr, type DaySchedule } from '@/app/hooks/useSchedule';
 import { useRaceData } from '@/app/hooks/useRaceData';
 
 type Props = {
@@ -181,24 +181,34 @@ const spinnerStyle: React.CSSProperties = {
 // メインコンポーネント
 // ==========================================
 export function RaceSchedule({ onRaceLoaded }: Props) {
-  // useSchedule は引数なし（14日分を内部で順次取得）
+  // useSchedule は引数なし（過去7日〜翌々日の10日分を内部で順次取得）
   const { schedule, isLoading, error } = useSchedule();
 
   // schedule は開催ありの日のみ格納されているのでそのまま availableDates として使う
   const availableDates = schedule.map((s) => s.date);
 
-  // デフォルト: 最も近い開催日（availableDates[0]）
   const [selectedDate, setSelectedDate]     = useState<string | null>(null);
   const [selectedVenue, setSelectedVenue]   = useState<string | null>(null);
   const [selectedRaceId, setSelectedRaceId] = useState<string | null>(null);
   const [fetchingRaceId, setFetchingRaceId] = useState<string | null>(null);
 
   // スケジュール取得後、初回のみデフォルト日付を設定
+  // - 本日に開催がある → 本日
+  // - ない → 直近の未来の開催日、なければ直近の過去の開催日
   const initialDateSetRef = useRef(false);
   useEffect(() => {
     if (isLoading || availableDates.length === 0 || initialDateSetRef.current) return;
     initialDateSetRef.current = true;
-    setSelectedDate(availableDates[0]);
+
+    const today = getTodayStr();
+    if (availableDates.includes(today)) {
+      setSelectedDate(today);
+    } else {
+      // 今日以降で最も近い開催日
+      const futureDate = availableDates.find((d) => d > today);
+      // なければ最も新しい過去の開催日
+      setSelectedDate(futureDate ?? availableDates[availableDates.length - 1]);
+    }
   }, [availableDates, isLoading]);
 
   // 日付が変わったらデフォルト競馬場を設定
@@ -287,7 +297,7 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
         </div>
       ) : !isLoading && availableDates.length === 0 ? (
         <p style={{ color: '#888', fontSize: '0.9rem', padding: '1rem 0' }}>
-          本日から14日以内の開催はありません
+          前後7日以内の開催はありません
         </p>
       ) : (
         <p style={{ color: '#888', fontSize: '0.9rem', padding: '1rem 0' }}>
