@@ -10,6 +10,7 @@ import type { Race } from '@/lib/scraper/types';
 import { RaceSelector } from '@/app/components/RaceSelector';
 import { BakenSimulator } from '@/app/components/BakenSimulator';
 import { RaceReport } from '@/app/components/RaceReport';
+import { RaceVerification } from '@/app/components/RaceVerification';
 
 export default function Home() {
   const [race, setRace]   = useState<Race | null>(null);
@@ -37,6 +38,9 @@ export default function Home() {
           </section>
           <section style={styles.card}>
             <RaceReport race={race} />
+          </section>
+          <section style={styles.card}>
+            <RaceVerification race={race} />
           </section>
         </>
       ) : (

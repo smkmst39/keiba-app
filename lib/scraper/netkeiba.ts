@@ -6,7 +6,7 @@
 
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import type { Race, Horse, ComboOddsData } from './types';
+import type { Race, Horse, ComboOddsData, RaceResult } from './types';
 import { MOCK_NZT_2026 } from './__mocks__/202606030511';
 
 // ==========================================
@@ -132,6 +132,7 @@ type RaceCardResult = {
   course: string;
   distance: number;
   surface: 'turf' | 'dirt';
+  startTime: string; // 発走時刻 "HH:MM"（取得できない場合は ""）
   /** 馬番をキーとした出馬表データ */
   horseMap: Map<number, {
     id: number;
@@ -174,11 +175,13 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
     // --- レース基本情報 ---
     const name = $(SELECTORS.raceTitle).first().text().trim() || '不明';
 
-    // 距離・芝ダート: "芝1600m" or "ダート1200m" のような文字列を含む
+    // 距離・芝ダート・発走時刻: "15:40発走 / 芝2000m..." のような文字列を含む
     const raceDataText = $(SELECTORS.raceData).first().text();
     const distanceMatch = raceDataText.match(/(\d{3,4})m/);
     const distance = distanceMatch ? parseInt(distanceMatch[1], 10) : 0;
     const surface: 'turf' | 'dirt' = raceDataText.includes('ダート') ? 'dirt' : 'turf';
+    const startTimeMatch = raceDataText.match(/(\d{1,2}:\d{2})発走/);
+    const startTime = startTimeMatch ? startTimeMatch[1] : '';
 
     // 競馬場名はURLの場コード（3〜4桁目）から逆引き
     const course = courseFromRaceId(raceId);
@@ -230,7 +233,7 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
       return null;
     }
 
-    return { name, course, distance, surface, horseMap };
+    return { name, course, distance, surface, startTime, horseMap };
   } catch (e) {
     console.error('[scraper] fetchRaceCard: パース失敗:', e);
     return null;
@@ -397,6 +400,7 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
     course: cardResult.course,
     distance: cardResult.distance,
     surface: cardResult.surface,
+    startTime: cardResult.startTime,
     horses,
     fetchedAt: new Date(),
   };
@@ -614,6 +618,135 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
     };
   } catch (e) {
     console.error('[scraper] fetchPreEntry: パース失敗:', e);
+    return null;
+  }
+}
+
+// ==========================================
+// レース結果取得
+// ==========================================
+
+/**
+ * レース結果ページをスクレイピングして着順・払戻金を返す
+ *
+ * 対象URL: https://race.netkeiba.com/race/result.html?race_id={raceId}
+ * エンコーディング: EUC-JP（fetchHtml で自動変換）
+ *
+ * 結果テーブル: #All_Result_Table tr.HorseList
+ *   着順: .Result_Num .Rank / 馬番: .Num.Txt_C div / 馬名: .HorseNameSpan
+ *   タイム: .Time .RaceTime（最初の非空） / 後3F: .Time.BgOrange
+ *
+ * 払戻テーブル: table.Payout_Detail_Table
+ *   tr.Tansho=単勝 / tr.Umaren=馬連 / tr.Fuku3=三連複 / tr.Tan3=三連単
+ */
+export async function fetchRaceResult(raceId: string): Promise<RaceResult | null> {
+  const url = `${BASE_RACE}/race/result.html?race_id=${raceId}`;
+  const html = await fetchHtml(url);
+  if (!html) return null;
+
+  try {
+    const $ = cheerio.load(html);
+
+    // ----------------------------------------
+    // 着順テーブル
+    // ----------------------------------------
+    const results: RaceResult['results'] = [];
+
+    $('#All_Result_Table tr.HorseList').each((_i, row) => {
+      try {
+        const rank = parseInt($(row).find('.Result_Num .Rank').text().trim(), 10);
+        if (isNaN(rank) || rank <= 0) return;
+
+        const horseId = parseInt($(row).find('td.Num.Txt_C div').text().trim(), 10);
+        const horseName = $(row).find('.HorseNameSpan').text().trim();
+
+        // タイム: .RaceTime span の最初の非空テキスト（着差セルは空になる）
+        let time = '';
+        $(row).find('td.Time .RaceTime').each((_j, el) => {
+          const t = $(el).text().trim();
+          if (t && !time) time = t;
+        });
+
+        // 後3F: td.Time.BgOrange（span なしの直接テキスト）
+        const lastThreeFText = $(row).find('td.Time.BgOrange').text().trim();
+        const lastThreeF = parseFloat(lastThreeFText) || 0;
+
+        if (horseName) {
+          results.push({ rank, horseId, horseName, time, lastThreeF });
+        }
+      } catch {
+        // パース失敗は無視
+      }
+    });
+
+    if (results.length === 0) {
+      console.warn(`[scraper] fetchRaceResult: 着順データが0件 raceId=${raceId}（レース前または非対応）`);
+      return null;
+    }
+
+    // ----------------------------------------
+    // 払戻テーブル
+    // ----------------------------------------
+
+    /** 払戻金文字列（"1,060円"）を整数に変換 */
+    const parsePayout = (text: string): number =>
+      parseInt(text.replace(/[^0-9]/g, ''), 10) || 0;
+
+    // 単勝（Tansho）: Result td の div span から馬番を取得
+    const tan: RaceResult['payouts']['tan'] = [];
+    $('tr.Tansho').each((_i, row) => {
+      $(row).find('td.Result div span').each((_j, span) => {
+        const id = parseInt($(span).text().trim(), 10);
+        if (id > 0) {
+          const payout = parsePayout($(row).find('td.Payout span').first().text());
+          tan.push({ horseId: id, payout });
+        }
+      });
+    });
+
+    /** ul > li > span から馬番リストを取得するヘルパー */
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const parseUlNums = (rowEl: any): number[] =>
+      $(rowEl).find('td.Result ul li span')
+        .map((_i, span) => parseInt($(span).text().trim(), 10))
+        .get()
+        .filter((n: number) => n > 0);
+
+    // 馬連（Umaren）
+    const umaren: RaceResult['payouts']['umaren'] = [];
+    $('tr.Umaren').each((_i, row) => {
+      const nums = parseUlNums(row);
+      if (nums.length >= 2) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        umaren.push({ combination: nums.join('-'), payout });
+      }
+    });
+
+    // 三連複（Fuku3）
+    const sanfuku: RaceResult['payouts']['sanfuku'] = [];
+    $('tr.Fuku3').each((_i, row) => {
+      const nums = parseUlNums(row);
+      if (nums.length >= 3) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        sanfuku.push({ combination: nums.join('-'), payout });
+      }
+    });
+
+    // 三連単（Tan3）
+    const santan: RaceResult['payouts']['santan'] = [];
+    $('tr.Tan3').each((_i, row) => {
+      const nums = parseUlNums(row);
+      if (nums.length >= 3) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        santan.push({ combination: nums.join('-'), payout });
+      }
+    });
+
+    console.log(`[scraper] fetchRaceResult: ${results.length}頭分の着順・払戻取得 raceId=${raceId}`);
+    return { raceId, results, payouts: { tan, umaren, sanfuku, santan } };
+
+  } catch (e) {
+    console.error('[scraper] fetchRaceResult: パース失敗:', e);
     return null;
   }
 }

@@ -38,6 +38,7 @@ export type Race = {
   horses: Horse[];                // 出走馬リスト
   fetchedAt: Date;                // データ取得日時
   mode?: RaceMode;               // 省略時は 'confirmed' として扱う
+  startTime?: string;            // 発走時刻 "HH:MM" 形式（例: "15:40"）
 };
 
 /** 馬券の券種 */
@@ -104,6 +105,65 @@ export type ComboOddsApiResponse = {
   success: boolean;
   data: ComboOddsData | null;
   meta: { fetchedAt: string; cached: boolean };
+  error?: string;
+};
+
+// ==========================================
+// レース結果型
+// ==========================================
+
+/** 1頭分の着順データ */
+export type RaceResultItem = {
+  rank: number;       // 着順
+  horseId: number;    // 馬番
+  horseName: string;  // 馬名
+  time: string;       // タイム（例: "1:57.0"）
+  lastThreeF: number; // 後3F（秒、例: 34.1）
+};
+
+/** 払戻金データ */
+export type RacePayouts = {
+  tan:    { horseId: number; payout: number }[];                // 単勝
+  umaren: { combination: string; payout: number }[];            // 馬連
+  sanfuku: { combination: string; payout: number }[];           // 三連複
+  santan:  { combination: string; payout: number }[];           // 三連単
+};
+
+/** レース結果（スクレイピング後） */
+export type RaceResult = {
+  raceId: string;
+  results: RaceResultItem[];
+  payouts: RacePayouts;
+};
+
+/** 検証データ（ローカル保存用） */
+export type VerificationData = {
+  raceId: string;
+  raceName: string;
+  date: string;       // "YYYY-MM-DD"
+  predictions: {
+    horseId: number;
+    horseName: string;
+    score: number;
+    ev: number;
+    odds: number;
+  }[];
+  results: RaceResult;
+  accuracy: {
+    top1ScoreRank: number;   // 1着馬のスコア順位
+    top3EVCount: number;     // EV1.0以上で3着以内に来た頭数
+    recommendedHits: {       // 推奨馬券の的中
+      type: string;
+      hit: boolean;
+      payout: number;
+    }[];
+  };
+};
+
+/** 結果APIレスポンス */
+export type RaceResultApiResponse = {
+  success: boolean;
+  data: RaceResult | null;
   error?: string;
 };
 
