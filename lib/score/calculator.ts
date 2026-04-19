@@ -11,12 +11,13 @@ import type { Horse, Race, BetType } from '../scraper/types';
 
 /** 各指標の重み（合計が必ず 1.0 になること） */
 const WEIGHTS = {
-  lastThreeF:   0.25,  // 上がり3F（前走または調教）
-  training:     0.20,  // 調教ラスト1F
-  courseRecord: 0.20,  // 同コース成績（Phase 1-C では暫定値）
-  prevClass:    0.15,  // 前走クラス（classifyPrevRace で実データから判定）
-  weightChange: 0.10,  // 馬体重増減
-  jockey:       0.10,  // 騎手評価（Phase 1-C では暫定値）
+  lastThreeF:   0.22,  // 上がり3F（前走または調教）
+  training:     0.18,  // 調教ラスト1F
+  courseRecord: 0.18,  // 同コース成績
+  prevClass:    0.13,  // 前走クラス（classifyPrevRace で実データから判定）
+  breeding:     0.12,  // 血統適性（Phase 2B で新規）
+  weightChange: 0.09,  // 馬体重増減
+  jockey:       0.08,  // 騎手評価
 } as const;
 
 // 重みの合計チェック（ビルド時に検出できるよう即時評価）
@@ -184,6 +185,25 @@ function scorePrevClass(horse: Horse): number {
 }
 
 /**
+ * 血統適性スコア（0〜100）— レース内で正規化
+ *
+ * 各馬の breedingFitness（= 父馬の「当該コース×距離帯」連対率）を
+ * レース内で normalizeWithinRace により 0〜100 に射影する。
+ * breedingFitness が無い馬はレース内平均で代替し、極端に有利/不利にならない。
+ *
+ * 全馬に breedingFitness が無ければ全馬 50 を返す（Phase 2B 移行期の後方互換）。
+ */
+export function scoreBreeding(allHorses: Horse[]): number[] {
+  const raw = allHorses.map((h) => h.breedingFitness ?? -1);
+  const known = raw.filter((v) => v >= 0);
+  if (known.length === 0) return allHorses.map(() => 50);
+
+  const avg = known.reduce((s, v) => s + v, 0) / known.length;
+  const filled = raw.map((v) => (v < 0 ? avg : v));
+  return normalizeWithinRace(filled);
+}
+
+/**
  * 騎手評価スコア（0〜100）
  * jockeyRates（騎手名→当年勝率）をレース内で正規化して返す。
  * jockeyRates が空の場合は中立値 50 を返す（データ未取得時のフォールバック）。
@@ -242,16 +262,18 @@ function calcScoreInternal(
   threeFScores: number[],
   trainingScores: number[],
   jockeyScores: number[],
+  breedingScores: number[],
 ): number {
   const idx = allHorses.findIndex((h) => h.id === horse.id);
 
   const s = {
-    lastThreeF:   idx >= 0 ? threeFScores[idx] : 50,
+    lastThreeF:   idx >= 0 ? threeFScores[idx]   : 50,
     training:     idx >= 0 ? trainingScores[idx] : 50,
     courseRecord: scoreCourseRecord(horse),
     prevClass:    scorePrevClass(horse),
+    breeding:     idx >= 0 ? breedingScores[idx] : 50,
     weightChange: scoreWeightChange(horse),
-    jockey:       idx >= 0 ? jockeyScores[idx] : 50,
+    jockey:       idx >= 0 ? jockeyScores[idx]   : 50,
   };
 
   const total =
@@ -259,6 +281,7 @@ function calcScoreInternal(
     s.training     * WEIGHTS.training     +
     s.courseRecord * WEIGHTS.courseRecord +
     s.prevClass    * WEIGHTS.prevClass    +
+    s.breeding     * WEIGHTS.breeding     +
     s.weightChange * WEIGHTS.weightChange +
     s.jockey       * WEIGHTS.jockey;
 
@@ -279,7 +302,8 @@ export function calcScore(
   const threeFScores   = scoreLastThreeF(allHorses);
   const trainingScores = scoreTraining(allHorses);
   const jockeyScores   = scoreJockeyFromRates(allHorses, jockeyRates);
-  return calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores);
+  const breedingScores = scoreBreeding(allHorses);
+  return calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores, breedingScores);
 }
 
 /**
@@ -294,10 +318,11 @@ export function calcAllScores(race: Race, jockeyRates: Map<string, number> = new
   const threeFScores   = scoreLastThreeF(allHorses);
   const trainingScores = scoreTraining(allHorses);
   const jockeyScores   = scoreJockeyFromRates(allHorses, jockeyRates);
+  const breedingScores = scoreBreeding(allHorses);
 
-  const scored = allHorses.map((horse) => {
-    const score = calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores);
-    return { ...horse, score };
+  const scored = allHorses.map((horse, i) => {
+    const score = calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores, breedingScores);
+    return { ...horse, score, breedingScore: breedingScores[i] };
   });
 
   // EV計算には全馬のスコアが必要なため2パス目で計算
@@ -639,9 +664,11 @@ export function calculateScores(horses: Horse[]): Horse[] {
   const threeFScores   = scoreLastThreeF(horses);
   const trainingScores = scoreTraining(horses);
   const jockeyScores   = scoreJockeyFromRates(horses, new Map()); // jockeyRates なし → 全馬50
-  return horses.map((horse) => ({
+  const breedingScores = scoreBreeding(horses);
+  return horses.map((horse, i) => ({
     ...horse,
-    score: calcScoreInternal(horse, horses, threeFScores, trainingScores, jockeyScores),
+    score: calcScoreInternal(horse, horses, threeFScores, trainingScores, jockeyScores, breedingScores),
+    breedingScore: breedingScores[i],
   }));
 }
 

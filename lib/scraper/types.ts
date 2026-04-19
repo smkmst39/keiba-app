@@ -21,6 +21,25 @@ export type Horse = {
   ev?: number;         // 単勝期待値（calcEV で付与）
   prevRaceName?: string;  // 前走レース名（出馬表の前走リンクのテキスト）
   prevRaceClass?: number; // 前走クラススコア（15-100。classifyPrevRace 参照）
+
+  // --- 血統関連（Phase 2B で追加。取得失敗時は undefined） ---
+  horseId?: string;        // db.netkeiba.com の競走馬ID（10桁数字）
+  father?: string;         // 父馬名（種牡馬）
+  fatherId?: string;       // 父馬の種牡馬ID（db.netkeiba.com/sire/{id}/）
+  /** 父馬の「当該コース×距離帯」連対率 (0〜1)。normalize 前のレート */
+  breedingFitness?: number;
+  breedingScore?: number;  // 血統適性スコア（0〜100。scoreBreeding で算出）
+};
+
+/** 距離帯の分類（血統スコア計算で使用） */
+export type DistanceBand = 'sprint' | 'mile' | 'intermediate' | 'long';
+
+/** 種牡馬統計（芝/ダート × 距離帯ごとの連対率・勝率） */
+export type SireStats = {
+  sireName: string;
+  sireId?: string;
+  turf: Partial<Record<DistanceBand, { placeRate: number; winRate: number; samples: number }>>;
+  dirt: Partial<Record<DistanceBand, { placeRate: number; winRate: number; samples: number }>>;
 };
 
 /**

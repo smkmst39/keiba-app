@@ -9,6 +9,7 @@ import * as cheerio from 'cheerio';
 import type { Race, Horse, ComboOddsData, RaceResult } from './types';
 import { MOCK_NZT_2026 } from './__mocks__/202606030511';
 import { classifyPrevRace } from '../score/calculator';
+import { fetchSireStatsForHorses, getDistanceBand, type SireStatsByHorseNum } from './sire';
 
 // ==========================================
 // 定数
@@ -147,6 +148,7 @@ type RaceCardResult = {
     jockeyCode: string;    // db.netkeiba.com 騎手コード（勝率取得に使用）
     trainerCode: string;   // db.netkeiba.com 調教師コード
     prevRaceName?: string; // 前走レース名（スコア計算の前走クラス判定に使用）
+    horseId?: string;      // db.netkeiba.com 競走馬ID（血統取得で使用）
   }>;
 };
 
@@ -212,6 +214,11 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
         const horseNameRaw = $(row).find(SELECTORS.horseName).text().trim();
         const name = horseNameRaw.split(/\s/)[0] ?? horseNameRaw;
 
+        // 競走馬ID: td.HorseInfo 内の a[href*="/horse/"] から抽出 (血統取得で使用)
+        const horseIdLink = $(row).find(SELECTORS.horseName).find('a[href*="/horse/"]').first();
+        const horseIdHref = horseIdLink.attr('href') ?? '';
+        const horseId     = horseIdHref.match(/\/horse\/(\w+)/)?.[1];
+
         // 騎手・調教師: リンクがある場合はそちら、なければtd直接
         // hrefから騎手コード・調教師コードも抽出する（勝率取得に使用）
         const jockeyEl   = $(row).find(SELECTORS.jockey);
@@ -248,7 +255,7 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
           if (txt && !/^\d+$/.test(txt)) prevRaceName = txt; // 数字だけのリンクは除外
         });
 
-        horseMap.set(id, { id, name, waku, jockey, trainer, weight, weightDiff, jockeyCode, trainerCode, prevRaceName });
+        horseMap.set(id, { id, name, waku, jockey, trainer, weight, weightDiff, jockeyCode, trainerCode, prevRaceName, horseId });
       } catch (e) {
         console.error('[scraper] 馬行のパース失敗:', e);
       }
@@ -398,14 +405,38 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
     return null;
   }
 
+  // 血統統計を並列取得（出馬表の horseId を使う。キャッシュがあれば即座に返る）
+  // 取得失敗しても致命的ではないためエラーを飲む。
+  let sireMap: SireStatsByHorseNum = new Map();
+  try {
+    const horsesForSire = Array.from(cardResult.horseMap.values())
+      .map((h) => ({ id: h.id, horseId: h.horseId }));
+    sireMap = await fetchSireStatsForHorses(horsesForSire);
+  } catch (e) {
+    console.warn('[scraper] 血統統計取得失敗 (スキップ):', e);
+  }
+
+  // 血統フィットネス計算に使う「レースの条件」を先に決める
+  const raceBand = getDistanceBand(cardResult.distance);
+
   // 馬ごとにデータを統合
   const horses: Horse[] = [];
   for (const [id, card] of Array.from(cardResult.horseMap.entries())) {
     const odds = oddsMap.get(id) ?? { odds: 0, fukuOddsMin: 0, fukuOddsMax: 0 };
     const lastThreeF = trainingMap.get(id) ?? 0;
+    const sire = sireMap.get(id);
 
     if (odds.odds === 0) {
       console.warn(`[scraper] 馬番${id}のオッズが取得できませんでした`);
+    }
+
+    // 血統フィットネス: 父馬の「当該コース×距離帯」連対率
+    //   芝/ダート切替 + 距離帯で該当セルが無ければ undefined → calculator で50フォールバック
+    let breedingFitness: number | undefined;
+    if (sire?.stats) {
+      const courseKey = cardResult.surface === 'turf' ? 'turf' : 'dirt';
+      const cell = sire.stats[courseKey][raceBand];
+      if (cell && cell.samples > 0) breedingFitness = cell.placeRate;
     }
 
     horses.push({
@@ -416,6 +447,10 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
       lastThreeF,
       // 前走クラス: prevRaceName があれば classify、なければ undefined（scorePrevClass が50で代替）
       prevRaceClass: card.prevRaceName ? classifyPrevRace(card.prevRaceName) : undefined,
+      father:   sire?.father,
+      fatherId: sire?.fatherId,
+      breedingFitness,
+      // breedingScore は calcAllScores で normalize して付与
     });
   }
 
