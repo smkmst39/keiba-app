@@ -13,13 +13,29 @@ import type { Race, RaceResult, VerificationData } from '@/lib/scraper/types';
 // ユーティリティ
 // ==========================================
 
-/** "HH:MM" 形式 + 今日の日付 → Date オブジェクト */
-function parseStartTime(timeStr: string): Date | null {
+/**
+ * "HH:MM" 形式 + 開催日(YYYYMMDD) → Date オブジェクト（JST）
+ * raceDate が渡された場合は正確な日時、なければ今日の日付でフォールバック
+ */
+function parseStartTime(timeStr: string, raceDate?: string): Date | null {
   const m = timeStr.match(/^(\d{1,2}):(\d{2})$/);
   if (!m) return null;
-  const d = new Date();
-  d.setHours(parseInt(m[1], 10), parseInt(m[2], 10), 0, 0);
-  return d;
+
+  const hh = m[1].padStart(2, '0');
+  const mm = m[2];
+
+  if (raceDate && raceDate.length === 8) {
+    // 開催日が分かる場合は正確なJST日時を生成
+    const y  = raceDate.slice(0, 4);
+    const mo = raceDate.slice(4, 6);
+    const d  = raceDate.slice(6, 8);
+    return new Date(`${y}-${mo}-${d}T${hh}:${mm}:00+09:00`);
+  }
+
+  // フォールバック: 今日の日付（raceDate が取れない場合）
+  const today = new Date();
+  today.setHours(parseInt(m[1], 10), parseInt(m[2], 10), 0, 0);
+  return today;
 }
 
 /** "1,060円" → 1060 */
@@ -151,7 +167,7 @@ export function RaceVerification({ race }: { race: Race }) {
 
     if (!race.startTime) return;
 
-    const startDate = parseStartTime(race.startTime);
+    const startDate = parseStartTime(race.startTime, race.raceDate);
     if (!startDate) return;
 
     const resultAvailableAt = new Date(startDate.getTime() + 30 * 60 * 1000);
@@ -171,7 +187,7 @@ export function RaceVerification({ race }: { race: Race }) {
       }, waitMs);
       return () => clearTimeout(timer);
     }
-  }, [race.raceId, race.startTime, fetchResult]);
+  }, [race.raceId, race.startTime, race.raceDate, fetchResult]);
 
   // ----------------------------------------
   // 表示条件: startTime がなければ非表示

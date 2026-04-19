@@ -39,6 +39,7 @@ export type Race = {
   fetchedAt: Date;                // データ取得日時
   mode?: RaceMode;               // 省略時は 'confirmed' として扱う
   startTime?: string;            // 発走時刻 "HH:MM" 形式（例: "15:40"）
+  raceDate?: string;             // 開催日 "YYYYMMDD"（例: "20260418"）
 };
 
 /** 馬券の券種 */

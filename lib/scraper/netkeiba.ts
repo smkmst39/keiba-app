@@ -92,14 +92,14 @@ async function fetchJson(url: string): Promise<unknown | null> {
  * @param url 取得先URL
  * @returns HTMLテキスト
  */
-async function fetchHtml(url: string): Promise<string | null> {
+async function fetchHtml(url: string, referer = 'https://race.netkeiba.com/'): Promise<string | null> {
   for (let attempt = 0; attempt <= RETRY_COUNT; attempt++) {
     try {
       const res = await axios.get<string>(url, {
         headers: {
           'User-Agent': USER_AGENT,
           // ページによってはRefererが必要
-          Referer: 'https://race.netkeiba.com/',
+          Referer: referer,
         },
         timeout: 10000,
         responseType: 'arraybuffer',
@@ -132,7 +132,8 @@ type RaceCardResult = {
   course: string;
   distance: number;
   surface: 'turf' | 'dirt';
-  startTime: string; // 発走時刻 "HH:MM"（取得できない場合は ""）
+  startTime: string;    // 発走時刻 "HH:MM"（取得できない場合は ""）
+  raceDate?: string;    // 開催日 "YYYYMMDD"（取得できない場合は undefined）
   /** 馬番をキーとした出馬表データ */
   horseMap: Map<number, {
     id: number;
@@ -182,6 +183,15 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
     const surface: 'turf' | 'dirt' = raceDataText.includes('ダート') ? 'dirt' : 'turf';
     const startTimeMatch = raceDataText.match(/(\d{1,2}:\d{2})発走/);
     const startTime = startTimeMatch ? startTimeMatch[1] : '';
+
+    // 開催日: .RaceData02 または <title> から "YYYY年M月D日" 形式を検索
+    const datePattern = /(\d{4})年(\d{1,2})月(\d{1,2})日/;
+    const raceData2Text = $('.RaceData02').first().text();
+    const titleText = $('title').first().text();
+    const dateMatch = datePattern.exec(raceData2Text) || datePattern.exec(titleText);
+    const raceDate = dateMatch
+      ? `${dateMatch[1]}${String(parseInt(dateMatch[2])).padStart(2, '0')}${String(parseInt(dateMatch[3])).padStart(2, '0')}`
+      : undefined;
 
     // 競馬場名はURLの場コード（3〜4桁目）から逆引き
     const course = courseFromRaceId(raceId);
@@ -233,7 +243,7 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
       return null;
     }
 
-    return { name, course, distance, surface, startTime, horseMap };
+    return { name, course, distance, surface, startTime, raceDate, horseMap };
   } catch (e) {
     console.error('[scraper] fetchRaceCard: パース失敗:', e);
     return null;
@@ -401,6 +411,7 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
     distance: cardResult.distance,
     surface: cardResult.surface,
     startTime: cardResult.startTime,
+    raceDate: cardResult.raceDate,
     horses,
     fetchedAt: new Date(),
   };
@@ -629,46 +640,56 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
 /**
  * レース結果ページをスクレイピングして着順・払戻金を返す
  *
- * 対象URL: https://race.netkeiba.com/race/result.html?race_id={raceId}
+ * 対象URL: https://db.netkeiba.com/race/{raceId}/
  * エンコーディング: EUC-JP（fetchHtml で自動変換）
  *
- * 結果テーブル: #All_Result_Table tr.HorseList
- *   着順: .Result_Num .Rank / 馬番: .Num.Txt_C div / 馬名: .HorseNameSpan
- *   タイム: .Time .RaceTime（最初の非空） / 後3F: .Time.BgOrange
+ * ※ race.netkeiba.com/race/result.html はJS描画のため静的HTMLにデータがない。
+ *   db.netkeiba.com は SSR で結果テーブルが取得できる。
  *
- * 払戻テーブル: table.Payout_Detail_Table
- *   tr.Tansho=単勝 / tr.Umaren=馬連 / tr.Fuku3=三連複 / tr.Tan3=三連単
+ * 結果テーブル: table.race_table_01 tr
+ *   列インデックス（td.eq(N)）: 着順=0 / 枠=1 / 馬番=2 / 馬名=3 / タイム=7
+ *   後3F: td.r3ml 内の span テキスト
+ *
+ * 払戻テーブル: table.pay_table_01
+ *   th.tan=単勝 / th.uren=馬連 / th.sanfuku=三連複 / th.santan=三連単
+ *   組み合わせ形式: "10 - 11"（馬連）/ "11 → 10 → 6"（三連単）
  */
 export async function fetchRaceResult(raceId: string): Promise<RaceResult | null> {
-  const url = `${BASE_RACE}/race/result.html?race_id=${raceId}`;
-  const html = await fetchHtml(url);
+  // db.netkeiba.com の SSR ページを使用（race.netkeiba.com は JS 描画のためデータなし）
+  const url = `https://db.netkeiba.com/race/${raceId}/`;
+  const html = await fetchHtml(url, 'https://db.netkeiba.com/');
   if (!html) return null;
 
   try {
     const $ = cheerio.load(html);
 
     // ----------------------------------------
-    // 着順テーブル
+    // 着順テーブル: table.race_table_01 tr
+    // 列インデックス: 着順=0, 枠=1, 馬番=2, 馬名=3, タイム=7
     // ----------------------------------------
     const results: RaceResult['results'] = [];
 
-    $('#All_Result_Table tr.HorseList').each((_i, row) => {
+    $('table.race_table_01 tr').each((_i, row) => {
       try {
-        const rank = parseInt($(row).find('.Result_Num .Rank').text().trim(), 10);
+        const tds = $(row).find('td');
+        if (tds.length < 8) return; // ヘッダ行をスキップ
+
+        const rank = parseInt(tds.eq(0).text().trim(), 10);
         if (isNaN(rank) || rank <= 0) return;
 
-        const horseId = parseInt($(row).find('td.Num.Txt_C div').text().trim(), 10);
-        const horseName = $(row).find('.HorseNameSpan').text().trim();
+        const horseId = parseInt(tds.eq(2).text().trim(), 10);
+        if (isNaN(horseId) || horseId <= 0) return;
 
-        // タイム: .RaceTime span の最初の非空テキスト（着差セルは空になる）
-        let time = '';
-        $(row).find('td.Time .RaceTime').each((_j, el) => {
-          const t = $(el).text().trim();
-          if (t && !time) time = t;
-        });
+        // 馬名: td.eq(3) の a タグの title 属性（または直接テキスト）
+        const horseName = tds.eq(3).find('a').attr('title')?.trim()
+          || tds.eq(3).text().trim();
 
-        // 後3F: td.Time.BgOrange（span なしの直接テキスト）
-        const lastThreeFText = $(row).find('td.Time.BgOrange').text().trim();
+        // タイム: td.eq(7)
+        const time = tds.eq(7).text().trim();
+
+        // 後3F: td.r3ml 内の span（または直接テキスト）
+        const lastThreeFText = $(row).find('td.r3ml span').text().trim()
+          || $(row).find('td.r3ml').text().trim();
         const lastThreeF = parseFloat(lastThreeFText) || 0;
 
         if (horseName) {
@@ -685,59 +706,55 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
     }
 
     // ----------------------------------------
-    // 払戻テーブル
+    // 払戻テーブル: table.pay_table_01
+    // th.tan=単勝 / th.uren=馬連 / th.sanfuku=三連複 / th.santan=三連単
+    // 組み合わせ文字列から馬番のみを順序保持で抽出
+    // "10 - 11" → [10, 11], "11 → 10 → 6" → [11, 10, 6]
     // ----------------------------------------
 
     /** 払戻金文字列（"1,060円"）を整数に変換 */
     const parsePayout = (text: string): number =>
       parseInt(text.replace(/[^0-9]/g, ''), 10) || 0;
 
-    // 単勝（Tansho）: Result td の div span から馬番を取得
+    /** 組み合わせ文字列から馬番リストを抽出（順序保持） */
+    const parseCombination = (text: string): number[] => {
+      const matches = text.match(/\d+/g);
+      return matches ? matches.map(Number).filter(n => n > 0) : [];
+    };
+
     const tan: RaceResult['payouts']['tan'] = [];
-    $('tr.Tansho').each((_i, row) => {
-      $(row).find('td.Result div span').each((_j, span) => {
-        const id = parseInt($(span).text().trim(), 10);
-        if (id > 0) {
-          const payout = parsePayout($(row).find('td.Payout span').first().text());
-          tan.push({ horseId: id, payout });
-        }
-      });
-    });
-
-    /** ul > li > span から馬番リストを取得するヘルパー */
-    const parseUlNums = (rowEl: any): number[] =>
-      $(rowEl).find('td.Result ul li span')
-        .map((_i, span) => parseInt($(span).text().trim(), 10))
-        .get()
-        .filter((n: number) => n > 0);
-
-    // 馬連（Umaren）
     const umaren: RaceResult['payouts']['umaren'] = [];
-    $('tr.Umaren').each((_i, row) => {
-      const nums = parseUlNums(row);
-      if (nums.length >= 2) {
-        const payout = parsePayout($(row).find('td.Payout span').first().text());
-        umaren.push({ combination: nums.join('-'), payout });
-      }
-    });
-
-    // 三連複（Fuku3）
     const sanfuku: RaceResult['payouts']['sanfuku'] = [];
-    $('tr.Fuku3').each((_i, row) => {
-      const nums = parseUlNums(row);
-      if (nums.length >= 3) {
-        const payout = parsePayout($(row).find('td.Payout span').first().text());
-        sanfuku.push({ combination: nums.join('-'), payout });
-      }
-    });
-
-    // 三連単（Tan3）
     const santan: RaceResult['payouts']['santan'] = [];
-    $('tr.Tan3').each((_i, row) => {
-      const nums = parseUlNums(row);
-      if (nums.length >= 3) {
-        const payout = parsePayout($(row).find('td.Payout span').first().text());
-        santan.push({ combination: nums.join('-'), payout });
+
+    $('table.pay_table_01 tr').each((_i, row) => {
+      const tds = $(row).find('td');
+      if (tds.length < 2) return;
+
+      if ($(row).find('th.tan').length > 0) {
+        // 単勝: 1列目が馬番、2列目が払戻金
+        const id = parseInt(tds.eq(0).text().trim(), 10);
+        if (id > 0) {
+          tan.push({ horseId: id, payout: parsePayout(tds.eq(1).text()) });
+        }
+      } else if ($(row).find('th.uren').length > 0) {
+        // 馬連: "10 - 11" → [10, 11]
+        const nums = parseCombination(tds.eq(0).text());
+        if (nums.length >= 2) {
+          umaren.push({ combination: nums.join('-'), payout: parsePayout(tds.eq(1).text()) });
+        }
+      } else if ($(row).find('th.sanfuku').length > 0) {
+        // 三連複: 昇順ソートして格納
+        const nums = parseCombination(tds.eq(0).text()).sort((a, b) => a - b);
+        if (nums.length >= 3) {
+          sanfuku.push({ combination: nums.join('-'), payout: parsePayout(tds.eq(1).text()) });
+        }
+      } else if ($(row).find('th.santan').length > 0) {
+        // 三連単: "11 → 10 → 6" → 順序保持で "11-10-6"
+        const nums = parseCombination(tds.eq(0).text());
+        if (nums.length >= 3) {
+          santan.push({ combination: nums.join('-'), payout: parsePayout(tds.eq(1).text()) });
+        }
       }
     });
 
