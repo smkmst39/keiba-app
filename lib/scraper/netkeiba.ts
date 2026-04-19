@@ -640,63 +640,69 @@ export async function fetchPreEntry(raceId: string): Promise<Race | null> {
 /**
  * レース結果ページをスクレイピングして着順・払戻金を返す
  *
- * 対象URL: https://db.netkeiba.com/race/{raceId}/
+ * 対象URL: https://race.netkeiba.com/race/result.html?race_id={raceId}
  * エンコーディング: EUC-JP（fetchHtml で自動変換）
  *
- * ※ race.netkeiba.com/race/result.html はJS描画のため静的HTMLにデータがない。
- *   db.netkeiba.com は SSR で結果テーブルが取得できる。
+ * ※ race.netkeiba.com は SSR で完全な結果 HTML を返す（JS描画はしていない）。
+ *   db.netkeiba.com は直近レースが propagate されるまで遅延があるため使わない。
  *
- * 結果テーブル: table.race_table_01 tr
- *   列インデックス（td.eq(N)）: 着順=0 / 枠=1 / 馬番=2 / 馬名=3 / タイム=7
- *   後3F: td.r3ml 内の span テキスト
+ * 結果テーブル: #All_Result_Table tr.HorseList
+ *   着順: td.Result_Num div.Rank / 馬番: td.Num.Txt_C div / 馬名: .HorseNameSpan
+ *   タイム: td.Time .RaceTime（最初の非空） / 後3F: td.Time.BgYellow
  *
- * 払戻テーブル: table.pay_table_01
- *   th.tan=単勝 / th.uren=馬連 / th.sanfuku=三連複 / th.santan=三連単
- *   組み合わせ形式: "10 - 11"（馬連）/ "11 → 10 → 6"（三連単）
+ * 払戻テーブル: table.Payout_Detail_Table
+ *   tr.Tansho=単勝 / tr.Umaren=馬連 / tr.Fuku3=三連複 / tr.Tan3=三連単
  */
 export async function fetchRaceResult(raceId: string): Promise<RaceResult | null> {
-  // db.netkeiba.com の SSR ページを使用（race.netkeiba.com は JS 描画のためデータなし）
-  const url = `https://db.netkeiba.com/race/${raceId}/`;
-  const html = await fetchHtml(url, 'https://db.netkeiba.com/');
+  const url = `${BASE_RACE}/result.html?race_id=${raceId}`;
+  const html = await fetchHtml(url);
   if (!html) return null;
 
   try {
     const $ = cheerio.load(html);
 
     // ----------------------------------------
-    // 着順テーブル: table.race_table_01 tr
-    // 列インデックス: 着順=0, 枠=1, 馬番=2, 馬名=3, タイム=7
+    // 着順テーブル
     // ----------------------------------------
     const results: RaceResult['results'] = [];
 
-    $('table.race_table_01 tr').each((_i, row) => {
+    $('#All_Result_Table tr.HorseList').each((_i, row) => {
       try {
-        const tds = $(row).find('td');
-        if (tds.length < 8) return; // ヘッダ行をスキップ
-
-        const rank = parseInt(tds.eq(0).text().trim(), 10);
+        const rank = parseInt($(row).find('td.Result_Num .Rank').text().trim(), 10);
         if (isNaN(rank) || rank <= 0) return;
 
-        const horseId = parseInt(tds.eq(2).text().trim(), 10);
+        // 馬番: td.Num.Txt_C の直下 div（枠番セルと区別するため Txt_C を条件に）
+        const horseId = parseInt($(row).find('td.Num.Txt_C div').first().text().trim(), 10);
         if (isNaN(horseId) || horseId <= 0) return;
 
-        // 馬名: td.eq(3) の a タグの title 属性（または直接テキスト）
-        const horseName = tds.eq(3).find('a').attr('title')?.trim()
-          || tds.eq(3).text().trim();
+        // 馬名: a[title] 属性が最も安全（HorseNameSpan にフォールバック）
+        const horseName = $(row).find('td.Horse_Info a').attr('title')?.trim()
+          || $(row).find('.HorseNameSpan').text().trim();
 
-        // タイム: td.eq(7)
-        const time = tds.eq(7).text().trim();
+        // タイム: td.Time span.RaceTime の最初の非空テキスト（着差セルは空）
+        let time = '';
+        $(row).find('td.Time .RaceTime').each((_j, el) => {
+          const t = $(el).text().trim();
+          if (t && !time) time = t;
+        });
 
-        // 後3F: td.r3ml 内の span（または直接テキスト）
-        const lastThreeFText = $(row).find('td.r3ml span').text().trim()
-          || $(row).find('td.r3ml').text().trim();
+        // 後3F: td.Time.BgYellow（最速）/ td.Time.BgOrange（2〜3位）/ 無印（その他）
+        // 馬名セル（td.Horse_Info）以降、タイム・着差以外の td.Time を最後のものとして取得
+        let lastThreeFText = $(row).find('td.Time.BgYellow, td.Time.BgOrange').text().trim();
+        if (!lastThreeFText) {
+          // ハイライト無しの行: 最後の td.Time（タイム・着差の次）から数値を取得
+          const timeCells = $(row).find('td.Time');
+          if (timeCells.length >= 3) {
+            lastThreeFText = $(timeCells[2]).text().trim();
+          }
+        }
         const lastThreeF = parseFloat(lastThreeFText) || 0;
 
         if (horseName) {
           results.push({ rank, horseId, horseName, time, lastThreeF });
         }
       } catch {
-        // パース失敗は無視
+        // 個別行のパース失敗は無視
       }
     });
 
@@ -706,55 +712,62 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
     }
 
     // ----------------------------------------
-    // 払戻テーブル: table.pay_table_01
-    // th.tan=単勝 / th.uren=馬連 / th.sanfuku=三連複 / th.santan=三連単
-    // 組み合わせ文字列から馬番のみを順序保持で抽出
-    // "10 - 11" → [10, 11], "11 → 10 → 6" → [11, 10, 6]
+    // 払戻テーブル
     // ----------------------------------------
 
     /** 払戻金文字列（"1,060円"）を整数に変換 */
     const parsePayout = (text: string): number =>
       parseInt(text.replace(/[^0-9]/g, ''), 10) || 0;
 
-    /** 組み合わせ文字列から馬番リストを抽出（順序保持） */
-    const parseCombination = (text: string): number[] => {
-      const matches = text.match(/\d+/g);
-      return matches ? matches.map(Number).filter(n => n > 0) : [];
+    // 単勝（Tansho）: td.Result の div span から馬番、td.Payout から金額
+    const tan: RaceResult['payouts']['tan'] = [];
+    $('tr.Tansho').each((_i, row) => {
+      $(row).find('td.Result div span').each((_j, span) => {
+        const id = parseInt($(span).text().trim(), 10);
+        if (id > 0) {
+          const payout = parsePayout($(row).find('td.Payout span').first().text());
+          tan.push({ horseId: id, payout });
+        }
+      });
+    });
+
+    /** td.Result の ul > li > span から馬番リストを順序保持で取得（馬連・三連複・三連単共通） */
+    const parseResultNums = (rowEl: any): number[] => {
+      const nums: number[] = [];
+      $(rowEl).find('td.Result ul li').each((_i, li) => {
+        const n = parseInt($(li).find('span').first().text().trim(), 10);
+        if (n > 0) nums.push(n);
+      });
+      return nums;
     };
 
-    const tan: RaceResult['payouts']['tan'] = [];
+    // 馬連（Umaren）
     const umaren: RaceResult['payouts']['umaren'] = [];
+    $('tr.Umaren').each((_i, row) => {
+      const nums = parseResultNums(row);
+      if (nums.length >= 2) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        umaren.push({ combination: nums.join('-'), payout });
+      }
+    });
+
+    // 三連複（Fuku3）: 昇順に揃える
     const sanfuku: RaceResult['payouts']['sanfuku'] = [];
+    $('tr.Fuku3').each((_i, row) => {
+      const nums = parseResultNums(row).sort((a, b) => a - b);
+      if (nums.length >= 3) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        sanfuku.push({ combination: nums.join('-'), payout });
+      }
+    });
+
+    // 三連単（Tan3）: 順序保持（1着→2着→3着）
     const santan: RaceResult['payouts']['santan'] = [];
-
-    $('table.pay_table_01 tr').each((_i, row) => {
-      const tds = $(row).find('td');
-      if (tds.length < 2) return;
-
-      if ($(row).find('th.tan').length > 0) {
-        // 単勝: 1列目が馬番、2列目が払戻金
-        const id = parseInt(tds.eq(0).text().trim(), 10);
-        if (id > 0) {
-          tan.push({ horseId: id, payout: parsePayout(tds.eq(1).text()) });
-        }
-      } else if ($(row).find('th.uren').length > 0) {
-        // 馬連: "10 - 11" → [10, 11]
-        const nums = parseCombination(tds.eq(0).text());
-        if (nums.length >= 2) {
-          umaren.push({ combination: nums.join('-'), payout: parsePayout(tds.eq(1).text()) });
-        }
-      } else if ($(row).find('th.sanfuku').length > 0) {
-        // 三連複: 昇順ソートして格納
-        const nums = parseCombination(tds.eq(0).text()).sort((a, b) => a - b);
-        if (nums.length >= 3) {
-          sanfuku.push({ combination: nums.join('-'), payout: parsePayout(tds.eq(1).text()) });
-        }
-      } else if ($(row).find('th.santan').length > 0) {
-        // 三連単: "11 → 10 → 6" → 順序保持で "11-10-6"
-        const nums = parseCombination(tds.eq(0).text());
-        if (nums.length >= 3) {
-          santan.push({ combination: nums.join('-'), payout: parsePayout(tds.eq(1).text()) });
-        }
+    $('tr.Tan3').each((_i, row) => {
+      const nums = parseResultNums(row);
+      if (nums.length >= 3) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        santan.push({ combination: nums.join('-'), payout });
       }
     });
 
