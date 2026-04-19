@@ -272,6 +272,29 @@ export function calcAllScores(race: Race, jockeyRates: Map<string, number> = new
  * @param horse 対象馬（score が付与済みであること）
  * @param allHorses 全出走馬（score 付与済み・AVG_SCORE 計算に使用）
  */
+/**
+ * オッズ帯別の補正ウェイト
+ *
+ * 大穴馬ほどスコア補正の効果を弱め、EV が過大評価されないようにする。
+ *   人気馬(〜5倍)    : 1.00  フル補正
+ *   中人気(〜10倍)   : 0.80
+ *   中穴 (〜20倍)    : 0.50
+ *   穴 (〜50倍)      : 0.20
+ *   大穴 (50倍超)    : 0.05  ほぼ補正なし
+ *
+ * 背景: 108レースのバックテストで EV≥1.0 判定の 51% が大穴(20倍〜)だが
+ *       実勝率は 1.6% しかなく、「EV≥1.0」フィルタが機能していなかった。
+ *       市場確率 1/200 (=0.5%) をスコア補正で +20% しても 0.6% にしかならないのに
+ *       0.6% × 200 = 1.2 と見かけ上高EVになる構造を緩和する。
+ */
+function getOddsWeight(odds: number): number {
+  if (odds <= 5)  return 1.00;
+  if (odds <= 10) return 0.80;
+  if (odds <= 20) return 0.50;
+  if (odds <= 50) return 0.20;
+  return 0.05;
+}
+
 export function calcAdjProb(horse: Horse, allHorses: Horse[]): number {
   if (horse.odds <= 0) return 0;
 
@@ -282,8 +305,13 @@ export function calcAdjProb(horse: Horse, allHorses: Horse[]): number {
 
   if (avg === 0) return mktProb;
 
-  const deviation = ((horse.score ?? 50) - avg) / avg;
-  const corr      = clamp(deviation * CORRECTION_FACTOR, -MAX_CORRECTION, MAX_CORRECTION);
+  const deviation  = ((horse.score ?? 50) - avg) / avg;
+  const oddsWeight = getOddsWeight(horse.odds);
+  const corr       = clamp(
+    deviation * CORRECTION_FACTOR * oddsWeight,
+    -MAX_CORRECTION,
+    MAX_CORRECTION,
+  );
   return mktProb * (1 + corr);
 }
 
