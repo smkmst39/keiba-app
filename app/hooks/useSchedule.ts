@@ -54,9 +54,9 @@ async function fetchDaySchedule(date: string): Promise<DaySchedule | null> {
 
 /**
  * 開催スケジュールを取得するフック
- * - 過去7日間〜翌々日（10日分）を先頭から順次取得
- * - 打ち切りなし。開催ありの日をすべて収集する
- * - 見つかった都度 UI を更新して応答性を高める
+ * - 過去7日間〜翌々日（10日分）を並列取得
+ * - 結果が届き次第 UI に反映（日付の昇順を維持）
+ * - 逐次取得だと非開催日のフェッチ待ちで数十秒かかるため並列化
  */
 export function useSchedule(): UseScheduleResult {
   const [schedule, setSchedule] = useState<DaySchedule[]>([]);
@@ -72,20 +72,27 @@ export function useSchedule(): UseScheduleResult {
       setSchedule([]);
 
       const dates = getScheduleDates();
-      const found: DaySchedule[] = [];
+      let foundCount = 0;
 
-      for (const date of dates) {
-        if (cancelled) return;
-        const day = await fetchDaySchedule(date);
-        if (day) {
-          found.push(day);
-          // 見つかった都度 UI を更新して応答性を高める
-          if (!cancelled) setSchedule([...found]);
-        }
-      }
+      // 全日付を並列フェッチ。完了した日付から即座に UI を更新
+      await Promise.all(
+        dates.map((date) =>
+          fetchDaySchedule(date).then((day) => {
+            if (day && !cancelled) {
+              foundCount++;
+              // 日付昇順を維持しながら追加
+              setSchedule((prev) => {
+                const next = [...prev, day];
+                next.sort((a, b) => a.date.localeCompare(b.date));
+                return next;
+              });
+            }
+          })
+        )
+      );
 
       if (!cancelled) {
-        if (found.length === 0) setError('開催スケジュールの取得に失敗しました');
+        if (foundCount === 0) setError('開催スケジュールの取得に失敗しました');
         setIsLoading(false);
       }
     };

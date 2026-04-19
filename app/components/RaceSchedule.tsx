@@ -181,7 +181,7 @@ const spinnerStyle: React.CSSProperties = {
 // メインコンポーネント
 // ==========================================
 export function RaceSchedule({ onRaceLoaded }: Props) {
-  // useSchedule は引数なし（過去7日〜翌々日の10日分を内部で順次取得）
+  // useSchedule は引数なし（過去7日〜翌々日の10日分を内部で並列取得）
   const { schedule, isLoading, error } = useSchedule();
 
   // schedule は開催ありの日のみ格納されているのでそのまま availableDates として使う
