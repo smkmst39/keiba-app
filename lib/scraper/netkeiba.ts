@@ -705,7 +705,6 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
     });
 
     /** ul > li > span から馬番リストを取得するヘルパー */
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const parseUlNums = (rowEl: any): number[] =>
       $(rowEl).find('td.Result ul li span')
         .map((_i, span) => parseInt($(span).text().trim(), 10))
