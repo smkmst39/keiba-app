@@ -421,7 +421,22 @@ export function RaceReport({ race }: Props) {
 
     const tan = honmei;
     const umaren = taikou ? { horses: [honmei, taikou], odds: estComboOdds(honmei, taikou, undefined, 'umaren') } : null;
-    const wide   = ana    ? { horses: [honmei, ana],    odds: estComboOdds(honmei, ana,    undefined, 'wide')   } : null;
+
+    // ワイドは戦略W1 (EV上位3頭BOX) を採用 — 795R バックテストで回収率 127.3% (推定値)
+    //   3通り購入 (A-B, A-C, B-C) = 300円/R
+    const wideByEV = [...race.horses]
+      .filter((h) => h.odds > 0)
+      .sort((a, b) => (b.ev ?? 0) - (a.ev ?? 0))
+      .slice(0, 3);
+    const wide = wideByEV.length >= 3
+      ? {
+          horses: wideByEV,
+          points: 3, // 3C2 = 3通り
+          odds:   estComboOdds(wideByEV[0], wideByEV[1], wideByEV[2], 'wide'),
+        }
+      : ana
+        ? { horses: [honmei, ana], points: 1, odds: estComboOdds(honmei, ana, undefined, 'wide') }
+        : null;
 
     // ---- 戦略4: ハイブリッド軸+ひも ----
     const byEV = [...race.horses]
@@ -656,11 +671,12 @@ export function RaceReport({ race }: Props) {
                 type="umaren"
               />
             )}
-            {/* ワイド */}
+            {/* ワイド (戦略W1: EV上位3頭BOX) */}
             {betRecs.wide && (
               <BetRecommendCard
                 label="ワイド"
                 horses={betRecs.wide.horses}
+                points={betRecs.wide.points}
                 estOdds={betRecs.wide.odds}
                 ev={betRecs.avgEV(betRecs.wide.horses)}
                 type="wide"

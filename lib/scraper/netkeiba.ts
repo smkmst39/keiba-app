@@ -804,6 +804,29 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
       }
     });
 
+    // ワイド（Wide）: td.Result に 3つの <ul> があり、各 ul が1ペア
+    //   td.Payout span は "1,050円<br>690円<br>1,550円" の形式で3値を保持
+    const wide: NonNullable<RaceResult['payouts']['wide']> = [];
+    $('tr.Wide').each((_i, row) => {
+      // 各 ul ごとにペア抽出
+      const pairs: number[][] = [];
+      $(row).find('td.Result ul').each((_j, ul) => {
+        const nums: number[] = [];
+        $(ul).find('li').each((_k, li) => {
+          const n = parseInt($(li).find('span').first().text().trim(), 10);
+          if (n > 0) nums.push(n);
+        });
+        if (nums.length >= 2) pairs.push(nums.sort((a, b) => a - b));
+      });
+      // 払戻金: td.Payout span のテキストを <br> で分割
+      const raw = $(row).find('td.Payout span').first().html() ?? '';
+      const parts = raw.split(/<br\s*\/?>/i).map((s) => parsePayout(s));
+      pairs.forEach((p, k) => {
+        const payout = parts[k] ?? 0;
+        if (payout > 0) wide.push({ combination: p.join('-'), payout });
+      });
+    });
+
     // 三連複（Fuku3）: 昇順に揃える
     const sanfuku: RaceResult['payouts']['sanfuku'] = [];
     $('tr.Fuku3').each((_i, row) => {
@@ -825,7 +848,7 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
     });
 
     console.log(`[scraper] fetchRaceResult: ${results.length}頭分の着順・払戻取得 raceId=${raceId}`);
-    return { raceId, results, payouts: { tan, umaren, sanfuku, santan } };
+    return { raceId, results, payouts: { tan, umaren, wide, sanfuku, santan } };
 
   } catch (e) {
     console.error('[scraper] fetchRaceResult: パース失敗:', e);

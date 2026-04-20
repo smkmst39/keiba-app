@@ -147,6 +147,7 @@ export type RaceResultItem = {
 export type RacePayouts = {
   tan:    { horseId: number; payout: number }[];                // 単勝
   umaren: { combination: string; payout: number }[];            // 馬連
+  wide?:  { combination: string; payout: number }[];            // ワイド（任意：Phase 2D以降）
   sanfuku: { combination: string; payout: number }[];           // 三連複
   santan:  { combination: string; payout: number }[];           // 三連単
 };
