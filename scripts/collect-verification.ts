@@ -31,12 +31,59 @@ import { calcAllScores } from '../lib/score/calculator';
 // 定数
 // ----------------------------------------
 
-const TARGET_DATES = ['20260412', '20260418', '20260419'];
+/**
+ * デフォルトの収集対象日付 (過去約 5 ヶ月の土日・約30日分 ≒ 1080レース)
+ * 2026年4月〜2025年12月の JRA 開催日（土日）
+ */
+const DEFAULT_TARGET_DATES = [
+  // 2026-04
+  '20260404', '20260405', '20260412', '20260418', '20260419',
+  // 2026-03
+  '20260328', '20260329',
+  '20260321', '20260322',
+  '20260314', '20260315',
+  '20260307', '20260308',
+  // 2026-02
+  '20260228', '20260301',
+  '20260221', '20260222',
+  '20260214', '20260215',
+  '20260207', '20260208',
+  '20260201', '20260202',
+  // 2026-01
+  '20260125', '20260126',
+  '20260118', '20260119',
+  '20260111', '20260112',
+  '20260105',
+  // 2025-12
+  '20251228',
+  '20251221', '20251222',
+  '20251214', '20251215',
+  '20251207', '20251208',
+] as const;
 
-// netkeiba アクセス間隔（ミリ秒）— 1秒以上を厳守
-const REQUEST_INTERVAL_MS = 1500;
+// netkeiba アクセス間隔（ミリ秒）— Phase 2E: 2.0秒以上に変更
+const REQUEST_INTERVAL_MS = Number(process.env.SCRAPE_INTERVAL_MS ?? 2000);
+
+/** 1バッチあたりの最大レース数 (200超えると WAF 検知リスク) */
+const BATCH_MAX_SIZE = 200;
+
+/** バッチ間の休憩時間（ミリ秒、10分） */
+const BATCH_REST_MS = 10 * 60 * 1000;
+
+/** 403/400 エラー検出時の停止待機 (3時間) */
+const BLOCK_RECOVERY_MS = 3 * 60 * 60 * 1000;
 
 const OUT_DIR = path.resolve(__dirname, 'verification');
+const LOG_PATH = path.join(OUT_DIR, 'collect.log');
+
+/** 進捗ログ出力のインターバル (レース数) */
+const PROGRESS_LOG_EVERY = 30;
+
+/** 深夜帯チェック（2-6時は実行禁止） */
+function isForbiddenTime(): boolean {
+  const hour = new Date().getHours();
+  return hour >= 2 && hour < 6;
+}
 
 const USER_AGENT =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
@@ -260,66 +307,178 @@ async function processRace(raceId: string, date: string): Promise<ProcessOutcome
 // メイン
 // ----------------------------------------
 
+/** CLI 引数から収集対象日付を解決する (--dates 20260412,20260418 形式。未指定はデフォルト) */
+function resolveTargetDates(): string[] {
+  const args = process.argv.slice(2);
+  const idx = args.indexOf('--dates');
+  if (idx >= 0 && args[idx + 1]) {
+    const dates = args[idx + 1].split(',').map((s) => s.trim()).filter((s) => /^\d{8}$/.test(s));
+    if (dates.length === 0) {
+      console.error('--dates に有効なYYYYMMDD形式の日付がありません');
+      process.exit(1);
+    }
+    return dates;
+  }
+  return [...DEFAULT_TARGET_DATES];
+}
+
+/** 既に保存済みかチェック (raceId 単位で存在するか) */
+async function isAlreadySaved(date: string, raceId: string): Promise<boolean> {
+  try {
+    await fs.access(path.join(OUT_DIR, `${date}_${raceId}.json`));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** ログファイルに1行追記 */
+async function appendLog(line: string): Promise<void> {
+  const stamped = `[${new Date().toISOString()}] ${line}\n`;
+  await fs.appendFile(LOG_PATH, stamped, 'utf-8');
+}
+
 async function main(): Promise<void> {
+  // 深夜帯禁止チェック
+  if (isForbiddenTime()) {
+    console.error('⚠️  現在 2-6 時は実行禁止時間帯です (CLAUDE.md 参照)。処理を中断します。');
+    process.exit(1);
+  }
+
   await fs.mkdir(OUT_DIR, { recursive: true });
+  const targetDates = resolveTargetDates();
+
+  await appendLog(`=== 収集開始 対象 ${targetDates.length} 日 / アクセス間隔 ${REQUEST_INTERVAL_MS}ms / バッチ${BATCH_MAX_SIZE}R+休憩${BATCH_REST_MS/60000}分 ===`);
 
   const summary = {
-    savedCount: 0,
-    skipped: [] as Array<{ raceId: string; date: string; reason: string }>,
+    savedCount:   0,
+    skippedDone:  0, // 既存ファイルによるスキップ
+    errorSkipped: [] as Array<{ raceId: string; date: string; reason: string }>,
+    consecutive400: 0, // 連続 400/403 カウンタ (サーキットブレーカ用)
   };
 
-  for (const date of TARGET_DATES) {
+  // ---- Pass 1: 全日付のスケジュールを集めて総レース数を算出 ----
+  type Task = { raceId: string; date: string; venue: string; raceNum: number; raceName: string };
+  const allTasks: Task[] = [];
+
+  for (const date of targetDates) {
     console.log(`\n=== ${date} のスケジュール取得中… ===`);
     const venues = await scrapeSchedule(date);
     await sleep(REQUEST_INTERVAL_MS);
-
     if (!venues || venues.length === 0) {
       console.log(`  → ${date}: 開催なし or 取得失敗。スキップ`);
+      await appendLog(`SCHEDULE_EMPTY ${date}`);
+      continue;
+    }
+    for (const v of venues) {
+      for (const r of v.races) {
+        allTasks.push({ raceId: r.raceId, date, venue: v.name, raceNum: r.raceNum, raceName: r.raceName });
+      }
+    }
+    console.log(`  → ${date}: ${venues.length}競馬場 / ${venues.reduce((s, v) => s + v.races.length, 0)}レース`);
+  }
+
+  const total = allTasks.length;
+  console.log(`\n==========================================`);
+  console.log(`  ${targetDates.length} 日分 / 合計 ${total} レースを処理します`);
+  console.log(`==========================================\n`);
+  await appendLog(`TOTAL_TASKS ${total}`);
+
+  // ---- Pass 2: 各レースを処理（既存はスキップ）----
+  const startMs = Date.now();
+  let processedThisRun = 0;
+  let batchCounter = 0; // バッチ内カウンタ (BATCH_MAX_SIZE で休憩)
+
+  for (let i = 0; i < allTasks.length; i++) {
+    const t = allTasks[i];
+    const idx = i + 1;
+
+    // 既存ファイルはスキップ（再開可能にする）
+    if (await isAlreadySaved(t.date, t.raceId)) {
+      summary.skippedDone++;
       continue;
     }
 
-    const raceIds = venues.flatMap((v) =>
-      v.races.map((r) => ({ raceId: r.raceId, venue: v.name, raceNum: r.raceNum, raceName: r.raceName })),
-    );
-    console.log(`  → ${date}: ${venues.length}競馬場 / 全${raceIds.length}レース`);
+    // バッチ休憩: BATCH_MAX_SIZE レース処理したら 10 分休憩
+    if (batchCounter > 0 && batchCounter % BATCH_MAX_SIZE === 0) {
+      const restMin = BATCH_REST_MS / 60000;
+      console.log(`\n💤 バッチ休憩中... (${restMin} 分)  現在 ${summary.savedCount} R 保存済み`);
+      await appendLog(`BATCH_REST start for ${restMin}min at race ${idx}/${total}`);
+      await sleep(BATCH_REST_MS);
+      console.log(`再開: [${idx}/${total}]`);
+      await appendLog(`BATCH_REST end, resuming at ${idx}/${total}`);
+    }
 
-    for (const { raceId, venue, raceNum, raceName } of raceIds) {
-      const label = `${date} ${venue}${raceNum}R ${raceName} (raceId=${raceId})`;
-      process.stdout.write(`  [${label}] 処理中… `);
+    processedThisRun++;
+    batchCounter++;
 
-      const outcome = await processRace(raceId, date);
+    const outcome = await processRace(t.raceId, t.date);
 
-      if (outcome.status === 'saved') {
-        summary.savedCount++;
-        console.log(`✓ 保存`);
+    if (outcome.status === 'saved') {
+      summary.savedCount++;
+      summary.consecutive400 = 0;
+      await appendLog(`SAVED ${t.date} ${t.raceId} ${t.venue}${t.raceNum}R ${t.raceName}`);
+    } else {
+      summary.errorSkipped.push({ raceId: t.raceId, date: t.date, reason: outcome.reason });
+      await appendLog(`ERROR ${t.date} ${t.raceId}: ${outcome.reason}`);
+      console.log(`  [${idx}/${total}] ${t.date} ${t.raceId} ✗ ${outcome.reason}`);
+
+      // サーキットブレーカ: 連続 10回エラーなら WAF ブロックと判断して停止
+      const isBlockish = /400|403|Request failed/i.test(outcome.reason);
+      if (isBlockish) {
+        summary.consecutive400++;
+        if (summary.consecutive400 >= 10) {
+          console.error(`\n🚫 連続10回の 400/403 エラーを検知。netkeiba からブロックされた可能性が高い。`);
+          console.error(`   3時間後の再開のため処理を中断します。残り ${total - idx} レース。`);
+          await appendLog(`CIRCUIT_BREAKER_TRIP at ${idx}/${total} — 10 consecutive 4xx errors`);
+          break;
+        }
       } else {
-        summary.skipped.push({ raceId, date, reason: outcome.reason });
-        console.log(`✗ スキップ (${outcome.reason})`);
+        summary.consecutive400 = 0;
       }
+    }
+
+    // 30レースごとに進捗ログ
+    if (processedThisRun % PROGRESS_LOG_EVERY === 0) {
+      const elapsedMs = Date.now() - startMs;
+      const avgMsPerRace = elapsedMs / processedThisRun;
+      const remaining = total - idx;
+      const etaMin = Math.round((remaining * avgMsPerRace) / 60000);
+      const elapsedMin = Math.round(elapsedMs / 60000);
+      console.log(
+        `[${idx}/${total}] ${t.date} ${t.raceId} を処理中... ` +
+        `経過${elapsedMin}分 / 残り約${etaMin}分 / 保存${summary.savedCount} / 既存スキップ${summary.skippedDone} / エラー${summary.errorSkipped.length}`,
+      );
+      await appendLog(
+        `PROGRESS ${idx}/${total} saved=${summary.savedCount} existing=${summary.skippedDone} errors=${summary.errorSkipped.length} eta=${etaMin}min`,
+      );
     }
   }
 
   // ----------------------------------------
   // 集計レポート
   // ----------------------------------------
+  const totalMin = Math.round((Date.now() - startMs) / 60000);
   console.log('\n==========================================');
   console.log('  集計');
   console.log('==========================================');
-  console.log(`保存できたレース数: ${summary.savedCount}`);
-  console.log(`スキップしたレース数: ${summary.skipped.length}`);
-  if (summary.skipped.length > 0) {
-    console.log('\nスキップ内訳:');
-    for (const s of summary.skipped) {
+  console.log(`処理対象           : ${total} レース (${targetDates.length} 日)`);
+  console.log(`今回新規保存        : ${summary.savedCount} レース`);
+  console.log(`既存ファイルでスキップ: ${summary.skippedDone} レース`);
+  console.log(`エラーでスキップ    : ${summary.errorSkipped.length} レース`);
+  console.log(`実行時間           : 約 ${totalMin} 分`);
+  if (summary.errorSkipped.length > 0) {
+    console.log('\nエラー内訳:');
+    for (const s of summary.errorSkipped) {
       console.log(`  - ${s.date} ${s.raceId}: ${s.reason}`);
     }
   }
 
-  // 保存済みファイル一覧
+  // 保存済みファイル総数
   const files = (await fs.readdir(OUT_DIR))
-    .filter((f) => f.endsWith('.json'))
-    .sort();
-  console.log(`\nscripts/verification/ 内のファイル (${files.length}件):`);
-  for (const f of files) console.log(`  - ${f}`);
+    .filter((f) => f.endsWith('.json') && f !== 'backtest_report.md');
+  console.log(`\nscripts/verification/ 内の総ファイル数: ${files.length} 件`);
+  await appendLog(`=== 収集終了 saved=${summary.savedCount} existing=${summary.skippedDone} errors=${summary.errorSkipped.length} total_files=${files.length} ===`);
 }
 
 main().catch((err) => {

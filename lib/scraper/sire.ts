@@ -233,35 +233,35 @@ export type SireStatsByHorseNum = Map<
  *
  * 取得に失敗した馬はマップに空レコードを入れる (スコア側で 50 フォールバック)。
  */
+/** sire 取得の HTTP バースト抑制のためのスリープ (ms)。キャッシュヒットならスキップされる想定 */
+const SIRE_INTRA_DELAY_MS = Number(process.env.SIRE_INTRA_DELAY_MS ?? 300);
+
+const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms));
+
 export async function fetchSireStatsForHorses(
   horses: Pick<Horse, 'id' | 'horseId'>[],
 ): Promise<SireStatsByHorseNum> {
   const result: SireStatsByHorseNum = new Map();
 
-  await Promise.all(
-    horses.map(async (h) => {
-      if (!h.horseId) {
-        result.set(h.id, {});
-        return;
-      }
-      try {
-        const father = await fetchFatherFromHorseId(h.horseId);
-        if (!father || !father.id) {
-          result.set(h.id, { father: father?.name });
-          return;
-        }
+  // 直列処理: キャッシュヒットなら即座、ミスなら HTTP + 短い sleep で次の馬へ
+  // → 18頭 × 2 HTTP を Promise.all すると WAF に burst と判定されかねないため
+  for (const h of horses) {
+    if (!h.horseId) { result.set(h.id, {}); continue; }
+    try {
+      const father = await fetchFatherFromHorseId(h.horseId);
+      if (!father) { result.set(h.id, {}); }
+      else if (!father.id) { result.set(h.id, { father: father.name }); }
+      else {
         const stats = await fetchSireStats(father.id, father.name);
-        result.set(h.id, {
-          father: father.name,
-          fatherId: father.id,
-          stats: stats ?? undefined,
-        });
-      } catch (e) {
-        console.warn(`[sire] fetchSireStatsForHorses: 馬番${h.id} 失敗:`, e);
-        result.set(h.id, {});
+        result.set(h.id, { father: father.name, fatherId: father.id, stats: stats ?? undefined });
       }
-    }),
-  );
+    } catch (e) {
+      console.warn(`[sire] fetchSireStatsForHorses: 馬番${h.id} 失敗:`, e);
+      result.set(h.id, {});
+    }
+    // キャッシュヒット時でも軽量な遅延を入れて連続アクセスを抑制
+    if (SIRE_INTRA_DELAY_MS > 0) await sleep(SIRE_INTRA_DELAY_MS);
+  }
 
   return result;
 }

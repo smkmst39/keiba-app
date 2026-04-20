@@ -143,11 +143,14 @@ export type RaceResultItem = {
   lastThreeF: number; // 後3F（秒、例: 34.1）
 };
 
-/** 払戻金データ */
+/** 払戻金データ（全8券種。後方互換のため新規追加分は任意） */
 export type RacePayouts = {
-  tan:    { horseId: number; payout: number }[];                // 単勝
-  umaren: { combination: string; payout: number }[];            // 馬連
-  wide?:  { combination: string; payout: number }[];            // ワイド（任意：Phase 2D以降）
+  tan:     { horseId: number; payout: number }[];               // 単勝
+  fuku?:   { horseId: number; payout: number }[];               // 複勝（Phase 2D以降）
+  waku?:   { combination: string; payout: number }[];           // 枠連（Phase 2D以降）
+  umaren:  { combination: string; payout: number }[];           // 馬連
+  umatan?: { combination: string; payout: number }[];           // 馬単（Phase 2D以降）
+  wide?:   { combination: string; payout: number }[];           // ワイド（Phase 2D以降）
   sanfuku: { combination: string; payout: number }[];           // 三連複
   santan:  { combination: string; payout: number }[];           // 三連単
 };

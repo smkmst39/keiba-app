@@ -30,8 +30,24 @@ export const MOCK_RESULT: RaceResult = {
     tan: [
       { horseId: 12, payout: 680 },
     ],
+    fuku: [
+      { horseId: 12, payout: 220 },
+      { horseId:  5, payout: 180 },
+      { horseId:  8, payout: 240 },
+    ],
+    waku: [
+      { combination: '3-6', payout: 1350 },
+    ],
     umaren: [
       { combination: '5-12', payout: 1040 },
+    ],
+    umatan: [
+      { combination: '12-5', payout: 2480 },
+    ],
+    wide: [
+      { combination: '5-12', payout:  480 },
+      { combination: '8-12', payout:  620 },
+      { combination: '5-8',  payout:  540 },
     ],
     sanfuku: [
       { combination: '5-8-12', payout: 3150 },

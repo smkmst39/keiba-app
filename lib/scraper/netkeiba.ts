@@ -405,15 +405,18 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
     return null;
   }
 
-  // 血統統計を並列取得（出馬表の horseId を使う。キャッシュがあれば即座に返る）
-  // 取得失敗しても致命的ではないためエラーを飲む。
+  // 血統統計は任意: DISABLE_SIRE=true で無効化できる（大規模収集時のHTTP負荷軽減用）
+  // Phase 2B の selector は db.netkeiba の URL 構造と実際の血統ページに齟齬があるため
+  // 現状では取得成功率が低い (要追加調査・別フェーズ対応)
   let sireMap: SireStatsByHorseNum = new Map();
-  try {
-    const horsesForSire = Array.from(cardResult.horseMap.values())
-      .map((h) => ({ id: h.id, horseId: h.horseId }));
-    sireMap = await fetchSireStatsForHorses(horsesForSire);
-  } catch (e) {
-    console.warn('[scraper] 血統統計取得失敗 (スキップ):', e);
+  if (process.env.DISABLE_SIRE !== 'true') {
+    try {
+      const horsesForSire = Array.from(cardResult.horseMap.values())
+        .map((h) => ({ id: h.id, horseId: h.horseId }));
+      sireMap = await fetchSireStatsForHorses(horsesForSire);
+    } catch (e) {
+      console.warn('[scraper] 血統統計取得失敗 (スキップ):', e);
+    }
   }
 
   // 血統フィットネス計算に使う「レースの条件」を先に決める
@@ -794,6 +797,33 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
       return nums;
     };
 
+    // 複勝（Fukusho）: td.Result に div がフラットに並び、馬番を持つ div と空 div が交互に配置
+    //   td.Payout span の html() を <br> 区切りで3値取得
+    const fuku: NonNullable<RaceResult['payouts']['fuku']> = [];
+    $('tr.Fukusho').each((_i, row) => {
+      const ids: number[] = [];
+      $(row).find('td.Result div span').each((_j, sp) => {
+        const n = parseInt($(sp).text().trim(), 10);
+        if (n > 0) ids.push(n);
+      });
+      const rawPay = $(row).find('td.Payout span').first().html() ?? '';
+      const parts = rawPay.split(/<br\s*\/?>/i).map((s) => parsePayout(s));
+      ids.forEach((id, k) => {
+        const payout = parts[k] ?? 0;
+        if (payout > 0) fuku.push({ horseId: id, payout });
+      });
+    });
+
+    // 枠連（Wakuren）: td.Result に 1 つの <ul>、li>span に 枠番 2 個。td.Payout は単一値。
+    const waku: NonNullable<RaceResult['payouts']['waku']> = [];
+    $('tr.Wakuren').each((_i, row) => {
+      const nums = parseResultNums(row).sort((a, b) => a - b);
+      if (nums.length >= 2) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        if (payout > 0) waku.push({ combination: nums.join('-'), payout });
+      }
+    });
+
     // 馬連（Umaren）
     const umaren: RaceResult['payouts']['umaren'] = [];
     $('tr.Umaren').each((_i, row) => {
@@ -804,11 +834,20 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
       }
     });
 
+    // 馬単（Umatan）: ul > li > span に 1着・2着の順序。td.Payout は単一値。
+    const umatan: NonNullable<RaceResult['payouts']['umatan']> = [];
+    $('tr.Umatan').each((_i, row) => {
+      const nums = parseResultNums(row); // 順序保持
+      if (nums.length >= 2) {
+        const payout = parsePayout($(row).find('td.Payout span').first().text());
+        if (payout > 0) umatan.push({ combination: nums.join('-'), payout });
+      }
+    });
+
     // ワイド（Wide）: td.Result に 3つの <ul> があり、各 ul が1ペア
     //   td.Payout span は "1,050円<br>690円<br>1,550円" の形式で3値を保持
     const wide: NonNullable<RaceResult['payouts']['wide']> = [];
     $('tr.Wide').each((_i, row) => {
-      // 各 ul ごとにペア抽出
       const pairs: number[][] = [];
       $(row).find('td.Result ul').each((_j, ul) => {
         const nums: number[] = [];
@@ -818,9 +857,8 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
         });
         if (nums.length >= 2) pairs.push(nums.sort((a, b) => a - b));
       });
-      // 払戻金: td.Payout span のテキストを <br> で分割
-      const raw = $(row).find('td.Payout span').first().html() ?? '';
-      const parts = raw.split(/<br\s*\/?>/i).map((s) => parsePayout(s));
+      const rawPay = $(row).find('td.Payout span').first().html() ?? '';
+      const parts = rawPay.split(/<br\s*\/?>/i).map((s) => parsePayout(s));
       pairs.forEach((p, k) => {
         const payout = parts[k] ?? 0;
         if (payout > 0) wide.push({ combination: p.join('-'), payout });
@@ -848,7 +886,11 @@ export async function fetchRaceResult(raceId: string): Promise<RaceResult | null
     });
 
     console.log(`[scraper] fetchRaceResult: ${results.length}頭分の着順・払戻取得 raceId=${raceId}`);
-    return { raceId, results, payouts: { tan, umaren, wide, sanfuku, santan } };
+    return {
+      raceId,
+      results,
+      payouts: { tan, fuku, waku, umaren, umatan, wide, sanfuku, santan },
+    };
 
   } catch (e) {
     console.error('[scraper] fetchRaceResult: パース失敗:', e);
