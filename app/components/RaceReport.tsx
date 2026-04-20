@@ -106,11 +106,12 @@ function calcPicks(horses: Horse[]): Picks {
   const taikou   = byScore.find(h => h.id !== honmei?.id) ?? null;
   const sanbante = byScore.find(h => h.id !== honmei?.id && h.id !== taikou?.id) ?? null;
 
-  // △穴: オッズ10倍以上・EV1.05以上でEV最上位（既選択除外）
+  // △穴: オッズ10倍以上・EV1.00以上でEV最上位（既選択除外）
+  //   Phase 2E Stage 2: 単勝 EV≥1.00 で ROI 82.7%
   const usedIds = new Set([honmei?.id, taikou?.id, sanbante?.id].filter(Boolean));
   const ana = byEV.find(h =>
     h.odds >= 10 &&
-    (h.ev ?? 0) >= 1.05 &&
+    (h.ev ?? 0) >= 1.00 &&
     !usedIds.has(h.id)
   ) ?? null;
 
@@ -244,7 +245,7 @@ function PickCard({
 
   const ev = horse.ev ?? 0;
   const pop = popularityRanks.get(horse.id) ?? 0;
-  const isBuy = ev >= 1.05;
+  const isBuy = ev >= 1.00;
   const score = horse.score ?? 0;
 
   return (
@@ -297,8 +298,8 @@ function PickCard({
 
 /** EV・スコアに応じた色 */
 function evColor(ev: number): string {
-  if (ev >= 1.15) return '#276749';
-  if (ev >= 1.05) return '#2b6cb0';
+  if (ev >= 1.10) return '#276749';
+  if (ev >= 1.00) return '#2b6cb0';
   return '#718096';
 }
 
@@ -327,7 +328,7 @@ function BetRecommendCard({
       border: `2px solid ${color}`,
       borderRadius: '8px',
       padding: '0.6rem 0.8rem',
-      background: ev >= 1.05 ? '#f0fff4' : '#f7fafc',
+      background: ev >= 1.00 ? '#f0fff4' : '#f7fafc',
       flex: '1',
       minWidth: '150px',
     }}>
@@ -397,7 +398,7 @@ export function RaceReport({ race }: Props) {
 
   // 穴馬・危険人気馬
   const anaHorses = useMemo(
-    () => race.horses.filter(h => h.odds >= 10 && (h.ev ?? 0) >= 1.05 && (h.score ?? 0) >= 60),
+    () => race.horses.filter(h => h.odds >= 10 && (h.ev ?? 0) >= 1.00 && (h.score ?? 0) >= 60),
     [race.horses]
   );
   const kikenHorses = useMemo(
@@ -422,21 +423,28 @@ export function RaceReport({ race }: Props) {
     const tan = honmei;
     const umaren = taikou ? { horses: [honmei, taikou], odds: estComboOdds(honmei, taikou, undefined, 'umaren') } : null;
 
-    // ワイドは戦略W1 (EV上位3頭BOX) を採用 — 795R バックテストで回収率 127.3% (推定値)
-    //   3通り購入 (A-B, A-C, B-C) = 300円/R
+    // ワイドは Phase 2E Stage 2 で **EV上位2頭BOX** を採用 (930R 実測 ROI 79.3%)
+    //   1通り購入 (A-B) = 100円/R。top-3 BOX (70.6%) から +8.7pt 改善
     const wideByEV = [...race.horses]
       .filter((h) => h.odds > 0)
       .sort((a, b) => (b.ev ?? 0) - (a.ev ?? 0))
-      .slice(0, 3);
-    const wide = wideByEV.length >= 3
+      .slice(0, 2);
+    const wide = wideByEV.length >= 2
       ? {
           horses: wideByEV,
-          points: 3, // 3C2 = 3通り
-          odds:   estComboOdds(wideByEV[0], wideByEV[1], wideByEV[2], 'wide'),
+          points: 1, // 2C2 = 1通り
+          odds:   estComboOdds(wideByEV[0], wideByEV[1], undefined, 'wide'),
         }
       : ana
         ? { horses: [honmei, ana], points: 1, odds: estComboOdds(honmei, ana, undefined, 'wide') }
         : null;
+
+    // 複勝: EV≥1.07 の馬のみ推奨 (Phase 2E Stage 2: ROI 84.8%、前後半差 3.6pt 安定)
+    //   EV≥1.07 を満たす馬が無ければ null (= 推奨なし表示)
+    const fukuPick = [...race.horses]
+      .filter((h) => h.odds > 0 && (h.ev ?? 0) >= 1.07)
+      .sort((a, b) => (b.ev ?? 0) - (a.ev ?? 0))[0] ?? null;
+    const fuku = fukuPick ? { horse: fukuPick } : null;
 
     // ---- 戦略4: ハイブリッド軸+ひも ----
     const byEV = [...race.horses]
@@ -490,7 +498,7 @@ export function RaceReport({ race }: Props) {
 
     const avgEV = (hs: Horse[]) => hs.reduce((s, h) => s + (h.ev ?? 0), 0) / hs.length;
 
-    return { tan, umaren, wide, sanfuku, santan, avgEV };
+    return { tan, fuku, umaren, wide, sanfuku, santan, avgEV };
   }, [picks, race.horses]);
 
   // ==========================================
@@ -579,7 +587,7 @@ export function RaceReport({ race }: Props) {
               const last3f = horse.lastThreeF;
               const lastEval = last3f === 0 ? '-' : last3f <= 11.2 ? '◎' : last3f <= 11.6 ? '○' : last3f <= 11.9 ? '△' : '▽';
               const trainEval = last3f === 0 ? '-' : last3f <= 11.0 ? '絶好' : last3f <= 11.4 ? '良好' : last3f <= 11.8 ? '普通' : '低調';
-              const comment = horse.odds >= 10 && (horse.ev ?? 0) >= 1.05 ? '穴馬候補' : horse.odds < 5 ? '上位人気' : '注目';
+              const comment = horse.odds >= 10 && (horse.ev ?? 0) >= 1.00 ? '穴馬候補' : horse.odds < 5 ? '上位人気' : '注目';
               return (
                 <tr key={horse.id} style={{ borderBottom: '1px solid #e2e8f0', background: i === 0 ? '#f0fff4' : '#fff' }}>
                   <td style={td}>{i + 1}位</td>
@@ -671,7 +679,32 @@ export function RaceReport({ race }: Props) {
                 type="umaren"
               />
             )}
-            {/* ワイド (戦略W1: EV上位3頭BOX) */}
+            {/* 複勝 (Phase 2E Stage 2: EV≥1.07 の馬のみ推奨・ROI 84.8%) */}
+            {betRecs.fuku ? (
+              <BetRecommendCard
+                label="複勝"
+                horses={[betRecs.fuku.horse]}
+                points={1}
+                estOdds={Math.max(1, Math.round(betRecs.fuku.horse.fukuOddsMin * 10) / 10)}
+                ev={betRecs.fuku.horse.ev ?? 0}
+                type="fuku"
+              />
+            ) : (
+              <div style={{
+                border: '1px dashed #cbd5e0',
+                borderRadius: '8px',
+                padding: '0.6rem 0.8rem',
+                background: '#f7fafc',
+                flex: '1',
+                minWidth: '150px',
+                color: '#718096',
+                fontSize: '0.8rem',
+              }}>
+                <div style={{ fontSize: '0.75rem', marginBottom: '0.2rem' }}>複勝</div>
+                <div>推奨なし (EV≥1.07 該当なし)</div>
+              </div>
+            )}
+            {/* ワイド (Phase 2E Stage 2: EV上位2頭BOX) */}
             {betRecs.wide && (
               <BetRecommendCard
                 label="ワイド"
@@ -682,7 +715,9 @@ export function RaceReport({ race }: Props) {
                 type="wide"
               />
             )}
-            {/* 三連複 */}
+            {/* 三連複 (現行: ハイブリッド軸+ひも BOX)
+                TODO: サンプル1500R+で再検証後にtop-4 BOX採用を検討
+                Phase 2E Stage 2: top-4 で ROI 68.2% だが前後半差 28.3pt と過学習懸念 */}
             {betRecs.sanfuku && (
               <BetRecommendCard
                 label="三連複"
@@ -695,7 +730,9 @@ export function RaceReport({ race }: Props) {
                 type="sanfuku"
               />
             )}
-            {/* 三連単 */}
+            {/* 三連単 (現行: ハイブリッド軸+ひも)
+                TODO: サンプル1500R+で再検証後にtop-4 BOX採用を検討
+                Phase 2E Stage 2: top-4 で ROI 80.4% だが前後半差 41.6pt と過学習懸念大 */}
             {betRecs.santan && (
               <BetRecommendCard
                 label="三連単"
@@ -812,7 +849,7 @@ export function RaceReport({ race }: Props) {
             <p style={{ margin: '0 0 0.5rem' }}>
               ◎本命は<strong>{picks.honmei.id}番{picks.honmei.name}</strong>
               （{picks.honmei.odds}倍・スコア{(picks.honmei.score ?? 0).toFixed(0)}）。
-              EV {(picks.honmei.ev ?? 0).toFixed(2)}と{(picks.honmei.ev ?? 0) >= 1.05 ? '長期回収期待できる水準' : '参考程度'}です。
+              EV {(picks.honmei.ev ?? 0).toFixed(2)}と{(picks.honmei.ev ?? 0) >= 1.00 ? '長期回収期待できる水準' : '参考程度'}です。
             </p>
           )}
           {picks.ana && (

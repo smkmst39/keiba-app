@@ -37,8 +37,13 @@ const MAX_CORRECTION = 0.20;
  */
 const CORR_OFFSET = -0.02;
 
-/** 買い推奨とする EV 閾値（UI の色分けやフィルタ用） */
-export const EV_THRESHOLD_BUY = 1.05;
+/** 買い推奨とする EV 閾値（UI の色分けやフィルタ用）
+ *  Phase 2E Stage 2 の結果: 単勝 EV≥1.00 で ROI 82.7% (+10.6pt) と判明 */
+export const EV_THRESHOLD_BUY = 1.00;
+
+/** 複勝専用の買い推奨 EV 閾値
+ *  Phase 2E Stage 2: EV≥1.07 で ROI 84.8%、参加率 12.3%、前後半差 3.6pt と安定 */
+export const EV_THRESHOLD_FUKU_BUY = 1.07;
 
 // ==========================================
 // ユーティリティ

@@ -36,14 +36,17 @@ export const WAKU_COLORS: Record = {
 ## 期待値の色分けルール
 
 ```typescript
-// EVバッジの色（EV_THRESHOLD_BUY = 1.05 を採用。lib/score/calculator.ts で定数化）
-ev >= 1.05 → 緑（sg class）  // 買い推奨
+// EVバッジの色（Phase 2E Stage 2 の結果を反映: EV_THRESHOLD_BUY = 1.00）
+ev >= 1.00 → 緑（sg class）  // 買い推奨 (単勝)
 ev >= 0.90 → 橙（sm class）  // 要検討
 ev <  0.90 → 赤（sb class）  // 非推奨
 
+// 複勝専用の高精度閾値: EV_THRESHOLD_FUKU_BUY = 1.07
+// 参加率 12.3% / ROI 84.8% (前後半差 3.6pt と安定)
+
 // カードのボーダー強調
 i === 0（最高EV）  → 緑ボーダー + 緑背景
-ev >= 1.05（買い） → 青ボーダー + 青背景
+ev >= 1.00（買い） → 青ボーダー + 青背景
 ev <  0.6          → opacity: 0.75（薄く表示）
 ```
 
