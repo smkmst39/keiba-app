@@ -304,15 +304,24 @@ function evColor(ev: number): string {
 
 /** 馬券推奨カード */
 function BetRecommendCard({
-  label, horses, estOdds, ev, type,
+  label, horses, estOdds, ev, type, axes, spokes, points,
 }: {
   label: string;
   horses: Horse[];
   estOdds: number;
   ev: number;
   type: string;
+  /** ハイブリッド戦略の軸馬（三連系でフォーメーション表示時に使用） */
+  axes?: Horse[];
+  /** ハイブリッド戦略のひも馬 */
+  spokes?: Horse[];
+  /** 購入点数（ハイブリッド戦略の場合は自動算出した点数） */
+  points?: number;
 }) {
   const color = evColor(ev);
+  const isHybrid = axes && spokes && axes.length > 0 && spokes.length > 0;
+  const cost = points ? points * 100 : undefined;
+
   return (
     <div style={{
       border: `2px solid ${color}`,
@@ -323,9 +332,17 @@ function BetRecommendCard({
       minWidth: '150px',
     }}>
       <div style={{ fontSize: '0.75rem', color: '#718096', marginBottom: '0.2rem' }}>{label}</div>
-      <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#333', marginBottom: '0.25rem' }}>
-        {horses.map(h => `${h.id}番`).join(type === 'santan' || type === 'umatan' ? '→' : '-')}
-      </div>
+      {isHybrid ? (
+        <div style={{ fontSize: '0.8rem', color: '#333', marginBottom: '0.25rem', fontWeight: 700 }}>
+          <span style={{ color: '#2f855a' }}>軸:</span> {axes!.map(h => `${h.id}番`).join('・')}
+          <br />
+          <span style={{ color: '#2b6cb0' }}>ひも:</span> {spokes!.map(h => `${h.id}番`).join('・')}
+        </div>
+      ) : (
+        <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#333', marginBottom: '0.25rem' }}>
+          {horses.map(h => `${h.id}番`).join(type === 'santan' || type === 'umatan' ? '→' : '-')}
+        </div>
+      )}
       <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
         <span style={{
           background: color, color: '#fff',
@@ -336,6 +353,11 @@ function BetRecommendCard({
         <span style={{ fontSize: '0.75rem', color: '#555', alignSelf: 'center' }}>
           ~{estOdds}倍
         </span>
+        {cost && (
+          <span style={{ fontSize: '0.72rem', color: '#4a5568', alignSelf: 'center' }}>
+            {points}点 / {cost.toLocaleString()}円
+          </span>
+        )}
       </div>
     </div>
   );
@@ -387,6 +409,12 @@ export function RaceReport({ race }: Props) {
   );
 
   // 馬券推奨計算
+  //   三連系はバックテスト (scripts/backtest_trifecta.ts) で最高の総合回収率75.2% を
+  //   示した「戦略4: ハイブリッド（軸+ひも）」を採用する:
+  //     - 軸    : EV≥1.05 の上位2頭まで
+  //     - ひも : 0.95≤EV<1.05 の上位3頭まで
+  //     - 三連複: 軸+ひも BOX (= C(N,3) 点)
+  //     - 三連単: 軸を1着固定 × 残り馬で 2-3着 の順列
   const betRecs = useMemo(() => {
     const { honmei, taikou, sanbante, ana } = picks;
     if (!honmei) return null;
@@ -394,19 +422,61 @@ export function RaceReport({ race }: Props) {
     const tan = honmei;
     const umaren = taikou ? { horses: [honmei, taikou], odds: estComboOdds(honmei, taikou, undefined, 'umaren') } : null;
     const wide   = ana    ? { horses: [honmei, ana],    odds: estComboOdds(honmei, ana,    undefined, 'wide')   } : null;
-    const sanfuku = (taikou && sanbante) ? {
+
+    // ---- 戦略4: ハイブリッド軸+ひも ----
+    const byEV = [...race.horses]
+      .filter((h) => h.odds > 0)
+      .sort((a, b) => (b.ev ?? 0) - (a.ev ?? 0));
+    const axes   = byEV.filter((h) => (h.ev ?? 0) >= 1.05).slice(0, 2);
+    const spokes = byEV
+      .filter((h) => (h.ev ?? 0) >= 0.95 && (h.ev ?? 0) < 1.05)
+      .slice(0, 3);
+
+    // 三連複/三連単は 軸≥1 かつ ひも≥2 で成立
+    const hybridValid = axes.length >= 1 && spokes.length >= 2;
+    const allPicks    = [...axes, ...spokes];
+    const n           = allPicks.length;
+
+    // 三連複 BOX 点数 = nC3
+    const nC3 = n >= 3 ? (n * (n - 1) * (n - 2)) / 6 : 0;
+    // 三連単: 軸を1着固定、残り(N-1)頭から順序付きで2-3着を選ぶ = 軸数 × (N-1)×(N-2)
+    const santanPoints = hybridValid && n >= 3
+      ? axes.length * (n - 1) * (n - 2)
+      : 0;
+
+    const sanfuku = hybridValid && nC3 > 0 ? {
+      horses: allPicks,
+      axes,
+      spokes,
+      points: nC3,
+      odds: estComboOdds(axes[0] ?? honmei, spokes[0] ?? taikou!, spokes[1] ?? sanbante!, 'sanfuku'),
+    } : (taikou && sanbante) ? {
+      // フォールバック: 軸/ひも判定できない場合は従来の3頭BOX
       horses: [honmei, taikou, sanbante],
+      axes: undefined,
+      spokes: undefined,
+      points: 1,
       odds: estComboOdds(honmei, taikou, sanbante, 'sanfuku'),
     } : null;
-    const santan = (taikou && sanbante) ? {
+
+    const santan = hybridValid && santanPoints > 0 ? {
+      horses: allPicks,
+      axes,
+      spokes,
+      points: santanPoints,
+      odds: estComboOdds(axes[0] ?? honmei, spokes[0] ?? taikou!, spokes[1] ?? sanbante!, 'santan'),
+    } : (taikou && sanbante) ? {
       horses: [honmei, taikou, sanbante],
+      axes: undefined,
+      spokes: undefined,
+      points: 6,
       odds: estComboOdds(honmei, taikou, sanbante, 'santan'),
     } : null;
 
     const avgEV = (hs: Horse[]) => hs.reduce((s, h) => s + (h.ev ?? 0), 0) / hs.length;
 
     return { tan, umaren, wide, sanfuku, santan, avgEV };
-  }, [picks]);
+  }, [picks, race.horses]);
 
   // ==========================================
   // 仮予想モード: メッセージのみ表示
@@ -601,6 +671,9 @@ export function RaceReport({ race }: Props) {
               <BetRecommendCard
                 label="三連複"
                 horses={betRecs.sanfuku.horses}
+                axes={betRecs.sanfuku.axes}
+                spokes={betRecs.sanfuku.spokes}
+                points={betRecs.sanfuku.points}
                 estOdds={betRecs.sanfuku.odds}
                 ev={betRecs.avgEV(betRecs.sanfuku.horses)}
                 type="sanfuku"
@@ -611,6 +684,9 @@ export function RaceReport({ race }: Props) {
               <BetRecommendCard
                 label="三連単"
                 horses={betRecs.santan.horses}
+                axes={betRecs.santan.axes}
+                spokes={betRecs.santan.spokes}
+                points={betRecs.santan.points}
                 estOdds={betRecs.santan.odds}
                 ev={betRecs.avgEV(betRecs.santan.horses)}
                 type="santan"
