@@ -316,6 +316,46 @@ export function calcScore(
  * @param race スコア未計算の Race オブジェクト
  * @param jockeyRates 騎手名 → 当年勝率（route.ts で fetchRacePersonStats から取得）
  */
+/** 各指標のコンポーネントスコア (0〜100)。Stage 3 重み再最適化やバックテスト用 */
+export type ScoreComponents = {
+  lastThreeF:   number;
+  training:     number;
+  courseRecord: number;
+  prevClass:    number;
+  breeding:     number;
+  weightChange: number;
+  jockey:       number;
+};
+
+/**
+ * 全馬のコンポーネントスコアを返す（重み付け前の 0〜100 値）
+ * Stage 3 でコレクトして、オフラインで weight を変えて score を再計算する用途
+ */
+export function calcAllComponentScores(
+  race: Race,
+  jockeyRates: Map<string, number> = new Map(),
+): Map<number, ScoreComponents> {
+  const allHorses = race.horses;
+  const threeFScores   = scoreLastThreeF(allHorses);
+  const trainingScores = scoreTraining(allHorses);
+  const jockeyScores   = scoreJockeyFromRates(allHorses, jockeyRates);
+  const breedingScores = scoreBreeding(allHorses);
+
+  const out = new Map<number, ScoreComponents>();
+  allHorses.forEach((horse, i) => {
+    out.set(horse.id, {
+      lastThreeF:   threeFScores[i]   ?? 50,
+      training:     trainingScores[i] ?? 50,
+      courseRecord: scoreCourseRecord(horse),
+      prevClass:    scorePrevClass(horse),
+      breeding:     breedingScores[i] ?? 50,
+      weightChange: scoreWeightChange(horse),
+      jockey:       jockeyScores[i]   ?? 50,
+    });
+  });
+  return out;
+}
+
 export function calcAllScores(race: Race, jockeyRates: Map<string, number> = new Map()): Race {
   const allHorses = race.horses;
 

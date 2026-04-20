@@ -25,7 +25,7 @@ import type {
 } from '../lib/scraper/types';
 import { fetchRaceData, fetchRaceResult } from '../lib/scraper/netkeiba';
 import { fetchRacePersonStats } from '../lib/scraper/stats';
-import { calcAllScores } from '../lib/score/calculator';
+import { calcAllScores, calcAllComponentScores } from '../lib/score/calculator';
 
 // ----------------------------------------
 // 定数
@@ -273,13 +273,15 @@ async function processRace(raceId: string, date: string): Promise<ProcessOutcome
 
     // ---- 騎手・調教師勝率取得 & スコア計算 ----
     let scoredRace: Race;
+    let componentsMap: ReturnType<typeof calcAllComponentScores>;
     try {
       const { jockeyRates } = await fetchRacePersonStats(rawRace.horses);
-      scoredRace = calcAllScores(rawRace, jockeyRates);
+      scoredRace    = calcAllScores(rawRace, jockeyRates);
+      componentsMap = calcAllComponentScores(rawRace, jockeyRates);
     } catch (e) {
-      // 勝率取得に失敗してもスコア計算は走らせる（空の勝率マップで）
       console.warn(`  [${raceId}] 勝率取得失敗、空マップでスコア計算: ${e instanceof Error ? e.message : e}`);
-      scoredRace = calcAllScores(rawRace, new Map());
+      scoredRace    = calcAllScores(rawRace, new Map());
+      componentsMap = calcAllComponentScores(rawRace, new Map());
     }
     await sleep(REQUEST_INTERVAL_MS);
 
@@ -291,7 +293,14 @@ async function processRace(raceId: string, date: string): Promise<ProcessOutcome
     await sleep(REQUEST_INTERVAL_MS);
 
     // ---- VerificationData 構築 & 保存 ----
+    //   predictions に components (Stage 3 重み最適化用) も追加する
     const vd = buildVerificationData(scoredRace, result, toIsoDate(date));
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (vd as any).predictions = vd.predictions.map((p) => ({
+      ...p,
+      components: componentsMap.get(p.horseId) ?? null,
+    }));
+
     const outPath = path.join(OUT_DIR, `${date}_${raceId}.json`);
     await fs.writeFile(outPath, JSON.stringify(vd, null, 2), 'utf-8');
     return { status: 'saved', path: outPath };
