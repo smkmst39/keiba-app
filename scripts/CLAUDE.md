@@ -83,3 +83,30 @@ USE_MOCK=true pnpm tsx scripts/test-score.ts
 
 4. **結果CSVのコミット**
    → `data/results/` は `.gitignore` に含める（個人の分析データのため）
+
+---
+
+## バッチ処理実行時の注意事項
+
+### collect-verification.ts 実行前チェック
+
+```bash
+# 必ず実行前に確認
+curl -I "https://race.netkeiba.com/race/shutuba.html?race_id=202606030811"
+# HTTP 200が返ることを確認してから実行
+```
+
+### 推奨される実行パターン
+- 1日200レース以内
+- 30分間隔で10分の休憩を自動挿入
+- 夜間（2-6時）は実行禁止
+- 実行前に前回の実行から24時間空ける
+
+### エラー対応
+- HTTP 400が出たら即座に中断
+- 次回実行は最低3時間後
+- 連続発生時は翌日以降に延期
+
+### 過去の事故記録
+2026年4月19日: `collect-verification.ts` で795レースを一気に収集した結果、
+netkeiba から HTTP 400 ブロック発生。約半日で解除。再発防止として上記ガイドラインを必須化。
