@@ -23,10 +23,10 @@ const REPORT = path.join(DIR, 'class_analysis_report.md');
 // ----------------------------------------
 
 type RaceClass =
-  | 'G1' | 'G2' | 'G3' | 'OP'
+  | 'G1' | 'G2' | 'G3' | 'OP' | 'SP'
   | 'C3' | 'C2' | 'C1' | 'UW' | 'NW' | 'Unknown';
 
-const CLASS_ORDER: RaceClass[] = ['NW', 'UW', 'C1', 'C2', 'C3', 'OP', 'G3', 'G2', 'G1', 'Unknown'];
+const CLASS_ORDER: RaceClass[] = ['NW', 'UW', 'C1', 'C2', 'C3', 'SP', 'OP', 'G3', 'G2', 'G1', 'Unknown'];
 
 const CLASS_LABEL: Record<RaceClass, string> = {
   NW:      '新馬戦',
@@ -34,6 +34,7 @@ const CLASS_LABEL: Record<RaceClass, string> = {
   C1:      '1勝クラス',
   C2:      '2勝クラス',
   C3:      '3勝クラス',
+  SP:      '特別レース(クラス不明)',
   OP:      'OP/L',
   G3:      'G3',
   G2:      'G2',
@@ -41,28 +42,53 @@ const CLASS_LABEL: Record<RaceClass, string> = {
   Unknown: 'Unknown',
 };
 
-/** レース名からクラスを判定する (G1 判定は著名レース名込み) */
+/**
+ * レース名からクラスを判定する
+ *
+ * 【制約】 netkeiba shutuba ページのレース名フィールドにはクラス情報が含まれない。
+ * "招福S" "中山金杯" "初日の出賞" 等の「愛称」のみ取得されるため、
+ * レース名だけでは 1勝/2勝/3勝/OP の区別がつかない。
+ *
+ * 【本対応 (暫定)】
+ *   1. 著名重賞 (G1/G2/G3) のレース名を列挙して判定
+ *   2. 条件クラス明示 (1勝/2勝/3勝/未勝利/新馬) → 個別
+ *   3. 「〜S / 〜特別 / 〜賞 / 〜杯 / 〜C / 〜JS」等の愛称レース → SP (特別レース、クラス不明)
+ *      ※ SP は 1勝〜オープンまで幅広くマージされる。根本解決は
+ *        scraper で RaceData02 からクラス情報を取得する必要あり。
+ */
 function classifyRace(raceName: string): RaceClass {
-  const n = raceName;
+  const n = raceName.trim();
+  if (!n) return 'Unknown';
 
-  // 明示的なGⅠ表記
+  // --- 1. 明示的な G グレード表記 ---
   if (/G1|GⅠ|Ｇ１/.test(n)) return 'G1';
   if (/G2|GⅡ|Ｇ２/.test(n)) return 'G2';
   if (/G3|GⅢ|Ｇ３/.test(n)) return 'G3';
 
-  // GⅠ級レース名 (2026年度JRA 一覧から著名なもの)
+  // --- 2. 著名 G1 ---
   if (/皐月賞|東京優駿|ダービー|菊花賞|桜花賞|オークス|優駿牝馬|秋華賞|天皇賞|有馬記念|宝塚記念|ジャパンカップ|NHKマイル|安田記念|スプリンターズ|マイルチャンピオン|エリザベス女王杯|ヴィクトリアマイル|高松宮記念|大阪杯|チャンピオンズカップ|フェブラリーステークス|朝日杯FS|阪神JF|ホープフル|帝王賞|JBC|東京大賞典/.test(n)) return 'G1';
 
-  // リステッド / オープン特別
+  // --- 3. 著名 G2 / G3 (代表的なもの。ここを充実させると分類精度が上がる) ---
+  // G2 (春): 日経新春杯, 京都記念, 金鯱賞, 弥生賞, スプリングS, 日経賞, 阪神大賞典, 産経大阪杯 (G1に昇格済のは除外), アメリカJCC, 中山記念, フィリーズレビュー
+  if (/日経新春杯|京都記念|金鯱賞|弥生賞|スプリングS|スプリングステークス|日経賞|阪神大賞典|アメリカJCC|アメリカジョッキー|中山記念|フィリーズレビュー|ダービー卿|ニュージーランドトロフィー|ニュージーランドT|東京新聞杯|京王杯2歳S/.test(n)) return 'G2';
+  // G3 (春まで): 中山金杯, 京都金杯, フェアリーS, シンザン記念, 日経新春杯(G2), 京成杯, 東海S(G2), AJCC(G2), 根岸S, 東京新聞杯, きさらぎ賞, 共同通信杯, クイーンC, ダイヤモンドS, 京都牝馬S, 小倉大賞典, 阪急杯, 中山牝馬S, フィリーズR(G2), チューリップ賞, オーシャンS, 弥生賞(G2), 中山牝馬, フラワーC, ファルコンS, アーリントンC, ニュージーランドT(G2), 京王杯SC, 新潟大賞典, 青葉賞, 京都新聞杯, 京王杯SC
+  if (/中山金杯|京都金杯|フェアリーS|フェアリーステークス|シンザン記念|京成杯|根岸S|根岸ステークス|きさらぎ賞|共同通信杯|クイーンC|クイーンカップ|ダイヤモンドS|ダイヤモンドステークス|京都牝馬S|京都牝馬ステークス|小倉大賞典|阪急杯|中山牝馬S|中山牝馬ステークス|チューリップ賞|オーシャンS|オーシャンステークス|フラワーC|フラワーカップ|ファルコンS|ファルコンステークス|アーリントンC|アーリントンカップ|京王杯SC|京王杯スプリングカップ|新潟大賞典|青葉賞|京都新聞杯/.test(n)) return 'G3';
+
+  // --- 4. リステッド / オープン特別 ---
   if (/\(L\)|（L）|リステッド/.test(n)) return 'OP';
   if (/オープン|ＯＰ|\(OP\)/.test(n)) return 'OP';
 
-  // 条件戦
+  // --- 5. 条件戦 (明示的) ---
   if (/3勝|1600万/.test(n)) return 'C3';
   if (/2勝|1000万/.test(n)) return 'C2';
   if (/1勝|500万/.test(n)) return 'C1';
   if (/未勝利/.test(n)) return 'UW';
   if (/新馬/.test(n)) return 'NW';
+
+  // --- 6. 愛称レース (クラス情報なし) ---
+  //   〜S / 〜ステークス / 〜特別 / 〜賞 / 〜杯 / 〜C / 〜カップ / 〜JS / 〜HC 等
+  if (/(ステークス|Ｓ$|S$|特別|賞$|杯$|カップ|C$|Ｃ$|JS$|HC$|ＪＳ$|ＨＣ$)/.test(n)) return 'SP';
+  if (/\S+S\b|\S+C\b/.test(n)) return 'SP'; // 末尾が S/C (アルファベット略称)
 
   return 'Unknown';
 }
@@ -294,8 +320,9 @@ async function main(): Promise<void> {
   // クラス別集計
   const byClass: Record<RaceClass, ClassStats> = {
     NW: emptyClassStats(), UW: emptyClassStats(), C1: emptyClassStats(), C2: emptyClassStats(),
-    C3: emptyClassStats(), OP: emptyClassStats(), G3: emptyClassStats(), G2: emptyClassStats(),
-    G1: emptyClassStats(), Unknown: emptyClassStats(),
+    C3: emptyClassStats(), SP: emptyClassStats(), OP: emptyClassStats(),
+    G3: emptyClassStats(), G2: emptyClassStats(), G1: emptyClassStats(),
+    Unknown: emptyClassStats(),
   };
 
   // レース名→クラスの一覧も記録 (デバッグ用)
@@ -328,6 +355,8 @@ async function main(): Promise<void> {
     { key: 'C', label: '新馬戦+未勝利戦 除外',    exclude: ['NW', 'UW'] },
     { key: 'D', label: '新馬戦+未勝利戦+1勝C 除外', exclude: ['NW', 'UW', 'C1'] },
     { key: 'E', label: '2勝クラス以上のみ',       exclude: ['NW', 'UW', 'C1'] },
+    { key: 'F', label: '1勝クラスのみ除外',       exclude: ['C1'] },
+    { key: 'G', label: '1勝クラス+SP除外',       exclude: ['C1', 'SP'] },
     // E は D と同じだが Unknown も除外
   ];
 
