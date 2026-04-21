@@ -50,6 +50,83 @@ export const EV_THRESHOLD_BUY = 1.00;
 export const EV_THRESHOLD_FUKU_BUY = 1.07;
 
 // ==========================================
+// Phase 2F: 券種別の推奨判定 (参加条件グリッドサーチの結果)
+// ==========================================
+// 930R のグリッドサーチ (4410 条件 × 7 券種) で導出した条件:
+//   馬連:   EV≥1.00 + スコア≥65       → ROI 172.1% / 参加24.5% / 前後半差 2.9pt
+//   馬単:   EV≥1.00 + スコア≥65 + オッズ≤15 → ROI 119.2% / 参加20.6% / 前後半差 14.4pt
+//   ワイド: EV≥1.02 + スコア≥65 + オッズ≤10 → ROI 108.3% / 参加13.5% / 前後半差 5.0pt
+// 単勝・複勝は 100% 未達のため現行維持、三連系は過学習リスクで見送り
+
+/** 推奨レベル */
+export type RecommendLevel = 'honmei' | 'kenjitsu' | 'reference' | 'skip';
+
+/** 2頭以上の馬が条件を満たすか (sorted: EV 降順) */
+function checkTopN(
+  sorted: Array<{ ev: number; score: number; odds: number }>,
+  n: number,
+  cond: { evMin: number; scoreMin: number; oddsMax?: number },
+): boolean {
+  if (sorted.length < n) return false;
+  for (let i = 0; i < n; i++) {
+    const h = sorted[i];
+    if (h.ev < cond.evMin) return false;
+    if (h.score < cond.scoreMin) return false;
+    if (cond.oddsMax !== undefined && h.odds > cond.oddsMax) return false;
+  }
+  return true;
+}
+
+/** 馬連: EV≥1.00 + スコア≥65 を両馬クリアなら本命級推奨 */
+export function shouldRecommendUmaren(
+  sorted: Array<{ ev: number; score: number; odds: number }>,
+): RecommendLevel {
+  if (checkTopN(sorted, 2, { evMin: 1.00, scoreMin: 65 })) return 'honmei';
+  return 'skip';
+}
+
+/** 馬単: EV≥1.00 + スコア≥65 + オッズ≤15 を両馬クリアなら本命級推奨 */
+export function shouldRecommendUmatan(
+  sorted: Array<{ ev: number; score: number; odds: number }>,
+): RecommendLevel {
+  if (checkTopN(sorted, 2, { evMin: 1.00, scoreMin: 65, oddsMax: 15 })) return 'honmei';
+  return 'skip';
+}
+
+/** ワイド: EV≥1.02 + スコア≥65 + オッズ≤10 を両馬クリアなら堅実級推奨 */
+export function shouldRecommendWide(
+  sorted: Array<{ ev: number; score: number; odds: number }>,
+): RecommendLevel {
+  if (checkTopN(sorted, 2, { evMin: 1.02, scoreMin: 65, oddsMax: 10 })) return 'kenjitsu';
+  return 'skip';
+}
+
+/** 単勝: 参考情報 (EV≥1.00 なら表示、ROI 80.6%) */
+export function shouldRecommendTan(
+  sorted: Array<{ ev: number; score: number; odds: number }>,
+): RecommendLevel {
+  if (sorted.length >= 1 && sorted[0].ev >= EV_THRESHOLD_BUY) return 'reference';
+  return 'skip';
+}
+
+/** 複勝: 参考情報 (EV≥1.07 なら表示、ROI 82.9%) */
+export function shouldRecommendFuku(
+  sorted: Array<{ ev: number; score: number; odds: number }>,
+): RecommendLevel {
+  const pick = sorted.find((h) => h.ev >= EV_THRESHOLD_FUKU_BUY);
+  return pick ? 'reference' : 'skip';
+}
+
+/** 回収率の理論値 (バックテスト結果、UI 表示用) */
+export const EXPECTED_ROI = {
+  umaren_honmei:  172.1,
+  umatan_honmei:  119.2,
+  wide_kenjitsu:  108.3,
+  tan_reference:   80.6,
+  fuku_reference:  82.9,
+} as const;
+
+// ==========================================
 // ユーティリティ
 // ==========================================
 

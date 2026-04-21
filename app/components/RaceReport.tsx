@@ -7,6 +7,14 @@
 
 import { useMemo } from 'react';
 import type { Race, Horse } from '@/lib/scraper/types';
+import {
+  shouldRecommendUmaren,
+  shouldRecommendUmatan,
+  shouldRecommendWide,
+  shouldRecommendTan,
+  shouldRecommendFuku,
+  EXPECTED_ROI,
+} from '@/lib/score/calculator';
 
 // ==========================================
 // ユーティリティ
@@ -304,6 +312,92 @@ function evColor(ev: number): string {
 }
 
 /** 馬券推奨カード */
+/** Phase 2F: 3段階推奨のヘッダスタイル */
+function tierHeader(color: string, bg: string): React.CSSProperties {
+  return {
+    padding: '0.35rem 0.6rem',
+    background: bg,
+    color,
+    fontSize: '0.82rem',
+    fontWeight: 700,
+    borderRadius: '6px 6px 0 0',
+    borderBottom: `2px solid ${color}`,
+    marginBottom: '0.4rem',
+  };
+}
+
+/** Phase 2F: 3段階推奨カード (本命/堅実/参考) */
+function TieredBetCard({
+  tier, label, roi, horses, reason, costText, ordered = false,
+}: {
+  tier: 'honmei' | 'kenjitsu' | 'reference';
+  label: string;
+  roi: number;
+  horses: Horse[];
+  reason: string;
+  costText: string;
+  ordered?: boolean;
+}) {
+  const tierStyle = {
+    honmei:    { border: '#b45309', bg: '#fffbeb', accent: '#b45309' },
+    kenjitsu:  { border: '#0369a1', bg: '#eff6ff', accent: '#0369a1' },
+    reference: { border: '#94a3b8', bg: '#f8fafc', accent: '#475569' },
+  }[tier];
+
+  return (
+    <div style={{
+      border: `2px solid ${tierStyle.border}`,
+      background: tierStyle.bg,
+      borderRadius: '8px',
+      padding: '0.5rem 0.7rem',
+      marginBottom: '0.4rem',
+      fontSize: '0.82rem',
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.2rem' }}>
+        <span style={{ fontWeight: 700, fontSize: '0.88rem', color: tierStyle.accent }}>
+          {label}
+        </span>
+        <span style={{
+          padding: '0.05rem 0.35rem',
+          background: tierStyle.accent,
+          color: '#fff',
+          borderRadius: '3px',
+          fontSize: '0.7rem',
+          fontWeight: 700,
+        }}>
+          回収率 {roi.toFixed(1)}%
+        </span>
+        <span style={{ marginLeft: 'auto', fontSize: '0.72rem', color: '#64748b' }}>
+          {costText}
+        </span>
+      </div>
+      <div style={{ fontWeight: 700, fontSize: '0.9rem', color: '#1e293b', marginBottom: '0.15rem' }}>
+        {horses.map((h) => `${h.id}番 ${h.name}`).join(ordered ? ' → ' : ' - ')}
+      </div>
+      <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
+        {reason}
+      </div>
+    </div>
+  );
+}
+
+/** Phase 2F: 見送り (条件未達) カード */
+function SkipCard({ label, reason }: { label: string; reason: string }) {
+  return (
+    <div style={{
+      border: '1px dashed #cbd5e0',
+      background: '#f8fafc',
+      borderRadius: '8px',
+      padding: '0.4rem 0.7rem',
+      marginBottom: '0.4rem',
+      fontSize: '0.78rem',
+      color: '#64748b',
+    }}>
+      <strong>{label}: 見送り</strong> — {reason}
+    </div>
+  );
+}
+
 function BetRecommendCard({
   label, horses, estOdds, ev, type, axes, spokes, points,
 }: {
@@ -498,7 +592,28 @@ export function RaceReport({ race }: Props) {
 
     const avgEV = (hs: Horse[]) => hs.reduce((s, h) => s + (h.ev ?? 0), 0) / hs.length;
 
-    return { tan, fuku, umaren, wide, sanfuku, santan, avgEV };
+    // ---- Phase 2F: 3段階推奨 (参加条件グリッドサーチ結果) ----
+    // EV 降順ソート済み配列を推奨判定関数に渡す
+    const sortedForReco = [...race.horses]
+      .filter((h) => h.odds > 0)
+      .sort((a, b) => (b.ev ?? 0) - (a.ev ?? 0))
+      .map((h) => ({ ev: h.ev ?? 0, score: h.score ?? 0, odds: h.odds, ref: h }));
+
+    const umarenHonmei  = shouldRecommendUmaren(sortedForReco) === 'honmei';
+    const umatanHonmei  = shouldRecommendUmatan(sortedForReco) === 'honmei';
+    const wideKenjitsu  = shouldRecommendWide(sortedForReco) === 'kenjitsu';
+    const tanReference  = shouldRecommendTan(sortedForReco) === 'reference';
+    const fukuReference = shouldRecommendFuku(sortedForReco) === 'reference';
+
+    const tieredReco = {
+      umarenHonmei:  umarenHonmei  && sortedForReco.length >= 2 ? { horses: [sortedForReco[0].ref, sortedForReco[1].ref] } : null,
+      umatanHonmei:  umatanHonmei  && sortedForReco.length >= 2 ? { horses: [sortedForReco[0].ref, sortedForReco[1].ref] } : null,
+      wideKenjitsu:  wideKenjitsu  && sortedForReco.length >= 2 ? { horses: [sortedForReco[0].ref, sortedForReco[1].ref] } : null,
+      tanReference:  tanReference  && sortedForReco.length >= 1 ? { horse: sortedForReco[0].ref } : null,
+      fukuReference: fukuReference ? { horse: sortedForReco.find((h) => h.ev >= 1.07)?.ref ?? null } : null,
+    };
+
+    return { tan, fuku, umaren, wide, sanfuku, santan, avgEV, tieredReco };
   }, [picks, race.horses]);
 
   // ==========================================
@@ -656,10 +771,114 @@ export function RaceReport({ race }: Props) {
         </div>
       )}
 
+      {/* ====== Section 5A: 3段階推奨 (Phase 2F: 参加条件最適化) ====== */}
+      {hasOdds && betRecs && (
+        <div style={section}>
+          <SectionHeader title="5A. 🏆 馬券推奨（バックテスト検証済み戦略）" subtitle="930レースの参加条件グリッドサーチで導出した推奨構成" />
+
+          {/* ⭐ 本命級 (110%超) */}
+          <div style={{ marginBottom: '0.8rem' }}>
+            <div style={tierHeader('#b45309', '#fef3c7')}>
+              ⭐ 本命級（回収率110%超の戦略）
+            </div>
+            {betRecs.tieredReco.umarenHonmei ? (
+              <TieredBetCard
+                tier="honmei"
+                label="馬連"
+                roi={EXPECTED_ROI.umaren_honmei}
+                horses={betRecs.tieredReco.umarenHonmei.horses}
+                reason={`両馬スコア ${betRecs.tieredReco.umarenHonmei.horses.map((h) => (h.score ?? 0).toFixed(0)).join('/')}、EV ${betRecs.tieredReco.umarenHonmei.horses.map((h) => (h.ev ?? 0).toFixed(2)).join('/')}`}
+                costText="100円（1点）"
+              />
+            ) : (
+              <SkipCard label="馬連" reason="両馬スコア≥65 & EV≥1.00 の条件未達" />
+            )}
+            {betRecs.tieredReco.umatanHonmei ? (
+              <TieredBetCard
+                tier="honmei"
+                label="馬単"
+                roi={EXPECTED_ROI.umatan_honmei}
+                horses={betRecs.tieredReco.umatanHonmei.horses}
+                ordered
+                reason={`両馬スコア ${betRecs.tieredReco.umatanHonmei.horses.map((h) => (h.score ?? 0).toFixed(0)).join('/')}、オッズ ${betRecs.tieredReco.umatanHonmei.horses.map((h) => h.odds.toFixed(1)).join('/')}`}
+                costText="200円（2点BOX）"
+              />
+            ) : (
+              <SkipCard label="馬単" reason="両馬スコア≥65 & オッズ≤15 & EV≥1.00 の条件未達" />
+            )}
+          </div>
+
+          {/* 🎯 堅実級 (100〜109%) */}
+          <div style={{ marginBottom: '0.8rem' }}>
+            <div style={tierHeader('#0369a1', '#e0f2fe')}>
+              🎯 堅実級（回収率100%超の戦略）
+            </div>
+            {betRecs.tieredReco.wideKenjitsu ? (
+              <TieredBetCard
+                tier="kenjitsu"
+                label="ワイド"
+                roi={EXPECTED_ROI.wide_kenjitsu}
+                horses={betRecs.tieredReco.wideKenjitsu.horses}
+                reason={`両馬スコア ${betRecs.tieredReco.wideKenjitsu.horses.map((h) => (h.score ?? 0).toFixed(0)).join('/')}、オッズ ${betRecs.tieredReco.wideKenjitsu.horses.map((h) => h.odds.toFixed(1)).join('/')}`}
+                costText="100円（1点）"
+              />
+            ) : (
+              <SkipCard label="ワイド" reason="両馬スコア≥65 & オッズ≤10 & EV≥1.02 の条件未達" />
+            )}
+          </div>
+
+          {/* 📊 参考情報 */}
+          <div style={{ marginBottom: '0.5rem' }}>
+            <div style={tierHeader('#475569', '#f1f5f9')}>
+              📊 参考情報（平均回収率 100% 未満・判断は各自）
+            </div>
+            {betRecs.tieredReco.tanReference ? (
+              <TieredBetCard
+                tier="reference"
+                label="単勝"
+                roi={EXPECTED_ROI.tan_reference}
+                horses={[betRecs.tieredReco.tanReference.horse]}
+                reason={`EV ${(betRecs.tieredReco.tanReference.horse.ev ?? 0).toFixed(2)}、参考値`}
+                costText="100円"
+              />
+            ) : null}
+            {betRecs.tieredReco.fukuReference?.horse ? (
+              <TieredBetCard
+                tier="reference"
+                label="複勝"
+                roi={EXPECTED_ROI.fuku_reference}
+                horses={[betRecs.tieredReco.fukuReference.horse]}
+                reason={`EV≥1.07、安定狙い`}
+                costText="100円"
+              />
+            ) : (
+              <div style={{ color: '#64748b', fontSize: '0.8rem', padding: '0.3rem 0.5rem' }}>
+                複勝: 推奨なし (EV≥1.07 該当馬なし)
+              </div>
+            )}
+          </div>
+
+          <div style={{
+            marginTop: '0.75rem',
+            padding: '0.5rem 0.75rem',
+            background: '#fffbeb',
+            border: '1px solid #fde68a',
+            borderRadius: '6px',
+            fontSize: '0.73rem',
+            color: '#78350f',
+            lineHeight: 1.5,
+          }}>
+            <strong>注意:</strong> 三連複・三連単は過学習リスクのため本推奨から除外（サンプル拡大後に再検証）。
+            馬連・馬単・ワイドは 930R バックテストで前後半差 ≤15pt の安定性を確認済みですが、
+            将来の実績を保証するものではありません。
+          </div>
+        </div>
+      )}
+
       {/* ====== Section 5: 馬券推奨 ====== */}
       {hasOdds && betRecs && (
         <div style={section}>
-          <SectionHeader title="5. 馬券推奨" subtitle="EV1.1以上=緑・1.0〜1.1=青・未満=グレー（推定オッズ）" />
+          <SectionHeader title="5. 馬券推奨（全券種）" subtitle="EV1.1以上=緑・1.0〜1.1=青・未満=グレー（推定オッズ）" />
           <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
             {/* 単勝 */}
             <BetRecommendCard
