@@ -77,26 +77,53 @@ function checkTopN(
   return true;
 }
 
-/** 馬連: EV≥1.00 + スコア≥65 を両馬クリアなら本命級推奨 */
+// ==========================================
+// Phase 2G: クラス別ハイブリッド除外 (930R ROI 399.6 → 554.9pt, +155pt)
+// ==========================================
+//   馬連本命:   C1/C2 除外 → ROI 172.1% → 265.4% (+93.3pt)
+//   馬単本命:   C1/C2 除外 → ROI 119.2% → 167.8% (+48.6pt)
+//   ワイド堅実: C1 のみ除外 → ROI 108.3% → 121.8% (+13.5pt)
+//
+// race.raceClass には "1勝クラス" / "2勝クラス" などの文字列が入る (Phase 2G scraper)
+
+/** 馬連・馬単: C1 (1勝) または C2 (2勝) クラスなら除外 */
+function isExcludedForUmarenUmatan(raceClass: string | undefined): boolean {
+  if (!raceClass) return false;
+  return /1勝|500万|2勝|1000万/.test(raceClass);
+}
+
+/** ワイド: C1 (1勝) クラスなら除外 */
+function isExcludedForWide(raceClass: string | undefined): boolean {
+  if (!raceClass) return false;
+  return /1勝|500万/.test(raceClass);
+}
+
+/** 馬連: EV≥1.00 + スコア≥65 を両馬クリアなら本命級推奨。C1/C2 クラスは除外 */
 export function shouldRecommendUmaren(
   sorted: Array<{ ev: number; score: number; odds: number }>,
+  raceClass?: string,
 ): RecommendLevel {
+  if (isExcludedForUmarenUmatan(raceClass)) return 'skip';
   if (checkTopN(sorted, 2, { evMin: 1.00, scoreMin: 65 })) return 'honmei';
   return 'skip';
 }
 
-/** 馬単: EV≥1.00 + スコア≥65 + オッズ≤15 を両馬クリアなら本命級推奨 */
+/** 馬単: EV≥1.00 + スコア≥65 + オッズ≤15 を両馬クリアなら本命級推奨。C1/C2 除外 */
 export function shouldRecommendUmatan(
   sorted: Array<{ ev: number; score: number; odds: number }>,
+  raceClass?: string,
 ): RecommendLevel {
+  if (isExcludedForUmarenUmatan(raceClass)) return 'skip';
   if (checkTopN(sorted, 2, { evMin: 1.00, scoreMin: 65, oddsMax: 15 })) return 'honmei';
   return 'skip';
 }
 
-/** ワイド: EV≥1.02 + スコア≥65 + オッズ≤10 を両馬クリアなら堅実級推奨 */
+/** ワイド: EV≥1.02 + スコア≥65 + オッズ≤10 を両馬クリアなら堅実級推奨。C1 のみ除外 */
 export function shouldRecommendWide(
   sorted: Array<{ ev: number; score: number; odds: number }>,
+  raceClass?: string,
 ): RecommendLevel {
+  if (isExcludedForWide(raceClass)) return 'skip';
   if (checkTopN(sorted, 2, { evMin: 1.02, scoreMin: 65, oddsMax: 10 })) return 'kenjitsu';
   return 'skip';
 }
@@ -117,11 +144,12 @@ export function shouldRecommendFuku(
   return pick ? 'reference' : 'skip';
 }
 
-/** 回収率の理論値 (バックテスト結果、UI 表示用) */
+/** 回収率の理論値 (バックテスト結果、UI 表示用)
+ *  Phase 2G (930R): ハイブリッド除外適用後の値 */
 export const EXPECTED_ROI = {
-  umaren_honmei:  172.1,
-  umatan_honmei:  119.2,
-  wide_kenjitsu:  108.3,
+  umaren_honmei:  265.4, // C1/C2 除外 (Phase 2G)
+  umatan_honmei:  167.8, // C1/C2 除外 (Phase 2G)
+  wide_kenjitsu:  121.8, // C1 のみ除外 (Phase 2G)
   tan_reference:   80.6,
   fuku_reference:  82.9,
 } as const;

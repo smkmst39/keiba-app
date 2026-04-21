@@ -370,13 +370,9 @@ async function main(): Promise<void> {
   // 除外パターン集計
   const EXCLUDE_PATTERNS: Array<{ key: string; label: string; exclude: RaceClass[] }> = [
     { key: 'A', label: '除外なし (現状維持)',     exclude: [] },
-    { key: 'B', label: '新馬戦のみ除外',         exclude: ['NW'] },
-    { key: 'C', label: '新馬戦+未勝利戦 除外',    exclude: ['NW', 'UW'] },
-    { key: 'D', label: '新馬戦+未勝利戦+1勝C 除外', exclude: ['NW', 'UW', 'C1'] },
-    { key: 'E', label: '2勝クラス以上のみ',       exclude: ['NW', 'UW', 'C1'] },
     { key: 'F', label: '1勝クラスのみ除外',       exclude: ['C1'] },
-    { key: 'G', label: '1勝クラス+SP除外',       exclude: ['C1', 'SP'] },
-    // E は D と同じだが Unknown も除外
+    { key: 'I', label: '1勝+2勝クラス除外',      exclude: ['C1', 'C2'] },
+    { key: 'J', label: '1勝+2勝+3勝除外',       exclude: ['C1', 'C2', 'C3'] },
   ];
 
   type PatternStats = Record<string, { label: string; totals: ClassStats['normal']; honmei: ClassStats['honmei']; totalRaces: number }>;
@@ -412,6 +408,50 @@ async function main(): Promise<void> {
       totalRaces: total.races,
     };
   }
+
+  // ---- パターン H (ハイブリッド: 券種別除外) ----
+  //   馬連本命 / 馬単本命: C1+C2 除外
+  //   ワイド堅実:          C1 のみ除外
+  const hybridHonmei: ClassStats['honmei'] = {
+    umarenHonmei: empty(),
+    umatanHonmei: empty(),
+    wideKenjitsu: empty(),
+  };
+  let hybridParticipated = 0;
+  for (const cls of CLASS_ORDER) {
+    const cs = byClass[cls];
+    // 馬連本命: C1/C2 除外
+    if (!['C1', 'C2'].includes(cls)) {
+      hybridHonmei.umarenHonmei.cost          += cs.honmei.umarenHonmei.cost;
+      hybridHonmei.umarenHonmei.payout        += cs.honmei.umarenHonmei.payout;
+      hybridHonmei.umarenHonmei.hits          += cs.honmei.umarenHonmei.hits;
+      hybridHonmei.umarenHonmei.participated  += cs.honmei.umarenHonmei.participated;
+      hybridHonmei.umarenHonmei.races         += cs.honmei.umarenHonmei.races;
+    }
+    // 馬単本命: C1/C2 除外
+    if (!['C1', 'C2'].includes(cls)) {
+      hybridHonmei.umatanHonmei.cost          += cs.honmei.umatanHonmei.cost;
+      hybridHonmei.umatanHonmei.payout        += cs.honmei.umatanHonmei.payout;
+      hybridHonmei.umatanHonmei.hits          += cs.honmei.umatanHonmei.hits;
+      hybridHonmei.umatanHonmei.participated  += cs.honmei.umatanHonmei.participated;
+      hybridHonmei.umatanHonmei.races         += cs.honmei.umatanHonmei.races;
+    }
+    // ワイド堅実: C1 のみ除外
+    if (cls !== 'C1') {
+      hybridHonmei.wideKenjitsu.cost          += cs.honmei.wideKenjitsu.cost;
+      hybridHonmei.wideKenjitsu.payout        += cs.honmei.wideKenjitsu.payout;
+      hybridHonmei.wideKenjitsu.hits          += cs.honmei.wideKenjitsu.hits;
+      hybridHonmei.wideKenjitsu.participated  += cs.honmei.wideKenjitsu.participated;
+      hybridHonmei.wideKenjitsu.races         += cs.honmei.wideKenjitsu.races;
+      hybridParticipated                      += cs.races;
+    }
+  }
+  patternStats['H'] = {
+    label: 'ハイブリッド (馬連・馬単: C1+C2除外 / ワイド: C1のみ除外)',
+    totals: patternStats['A'].totals, // 通常戦略は A と同じ (券種別除外は本命級のみ)
+    honmei: hybridHonmei,
+    totalRaces: hybridParticipated,
+  };
 
   // ---- コンソール出力 ----
   const log = (s = ''): void => console.log(s);
@@ -468,14 +508,20 @@ async function main(): Promise<void> {
   log('-'.repeat(100));
   log('| パターン | 参加R | 馬連_本命 参加/的中/ROI  | 馬単_本命 参加/的中/ROI  | ワイド_堅実 参加/的中/ROI|');
   log('|----------|-------|---------------------------|---------------------------|---------------------------|');
-  for (const pat of EXCLUDE_PATTERNS) {
-    const ps = patternStats[pat.key];
-    const h = (key: keyof ClassStats['honmei']): string => {
-      const st = ps.honmei[key];
+  // ハイブリッド含む全パターンを出力 (key 順 A, F, I, J, H)
+  for (const key of ['A', 'F', 'I', 'J', 'H']) {
+    const ps = patternStats[key];
+    if (!ps) continue;
+    const h = (k: keyof ClassStats['honmei']): string => {
+      const st = ps.honmei[k];
       const r = roi(st.cost, st.payout);
       return `${st.participated.toString().padStart(3)}/${st.hits.toString().padStart(2)}/${(r.toFixed(1) + '%').padStart(6)}`;
     };
-    log(`|    ${pat.key}     | ${ps.totalRaces.toString().padStart(5)} | ${h('umarenHonmei').padEnd(25)} | ${h('umatanHonmei').padEnd(25)} | ${h('wideKenjitsu').padEnd(25)} |`);
+    const a = roi(ps.honmei.umarenHonmei.cost, ps.honmei.umarenHonmei.payout);
+    const b = roi(ps.honmei.umatanHonmei.cost, ps.honmei.umatanHonmei.payout);
+    const c = roi(ps.honmei.wideKenjitsu.cost, ps.honmei.wideKenjitsu.payout);
+    const sumPt = (a + b + c).toFixed(1);
+    log(`|    ${key}     | ${ps.totalRaces.toString().padStart(5)} | ${h('umarenHonmei').padEnd(25)} | ${h('umatanHonmei').padEnd(25)} | ${h('wideKenjitsu').padEnd(25)} | 合計${sumPt}pt`);
   }
   log('');
 
@@ -549,18 +595,23 @@ async function main(): Promise<void> {
   }
   mp('');
 
-  mp(`## 4. 除外パターン別の本命級戦略`);
+  mp(`## 4. 除外パターン別の本命級戦略 (Hybrid H 含む)`);
   mp('');
-  mp(`| パターン | 参加R | 馬連_本命 ROI (参加/的中) | 馬単_本命 ROI (参加/的中) | ワイド_堅実 ROI (参加/的中) |`);
-  mp(`|---|---|---|---|---|`);
-  for (const pat of EXCLUDE_PATTERNS) {
-    const ps = patternStats[pat.key];
-    const h = (key: keyof ClassStats['honmei']): string => {
-      const st = ps.honmei[key];
+  mp(`| パターン | 参加R | 馬連_本命 ROI (参加/的中) | 馬単_本命 ROI (参加/的中) | ワイド_堅実 ROI (参加/的中) | 合計pt |`);
+  mp(`|---|---|---|---|---|---|`);
+  for (const key of ['A', 'F', 'I', 'J', 'H']) {
+    const ps = patternStats[key];
+    if (!ps) continue;
+    const h = (k: keyof ClassStats['honmei']): string => {
+      const st = ps.honmei[k];
       const r = roi(st.cost, st.payout);
       return `**${r.toFixed(1)}%** (${st.participated}R/${st.hits}hit)`;
     };
-    mp(`| **${pat.key}** | ${ps.totalRaces} | ${h('umarenHonmei')} | ${h('umatanHonmei')} | ${h('wideKenjitsu')} |`);
+    const a = roi(ps.honmei.umarenHonmei.cost, ps.honmei.umarenHonmei.payout);
+    const b = roi(ps.honmei.umatanHonmei.cost, ps.honmei.umatanHonmei.payout);
+    const c = roi(ps.honmei.wideKenjitsu.cost, ps.honmei.wideKenjitsu.payout);
+    const sum = (a + b + c).toFixed(1);
+    mp(`| **${key}** (${ps.label}) | ${ps.totalRaces} | ${h('umarenHonmei')} | ${h('umatanHonmei')} | ${h('wideKenjitsu')} | **${sum}pt** |`);
   }
   mp('');
 
@@ -575,35 +626,35 @@ async function main(): Promise<void> {
 
   let bestPattern = 'A';
   let bestScore = roiA_umarenH + roiA_umatanH + roiA_wideK;
-  for (const pat of EXCLUDE_PATTERNS) {
-    const ps = patternStats[pat.key];
+  for (const key of Object.keys(patternStats)) {
+    const ps = patternStats[key];
     const score = roi(ps.honmei.umarenHonmei.cost, ps.honmei.umarenHonmei.payout)
       + roi(ps.honmei.umatanHonmei.cost, ps.honmei.umatanHonmei.payout)
       + roi(ps.honmei.wideKenjitsu.cost, ps.honmei.wideKenjitsu.payout);
     if (score > bestScore) {
       bestScore = score;
-      bestPattern = pat.key;
+      bestPattern = key;
     }
   }
 
   mp(`本命級3戦略 (馬連_本命 + 馬単_本命 + ワイド_堅実) の合算 ROI で比較:`);
   mp('');
-  for (const pat of EXCLUDE_PATTERNS) {
-    const ps = patternStats[pat.key];
+  for (const key of Object.keys(patternStats)) {
+    const ps = patternStats[key];
     const a = roi(ps.honmei.umarenHonmei.cost, ps.honmei.umarenHonmei.payout);
     const b = roi(ps.honmei.umatanHonmei.cost, ps.honmei.umatanHonmei.payout);
     const c = roi(ps.honmei.wideKenjitsu.cost, ps.honmei.wideKenjitsu.payout);
     const total = a + b + c;
-    const mark = pat.key === bestPattern ? ' ⭐最良' : '';
-    mp(`- **${pat.key}** ${pat.label}: 馬連 ${a.toFixed(1)}% + 馬単 ${b.toFixed(1)}% + ワイド ${c.toFixed(1)}% = 合計 ${total.toFixed(1)}pt${mark}`);
+    const mark = key === bestPattern ? ' ⭐最良' : '';
+    mp(`- **${key}** ${ps.label}: 馬連 ${a.toFixed(1)}% + 馬単 ${b.toFixed(1)}% + ワイド ${c.toFixed(1)}% = 合計 ${total.toFixed(1)}pt${mark}`);
   }
   mp('');
-  mp(`→ **推奨: パターン ${bestPattern}** (${EXCLUDE_PATTERNS.find((p) => p.key === bestPattern)?.label})`);
+  mp(`→ **推奨: パターン ${bestPattern}** (${patternStats[bestPattern]?.label})`);
   mp('');
 
   mp(`## 6. 本番反映の判断`);
   mp('');
-  const bestPat = EXCLUDE_PATTERNS.find((p) => p.key === bestPattern)!;
+  const bestPat = { key: bestPattern, label: patternStats[bestPattern]?.label ?? '' };
   const a = roi(patternStats[bestPattern].honmei.umarenHonmei.cost, patternStats[bestPattern].honmei.umarenHonmei.payout);
   const b = roi(patternStats[bestPattern].honmei.umatanHonmei.cost, patternStats[bestPattern].honmei.umatanHonmei.payout);
   const c = roi(patternStats[bestPattern].honmei.wideKenjitsu.cost, patternStats[bestPattern].honmei.wideKenjitsu.payout);

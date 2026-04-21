@@ -599,9 +599,11 @@ export function RaceReport({ race }: Props) {
       .sort((a, b) => (b.ev ?? 0) - (a.ev ?? 0))
       .map((h) => ({ ev: h.ev ?? 0, score: h.score ?? 0, odds: h.odds, ref: h }));
 
-    const umarenHonmei  = shouldRecommendUmaren(sortedForReco) === 'honmei';
-    const umatanHonmei  = shouldRecommendUmatan(sortedForReco) === 'honmei';
-    const wideKenjitsu  = shouldRecommendWide(sortedForReco) === 'kenjitsu';
+    // Phase 2G: raceClass をクラス別ハイブリッド除外ロジックに渡す
+    //   race.raceClass は scraper (RaceData02) で取得済み
+    const umarenHonmei  = shouldRecommendUmaren(sortedForReco, race.raceClass) === 'honmei';
+    const umatanHonmei  = shouldRecommendUmatan(sortedForReco, race.raceClass) === 'honmei';
+    const wideKenjitsu  = shouldRecommendWide(sortedForReco, race.raceClass) === 'kenjitsu';
     const tanReference  = shouldRecommendTan(sortedForReco) === 'reference';
     const fukuReference = shouldRecommendFuku(sortedForReco) === 'reference';
 
@@ -791,7 +793,14 @@ export function RaceReport({ race }: Props) {
                 costText="100円（1点）"
               />
             ) : (
-              <SkipCard label="馬連" reason="両馬スコア≥65 & EV≥1.00 の条件未達" />
+              <SkipCard
+                label="馬連"
+                reason={
+                  /1勝|2勝/.test(race.raceClass ?? '')
+                    ? `${race.raceClass} は精度が低いため推奨対象外 (Phase 2G 検証: ROI 54〜63%)`
+                    : '両馬スコア≥65 & EV≥1.00 の条件未達'
+                }
+              />
             )}
             {betRecs.tieredReco.umatanHonmei ? (
               <TieredBetCard
@@ -804,7 +813,14 @@ export function RaceReport({ race }: Props) {
                 costText="200円（2点BOX）"
               />
             ) : (
-              <SkipCard label="馬単" reason="両馬スコア≥65 & オッズ≤15 & EV≥1.00 の条件未達" />
+              <SkipCard
+                label="馬単"
+                reason={
+                  /1勝|2勝/.test(race.raceClass ?? '')
+                    ? `${race.raceClass} は精度が低いため推奨対象外 (Phase 2G 検証: ROI 18〜63%)`
+                    : '両馬スコア≥65 & オッズ≤15 & EV≥1.00 の条件未達'
+                }
+              />
             )}
           </div>
 
@@ -823,7 +839,14 @@ export function RaceReport({ race }: Props) {
                 costText="100円（1点）"
               />
             ) : (
-              <SkipCard label="ワイド" reason="両馬スコア≥65 & オッズ≤10 & EV≥1.02 の条件未達" />
+              <SkipCard
+                label="ワイド"
+                reason={
+                  /1勝|500万/.test(race.raceClass ?? '')
+                    ? `${race.raceClass} は精度が低いため推奨対象外 (Phase 2G 検証: ROI 80.5%)`
+                    : '両馬スコア≥65 & オッズ≤10 & EV≥1.02 の条件未達'
+                }
+              />
             )}
           </div>
 
