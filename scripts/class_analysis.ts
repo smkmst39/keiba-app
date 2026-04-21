@@ -43,20 +43,39 @@ const CLASS_LABEL: Record<RaceClass, string> = {
 };
 
 /**
- * レース名からクラスを判定する
- *
- * 【制約】 netkeiba shutuba ページのレース名フィールドにはクラス情報が含まれない。
- * "招福S" "中山金杯" "初日の出賞" 等の「愛称」のみ取得されるため、
- * レース名だけでは 1勝/2勝/3勝/OP の区別がつかない。
- *
- * 【本対応 (暫定)】
- *   1. 著名重賞 (G1/G2/G3) のレース名を列挙して判定
- *   2. 条件クラス明示 (1勝/2勝/3勝/未勝利/新馬) → 個別
- *   3. 「〜S / 〜特別 / 〜賞 / 〜杯 / 〜C / 〜JS」等の愛称レース → SP (特別レース、クラス不明)
- *      ※ SP は 1勝〜オープンまで幅広くマージされる。根本解決は
- *        scraper で RaceData02 からクラス情報を取得する必要あり。
+ * Phase 2G 版: race.meta.raceClass / race.meta.raceGrade を優先使用。
+ * 欠損時はレース名パターンマッチにフォールバック。
  */
-function classifyRace(raceName: string): RaceClass {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function classifyRace(vd: any): RaceClass {
+  const meta = vd?.meta;
+  const raceName: string = vd?.raceName ?? '';
+
+  // Phase 2G: meta フィールド優先
+  if (meta) {
+    const grade: string | undefined = meta.raceGrade ?? undefined;
+    if (grade === 'G1') return 'G1';
+    if (grade === 'G2') return 'G2';
+    if (grade === 'G3') return 'G3';
+    if (grade === 'L')  return 'OP'; // リステッドは OP 扱い
+
+    const rc: string | undefined = meta.raceClass;
+    if (rc) {
+      if (/3勝|1600万/.test(rc)) return 'C3';
+      if (/2勝|1000万/.test(rc)) return 'C2';
+      if (/1勝|500万/.test(rc))  return 'C1';
+      if (/未勝利/.test(rc))      return 'UW';
+      if (/新馬/.test(rc))        return 'NW';
+      if (/オープン|OP|リステッド/.test(rc)) return 'OP';
+    }
+  }
+
+  // --- フォールバック: レース名パターンマッチ (Phase 2E/2F 版) ---
+  return classifyRaceByName(raceName);
+}
+
+/** レース名から推測する旧ロジック (meta 欠損時のフォールバック) */
+function classifyRaceByName(raceName: string): RaceClass {
   const n = raceName.trim();
   if (!n) return 'Unknown';
 
@@ -330,7 +349,7 @@ async function main(): Promise<void> {
 
   for (const vd of all) {
     if (vd.predictions.length < 2 || vd.results.results.length === 0) continue;
-    const cls = classifyRace(vd.raceName);
+    const cls = classifyRace(vd);
     classList.push({ raceId: vd.raceId, raceName: vd.raceName, cls });
     const b = betsForRace(vd);
     const h = honmeiBetsForRace(vd);

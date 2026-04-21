@@ -6,7 +6,7 @@
 
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import type { Race, Horse, ComboOddsData, RaceResult } from './types';
+import type { Race, Horse, ComboOddsData, RaceResult, Grade } from './types';
 import { MOCK_NZT_2026 } from './__mocks__/202606030511';
 import { classifyPrevRace } from '../score/calculator';
 import { fetchSireStatsForHorses, getDistanceBand, type SireStatsByHorseNum } from './sire';
@@ -136,6 +136,17 @@ type RaceCardResult = {
   surface: 'turf' | 'dirt';
   startTime: string;    // 発走時刻 "HH:MM"（取得できない場合は ""）
   raceDate?: string;    // 開催日 "YYYYMMDD"（取得できない場合は undefined）
+  // --- Phase 2G で追加する RaceData01/02 由来のメタ情報 ---
+  raceClass?: string;
+  raceCondition?: string;
+  raceGrade?: Grade;
+  weather?: string;
+  trackCondition?: string;
+  handicap?: string;
+  prize?: number;
+  ageLimit?: string;
+  sexLimit?: string;
+  courseTurn?: string;
   /** 馬番をキーとした出馬表データ */
   horseMap: Map<number, {
     id: number;
@@ -184,7 +195,8 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
     const raceDataText = $(SELECTORS.raceData).first().text();
     const distanceMatch = raceDataText.match(/(\d{3,4})m/);
     const distance = distanceMatch ? parseInt(distanceMatch[1], 10) : 0;
-    const surface: 'turf' | 'dirt' = raceDataText.includes('ダート') ? 'dirt' : 'turf';
+    // 芝/ダ: "ダ1700m" or "芝1600m" どちらの表記も netkeiba に存在
+    const surface: 'turf' | 'dirt' = /ダ(?:ート)?\s*\d/.test(raceDataText) ? 'dirt' : 'turf';
     const startTimeMatch = raceDataText.match(/(\d{1,2}:\d{2})発走/);
     const startTime = startTimeMatch ? startTimeMatch[1] : '';
 
@@ -199,6 +211,62 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
 
     // 競馬場名はURLの場コード（3〜4桁目）から逆引き
     const course = courseFromRaceId(raceId);
+
+    // --- Phase 2G: RaceData01/02 から追加フィールドを取得 ---
+    // RaceData01 例: "15:15発走 / ダ1700m (右) / 天候:晴 / 馬場:良"
+    const weather        = raceDataText.match(/天候\s*[:：]\s*(晴|曇|小雨|雨|小雪|雪)/)?.[1];
+    const trackCondition = raceDataText.match(/馬場\s*[:：]\s*(良|稍重|重|不良)/)?.[1];
+    const courseTurn     = raceDataText.match(/\((右|左|直線|内2|外2|内|外)\)/)?.[1];
+
+    // RaceData02 例: "<span>1回</span><span>福島</span><span>3日目</span><span>サラ系4歳以上</span>
+    //                 <span>2勝クラス</span><span>(混)[指]</span><span>ハンデ</span><span>15頭</span>
+    //                 <span>本賞金:1580,630,400,240,158万円</span>"
+    const rd2Spans: string[] = [];
+    $('.RaceData02 span').each((_i, el) => {
+      const t = $(el).text().trim();
+      if (t) rd2Spans.push(t);
+    });
+    // 全角数字・ローマ数字を半角に正規化するヘルパー
+    const z2h = (s: string): string => s
+      .replace(/[０-９]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0xFEE0))
+      .replace(/[Ⅰ]/g, '1').replace(/[Ⅱ]/g, '2').replace(/[Ⅲ]/g, '3');
+
+    // rd2Spans[0..2]: 開催情報 (1回 / 福島 / 3日目)
+    // rd2Spans[3]: 年齢条件 (サラ系4歳以上)
+    // rd2Spans[4]: クラス (2勝クラス, 未勝利, 新馬, オープン等)
+    // 後続に 混合/指定/ハンデ/頭数/賞金
+    const raceCondition = rd2Spans[3] ? z2h(rd2Spans[3]) : undefined;
+    // raceClass: 条件戦 (1勝/2勝/3勝/未勝利/新馬) や オープン表記
+    const raceClassRaw = rd2Spans
+      .map((s) => z2h(s))
+      .find((s) => /1勝|2勝|3勝|500万|1000万|1600万|未勝利|新馬|オープン|OP|リステッド/.test(s));
+    const raceClass = raceClassRaw ?? undefined;
+    // handicap: "ハンデ" / "馬齢" / "別定" / "定量"
+    const handicap = rd2Spans.find((s) => /^(ハンデ|馬齢|別定|定量)$/.test(s));
+    // 賞金: "本賞金:1580,630,..." の最初の数値 (万円)
+    const prizeSpan = rd2Spans.find((s) => /本賞金/.test(s));
+    const prizeMatch = prizeSpan ? z2h(prizeSpan).match(/本賞金\s*[:：]\s*(\d+)/) : null;
+    const prize = prizeMatch ? parseInt(prizeMatch[1], 10) : undefined;
+
+    // 性別制限: RaceData02 全体・レース名から検出
+    const allData2  = rd2Spans.join(' ');
+    const sexLimit  = /牝|\(牝\)|牝馬限/.test(allData2) || /牝|\(牝\)|牝馬限/.test(name)
+      ? '牝' : undefined;
+
+    // 年齢制限: raceCondition から導出 (全角正規化済み)
+    const ageLimit = raceCondition
+      ? (raceCondition.match(/(\d歳以上)|(\d歳)/)?.[0] ?? undefined)
+      : undefined;
+
+    // グレード: Icon_GradeType クラスから判定
+    const gradeEl = $('.Icon_GradeType').first();
+    const gradeCls = gradeEl.attr('class') ?? '';
+    let raceGrade: Grade = null;
+    if (/Icon_GradeType1(?!\d)/.test(gradeCls)) raceGrade = 'G1';
+    else if (/Icon_GradeType2(?!\d)/.test(gradeCls)) raceGrade = 'G2';
+    else if (/Icon_GradeType3(?!\d)/.test(gradeCls)) raceGrade = 'G3';
+    else if (/Icon_GradeType5/.test(gradeCls)) raceGrade = 'L';
+    else if (/Icon_GradeType1[56]/.test(gradeCls)) raceGrade = 'OP';
 
     // --- 馬ごとのデータ ---
     const horseMap = new Map<number, RaceCardResult['horseMap'] extends Map<number, infer V> ? V : never>();
@@ -266,7 +334,13 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
       return null;
     }
 
-    return { name, course, distance, surface, startTime, raceDate, horseMap };
+    return {
+      name, course, distance, surface, startTime, raceDate,
+      // Phase 2G 追加フィールド
+      raceClass, raceCondition, raceGrade,
+      weather, trackCondition, handicap, prize, ageLimit, sexLimit, courseTurn,
+      horseMap,
+    };
   } catch (e) {
     console.error('[scraper] fetchRaceCard: パース失敗:', e);
     return null;
@@ -468,6 +542,17 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
     surface: cardResult.surface,
     startTime: cardResult.startTime,
     raceDate: cardResult.raceDate,
+    // Phase 2G 追加メタ
+    raceClass:     cardResult.raceClass,
+    raceCondition: cardResult.raceCondition,
+    raceGrade:     cardResult.raceGrade ?? undefined,
+    weather:       cardResult.weather,
+    trackCondition: cardResult.trackCondition,
+    handicap:      cardResult.handicap,
+    prize:         cardResult.prize,
+    ageLimit:      cardResult.ageLimit,
+    sexLimit:      cardResult.sexLimit,
+    courseTurn:    cardResult.courseTurn,
     horses,
     fetchedAt: new Date(),
   };

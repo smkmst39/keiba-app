@@ -61,6 +61,18 @@ export type Race = {
   mode?: RaceMode;               // 省略時は 'confirmed' として扱う
   startTime?: string;            // 発走時刻 "HH:MM" 形式（例: "15:40"）
   raceDate?: string;             // 開催日 "YYYYMMDD"（例: "20260418"）
+
+  // --- Phase 2G: RaceData01/02 から取得する追加メタ情報 ---
+  raceClass?: string;            // "1勝クラス" / "2勝クラス" / "オープン" / "未勝利" / "新馬" 等
+  raceCondition?: string;        // 年齢条件 "サラ系4歳以上" / "3歳" 等
+  raceGrade?: Grade;             // G1/G2/G3/L/OP/null (RaceList icon から判定)
+  weather?: string;              // "晴" / "曇" / "小雨" / "雨" / "雪"
+  trackCondition?: string;       // 馬場状態 "良" / "稍重" / "重" / "不良"
+  handicap?: string;             // "ハンデ" / "馬齢" / "別定" / "定量"
+  prize?: number;                // 1着賞金 (万円)
+  ageLimit?: string;             // "2歳" / "3歳" / "3歳以上" / "4歳以上" など raceCondition から導出
+  sexLimit?: string;             // "牝" (牝馬限定) / null (制限なし)
+  courseTurn?: string;           // "右" / "左" / "内2" / "外2" / "直線" など
 };
 
 /** 馬券の券種 */

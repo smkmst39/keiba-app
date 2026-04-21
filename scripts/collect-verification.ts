@@ -67,8 +67,8 @@ const REQUEST_INTERVAL_MS = Number(process.env.SCRAPE_INTERVAL_MS ?? 2000);
 /** 1バッチあたりの最大レース数 (200超えると WAF 検知リスク) */
 const BATCH_MAX_SIZE = 200;
 
-/** バッチ間の休憩時間（ミリ秒、10分） */
-const BATCH_REST_MS = 10 * 60 * 1000;
+/** バッチ間の休憩時間（ミリ秒、5分 - Phase 2G ユーザー指示） */
+const BATCH_REST_MS = 5 * 60 * 1000;
 
 /** 403/400 エラー検出時の停止待機 (3時間) */
 const BLOCK_RECOVERY_MS = 3 * 60 * 60 * 1000;
@@ -202,7 +202,8 @@ function scoreRankOf(horseId: number, horses: Race['horses']): number {
   return idx >= 0 ? idx + 1 : 99;
 }
 
-function buildVerificationData(race: Race, result: RaceResult, dateIso: string): VerificationData {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function buildVerificationData(race: Race, result: RaceResult, dateIso: string): any {
   const top3ids = result.results.filter((r) => r.rank <= 3).map((r) => r.horseId);
   const highEVHorses = race.horses.filter((h) => (h.ev ?? 0) >= 1.0);
   const top3EVCount = highEVHorses.filter((h) => top3ids.includes(h.id)).length;
@@ -248,9 +249,29 @@ function buildVerificationData(race: Race, result: RaceResult, dateIso: string):
       score: h.score ?? 0,
       ev: h.ev ?? 0,
       odds: h.odds,
+      // Phase 2G: 枠番と血統スコアをバックテストで使えるよう保存
+      waku: h.waku,
     })),
     results: result,
     accuracy: { top1ScoreRank, top3EVCount, recommendedHits },
+    // Phase 2G: レースメタ情報を保存 (クラス分析・抽出用)
+    meta: {
+      raceClass:     race.raceClass,
+      raceCondition: race.raceCondition,
+      raceGrade:     race.raceGrade,
+      weather:       race.weather,
+      trackCondition: race.trackCondition,
+      handicap:      race.handicap,
+      prize:         race.prize,
+      ageLimit:      race.ageLimit,
+      sexLimit:      race.sexLimit,
+      courseTurn:    race.courseTurn,
+      distance:      race.distance,
+      surface:       race.surface,
+      startTime:     race.startTime,
+      raceDate:      race.raceDate,
+      headCount:     race.horses.length,
+    },
   };
 }
 
@@ -296,7 +317,8 @@ async function processRace(raceId: string, date: string): Promise<ProcessOutcome
     //   predictions に components (Stage 3 重み最適化用) も追加する
     const vd = buildVerificationData(scoredRace, result, toIsoDate(date));
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (vd as any).predictions = vd.predictions.map((p) => ({
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (vd as any).predictions = vd.predictions.map((p: any) => ({
       ...p,
       components: componentsMap.get(p.horseId) ?? null,
     }));

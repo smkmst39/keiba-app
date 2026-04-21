@@ -54,7 +54,7 @@ async function main(): Promise<void> {
   for (const u of unknowns) {
     nameFreq.set(u.raceName, (nameFreq.get(u.raceName) ?? 0) + 1);
   }
-  const sortedFreq = [...nameFreq.entries()].sort((a, b) => b[1] - a[1]);
+  const sortedFreq = Array.from(nameFreq.entries()).sort((a, b) => b[1] - a[1]);
   console.log(`▼ Unknown レース名の頻度 TOP 20 (ユニーク ${sortedFreq.length} 種):`);
   sortedFreq.slice(0, 20).forEach(([name, count]) => {
     console.log(`   ${count.toString().padStart(4)} × "${name}"`);
@@ -70,7 +70,7 @@ async function main(): Promise<void> {
     }
   }
   console.log('▼ Unknown 内のキーワード出現頻度:');
-  for (const [kw, c] of [...kwCount.entries()].sort((a, b) => b[1] - a[1])) {
+  for (const [kw, c] of Array.from(kwCount.entries()).sort((a, b) => b[1] - a[1])) {
     console.log(`   ${kw.padEnd(10)}: ${c}`);
   }
   console.log('');
