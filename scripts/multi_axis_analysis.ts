@@ -314,7 +314,7 @@ async function main(): Promise<void> {
       entries.push({ cat, triple: t, sample });
     }
     // 未知カテゴリも拾う
-    for (const [cat, t] of map.entries()) {
+    for (const [cat, t] of Array.from(map.entries())) {
       if (!order.includes(cat)) entries.push({ cat, triple: t, sample: t.umaren.races });
     }
     axisLabels[a.key] = { categories: entries };

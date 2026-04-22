@@ -215,7 +215,10 @@ export async function fetchRaceCard(raceId: string): Promise<RaceCardResult | nu
     // --- Phase 2G: RaceData01/02 から追加フィールドを取得 ---
     // RaceData01 例: "15:15発走 / ダ1700m (右) / 天候:晴 / 馬場:良"
     const weather        = raceDataText.match(/天候\s*[:：]\s*(晴|曇|小雨|雨|小雪|雪)/)?.[1];
-    const trackCondition = raceDataText.match(/馬場\s*[:：]\s*(良|稍重|重|不良)/)?.[1];
+    // 馬場状態: 一部のレース (特に小倉などの地方競馬場) では "馬場:稍" と略記される HTML がある
+    //   → 「稍」は「稍重」と解釈する
+    const trackRaw = raceDataText.match(/馬場\s*[:：]\s*(良|稍重|稍|重|不良)/)?.[1];
+    const trackCondition = trackRaw === '稍' ? '稍重' : trackRaw;
     const courseTurn     = raceDataText.match(/\((右|左|直線|内2|外2|内|外)\)/)?.[1];
 
     // RaceData02 例: "<span>1回</span><span>福島</span><span>3日目</span><span>サラ系4歳以上</span>
