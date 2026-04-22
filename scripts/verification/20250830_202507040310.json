@@ -1,0 +1,382 @@
+{
+  "raceId": "202507040310",
+  "raceName": "桑名特別",
+  "date": "2025-08-30",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ベルタソ",
+      "score": 68.93383720930231,
+      "ev": 0.9834831792653408,
+      "odds": 146.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 3.255813953488372
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ホウオウサンデー",
+      "score": 64.345,
+      "ev": 0.982585621299365,
+      "odds": 118.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヨウシタンレイ",
+      "score": 64.7910465116279,
+      "ev": 1.0227658590373494,
+      "odds": 7.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 59.069767441860456
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クイックバイオ",
+      "score": 54.96558139534883,
+      "ev": 0.9875104502201074,
+      "odds": 14.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 8.372093023255813
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アドマイヤジェイ",
+      "score": 54.85255813953488,
+      "ev": 0.9916630100975892,
+      "odds": 5.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.837209302325583
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コト",
+      "score": 51.293139534883714,
+      "ev": 0.9803273027339392,
+      "odds": 13.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.209302325581394
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ジオパーククラウン",
+      "score": 46.92872093023256,
+      "ev": 0.9767162707089277,
+      "odds": 35.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.581395348837211
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ダノンキラウェア",
+      "score": 48.715,
+      "ev": 0.9705691325195632,
+      "odds": 3.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "スマートルシーダ",
+      "score": 39.37825581395349,
+      "ev": 0.9777022272920031,
+      "odds": 61.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 14.883720930232561
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "タガノアンファン",
+      "score": 35.47244186046511,
+      "ev": 0.9187653181504563,
+      "odds": 3.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 11.162790697674419
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ケーブパール",
+      "score": 32.708255813953485,
+      "ev": 0.9223616370595188,
+      "odds": 6.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 14.883720930232561
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040310",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "コト",
+        "time": "1:20.4",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "ケーブパール",
+        "time": "1:20.5",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "スマートルシーダ",
+        "time": "1:20.6",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "ダノンキラウェア",
+        "time": "1:20.6",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "アドマイヤジェイ",
+        "time": "1:20.7",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ホウオウサンデー",
+        "time": "1:20.7",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ジオパーククラウン",
+        "time": "1:20.7",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ベルタソ",
+        "time": "1:20.8",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "タガノアンファン",
+        "time": "1:20.9",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "ヨウシタンレイ",
+        "time": "1:21.1",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "クイックバイオ",
+        "time": "1:21.5",
+        "lastThreeF": 33.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 1310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 410
+        },
+        {
+          "horseId": 11,
+          "payout": 250
+        },
+        {
+          "horseId": 9,
+          "payout": 1110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 1190
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-11",
+          "payout": 3260
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-11",
+          "payout": 7080
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-11",
+          "payout": 1100
+        },
+        {
+          "combination": "6-9",
+          "payout": 8030
+        },
+        {
+          "combination": "9-11",
+          "payout": 4090
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-9-11",
+          "payout": 56090
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-11-9",
+          "payout": 285000
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "15:01",
+    "raceDate": "20250830",
+    "headCount": 11
+  }
+}

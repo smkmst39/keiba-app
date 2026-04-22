@@ -1,0 +1,305 @@
+{
+  "raceId": "202503020709",
+  "raceName": "開成山特別",
+  "date": "2025-07-19",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ロードアフェット",
+      "score": 53.58714285714285,
+      "ev": 0.9822823288192885,
+      "odds": 20.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "プルミエソルティ",
+      "score": 71.00141221374045,
+      "ev": 1.0601143052036273,
+      "odds": 3.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 51.145038167938914
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ビリングス",
+      "score": 54.115714285714276,
+      "ev": 0.9934969606253454,
+      "odds": 3.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ルークスヘリオス",
+      "score": 50.271499454743726,
+      "ev": 0.9786646316151432,
+      "odds": 7.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 45.038167938931295
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フィーリウス",
+      "score": 59.61124318429661,
+      "ev": 1.0151778851472233,
+      "odds": 2.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.977099236641223
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "タイセイアーサー",
+      "score": 43.05037622682661,
+      "ev": 0.9784921030790417,
+      "odds": 67.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.66412213740458
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "モアナフリューゲル",
+      "score": 40.081237731733914,
+      "ev": 0.9590641179440745,
+      "odds": 14.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 63.358778625954194
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ハチワレ",
+      "score": 33.8381679389313,
+      "ev": 0.9467490589697248,
+      "odds": 18.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.244274809160295
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020709",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "フィーリウス",
+        "time": "2:45.7",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "プルミエソルティ",
+        "time": "2:45.9",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ルークスヘリオス",
+        "time": "2:46.1",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ビリングス",
+        "time": "2:46.8",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ロードアフェット",
+        "time": "2:47.2",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "モアナフリューゲル",
+        "time": "2:47.3",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "タイセイアーサー",
+        "time": "2:48.0",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ハチワレ",
+        "time": "2:48.6",
+        "lastThreeF": 38.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 260
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 480
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 850
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 200
+        },
+        {
+          "combination": "4-5",
+          "payout": 290
+        },
+        {
+          "combination": "2-4",
+          "payout": 320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-5",
+          "payout": 850
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-4",
+          "payout": 2980
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 480
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2600,
+    "surface": "turf",
+    "startTime": "14:35",
+    "raceDate": "20250719",
+    "headCount": 8
+  }
+}

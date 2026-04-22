@@ -1,0 +1,383 @@
+{
+  "raceId": "202609020210",
+  "raceName": "御堂筋S",
+  "date": "2026-03-29",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コーチェラバレー",
+      "score": 58.74030612244897,
+      "ev": 1.0138313721232692,
+      "odds": 3.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.36734693877551
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ベトルス",
+      "score": 59.07499999999999,
+      "ev": 1.0151637098960051,
+      "odds": 3.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ミッキーゴールド",
+      "score": 64.93683673469387,
+      "ev": 1.026798644914997,
+      "odds": 5.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.204081632653061
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ギャンブルルーム",
+      "score": 51.71530612244898,
+      "ev": 0.9829332479573651,
+      "odds": 15.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 18.36734693877551
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ナムラフッカー",
+      "score": 46.21095238095238,
+      "ev": 0.9791977477780215,
+      "odds": 61.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 23.809523809523814
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "リンフレスカンテ",
+      "score": 38.89183673469388,
+      "ev": 0.9777409636997041,
+      "odds": 164,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 10.204081632653061
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アスターブジエ",
+      "score": 41.11877551020409,
+      "ev": 0.9727368389178522,
+      "odds": 36.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.530612244897956
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "キングスコール",
+      "score": 68.74499999999999,
+      "ev": 1.038926168251218,
+      "odds": 5.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ウインルーティン",
+      "score": 31.196190476190473,
+      "ev": 0.964836942486681,
+      "odds": 34.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 4.761904761904762
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シュバルツマサムネ",
+      "score": 32.31897959183674,
+      "ev": 0.9443271361901786,
+      "odds": 15.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.775510204081634
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "アロンディ",
+      "score": 59.70836734693877,
+      "ev": 1.0101479973205536,
+      "odds": 8.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 2.040816326530609
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609020210",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ギャンブルルーム",
+        "time": "2:23.2",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ベトルス",
+        "time": "2:23.5",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "コーチェラバレー",
+        "time": "2:23.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "シュバルツマサムネ",
+        "time": "2:23.9",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "アロンディ",
+        "time": "2:24.0",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "アスターブジエ",
+        "time": "2:24.0",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "リンフレスカンテ",
+        "time": "2:24.1",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "ナムラフッカー",
+        "time": "2:24.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "ウインルーティン",
+        "time": "2:24.1",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "ミッキーゴールド",
+        "time": "2:24.2",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 11,
+        "horseId": 8,
+        "horseName": "キングスコール",
+        "time": "2:24.3",
+        "lastThreeF": 35.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 1540
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 360
+        },
+        {
+          "horseId": 2,
+          "payout": 150
+        },
+        {
+          "horseId": 1,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-4",
+          "payout": 2920
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 2870
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-2",
+          "payout": 7170
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 950
+        },
+        {
+          "combination": "1-4",
+          "payout": 1060
+        },
+        {
+          "combination": "1-2",
+          "payout": 320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-4",
+          "payout": 4200
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-2-1",
+          "payout": 36600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1870,
+    "ageLimit": "4歳以上",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "14:40",
+    "raceDate": "20260329",
+    "headCount": 11
+  }
+}

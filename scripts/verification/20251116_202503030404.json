@@ -1,0 +1,351 @@
+{
+  "raceId": "202503030404",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ウォーターリーダー",
+      "score": 73.09231707317073,
+      "ev": 1.0497331052525178,
+      "odds": 9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 87.19512195121953
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メイショウコガシラ",
+      "score": 64.10780487804877,
+      "ev": 1.0214942975581573,
+      "odds": 8.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 21.341463414634152
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "プリンセスララア",
+      "score": 57.7690243902439,
+      "ev": 0.9813481979809977,
+      "odds": 68.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 31.70731707317074
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コレクテイニア",
+      "score": 58.568292682926824,
+      "ev": 0.9860208277906882,
+      "odds": 31.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.487804878048784
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゴールデンスロープ",
+      "score": 58.144999999999996,
+      "ev": 1.0084410992118276,
+      "odds": 1.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ケイアイカラキア",
+      "score": 50.45340108401083,
+      "ev": 0.9791111050185455,
+      "odds": 13.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 38.0758807588076
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "パルピタシオン",
+      "score": 40.201951219512196,
+      "ev": 0.9778973066704322,
+      "odds": 83,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 11.58536585365854
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スラーヴァ",
+      "score": 40.32524390243903,
+      "ev": 0.9716861055741963,
+      "odds": 31.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.073170731707318
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "トリップトゥムーン",
+      "score": 35.260975609756095,
+      "ev": 0.9769266970741888,
+      "odds": 50.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 43.292682926829265
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "モズバンディット",
+      "score": 31.135,
+      "ev": 0.9644647471801884,
+      "odds": 25.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503030404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ウォーターリーダー",
+        "time": "3:00.5",
+        "lastThreeF": 13.1
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ゴールデンスロープ",
+        "time": "3:00.8",
+        "lastThreeF": 13.1
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "コレクテイニア",
+        "time": "3:01.5",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "メイショウコガシラ",
+        "time": "3:03.4",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "スラーヴァ",
+        "time": "3:03.5",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "ケイアイカラキア",
+        "time": "3:04.5",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "プリンセスララア",
+        "time": "3:05.2",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "モズバンディット",
+        "time": "3:18.2",
+        "lastThreeF": 14.4
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "トリップトゥムーン",
+        "time": "3:18.7",
+        "lastThreeF": 14.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 900
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 190
+        },
+        {
+          "horseId": 5,
+          "payout": 100
+        },
+        {
+          "horseId": 4,
+          "payout": 330
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-5",
+          "payout": 520
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 490
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 1700
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 230
+        },
+        {
+          "combination": "1-4",
+          "payout": 1840
+        },
+        {
+          "combination": "4-5",
+          "payout": 460
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-5",
+          "payout": 2600
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-4",
+          "payout": 19920
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 900
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2750,
+    "surface": "turf",
+    "startTime": "11:10",
+    "raceDate": "20251116",
+    "headCount": 10
+  }
+}

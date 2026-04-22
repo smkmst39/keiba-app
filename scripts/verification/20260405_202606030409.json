@@ -1,0 +1,307 @@
+{
+  "raceId": "202606030409",
+  "raceName": "安房特別",
+  "date": "2026-04-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "オストラヴァ",
+      "score": 66.79601328903654,
+      "ev": 1.0421521294002578,
+      "odds": 2.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.16279069767441
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "レイデラルース",
+      "score": 59.501328903654475,
+      "ev": 0.9867045840198321,
+      "odds": 27.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.279069767441857
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カーミングライツ",
+      "score": 68.17651162790698,
+      "ev": 1.0340561008753586,
+      "odds": 6.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 69.76744186046511
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ロールザダイス",
+      "score": 54.115714285714276,
+      "ev": 0.9861930872478016,
+      "odds": 13.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "リギーロ",
+      "score": 43.98847176079734,
+      "ev": 0.9663200584386439,
+      "odds": 11.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 16.279069767441857
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "タッチアンドムーブ",
+      "score": 44.33057032115172,
+      "ev": 0.9669913699559465,
+      "odds": 12,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 45.73643410852713
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "イクリール",
+      "score": 37.11642857142857,
+      "ev": 0.9256696336595528,
+      "odds": 3.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ダイシンアポロン",
+      "score": 33.65282945736434,
+      "ev": 0.9460380797310234,
+      "odds": 12.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 43.410852713178286
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606030409",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "オストラヴァ",
+        "time": "2:34.1",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ダイシンアポロン",
+        "time": "2:34.4",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ロールザダイス",
+        "time": "2:35.4",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "レイデラルース",
+        "time": "2:35.5",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "カーミングライツ",
+        "time": "2:35.5",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "タッチアンドムーブ",
+        "time": "2:36.0",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "リギーロ",
+        "time": "2:36.5",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "イクリール",
+        "time": "2:36.7",
+        "lastThreeF": 39.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 260
+        },
+        {
+          "horseId": 4,
+          "payout": 350
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 1480
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-8",
+          "payout": 2270
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 450
+        },
+        {
+          "combination": "1-4",
+          "payout": 510
+        },
+        {
+          "combination": "4-8",
+          "payout": 2380
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-8",
+          "payout": 4420
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-8-4",
+          "payout": 17370
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "handicap": "定量",
+    "prize": 1580,
+    "ageLimit": "4歳以上",
+    "distance": 2500,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20260405",
+    "headCount": 8,
+    "trackCondition": "重",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場6R 中の最頻値"
+  }
+}

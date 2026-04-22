@@ -1,0 +1,279 @@
+{
+  "raceId": "202507040112",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エリカヴェネチア",
+      "score": 69.62112244897959,
+      "ev": 1.0411816070195852,
+      "odds": 8.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.346938775510203
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "レガッタ",
+      "score": 62.87908163265306,
+      "ev": 0.98994064959818,
+      "odds": 28.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.89795918367347
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ニヒトツーゼーア",
+      "score": 53.061020408163266,
+      "ev": 0.9821428201354306,
+      "odds": 20.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 21.224489795918366
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メイショウアイナ",
+      "score": 50.294999999999995,
+      "ev": 0.9798648877465517,
+      "odds": 13,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "トレチーメ",
+      "score": 49.235,
+      "ev": 0.975520339922516,
+      "odds": 3.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ソングコレクター",
+      "score": 35.51020408163265,
+      "ev": 0.9505084510283206,
+      "odds": 11,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 12.244897959183673
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "カミノレアル",
+      "score": 31.939897959183675,
+      "ev": 0.906838625085205,
+      "odds": 1.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 13.877551020408163
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040112",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "カミノレアル",
+        "time": "1:54.1",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ニヒトツーゼーア",
+        "time": "1:54.2",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ソングコレクター",
+        "time": "1:54.6",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "エリカヴェネチア",
+        "time": "1:55.2",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "トレチーメ",
+        "time": "1:56.2",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "レガッタ",
+        "time": "1:56.2",
+        "lastThreeF": 41.1
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "メイショウアイナ",
+        "time": "1:57.0",
+        "lastThreeF": 41.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 170
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 420
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-7",
+          "payout": 1140
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-3",
+          "payout": 1610
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-7",
+          "payout": 450
+        },
+        {
+          "combination": "6-7",
+          "payout": 400
+        },
+        {
+          "combination": "3-6",
+          "payout": 1420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-7",
+          "payout": 2580
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-3-6",
+          "payout": 11630
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "16:05",
+    "raceDate": "20250823",
+    "headCount": 7
+  }
+}

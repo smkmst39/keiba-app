@@ -1,0 +1,383 @@
+{
+  "raceId": "202609011005",
+  "raceName": "3歳1勝クラス",
+  "date": "2026-03-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フィオラーノ",
+      "score": 65.05499999999999,
+      "ev": 1.0060732997909483,
+      "odds": 18.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ネメス",
+      "score": 62.745952380952374,
+      "ev": 1.0145575716594852,
+      "odds": 5.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.809523809523814
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ドルチェミスト",
+      "score": 71.6251700680272,
+      "ev": 1.0420895313458227,
+      "odds": 7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 43.537414965986386
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サヨノパララックス",
+      "score": 56.96530612244897,
+      "ev": 0.9841583528796166,
+      "odds": 22.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 18.36734693877551
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エスティヴァリス",
+      "score": 54.45897959183673,
+      "ev": 0.9822154992568797,
+      "odds": 34.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.775510204081634
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "フルールジェンヌ",
+      "score": 50.57119047619047,
+      "ev": 0.9760088189282888,
+      "odds": 3.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.761904761904762
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グレースジェンヌ",
+      "score": 51.69499999999999,
+      "ev": 0.9803645909674299,
+      "odds": 4.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ワイドカクゲン",
+      "score": 40.5091156462585,
+      "ev": 0.9714018469365119,
+      "odds": 28.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 13.605442176870747
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ミスバレンシア",
+      "score": 41.39506802721088,
+      "ev": 0.9780221548247809,
+      "odds": 53.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 37.414965986394556
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ジャスパーメルチェ",
+      "score": 35.61523809523809,
+      "ev": 0.9304328482547249,
+      "odds": 8.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 80.95238095238095
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "シラヌイ",
+      "score": 36.97425170068027,
+      "ev": 0.9516542297933417,
+      "odds": 10.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 88.43537414965985
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609011005",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 11,
+        "horseName": "シラヌイ",
+        "time": "1:08.3",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ネメス",
+        "time": "1:08.5",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "フィオラーノ",
+        "time": "1:08.5",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "フルールジェンヌ",
+        "time": "1:08.5",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "サヨノパララックス",
+        "time": "1:08.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ミスバレンシア",
+        "time": "1:08.9",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "エスティヴァリス",
+        "time": "1:08.9",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ドルチェミスト",
+        "time": "1:09.1",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "グレースジェンヌ",
+        "time": "1:09.2",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "ワイドカクゲン",
+        "time": "1:09.3",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "ジャスパーメルチェ",
+        "time": "1:09.4",
+        "lastThreeF": 35.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 11,
+          "payout": 1090
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 11,
+          "payout": 330
+        },
+        {
+          "horseId": 2,
+          "payout": 240
+        },
+        {
+          "horseId": 1,
+          "payout": 300
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-8",
+          "payout": 1550
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-11",
+          "payout": 3570
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "11-2",
+          "payout": 8370
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-11",
+          "payout": 1260
+        },
+        {
+          "combination": "1-11",
+          "payout": 2300
+        },
+        {
+          "combination": "1-2",
+          "payout": 1450
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-11",
+          "payout": 17510
+        }
+      ],
+      "santan": [
+        {
+          "combination": "11-2-1",
+          "payout": 99810
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 820,
+    "ageLimit": "3歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20260322",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "raceId": "202505030306",
+  "raceName": "2歳新馬",
+  "date": "2025-06-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "テンレディーゴー",
+      "score": 71.14318181818182,
+      "ev": 1.0163914516204515,
+      "odds": 16.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.22727272727273
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ミュージックレイン",
+      "score": 64.99999999999999,
+      "ev": 1.0292282219815936,
+      "odds": 4.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "キタイノホシ",
+      "score": 62.411026936026936,
+      "ev": 0.9819650686733165,
+      "odds": 146.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.05218855218855
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フクチャンショウ",
+      "score": 58.403787878787874,
+      "ev": 0.9991491964310208,
+      "odds": 6.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.651515151515145
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エンヴィーミー",
+      "score": 54.39166666666666,
+      "ev": 0.9817105796121502,
+      "odds": 24.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.166666666666657
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クリエープキー",
+      "score": 49.19318181818181,
+      "ev": 0.9708963598543102,
+      "odds": 6.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.227272727272728
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ハミングディスト",
+      "score": 45.88409090909091,
+      "ev": 0.9607459740863327,
+      "odds": 6.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.863636363636363
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "カレンデュラ",
+      "score": 40.66363636363637,
+      "ev": 0.9777957890693962,
+      "odds": 122.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.545454545454546
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サンアントワーヌ",
+      "score": 42.10000000000001,
+      "ev": 0.9414232022373091,
+      "odds": 2.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エンカウンターベイ",
+      "score": 32.41969696969697,
+      "ev": 0.9648612413321219,
+      "odds": 32.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.787878787878787
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505030306",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "サンアントワーヌ",
+        "time": "1:22.6",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "カレンデュラ",
+        "time": "1:23.3",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "エンヴィーミー",
+        "time": "1:23.4",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "クリエープキー",
+        "time": "1:23.5",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "フクチャンショウ",
+        "time": "1:23.8",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ミュージックレイン",
+        "time": "1:24.0",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "テンレディーゴー",
+        "time": "1:24.2",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "エンカウンターベイ",
+        "time": "1:24.6",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "ハミングディスト",
+        "time": "1:25.2",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "キタイノホシ",
+        "time": "1:25.4",
+        "lastThreeF": 36.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 140
+        },
+        {
+          "horseId": 8,
+          "payout": 1790
+        },
+        {
+          "horseId": 5,
+          "payout": 510
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 730
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "8-9",
+          "payout": 12560
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-8",
+          "payout": 13030
+        }
+      ],
+      "wide": [
+        {
+          "combination": "8-9",
+          "payout": 3650
+        },
+        {
+          "combination": "5-9",
+          "payout": 880
+        },
+        {
+          "combination": "5-8",
+          "payout": 13070
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-8-9",
+          "payout": 35540
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-8-5",
+          "payout": 145560
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "13:05",
+    "raceDate": "20250614",
+    "headCount": 10
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "raceId": "202507030109",
+  "raceName": "3歳以上障害OP",
+  "date": "2025-07-26",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジロー",
+      "score": 68.40671641791045,
+      "ev": 1.0475561367304824,
+      "odds": 3.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 49.25373134328358
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マイネルエール",
+      "score": 69.27357142857142,
+      "ev": 1.0509466280433675,
+      "odds": 2.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ミラクルジニア",
+      "score": 61.4138592750533,
+      "ev": 1.0001026433498026,
+      "odds": 19.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 49.25373134328358
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トーアモルペウス",
+      "score": 54.705341151385916,
+      "ev": 0.9939665591835901,
+      "odds": 4.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 30.597014925373127
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "タイキフロリゼル",
+      "score": 48.36055437100213,
+      "ev": 0.97132038226892,
+      "odds": 6.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 5.970149253731343
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "テンメジャーガール",
+      "score": 43.478678038379535,
+      "ev": 0.9650281064145005,
+      "odds": 12.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.686567164179104
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クラウンセト",
+      "score": 33.36710021321962,
+      "ev": 0.9452536248955992,
+      "odds": 18.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 14.92537313432836
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ヴァランセカズマ",
+      "score": 30.07,
+      "ev": 0.9758805724443302,
+      "odds": 66.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "マイネルエール",
+        "time": "3:38.5",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "クラウンセト",
+        "time": "3:38.6",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ミラクルジニア",
+        "time": "3:40.3",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ジロー",
+        "time": "3:40.6",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "トーアモルペウス",
+        "time": "3:40.6",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ヴァランセカズマ",
+        "time": "3:42.6",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "タイキフロリゼル",
+        "time": "3:42.8",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "テンメジャーガール",
+        "time": "3:42.9",
+        "lastThreeF": 13.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 340
+        },
+        {
+          "horseId": 3,
+          "payout": 490
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 1630
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-7",
+          "payout": 2090
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 570
+        },
+        {
+          "combination": "2-3",
+          "payout": 1010
+        },
+        {
+          "combination": "3-7",
+          "payout": 2260
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-7",
+          "payout": 7020
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-7-3",
+          "payout": 20540
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 230
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害3歳以上",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1430,
+    "ageLimit": "3歳以上",
+    "distance": 3300,
+    "surface": "turf",
+    "startTime": "16:45",
+    "raceDate": "20250726",
+    "headCount": 8
+  }
+}

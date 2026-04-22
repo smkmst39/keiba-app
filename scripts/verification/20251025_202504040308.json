@@ -1,0 +1,456 @@
+{
+  "raceId": "202504040308",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-10-25",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ステイアンビシャス",
+      "score": 70.91639175257731,
+      "ev": 1.017391105115449,
+      "odds": 16,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 68.04123711340206
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トリプルバレル",
+      "score": 66.26153846153845,
+      "ev": 0.9828372944123313,
+      "odds": 155.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ブリスキー",
+      "score": 66.614726407613,
+      "ev": 1.038114397868321,
+      "odds": 4.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 91.75257731958763
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "モヴレクス",
+      "score": 59.306780333068986,
+      "ev": 0.9814899022488738,
+      "odds": 183.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 39.175257731958766
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヒラリーステップ",
+      "score": 57.39867961934971,
+      "ev": 0.9811202330380598,
+      "odds": 87.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 12.371134020618557
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ライヴスプーン",
+      "score": 57.598413957176845,
+      "ev": 0.9915892891742623,
+      "odds": 16,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 46.3917525773196
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マハナ",
+      "score": 57.514230769230764,
+      "ev": 1.0028523908215448,
+      "odds": 4.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "プルーヴンウィナー",
+      "score": 45.456645519429024,
+      "ev": 0.9752264891566687,
+      "odds": 29.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 20.618556701030926
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サンカルミア",
+      "score": 42.5583901665345,
+      "ev": 0.9449024749402065,
+      "odds": 4.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 19.587628865979383
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シュネーグロッケン",
+      "score": 44.27513481363997,
+      "ev": 0.9572435241184792,
+      "odds": 9.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.556701030927833
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "テイラーテソーロ",
+      "score": 43.010126883425855,
+      "ev": 0.9783326417456297,
+      "odds": 83.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 76.28865979381443
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ブレードサクセス",
+      "score": 42.305428231562246,
+      "ev": 0.9439223145304881,
+      "odds": 4.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 82.4742268041237
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "イエスウィズキャン",
+      "score": 34.58268834258525,
+      "ev": 0.9766999372808308,
+      "odds": 84.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 28.865979381443296
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "シルバーニース",
+      "score": 34.83092783505155,
+      "ev": 0.9767480303907033,
+      "odds": 92.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.360824742268036
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504040308",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "サンカルミア",
+        "time": "1:52.7",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 2,
+        "horseId": 12,
+        "horseName": "ブレードサクセス",
+        "time": "1:52.8",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "マハナ",
+        "time": "1:53.2",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ライヴスプーン",
+        "time": "1:53.8",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ブリスキー",
+        "time": "1:54.1",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ヒラリーステップ",
+        "time": "1:54.2",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ステイアンビシャス",
+        "time": "1:54.4",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "モヴレクス",
+        "time": "1:54.8",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "トリプルバレル",
+        "time": "1:54.9",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 10,
+        "horseId": 13,
+        "horseName": "イエスウィズキャン",
+        "time": "1:54.9",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "シュネーグロッケン",
+        "time": "1:55.4",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 12,
+        "horseId": 14,
+        "horseName": "シルバーニース",
+        "time": "1:55.5",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 13,
+        "horseId": 8,
+        "horseName": "プルーヴンウィナー",
+        "time": "1:55.8",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 14,
+        "horseId": 11,
+        "horseName": "テイラーテソーロ",
+        "time": "1:58.8",
+        "lastThreeF": 43.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 410
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 140
+        },
+        {
+          "horseId": 12,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 660
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "9-12",
+          "payout": 880
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-12",
+          "payout": 2100
+        }
+      ],
+      "wide": [
+        {
+          "combination": "9-12",
+          "payout": 350
+        },
+        {
+          "combination": "7-9",
+          "payout": 260
+        },
+        {
+          "combination": "7-12",
+          "payout": 350
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "7-9-12",
+          "payout": 1170
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-12-7",
+          "payout": 6050
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 11,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "13:35",
+    "raceDate": "20251025",
+    "headCount": 14
+  }
+}

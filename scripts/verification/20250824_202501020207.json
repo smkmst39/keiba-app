@@ -1,0 +1,384 @@
+{
+  "raceId": "202501020207",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-08-24",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シエラメンテ",
+      "score": 67.63621621621621,
+      "ev": 0.9832885585300296,
+      "odds": 72.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 11.486486486486486
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラブミーナッソー",
+      "score": 61.419729729729724,
+      "ev": 1.0006719889242461,
+      "odds": 16.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 16.89189189189189
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ディニトーソ",
+      "score": 62.842702702702695,
+      "ev": 1.0269354377780524,
+      "odds": 1.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 56.081081081081074
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カップッチョ",
+      "score": 57.67499999999999,
+      "ev": 0.9813314679042573,
+      "odds": 86,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ダオラダオラ",
+      "score": 54.810270270270266,
+      "ev": 0.9807686314415472,
+      "odds": 181.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.10810810810811
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スイッチオン",
+      "score": 56.45,
+      "ev": 0.9909079086597875,
+      "odds": 14.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タミゼ",
+      "score": 47.23202702702702,
+      "ev": 0.968475616349481,
+      "odds": 8.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 10.81081081081081
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ミスターディジェイ",
+      "score": 45.93256756756757,
+      "ev": 0.9702441985525828,
+      "odds": 15.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 52.02702702702702
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "レディオンステージ",
+      "score": 41.215810810810815,
+      "ev": 0.9723908547794118,
+      "odds": 39.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 34.324324324324316
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "モダンフリンジ",
+      "score": 34.652162162162156,
+      "ev": 0.9768081467421528,
+      "odds": 196.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 39.86486486486487
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "イチトゼロノアイダ",
+      "score": 30.012432432432433,
+      "ev": 0.8979314832550668,
+      "odds": 4.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 47.97297297297296
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020207",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "タミゼ",
+        "time": "0:59.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "イチトゼロノアイダ",
+        "time": "0:59.5",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ディニトーソ",
+        "time": "1:00.0",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "スイッチオン",
+        "time": "1:00.1",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ラブミーナッソー",
+        "time": "1:00.3",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "レディオンステージ",
+        "time": "1:00.5",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "カップッチョ",
+        "time": "1:00.7",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ミスターディジェイ",
+        "time": "1:00.7",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "モダンフリンジ",
+        "time": "1:01.0",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ダオラダオラ",
+        "time": "1:01.4",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 11,
+        "horseId": 1,
+        "horseName": "シエラメンテ",
+        "time": "1:01.5",
+        "lastThreeF": 37.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 810
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 130
+        },
+        {
+          "horseId": 11,
+          "payout": 120
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 1110
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-11",
+          "payout": 1840
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-11",
+          "payout": 4500
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-11",
+          "payout": 420
+        },
+        {
+          "combination": "3-7",
+          "payout": 190
+        },
+        {
+          "combination": "3-11",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-7-11",
+          "payout": 770
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-11-3",
+          "payout": 9780
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1000,
+    "surface": "dirt",
+    "startTime": "13:25",
+    "raceDate": "20250824",
+    "headCount": 11
+  }
+}

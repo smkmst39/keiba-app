@@ -1,0 +1,279 @@
+{
+  "raceId": "202508040308",
+  "raceName": "3歳以上2勝クラス",
+  "date": "2025-11-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サクソンジェンヌ",
+      "score": 69.05257575757575,
+      "ev": 1.0348132085489856,
+      "odds": 7.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.303030303030303
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ジャルディニエ",
+      "score": 65.00050505050505,
+      "ev": 1.022207765518025,
+      "odds": 6.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.35353535353536
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴォワラクテ",
+      "score": 56.8,
+      "ev": 0.9966971052378705,
+      "odds": 8.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エアニゲラ",
+      "score": 49.57454545454545,
+      "ev": 0.9785549237469252,
+      "odds": 34,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 18.181818181818176
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ステラクラウン",
+      "score": 49.94499999999999,
+      "ev": 0.9742151611158767,
+      "odds": 2.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "キーパフォーマー",
+      "score": 41.98651515151515,
+      "ev": 0.9432679508428414,
+      "odds": 3.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 81.06060606060606
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ハミング",
+      "score": 27.669393939393938,
+      "ev": 0.9060757361404435,
+      "odds": 9.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 7.575757575757572
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040308",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "キーパフォーマー",
+        "time": "1:59.5",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ステラクラウン",
+        "time": "2:00.1",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "サクソンジェンヌ",
+        "time": "2:00.3",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ヴォワラクテ",
+        "time": "2:00.6",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ジャルディニエ",
+        "time": "2:01.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "エアニゲラ",
+        "time": "2:02.1",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ハミング",
+        "time": "2:04.0",
+        "lastThreeF": 39.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 370
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 150
+        },
+        {
+          "horseId": 5,
+          "payout": 130
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 320
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 170
+        },
+        {
+          "combination": "1-6",
+          "payout": 440
+        },
+        {
+          "combination": "1-5",
+          "payout": 310
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-6",
+          "payout": 710
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-1",
+          "payout": 3660
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:01",
+    "raceDate": "20251115",
+    "headCount": 7
+  }
+}

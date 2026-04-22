@@ -1,0 +1,334 @@
+{
+  "raceId": "202506040610",
+  "raceName": "九十九里特別",
+  "date": "2025-09-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイユニバース",
+      "score": 71.90645161290323,
+      "ev": 1.0661114666565885,
+      "odds": 1.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 48.38709677419354
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エコロレイズ",
+      "score": 66.2841129032258,
+      "ev": 1.0309924139866165,
+      "odds": 5.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 37.09677419354839
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "レイデラティエラ",
+      "score": 62.125,
+      "ev": 1.0177533249642483,
+      "odds": 6.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ミントマーク",
+      "score": 55.647499999999994,
+      "ev": 0.9971344571581169,
+      "odds": 7.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ネイサン",
+      "score": 50.294999999999995,
+      "ev": 0.9800060397173812,
+      "odds": 126.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ソワドリヨン",
+      "score": 44.15459677419355,
+      "ev": 0.9751376994951809,
+      "odds": 26.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 53.22580645161291
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ワイズゴールド",
+      "score": 38.90403225806452,
+      "ev": 0.977739840778218,
+      "odds": 251.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 17.741935483870964
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "コスモマルーン",
+      "score": 34.38508064516129,
+      "ev": 0.9768408088800247,
+      "odds": 211,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 19.35483870967742
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "バニシングポイント",
+      "score": 28.68,
+      "ev": 0.9628232006437611,
+      "odds": 34.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506040610",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "マイユニバース",
+        "time": "2:32.0",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ミントマーク",
+        "time": "2:33.2",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "エコロレイズ",
+        "time": "2:33.4",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "レイデラティエラ",
+        "time": "2:33.4",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ソワドリヨン",
+        "time": "2:33.6",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ワイズゴールド",
+        "time": "2:34.1",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ネイサン",
+        "time": "2:34.1",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "バニシングポイント",
+        "time": "2:34.6",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "コスモマルーン",
+        "time": "2:35.0",
+        "lastThreeF": 35.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 140
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 120
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-4",
+          "payout": 420
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 410
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-4",
+          "payout": 530
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 170
+        },
+        {
+          "combination": "1-2",
+          "payout": 140
+        },
+        {
+          "combination": "2-4",
+          "payout": 260
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-4",
+          "payout": 350
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-4-2",
+          "payout": 1100
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 140
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2500,
+    "surface": "turf",
+    "startTime": "15:05",
+    "raceDate": "20250920",
+    "headCount": 9
+  }
+}

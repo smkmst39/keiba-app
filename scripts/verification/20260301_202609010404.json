@@ -1,0 +1,307 @@
+{
+  "raceId": "202609010404",
+  "raceName": "3歳1勝クラス",
+  "date": "2026-03-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ダンツシタン",
+      "score": 63.51123376623376,
+      "ev": 1.0189507870971966,
+      "odds": 5.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0.6493506493506545
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ホールオブミラーズ",
+      "score": 54.11441558441558,
+      "ev": 0.9805946863013353,
+      "odds": 68.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 9.090909090909099
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エブリデイ",
+      "score": 51.87129870129869,
+      "ev": 0.9801555219962753,
+      "odds": 77.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 12.33766233766234
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サイモンゼスト",
+      "score": 45.88428571428571,
+      "ev": 0.9759334649042165,
+      "odds": 21.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "セイントホース",
+      "score": 74.89999999999999,
+      "ev": 0.9986566071461773,
+      "odds": 49,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アンコールアゲイン",
+      "score": 46.84805194805195,
+      "ev": 0.9717205533605003,
+      "odds": 18.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 70.77922077922078
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "メルカントゥール",
+      "score": 39.03233766233766,
+      "ev": 0.9328374163055194,
+      "odds": 1.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 63.63636363636363
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ブームバップビート",
+      "score": 32.453896103896106,
+      "ev": 0.9654156933795606,
+      "odds": 20.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 65.5844155844156
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609010404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "メルカントゥール",
+        "time": "1:53.3",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "ダンツシタン",
+        "time": "1:54.0",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ブームバップビート",
+        "time": "1:54.2",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "セイントホース",
+        "time": "1:54.2",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ホールオブミラーズ",
+        "time": "1:54.7",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "エブリデイ",
+        "time": "1:55.1",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "アンコールアゲイン",
+        "time": "1:55.2",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "サイモンゼスト",
+        "time": "1:55.3",
+        "lastThreeF": 39.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 110
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 100
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-7",
+          "payout": 190
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-1",
+          "payout": 220
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-7",
+          "payout": 110
+        },
+        {
+          "combination": "7-8",
+          "payout": 210
+        },
+        {
+          "combination": "1-8",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-7-8",
+          "payout": 470
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-1-8",
+          "payout": 940
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 820,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "11:25",
+    "raceDate": "20260301",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "raceId": "202609010108",
+  "raceName": "すみれS",
+  "date": "2026-02-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ページターナー",
+      "score": 72.77,
+      "ev": 1.0639404791166847,
+      "odds": 4.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アーレムアレス",
+      "score": 62.595,
+      "ev": 1.0242387562224664,
+      "odds": 2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ノチェセラーダ",
+      "score": 55.73499999999999,
+      "ev": 0.9939774368950768,
+      "odds": 9.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ラージアンサンブル",
+      "score": 53.228979057591616,
+      "ev": 0.983846789999344,
+      "odds": 14.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 62.82722513089005
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アッカン",
+      "score": 42.73439790575916,
+      "ev": 0.9533959094805475,
+      "odds": 6.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 6.282722513089004
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ガウディ",
+      "score": 37.927748691099474,
+      "ev": 0.9539949370287756,
+      "odds": 19.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 53.92670157068061
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ナリタエスペランサ",
+      "score": 33.809424083769635,
+      "ev": 0.9255365021080635,
+      "odds": 6.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.748691099476435
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609010108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ラージアンサンブル",
+        "time": "2:12.4",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "アーレムアレス",
+        "time": "2:12.6",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ノチェセラーダ",
+        "time": "2:12.8",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ガウディ",
+        "time": "2:12.9",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "アッカン",
+        "time": "2:13.0",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ページターナー",
+        "time": "2:13.3",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ナリタエスペランサ",
+        "time": "2:13.3",
+        "lastThreeF": 36
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 1430
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 430
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 1330
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-2",
+          "payout": 3690
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 450
+        },
+        {
+          "combination": "3-4",
+          "payout": 1200
+        },
+        {
+          "combination": "2-3",
+          "payout": 280
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-4",
+          "payout": 2330
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-2-3",
+          "payout": 19340
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 2100,
+    "ageLimit": "3歳",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "13:50",
+    "raceDate": "20260221",
+    "headCount": 7
+  }
+}

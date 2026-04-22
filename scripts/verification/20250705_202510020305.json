@@ -1,0 +1,306 @@
+{
+  "raceId": "202510020305",
+  "raceName": "2歳新馬",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "キャンディード",
+      "score": 69.62857142857142,
+      "ev": 1.0441800166477235,
+      "odds": 2.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ジェイパック",
+      "score": 59.819727891156454,
+      "ev": 1.001571172705845,
+      "odds": 9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.7687074829932
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ゴールドヴィーナス",
+      "score": 74.46598639455782,
+      "ev": 1.062533809351301,
+      "odds": 2.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 92.5170068027211
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ララクレアドルーン",
+      "score": 53.99591836734693,
+      "ev": 0.983894129326818,
+      "odds": 9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.244897959183673
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ローズカリス",
+      "score": 48.96122448979592,
+      "ev": 0.9686122933207231,
+      "odds": 8.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.326530612244902
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "カシノリアーナ",
+      "score": 42.74285714285715,
+      "ev": 0.9781086028909519,
+      "odds": 71.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ダイシンヨーク",
+      "score": 39.53440233236152,
+      "ev": 0.9549993777844148,
+      "odds": 13.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.56851311953353
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "カシノプロスペリテ",
+      "score": 32.55510204081633,
+      "ev": 0.9761759183210688,
+      "odds": 83.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.1224489795918355
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020305",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "キャンディード",
+        "time": "1:09.4",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ララクレアドルーン",
+        "time": "1:09.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ゴールドヴィーナス",
+        "time": "1:10.7",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "ローズカリス",
+        "time": "1:10.7",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ダイシンヨーク",
+        "time": "1:10.8",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "カシノリアーナ",
+        "time": "1:11.7",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "ジェイパック",
+        "time": "1:11.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "カシノプロスペリテ",
+        "time": "1:13.2",
+        "lastThreeF": 36.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 250
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 150
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 1230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-4",
+          "payout": 1590
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 330
+        },
+        {
+          "combination": "1-3",
+          "payout": 150
+        },
+        {
+          "combination": "3-4",
+          "payout": 280
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-4",
+          "payout": 670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-4-3",
+          "payout": 3650
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20250705",
+    "headCount": 8
+  }
+}

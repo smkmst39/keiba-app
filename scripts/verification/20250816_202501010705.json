@@ -1,0 +1,383 @@
+{
+  "raceId": "202501010705",
+  "raceName": "2歳新馬",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シンギュラーレディ",
+      "score": 71.84533333333333,
+      "ev": 1.0163033552447762,
+      "odds": 19.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.33333333333332
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エルドラド",
+      "score": 66.41533333333334,
+      "ev": 0.9904006724057247,
+      "odds": 44.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 17.33333333333333
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "リバテイー",
+      "score": 62.3,
+      "ev": 0.9818194162902015,
+      "odds": 146.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.999999999999998
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ナオミライトニング",
+      "score": 59.653999999999996,
+      "ev": 1.0063484620788696,
+      "odds": 4.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ラスベガスサイン",
+      "score": 60.14,
+      "ev": 1.0081925186814502,
+      "odds": 2.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ベンテンカグラ",
+      "score": 53.85933333333333,
+      "ev": 0.9808722877546961,
+      "odds": 40.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 55.33333333333332
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "プレヒティヒ",
+      "score": 46.96,
+      "ev": 0.9690914589065589,
+      "odds": 19.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "グリーンスリーヴス",
+      "score": 44.275333333333336,
+      "ev": 0.9735992678044366,
+      "odds": 33.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 17.33333333333333
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ウーマンズパワー",
+      "score": 42.634666666666675,
+      "ev": 0.9417710670071622,
+      "odds": 3.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.666666666666664
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ディアナタコス",
+      "score": 36.547333333333334,
+      "ev": 0.9769336781214033,
+      "odds": 73.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.333333333333332
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ブレッティレディ",
+      "score": 35.17733333333334,
+      "ev": 0.9467376479367332,
+      "odds": 11.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.33333333333332
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010705",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ナオミライトニング",
+        "time": "1:10.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "プレヒティヒ",
+        "time": "1:10.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ラスベガスサイン",
+        "time": "1:10.9",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "リバテイー",
+        "time": "1:11.1",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ウーマンズパワー",
+        "time": "1:11.2",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "ディアナタコス",
+        "time": "1:11.3",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 11,
+        "horseName": "ブレッティレディ",
+        "time": "1:11.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "シンギュラーレディ",
+        "time": "1:11.4",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "グリーンスリーヴス",
+        "time": "1:11.6",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "エルドラド",
+        "time": "1:12.0",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "ベンテンカグラ",
+        "time": "1:13.2",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 470
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 160
+        },
+        {
+          "horseId": 7,
+          "payout": 260
+        },
+        {
+          "horseId": 5,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-6",
+          "payout": 2700
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-7",
+          "payout": 4130
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-7",
+          "payout": 7550
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-7",
+          "payout": 1060
+        },
+        {
+          "combination": "4-5",
+          "payout": 250
+        },
+        {
+          "combination": "5-7",
+          "payout": 560
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-7",
+          "payout": 2380
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-7-5",
+          "payout": 24170
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20250816",
+    "headCount": 11
+  }
+}

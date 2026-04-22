@@ -1,0 +1,337 @@
+{
+  "raceId": "202609020308",
+  "raceName": "4歳以上2勝クラス",
+  "date": "2026-04-04",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タガノアンファン",
+      "score": 71.17142857142856,
+      "ev": 1.0562810687575577,
+      "odds": 3.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.714285714285715
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ディアドコス",
+      "score": 65.16821428571428,
+      "ev": 1.032977132162085,
+      "odds": 2.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.85714285714286
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ブリーズオンチーク",
+      "score": 58.18928571428571,
+      "ev": 0.98129427803409,
+      "odds": 111.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 32.14285714285715
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "レッドセニョール",
+      "score": 54.77821428571428,
+      "ev": 0.9806322044472515,
+      "odds": 62.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 52.85714285714285
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ミロワール",
+      "score": 49.058571428571426,
+      "ev": 0.9780881902135821,
+      "odds": 37,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 9.285714285714285
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クイーンズデイ",
+      "score": 45.6825,
+      "ev": 0.9618682769403772,
+      "odds": 7.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "リリーフィールド",
+      "score": 44.08857142857143,
+      "ev": 0.9511478591729375,
+      "odds": 4.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 64.28571428571429
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "キントラダンサー",
+      "score": 37.9075,
+      "ev": 0.9535767485924226,
+      "odds": 12.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サンドロナイト",
+      "score": 37.644999999999996,
+      "ev": 0.9369075966818914,
+      "odds": 7.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609020308",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ディアドコス",
+        "time": "1:08.6",
+        "lastThreeF": 32.6
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "タガノアンファン",
+        "time": "1:08.9",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "リリーフィールド",
+        "time": "1:09.0",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "クイーンズデイ",
+        "time": "1:09.0",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ミロワール",
+        "time": "1:09.3",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "キントラダンサー",
+        "time": "1:09.6",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "サンドロナイト",
+        "time": "1:09.7",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "レッドセニョール",
+        "time": "1:10.1",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "ブリーズオンチーク",
+        "time": "1:10.1",
+        "lastThreeF": 34
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 270
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 130
+        },
+        {
+          "horseId": 7,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-2",
+          "payout": 410
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 470
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-1",
+          "payout": 820
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 200
+        },
+        {
+          "combination": "2-7",
+          "payout": 240
+        },
+        {
+          "combination": "1-7",
+          "payout": 340
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-7",
+          "payout": 630
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-1-7",
+          "payout": 2480
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 470
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "雨",
+    "handicap": "定量",
+    "prize": 1190,
+    "ageLimit": "4歳以上",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "13:40",
+    "raceDate": "20260404",
+    "headCount": 9,
+    "trackCondition": "良",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場2R 中の最頻値"
+  }
+}

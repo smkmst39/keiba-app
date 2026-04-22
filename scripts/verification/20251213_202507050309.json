@@ -1,0 +1,383 @@
+{
+  "raceId": "202507050309",
+  "raceName": "つわぶき賞",
+  "date": "2025-12-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ベレーバスク",
+      "score": 71.5858163265306,
+      "ev": 1.0586014865098068,
+      "odds": 2.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 48.97959183673469
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エスカレイト",
+      "score": 65.72574829931972,
+      "ev": 0.9827897481078061,
+      "odds": 321.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 11.564625850340141
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヘルモソブレード",
+      "score": 62.82486394557823,
+      "ev": 0.98890102923511,
+      "odds": 40.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.17006802721089
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アイニードユー",
+      "score": 59.016700680272095,
+      "ev": 0.9948421669414872,
+      "odds": 10.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 35.37414965986395
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "プリンセスモコ",
+      "score": 55.721564625850334,
+      "ev": 0.9934881185356909,
+      "odds": 7.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 60.544217687074834
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "プレセピオ",
+      "score": 50.61085034013605,
+      "ev": 0.9798484999276746,
+      "odds": 51.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.687074829931973
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タイセイフレッサ",
+      "score": 47.74972789115646,
+      "ev": 0.9686679440545505,
+      "odds": 6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50.34013605442177
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ノアールビーナス",
+      "score": 41.495918367346945,
+      "ev": 0.9780748010810543,
+      "odds": 55.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 55.10204081632652
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エスティヴァリス",
+      "score": 38.515,
+      "ev": 0.9774947362505304,
+      "odds": 131.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ラスベガスサイン",
+      "score": 38.14,
+      "ev": 0.9696870560140444,
+      "odds": 27.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "マルガ",
+      "score": 33.89721088435374,
+      "ev": 0.9119229677823393,
+      "odds": 2.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 65.98639455782312
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507050309",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "プレセピオ",
+        "time": "1:19.9",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "プリンセスモコ",
+        "time": "1:20.0",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "マルガ",
+        "time": "1:20.1",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "ノアールビーナス",
+        "time": "1:20.4",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "アイニードユー",
+        "time": "1:20.4",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "ラスベガスサイン",
+        "time": "1:20.5",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "タイセイフレッサ",
+        "time": "1:20.5",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ヘルモソブレード",
+        "time": "1:20.8",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ベレーバスク",
+        "time": "1:20.8",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "エスカレイト",
+        "time": "1:21.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 11,
+        "horseId": 9,
+        "horseName": "エスティヴァリス",
+        "time": "1:21.8",
+        "lastThreeF": 35.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 5150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 790
+        },
+        {
+          "horseId": 5,
+          "payout": 250
+        },
+        {
+          "horseId": 11,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 1980
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 12290
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 38310
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 2610
+        },
+        {
+          "combination": "6-11",
+          "payout": 2330
+        },
+        {
+          "combination": "5-11",
+          "payout": 550
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-11",
+          "payout": 12500
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-11",
+          "payout": 204380
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20251213",
+    "headCount": 11
+  }
+}

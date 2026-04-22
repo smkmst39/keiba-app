@@ -1,0 +1,229 @@
+{
+  "raceId": "202505041108",
+  "raceName": "百日草特別",
+  "date": "2025-11-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ガローファノ",
+      "score": 69.92999999999999,
+      "ev": 1.05443832880887,
+      "odds": 1.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フォルテアンジェロ",
+      "score": 59.808461538461536,
+      "ev": 1.014716634252037,
+      "odds": 1.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 35.57692307692308
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アッカン",
+      "score": 49.584999999999994,
+      "ev": 0.9772974727154856,
+      "odds": 11.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コスモエルヴァル",
+      "score": 40.80615384615385,
+      "ev": 0.9720285218551583,
+      "odds": 41.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 7.692307692307694
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エリプティクカーブ",
+      "score": 34.681730769230775,
+      "ev": 0.9288859857858642,
+      "odds": 7.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.788461538461554
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505041108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "アッカン",
+        "time": "2:00.1",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "フォルテアンジェロ",
+        "time": "2:00.4",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "コスモエルヴァル",
+        "time": "2:00.7",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "エリプティクカーブ",
+        "time": "2:01.3",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ガローファノ",
+        "time": "2:03.2",
+        "lastThreeF": 34.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 1180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 270
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-3",
+          "payout": 900
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-2",
+          "payout": 3210
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-3",
+          "payout": 390
+        },
+        {
+          "combination": "3-4",
+          "payout": 1580
+        },
+        {
+          "combination": "2-4",
+          "payout": 860
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-4",
+          "payout": 2900
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-2-4",
+          "payout": 25420
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:55",
+    "raceDate": "20251102",
+    "headCount": 5
+  }
+}

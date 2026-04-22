@@ -1,0 +1,359 @@
+{
+  "raceId": "202501010307",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-08-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シアブリス",
+      "score": 69.70188405797101,
+      "ev": 1.0143672737518463,
+      "odds": 11,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 47.10144927536232
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "コンフォルツァ",
+      "score": 62.50971014492753,
+      "ev": 1.02100523102665,
+      "odds": 4.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 42.75362318840579
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ツーエムクロノス",
+      "score": 60.965289855072456,
+      "ev": 0.9870101484459394,
+      "odds": 36.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.246376811594203
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スピンザブラッド",
+      "score": 62.599999999999994,
+      "ev": 1.013082673745113,
+      "odds": 8.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "モアリジット",
+      "score": 52.34499999999999,
+      "ev": 0.9800907673294608,
+      "odds": 77.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ハニードレス",
+      "score": 49.50586956521738,
+      "ev": 0.9726952981106868,
+      "odds": 8.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.739130434782606
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ハートメテオ",
+      "score": 47.25514492753623,
+      "ev": 0.9621914882352539,
+      "odds": 1.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 53.62318840579709
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ブラックバラード",
+      "score": 40.890072463768114,
+      "ev": 0.9778825524370365,
+      "odds": 145.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.811594202898547
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "スペシャルバニー",
+      "score": 38.0509420289855,
+      "ev": 0.9773352412394937,
+      "odds": 105.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 48.55072463768116
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シンゼンカガ",
+      "score": 34.91760869565218,
+      "ev": 0.9276994448521108,
+      "odds": 8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 65.21739130434781
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010307",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ハートメテオ",
+        "time": "1:46.6",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "シンゼンカガ",
+        "time": "1:46.7",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ハニードレス",
+        "time": "1:46.9",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ツーエムクロノス",
+        "time": "1:47.3",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "モアリジット",
+        "time": "1:47.4",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "シアブリス",
+        "time": "1:48.2",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "コンフォルツァ",
+        "time": "1:48.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ブラックバラード",
+        "time": "1:48.2",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "スピンザブラッド",
+        "time": "1:48.3",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "スペシャルバニー",
+        "time": "1:48.7",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 10,
+          "payout": 170
+        },
+        {
+          "horseId": 6,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 630
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-10",
+          "payout": 660
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-10",
+          "payout": 860
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-10",
+          "payout": 260
+        },
+        {
+          "combination": "6-7",
+          "payout": 270
+        },
+        {
+          "combination": "6-10",
+          "payout": 550
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-7-10",
+          "payout": 920
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-10-6",
+          "payout": 3210
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:20",
+    "raceDate": "20250802",
+    "headCount": 10
+  }
+}

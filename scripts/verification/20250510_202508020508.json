@@ -1,0 +1,307 @@
+{
+  "raceId": "202508020508",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2025-05-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ワンダフルヘヴン",
+      "score": 66.97,
+      "ev": 0.9923612700563506,
+      "odds": 48.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リアルペガサス",
+      "score": 64.2784693877551,
+      "ev": 0.990256865677484,
+      "odds": 35.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.877551020408163
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "シャハザマーン",
+      "score": 61.918877551020394,
+      "ev": 1.0220599573715903,
+      "odds": 2.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 64.08163265306122
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エリカヴェネチア",
+      "score": 54.87183673469387,
+      "ev": 0.9807255452506842,
+      "odds": 61.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.346938775510203
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "テンエースワン",
+      "score": 51.11561224489795,
+      "ev": 0.9798613335434254,
+      "odds": 9.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 59.59183673469387
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アメリカンランナー",
+      "score": 40.190932944606416,
+      "ev": 0.9585593659000005,
+      "odds": 11.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 41.690962099125365
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "オーシンハーフ",
+      "score": 36.90387755102041,
+      "ev": 0.9354148961371045,
+      "odds": 5.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 26.93877551020408
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ストーンズ",
+      "score": 33.03,
+      "ev": 0.9091244400448901,
+      "odds": 2.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020508",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "オーシンハーフ",
+        "time": "1:51.2",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "シャハザマーン",
+        "time": "1:51.5",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "リアルペガサス",
+        "time": "1:51.9",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "エリカヴェネチア",
+        "time": "1:52.0",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ストーンズ",
+        "time": "1:52.1",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "テンエースワン",
+        "time": "1:52.1",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "アメリカンランナー",
+        "time": "1:54.5",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ワンダフルヘヴン",
+        "time": "1:54.9",
+        "lastThreeF": 38.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 530
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 180
+        },
+        {
+          "horseId": 3,
+          "payout": 140
+        },
+        {
+          "horseId": 2,
+          "payout": 400
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-7",
+          "payout": 680
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-3",
+          "payout": 1580
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-7",
+          "payout": 300
+        },
+        {
+          "combination": "2-7",
+          "payout": 1690
+        },
+        {
+          "combination": "2-3",
+          "payout": 720
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-7",
+          "payout": 6180
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-3-2",
+          "payout": 25420
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "重",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "13:55",
+    "raceDate": "20250510",
+    "headCount": 8
+  }
+}

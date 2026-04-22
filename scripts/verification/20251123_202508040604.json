@@ -1,0 +1,280 @@
+{
+  "raceId": "202508040604",
+  "raceName": "2歳新馬",
+  "date": "2025-11-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "デアアテナ",
+      "score": 71.01846153846154,
+      "ev": 1.0455261173870083,
+      "odds": 4.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 33.07692307692308
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アルムアポジェ",
+      "score": 62.95,
+      "ev": 0.9976797464167813,
+      "odds": 14.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スターチューン",
+      "score": 62.466153846153844,
+      "ev": 1.0135504732088014,
+      "odds": 3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 97.6923076923077
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フレットローソ",
+      "score": 51.676153846153845,
+      "ev": 0.9745667782153444,
+      "odds": 6.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 17.692307692307697
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ブルーメサンライズ",
+      "score": 46.06153846153846,
+      "ev": 0.9744432734914736,
+      "odds": 34.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.923076923076927
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シュネルアンジュ",
+      "score": 42.276153846153846,
+      "ev": 0.9380634492165913,
+      "odds": 3.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 67.69230769230768
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タガノシルフィー",
+      "score": 38,
+      "ev": 0.9336605017019904,
+      "odds": 6.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040604",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "シュネルアンジュ",
+        "time": "1:53.2",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "タガノシルフィー",
+        "time": "1:53.2",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ブルーメサンライズ",
+        "time": "1:53.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "フレットローソ",
+        "time": "1:54.0",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "デアアテナ",
+        "time": "1:54.4",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "スターチューン",
+        "time": "1:54.9",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "アルムアポジェ",
+        "time": "1:55.7",
+        "lastThreeF": 39.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 320
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 170
+        },
+        {
+          "horseId": 7,
+          "payout": 290
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "6-7",
+          "payout": 1110
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-7",
+          "payout": 1900
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-7",
+          "payout": 350
+        },
+        {
+          "combination": "5-6",
+          "payout": 1180
+        },
+        {
+          "combination": "5-7",
+          "payout": 1610
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-7",
+          "payout": 4760
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-7-5",
+          "payout": 16970
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "11:35",
+    "raceDate": "20251123",
+    "headCount": 7
+  }
+}

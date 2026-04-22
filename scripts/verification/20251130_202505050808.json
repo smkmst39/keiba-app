@@ -1,0 +1,298 @@
+{
+  "raceId": "202505050808",
+  "raceName": "ベゴニア賞",
+  "date": "2025-11-30",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "グランセレスト",
+      "score": 64.87096916299559,
+      "ev": 1.006771342320034,
+      "odds": 10.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.775330396475768
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ベネサルート",
+      "score": 61.77645689112649,
+      "ev": 1.0214480457101338,
+      "odds": 4.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50.30837004405287
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "コルテオソレイユ",
+      "score": 56.50502831969792,
+      "ev": 0.9904225569672198,
+      "odds": 14.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50.30837004405287
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ニシノエースサマ",
+      "score": 56.20359974826935,
+      "ev": 0.9898335029557467,
+      "odds": 18.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50.30837004405287
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ドリームコア",
+      "score": 53.17822844556324,
+      "ev": 0.9878425985992827,
+      "odds": 2.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 95.15418502202645
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コズミックボックス",
+      "score": 48.18785714285714,
+      "ev": 0.9683381553365387,
+      "odds": 3.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マイリトルヒーロー",
+      "score": 40.000943989930775,
+      "ev": 0.9712680598369395,
+      "odds": 21.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 43.61233480176212
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "グロリアスマーチ",
+      "score": 28.650000000000002,
+      "ev": 0.9359880483416729,
+      "odds": 17.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505050808",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ドリームコア",
+        "time": "1:33.1",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "コルテオソレイユ",
+        "time": "1:33.1",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "グロリアスマーチ",
+        "time": "1:33.5",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "コズミックボックス",
+        "time": "1:34.0",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ベネサルート",
+        "time": "1:34.1",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ニシノエースサマ",
+        "time": "1:34.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "グランセレスト",
+        "time": "1:34.8",
+        "lastThreeF": 35.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 280
+        },
+        {
+          "horseId": 8,
+          "payout": 290
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-5",
+          "payout": 2040
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-3",
+          "payout": 2910
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-5",
+          "payout": 710
+        },
+        {
+          "combination": "5-8",
+          "payout": 600
+        },
+        {
+          "combination": "3-8",
+          "payout": 1850
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-8",
+          "payout": 5950
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-3-8",
+          "payout": 24210
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "13:15",
+    "raceDate": "20251130",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "raceId": "202509050307",
+  "raceName": "2歳未勝利",
+  "date": "2025-12-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ゴリョウセイ",
+      "score": 66.92190476190476,
+      "ev": 0.9908583483978805,
+      "odds": 42.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 53.333333333333336
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サリエンテ",
+      "score": 71.12833333333333,
+      "ev": 1.0502754479641232,
+      "odds": 1.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.333333333333336
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スフィダンテ",
+      "score": 56.92653679653679,
+      "ev": 0.9930488486114409,
+      "odds": 7.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 57.57575757575755
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シシリアンフラッグ",
+      "score": 56.26313852813851,
+      "ev": 0.9806895130652765,
+      "odds": 245.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 69.69696969696967
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヨカオウ",
+      "score": 47.65928571428571,
+      "ev": 0.9648776788930287,
+      "odds": 8.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "フレイムスター",
+      "score": 44.672705627705625,
+      "ev": 0.978487430366683,
+      "odds": 87.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 39.3939393939394
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "パーヴォ",
+      "score": 39.499761904761904,
+      "ev": 0.9400738478519379,
+      "odds": 6.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.333333333333336
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スパルタンエックス",
+      "score": 38,
+      "ev": 0.9355147777694217,
+      "odds": 5.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050307",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ヨカオウ",
+        "time": "2:00.9",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "ゴリョウセイ",
+        "time": "2:01.4",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "サリエンテ",
+        "time": "2:01.6",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "スパルタンエックス",
+        "time": "2:01.7",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "パーヴォ",
+        "time": "2:01.7",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "フレイムスター",
+        "time": "2:01.9",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "スフィダンテ",
+        "time": "2:02.6",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "シシリアンフラッグ",
+        "time": "2:03.4",
+        "lastThreeF": 37.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 820
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 180
+        },
+        {
+          "horseId": 1,
+          "payout": 520
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 9010
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-1",
+          "payout": 19980
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 2060
+        },
+        {
+          "combination": "2-5",
+          "payout": 270
+        },
+        {
+          "combination": "1-2",
+          "payout": 690
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 3140
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-1-2",
+          "payout": 49700
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:05",
+    "raceDate": "20251213",
+    "headCount": 8
+  }
+}

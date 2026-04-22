@@ -1,0 +1,455 @@
+{
+  "raceId": "202505040208",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-10-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジーティームテキ",
+      "score": 65.76706844336765,
+      "ev": 0.9830857610851367,
+      "odds": 182.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 28.225317989097515
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ベストシーン",
+      "score": 69.5144124772865,
+      "ev": 1.0566275022383629,
+      "odds": 3.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 62.20472440944881
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クラウドセイル",
+      "score": 63.43343125378558,
+      "ev": 0.9826214341895482,
+      "odds": 94.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.299212598425196
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ガラク",
+      "score": 63.872804360993335,
+      "ev": 1.0233417094576116,
+      "odds": 6.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 56.692913385826785
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "パーセルペーパー",
+      "score": 57.528161720169585,
+      "ev": 0.9814464548558293,
+      "odds": 58,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 2.362204724409451
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "プリンセスロロ",
+      "score": 50.53139309509388,
+      "ev": 0.9800542984960766,
+      "odds": 128.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 10.236220472440948
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ベストレーサー",
+      "score": 51.988246517262255,
+      "ev": 0.981376682237001,
+      "odds": 36,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.724409448818896
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "カザンラク",
+      "score": 47.64454875832828,
+      "ev": 0.9747989923859076,
+      "odds": 10.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 33.85826771653544
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ジャサルディア",
+      "score": 51.127307692307696,
+      "ev": 0.983457368322239,
+      "odds": 2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ディナーラッシュ",
+      "score": 40.090932768019385,
+      "ev": 0.9719077848716539,
+      "odds": 22.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.98425196850393
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ハットメリリー",
+      "score": 38.58538461538462,
+      "ev": 0.9776773852994499,
+      "odds": 283.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "クイーンズワーフ",
+      "score": 37.52192307692307,
+      "ev": 0.9698631477705165,
+      "odds": 23.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "リケアキャンディ",
+      "score": 37.550272562083585,
+      "ev": 0.969885710709597,
+      "odds": 41.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 43.30708661417323
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ケイツークローン",
+      "score": 28.463070866141734,
+      "ev": 0.9626533402761822,
+      "odds": 34.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 21.25984251968504
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505040208",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "ジャサルディア",
+        "time": "1:45.7",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ガラク",
+        "time": "1:46.0",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "カザンラク",
+        "time": "1:46.1",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 4,
+        "horseId": 14,
+        "horseName": "ケイツークローン",
+        "time": "1:46.2",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ベストレーサー",
+        "time": "1:46.4",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ベストシーン",
+        "time": "1:46.5",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 7,
+        "horseId": 12,
+        "horseName": "クイーンズワーフ",
+        "time": "1:46.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "パーセルペーパー",
+        "time": "1:46.7",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 9,
+        "horseId": 11,
+        "horseName": "ハットメリリー",
+        "time": "1:46.8",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "クラウドセイル",
+        "time": "1:46.8",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 11,
+        "horseId": 13,
+        "horseName": "リケアキャンディ",
+        "time": "1:46.9",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 12,
+        "horseId": 10,
+        "horseName": "ディナーラッシュ",
+        "time": "1:47.1",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 13,
+        "horseId": 6,
+        "horseName": "プリンセスロロ",
+        "time": "1:47.3",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 14,
+        "horseId": 1,
+        "horseName": "ジーティームテキ",
+        "time": "1:47.7",
+        "lastThreeF": 34.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 160
+        },
+        {
+          "horseId": 8,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-6",
+          "payout": 540
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-9",
+          "payout": 570
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-4",
+          "payout": 710
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-9",
+          "payout": 270
+        },
+        {
+          "combination": "8-9",
+          "payout": 360
+        },
+        {
+          "combination": "4-8",
+          "payout": 730
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-8-9",
+          "payout": 1400
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-4-8",
+          "payout": 3730
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:55",
+    "raceDate": "20251005",
+    "headCount": 14
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "raceId": "202505040107",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-10-04",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヒロインズクレスト",
+      "score": 64.645,
+      "ev": 0.982479772560352,
+      "odds": 209.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "キューティリップ",
+      "score": 62.95779999999999,
+      "ev": 1.0230811431356264,
+      "odds": 3.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 41.6
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "トロピカルティー",
+      "score": 53.3148,
+      "ev": 0.9846794840994735,
+      "odds": 7.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.600000000000005
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "デルマジュテーム",
+      "score": 54.346822222222215,
+      "ev": 0.9804917005292167,
+      "odds": 222.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 46.75555555555557
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ニシノエピカリ",
+      "score": 50.22619999999999,
+      "ev": 0.9787848435344265,
+      "odds": 28.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 46.400000000000006
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "リポサンテ",
+      "score": 46.3604,
+      "ev": 0.9631986381763644,
+      "odds": 5.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 68.8
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サラスヴァティー",
+      "score": 41.230000000000004,
+      "ev": 0.9595948677644539,
+      "odds": 12.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "エポナ",
+      "score": 41.404,
+      "ev": 0.9398615525064007,
+      "odds": 2.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 87.99999999999999
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "オプレントジュエル",
+      "score": 70.87939999999999,
+      "ev": 1.016833288145133,
+      "odds": 12.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 36.8
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アビッサルスター",
+      "score": 32.6338,
+      "ev": 0.9651999320460989,
+      "odds": 28.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.600000000000001
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505040107",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "サラスヴァティー",
+        "time": "2:00.8",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "リポサンテ",
+        "time": "2:00.8",
+        "lastThreeF": 32.6
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "キューティリップ",
+        "time": "2:01.0",
+        "lastThreeF": 32.6
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "エポナ",
+        "time": "2:01.1",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "オプレントジュエル",
+        "time": "2:01.1",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "トロピカルティー",
+        "time": "2:01.5",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "デルマジュテーム",
+        "time": "2:01.7",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ヒロインズクレスト",
+        "time": "2:01.9",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "ニシノエピカリ",
+        "time": "2:01.9",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "アビッサルスター",
+        "time": "2:02.0",
+        "lastThreeF": 33.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 1280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 270
+        },
+        {
+          "horseId": 6,
+          "payout": 170
+        },
+        {
+          "horseId": 2,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 580
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-7",
+          "payout": 2980
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-6",
+          "payout": 5350
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-7",
+          "payout": 890
+        },
+        {
+          "combination": "2-7",
+          "payout": 650
+        },
+        {
+          "combination": "2-6",
+          "payout": 300
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-7",
+          "payout": 3270
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-6-2",
+          "payout": 25980
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:25",
+    "raceDate": "20251004",
+    "headCount": 10
+  }
+}

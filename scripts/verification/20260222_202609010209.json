@@ -1,0 +1,358 @@
+{
+  "raceId": "202609010209",
+  "raceName": "天神橋特別",
+  "date": "2026-02-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "リリーブライト",
+      "score": 61.7370061728395,
+      "ev": 0.9820656664337514,
+      "odds": 89.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 32.79320987654321
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウォータークラーク",
+      "score": 57.708611111111104,
+      "ev": 1.0055674174003177,
+      "odds": 3.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 34.02777777777777
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ダノンブランニュー",
+      "score": 51.858888888888885,
+      "ev": 0.9821619430541374,
+      "odds": 6.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 22.22222222222222
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ゼンダンハヤブサ",
+      "score": 66.37694444444443,
+      "ev": 1.009724798821011,
+      "odds": 13.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 29.861111111111104
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ネーブルオレンジ",
+      "score": 46.46999999999999,
+      "ev": 0.9708193568063065,
+      "odds": 18.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ナグルファル",
+      "score": 45.63527777777777,
+      "ev": 0.9627008074182882,
+      "odds": 6.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.694444444444446
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アジュマン",
+      "score": 70.00861111111111,
+      "ev": 0.9947289608953213,
+      "odds": 20.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 34.02777777777777
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アイファーバトル",
+      "score": 35.9938888888889,
+      "ev": 0.9770345208475286,
+      "odds": 164.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 9.72222222222222
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "テラメリタ",
+      "score": 41.745000000000005,
+      "ev": 0.9431699612601362,
+      "odds": 4.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シャンパンライフ",
+      "score": 34.14083333333333,
+      "ev": 0.913447321892173,
+      "odds": 3.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 39.583333333333336
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609010209",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ゼンダンハヤブサ",
+        "time": "1:34.2",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "テラメリタ",
+        "time": "1:34.2",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ウォータークラーク",
+        "time": "1:34.2",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "シャンパンライフ",
+        "time": "1:34.5",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "リリーブライト",
+        "time": "1:34.6",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "アジュマン",
+        "time": "1:34.6",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ネーブルオレンジ",
+        "time": "1:34.6",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ダノンブランニュー",
+        "time": "1:34.7",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ナグルファル",
+        "time": "1:34.7",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "アイファーバトル",
+        "time": "1:35.1",
+        "lastThreeF": 33.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 1360
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 240
+        },
+        {
+          "horseId": 9,
+          "payout": 160
+        },
+        {
+          "horseId": 2,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-8",
+          "payout": 1160
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-9",
+          "payout": 2340
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-9",
+          "payout": 5790
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-9",
+          "payout": 660
+        },
+        {
+          "combination": "2-4",
+          "payout": 620
+        },
+        {
+          "combination": "2-9",
+          "payout": 290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-9",
+          "payout": 2090
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-9-2",
+          "payout": 18600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "ハンデ",
+    "prize": 1580,
+    "ageLimit": "4歳以上",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20260222",
+    "headCount": 10
+  }
+}

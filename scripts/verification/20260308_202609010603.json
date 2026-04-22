@@ -1,0 +1,456 @@
+{
+  "raceId": "202609010603",
+  "raceName": "3歳未勝利",
+  "date": "2026-03-08",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サンライズジャッジ",
+      "score": 70.70903225806451,
+      "ev": 0.9837934642708575,
+      "odds": 107.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.74193548387097
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サンセットロード",
+      "score": 66.26153846153845,
+      "ev": 0.9829258757207363,
+      "odds": 314.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "レグラヴィエール",
+      "score": 61.704689826302726,
+      "ev": 0.9820369549304131,
+      "odds": 171.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 7.096774193548389
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トーレス",
+      "score": 60.99622828784119,
+      "ev": 0.9818987527997096,
+      "odds": 175.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.096774193548389
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ブクブクー",
+      "score": 56.62841191066996,
+      "ev": 0.9841868288370549,
+      "odds": 24.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 41.935483870967744
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アメリカンイズム",
+      "score": 55.101563275434245,
+      "ev": 0.9949771875067368,
+      "odds": 3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 89.03225806451613
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ピエナオルカ",
+      "score": 53.0239081885856,
+      "ev": 0.9854970200539411,
+      "odds": 7.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 22.580645161290324
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ジャッキーバローズ",
+      "score": 49.86689826302729,
+      "ev": 0.9797277145157237,
+      "odds": 126.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.967741935483872
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ショーンバローズ",
+      "score": 46.95359801488834,
+      "ev": 0.976637626392218,
+      "odds": 24.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.677419354838714
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "タイセイサーブル",
+      "score": 45.89303970223325,
+      "ev": 0.9758100787522289,
+      "odds": 28.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 46.4516129032258
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ストロングボーイ",
+      "score": 41.54538461538462,
+      "ev": 0.94967051252403,
+      "odds": 9.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "イロゴルシ",
+      "score": 39.20579404466501,
+      "ev": 0.9776480147174409,
+      "odds": 234.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 29.032258064516135
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "マイカラー",
+      "score": 32.72330024813896,
+      "ev": 0.9655338057039108,
+      "odds": 20.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 21.290322580645164
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ワザオギ",
+      "score": 37.06451612903226,
+      "ev": 0.924606159246117,
+      "odds": 2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 83.87096774193549
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609010603",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 14,
+        "horseName": "ワザオギ",
+        "time": "1:55.9",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "アメリカンイズム",
+        "time": "1:55.9",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "タイセイサーブル",
+        "time": "1:56.0",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "ピエナオルカ",
+        "time": "1:56.1",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "ストロングボーイ",
+        "time": "1:56.6",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ブクブクー",
+        "time": "1:56.7",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "サンライズジャッジ",
+        "time": "1:56.7",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 8,
+        "horseId": 13,
+        "horseName": "マイカラー",
+        "time": "1:57.1",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "レグラヴィエール",
+        "time": "1:57.2",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "サンセットロード",
+        "time": "1:57.4",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "トーレス",
+        "time": "1:58.1",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 12,
+        "horseId": 9,
+        "horseName": "ショーンバローズ",
+        "time": "1:58.2",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 13,
+        "horseId": 8,
+        "horseName": "ジャッキーバローズ",
+        "time": "1:59.6",
+        "lastThreeF": 41
+      },
+      {
+        "rank": 14,
+        "horseId": 12,
+        "horseName": "イロゴルシ",
+        "time": "1:59.6",
+        "lastThreeF": 40.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 14,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 14,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 130
+        },
+        {
+          "horseId": 10,
+          "payout": 320
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-8",
+          "payout": 250
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-14",
+          "payout": 280
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "14-6",
+          "payout": 550
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-14",
+          "payout": 180
+        },
+        {
+          "combination": "10-14",
+          "payout": 760
+        },
+        {
+          "combination": "6-10",
+          "payout": 1170
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-10-14",
+          "payout": 1810
+        }
+      ],
+      "santan": [
+        {
+          "combination": "14-6-10",
+          "payout": 4580
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 13,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "10:50",
+    "raceDate": "20260308",
+    "headCount": 14
+  }
+}

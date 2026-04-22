@@ -1,0 +1,306 @@
+{
+  "raceId": "202508031003",
+  "raceName": "2歳未勝利",
+  "date": "2025-11-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フォルナックス",
+      "score": 65.53409774436089,
+      "ev": 1.0318367643613113,
+      "odds": 1.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.52631578947368
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ナムラライラック",
+      "score": 60.26266917293232,
+      "ev": 0.9815789765470551,
+      "odds": 235.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.52631578947368
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴィラジョヴィス",
+      "score": 54.45703007518796,
+      "ev": 0.989269414288107,
+      "odds": 2.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 26.315789473684216
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メイショウヒタカミ",
+      "score": 48.002706766917285,
+      "ev": 0.9768933021704889,
+      "odds": 21.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.921052631578943
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "パウワウビート",
+      "score": 47.47785714285715,
+      "ev": 0.9624496000281713,
+      "odds": 3.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウソウテン",
+      "score": 70.80552631578946,
+      "ev": 1.0160469988907606,
+      "odds": 15.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.52631578947368
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テイスティング",
+      "score": 37.11642857142857,
+      "ev": 0.9771316166681189,
+      "odds": 64.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "モチモチチャン",
+      "score": 32.702894736842104,
+      "ev": 0.9762835924192483,
+      "odds": 73.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 45.39473684210526
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508031003",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "フォルナックス",
+        "time": "1:49.4",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "パウワウビート",
+        "time": "1:49.9",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "メイショウヒタカミ",
+        "time": "1:50.0",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ヴィラジョヴィス",
+        "time": "1:50.5",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "メイショウソウテン",
+        "time": "1:50.5",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "テイスティング",
+        "time": "1:51.0",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "ナムラライラック",
+        "time": "1:51.0",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "モチモチチャン",
+        "time": "1:51.5",
+        "lastThreeF": 35.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 4,
+          "payout": 320
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 350
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 600
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 180
+        },
+        {
+          "combination": "1-4",
+          "payout": 390
+        },
+        {
+          "combination": "4-5",
+          "payout": 680
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-5",
+          "payout": 1080
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-4",
+          "payout": 3010
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "11:05",
+    "raceDate": "20251101",
+    "headCount": 8
+  }
+}

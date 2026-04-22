@@ -1,0 +1,328 @@
+{
+  "raceId": "202503020208",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-06-29",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "トライデントスピア",
+      "score": 67.604375,
+      "ev": 1.0487812474924785,
+      "odds": 4.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 10.937500000000002
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ミラーダカリエンテ",
+      "score": 64.82718749999998,
+      "ev": 1.0377397147400416,
+      "odds": 5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 24.218749999999996
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ソルトブリーズ",
+      "score": 65.32,
+      "ev": 1.039699037025469,
+      "odds": 2.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シャイニースイフト",
+      "score": 54.61249999999999,
+      "ev": 0.9808564097210298,
+      "odds": 53.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 49.999999999999986
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ディバイングレース",
+      "score": 52.11882812499999,
+      "ev": 0.9836069310697981,
+      "odds": 14.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 31.445312499999993
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "フロスティクォーツ",
+      "score": 41.112812500000004,
+      "ev": 0.9781728091056787,
+      "odds": 245.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0.781249999999998
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "バセリーナ",
+      "score": 40.36,
+      "ev": 0.9720926305399508,
+      "odds": 33.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "エナジーショット",
+      "score": 34.379999999999995,
+      "ev": 0.916687888746718,
+      "odds": 3.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 43.74999999999999
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "チェイスザウィンド",
+      "score": 32.40375,
+      "ev": 0.9764415360310885,
+      "odds": 72.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 21.875
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020208",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "シャイニースイフト",
+        "time": "1:48.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ディバイングレース",
+        "time": "1:48.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ソルトブリーズ",
+        "time": "1:48.7",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ミラーダカリエンテ",
+        "time": "1:48.8",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "エナジーショット",
+        "time": "1:49.0",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "バセリーナ",
+        "time": "1:49.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "フロスティクォーツ",
+        "time": "1:49.6",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "チェイスザウィンド",
+        "time": "1:50.1",
+        "lastThreeF": 35.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 5320
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 860
+        },
+        {
+          "horseId": 5,
+          "payout": 250
+        },
+        {
+          "horseId": 3,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-5",
+          "payout": 20370
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 20750
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-5",
+          "payout": 52570
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 3820
+        },
+        {
+          "combination": "3-4",
+          "payout": 1390
+        },
+        {
+          "combination": "3-5",
+          "payout": 490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-5",
+          "payout": 9150
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-5-3",
+          "payout": 144800
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:05",
+    "raceDate": "20250629",
+    "headCount": 9
+  }
+}

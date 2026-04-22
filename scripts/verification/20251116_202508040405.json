@@ -1,0 +1,335 @@
+{
+  "raceId": "202508040405",
+  "raceName": "2歳新馬",
+  "date": "2025-11-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジュンプリメーロ",
+      "score": 74.89999999999999,
+      "ev": 1.0222741135944349,
+      "odds": 13.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ロングトールサリー",
+      "score": 65.9993483412322,
+      "ev": 1.0307342799214727,
+      "odds": 2.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.066350710900466
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エクヴァータル",
+      "score": 60.699644549763036,
+      "ev": 0.9815300241973496,
+      "odds": 103.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.218009478672982
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フィオーレクラウド",
+      "score": 55.262499999999996,
+      "ev": 0.9804972272396695,
+      "odds": 84.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フォーシーファイン",
+      "score": 52.64485443466486,
+      "ev": 0.98,
+      "odds": 7.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 34.394041976980375
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アクセス",
+      "score": 46.31238151658768,
+      "ev": 0.9559426709938532,
+      "odds": 2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.739336492890999
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ジャーナーリア",
+      "score": 43.41985443466486,
+      "ev": 0.9729907679684451,
+      "odds": 32.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 34.394041976980375
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "レッドセドナ",
+      "score": 39.478850710900474,
+      "ev": 0.939985441722198,
+      "odds": 9.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.97156398104265
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ハクアイノアール",
+      "score": 35.086255924170615,
+      "ev": 0.9766647075580225,
+      "odds": 58.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 49.76303317535544
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040405",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "アクセス",
+        "time": "2:01.9",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ロングトールサリー",
+        "time": "2:02.4",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "ジュンプリメーロ",
+        "time": "2:02.5",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "ハクアイノアール",
+        "time": "2:02.9",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "フォーシーファイン",
+        "time": "2:03.0",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "エクヴァータル",
+        "time": "2:03.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "フィオーレクラウド",
+        "time": "2:04.4",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "レッドセドナ",
+        "time": "2:04.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "ジャーナーリア",
+        "time": "2:06.5",
+        "lastThreeF": 39.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-6",
+          "payout": 310
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-6",
+          "payout": 270
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-2",
+          "payout": 490
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-6",
+          "payout": 150
+        },
+        {
+          "combination": "1-6",
+          "payout": 400
+        },
+        {
+          "combination": "1-2",
+          "payout": 400
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-6",
+          "payout": 900
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-2-1",
+          "payout": 2880
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:20",
+    "raceDate": "20251116",
+    "headCount": 9
+  }
+}

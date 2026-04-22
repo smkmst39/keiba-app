@@ -1,0 +1,384 @@
+{
+  "raceId": "202507050511",
+  "raceName": "尾頭橋S",
+  "date": "2025-12-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "トウカイポワール",
+      "score": 64.93818181818182,
+      "ev": 0.9824911989533331,
+      "odds": 71.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.227272727272725
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "パカーラン",
+      "score": 73.835,
+      "ev": 1.0472407754936257,
+      "odds": 9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メイプルタピット",
+      "score": 61.364999999999995,
+      "ev": 0.9818038787398984,
+      "odds": 93.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "グラヴィス",
+      "score": 56.81681818181818,
+      "ev": 0.980929012176404,
+      "odds": 75.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 64.77272727272727
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ビップスコーピオン",
+      "score": 56.028181818181814,
+      "ev": 0.9807773138466357,
+      "odds": 99.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.227272727272734
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウズイウン",
+      "score": 51.34954545454545,
+      "ev": 0.9775470733787515,
+      "odds": 2.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.181818181818187
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アルゴナヴィス",
+      "score": 47.100909090909084,
+      "ev": 0.964961699847944,
+      "odds": 5.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 63.63636363636363
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ペンナヴェローチェ",
+      "score": 46.2359090909091,
+      "ev": 0.9578743793165667,
+      "odds": 3.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.13636363636363
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "フルオール",
+      "score": 42.722727272727276,
+      "ev": 0.9514870410598932,
+      "odds": 8.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 90.90909090909089
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ピクシレーション",
+      "score": 36.78727272727272,
+      "ev": 0.9683048973482798,
+      "odds": 26.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.59090909090909
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "タイセイレスポンス",
+      "score": 34.67909090909091,
+      "ev": 0.9666828181472058,
+      "odds": 30,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 48.86363636363637
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507050511",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "メイショウズイウン",
+        "time": "1:52.5",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "ピクシレーション",
+        "time": "1:52.6",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ペンナヴェローチェ",
+        "time": "1:52.7",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "トウカイポワール",
+        "time": "1:52.7",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "フルオール",
+        "time": "1:52.8",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ビップスコーピオン",
+        "time": "1:53.2",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "メイプルタピット",
+        "time": "1:53.4",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "タイセイレスポンス",
+        "time": "1:53.7",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "パカーラン",
+        "time": "1:53.7",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "グラヴィス",
+        "time": "1:53.9",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "アルゴナヴィス",
+        "time": "1:54.0",
+        "lastThreeF": 38.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 130
+        },
+        {
+          "horseId": 10,
+          "payout": 370
+        },
+        {
+          "horseId": 8,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 1270
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-10",
+          "payout": 4160
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-10",
+          "payout": 5850
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-10",
+          "payout": 1050
+        },
+        {
+          "combination": "6-8",
+          "payout": 190
+        },
+        {
+          "combination": "8-10",
+          "payout": 990
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-8-10",
+          "payout": 2150
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-10-8",
+          "payout": 16450
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1840,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "15:20",
+    "raceDate": "20251220",
+    "headCount": 11
+  }
+}

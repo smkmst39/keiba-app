@@ -1,0 +1,359 @@
+{
+  "raceId": "202508020409",
+  "raceName": "須知特別",
+  "date": "2025-05-04",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ホルトバージ",
+      "score": 73.37559405940594,
+      "ev": 1.0607113748803898,
+      "odds": 3.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 92.07920792079207
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フォーワンセルフ",
+      "score": 66.7749504950495,
+      "ev": 0.9827729719951974,
+      "odds": 81.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 67.32673267326733
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カネトシゴウト",
+      "score": 62.13202970297029,
+      "ev": 1.0101576970447081,
+      "odds": 5.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 39.603960396039604
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブループリマドンナ",
+      "score": 57.71881188118812,
+      "ev": 0.9810406786120963,
+      "odds": 79.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.841584158415841
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カゼノランナー",
+      "score": 58.144999999999996,
+      "ev": 1.0024440306296636,
+      "odds": 2.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ショウナンハウル",
+      "score": 48.036138613861375,
+      "ev": 0.979188539245982,
+      "odds": 61.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 51.485148514851474
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ゼットレジーナ",
+      "score": 47.33531903190318,
+      "ev": 0.9790544837532011,
+      "odds": 111.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 55.005500550055
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "メジェド",
+      "score": 42.378564356435646,
+      "ev": 0.9781063364586329,
+      "odds": 68.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 52.47524752475247
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "パーサヴィアランス",
+      "score": 35.75178217821782,
+      "ev": 0.948387398141857,
+      "odds": 19.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 76.23762376237622
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アラレタバシル",
+      "score": 31.135,
+      "ev": 0.915289980478522,
+      "odds": 6.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020409",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "カネトシゴウト",
+        "time": "1:59.5",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "カゼノランナー",
+        "time": "1:59.6",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "アラレタバシル",
+        "time": "2:00.1",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ホルトバージ",
+        "time": "2:00.1",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "パーサヴィアランス",
+        "time": "2:00.6",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "メジェド",
+        "time": "2:00.8",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ゼットレジーナ",
+        "time": "2:01.7",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ブループリマドンナ",
+        "time": "2:01.9",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "フォーワンセルフ",
+        "time": "2:03.1",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "ショウナンハウル",
+        "time": "2:03.4",
+        "lastThreeF": 40.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 560
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 140
+        },
+        {
+          "horseId": 5,
+          "payout": 120
+        },
+        {
+          "horseId": 10,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-5",
+          "payout": 700
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-5",
+          "payout": 580
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-5",
+          "payout": 1740
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-5",
+          "payout": 290
+        },
+        {
+          "combination": "3-10",
+          "payout": 410
+        },
+        {
+          "combination": "5-10",
+          "payout": 250
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-10",
+          "payout": 830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-5-10",
+          "payout": 6490
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1900,
+    "surface": "dirt",
+    "startTime": "14:25",
+    "raceDate": "20250504",
+    "headCount": 10
+  }
+}

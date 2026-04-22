@@ -1,0 +1,385 @@
+{
+  "raceId": "202504010307",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2025-05-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コルヴィル",
+      "score": 68.035,
+      "ev": 1.0287090505032899,
+      "odds": 8.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "パルメリータ",
+      "score": 68.34493975903614,
+      "ev": 1.0110374024749484,
+      "odds": 11.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50.602409638554214
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴァズレーヌ",
+      "score": 63.601144578313246,
+      "ev": 1.0238842966095065,
+      "odds": 3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 38.554216867469876
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サンセットブライト",
+      "score": 61.36740963855421,
+      "ev": 1.0153188395221042,
+      "odds": 3.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 75.90361445783132
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "キョウエイフロイデ",
+      "score": 53.834036144578306,
+      "ev": 0.9851451542367125,
+      "odds": 5.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.638554216867469
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ホウオウシンデレラ",
+      "score": 49.07903614457831,
+      "ev": 0.9776395937140868,
+      "odds": 34.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 9.638554216867469
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サイモンポーリア",
+      "score": 50.350481927710845,
+      "ev": 0.9796536720764272,
+      "odds": 59.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 95.18072289156626
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ソウキュウ",
+      "score": 46.478855421686745,
+      "ev": 0.9691136711209297,
+      "odds": 13,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 61.44578313253012
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "キセキノエンジェル",
+      "score": 40.20331325301205,
+      "ev": 0.9777081606306703,
+      "odds": 88.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.86746987951807
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ロマンスライト",
+      "score": 41.334999999999994,
+      "ev": 0.9717005534010197,
+      "odds": 27.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ミランカ",
+      "score": 31.095783132530123,
+      "ev": 0.9396197855170737,
+      "odds": 11.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 42.168674698795186
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504010307",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "サンセットブライト",
+        "time": "1:53.9",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ヴァズレーヌ",
+        "time": "1:54.1",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "キョウエイフロイデ",
+        "time": "1:54.6",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "コルヴィル",
+        "time": "1:54.7",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ホウオウシンデレラ",
+        "time": "1:55.0",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ソウキュウ",
+        "time": "1:55.0",
+        "lastThreeF": 40.4
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "サイモンポーリア",
+        "time": "1:55.2",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "キセキノエンジェル",
+        "time": "1:55.2",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "パルメリータ",
+        "time": "1:55.7",
+        "lastThreeF": 40.9
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "ロマンスライト",
+        "time": "1:55.8",
+        "lastThreeF": 41.3
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ミランカ",
+        "time": "1:56.6",
+        "lastThreeF": 41.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 340
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 140
+        },
+        {
+          "horseId": 3,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-4",
+          "payout": 530
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 710
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-3",
+          "payout": 1260
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 250
+        },
+        {
+          "combination": "4-5",
+          "payout": 330
+        },
+        {
+          "combination": "3-5",
+          "payout": 400
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-5",
+          "payout": 1110
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-3-5",
+          "payout": 5010
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "4歳以上",
+    "sexLimit": "牝",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "13:15",
+    "raceDate": "20250510",
+    "headCount": 11
+  }
+}

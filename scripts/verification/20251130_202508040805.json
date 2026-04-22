@@ -1,0 +1,327 @@
+{
+  "raceId": "202508040805",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-30",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "レッドファーロ",
+      "score": 68.15749999999998,
+      "ev": 1.0470981015414091,
+      "odds": 2.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "グラニットピーク",
+      "score": 58.809999999999995,
+      "ev": 0.9815233388487329,
+      "odds": 101.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スマートルミエール",
+      "score": 56.397499999999994,
+      "ev": 0.9842025167639119,
+      "odds": 23.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.689655172413794
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アナゴサン",
+      "score": 48.72,
+      "ev": 0.9727405730209876,
+      "odds": 9.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 3.448275862068966
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フォワードアゲン",
+      "score": 47.3975,
+      "ev": 0.9771486109901594,
+      "odds": 42.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.448275862068968
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シーク",
+      "score": 66.91,
+      "ev": 1.0297674823652356,
+      "odds": 8.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 23.448275862068968
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ネイチャーシップ",
+      "score": 44.145,
+      "ev": 0.9529970391012802,
+      "odds": 2.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 46.896551724137936
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アナザーエース",
+      "score": 36.497499999999995,
+      "ev": 0.9515138683270923,
+      "odds": 12.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0.6896551724137938
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "タマモロック",
+      "score": 32.285,
+      "ev": 0.9653039275450667,
+      "odds": 22.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.586206896551727
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040805",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "シーク",
+        "time": "3:20.0",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "レッドファーロ",
+        "time": "3:20.8",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ネイチャーシップ",
+        "time": "3:20.9",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "アナゴサン",
+        "time": "3:22.3",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "アナザーエース",
+        "time": "3:23.7",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "グラニットピーク",
+        "time": "3:23.7",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "タマモロック",
+        "time": "3:24.9",
+        "lastThreeF": 14.1
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "スマートルミエール",
+        "time": "3:25.8",
+        "lastThreeF": 14.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 830
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 160
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 1210
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 1450
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-1",
+          "payout": 2990
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 380
+        },
+        {
+          "combination": "6-7",
+          "payout": 280
+        },
+        {
+          "combination": "1-7",
+          "payout": 160
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-6-7",
+          "payout": 690
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-1-7",
+          "payout": 8030
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 1450
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2910,
+    "surface": "turf",
+    "startTime": "11:40",
+    "raceDate": "20251130",
+    "headCount": 9
+  }
+}

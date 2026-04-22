@@ -1,0 +1,360 @@
+{
+  "raceId": "202508020708",
+  "raceName": "京都ハイジャンプ",
+  "date": "2025-05-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ラエール",
+      "score": 68.24036144578312,
+      "ev": 0.9834465298672761,
+      "odds": 97.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 46.3855421686747
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トーアモルペウス",
+      "score": 65.7518674698795,
+      "ev": 0.9918247225560407,
+      "odds": 21.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 31.325301204819272
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メイショウアツイタ",
+      "score": 58.340843373493975,
+      "ev": 0.994958636836505,
+      "odds": 12.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 41.566265060240966
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ウイングランブルー",
+      "score": 60.80126506024096,
+      "ev": 1.0116909018133509,
+      "odds": 8.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 87.34939759036143
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アンクルブラック",
+      "score": 55.96753012048192,
+      "ev": 1.0005642084591384,
+      "odds": 2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 74.69879518072288
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ブリヨンカズマ",
+      "score": 45.04999999999999,
+      "ev": 0.9755077937857681,
+      "odds": 21.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クラップサンダー",
+      "score": 40.19385542168675,
+      "ev": 0.9779200617634197,
+      "odds": 63.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 11.445783132530117
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "レッドバロッサ",
+      "score": 40.960361445783136,
+      "ev": 0.9414219830862812,
+      "odds": 4.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 46.3855421686747
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ケンアンビシャス",
+      "score": 35.25313253012048,
+      "ev": 0.9677860368519838,
+      "odds": 24.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 18.67469879518072
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アサクサゲンキ",
+      "score": 36.935,
+      "ev": 0.9364466471456022,
+      "odds": 6.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020708",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "アンクルブラック",
+        "time": "4:36.0",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "レッドバロッサ",
+        "time": "4:37.1",
+        "lastThreeF": 14.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "メイショウアツイタ",
+        "time": "4:38.0",
+        "lastThreeF": 14.1
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ブリヨンカズマ",
+        "time": "4:38.6",
+        "lastThreeF": 14.2
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "アサクサゲンキ",
+        "time": "4:38.9",
+        "lastThreeF": 14.2
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ケンアンビシャス",
+        "time": "4:39.0",
+        "lastThreeF": 14.2
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "クラップサンダー",
+        "time": "4:40.7",
+        "lastThreeF": 14.3
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ラエール",
+        "time": "4:45.4",
+        "lastThreeF": 14.5
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "トーアモルペウス",
+        "time": "4:51.6",
+        "lastThreeF": 14.8
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "ウイングランブルー",
+        "time": "4:55.9",
+        "lastThreeF": 15.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 140
+        },
+        {
+          "horseId": 3,
+          "payout": 230
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 380
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 380
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-8",
+          "payout": 590
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 200
+        },
+        {
+          "combination": "3-5",
+          "payout": 590
+        },
+        {
+          "combination": "3-8",
+          "payout": 750
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-8",
+          "payout": 1860
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-8-3",
+          "payout": 4860
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害4歳以上",
+    "weather": "曇",
+    "handicap": "別定",
+    "prize": 4500,
+    "ageLimit": "4歳以上",
+    "distance": 3930,
+    "surface": "turf",
+    "startTime": "13:50",
+    "raceDate": "20250517",
+    "headCount": 10,
+    "trackCondition": "重",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場1R 中の最頻値"
+  }
+}

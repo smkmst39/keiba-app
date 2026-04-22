@@ -1,0 +1,362 @@
+{
+  "raceId": "202608010712",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2026-01-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "レッドフェルメール",
+      "score": 70.145,
+      "ev": 1.051420782327283,
+      "odds": 1.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フラッシングレート",
+      "score": 69.15583333333332,
+      "ev": 0.9935186553163547,
+      "odds": 25.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.083333333333335
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "サク",
+      "score": 63.0975,
+      "ev": 1.002075506542845,
+      "odds": 13.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.750000000000004
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フラワームーン",
+      "score": 57.56916666666665,
+      "ev": 0.9811379772290231,
+      "odds": 140.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.416666666666668
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スイッチビスケット",
+      "score": 55.47583333333333,
+      "ev": 0.9946595492706721,
+      "odds": 3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.583333333333332
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダイヤモンドハンズ",
+      "score": 54.32333333333333,
+      "ev": 0.9902000375216923,
+      "odds": 3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 63.33333333333332
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サニーサルサ",
+      "score": 47.08083333333333,
+      "ev": 0.9621757305004456,
+      "odds": 3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 2.083333333333334
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "デビューフライト",
+      "score": 43.80916666666666,
+      "ev": 0.9784758131654238,
+      "odds": 50.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 15.41666666666667
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ジョワイユノエル",
+      "score": 41.303333333333335,
+      "ev": 0.9599100651939403,
+      "odds": 10.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.833333333333336
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アフェシス",
+      "score": 30.919999999999998,
+      "ev": 0.963928521176305,
+      "odds": 28.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "パスコード",
+      "score": 35.68000000000001,
+      "ev": 0.9180610665541016,
+      "odds": 4.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.00000000000001
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010712",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "サク",
+        "time": "1:36.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "レッドフェルメール",
+        "time": "1:36.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "パスコード",
+        "time": "1:36.2",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "フラッシングレート",
+        "time": "1:36.4",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ジョワイユノエル",
+        "time": "1:36.4",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "デビューフライト",
+        "time": "1:36.5",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "アフェシス",
+        "time": "1:36.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "フラワームーン",
+        "time": "1:37.2",
+        "lastThreeF": 35.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 1320
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 140
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 11,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-3",
+          "payout": 520
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-3",
+          "payout": 480
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-1",
+          "payout": 1760
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-3",
+          "payout": 170
+        },
+        {
+          "combination": "3-11",
+          "payout": 390
+        },
+        {
+          "combination": "1-11",
+          "payout": 130
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-11",
+          "payout": 480
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-1-11",
+          "payout": 5460
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 820,
+    "ageLimit": "4歳以上",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "16:10",
+    "raceDate": "20260118",
+    "headCount": 11
+  }
+}

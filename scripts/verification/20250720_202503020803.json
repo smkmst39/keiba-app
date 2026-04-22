@@ -1,0 +1,254 @@
+{
+  "raceId": "202503020803",
+  "raceName": "2歳未勝利",
+  "date": "2025-07-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クリエープキー",
+      "score": 60.342671755725185,
+      "ev": 1.0127863783471789,
+      "odds": 2.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 12.977099236641223
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フェイスリフト",
+      "score": 55.88881679389312,
+      "ev": 0.9831209121936998,
+      "odds": 23.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.824427480916036
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ルクスアンジュ",
+      "score": 71.71141221374045,
+      "ev": 1.0413152245293409,
+      "odds": 5.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 51.145038167938914
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "タイセイフレッサ",
+      "score": 51.69499999999999,
+      "ev": 0.9794259034033518,
+      "odds": 2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "セイウンヤオヨロズ",
+      "score": 39.225,
+      "ev": 0.9702639754753708,
+      "odds": 22.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トラスコンガーデン",
+      "score": 32.2,
+      "ev": 0.9648438498484879,
+      "odds": 28.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020803",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "クリエープキー",
+        "time": "1:11.0",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "タイセイフレッサ",
+        "time": "1:11.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "フェイスリフト",
+        "time": "1:11.9",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "セイウンヤオヨロズ",
+        "time": "1:12.0",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "トラスコンガーデン",
+        "time": "1:12.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ルクスアンジュ",
+        "time": "1:12.4",
+        "lastThreeF": 37.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 130
+        },
+        {
+          "horseId": 4,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-4",
+          "payout": 440
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 140
+        },
+        {
+          "combination": "1-2",
+          "payout": 380
+        },
+        {
+          "combination": "2-4",
+          "payout": 320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-4",
+          "payout": 590
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-4-2",
+          "payout": 2250
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "11:15",
+    "raceDate": "20250720",
+    "headCount": 6
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "raceId": "202502010312",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-06-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "リーゼノアール",
+      "score": 65.5227947295423,
+      "ev": 0.9901237365799962,
+      "odds": 21.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 47.57281553398059
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サムシャイン",
+      "score": 60.80714285714285,
+      "ev": 1.0125817468053926,
+      "odds": 1.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "タマモネモフィラ",
+      "score": 57.15401525658806,
+      "ev": 0.9809304434320727,
+      "odds": 97.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 72.81553398058253
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トモジャザーン",
+      "score": 48.61656726768377,
+      "ev": 0.9729769563862308,
+      "odds": 12.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.50485436893204
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サンダーロード",
+      "score": 42.16509015256589,
+      "ev": 0.9606388021299593,
+      "odds": 17.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 75.72815533980581
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ガラスノブルース",
+      "score": 69.43543689320389,
+      "ev": 1.0127920902381284,
+      "odds": 17,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 66.99029126213593
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ロングウェイホーム",
+      "score": 42.76463245492372,
+      "ev": 0.950856638881705,
+      "odds": 5.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 91.26213592233009
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "メレカリキマカ",
+      "score": 31.845,
+      "ev": 0.9760902102771202,
+      "odds": 65.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010312",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "サムシャイン",
+        "time": "1:45.1",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "リーゼノアール",
+        "time": "1:46.1",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "サンダーロード",
+        "time": "1:46.1",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "ロングウェイホーム",
+        "time": "1:46.3",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "トモジャザーン",
+        "time": "1:46.5",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "タマモネモフィラ",
+        "time": "1:47.0",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "メレカリキマカ",
+        "time": "1:47.6",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "ガラスノブルース",
+        "time": "1:47.8",
+        "lastThreeF": 38.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 120
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 100
+        },
+        {
+          "horseId": 1,
+          "payout": 230
+        },
+        {
+          "horseId": 5,
+          "payout": 240
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 1150
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-1",
+          "payout": 1340
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 340
+        },
+        {
+          "combination": "2-5",
+          "payout": 340
+        },
+        {
+          "combination": "1-5",
+          "payout": 1650
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 2840
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-1-5",
+          "payout": 7580
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "16:05",
+    "raceDate": "20250621",
+    "headCount": 8
+  }
+}

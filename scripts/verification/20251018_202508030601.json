@@ -1,0 +1,336 @@
+{
+  "raceId": "202508030601",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マクアケ",
+      "score": 70.49194444444444,
+      "ev": 0.9840917791734195,
+      "odds": 94.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 42.36111111111111
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "デルニエジョイ",
+      "score": 61.099841269841264,
+      "ev": 1.015427827106492,
+      "odds": 5.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 27.281746031746028
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "リーグナイト",
+      "score": 60.40611111111111,
+      "ev": 1.0215111642078993,
+      "odds": 2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 15.277777777777779
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カレンショー",
+      "score": 53.61583333333333,
+      "ev": 0.9871813934892443,
+      "odds": 17.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 8.333333333333337
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スナークホクサイ",
+      "score": 50.456111111111106,
+      "ev": 0.9800864911775509,
+      "odds": 87.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 2.7777777777777803
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ノリノドラゴン",
+      "score": 46.55484126984127,
+      "ev": 0.9772264120559325,
+      "odds": 34.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.281746031746028
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ジャカルタバオ",
+      "score": 42.713888888888896,
+      "ev": 0.9741550907471178,
+      "odds": 21.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.22222222222223
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ルファーダ",
+      "score": 31.842499999999998,
+      "ev": 0.9218482283309971,
+      "odds": 7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エシェックオロワ",
+      "score": 33.03,
+      "ev": 0.9120580584820929,
+      "odds": 3.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030601",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "エシェックオロワ",
+        "time": "1:25.2",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ノリノドラゴン",
+        "time": "1:25.4",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ジャカルタバオ",
+        "time": "1:25.7",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "マクアケ",
+        "time": "1:25.7",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "リーグナイト",
+        "time": "1:25.8",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ルファーダ",
+        "time": "1:25.8",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "デルニエジョイ",
+        "time": "1:25.9",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "カレンショー",
+        "time": "1:28.0",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "スナークホクサイ",
+        "time": "1:31.1",
+        "lastThreeF": 42.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 370
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 310
+        },
+        {
+          "horseId": 6,
+          "payout": 790
+        },
+        {
+          "horseId": 7,
+          "payout": 950
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 3840
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-9",
+          "payout": 5580
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-6",
+          "payout": 6710
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-9",
+          "payout": 1580
+        },
+        {
+          "combination": "7-9",
+          "payout": 1230
+        },
+        {
+          "combination": "6-7",
+          "payout": 4230
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-7-9",
+          "payout": 19830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-6-7",
+          "payout": 122170
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1400,
+    "surface": "dirt",
+    "startTime": "09:55",
+    "raceDate": "20251018",
+    "headCount": 9
+  }
+}

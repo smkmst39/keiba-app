@@ -1,0 +1,382 @@
+{
+  "raceId": "202610010409",
+  "raceName": "足立山特別",
+  "date": "2026-02-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイネルボス",
+      "score": 68.55752252252252,
+      "ev": 0.983260652107293,
+      "odds": 85.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.00900900900901
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ドラギニャン",
+      "score": 60.44,
+      "ev": 0.9867621223098596,
+      "odds": 32.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ロットブラータ",
+      "score": 67.52,
+      "ev": 1.0411994125051058,
+      "odds": 2.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スピントロニクス",
+      "score": 62.220945945945935,
+      "ev": 0.9881400311806665,
+      "odds": 45.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 78.37837837837837
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヒルノレーダン",
+      "score": 54.63355855855855,
+      "ev": 0.9890788317364786,
+      "odds": 7.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.423423423423426
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダノンピクチャー",
+      "score": 54.41216216216216,
+      "ev": 0.9820984146619944,
+      "odds": 23.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 64.86486486486486
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "シャインフリーリー",
+      "score": 43.46225225225225,
+      "ev": 0.9784066311866387,
+      "odds": 56.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0.9009009009009018
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "キングズトゥルー",
+      "score": 46.280675675675674,
+      "ev": 0.9590356234719466,
+      "odds": 3.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 70.27027027027027
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ドーバーブライト",
+      "score": 41.106081081081086,
+      "ev": 0.9472142681133369,
+      "odds": 9.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.432432432432435
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ペリプルス",
+      "score": 37.542117117117115,
+      "ev": 0.9690461461350381,
+      "odds": 42.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 46.84684684684685
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ドマーネ",
+      "score": 32.52427927927928,
+      "ev": 0.9058193518942497,
+      "odds": 4.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 11.711711711711716
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202610010409",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "ドーバーブライト",
+        "time": "2:36.5",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ダノンピクチャー",
+        "time": "2:36.9",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ロットブラータ",
+        "time": "2:37.2",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "シャインフリーリー",
+        "time": "2:37.8",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "マイネルボス",
+        "time": "2:37.9",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "キングズトゥルー",
+        "time": "2:38.0",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "ペリプルス",
+        "time": "2:38.2",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "スピントロニクス",
+        "time": "2:38.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "ドラギニャン",
+        "time": "2:38.5",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ヒルノレーダン",
+        "time": "2:39.0",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ドマーネ",
+        "time": "2:39.0",
+        "lastThreeF": 37.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 960
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 220
+        },
+        {
+          "horseId": 6,
+          "payout": 360
+        },
+        {
+          "horseId": 3,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 1810
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-9",
+          "payout": 8140
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-6",
+          "payout": 16370
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-9",
+          "payout": 2120
+        },
+        {
+          "combination": "3-9",
+          "payout": 400
+        },
+        {
+          "combination": "3-6",
+          "payout": 1120
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-9",
+          "payout": 6160
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-6-3",
+          "payout": 71270
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "4歳以上",
+    "distance": 2600,
+    "surface": "turf",
+    "startTime": "14:05",
+    "raceDate": "20260201",
+    "headCount": 11
+  }
+}

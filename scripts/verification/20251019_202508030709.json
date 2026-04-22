@@ -1,0 +1,278 @@
+{
+  "raceId": "202508030709",
+  "raceName": "もみじS",
+  "date": "2025-10-19",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ファニーバニー",
+      "score": 60.71244444444445,
+      "ev": 0.9990466393748508,
+      "odds": 18.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 47.11111111111112
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ダイヤモンドノット",
+      "score": 61.49744444444444,
+      "ev": 1.021171778150093,
+      "odds": 2.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 87.11111111111113
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ロードヴィゴラス",
+      "score": 50.75899999999999,
+      "ev": 0.9798118601438127,
+      "odds": 47,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.999999999999999
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ナオミライトニング",
+      "score": 42.03044444444445,
+      "ev": 0.9624144573378373,
+      "odds": 13.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 43.111111111111114
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コラルリーフ",
+      "score": 70.61277777777778,
+      "ev": 0.9953837946621292,
+      "odds": 26.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 44.44444444444445
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シルバーナイツ",
+      "score": 38.35,
+      "ev": 0.9303954802611574,
+      "odds": 3.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "リリージョワ",
+      "score": 33.03,
+      "ev": 0.9095322741336643,
+      "odds": 2.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030709",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "リリージョワ",
+        "time": "1:20.5",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ダイヤモンドノット",
+        "time": "1:20.6",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "ファニーバニー",
+        "time": "1:21.4",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "シルバーナイツ",
+        "time": "1:21.6",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "コラルリーフ",
+        "time": "1:22.1",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ナオミライトニング",
+        "time": "1:22.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ロードヴィゴラス",
+        "time": "1:22.6",
+        "lastThreeF": 34.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 270
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 150
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 300
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-2",
+          "payout": 560
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 180
+        },
+        {
+          "combination": "1-7",
+          "payout": 430
+        },
+        {
+          "combination": "1-2",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-7",
+          "payout": 980
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-2-1",
+          "payout": 3180
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "L",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1600,
+    "ageLimit": "2歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20251019",
+    "headCount": 7
+  }
+}

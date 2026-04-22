@@ -1,0 +1,305 @@
+{
+  "raceId": "202501010212",
+  "raceName": "羊ケ丘特別",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ステラバルセロナ",
+      "score": 73.44999999999999,
+      "ev": 1.044348790365031,
+      "odds": 8.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 75
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エリーズダイヤ",
+      "score": 63.47357142857142,
+      "ev": 1.0138763644676432,
+      "odds": 5.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マイネルフォルツァ",
+      "score": 60.124789915966375,
+      "ev": 1.0036477044057002,
+      "odds": 6.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 88.23529411764704
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ルージュイストリア",
+      "score": 52.153949579831924,
+      "ev": 0.9795632700901473,
+      "odds": 14.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 66.17647058823529
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ビーナスローズ",
+      "score": 52.53487394957983,
+      "ev": 0.9805809295876041,
+      "odds": 3.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 77.94117647058823
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヨウシタンレイ",
+      "score": 41.61109243697479,
+      "ev": 0.9388733535398704,
+      "odds": 2.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 66.17647058823529
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "オルフェスト",
+      "score": 42.91642857142857,
+      "ev": 0.972771439199412,
+      "odds": 21.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ヒロノゴウカイ",
+      "score": 32.79705882352941,
+      "ev": 0.9762610453323601,
+      "odds": 66.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.294117647058831
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010212",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "エリーズダイヤ",
+        "time": "1:28.0",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ビーナスローズ",
+        "time": "1:28.2",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "マイネルフォルツァ",
+        "time": "1:28.6",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ステラバルセロナ",
+        "time": "1:28.6",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ヨウシタンレイ",
+        "time": "1:28.6",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ルージュイストリア",
+        "time": "1:28.7",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "オルフェスト",
+        "time": "1:28.9",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ヒロノゴウカイ",
+        "time": "1:29.4",
+        "lastThreeF": 35.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 520
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 150
+        },
+        {
+          "horseId": 5,
+          "payout": 150
+        },
+        {
+          "horseId": 3,
+          "payout": 170
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 930
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-5",
+          "payout": 2210
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 340
+        },
+        {
+          "combination": "2-3",
+          "payout": 420
+        },
+        {
+          "combination": "3-5",
+          "payout": 400
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 1830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-5-3",
+          "payout": 10110
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1500,
+    "surface": "turf",
+    "startTime": "16:01",
+    "raceDate": "20250727",
+    "headCount": 8
+  }
+}

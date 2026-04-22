@@ -1,0 +1,335 @@
+{
+  "raceId": "202508040605",
+  "raceName": "2歳新馬",
+  "date": "2025-11-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "デルマフジ",
+      "score": 74.89999999999999,
+      "ev": 1.0194867019728802,
+      "odds": 20,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ニシノトリビュート",
+      "score": 67.78749999999998,
+      "ev": 0.9904964208811033,
+      "odds": 20.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 56.896551724137936
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ウインカトリーヌ",
+      "score": 64.95,
+      "ev": 1.0135308153407439,
+      "odds": 7.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 87.50000000000001
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スカイスプレンダー",
+      "score": 58.309374999999996,
+      "ev": 0.9971797707036023,
+      "odds": 1.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.5323275862069
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゲフィオン",
+      "score": 56.175,
+      "ev": 0.9873840423674561,
+      "odds": 7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 95.25862068965519
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "カミノトップワン",
+      "score": 46.0375,
+      "ev": 0.978573590176337,
+      "odds": 151.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サトノアグード",
+      "score": 44.300000000000004,
+      "ev": 0.9520002327882209,
+      "odds": 10,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 49.568965517241374
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "コンゴウフジ",
+      "score": 38.4375,
+      "ev": 0.9515823779316767,
+      "odds": 12.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.01724137931034
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "スリラーナイト",
+      "score": 32.375,
+      "ev": 0.9402921492172496,
+      "odds": 16.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.0172413793103448
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040605",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "スカイスプレンダー",
+        "time": "1:47.8",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "サトノアグード",
+        "time": "1:48.3",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ゲフィオン",
+        "time": "1:48.5",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "スリラーナイト",
+        "time": "1:48.6",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "デルマフジ",
+        "time": "1:48.9",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ウインカトリーヌ",
+        "time": "1:48.9",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "コンゴウフジ",
+        "time": "1:48.9",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "ニシノトリビュート",
+        "time": "1:49.1",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "カミノトップワン",
+        "time": "1:50.5",
+        "lastThreeF": 36.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 160
+        },
+        {
+          "horseId": 5,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-7",
+          "payout": 590
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-7",
+          "payout": 620
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-7",
+          "payout": 720
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-7",
+          "payout": 250
+        },
+        {
+          "combination": "4-5",
+          "payout": 240
+        },
+        {
+          "combination": "5-7",
+          "payout": 740
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-7",
+          "payout": 1250
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-7-5",
+          "payout": 3880
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20251123",
+    "headCount": 9
+  }
+}

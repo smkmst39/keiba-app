@@ -1,0 +1,298 @@
+{
+  "raceId": "202501010412",
+  "raceName": "積丹特別",
+  "date": "2025-08-03",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ラーシャローム",
+      "score": 61.40306122448978,
+      "ev": 0.9882449569037441,
+      "odds": 27.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 19.387755102040817
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ディアマイハニー",
+      "score": 58.55714285714285,
+      "ev": 1.0100444617264859,
+      "odds": 3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ペリプルス",
+      "score": 52.517346938775496,
+      "ev": 0.9812633684580805,
+      "odds": 36.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 47.95918367346938
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シャインバオバブ",
+      "score": 68.77479591836735,
+      "ev": 1.015092493720088,
+      "odds": 12,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 12.755102040816327
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カーミングライツ",
+      "score": 48.84428571428572,
+      "ev": 0.9718870502778796,
+      "odds": 3.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アルマデオロ",
+      "score": 45.76122448979592,
+      "ev": 0.9597751007316417,
+      "odds": 2.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.0408163265306
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マイファミリー",
+      "score": 37.11642857142857,
+      "ev": 0.9258136175249254,
+      "odds": 4.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ボンドロア",
+      "score": 34.30102040816327,
+      "ev": 0.914753155489768,
+      "odds": 4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 36.224489795918366
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010412",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "アルマデオロ",
+        "time": "2:44.5",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "マイファミリー",
+        "time": "2:44.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "カーミングライツ",
+        "time": "2:45.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "ボンドロア",
+        "time": "2:45.3",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "シャインバオバブ",
+        "time": "2:45.4",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ラーシャローム",
+        "time": "2:45.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ペリプルス",
+        "time": "2:45.8",
+        "lastThreeF": 35.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 290
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "6-7",
+          "payout": 600
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-7",
+          "payout": 990
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-7",
+          "payout": 200
+        },
+        {
+          "combination": "5-6",
+          "payout": 170
+        },
+        {
+          "combination": "5-7",
+          "payout": 250
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-7",
+          "payout": 530
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-7-5",
+          "payout": 2510
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2600,
+    "surface": "turf",
+    "startTime": "16:01",
+    "raceDate": "20250803",
+    "headCount": 8
+  }
+}

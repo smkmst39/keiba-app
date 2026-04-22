@@ -1,0 +1,383 @@
+{
+  "raceId": "202505021107",
+  "raceName": "3歳1勝クラス",
+  "date": "2025-05-31",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "カザンラク",
+      "score": 74.65924528301886,
+      "ev": 1.0703488414754136,
+      "odds": 3.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 95.84905660377359
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "カガバベル",
+      "score": 65.89150943396226,
+      "ev": 0.9828125614950254,
+      "odds": 137.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.30188679245283
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ダイシンラー",
+      "score": 61.364999999999995,
+      "ev": 1.010918154498851,
+      "odds": 6.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スピリットライズ",
+      "score": 58.86169811320754,
+      "ev": 0.9814456192194676,
+      "odds": 67.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.33962264150944
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "パワースナッチ",
+      "score": 59.07499999999999,
+      "ev": 1.0097419126745624,
+      "odds": 4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アサクサグレース",
+      "score": 52.0288679245283,
+      "ev": 0.9811697979794611,
+      "odds": 11.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.773584905660375
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ユキノエミリオ",
+      "score": 47.36141509433962,
+      "ev": 0.979209396606642,
+      "odds": 124,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25.28301886792453
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ポッドロワール",
+      "score": 43.28707547169811,
+      "ev": 0.9641714389585786,
+      "odds": 12.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.4150943396226445
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "フォルテム",
+      "score": 34.69754716981133,
+      "ev": 0.9474691565967694,
+      "odds": 12.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 1.509433962264151
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "チギリ",
+      "score": 36.95547169811321,
+      "ev": 0.9518596762735099,
+      "odds": 14.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 55.09433962264153
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "チムグクル",
+      "score": 31.51716981132076,
+      "ev": 0.9025698666871234,
+      "odds": 4.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 49.433962264150956
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505021107",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "パワースナッチ",
+        "time": "1:23.3",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "アサクサグレース",
+        "time": "1:23.6",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "スピリットライズ",
+        "time": "1:23.6",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "チギリ",
+        "time": "1:23.7",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "チムグクル",
+        "time": "1:23.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "フォルテム",
+        "time": "1:24.0",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ダイシンラー",
+        "time": "1:24.1",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "カザンラク",
+        "time": "1:24.1",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "ポッドロワール",
+        "time": "1:24.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "ユキノエミリオ",
+        "time": "1:24.5",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "カガバベル",
+        "time": "1:25.5",
+        "lastThreeF": 36.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 400
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 160
+        },
+        {
+          "horseId": 6,
+          "payout": 320
+        },
+        {
+          "horseId": 4,
+          "payout": 1160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 2390
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 2370
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-6",
+          "payout": 3680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 750
+        },
+        {
+          "combination": "4-5",
+          "payout": 3160
+        },
+        {
+          "combination": "4-6",
+          "payout": 4510
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-6",
+          "payout": 23200
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-6-4",
+          "payout": 83040
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 800,
+    "ageLimit": "3歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "13:25",
+    "raceDate": "20250531",
+    "headCount": 11
+  }
+}

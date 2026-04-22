@@ -1,0 +1,383 @@
+{
+  "raceId": "202501020502",
+  "raceName": "2歳未勝利",
+  "date": "2025-09-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ディアナタコス",
+      "score": 65.62014492753623,
+      "ev": 0.9827731379283593,
+      "odds": 102.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.6231884057970993
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ココソラーレ",
+      "score": 63.340362318840576,
+      "ev": 0.9893174884160489,
+      "odds": 31.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 34.05797101449276
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "フィティテラ",
+      "score": 61.83586956521738,
+      "ev": 0.9881460741513919,
+      "odds": 23.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 71.73913043478261
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブレッティレディ",
+      "score": 56.00688405797101,
+      "ev": 0.9836075632444936,
+      "odds": 44.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 47.10144927536232
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "シンギュラーレディ",
+      "score": 48.519999999999996,
+      "ev": 0.9794445486666996,
+      "odds": 104.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ベルグランボヌール",
+      "score": 69.29586956521739,
+      "ev": 1.0497725525597534,
+      "odds": 4.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 21.739130434782606
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マスキュラー",
+      "score": 47.19340579710145,
+      "ev": 0.9669811765203715,
+      "odds": 6.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 10.144927536231878
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ヒッグスボソン",
+      "score": 49.07000000000001,
+      "ev": 0.9728257223660176,
+      "odds": 6.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サフィニア",
+      "score": 34.736086956521746,
+      "ev": 0.9767614728720441,
+      "odds": 171.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 2.1739130434782576
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ワイズギャング",
+      "score": 36.4363768115942,
+      "ev": 0.9218487774259297,
+      "odds": 3.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.420289855072461
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ラスベガスサイン",
+      "score": 33.054057971014494,
+      "ev": 0.9086812280045984,
+      "odds": 3.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 51.44927536231884
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020502",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 11,
+        "horseName": "ラスベガスサイン",
+        "time": "1:09.7",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ココソラーレ",
+        "time": "1:10.6",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ヒッグスボソン",
+        "time": "1:10.7",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "ワイズギャング",
+        "time": "1:10.9",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ベルグランボヌール",
+        "time": "1:11.1",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ブレッティレディ",
+        "time": "1:11.4",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "マスキュラー",
+        "time": "1:11.5",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "フィティテラ",
+        "time": "1:11.5",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ディアナタコス",
+        "time": "1:11.7",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "シンギュラーレディ",
+        "time": "1:12.1",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 11,
+        "horseId": 9,
+        "horseName": "サフィニア",
+        "time": "1:12.4",
+        "lastThreeF": 36.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 11,
+          "payout": 370
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 11,
+          "payout": 140
+        },
+        {
+          "horseId": 2,
+          "payout": 420
+        },
+        {
+          "horseId": 8,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-8",
+          "payout": 2430
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-11",
+          "payout": 5410
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "11-2",
+          "payout": 8770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-11",
+          "payout": 1140
+        },
+        {
+          "combination": "8-11",
+          "payout": 350
+        },
+        {
+          "combination": "2-8",
+          "payout": 1590
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-8-11",
+          "payout": 5780
+        }
+      ],
+      "santan": [
+        {
+          "combination": "11-2-8",
+          "payout": 34580
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 11,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "10:25",
+    "raceDate": "20250906",
+    "headCount": 11
+  }
+}

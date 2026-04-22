@@ -1,0 +1,335 @@
+{
+  "raceId": "202606010208",
+  "raceName": "中山新春JS",
+  "date": "2026-01-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クラウンセト",
+      "score": 60.38317164179104,
+      "ev": 0.9890108467519811,
+      "odds": 45.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 14.92537313432836
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "コパノニコルソン",
+      "score": 57.76171641791045,
+      "ev": 1.007532423654958,
+      "odds": 5.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 49.25373134328358
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ソルアマゾン",
+      "score": 66.64044776119403,
+      "ev": 0.9940896525290636,
+      "odds": 44.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 43.28358208955224
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ヘザルフェン",
+      "score": 51.92891791044775,
+      "ev": 0.9907441666697513,
+      "odds": 4.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 3.7313432835820928
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コンテナワールド",
+      "score": 49.584999999999994,
+      "ev": 0.9802463595422511,
+      "odds": 22.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "フォージドブリック",
+      "score": 46.86750000000001,
+      "ev": 0.9751016565416182,
+      "odds": 12,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ディナースタ",
+      "score": 41.346044776119406,
+      "ev": 0.9477954808621272,
+      "odds": 1.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 84.32835820895522
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "デシマルサーガ",
+      "score": 37.539216417910446,
+      "ev": 0.9704692306320379,
+      "odds": 45.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 49.25373134328358
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ワールドスケール",
+      "score": 31.48126865671642,
+      "ev": 0.9655522125079038,
+      "odds": 40.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.970149253731343
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606010208",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "コンテナワールド",
+        "time": "3:35.7",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ディナースタ",
+        "time": "3:36.1",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "フォージドブリック",
+        "time": "3:36.1",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "ヘザルフェン",
+        "time": "3:36.1",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ソルアマゾン",
+        "time": "3:38.2",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "デシマルサーガ",
+        "time": "3:38.3",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "コパノニコルソン",
+        "time": "3:39.1",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "ワールドスケール",
+        "time": "3:39.5",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "クラウンセト",
+        "time": "3:43.1",
+        "lastThreeF": 13.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 2260
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 310
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 220
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 1520
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 1650
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-7",
+          "payout": 5580
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 580
+        },
+        {
+          "combination": "5-6",
+          "payout": 1920
+        },
+        {
+          "combination": "6-7",
+          "payout": 330
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-7",
+          "payout": 3650
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-7-6",
+          "payout": 47280
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害4歳以上",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1750,
+    "ageLimit": "4歳以上",
+    "distance": 3200,
+    "surface": "turf",
+    "startTime": "14:00",
+    "raceDate": "20260105",
+    "headCount": 9
+  }
+}

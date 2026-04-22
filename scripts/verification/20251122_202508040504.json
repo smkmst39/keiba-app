@@ -1,0 +1,383 @@
+{
+  "raceId": "202508040504",
+  "raceName": "2歳未勝利",
+  "date": "2025-11-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヴィラジョヴィス",
+      "score": 69.4670987654321,
+      "ev": 0.9938290128409359,
+      "odds": 41.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 24.69135802469136
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ルリエアンレーヴ",
+      "score": 65.53841563786008,
+      "ev": 0.9826961838037077,
+      "odds": 281.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.5761316872428
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メイショウヒタカミ",
+      "score": 63.27144032921811,
+      "ev": 0.9822570225130836,
+      "odds": 65,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.74897119341564
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ジューンアゲイン",
+      "score": 56.75958847736625,
+      "ev": 0.989955384321979,
+      "odds": 11.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 63.786008230452666
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ホウオウモチーヴ",
+      "score": 57.42203703703703,
+      "ev": 1.0024773759054322,
+      "odds": 3.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 59.25925925925925
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヴィスコンテッサ",
+      "score": 52.943744855967076,
+      "ev": 0.9825632843586252,
+      "odds": 11.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 39.54732510288066
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "レザベーション",
+      "score": 46.65878600823045,
+      "ev": 0.9703879835136187,
+      "odds": 10.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 13.168724279835391
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "カモンレイル",
+      "score": 47.37534979423869,
+      "ev": 0.9791776119837284,
+      "odds": 281.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 70.78189300411523
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ルーン",
+      "score": 39.225,
+      "ev": 0.9775987160332381,
+      "odds": 624.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ストームゲイル",
+      "score": 34.714732510288066,
+      "ev": 0.947249813770682,
+      "odds": 11.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 16.460905349794242
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ブラックオリンピア",
+      "score": 34.45,
+      "ev": 0.9134739412849227,
+      "odds": 1.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040504",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ヴィスコンテッサ",
+        "time": "1:46.9",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "ストームゲイル",
+        "time": "1:46.9",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "ブラックオリンピア",
+        "time": "1:47.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "ジューンアゲイン",
+        "time": "1:47.1",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ホウオウモチーヴ",
+        "time": "1:47.2",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "レザベーション",
+        "time": "1:47.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ヴィラジョヴィス",
+        "time": "1:48.2",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "メイショウヒタカミ",
+        "time": "1:48.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "ルーン",
+        "time": "1:50.5",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "カモンレイル",
+        "time": "1:50.6",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "ルリエアンレーヴ",
+        "time": "1:51.3",
+        "lastThreeF": 38.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 1170
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 290
+        },
+        {
+          "horseId": 10,
+          "payout": 310
+        },
+        {
+          "horseId": 11,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 490
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-10",
+          "payout": 5220
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-10",
+          "payout": 9440
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-10",
+          "payout": 1190
+        },
+        {
+          "combination": "6-11",
+          "payout": 530
+        },
+        {
+          "combination": "10-11",
+          "payout": 450
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-10-11",
+          "payout": 2760
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-10-11",
+          "payout": 30960
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "11:30",
+    "raceDate": "20251122",
+    "headCount": 11
+  }
+}

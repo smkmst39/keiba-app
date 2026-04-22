@@ -1,0 +1,358 @@
+{
+  "raceId": "202507050410",
+  "raceName": "一宮特別",
+  "date": "2025-12-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイネルシーマー",
+      "score": 70.04888888888888,
+      "ev": 0.9838531144457457,
+      "odds": 63.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 34.72222222222222
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サイモンルモンド",
+      "score": 62.950555555555546,
+      "ev": 0.9824493230994377,
+      "odds": 220.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 1.3888888888888853
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ジェットブレード",
+      "score": 61.02555555555555,
+      "ev": 1.000686283342379,
+      "odds": 11.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.88888888888889
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "オルトパラティウム",
+      "score": 58.00833333333333,
+      "ev": 1.0094386372775435,
+      "odds": 4.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 20.83333333333334
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "バルナバ",
+      "score": 58.144999999999996,
+      "ev": 1.0099791908835414,
+      "odds": 4.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "レイヤードレッド",
+      "score": 44.355,
+      "ev": 0.9677180068074597,
+      "odds": 10.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.499999999999996
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ダノンジョーカー",
+      "score": 45.595,
+      "ev": 0.9603405487717787,
+      "odds": 1.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ビッグデイメイク",
+      "score": 38.27,
+      "ev": 0.9775684096956859,
+      "odds": 196.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "イーサンアイ",
+      "score": 35.718333333333334,
+      "ev": 0.9770637831281354,
+      "odds": 202.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 8.333333333333327
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "バンフィエルド",
+      "score": 31.53777777777778,
+      "ev": 0.9649480870774727,
+      "odds": 21.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 6.944444444444446
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507050410",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "バルナバ",
+        "time": "2:14.0",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ダノンジョーカー",
+        "time": "2:14.1",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ジェットブレード",
+        "time": "2:14.9",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "バンフィエルド",
+        "time": "2:15.1",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "レイヤードレッド",
+        "time": "2:15.1",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "マイネルシーマー",
+        "time": "2:15.2",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "イーサンアイ",
+        "time": "2:15.5",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "オルトパラティウム",
+        "time": "2:15.6",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "ビッグデイメイク",
+        "time": "2:16.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "サイモンルモンド",
+        "time": "2:17.0",
+        "lastThreeF": 36
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 470
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 540
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 490
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-7",
+          "payout": 1560
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 190
+        },
+        {
+          "combination": "3-5",
+          "payout": 530
+        },
+        {
+          "combination": "3-7",
+          "payout": 310
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-7",
+          "payout": 1110
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-7-3",
+          "payout": 6920
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "14:50",
+    "raceDate": "20251214",
+    "headCount": 10
+  }
+}

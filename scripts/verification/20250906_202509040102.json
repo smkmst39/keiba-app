@@ -1,0 +1,230 @@
+{
+  "raceId": "202509040102",
+  "raceName": "2歳未勝利",
+  "date": "2025-09-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メイショウナルカミ",
+      "score": 74.89999999999999,
+      "ev": 1.06444147994377,
+      "odds": 2.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ライツェントライゼ",
+      "score": 58.809999999999995,
+      "ev": 0.9811668914789674,
+      "odds": 65.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ゴールデンブラッド",
+      "score": 53.67604265402843,
+      "ev": 0.9830728225371084,
+      "odds": 9.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 58.293838862559234
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アンリミテッド",
+      "score": 41.72334123222749,
+      "ev": 0.9467594011032706,
+      "odds": 8.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 66.35071090047393
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "バドリナート",
+      "score": 34.21367298578199,
+      "ev": 0.9099304109264088,
+      "odds": 1.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.08056872037914
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040102",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "バドリナート",
+        "time": "2:00.9",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "メイショウナルカミ",
+        "time": "2:01.6",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ライツェントライゼ",
+        "time": "2:01.7",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ゴールデンブラッド",
+        "time": "2:01.9",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "アンリミテッド",
+        "time": "2:02.9",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 140
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 150
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-1",
+          "payout": 210
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 110
+        },
+        {
+          "combination": "2-5",
+          "payout": 600
+        },
+        {
+          "combination": "1-2",
+          "payout": 590
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 1250
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-1-2",
+          "payout": 3150
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "10:35",
+    "raceDate": "20250906",
+    "headCount": 5
+  }
+}

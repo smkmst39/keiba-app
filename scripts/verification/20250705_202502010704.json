@@ -1,0 +1,335 @@
+{
+  "raceId": "202502010704",
+  "raceName": "3歳未勝利",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "スティーヴバローズ",
+      "score": 74.89999999999999,
+      "ev": 1.0687308304883143,
+      "odds": 2.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マイネルアレス",
+      "score": 67.44592342342341,
+      "ev": 1.0399962280787223,
+      "odds": 1.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 69.36936936936937
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "シヴァールバーニ",
+      "score": 59.69828828828828,
+      "ev": 0.9815064995702325,
+      "odds": 57.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.315315315315317
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サトノビエント",
+      "score": 56.39209459459459,
+      "ev": 0.9886924987000859,
+      "odds": 16,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 37.83783783783784
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スペシャルバニー",
+      "score": 54.42292792792792,
+      "ev": 0.981958817565384,
+      "odds": 32,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 71.17117117117117
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ロコモーション",
+      "score": 45.57038288288288,
+      "ev": 0.9787834275670529,
+      "odds": 157.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 53.15315315315316
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スイッチビスケット",
+      "score": 37.875,
+      "ev": 0.9692007482102668,
+      "odds": 24.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オニムシャ",
+      "score": 34.09853603603603,
+      "ev": 0.9662891819175444,
+      "odds": 45.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 14.414414414414415
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シュエットアムール",
+      "score": 36.53693693693694,
+      "ev": 0.9504228314105538,
+      "odds": 11.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 74.77477477477478
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010704",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "スペシャルバニー",
+        "time": "1:51.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "マイネルアレス",
+        "time": "1:51.6",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "スティーヴバローズ",
+        "time": "1:52.0",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "オニムシャ",
+        "time": "1:52.2",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "サトノビエント",
+        "time": "1:52.3",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "シュエットアムール",
+        "time": "1:52.6",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "シヴァールバーニ",
+        "time": "1:52.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "スイッチビスケット",
+        "time": "1:53.0",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ロコモーション",
+        "time": "1:53.1",
+        "lastThreeF": 36.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 3200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 250
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-5",
+          "payout": 1940
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 1970
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 8650
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 430
+        },
+        {
+          "combination": "1-5",
+          "payout": 640
+        },
+        {
+          "combination": "1-2",
+          "payout": 120
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 750
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-1",
+          "payout": 17790
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "3歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "11:25",
+    "raceDate": "20250705",
+    "headCount": 9
+  }
+}

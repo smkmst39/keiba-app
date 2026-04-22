@@ -1,0 +1,279 @@
+{
+  "raceId": "202509050406",
+  "raceName": "2歳1勝クラス",
+  "date": "2025-12-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "モンサンゴールデン",
+      "score": 73.835,
+      "ev": 1.0631873350546346,
+      "odds": 2.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "カネコメブライト",
+      "score": 63.93855072463768,
+      "ev": 0.9890460832585244,
+      "odds": 22.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 53.768115942028984
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エイシンディアマン",
+      "score": 56.743695652173905,
+      "ev": 0.9808817606507012,
+      "odds": 84.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.391304347826093
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "テーオーナタリー",
+      "score": 53.91652173913043,
+      "ev": 0.9813583696261112,
+      "odds": 23.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 93.04347826086958
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "シラヌイ",
+      "score": 43.434999999999995,
+      "ev": 0.9532727503010556,
+      "odds": 7.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "キンダープンシュ",
+      "score": 43.24021739130435,
+      "ev": 0.9526750937114002,
+      "odds": 6.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 90.43478260869566
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テーオーグレーザー",
+      "score": 29.910869565217393,
+      "ev": 0.8947203824925942,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 21.73913043478261
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050406",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "テーオーグレーザー",
+        "time": "1:11.7",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "モンサンゴールデン",
+        "time": "1:12.1",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "カネコメブライト",
+        "time": "1:12.6",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "テーオーナタリー",
+        "time": "1:12.6",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "キンダープンシュ",
+        "time": "1:13.3",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "シラヌイ",
+        "time": "1:13.8",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "エイシンディアマン",
+        "time": "1:14.4",
+        "lastThreeF": 38
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 220
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 120
+        },
+        {
+          "horseId": 1,
+          "payout": 130
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-7",
+          "payout": 230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-1",
+          "payout": 480
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-7",
+          "payout": 150
+        },
+        {
+          "combination": "2-7",
+          "payout": 310
+        },
+        {
+          "combination": "1-2",
+          "payout": 400
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-7",
+          "payout": 560
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-1-2",
+          "payout": 1930
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 800,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "12:55",
+    "raceDate": "20251214",
+    "headCount": 7
+  }
+}

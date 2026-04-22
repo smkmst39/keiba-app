@@ -1,0 +1,335 @@
+{
+  "raceId": "202507030803",
+  "raceName": "2歳新馬",
+  "date": "2025-08-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メイクワンズデイ",
+      "score": 70.42032520325203,
+      "ev": 1.04546220740911,
+      "odds": 2.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.76422764227643
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スウィッチインラヴ",
+      "score": 69.76880081300811,
+      "ev": 1.0430061678734246,
+      "odds": 2.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 91.05691056910571
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エスティヴァリス",
+      "score": 65.58069105691057,
+      "ev": 1.0177746619162549,
+      "odds": 6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 98.37398373983743
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ロードファイター",
+      "score": 56.818597560975604,
+      "ev": 0.9807094012182508,
+      "odds": 62,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.82926829268293
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ジーティービキニ",
+      "score": 56.45,
+      "ev": 0.9902388231237789,
+      "odds": 7.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウメゴヒメ",
+      "score": 46.0375,
+      "ev": 0.9667733593839789,
+      "odds": 15.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "オレンジフィールド",
+      "score": 42.08516260162602,
+      "ev": 0.9593238325096732,
+      "odds": 12.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.382113821138207
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ジョウショーブリエ",
+      "score": 37.75558943089431,
+      "ev": 0.9771163276251772,
+      "odds": 77.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.260162601626018
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アルヴァルディ",
+      "score": 32.577235772357724,
+      "ev": 0.964561161552312,
+      "odds": 29.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.504065040650408
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030803",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "スウィッチインラヴ",
+        "time": "1:36.2",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "メイクワンズデイ",
+        "time": "1:36.2",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "エスティヴァリス",
+        "time": "1:36.6",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "オレンジフィールド",
+        "time": "1:37.1",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ロードファイター",
+        "time": "1:37.1",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ジーティービキニ",
+        "time": "1:37.2",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ジョウショーブリエ",
+        "time": "1:37.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "メイショウメゴヒメ",
+        "time": "1:37.8",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "アルヴァルディ",
+        "time": "1:38.1",
+        "lastThreeF": 35.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 240
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 3,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-2",
+          "payout": 420
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 380
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-1",
+          "payout": 720
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 180
+        },
+        {
+          "combination": "2-3",
+          "payout": 240
+        },
+        {
+          "combination": "1-3",
+          "payout": 340
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-3",
+          "payout": 620
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-1-3",
+          "payout": 2140
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 3,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 380
+      },
+      {
+        "type": "三連複",
+        "hit": true,
+        "payout": 620
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "10:40",
+    "raceDate": "20250817",
+    "headCount": 9
+  }
+}

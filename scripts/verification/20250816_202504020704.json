@@ -1,0 +1,383 @@
+{
+  "raceId": "202504020704",
+  "raceName": "2歳新馬",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "モンローウォーク",
+      "score": 74.89999999999999,
+      "ev": 1.0657332144222194,
+      "odds": 1.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スターサンサルー",
+      "score": 67.75656488549618,
+      "ev": 1.0092409952132209,
+      "odds": 16.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 40.458015267175576
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ニンジャトットリ",
+      "score": 63.49652671755725,
+      "ev": 1.0011152649109076,
+      "odds": 10.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.629770992366417
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "キタノマテンロウ",
+      "score": 59.80652671755725,
+      "ev": 0.9814076843273939,
+      "odds": 229.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.629770992366417
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クラウンプレゼンタ",
+      "score": 56.11652671755725,
+      "ev": 0.9807038421636969,
+      "odds": 299.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.629770992366417
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "レモンドルチェ",
+      "score": 50.65,
+      "ev": 0.9745782356260124,
+      "odds": 8.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "プレシャスフェザー",
+      "score": 47.71267175572519,
+      "ev": 0.976403458129334,
+      "odds": 23.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.977099236641223
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オトシダマ",
+      "score": 43.40282442748092,
+      "ev": 0.9782787907467739,
+      "odds": 96.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 2.2900763358778646
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "キリミツ",
+      "score": 40.022748091603056,
+      "ev": 0.9705362575760333,
+      "odds": 35.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.6335877862595405
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "コスモエウポリア",
+      "score": 37.262519083969465,
+      "ev": 0.9684302786524216,
+      "odds": 36.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.66412213740458
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "エクスペクタント",
+      "score": 35.56488549618321,
+      "ev": 0.9671350308501538,
+      "odds": 28.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.01526717557252
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020704",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "モンローウォーク",
+        "time": "1:35.5",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "キリミツ",
+        "time": "1:36.0",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "プレシャスフェザー",
+        "time": "1:36.6",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ニンジャトットリ",
+        "time": "1:36.8",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "レモンドルチェ",
+        "time": "1:37.5",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "コスモエウポリア",
+        "time": "1:37.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 7,
+        "horseId": 11,
+        "horseName": "エクスペクタント",
+        "time": "1:37.9",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "オトシダマ",
+        "time": "1:38.1",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "スターサンサルー",
+        "time": "1:38.1",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "クラウンプレゼンタ",
+        "time": "1:38.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "キタノマテンロウ",
+        "time": "1:38.3",
+        "lastThreeF": 35.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 120
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 320
+        },
+        {
+          "horseId": 7,
+          "payout": 250
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 1020
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-9",
+          "payout": 1110
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-9",
+          "payout": 1470
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-9",
+          "payout": 480
+        },
+        {
+          "combination": "1-7",
+          "payout": 380
+        },
+        {
+          "combination": "7-9",
+          "payout": 2090
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-7-9",
+          "payout": 5450
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-9-7",
+          "payout": 10900
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 120
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "11:15",
+    "raceDate": "20250816",
+    "headCount": 11
+  }
+}

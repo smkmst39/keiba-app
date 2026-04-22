@@ -1,0 +1,458 @@
+{
+  "raceId": "202606020403",
+  "raceName": "3歳未勝利",
+  "date": "2026-03-08",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アイムスティルミー",
+      "score": 67.04341772151899,
+      "ev": 1.0309860036266916,
+      "odds": 7.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 1.2658227848101278
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マイネルゼーロス",
+      "score": 63.26217137293086,
+      "ev": 1.0288580007615988,
+      "odds": 4.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 9.493670886075952
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ラッキースウィッチ",
+      "score": 65.67307692307692,
+      "ev": 1.0266735336110542,
+      "odds": 6.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カスターニエ",
+      "score": 60.42159850697825,
+      "ev": 0.9818841938878662,
+      "odds": 111.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 33.91350210970464
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "グランフィエスタ",
+      "score": 58.883685491723455,
+      "ev": 0.9815817050939981,
+      "odds": 80.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 37.9746835443038
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゲンパチミスティ",
+      "score": 51.626299902629015,
+      "ev": 0.9801542655758291,
+      "odds": 174,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 29.11392405063291
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アルファマリブ",
+      "score": 54.96923076923076,
+      "ev": 0.9881177943766173,
+      "odds": 17.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 49.999999999999986
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ウインエンブレム",
+      "score": 50.809250243427456,
+      "ev": 0.9799742473625731,
+      "odds": 39.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.21518987341772
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ロット",
+      "score": 42.30332035053554,
+      "ev": 0.9783205488363275,
+      "odds": 134.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 15.18987341772152
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サンドッグ",
+      "score": 45.165829276209024,
+      "ev": 0.9788835695428141,
+      "odds": 89,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 33.91350210970464
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ロードキャリバー",
+      "score": 40.80089094449854,
+      "ev": 0.9780250392370222,
+      "odds": 492.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.59493670886076
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ウルヴァリン",
+      "score": 36.81192307692307,
+      "ev": 0.9772404577508959,
+      "odds": 524.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "ホノボノ",
+      "score": 37.8037147030185,
+      "ev": 0.954355311066516,
+      "odds": 15.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 53.79746835443038
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "アラビアンドリーム",
+      "score": 36.213354430379745,
+      "ev": 0.9224545314970268,
+      "odds": 1.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 75.31645569620252
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606020403",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 13,
+        "horseName": "ホノボノ",
+        "time": "1:56.2",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "マイネルゼーロス",
+        "time": "1:56.6",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 3,
+        "horseId": 14,
+        "horseName": "アラビアンドリーム",
+        "time": "1:57.2",
+        "lastThreeF": 40.5
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ラッキースウィッチ",
+        "time": "1:57.2",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "アイムスティルミー",
+        "time": "1:57.2",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "グランフィエスタ",
+        "time": "1:58.8",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "カスターニエ",
+        "time": "1:59.4",
+        "lastThreeF": 41.5
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ウインエンブレム",
+        "time": "1:59.5",
+        "lastThreeF": 41.4
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ゲンパチミスティ",
+        "time": "1:59.6",
+        "lastThreeF": 41.6
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "ロット",
+        "time": "1:59.8",
+        "lastThreeF": 41.2
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ロードキャリバー",
+        "time": "1:59.9",
+        "lastThreeF": 41
+      },
+      {
+        "rank": 12,
+        "horseId": 7,
+        "horseName": "アルファマリブ",
+        "time": "2:00.6",
+        "lastThreeF": 42.6
+      },
+      {
+        "rank": 13,
+        "horseId": 12,
+        "horseName": "ウルヴァリン",
+        "time": "2:00.9",
+        "lastThreeF": 43.2
+      },
+      {
+        "rank": 14,
+        "horseId": 10,
+        "horseName": "サンドッグ",
+        "time": "2:02.0",
+        "lastThreeF": 43.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 13,
+          "payout": 1520
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 13,
+          "payout": 200
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        },
+        {
+          "horseId": 14,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-8",
+          "payout": 330
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-13",
+          "payout": 2970
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "13-2",
+          "payout": 6520
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-13",
+          "payout": 480
+        },
+        {
+          "combination": "13-14",
+          "payout": 290
+        },
+        {
+          "combination": "2-14",
+          "payout": 180
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-13-14",
+          "payout": 700
+        }
+      ],
+      "santan": [
+        {
+          "combination": "13-2-14",
+          "payout": 14350
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 12,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "11:05",
+    "raceDate": "20260308",
+    "headCount": 14,
+    "trackCondition": "良",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場6R 中の最頻値"
+  }
+}

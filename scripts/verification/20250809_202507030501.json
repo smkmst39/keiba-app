@@ -1,0 +1,335 @@
+{
+  "raceId": "202507030501",
+  "raceName": "3歳以上障害OP",
+  "date": "2025-08-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メイショウカズサ",
+      "score": 58.43958333333333,
+      "ev": 0.9851290879181431,
+      "odds": 20.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 36.458333333333336
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ビーンスターク",
+      "score": 57.47520833333333,
+      "ev": 0.9843843638513609,
+      "odds": 37.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 44.27083333333332
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ジオフロント",
+      "score": 69.1,
+      "ev": 1.0334457364185192,
+      "odds": 6.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サンダーアラート",
+      "score": 55.38499999999999,
+      "ev": 0.9938511597601245,
+      "odds": 3.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クラップサンダー",
+      "score": 43.36333333333334,
+      "ev": 0.9783716702395939,
+      "odds": 53.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 39.58333333333333
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コンテナワールド",
+      "score": 66.29999999999998,
+      "ev": 1.0247967051309381,
+      "odds": 5.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.25
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スズカキング",
+      "score": 42.13458333333333,
+      "ev": 0.9501511891211403,
+      "odds": 7.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 48.95833333333333
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ゴールドブリーズ",
+      "score": 40.74708333333333,
+      "ev": 0.9373316065302116,
+      "odds": 4.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 73.95833333333333
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ケンアンビシャス",
+      "score": 33.23458333333333,
+      "ev": 0.9226596253856147,
+      "odds": 5.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.958333333333332
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030501",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "ケンアンビシャス",
+        "time": "3:36.6",
+        "lastThreeF": 13.1
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "サンダーアラート",
+        "time": "3:36.8",
+        "lastThreeF": 13.1
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "クラップサンダー",
+        "time": "3:37.0",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "コンテナワールド",
+        "time": "3:37.2",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ゴールドブリーズ",
+        "time": "3:37.4",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "スズカキング",
+        "time": "3:39.1",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "メイショウカズサ",
+        "time": "3:39.2",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ジオフロント",
+        "time": "3:39.3",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "ビーンスターク",
+        "time": "3:41.6",
+        "lastThreeF": 13.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 510
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 180
+        },
+        {
+          "horseId": 4,
+          "payout": 150
+        },
+        {
+          "horseId": 5,
+          "payout": 910
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-8",
+          "payout": 380
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-9",
+          "payout": 1040
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-4",
+          "payout": 2460
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-9",
+          "payout": 510
+        },
+        {
+          "combination": "5-9",
+          "payout": 1850
+        },
+        {
+          "combination": "4-5",
+          "payout": 2560
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-9",
+          "payout": 13460
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-4-5",
+          "payout": 50530
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害3歳以上",
+    "raceGrade": "L",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1430,
+    "ageLimit": "3歳以上",
+    "distance": 3300,
+    "surface": "turf",
+    "startTime": "09:35",
+    "raceDate": "20250809",
+    "headCount": 9
+  }
+}

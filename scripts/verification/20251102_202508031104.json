@@ -1,0 +1,358 @@
+{
+  "raceId": "202508031104",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "オステリア",
+      "score": 73.64941176470587,
+      "ev": 1.06257316171098,
+      "odds": 3.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 84.55882352941177
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シーク",
+      "score": 66.835,
+      "ev": 0.9912856160298723,
+      "odds": 23.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アナゴサン",
+      "score": 61.326470588235296,
+      "ev": 1.0082346568747211,
+      "odds": 8.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.352941176470589
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ウェイトゥザドーン",
+      "score": 57.38323529411764,
+      "ev": 0.9961313426705132,
+      "odds": 5.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.176470588235297
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "リードアクトレス",
+      "score": 53.15529411764705,
+      "ev": 0.9807885390001134,
+      "odds": 29.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.970588235294118
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ウインシュクラン",
+      "score": 48.30382352941176,
+      "ev": 0.968263116409314,
+      "odds": 6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 31.617647058823522
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フォワードアゲン",
+      "score": 46.334999999999994,
+      "ev": 0.9688875222093265,
+      "odds": 17.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ボエーム",
+      "score": 40.045,
+      "ev": 0.9776820995508201,
+      "odds": 109.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ゲインサポート",
+      "score": 36.243529411764705,
+      "ev": 0.9190567616502693,
+      "odds": 2.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.147058823529416
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "クリアクォーツ",
+      "score": 38,
+      "ev": 0.9772897935555291,
+      "odds": 102.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508031104",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "ゲインサポート",
+        "time": "3:23.2",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "オステリア",
+        "time": "3:23.5",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ボエーム",
+        "time": "3:23.6",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "リードアクトレス",
+        "time": "3:24.0",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ウェイトゥザドーン",
+        "time": "3:24.2",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "シーク",
+        "time": "3:24.2",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "アナゴサン",
+        "time": "3:27.0",
+        "lastThreeF": 14.2
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "クリアクォーツ",
+        "time": "3:27.6",
+        "lastThreeF": 14.3
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "フォワードアゲン",
+        "time": "3:27.9",
+        "lastThreeF": 14.3
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "ウインシュクラン",
+        "time": "3:33.9",
+        "lastThreeF": 14.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 270
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 120
+        },
+        {
+          "horseId": 1,
+          "payout": 130
+        },
+        {
+          "horseId": 8,
+          "payout": 1330
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-8",
+          "payout": 340
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-9",
+          "payout": 340
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-1",
+          "payout": 630
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-9",
+          "payout": 190
+        },
+        {
+          "combination": "8-9",
+          "payout": 3110
+        },
+        {
+          "combination": "1-8",
+          "payout": 4460
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-8-9",
+          "payout": 8060
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-1-8",
+          "payout": 25600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2910,
+    "surface": "turf",
+    "startTime": "11:15",
+    "raceDate": "20251102",
+    "headCount": 10
+  }
+}

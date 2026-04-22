@@ -1,0 +1,305 @@
+{
+  "raceId": "202502010709",
+  "raceName": "恵山特別",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ゼットエイト",
+      "score": 66.08890476190476,
+      "ev": 0.990747631460742,
+      "odds": 31.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 57.33333333333333
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウインベラーノ",
+      "score": 59.40447619047618,
+      "ev": 1.0080743247064985,
+      "odds": 2.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 51.33333333333332
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ウォータークラーク",
+      "score": 57.22971428571428,
+      "ev": 0.9997246617747765,
+      "odds": 3.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 67.99999999999999
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ネイサン",
+      "score": 47.529285714285706,
+      "ev": 0.9791240681159359,
+      "odds": 153,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.999999999999998
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "シンゼンカガ",
+      "score": 39.19285714285714,
+      "ev": 0.9700949861000828,
+      "odds": 31.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シホリーン",
+      "score": 72.77,
+      "ev": 1.0593891920816694,
+      "odds": 4.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ブラックジェダイト",
+      "score": 38.03042857142857,
+      "ev": 0.9260119652754029,
+      "odds": 4.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "トレミニョン",
+      "score": 36.492000000000004,
+      "ev": 0.9500527030194055,
+      "odds": 12.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 73.99999999999999
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010709",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ウォータークラーク",
+        "time": "1:48.6",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "トレミニョン",
+        "time": "1:48.7",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ウインベラーノ",
+        "time": "1:49.4",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "シンゼンカガ",
+        "time": "1:49.4",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ブラックジェダイト",
+        "time": "1:49.6",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ゼットエイト",
+        "time": "1:49.6",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "シホリーン",
+        "time": "1:50.1",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ネイサン",
+        "time": "1:50.2",
+        "lastThreeF": 37.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 350
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 130
+        },
+        {
+          "horseId": 8,
+          "payout": 200
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-8",
+          "payout": 1500
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-8",
+          "payout": 2340
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-8",
+          "payout": 400
+        },
+        {
+          "combination": "2-3",
+          "payout": 190
+        },
+        {
+          "combination": "2-8",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-8",
+          "payout": 1200
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-8-2",
+          "payout": 7560
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20250705",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "raceId": "202509040303",
+  "raceName": "2歳未勝利",
+  "date": "2025-09-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マクローリン",
+      "score": 64.13,
+      "ev": 0.982744327069665,
+      "odds": 96.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ギャラボーグ",
+      "score": 65.32,
+      "ev": 1.0396162308406414,
+      "odds": 2.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ブラックコーラル",
+      "score": 47.55142857142857,
+      "ev": 0.9711956234758391,
+      "odds": 6.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 32.26600985221674
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ピエナブラック",
+      "score": 41.784285714285716,
+      "ev": 0.973214570623121,
+      "odds": 43.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 12.315270935960587
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "マテンロウゲイル",
+      "score": 32.81642857142857,
+      "ev": 0.9104298453056554,
+      "odds": 1.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.7487684729064
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040303",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ギャラボーグ",
+        "time": "1:51.1",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "マテンロウゲイル",
+        "time": "1:51.1",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ブラックコーラル",
+        "time": "1:51.9",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "マクローリン",
+        "time": "1:52.4",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ピエナブラック",
+        "time": "1:52.8",
+        "lastThreeF": 34.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 240
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 100
+        },
+        {
+          "horseId": 5,
+          "payout": 100
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 110
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-5",
+          "payout": 320
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 100
+        },
+        {
+          "combination": "2-3",
+          "payout": 130
+        },
+        {
+          "combination": "3-5",
+          "payout": 130
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 130
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-5-3",
+          "payout": 470
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 240
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "11:00",
+    "raceDate": "20250913",
+    "headCount": 5
+  }
+}

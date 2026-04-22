@@ -1,0 +1,384 @@
+{
+  "raceId": "202509050408",
+  "raceName": "3歳以上2勝クラス",
+  "date": "2025-12-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "スリーピース",
+      "score": 61.234656652360506,
+      "ev": 1.020401841471526,
+      "odds": 4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 61.37339055793992
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フォルティーナ",
+      "score": 54.339999999999996,
+      "ev": 0.9806667014887713,
+      "odds": 90.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヨシノヤッタルデー",
+      "score": 51.639206008583685,
+      "ev": 0.980546190328357,
+      "odds": 46.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.17596566523605
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ディーエスショウマ",
+      "score": 48.67358369098712,
+      "ev": 0.9728705447539165,
+      "odds": 7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.66523605150215
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フェリ",
+      "score": 42.13570815450644,
+      "ev": 0.9782710530162332,
+      "odds": 62.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 17.167381974248926
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "プロテア",
+      "score": 34.73446351931331,
+      "ev": 0.9672728858103153,
+      "odds": 25.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 2.145922746781116
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クーデール",
+      "score": 64.87678111587982,
+      "ev": 1.0073502498556217,
+      "odds": 16.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.875536480686694
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スペシャルナンバー",
+      "score": 64.77530042918454,
+      "ev": 1.0071510477592187,
+      "odds": 11.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 58.798283261802574
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ディキシーガンナー",
+      "score": 36.72,
+      "ev": 0.9241594695133175,
+      "odds": 3.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "フィドルファドル",
+      "score": 67.68062231759656,
+      "ev": 1.0457081320706951,
+      "odds": 3.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 57.5107296137339
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ゼンノツキヨミ",
+      "score": 33.569098712446355,
+      "ev": 0.9663578619957868,
+      "odds": 46.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.60515021459227
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050408",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "クーデール",
+        "time": "1:11.1",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "スペシャルナンバー",
+        "time": "1:11.3",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "ゼンノツキヨミ",
+        "time": "1:11.4",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "フィドルファドル",
+        "time": "1:11.4",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "フォルティーナ",
+        "time": "1:11.6",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "スリーピース",
+        "time": "1:11.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "ディーエスショウマ",
+        "time": "1:12.0",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "ディキシーガンナー",
+        "time": "1:12.0",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "フェリ",
+        "time": "1:12.4",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "ヨシノヤッタルデー",
+        "time": "1:12.4",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "プロテア",
+        "time": "1:12.6",
+        "lastThreeF": 38.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 1690
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 380
+        },
+        {
+          "horseId": 8,
+          "payout": 290
+        },
+        {
+          "horseId": 11,
+          "payout": 890
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 1060
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-8",
+          "payout": 10950
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-8",
+          "payout": 22160
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-8",
+          "payout": 2910
+        },
+        {
+          "combination": "7-11",
+          "payout": 6760
+        },
+        {
+          "combination": "8-11",
+          "payout": 3870
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "7-8-11",
+          "payout": 88170
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-8-11",
+          "payout": 387530
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "13:55",
+    "raceDate": "20251214",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "raceId": "202506040109",
+  "raceName": "古作特別",
+  "date": "2025-09-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ガラク",
+      "score": 64.7298854961832,
+      "ev": 1.0225911252131574,
+      "odds": 9.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 58.01526717557252
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ゴーゴータカシ",
+      "score": 56.7854961832061,
+      "ev": 0.9910792707973886,
+      "odds": 10.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 15.267175572519085
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ニシノコマチムスメ",
+      "score": 55.667442748091595,
+      "ev": 0.9808892223599908,
+      "odds": 270.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 29.007633587786263
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クラウドセイル",
+      "score": 51.80034351145038,
+      "ev": 0.9801327711670288,
+      "odds": 69.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.954198473282442
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レッドアーバイン",
+      "score": 47.314198473282445,
+      "ev": 0.9770209086335636,
+      "odds": 37.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.106870229007636
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シャドウメテオ",
+      "score": 71.35,
+      "ev": 1.0433107114767122,
+      "odds": 5.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "トレベルオール",
+      "score": 42.915,
+      "ev": 0.9735787637807397,
+      "odds": 24.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "プリムツァール",
+      "score": 65.53480916030533,
+      "ev": 1.0363879618093612,
+      "odds": 1.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 63.358778625954194
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "イージーブリージー",
+      "score": 37.402519083969466,
+      "ev": 0.9531638327580809,
+      "odds": 17.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 23.66412213740458
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "レイヤードレッド",
+      "score": 35.35629770992366,
+      "ev": 0.9491611772668667,
+      "odds": 12.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.16030534351145
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ジャスティンガルフ",
+      "score": 33.481564885496184,
+      "ev": 0.9661975896143442,
+      "odds": 24.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 40.458015267175576
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506040109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "シャドウメテオ",
+        "time": "1:47.4",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "プリムツァール",
+        "time": "1:47.4",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "ガラク",
+        "time": "1:47.4",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "イージーブリージー",
+        "time": "1:47.6",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "トレベルオール",
+        "time": "1:47.7",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ニシノコマチムスメ",
+        "time": "1:47.9",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "レイヤードレッド",
+        "time": "1:48.0",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "ゴーゴータカシ",
+        "time": "1:48.2",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "クラウドセイル",
+        "time": "1:48.2",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "ジャスティンガルフ",
+        "time": "1:48.3",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 11,
+        "horseId": 5,
+        "horseName": "レッドアーバイン",
+        "time": "1:48.5",
+        "lastThreeF": 33.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 510
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 150
+        },
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 330
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-8",
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-8",
+          "payout": 1000
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-8",
+          "payout": 180
+        },
+        {
+          "combination": "1-6",
+          "payout": 670
+        },
+        {
+          "combination": "1-8",
+          "payout": 330
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-6-8",
+          "payout": 1330
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-8-1",
+          "payout": 6950
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 3,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 510
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 360
+      },
+      {
+        "type": "三連複",
+        "hit": true,
+        "payout": 1330
+      },
+      {
+        "type": "三連単",
+        "hit": true,
+        "payout": 6950
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:35",
+    "raceDate": "20250906",
+    "headCount": 11
+  }
+}

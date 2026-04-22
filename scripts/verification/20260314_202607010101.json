@@ -1,0 +1,361 @@
+{
+  "raceId": "202607010101",
+  "raceName": "3歳未勝利",
+  "date": "2026-03-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パーフェクトスノー",
+      "score": 64.13,
+      "ev": 0.9823080367852859,
+      "odds": 55.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ファストフォワード",
+      "score": 67.06166666666667,
+      "ev": 1.025931067572971,
+      "odds": 5.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 41.66666666666667
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "タガノラヴズワン",
+      "score": 59.63999999999999,
+      "ev": 0.9814463014794083,
+      "odds": 81.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 15
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トゥインクルピカ",
+      "score": 58.76499999999999,
+      "ev": 1.0004538984406237,
+      "odds": 9.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 40.00000000000001
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヴェールミューズ",
+      "score": 57.66166666666666,
+      "ev": 1.0013322670931628,
+      "odds": 1.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 91.66666666666669
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ドリームキャリー",
+      "score": 50.33666666666666,
+      "ev": 0.9732155137944822,
+      "odds": 4.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 66.66666666666667
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アウラニ",
+      "score": 50.3,
+      "ev": 0.9765373850459816,
+      "odds": 10.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "シンデレラカラー",
+      "score": 42.52333333333334,
+      "ev": 0.972644862055178,
+      "odds": 23.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 73.33333333333336
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "チョウスター",
+      "score": 37.26666666666667,
+      "ev": 0.9771523390643743,
+      "odds": 51.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.666666666666668
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "トゥルパーニ",
+      "score": 33.35666666666667,
+      "ev": 0.9764019192323071,
+      "odds": 65.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 56.666666666666664
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202607010101",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ヴェールミューズ",
+        "time": "1:55.0",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "タガノラヴズワン",
+        "time": "1:56.0",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "トゥインクルピカ",
+        "time": "1:56.0",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ドリームキャリー",
+        "time": "1:56.2",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ファストフォワード",
+        "time": "1:56.6",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "アウラニ",
+        "time": "1:57.0",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "チョウスター",
+        "time": "1:58.1",
+        "lastThreeF": 41.3
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "シンデレラカラー",
+        "time": "1:58.2",
+        "lastThreeF": 41.6
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "パーフェクトスノー",
+        "time": "1:59.3",
+        "lastThreeF": 42.1
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "トゥルパーニ",
+        "time": "2:05.3",
+        "lastThreeF": 46.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 1170
+        },
+        {
+          "horseId": 4,
+          "payout": 310
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-5",
+          "payout": 7960
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-5",
+          "payout": 7000
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-3",
+          "payout": 9160
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-5",
+          "payout": 2020
+        },
+        {
+          "combination": "4-5",
+          "payout": 580
+        },
+        {
+          "combination": "3-4",
+          "payout": 6160
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-5",
+          "payout": 20840
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-3-4",
+          "payout": 106100
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "sexLimit": "牝",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "09:45",
+    "raceDate": "20260314",
+    "headCount": 10
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "raceId": "202501010706",
+  "raceName": "3歳未勝利",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メイショウゲキハ",
+      "score": 71.76336734693876,
+      "ev": 1.0619479323277692,
+      "odds": 3.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 52.0408163265306
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メイショウマヒロ",
+      "score": 66.6759262166405,
+      "ev": 0.9830980054502854,
+      "odds": 67.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.265306122448978
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ファリア",
+      "score": 60.376138147566714,
+      "ev": 0.9818604574603816,
+      "odds": 190.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 8.673469387755102
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブランディストック",
+      "score": 64.25461538461538,
+      "ev": 1.0219577020417638,
+      "odds": 8.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "メイユウ",
+      "score": 55.05472527472527,
+      "ev": 0.9881510423071328,
+      "odds": 13.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 39.285714285714285
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ピンクパラダイス",
+      "score": 54.63059654631083,
+      "ev": 0.9829271487877637,
+      "odds": 38.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 31.946624803767666
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サヨノファントム",
+      "score": 51.65525117739402,
+      "ev": 0.9801473020301068,
+      "odds": 204.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 11.22448979591837
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スマートテンペスト",
+      "score": 49.230769230769226,
+      "ev": 0.9786841200592381,
+      "odds": 27.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "クリップクロップ",
+      "score": 44.735777080062796,
+      "ev": 0.9787880211834414,
+      "odds": 161.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 8.16326530612245
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ミスティマウンテン",
+      "score": 47.637621664050236,
+      "ev": 0.9671613530097882,
+      "odds": 4.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 76.53061224489797
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "シャドーストライク",
+      "score": 41.60324175824176,
+      "ev": 0.9781726571825708,
+      "odds": 67.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.42857142857143
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "レイナサグラーダ",
+      "score": 36.42794348508634,
+      "ev": 0.977156007113573,
+      "odds": 191.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 36.224489795918366
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "オロパタジン",
+      "score": 36.42958398744113,
+      "ev": 0.9515632937844435,
+      "odds": 10.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 42.3469387755102
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "トリプレーテ",
+      "score": 32.200102040816326,
+      "ev": 0.906509562284895,
+      "odds": 2.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.122448979591839
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010706",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "ミスティマウンテン",
+        "time": "1:46.7",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "メイショウゲキハ",
+        "time": "1:46.9",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 3,
+        "horseId": 13,
+        "horseName": "オロパタジン",
+        "time": "1:46.9",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 4,
+        "horseId": 14,
+        "horseName": "トリプレーテ",
+        "time": "1:47.1",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ピンクパラダイス",
+        "time": "1:47.4",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ブランディストック",
+        "time": "1:47.8",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "メイユウ",
+        "time": "1:47.9",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "メイショウマヒロ",
+        "time": "1:48.1",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "スマートテンペスト",
+        "time": "1:48.5",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "ファリア",
+        "time": "1:48.9",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "シャドーストライク",
+        "time": "1:49.2",
+        "lastThreeF": 40.4
+      },
+      {
+        "rank": 12,
+        "horseId": 12,
+        "horseName": "レイナサグラーダ",
+        "time": "1:49.3",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 13,
+        "horseId": 9,
+        "horseName": "クリップクロップ",
+        "time": "1:49.5",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 14,
+        "horseId": 7,
+        "horseName": "サヨノファントム",
+        "time": "1:49.8",
+        "lastThreeF": 40.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 460
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 160
+        },
+        {
+          "horseId": 1,
+          "payout": 170
+        },
+        {
+          "horseId": 13,
+          "payout": 250
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 920
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-10",
+          "payout": 1050
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-1",
+          "payout": 2180
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-10",
+          "payout": 440
+        },
+        {
+          "combination": "10-13",
+          "payout": 650
+        },
+        {
+          "combination": "1-13",
+          "payout": 810
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-10-13",
+          "payout": 2640
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-1-13",
+          "payout": 13080
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "12:45",
+    "raceDate": "20250816",
+    "headCount": 14
+  }
+}

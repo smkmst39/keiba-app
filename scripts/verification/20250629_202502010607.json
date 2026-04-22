@@ -1,0 +1,384 @@
+{
+  "raceId": "202502010607",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-06-29",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エスペシャリー",
+      "score": 73.835,
+      "ev": 1.0658084036954505,
+      "odds": 2.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "プロクレイア",
+      "score": 61.406666666666666,
+      "ev": 1.010159586930411,
+      "odds": 8.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 16.666666666666664
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "デアデルマーレ",
+      "score": 66.09543859649122,
+      "ev": 1.0079246414086396,
+      "odds": 18.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 75.43859649122807
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ナムラエデン",
+      "score": 58.182631578947365,
+      "ev": 1.0001756354507152,
+      "odds": 7.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 2.6315789473684204
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "グランテレーズ",
+      "score": 53.89807017543859,
+      "ev": 0.9843172032173595,
+      "odds": 16.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 78.0701754385965
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ムチャスグラシアス",
+      "score": 54.36517543859649,
+      "ev": 0.9820885054749872,
+      "odds": 41.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 70.17543859649122
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ソアラ",
+      "score": 50.11438596491228,
+      "ev": 0.9787976234978243,
+      "odds": 22.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 54.38596491228071
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "キタノクニカラ",
+      "score": 43.93254385964912,
+      "ev": 0.9650293914187491,
+      "odds": 16.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.543859649122805
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "スウィートリワード",
+      "score": 41.5642105263158,
+      "ev": 0.9408911852290642,
+      "odds": 4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 34.210526315789465
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "フクシマコウヨウ",
+      "score": 32.339999999999996,
+      "ev": 0.9762592562981722,
+      "odds": 114.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "クリノハレルヤ",
+      "score": 32.60815789473684,
+      "ev": 0.9652446280364162,
+      "odds": 25.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.157894736842108
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010607",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 11,
+        "horseName": "クリノハレルヤ",
+        "time": "1:08.9",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ムチャスグラシアス",
+        "time": "1:09.0",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "キタノクニカラ",
+        "time": "1:09.2",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "エスペシャリー",
+        "time": "1:09.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "グランテレーズ",
+        "time": "1:09.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "スウィートリワード",
+        "time": "1:09.3",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "プロクレイア",
+        "time": "1:09.4",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ソアラ",
+        "time": "1:09.5",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "デアデルマーレ",
+        "time": "1:09.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "フクシマコウヨウ",
+        "time": "1:09.9",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "ナムラエデン",
+        "time": "1:09.9",
+        "lastThreeF": 35.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 11,
+          "payout": 2540
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 11,
+          "payout": 650
+        },
+        {
+          "horseId": 6,
+          "payout": 970
+        },
+        {
+          "horseId": 8,
+          "payout": 450
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 5630
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-11",
+          "payout": 29730
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "11-6",
+          "payout": 67640
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-11",
+          "payout": 6160
+        },
+        {
+          "combination": "8-11",
+          "payout": 4280
+        },
+        {
+          "combination": "6-8",
+          "payout": 6180
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-8-11",
+          "payout": 118790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "11-6-8",
+          "payout": 683240
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "13:15",
+    "raceDate": "20250629",
+    "headCount": 11
+  }
+}

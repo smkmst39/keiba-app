@@ -1,0 +1,455 @@
+{
+  "raceId": "202607010111",
+  "raceName": "中京スポーツ杯",
+  "date": "2026-03-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サイモンルモンド",
+      "score": 64.87042553191489,
+      "ev": 0.9826910414990928,
+      "odds": 163.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.765957446808516
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ネクストダンサー",
+      "score": 66.26153846153845,
+      "ev": 0.9918527774414183,
+      "odds": 23,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "タッチャブル",
+      "score": 66.94009819967266,
+      "ev": 0.9923837824240841,
+      "odds": 28.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.63829787234043
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コパノヴィンセント",
+      "score": 62.545818330605556,
+      "ev": 0.9822362628196097,
+      "odds": 116.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 39.93453355155483
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "パーサヴィアランス",
+      "score": 55.55360065466447,
+      "ev": 0.9808683278327736,
+      "odds": 61.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 23.40425531914894
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジュンラトゥール",
+      "score": 52.15896890343699,
+      "ev": 0.9820421299036716,
+      "odds": 11.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 38.297872340425535
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テーオーマルコーニ",
+      "score": 52.344762684124376,
+      "ev": 0.9848112217662459,
+      "odds": 2.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 65.95744680851064
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サイモンコーラル",
+      "score": 49.73959901800327,
+      "ev": 0.9797308952440147,
+      "odds": 102.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 14.893617021276595
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "スマートスピア",
+      "score": 49.5686906710311,
+      "ev": 0.973949185689327,
+      "odds": 3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 91.48936170212765
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サンカルミア",
+      "score": 44.617995090016365,
+      "ev": 0.9749156844679636,
+      "odds": 20.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 24.46808510638298
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "メイショウジェンマ",
+      "score": 41.90293780687398,
+      "ev": 0.9781977560387562,
+      "odds": 124.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 26.595744680851062
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "シンボリノエル",
+      "score": 34.81968903436989,
+      "ev": 0.9672480480833776,
+      "odds": 20.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 32.97872340425532
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "モモンウールー",
+      "score": 40.838461538461544,
+      "ev": 0.9598950532378946,
+      "odds": 12.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ケーヴァラ",
+      "score": 33.44925531914893,
+      "ev": 0.9247024763937083,
+      "odds": 7.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 27.6595744680851
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202607010111",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "テーオーマルコーニ",
+        "time": "1:54.1",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "スマートスピア",
+        "time": "1:54.1",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 3,
+        "horseId": 13,
+        "horseName": "モモンウールー",
+        "time": "1:54.5",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 4,
+        "horseId": 14,
+        "horseName": "ケーヴァラ",
+        "time": "1:54.7",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "サンカルミア",
+        "time": "1:54.8",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "メイショウジェンマ",
+        "time": "1:55.1",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "パーサヴィアランス",
+        "time": "1:55.1",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "タッチャブル",
+        "time": "1:55.2",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ジュンラトゥール",
+        "time": "1:55.2",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "ネクストダンサー",
+        "time": "1:55.3",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 11,
+        "horseId": 8,
+        "horseName": "サイモンコーラル",
+        "time": "1:55.6",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 12,
+        "horseId": 12,
+        "horseName": "シンボリノエル",
+        "time": "1:55.7",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 13,
+        "horseId": 1,
+        "horseName": "サイモンルモンド",
+        "time": "1:55.7",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 14,
+        "horseId": 4,
+        "horseName": "コパノヴィンセント",
+        "time": "1:55.9",
+        "lastThreeF": 36.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 250
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 130
+        },
+        {
+          "horseId": 13,
+          "payout": 260
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 280
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-9",
+          "payout": 300
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-9",
+          "payout": 580
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-9",
+          "payout": 190
+        },
+        {
+          "combination": "7-13",
+          "payout": 560
+        },
+        {
+          "combination": "9-13",
+          "payout": 750
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "7-9-13",
+          "payout": 1360
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-9-13",
+          "payout": 4600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "ハンデ",
+    "prize": 1580,
+    "ageLimit": "4歳以上",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "15:20",
+    "raceDate": "20260314",
+    "headCount": 14
+  }
+}

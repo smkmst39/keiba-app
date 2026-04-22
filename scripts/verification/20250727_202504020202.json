@@ -1,0 +1,254 @@
+{
+  "raceId": "202504020202",
+  "raceName": "2歳未勝利",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パンジー",
+      "score": 61.72,
+      "ev": 0.9819942483268621,
+      "odds": 142.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ソルトバーン",
+      "score": 52.32026615969581,
+      "ev": 0.9801675674796972,
+      "odds": 78.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 1.901140684410647
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クリスタルメモリー",
+      "score": 46.93579847908745,
+      "ev": 0.9791211863638648,
+      "odds": 61,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.703422053231941
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シシリアンフラッグ",
+      "score": 38.53705323193916,
+      "ev": 0.9774890308854405,
+      "odds": 52.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0.38022813688212964
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゾロアストロ",
+      "score": 74.54499999999999,
+      "ev": 1.069731445731023,
+      "odds": 1.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジーネキング",
+      "score": 34.68986692015209,
+      "ev": 0.9148278931516863,
+      "odds": 4.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 49.04942965779468
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020202",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ゾロアストロ",
+        "time": "1:47.4",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ジーネキング",
+        "time": "1:47.8",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "パンジー",
+        "time": "1:49.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "クリスタルメモリー",
+        "time": "1:49.9",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ソルトバーン",
+        "time": "1:50.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "シシリアンフラッグ",
+        "time": "1:50.7",
+        "lastThreeF": 35.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 110
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 130
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 110
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-6",
+          "payout": 130
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 110
+        },
+        {
+          "combination": "1-5",
+          "payout": 700
+        },
+        {
+          "combination": "1-6",
+          "payout": 810
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-6",
+          "payout": 1030
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-6-1",
+          "payout": 1460
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 110
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "10:20",
+    "raceDate": "20250727",
+    "headCount": 6
+  }
+}

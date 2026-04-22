@@ -1,0 +1,278 @@
+{
+  "raceId": "202509040405",
+  "raceName": "2歳新馬",
+  "date": "2025-09-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "プレイザリード",
+      "score": 71.16432653061224,
+      "ev": 1.0499999457995,
+      "odds": 3.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.591836734693885
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アンコンケラブル",
+      "score": 65.98020408163265,
+      "ev": 0.9825165601884939,
+      "odds": 65.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.24489795918367
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ナムラヴンダー",
+      "score": 56.8,
+      "ev": 0.983100237630478,
+      "odds": 34,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ジャスティンルマン",
+      "score": 56.45,
+      "ev": 0.9941732759014511,
+      "odds": 1.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ブルースカイブルー",
+      "score": 46.56432653061225,
+      "ev": 0.9566666847335,
+      "odds": 3.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.591836734693885
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "テイエムプレミラン",
+      "score": 39.81775510204082,
+      "ev": 0.9702139913170799,
+      "odds": 46.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25.30612244897959
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クーレスト",
+      "score": 32.223673469387755,
+      "ev": 0.9761128872528941,
+      "odds": 80.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0.40816326530612285
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040405",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ブルースカイブルー",
+        "time": "2:04.5",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ジャスティンルマン",
+        "time": "2:04.5",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "プレイザリード",
+        "time": "2:05.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ナムラヴンダー",
+        "time": "2:05.6",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "クーレスト",
+        "time": "2:05.8",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "テイエムプレミラン",
+        "time": "2:05.8",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "アンコンケラブル",
+        "time": "2:11.1",
+        "lastThreeF": 40.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 4,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 240
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-4",
+          "payout": 660
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 110
+        },
+        {
+          "combination": "1-5",
+          "payout": 140
+        },
+        {
+          "combination": "1-4",
+          "payout": 110
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-5",
+          "payout": 150
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-4-1",
+          "payout": 1280
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20250914",
+    "headCount": 7
+  }
+}

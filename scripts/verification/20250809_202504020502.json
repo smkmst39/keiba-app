@@ -1,0 +1,352 @@
+{
+  "raceId": "202504020502",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ファイアマン",
+      "score": 67.45671328671328,
+      "ev": 1.0120815669889396,
+      "odds": 11.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 8.391608391608392
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マイネルリーヒム",
+      "score": 65.53730769230769,
+      "ev": 0.9913293332833711,
+      "odds": 32.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 15.384615384615385
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "テルケンレンスキー",
+      "score": 61.01122377622377,
+      "ev": 1.0189223443491942,
+      "odds": 2.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.279720279720284
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ソルトバーン",
+      "score": 55.44062937062937,
+      "ev": 0.9808553839126463,
+      "odds": 91.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 13.286713286713288
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コスモナエマ",
+      "score": 56.55314685314685,
+      "ev": 0.9810732170166235,
+      "odds": 56.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 66.43356643356644
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "セルジオ",
+      "score": 45.68501165501165,
+      "ev": 0.9757808593588294,
+      "odds": 44,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 35.431235431235436
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ロードフィレール",
+      "score": 49.94499999999999,
+      "ev": 0.9755865781727003,
+      "odds": 1.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ストロングエース",
+      "score": 42.21472027972028,
+      "ev": 0.973062899942049,
+      "odds": 32,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 49.65034965034966
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ヘラクレステソーロ",
+      "score": 36.80636363636364,
+      "ev": 0.9688270326103373,
+      "odds": 38.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 45.45454545454546
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ウィナーズロジャー",
+      "score": 30.07,
+      "ev": 0.975887764947095,
+      "odds": 330.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020502",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ロードフィレール",
+        "time": "2:01.6",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ストロングエース",
+        "time": "2:02.3",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "マイネルリーヒム",
+        "time": "2:02.3",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "コスモナエマ",
+        "time": "2:02.3",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ファイアマン",
+        "time": "2:02.5",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ヘラクレステソーロ",
+        "time": "2:02.8",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "ソルトバーン",
+        "time": "2:04.0",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "テルケンレンスキー",
+        "time": "2:04.1",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "ウィナーズロジャー",
+        "time": "2:05.3",
+        "lastThreeF": 38.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 320
+        },
+        {
+          "horseId": 2,
+          "payout": 410
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-7",
+          "payout": 1770
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-8",
+          "payout": 2040
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-8",
+          "payout": 2460
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-8",
+          "payout": 660
+        },
+        {
+          "combination": "2-7",
+          "payout": 590
+        },
+        {
+          "combination": "2-8",
+          "payout": 3970
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-8",
+          "payout": 7630
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-8-2",
+          "payout": 21410
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "10:20",
+    "raceDate": "20250809",
+    "headCount": 10
+  }
+}

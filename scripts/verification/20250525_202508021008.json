@@ -1,0 +1,277 @@
+{
+  "raceId": "202508021008",
+  "raceName": "聖護院特別",
+  "date": "2025-05-25",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "バレルターン",
+      "score": 68.71586956521739,
+      "ev": 1.0513083280761353,
+      "odds": 1.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 11.73913043478261
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ファインライン",
+      "score": 67.685,
+      "ev": 1.0472381838725717,
+      "odds": 2.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "テーオーコンドル",
+      "score": 56.54586956521739,
+      "ev": 0.9811628983438753,
+      "odds": 104.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.739130434782607
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ビヨンドザドリーム",
+      "score": 48.519999999999996,
+      "ev": 0.9783139445416184,
+      "odds": 31.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "イーサンアイ",
+      "score": 44.802608695652175,
+      "ev": 0.9788446242007679,
+      "odds": 62.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 5.217391304347827
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ドンアチェカ",
+      "score": 36.96086956521739,
+      "ev": 0.9529656176180816,
+      "odds": 10.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 61.739130434782595
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サンライズエース",
+      "score": 31.35608695652174,
+      "ev": 0.9190416633713384,
+      "odds": 6.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 22.173913043478258
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508021008",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ファインライン",
+        "time": "1:47.8",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "バレルターン",
+        "time": "1:48.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "サンライズエース",
+        "time": "1:48.3",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "ビヨンドザドリーム",
+        "time": "1:48.7",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ドンアチェカ",
+        "time": "1:49.0",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "イーサンアイ",
+        "time": "1:49.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "テーオーコンドル",
+        "time": "1:49.5",
+        "lastThreeF": 37.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 260
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 120
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-1",
+          "payout": 410
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 110
+        },
+        {
+          "combination": "2-7",
+          "payout": 190
+        },
+        {
+          "combination": "1-7",
+          "payout": 170
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-7",
+          "payout": 220
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-1-7",
+          "payout": 980
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 170
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "trackCondition": "重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "4歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:40",
+    "raceDate": "20250525",
+    "headCount": 7
+  }
+}

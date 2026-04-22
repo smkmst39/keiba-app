@@ -1,0 +1,361 @@
+{
+  "raceId": "202502010907",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シンボリノエル",
+      "score": 66.7,
+      "ev": 1.009777167902347,
+      "odds": 18.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "レーヴドレフォン",
+      "score": 51.891052631578944,
+      "ev": 0.9819272518740015,
+      "odds": 3.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 1.0526315789473693
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スウィートリワード",
+      "score": 53.31052631578947,
+      "ev": 0.9859607586122148,
+      "odds": 8.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.52631578947368
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "リアルクィーン",
+      "score": 49.12236842105262,
+      "ev": 0.9729226231925613,
+      "odds": 8.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.368421052631582
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "タマモジャスミン",
+      "score": 44.78052631578947,
+      "ev": 0.9542575676893459,
+      "odds": 2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 90.52631578947367
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "タマモネモフィラ",
+      "score": 40.94947368421053,
+      "ev": 0.9779674763445705,
+      "odds": 199.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.473684210526317
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タイヨウフレア",
+      "score": 73.50710526315788,
+      "ev": 0.9972086593208537,
+      "odds": 30.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 82.10526315789474
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アステロイドメア",
+      "score": 34.17,
+      "ev": 0.966593618154262,
+      "odds": 21.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "リュミナーズ",
+      "score": 30.680526315789475,
+      "ev": 0.9396946299102937,
+      "odds": 16.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 10.52631578947368
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "コムルヴァン",
+      "score": 68.84631578947366,
+      "ev": 0.9833953221644206,
+      "odds": 62.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 66.3157894736842
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010907",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "リアルクィーン",
+        "time": "1:46.4",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "タマモジャスミン",
+        "time": "1:46.6",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "タイヨウフレア",
+        "time": "1:46.7",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "シンボリノエル",
+        "time": "1:46.7",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "リュミナーズ",
+        "time": "1:47.0",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "レーヴドレフォン",
+        "time": "1:47.1",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "アステロイドメア",
+        "time": "1:47.3",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "コムルヴァン",
+        "time": "1:47.9",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "タマモネモフィラ",
+        "time": "1:48.2",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "スウィートリワード",
+        "time": "1:48.6",
+        "lastThreeF": 39.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 840
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 230
+        },
+        {
+          "horseId": 5,
+          "payout": 130
+        },
+        {
+          "horseId": 7,
+          "payout": 480
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-5",
+          "payout": 1010
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 990
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-5",
+          "payout": 3040
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 380
+        },
+        {
+          "combination": "4-7",
+          "payout": 1620
+        },
+        {
+          "combination": "5-7",
+          "payout": 940
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-7",
+          "payout": 5700
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-5-7",
+          "payout": 34460
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "13:15",
+    "raceDate": "20250712",
+    "headCount": 10
+  }
+}

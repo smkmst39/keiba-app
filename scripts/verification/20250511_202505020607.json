@@ -1,0 +1,230 @@
+{
+  "raceId": "202505020607",
+  "raceName": "4歳以上2勝クラス",
+  "date": "2025-05-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シンハナーダ",
+      "score": 69.92999999999999,
+      "ev": 1.055813646125888,
+      "odds": 1.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "コロンドール",
+      "score": 58.809999999999995,
+      "ev": 0.9815977409757354,
+      "odds": 66.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アヴニールドブリエ",
+      "score": 52.7804716981132,
+      "ev": 0.9881735212827233,
+      "odds": 3.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 55.09433962264153
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ピンキープロミス",
+      "score": 41.797075471698115,
+      "ev": 0.95188278316314,
+      "odds": 8.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.4150943396226445
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "マイネルトルファン",
+      "score": 30.22320754716981,
+      "ev": 0.9638409068245513,
+      "odds": 21.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 2.641509433962266
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505020607",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "シンハナーダ",
+        "time": "2:01.3",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "マイネルトルファン",
+        "time": "2:01.6",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ピンキープロミス",
+        "time": "2:02.0",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "アヴニールドブリエ",
+        "time": "2:03.0",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "コロンドール",
+        "time": "2:04.9",
+        "lastThreeF": 36.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 120
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 260
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 560
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 850
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 220
+        },
+        {
+          "combination": "1-4",
+          "payout": 180
+        },
+        {
+          "combination": "4-5",
+          "payout": 320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-5",
+          "payout": 310
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-4",
+          "payout": 1610
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 120
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:25",
+    "raceDate": "20250511",
+    "headCount": 5
+  }
+}

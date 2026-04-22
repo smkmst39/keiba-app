@@ -1,0 +1,277 @@
+{
+  "raceId": "202509040501",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-09-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ポッドエルマー",
+      "score": 65.2,
+      "ev": 0.9910469677481206,
+      "odds": 24.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "テーオーリカード",
+      "score": 55.084285714285706,
+      "ev": 0.9956354107580829,
+      "odds": 1.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 7.142857142857144
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アンノウンウォリア",
+      "score": 49.584999999999994,
+      "ev": 0.9770538303600674,
+      "odds": 19.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ヴィンテージボンド",
+      "score": 44.6715873015873,
+      "ev": 0.9674366977086457,
+      "odds": 10.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 39.68253968253969
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アメリカンエール",
+      "score": 70.38333333333333,
+      "ev": 0.9951051494888327,
+      "odds": 32,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 83.33333333333334
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ロードプレジール",
+      "score": 41.01984126984127,
+      "ev": 0.940578106927501,
+      "odds": 2.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 46.03174603174603
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "リプレイ",
+      "score": 31.687380952380956,
+      "ev": 0.9762022419996113,
+      "odds": 62.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.523809523809526
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040501",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ヴィンテージボンド",
+        "time": "3:31.5",
+        "lastThreeF": 14.2
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ロードプレジール",
+        "time": "3:31.6",
+        "lastThreeF": 14.2
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "テーオーリカード",
+        "time": "3:32.2",
+        "lastThreeF": 14.3
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "アンノウンウォリア",
+        "time": "3:32.8",
+        "lastThreeF": 14.3
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ポッドエルマー",
+        "time": "3:33.1",
+        "lastThreeF": 14.4
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "リプレイ",
+        "time": "3:37.1",
+        "lastThreeF": 14.6
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "アメリカンエール",
+        "time": "3:37.1",
+        "lastThreeF": 14.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 1070
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 350
+        },
+        {
+          "horseId": 6,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-6",
+          "payout": 1320
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-6",
+          "payout": 3280
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-6",
+          "payout": 260
+        },
+        {
+          "combination": "2-4",
+          "payout": 230
+        },
+        {
+          "combination": "2-6",
+          "payout": 110
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-6",
+          "payout": 280
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-6-2",
+          "payout": 5070
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2970,
+    "surface": "turf",
+    "startTime": "09:45",
+    "raceDate": "20250915",
+    "headCount": 7
+  }
+}

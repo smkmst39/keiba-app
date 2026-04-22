@@ -1,0 +1,305 @@
+{
+  "raceId": "202509030209",
+  "raceName": "三木特別",
+  "date": "2025-06-08",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "イーサンアイ",
+      "score": 68.74499999999999,
+      "ev": 0.9834092355134891,
+      "odds": 112,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "デイライト",
+      "score": 59.10023809523809,
+      "ev": 0.9861118051653113,
+      "odds": 23.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 4.166666666666661
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ディーガレジェンド",
+      "score": 62.22714285714285,
+      "ev": 1.0227575573213945,
+      "odds": 4.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サンライズエース",
+      "score": 54.96761904761904,
+      "ev": 0.9915496398400527,
+      "odds": 5.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.11904761904761
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヤマニンループ",
+      "score": 51.60650793650793,
+      "ev": 0.9810598749463979,
+      "odds": 5.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 68.05555555555554
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジオパーククラウン",
+      "score": 43.369523809523805,
+      "ev": 0.9784595557330683,
+      "odds": 72.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 29.166666666666657
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ベント",
+      "score": 36.14698412698413,
+      "ev": 0.9682029775699228,
+      "odds": 22.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 13.888888888888884
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "テーオーダグラス",
+      "score": 33.97222222222223,
+      "ev": 0.9125308105882226,
+      "odds": 1.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.555555555555557
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509030209",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "テーオーダグラス",
+        "time": "1:46.4",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ヤマニンループ",
+        "time": "1:46.5",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ディーガレジェンド",
+        "time": "1:46.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "サンライズエース",
+        "time": "1:46.8",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ジオパーククラウン",
+        "time": "1:47.1",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "デイライト",
+        "time": "1:47.2",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ベント",
+        "time": "1:47.3",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "イーサンアイ",
+        "time": "1:47.8",
+        "lastThreeF": 34.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 130
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-5",
+          "payout": 690
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 200
+        },
+        {
+          "combination": "3-8",
+          "payout": 160
+        },
+        {
+          "combination": "3-5",
+          "payout": 310
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-8",
+          "payout": 510
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-5-3",
+          "payout": 1780
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "小雨",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20250608",
+    "headCount": 8
+  }
+}

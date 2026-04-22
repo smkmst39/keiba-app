@@ -1,0 +1,384 @@
+{
+  "raceId": "202509050401",
+  "raceName": "2歳未勝利",
+  "date": "2025-12-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ショウナンサフィラ",
+      "score": 69.30817073170732,
+      "ev": 1.0359422510676157,
+      "odds": 5.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 21.951219512195124
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ノービレ",
+      "score": 69.14463414634146,
+      "ev": 0.993858180749737,
+      "odds": 44.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 64.39024390243902
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クレマチス",
+      "score": 62.77963414634146,
+      "ev": 1.0022508776349828,
+      "odds": 12.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 24.390243902439025
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "タケルフォーカス",
+      "score": 59.08695121951219,
+      "ev": 0.9860240442084942,
+      "odds": 41.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 36.58536585365853
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ディアギレフ",
+      "score": 55.17,
+      "ev": 0.9807432625417984,
+      "odds": 160.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "レッドブライトン",
+      "score": 52.48097560975609,
+      "ev": 0.9808785136433084,
+      "odds": 22.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 68.29268292682926
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アメジストロード",
+      "score": 47.95024390243903,
+      "ev": 0.9693977333151125,
+      "odds": 7.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 17.073170731707314
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サリー",
+      "score": 41.14,
+      "ev": 0.978011198495008,
+      "odds": 374.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "キボウホー",
+      "score": 41.061341463414635,
+      "ev": 0.9719835252245711,
+      "odds": 20.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 43.90243902439025
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サンライズケヴィン",
+      "score": 36.21134146341463,
+      "ev": 0.9210288012804695,
+      "odds": 3.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.902439024390244
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "メイショウナナシロ",
+      "score": 30.550975609756097,
+      "ev": 0.8989839231044736,
+      "odds": 2.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 8.292682926829269
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050401",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "サンライズケヴィン",
+        "time": "1:53.6",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "メイショウナナシロ",
+        "time": "1:53.7",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "タケルフォーカス",
+        "time": "1:54.6",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ノービレ",
+        "time": "1:55.0",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "クレマチス",
+        "time": "1:55.1",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ディアギレフ",
+        "time": "1:55.3",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "キボウホー",
+        "time": "1:56.3",
+        "lastThreeF": 40.3
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "レッドブライトン",
+        "time": "1:56.6",
+        "lastThreeF": 42.1
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "アメジストロード",
+        "time": "1:57.9",
+        "lastThreeF": 42.9
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "サリー",
+        "time": "1:58.9",
+        "lastThreeF": 42.7
+      },
+      {
+        "rank": 11,
+        "horseId": 1,
+        "horseName": "ショウナンサフィラ",
+        "time": "2:02.6",
+        "lastThreeF": 47
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 360
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 120
+        },
+        {
+          "horseId": 11,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 380
+        }
+      ],
+      "waku": [
+        {
+          "combination": "8-8",
+          "payout": 340
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "10-11",
+          "payout": 350
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-11",
+          "payout": 820
+        }
+      ],
+      "wide": [
+        {
+          "combination": "10-11",
+          "payout": 180
+        },
+        {
+          "combination": "4-10",
+          "payout": 1240
+        },
+        {
+          "combination": "4-11",
+          "payout": 1270
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-10-11",
+          "payout": 3590
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-11-4",
+          "payout": 13090
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "10:05",
+    "raceDate": "20251214",
+    "headCount": 11
+  }
+}

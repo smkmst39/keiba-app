@@ -1,0 +1,278 @@
+{
+  "raceId": "202606030209",
+  "raceName": "ミモザ賞",
+  "date": "2026-03-29",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ガーヴィ",
+      "score": 73.67894736842105,
+      "ev": 0.9951097563890409,
+      "odds": 31.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 78.94736842105263
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ドナルンバ",
+      "score": 68.21578947368421,
+      "ev": 1.035117348581455,
+      "odds": 2.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 90.78947368421055
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ベンヴェヌータ",
+      "score": 56.67394736842105,
+      "ev": 0.9895620007957743,
+      "odds": 5.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 3.9473684210526265
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ユメシルベ",
+      "score": 50.294999999999995,
+      "ev": 0.974048072637598,
+      "odds": 12.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ランザワールド",
+      "score": 49.53684210526316,
+      "ev": 0.9652607426007759,
+      "odds": 2.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 86.84210526315792
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ナムラダリア",
+      "score": 38.30026315789473,
+      "ev": 0.951618767899648,
+      "odds": 11.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.263157894736839
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "セットエトワール",
+      "score": 37.644999999999996,
+      "ev": 0.9326295558426841,
+      "odds": 6.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606030209",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ベンヴェヌータ",
+        "time": "2:00.6",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ドナルンバ",
+        "time": "2:00.7",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ランザワールド",
+        "time": "2:01.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ガーヴィ",
+        "time": "2:01.1",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ユメシルベ",
+        "time": "2:01.6",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "セットエトワール",
+        "time": "2:01.9",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "ナムラダリア",
+        "time": "2:02.0",
+        "lastThreeF": 35.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 590
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 270
+        },
+        {
+          "horseId": 2,
+          "payout": 160
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-3",
+          "payout": 830
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-2",
+          "payout": 1770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-3",
+          "payout": 270
+        },
+        {
+          "combination": "3-5",
+          "payout": 270
+        },
+        {
+          "combination": "2-5",
+          "payout": 170
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 510
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-2-5",
+          "payout": 4580
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1140,
+    "ageLimit": "3歳",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20260329",
+    "headCount": 7
+  }
+}

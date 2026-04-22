@@ -1,0 +1,306 @@
+{
+  "raceId": "202501010107",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-26",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ラセーヌシュメール",
+      "score": 60.482571428571426,
+      "ev": 1.0270075253988593,
+      "odds": 2.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メラヴィリオーザ",
+      "score": 55.007142857142846,
+      "ev": 0.9849292347050771,
+      "odds": 20.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カルミネイション",
+      "score": 48.93438095238095,
+      "ev": 0.9799226724366983,
+      "odds": 17,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 10.666666666666666
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "テンペストヒロイン",
+      "score": 46.94928571428571,
+      "ev": 0.9717383241092076,
+      "odds": 3.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ハイファイスピード",
+      "score": 43.572857142857146,
+      "ev": 0.9579491738397037,
+      "odds": 3.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シャインズオンユー",
+      "score": 33.468095238095245,
+      "ev": 0.9768340938466367,
+      "odds": 56.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 16.666666666666664
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ジャグアール",
+      "score": 69.04033333333334,
+      "ev": 1.0455655668941766,
+      "odds": 8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.33333333333333
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "イリュージョン",
+      "score": 34.32333333333333,
+      "ev": 0.9321396981623947,
+      "odds": 9.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 73.33333333333333
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010107",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ラセーヌシュメール",
+        "time": "1:08.7",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ハイファイスピード",
+        "time": "1:08.9",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ジャグアール",
+        "time": "1:09.0",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "シャインズオンユー",
+        "time": "1:09.1",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "イリュージョン",
+        "time": "1:09.3",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "メラヴィリオーザ",
+        "time": "1:09.4",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "カルミネイション",
+        "time": "1:09.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "テンペストヒロイン",
+        "time": "1:11.2",
+        "lastThreeF": 37.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 170
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 450
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 210
+        },
+        {
+          "combination": "1-7",
+          "payout": 310
+        },
+        {
+          "combination": "5-7",
+          "payout": 530
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-7",
+          "payout": 920
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-7",
+          "payout": 2770
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "13:20",
+    "raceDate": "20250726",
+    "headCount": 8
+  }
+}

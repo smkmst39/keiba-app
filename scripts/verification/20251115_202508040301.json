@@ -1,0 +1,384 @@
+{
+  "raceId": "202508040301",
+  "raceName": "2歳未勝利",
+  "date": "2025-11-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アーサーバローズ",
+      "score": 67.35336134453782,
+      "ev": 1.0338116874677203,
+      "odds": 5.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 31.092436974789916
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ファインブルー",
+      "score": 65.05499999999999,
+      "ev": 0.9829072245342925,
+      "odds": 365.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヒロノスカイ",
+      "score": 62.214663865546214,
+      "ev": 1.0034368819980228,
+      "odds": 14.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.89075630252102
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ジーティーピカソ",
+      "score": 63.474999999999994,
+      "ev": 1.0318748988745567,
+      "odds": 3.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "キタノシャカール",
+      "score": 53.96462184873949,
+      "ev": 0.9870684022918862,
+      "odds": 12.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 30.252100840336134
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ケンタッキーホーム",
+      "score": 50.49882352941176,
+      "ev": 0.9803841838480453,
+      "odds": 3.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 34.117647058823536
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "レヴロード",
+      "score": 48.03226890756303,
+      "ev": 0.9795298329057172,
+      "odds": 376.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 18.487394957983195
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ベンティガオルサ",
+      "score": 42.05294117647059,
+      "ev": 0.9468701111650447,
+      "odds": 3.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 64.70588235294117
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "マルーンドライブ",
+      "score": 34.80495798319328,
+      "ev": 0.9490547087227255,
+      "odds": 13.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 3.361344537815129
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "クモンリュウ",
+      "score": 31.797310924369746,
+      "ev": 0.9763087392465998,
+      "odds": 261.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 15.126050420168063
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モチモチチャン",
+      "score": 35.17310924369748,
+      "ev": 0.9769785138510122,
+      "odds": 76.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.26050420168067
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040301",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ケンタッキーホーム",
+        "time": "1:53.4",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "キタノシャカール",
+        "time": "1:53.7",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "マルーンドライブ",
+        "time": "1:54.2",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ヒロノスカイ",
+        "time": "1:54.3",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ベンティガオルサ",
+        "time": "1:54.3",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "アーサーバローズ",
+        "time": "1:54.4",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "ジーティーピカソ",
+        "time": "1:54.8",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "レヴロード",
+        "time": "1:55.2",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "ファインブルー",
+        "time": "1:58.0",
+        "lastThreeF": 40.4
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "モチモチチャン",
+        "time": "1:58.1",
+        "lastThreeF": 41.7
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "クモンリュウ",
+        "time": "1:59.0",
+        "lastThreeF": 42.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 160
+        },
+        {
+          "horseId": 5,
+          "payout": 310
+        },
+        {
+          "horseId": 9,
+          "payout": 300
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 2300
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 2220
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 3400
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 720
+        },
+        {
+          "combination": "6-9",
+          "payout": 840
+        },
+        {
+          "combination": "5-9",
+          "payout": 1380
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-9",
+          "payout": 6580
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-9",
+          "payout": 28040
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "10:05",
+    "raceDate": "20251115",
+    "headCount": 11
+  }
+}

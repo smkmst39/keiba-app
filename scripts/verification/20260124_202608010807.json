@@ -1,0 +1,384 @@
+{
+  "raceId": "202608010807",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2026-01-24",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サンマルミッション",
+      "score": 62.57900709219858,
+      "ev": 0.9821899080388241,
+      "odds": 132.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 36.87943262411347
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ユキノクラウン",
+      "score": 69.88978723404254,
+      "ev": 1.0522798327499088,
+      "odds": 3.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.617021276595745
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴィーナスバブル",
+      "score": 60.654999999999994,
+      "ev": 0.9818151262931599,
+      "odds": 75.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クロノスバレット",
+      "score": 60.32159574468084,
+      "ev": 1.0150036343016535,
+      "odds": 4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 57.872340425531924
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "マッハレイジング",
+      "score": 54.77478723404255,
+      "ev": 0.9806697061882973,
+      "odds": 357.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.617021276595745
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ローズゴジャール",
+      "score": 51.724007092198576,
+      "ev": 0.9803017509641496,
+      "odds": 32,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 36.87943262411347
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ワイドクリーガー",
+      "score": 48.011808510638296,
+      "ev": 0.9735233008187618,
+      "odds": 13.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 24.255319148936167
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ケイアイワイラーパ",
+      "score": 47.31765957446809,
+      "ev": 0.9768684608865937,
+      "odds": 26.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 69.7872340425532
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ブリオメンテ",
+      "score": 40.41000000000001,
+      "ev": 0.9374311280212978,
+      "odds": 4.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "バシリス",
+      "score": 36.556382978723406,
+      "ev": 0.9771209015203155,
+      "odds": 87.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.489361702127658
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "アークドール",
+      "score": 32.46404255319149,
+      "ev": 0.9064749032239631,
+      "odds": 3.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 41.27659574468085
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010807",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ワイドクリーガー",
+        "time": "1:54.3",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "ブリオメンテ",
+        "time": "1:54.3",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ユキノクラウン",
+        "time": "1:54.6",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "バシリス",
+        "time": "1:54.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "アークドール",
+        "time": "1:54.8",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "クロノスバレット",
+        "time": "1:55.2",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ケイアイワイラーパ",
+        "time": "1:55.3",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ヴィーナスバブル",
+        "time": "1:55.7",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "マッハレイジング",
+        "time": "1:55.9",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 10,
+        "horseId": 1,
+        "horseName": "サンマルミッション",
+        "time": "1:55.9",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "ローズゴジャール",
+        "time": "1:55.9",
+        "lastThreeF": 37.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 1380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 210
+        },
+        {
+          "horseId": 9,
+          "payout": 170
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 1640
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-9",
+          "payout": 3050
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-9",
+          "payout": 8310
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-9",
+          "payout": 940
+        },
+        {
+          "combination": "2-7",
+          "payout": 580
+        },
+        {
+          "combination": "2-9",
+          "payout": 370
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-9",
+          "payout": 2720
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-9-2",
+          "payout": 30780
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 820,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "13:10",
+    "raceDate": "20260124",
+    "headCount": 11
+  }
+}

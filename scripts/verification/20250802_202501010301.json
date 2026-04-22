@@ -1,0 +1,306 @@
+{
+  "raceId": "202501010301",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ソルプレーザ",
+      "score": 68.74222222222222,
+      "ev": 0.993925674930304,
+      "odds": 47.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 30.555555555555546
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラシッド",
+      "score": 62.5363492063492,
+      "ev": 0.9890574021265697,
+      "odds": 37.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.444444444444443
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アイムスティルミー",
+      "score": 57.492142857142845,
+      "ev": 0.9851004129127303,
+      "odds": 37.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ジャストビート",
+      "score": 54.89626984126983,
+      "ev": 0.9922561946151106,
+      "odds": 5.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 33.888888888888886
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヴィラジョヴィス",
+      "score": 53.45928571428571,
+      "ev": 0.9896839446152566,
+      "odds": 1.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シャインヴィーラ",
+      "score": 40.80619047619048,
+      "ev": 0.9780027284965038,
+      "odds": 51.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 3.333333333333336
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ブルームオブピース",
+      "score": 36.69642857142857,
+      "ev": 0.9771967402793907,
+      "odds": 81.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "チェンドル",
+      "score": 33.29388888888889,
+      "ev": 0.9244711893999545,
+      "odds": 5.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 37.222222222222214
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010301",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ジャストビート",
+        "time": "1:50.2",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ヴィラジョヴィス",
+        "time": "1:50.3",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "アイムスティルミー",
+        "time": "1:50.8",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "チェンドル",
+        "time": "1:51.0",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ブルームオブピース",
+        "time": "1:51.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ラシッド",
+        "time": "1:51.3",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "シャインヴィーラ",
+        "time": "1:51.3",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ソルプレーザ",
+        "time": "1:51.6",
+        "lastThreeF": 36.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 570
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 100
+        },
+        {
+          "horseId": 3,
+          "payout": 170
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 280
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-5",
+          "payout": 1130
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 150
+        },
+        {
+          "combination": "3-4",
+          "payout": 810
+        },
+        {
+          "combination": "3-5",
+          "payout": 500
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-5",
+          "payout": 1050
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-5-3",
+          "payout": 11090
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "09:55",
+    "raceDate": "20250802",
+    "headCount": 8
+  }
+}

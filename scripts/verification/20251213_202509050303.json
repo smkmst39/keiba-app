@@ -1,0 +1,455 @@
+{
+  "raceId": "202509050303",
+  "raceName": "2歳未勝利",
+  "date": "2025-12-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サウンドプリモ",
+      "score": 64.43495590396864,
+      "ev": 0.9826390304758469,
+      "odds": 58.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.56687898089172
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リネアベルタ",
+      "score": 61.90447641530444,
+      "ev": 0.9885706898082126,
+      "odds": 48.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.7562246670527
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ナクソス",
+      "score": 59.05357422831944,
+      "ev": 1.0116692589940754,
+      "odds": 3.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 28.66242038216561
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エボニードール",
+      "score": 74.89999999999999,
+      "ev": 1.0269176737005616,
+      "odds": 13.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ワイドカクゲン",
+      "score": 50.8612591866732,
+      "ev": 0.9796244140173531,
+      "odds": 5.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 15.923566878980894
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ハナイロマヒナ",
+      "score": 52.29722439980401,
+      "ev": 0.9851638598081562,
+      "odds": 4.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.292993630573246
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ノブステップ",
+      "score": 66.3498505634493,
+      "ev": 0.9920585617899165,
+      "odds": 40.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.643312101910826
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ルビーエクリプス",
+      "score": 48.79379470847623,
+      "ev": 0.9731358250380154,
+      "odds": 8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.828025477707007
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "セイカユウヒ",
+      "score": 46.466193042626166,
+      "ev": 0.9791144258845712,
+      "odds": 105.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 1.2738853503184682
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ニシノセイエス",
+      "score": 43.80870718453521,
+      "ev": 0.9785931553369572,
+      "odds": 102,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.7562246670527
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ミヤフロント",
+      "score": 39.65038461538462,
+      "ev": 0.9711099720642181,
+      "odds": 34.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ジャスパーメルチェ",
+      "score": 38.704088682018615,
+      "ev": 0.9414700063415201,
+      "odds": 6.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 20.382165605095544
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "プグナファータ",
+      "score": 35.11868446839784,
+      "ev": 0.9768885920233926,
+      "odds": 361.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 19.7452229299363
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ベルグランボヌール",
+      "score": 31.389861030689058,
+      "ev": 0.9185148274587502,
+      "odds": 7.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 22.7562246670527
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050303",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ナクソス",
+        "time": "1:09.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 12,
+        "horseName": "ジャスパーメルチェ",
+        "time": "1:09.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "リネアベルタ",
+        "time": "1:09.3",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "ルビーエクリプス",
+        "time": "1:09.4",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ハナイロマヒナ",
+        "time": "1:09.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "セイカユウヒ",
+        "time": "1:09.6",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ワイドカクゲン",
+        "time": "1:09.7",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ノブステップ",
+        "time": "1:09.7",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "エボニードール",
+        "time": "1:10.0",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 10,
+        "horseId": 14,
+        "horseName": "ベルグランボヌール",
+        "time": "1:10.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ミヤフロント",
+        "time": "1:10.3",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 12,
+        "horseId": 13,
+        "horseName": "プグナファータ",
+        "time": "1:11.6",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 13,
+        "horseId": 10,
+        "horseName": "ニシノセイエス",
+        "time": "1:11.7",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 14,
+        "horseId": 1,
+        "horseName": "サウンドプリモ",
+        "time": "1:14.9",
+        "lastThreeF": 37.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 370
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 160
+        },
+        {
+          "horseId": 12,
+          "payout": 230
+        },
+        {
+          "horseId": 2,
+          "payout": 1040
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-7",
+          "payout": 830
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-12",
+          "payout": 1370
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-12",
+          "payout": 2690
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-12",
+          "payout": 620
+        },
+        {
+          "combination": "2-3",
+          "payout": 2820
+        },
+        {
+          "combination": "2-12",
+          "payout": 3530
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-12",
+          "payout": 17860
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-12-2",
+          "payout": 69580
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "10:45",
+    "raceDate": "20251213",
+    "headCount": 14
+  }
+}

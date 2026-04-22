@@ -1,0 +1,278 @@
+{
+  "raceId": "202508030608",
+  "raceName": "なでしこ賞",
+  "date": "2025-10-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "キンダープンシュ",
+      "score": 74.54499999999999,
+      "ev": 0.9983286059606813,
+      "odds": 23.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "イダテンシャチョウ",
+      "score": 63.470000000000006,
+      "ev": 1.0186513714038201,
+      "odds": 7.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.965517241379315
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ローズカリス",
+      "score": 55.934999999999995,
+      "ev": 0.9950679763584792,
+      "odds": 5.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 3.448275862068969
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "キーンセンス",
+      "score": 53.31999999999999,
+      "ev": 0.9886042839776998,
+      "odds": 3.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 82.75862068965517
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カラクニダケ",
+      "score": 39.53,
+      "ev": 0.9709307102237003,
+      "odds": 25.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ブロンテス",
+      "score": 37.324999999999996,
+      "ev": 0.9260269110927916,
+      "odds": 3.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0.6896551724137938
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テーオーグレーザー",
+      "score": 33.720000000000006,
+      "ev": 0.911923039304727,
+      "odds": 3.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.20689655172414
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030608",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ローズカリス",
+        "time": "1:24.7",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ブロンテス",
+        "time": "1:25.0",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "テーオーグレーザー",
+        "time": "1:25.4",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "キーンセンス",
+        "time": "1:25.9",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "キンダープンシュ",
+        "time": "1:26.2",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "カラクニダケ",
+        "time": "1:26.3",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "イダテンシャチョウ",
+        "time": "1:28.4",
+        "lastThreeF": 39.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 520
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 250
+        },
+        {
+          "horseId": 6,
+          "payout": 190
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-6",
+          "payout": 1000
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-6",
+          "payout": 2220
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-6",
+          "payout": 360
+        },
+        {
+          "combination": "3-7",
+          "payout": 250
+        },
+        {
+          "combination": "6-7",
+          "payout": 220
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-7",
+          "payout": 720
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-6-7",
+          "payout": 4880
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1400,
+    "surface": "dirt",
+    "startTime": "13:45",
+    "raceDate": "20251018",
+    "headCount": 7
+  }
+}

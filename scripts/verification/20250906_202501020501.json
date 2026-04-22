@@ -1,0 +1,360 @@
+{
+  "raceId": "202501020501",
+  "raceName": "2歳未勝利",
+  "date": "2025-09-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ウルヴァリン",
+      "score": 64.99999999999999,
+      "ev": 0.982598125131458,
+      "odds": 277.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ステイフリー",
+      "score": 65.47464788732394,
+      "ev": 1.0069012010804086,
+      "odds": 12.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 78.87323943661971
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ユニゾン",
+      "score": 61.50978873239436,
+      "ev": 1.0184332354646914,
+      "odds": 4.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 87.32394366197184
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ユウトザケンケン",
+      "score": 54.94999999999999,
+      "ev": 0.9904041787011975,
+      "odds": 7.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "リピース",
+      "score": 74.29992957746478,
+      "ev": 1.068012249253974,
+      "odds": 2.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 95.77464788732397
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジェネチェン",
+      "score": 46.40746478873239,
+      "ev": 0.9639131196165366,
+      "odds": 6.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 47.88732394366198
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ホーリーデイ",
+      "score": 40.346901408450705,
+      "ev": 0.9778199278863117,
+      "odds": 50.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 14.084507042253524
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "テンバコウクウ",
+      "score": 39.168591549295776,
+      "ev": 0.9703662041575997,
+      "odds": 45.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 15.492957746478869
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ティブロン",
+      "score": 36.37563380281691,
+      "ev": 0.9328036397252872,
+      "odds": 5.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.02816901408452
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "タイガーゲイト",
+      "score": 32.416830985915496,
+      "ev": 0.9651317718846699,
+      "odds": 40.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.859154929577475
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020501",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "リピース",
+        "time": "1:48.8",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ユニゾン",
+        "time": "1:48.8",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ジェネチェン",
+        "time": "1:49.1",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "タイガーゲイト",
+        "time": "1:50.0",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ユウトザケンケン",
+        "time": "1:50.2",
+        "lastThreeF": 40.3
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ティブロン",
+        "time": "1:50.5",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ウルヴァリン",
+        "time": "1:50.9",
+        "lastThreeF": 40.3
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "テンバコウクウ",
+        "time": "1:51.5",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "ステイフリー",
+        "time": "1:51.5",
+        "lastThreeF": 41.1
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "ホーリーデイ",
+        "time": "1:53.5",
+        "lastThreeF": 43.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 240
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 130
+        },
+        {
+          "horseId": 6,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-5",
+          "payout": 360
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-5",
+          "payout": 380
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-3",
+          "payout": 610
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-5",
+          "payout": 180
+        },
+        {
+          "combination": "5-6",
+          "payout": 320
+        },
+        {
+          "combination": "3-6",
+          "payout": 510
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 730
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-3-6",
+          "payout": 2490
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 240
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "09:50",
+    "raceDate": "20250906",
+    "headCount": 10
+  }
+}

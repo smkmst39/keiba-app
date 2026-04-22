@@ -1,0 +1,334 @@
+{
+  "raceId": "202508040509",
+  "raceName": "秋明菊賞",
+  "date": "2025-11-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タガノアラリア",
+      "score": 69.29224025974025,
+      "ev": 1.042941593085664,
+      "odds": 3.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 88.96103896103895
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アスミル",
+      "score": 69.83720779220778,
+      "ev": 1.0450095682388678,
+      "odds": 4.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.831168831168835
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ファニーバニー",
+      "score": 62.04875695732838,
+      "ev": 1.0154549216793682,
+      "odds": 2.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 43.59925788497218
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スターオブロンドン",
+      "score": 59.652954545454534,
+      "ev": 0.9931818140216911,
+      "odds": 17.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 81.81818181818183
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "トモジャプレジール",
+      "score": 50.55863636363636,
+      "ev": 0.9783707276308609,
+      "odds": 26.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.545454545454549
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "プレダトゥール",
+      "score": 44.9725,
+      "ev": 0.9565248489668543,
+      "odds": 5.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フレンドモナコ",
+      "score": 41.00025974025974,
+      "ev": 0.9777791348444059,
+      "odds": 154.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 11.03896103896104
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ドルチェミスト",
+      "score": 42.6125,
+      "ev": 0.9608503130607604,
+      "odds": 17.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エイシンディアマン",
+      "score": 34.37375695732838,
+      "ev": 0.9765218633290103,
+      "odds": 112.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 43.59925788497218
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040509",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "タガノアラリア",
+        "time": "1:20.6",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "アスミル",
+        "time": "1:21.1",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ファニーバニー",
+        "time": "1:21.2",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "スターオブロンドン",
+        "time": "1:21.4",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "トモジャプレジール",
+        "time": "1:21.6",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "プレダトゥール",
+        "time": "1:21.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ドルチェミスト",
+        "time": "1:21.7",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "フレンドモナコ",
+        "time": "1:21.9",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "エイシンディアマン",
+        "time": "1:22.6",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 390
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-2",
+          "payout": 760
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 690
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-2",
+          "payout": 1320
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 270
+        },
+        {
+          "combination": "1-3",
+          "payout": 160
+        },
+        {
+          "combination": "2-3",
+          "payout": 250
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-3",
+          "payout": 510
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-2-3",
+          "payout": 3950
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 3,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 690
+      },
+      {
+        "type": "三連複",
+        "hit": true,
+        "payout": 510
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20251122",
+    "headCount": 9
+  }
+}

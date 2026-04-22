@@ -1,0 +1,255 @@
+{
+  "raceId": "202508021107",
+  "raceName": "4歳以上2勝クラス",
+  "date": "2025-05-31",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ハニーコム",
+      "score": 70.74166666666666,
+      "ev": 1.0577950488407482,
+      "odds": 5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 46.666666666666664
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "タケトンボ",
+      "score": 63.531025641025636,
+      "ev": 1.0294796235719383,
+      "odds": 4.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 67.94871794871796
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ステラクラウン",
+      "score": 53.98499999999999,
+      "ev": 0.991993389727899,
+      "odds": 1.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ファミリーツリー",
+      "score": 47.790000000000006,
+      "ev": 0.9676662794312548,
+      "odds": 4.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エコテーラー",
+      "score": 41.266282051282055,
+      "ev": 0.961024164244872,
+      "odds": 13.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 47.43589743589744
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴーツウキリシマ",
+      "score": 28.27102564102564,
+      "ev": 0.9755508664969208,
+      "odds": 123.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 17.94871794871795
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508021107",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ハニーコム",
+        "time": "1:59.5",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "タケトンボ",
+        "time": "1:59.7",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "エコテーラー",
+        "time": "1:59.9",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ステラクラウン",
+        "time": "2:00.2",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ファミリーツリー",
+        "time": "2:00.2",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "ゴーツウキリシマ",
+        "time": "2:04.0",
+        "lastThreeF": 38.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 500
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 250
+        },
+        {
+          "horseId": 2,
+          "payout": 240
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 1090
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-2",
+          "payout": 2340
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 360
+        },
+        {
+          "combination": "1-5",
+          "payout": 700
+        },
+        {
+          "combination": "2-5",
+          "payout": 560
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 2660
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-2-5",
+          "payout": 12430
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 500
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 1090
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "4歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:15",
+    "raceDate": "20250531",
+    "headCount": 6
+  }
+}

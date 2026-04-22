@@ -1,0 +1,299 @@
+{
+  "raceId": "202501010405",
+  "raceName": "2歳新馬",
+  "date": "2025-08-03",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジェネチェン",
+      "score": 69.81834862385321,
+      "ev": 0.9831770939297788,
+      "odds": 61.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.385321100917428
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トゥレネヴェリテ",
+      "score": 67.23407601572738,
+      "ev": 0.9907574156309076,
+      "odds": 34,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.71559633027523
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "レッドファイブ",
+      "score": 58.55714285714285,
+      "ev": 0.9810517218882548,
+      "odds": 162.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クレパスキュラー",
+      "score": 57.915072083879416,
+      "ev": 0.9986108264779162,
+      "odds": 4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 79.8165137614679
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クロンヌジャン",
+      "score": 50.14272608125819,
+      "ev": 0.9692727125436973,
+      "odds": 3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 36.69724770642201
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "グロリアスマーチ",
+      "score": 43.27496723460027,
+      "ev": 0.9506793000517596,
+      "odds": 5.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.174311926605503
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "シャルムグリーン",
+      "score": 38.934731323722154,
+      "ev": 0.9375729009684675,
+      "odds": 6.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25.229357798165136
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ストロベリーツリー",
+      "score": 38,
+      "ev": 0.9234378151878899,
+      "odds": 1.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010405",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "クレパスキュラー",
+        "time": "1:47.2",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ストロベリーツリー",
+        "time": "1:48.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "グロリアスマーチ",
+        "time": "1:48.8",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "トゥレネヴェリテ",
+        "time": "1:49.4",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ジェネチェン",
+        "time": "1:49.4",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "シャルムグリーン",
+        "time": "1:50.6",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "レッドファイブ",
+        "time": "1:54.5",
+        "lastThreeF": 40.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 400
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-8",
+          "payout": 320
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-8",
+          "payout": 730
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-8",
+          "payout": 130
+        },
+        {
+          "combination": "4-6",
+          "payout": 230
+        },
+        {
+          "combination": "6-8",
+          "payout": 140
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-6-8",
+          "payout": 350
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-8-6",
+          "payout": 1830
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "12:20",
+    "raceDate": "20250803",
+    "headCount": 8
+  }
+}

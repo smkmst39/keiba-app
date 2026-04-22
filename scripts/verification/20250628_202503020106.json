@@ -1,0 +1,377 @@
+{
+  "raceId": "202503020106",
+  "raceName": "2歳新馬",
+  "date": "2025-06-28",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フクノエルデ",
+      "score": 65.41,
+      "ev": 0.9823978633583182,
+      "odds": 69.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "オテンバプリンセス",
+      "score": 65.54553191489362,
+      "ev": 1.0284710437025346,
+      "odds": 3.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 65.95744680851064
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ドナソール",
+      "score": 61.567588652482264,
+      "ev": 0.9866782786371883,
+      "odds": 44.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.99290780141844
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ニャンキニーズ",
+      "score": 55.16269503546099,
+      "ev": 0.9818223241416435,
+      "odds": 45.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.184397163120565
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ニシノグラシアス",
+      "score": 56.45,
+      "ev": 0.9911932454553287,
+      "odds": 7.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アシャカバッハ",
+      "score": 47.49475177304964,
+      "ev": 0.9760087719137449,
+      "odds": 36.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.219858156028371
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ドリームスマッシュ",
+      "score": 43.845886524822696,
+      "ev": 0.9783105841608176,
+      "odds": 93.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.929078014184398
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "セイカミナミホリエ",
+      "score": 42.41829787234043,
+      "ev": 0.9407999574724717,
+      "odds": 4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 48.936170212765965
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "グラティアム",
+      "score": 39.057375886524824,
+      "ev": 0.9280593210137927,
+      "odds": 2.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 54.609929078014176
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "チュラヴェール",
+      "score": 32.6113475177305,
+      "ev": 0.9418118071327708,
+      "odds": 16.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.092198581560282
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ヴィビーム",
+      "score": 70.78652482269503,
+      "ev": 1.014169341440449,
+      "odds": 12.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.078014184397166
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020106",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "セイカミナミホリエ",
+        "time": "1:10.4",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "グラティアム",
+        "time": "1:10.5",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "チュラヴェール",
+        "time": "1:10.9",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "ヴィビーム",
+        "time": "1:10.9",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "アシャカバッハ",
+        "time": "1:11.2",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ドナソール",
+        "time": "1:13.0",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "ニャンキニーズ",
+        "time": "1:13.3",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "ニシノグラシアス",
+        "time": "1:13.6",
+        "lastThreeF": 40.4
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "フクノエルデ",
+        "time": "1:13.7",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "ドリームスマッシュ",
+        "time": "1:13.9",
+        "lastThreeF": 40.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 400
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 150
+        },
+        {
+          "horseId": 9,
+          "payout": 130
+        },
+        {
+          "horseId": 10,
+          "payout": 290
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-7",
+          "payout": 600
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "8-9",
+          "payout": 580
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-9",
+          "payout": 1320
+        }
+      ],
+      "wide": [
+        {
+          "combination": "8-9",
+          "payout": 260
+        },
+        {
+          "combination": "8-10",
+          "payout": 860
+        },
+        {
+          "combination": "9-10",
+          "payout": 680
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "8-9-10",
+          "payout": 2550
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-9-10",
+          "payout": 8930
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1150,
+    "surface": "dirt",
+    "startTime": "13:05",
+    "raceDate": "20250628",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "raceId": "202508040808",
+  "raceName": "3歳以上2勝クラス",
+  "date": "2025-11-30",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パンデアスカル",
+      "score": 64.61059390048153,
+      "ev": 1.0058083436666483,
+      "odds": 17.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.483146067415735
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "デルアヴァー",
+      "score": 64.35714285714285,
+      "ev": 1.0306296586112844,
+      "odds": 2.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エルディアブロ",
+      "score": 51.95144462279293,
+      "ev": 0.9804634893723487,
+      "odds": 29.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 38.20224719101124
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "イーサンアイ",
+      "score": 43.044285714285714,
+      "ev": 0.9783814897265445,
+      "odds": 184.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クルミナーレ",
+      "score": 43.559149277688604,
+      "ev": 0.9496348568036749,
+      "odds": 3.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 75.2808988764045
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "プレイリードリーム",
+      "score": 39.864044943820225,
+      "ev": 0.9777622401582622,
+      "odds": 71.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 41.25200642054575
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マトラコーニッシュ",
+      "score": 70.76522471910111,
+      "ev": 1.0555850139629168,
+      "odds": 2.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 34.83146067415731
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サクソンジェンヌ",
+      "score": 32.699044943820226,
+      "ev": 0.943670869365475,
+      "odds": 18.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.96629213483147
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040808",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "サクソンジェンヌ",
+        "time": "2:12.3",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "クルミナーレ",
+        "time": "2:12.5",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "パンデアスカル",
+        "time": "2:12.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "デルアヴァー",
+        "time": "2:12.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "プレイリードリーム",
+        "time": "2:13.3",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "マトラコーニッシュ",
+        "time": "2:13.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "エルディアブロ",
+        "time": "2:13.5",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "イーサンアイ",
+        "time": "2:14.1",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 1890
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 310
+        },
+        {
+          "horseId": 5,
+          "payout": 160
+        },
+        {
+          "horseId": 1,
+          "payout": 280
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 2370
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-5",
+          "payout": 7650
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 530
+        },
+        {
+          "combination": "1-8",
+          "payout": 1320
+        },
+        {
+          "combination": "1-5",
+          "payout": 550
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-8",
+          "payout": 5410
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-5-1",
+          "payout": 50300
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "3歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "13:30",
+    "raceDate": "20251130",
+    "headCount": 8
+  }
+}

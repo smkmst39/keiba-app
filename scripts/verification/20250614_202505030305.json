@@ -1,0 +1,384 @@
+{
+  "raceId": "202505030305",
+  "raceName": "2歳新馬",
+  "date": "2025-06-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シックスリングス",
+      "score": 67.29939393939394,
+      "ev": 1.0087993478814201,
+      "odds": 11.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 32.57575757575757
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "セルリア",
+      "score": 61.93969696969697,
+      "ev": 0.9818541819037094,
+      "odds": 63.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.787878787878787
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ドリームコア",
+      "score": 63.83,
+      "ev": 1.0243190612585502,
+      "odds": 1.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "リオンアンサー",
+      "score": 55.941346801346796,
+      "ev": 0.9807062018925615,
+      "odds": 112.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.609427609427613
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レースクイーン",
+      "score": 51.92424242424242,
+      "ev": 0.9799373979051013,
+      "odds": 133.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.96969696969697
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ナタール",
+      "score": 48.5613468013468,
+      "ev": 0.9792937981074384,
+      "odds": 149.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.609427609427613
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "トラストレガート",
+      "score": 43.55560606060607,
+      "ev": 0.9783357862958441,
+      "odds": 198.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.924242424242425
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オラヴィンリンナ",
+      "score": 70.48409090909091,
+      "ev": 1.049788609189588,
+      "odds": 3.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.863636363636363
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "コスモエーヴィヒ",
+      "score": 41.095909090909096,
+      "ev": 0.9714601721154869,
+      "odds": 22,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.136363636363637
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "セニング",
+      "score": 35.89,
+      "ev": 0.9768687224726378,
+      "odds": 238.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ルージュカルデア",
+      "score": 34.243181818181824,
+      "ev": 0.9248568013325902,
+      "odds": 7.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.22727272727273
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505030305",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ドリームコア",
+        "time": "1:36.7",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "シックスリングス",
+        "time": "1:37.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "オラヴィンリンナ",
+        "time": "1:37.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "ルージュカルデア",
+        "time": "1:37.7",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "セルリア",
+        "time": "1:38.0",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "コスモエーヴィヒ",
+        "time": "1:38.3",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "レースクイーン",
+        "time": "1:38.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "リオンアンサー",
+        "time": "1:39.0",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ナタール",
+        "time": "1:39.1",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "トラストレガート",
+        "time": "1:39.1",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "セニング",
+        "time": "1:39.2",
+        "lastThreeF": 36.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 100
+        },
+        {
+          "horseId": 1,
+          "payout": 150
+        },
+        {
+          "horseId": 8,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-3",
+          "payout": 760
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-3",
+          "payout": 710
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-1",
+          "payout": 860
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-3",
+          "payout": 250
+        },
+        {
+          "combination": "3-8",
+          "payout": 140
+        },
+        {
+          "combination": "1-8",
+          "payout": 340
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-8",
+          "payout": 600
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-1-8",
+          "payout": 2200
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 3,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": true,
+        "payout": 600
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "12:35",
+    "raceDate": "20250614",
+    "headCount": 11
+  }
+}

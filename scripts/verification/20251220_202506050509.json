@@ -1,0 +1,406 @@
+{
+  "raceId": "202506050509",
+  "raceName": "ひいらぎ賞",
+  "date": "2025-12-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クレパスキュラー",
+      "score": 61.28636363636363,
+      "ev": 1.0192360714220967,
+      "odds": 1.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 72.72727272727273,
+        "training": 72.72727272727273,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ヒシアイラ",
+      "score": 62.79310276679841,
+      "ev": 1.0251177444213622,
+      "odds": 3.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 81.81818181818183,
+        "training": 81.81818181818183,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25.296442687747035
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ニシノエースサマ",
+      "score": 55.1794861660079,
+      "ev": 0.9807698700903287,
+      "odds": 65.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 63.63636363636363,
+        "training": 63.63636363636363,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 28.063241106719367
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "バースデイフライト",
+      "score": 69.92171936758893,
+      "ev": 0.994588970387713,
+      "odds": 23.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 32.5296442687747
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ピースサイン",
+      "score": 53.99033596837943,
+      "ev": 0.9853777309131324,
+      "odds": 11.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 54.54545454545454,
+        "training": 54.54545454545454,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 47.03557312252964
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "エレクトロン",
+      "score": 48.97272727272727,
+      "ev": 0.9795584418656889,
+      "odds": 507.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 45.45454545454545,
+        "training": 45.45454545454545,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フジガイフウ",
+      "score": 44.428102766798425,
+      "ev": 0.9667142716259931,
+      "odds": 13,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 36.36363636363637,
+        "training": 36.36363636363637,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 16.20553359683795
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "リゾートアイランド",
+      "score": 43.79535573122529,
+      "ev": 0.965479283073787,
+      "odds": 10.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 27.27272727272727,
+        "training": 27.27272727272727,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.5296442687747
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サンブライト",
+      "score": 68.81739130434782,
+      "ev": 0.9937268043470631,
+      "odds": 29.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 90.9090909090909,
+        "training": 90.9090909090909,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.96442687747036
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "グロリアスマーチ",
+      "score": 39.505138339920954,
+      "ev": 0.9571056849897801,
+      "odds": 13.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 18.181818181818183,
+        "training": 18.181818181818183,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.276679841897234
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "マイネルシンベリン",
+      "score": 34.82296442687747,
+      "ev": 0.9671868282288314,
+      "odds": 33.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 9.090909090909092,
+        "training": 9.090909090909092,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 24.110671936758894
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ゴールデンコマンチ",
+      "score": 31.30794466403162,
+      "ev": 0.9761106494506383,
+      "odds": 456.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 21.343873517786562
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506050509",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "クレパスキュラー",
+        "time": "1:32.9",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "リゾートアイランド",
+        "time": "1:33.3",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "フジガイフウ",
+        "time": "1:33.4",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ニシノエースサマ",
+        "time": "1:33.5",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ヒシアイラ",
+        "time": "1:33.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "バースデイフライト",
+        "time": "1:34.1",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "サンブライト",
+        "time": "1:34.2",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "マイネルシンベリン",
+        "time": "1:34.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "ピースサイン",
+        "time": "1:34.4",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "グロリアスマーチ",
+        "time": "1:34.5",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 11,
+        "horseId": 12,
+        "horseName": "ゴールデンコマンチ",
+        "time": "1:37.0",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 12,
+        "horseId": 6,
+        "horseName": "エレクトロン",
+        "time": "1:37.2",
+        "lastThreeF": 37.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 8,
+          "payout": 240
+        },
+        {
+          "horseId": 7,
+          "payout": 210
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 510
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 860
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-8",
+          "payout": 1100
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 350
+        },
+        {
+          "combination": "1-7",
+          "payout": 420
+        },
+        {
+          "combination": "7-8",
+          "payout": 910
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-7-8",
+          "payout": 1790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-8-7",
+          "payout": 5010
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "14:31",
+    "raceDate": "20251220",
+    "headCount": 12
+  }
+}

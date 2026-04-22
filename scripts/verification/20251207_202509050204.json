@@ -1,0 +1,306 @@
+{
+  "raceId": "202509050204",
+  "raceName": "2歳未勝利",
+  "date": "2025-12-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フクチャンブラック",
+      "score": 67.07657142857143,
+      "ev": 0.9913173377415135,
+      "odds": 29.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 56.000000000000014
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ダーリンダーリン",
+      "score": 70.13699999999999,
+      "ev": 1.0141468429483347,
+      "odds": 13.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.999999999999982
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "コスモギオン",
+      "score": 58.90514285714285,
+      "ev": 0.9812664341898091,
+      "odds": 136.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 5.999999999999992
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ウェルム",
+      "score": 56.95571428571428,
+      "ev": 0.9889357865220346,
+      "odds": 15.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エルナト",
+      "score": 47.07428571428571,
+      "ev": 0.9600723387832193,
+      "odds": 2.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 44.99999999999997
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジュンプリメーロ",
+      "score": 44.99785714285714,
+      "ev": 0.9521294174302997,
+      "odds": 4.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 44.99999999999997
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マテンロウゼロ",
+      "score": 41.98842857142857,
+      "ev": 0.9484940076300681,
+      "odds": 7.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 83.99999999999999
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ダンツウルス",
+      "score": 31.135,
+      "ev": 0.8991001028044087,
+      "odds": 2.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050204",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "マテンロウゼロ",
+        "time": "2:02.0",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ダーリンダーリン",
+        "time": "2:02.0",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ダンツウルス",
+        "time": "2:02.1",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "エルナト",
+        "time": "2:02.2",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ウェルム",
+        "time": "2:02.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "ジュンプリメーロ",
+        "time": "2:03.0",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "フクチャンブラック",
+        "time": "2:03.2",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "コスモギオン",
+        "time": "2:03.4",
+        "lastThreeF": 35.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 770
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 190
+        },
+        {
+          "horseId": 2,
+          "payout": 260
+        },
+        {
+          "horseId": 8,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 4030
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-2",
+          "payout": 6540
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 970
+        },
+        {
+          "combination": "7-8",
+          "payout": 400
+        },
+        {
+          "combination": "2-8",
+          "payout": 520
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-8",
+          "payout": 3260
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-2-8",
+          "payout": 22890
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "11:15",
+    "raceDate": "20251207",
+    "headCount": 8
+  }
+}

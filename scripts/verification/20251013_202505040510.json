@@ -1,0 +1,306 @@
+{
+  "raceId": "202505040510",
+  "raceName": "昇仙峡S",
+  "date": "2025-10-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "シャイニングソード",
+      "score": 73.59664383561643,
+      "ev": 1.0656093351698177,
+      "odds": 2.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 95.8904109589041
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ロードオールライト",
+      "score": 64.84827788649706,
+      "ev": 1.0058296069548949,
+      "odds": 10.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 54.30528375733854
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ウィープディライト",
+      "score": 56.56659491193737,
+      "ev": 0.9897600836371311,
+      "odds": 13.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 51.36986301369863
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "レッドヴェロシティ",
+      "score": 51.245303326810166,
+      "ev": 0.979943481285938,
+      "odds": 72.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 26.027397260273972
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エンドウノハナ",
+      "score": 50.95654598825831,
+      "ev": 0.9788745169872378,
+      "odds": 15.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 56.849315068493134
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スピードリッチ",
+      "score": 48.18785714285714,
+      "ev": 0.9696035810825291,
+      "odds": 7.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヴォランテ",
+      "score": 36.82142857142857,
+      "ev": 0.9685788676934185,
+      "odds": 24,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 49.999999999999986
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "デュアルウィルダー",
+      "score": 30.07,
+      "ev": 0.8966938091326414,
+      "odds": 2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505040510",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "シャイニングソード",
+        "time": "2:26.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "エンドウノハナ",
+        "time": "2:26.8",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "デュアルウィルダー",
+        "time": "2:26.9",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "スピードリッチ",
+        "time": "2:26.9",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ヴォランテ",
+        "time": "2:27.0",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ロードオールライト",
+        "time": "2:27.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "レッドヴェロシティ",
+        "time": "2:27.2",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ウィープディライト",
+        "time": "2:27.3",
+        "lastThreeF": 34.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 160
+        },
+        {
+          "horseId": 8,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 1430
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 2140
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 360
+        },
+        {
+          "combination": "1-8",
+          "payout": 140
+        },
+        {
+          "combination": "5-8",
+          "payout": 340
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-8",
+          "payout": 620
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-8",
+          "payout": 4430
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 280
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1840,
+    "ageLimit": "3歳以上",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "14:50",
+    "raceDate": "20251013",
+    "headCount": 8
+  }
+}

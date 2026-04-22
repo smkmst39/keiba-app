@@ -1,0 +1,376 @@
+{
+  "raceId": "202501020505",
+  "raceName": "2歳新馬",
+  "date": "2025-09-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エコロシード",
+      "score": 70.00557620817844,
+      "ev": 1.0332772203480356,
+      "odds": 5.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.613382899628256
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ニルマーネル",
+      "score": 67.19959107806692,
+      "ev": 1.0359107211516032,
+      "odds": 4.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.8550185873606
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "イノリ",
+      "score": 62.992118959107806,
+      "ev": 0.9819943874144752,
+      "odds": 62.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.93308550185874
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ノブピースオブラブ",
+      "score": 60.2292565055762,
+      "ev": 0.9858732329155425,
+      "odds": 30.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 37.918215613382905
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "リリージョワ",
+      "score": 55.11620817843866,
+      "ev": 0.9898945597109409,
+      "odds": 2.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.38289962825279
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "テーオーレックス",
+      "score": 51.70650557620818,
+      "ev": 0.976909667424385,
+      "odds": 3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 18.215613382899633
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ファインコンダクト",
+      "score": 50.19420074349443,
+      "ev": 0.9729203842323798,
+      "odds": 7.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 55.76208178438663
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サンダーヴィント",
+      "score": 49.07000000000001,
+      "ev": 0.9668692783014239,
+      "odds": 3.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "クイーンズステート",
+      "score": 39.580000000000005,
+      "ev": 0.9775364642706036,
+      "odds": 223.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ゴバド",
+      "score": 37.7442750929368,
+      "ev": 0.977186922199539,
+      "odds": 73.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.97026022304833
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ダノンドナウ",
+      "score": 33.86022304832714,
+      "ev": 0.9657894250832123,
+      "odds": 26.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.624535315985135
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020505",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "リリージョワ",
+        "time": "1:29.4",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "ゴバド",
+        "time": "1:29.9",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ニルマーネル",
+        "time": "1:30.0",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "ダノンドナウ",
+        "time": "1:30.4",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ファインコンダクト",
+        "time": "1:30.8",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "イノリ",
+        "time": "1:31.2",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "サンダーヴィント",
+        "time": "1:31.2",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "エコロシード",
+        "time": "1:31.7",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "ノブピースオブラブ",
+        "time": "1:32.4",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "クイーンズステート",
+        "time": "1:39.0",
+        "lastThreeF": 41.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 10,
+          "payout": 1060
+        },
+        {
+          "horseId": 2,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-8",
+          "payout": 2860
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-10",
+          "payout": 10820
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-10",
+          "payout": 10540
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-10",
+          "payout": 2390
+        },
+        {
+          "combination": "2-5",
+          "payout": 300
+        },
+        {
+          "combination": "2-10",
+          "payout": 3170
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-10",
+          "payout": 7810
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-10-2",
+          "payout": 53030
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1500,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20250906",
+    "headCount": 11
+  }
+}

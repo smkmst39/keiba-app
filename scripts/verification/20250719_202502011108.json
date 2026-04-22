@@ -1,0 +1,360 @@
+{
+  "raceId": "202502011108",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-19",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ハミルトン",
+      "score": 71.47441176470588,
+      "ev": 1.0161663000272319,
+      "odds": 10.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.05882352941178
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メイショウソムリエ",
+      "score": 70.79999999999998,
+      "ev": 1.0148814744172339,
+      "odds": 10.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スノーホルンロード",
+      "score": 64.58470588235294,
+      "ev": 0.9823040682969141,
+      "odds": 110.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 63.52941176470588
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メイショウタイピン",
+      "score": 59.44735294117646,
+      "ev": 1.00120557321825,
+      "odds": 5.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 51.76470588235295
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "タイムレス",
+      "score": 52.999705882352934,
+      "ev": 0.980097003493067,
+      "odds": 219.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.52941176470589
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アスゴッド",
+      "score": 48.24499999999999,
+      "ev": 0.9767647273065505,
+      "odds": 24,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ランスノーブル",
+      "score": 42.915882352941175,
+      "ev": 0.9617592865491702,
+      "odds": 19.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 9.411764705882355
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ライフゲート",
+      "score": 44.49411764705883,
+      "ev": 0.9495319828002586,
+      "odds": 1.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 70.58823529411765
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "カペルブリュッケ",
+      "score": 41.008235294117654,
+      "ev": 0.9450000280162584,
+      "odds": 5.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 81.17647058823529
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ルルシュシュ",
+      "score": 28.935882352941178,
+      "ev": 0.9351259106684792,
+      "odds": 12.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 29.41176470588236
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502011108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ライフゲート",
+        "time": "1:45.7",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "カペルブリュッケ",
+        "time": "1:45.8",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "スノーホルンロード",
+        "time": "1:46.3",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ハミルトン",
+        "time": "1:46.3",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "メイショウソムリエ",
+        "time": "1:46.4",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "メイショウタイピン",
+        "time": "1:46.4",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ランスノーブル",
+        "time": "1:46.6",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "アスゴッド",
+        "time": "1:46.6",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "ルルシュシュ",
+        "time": "1:46.7",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "タイムレス",
+        "time": "1:50.4",
+        "lastThreeF": 40.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 180
+        },
+        {
+          "horseId": 3,
+          "payout": 1350
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 350
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "8-9",
+          "payout": 650
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-9",
+          "payout": 1380
+        }
+      ],
+      "wide": [
+        {
+          "combination": "8-9",
+          "payout": 320
+        },
+        {
+          "combination": "3-8",
+          "payout": 3480
+        },
+        {
+          "combination": "3-9",
+          "payout": 7490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-8-9",
+          "payout": 15310
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-9-3",
+          "payout": 36460
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "13:45",
+    "raceDate": "20250719",
+    "headCount": 10
+  }
+}

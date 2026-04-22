@@ -1,0 +1,375 @@
+{
+  "raceId": "202507040201",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-08-24",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アメリカンピース",
+      "score": 71.9650668896321,
+      "ev": 1.0457369413869464,
+      "odds": 5.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 55.51839464882945
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ドライグ",
+      "score": 61.778461538461535,
+      "ev": 0.9821115021096546,
+      "odds": 81.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 23.076923076923084
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アメリカンエール",
+      "score": 59.155351170568565,
+      "ev": 0.9815972483395957,
+      "odds": 66.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 41.47157190635453
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アルカンサス",
+      "score": 63.83,
+      "ev": 1.0051370073659016,
+      "odds": 14.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サラフィエル",
+      "score": 54.339999999999996,
+      "ev": 0.9904513860006414,
+      "odds": 5.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "テトラード",
+      "score": 50.83814381270903,
+      "ev": 0.9794669134077326,
+      "odds": 9.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.364548494983278
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ロードプレジール",
+      "score": 46.32364548494983,
+      "ev": 0.9616325353678702,
+      "odds": 1.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 25.75250836120402
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ミラクルジニア",
+      "score": 43.21369565217391,
+      "ev": 0.9555508707788541,
+      "odds": 8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.391304347826086
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "スペクトログラム",
+      "score": 38.8835618729097,
+      "ev": 0.9704920731223737,
+      "odds": 49.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 6.354515050167224
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "スズノイナズマ",
+      "score": 38.34770903010033,
+      "ev": 0.9700718630572779,
+      "odds": 35.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 48.49498327759198
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モズクルードラゴン",
+      "score": 32.413377926421404,
+      "ev": 0.9763545560274672,
+      "odds": 174.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.6789297658862874
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040201",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "アメリカンピース",
+        "time": "3:18.7",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "テトラード",
+        "time": "3:19.2",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "サラフィエル",
+        "time": "3:19.7",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "スズノイナズマ",
+        "time": "3:19.9",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ミラクルジニア",
+        "time": "3:21.1",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ロードプレジール",
+        "time": "3:21.3",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "スペクトログラム",
+        "time": "3:22.1",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "ドライグ",
+        "time": "3:23.4",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "アメリカンエール",
+        "time": "3:25.5",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "モズクルードラゴン",
+        "time": "3:27.0",
+        "lastThreeF": 13.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 530
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 170
+        },
+        {
+          "horseId": 6,
+          "payout": 260
+        },
+        {
+          "horseId": 5,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 400
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 2080
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-6",
+          "payout": 3880
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 740
+        },
+        {
+          "combination": "1-5",
+          "payout": 400
+        },
+        {
+          "combination": "5-6",
+          "payout": 860
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-6",
+          "payout": 3410
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-6-5",
+          "payout": 20390
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 530
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 3000,
+    "surface": "turf",
+    "startTime": "09:50",
+    "raceDate": "20250824",
+    "headCount": 11
+  }
+}

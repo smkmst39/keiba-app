@@ -1,0 +1,307 @@
+{
+  "raceId": "202608010608",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2026-01-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "テンクウハット",
+      "score": 66.97,
+      "ev": 0.9827872791257051,
+      "odds": 119.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ドラゴン",
+      "score": 66.16480599647265,
+      "ev": 1.0326707010825806,
+      "odds": 2.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 58.64197530864197
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "リアルスター",
+      "score": 59.344797178130506,
+      "ev": 0.9853252791503724,
+      "odds": 26,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.580246913580249
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "レーヌマロン",
+      "score": 58.19065255731922,
+      "ev": 0.9911094694277087,
+      "odds": 19.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 84.56790123456791
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ハギノコラソン",
+      "score": 53.81428571428572,
+      "ev": 0.9844051467532364,
+      "odds": 5.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジョードリウム",
+      "score": 43.46193121693122,
+      "ev": 0.9731945555211644,
+      "odds": 21.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.51851851851852
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ニシノミチアキ",
+      "score": 37.2747619047619,
+      "ev": 0.9338761319564913,
+      "odds": 8.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 33.33333333333333
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ロカヒ",
+      "score": 33.757654320987655,
+      "ev": 0.9089140058030561,
+      "odds": 2.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 63.58024691358024
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010608",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ロカヒ",
+        "time": "1:52.8",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ドラゴン",
+        "time": "1:53.0",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ハギノコラソン",
+        "time": "1:54.0",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "ニシノミチアキ",
+        "time": "1:54.2",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "レーヌマロン",
+        "time": "1:54.7",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "テンクウハット",
+        "time": "1:55.2",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "ジョードリウム",
+        "time": "1:55.8",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "リアルスター",
+        "time": "1:57.4",
+        "lastThreeF": 41.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 260
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 280
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-2",
+          "payout": 580
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 140
+        },
+        {
+          "combination": "5-8",
+          "payout": 200
+        },
+        {
+          "combination": "2-5",
+          "payout": 180
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-8",
+          "payout": 360
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-2-5",
+          "payout": 1540
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 820,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "13:40",
+    "raceDate": "20260117",
+    "headCount": 8
+  }
+}

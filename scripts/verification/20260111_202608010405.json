@@ -1,0 +1,360 @@
+{
+  "raceId": "202608010405",
+  "raceName": "3歳1勝クラス",
+  "date": "2026-01-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "スターオブロンドン",
+      "score": 66.97,
+      "ev": 1.0338558032586442,
+      "odds": 5.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メイショウリュウシ",
+      "score": 61.71710526315788,
+      "ev": 1.0031760594375367,
+      "odds": 15.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 4.605263157894736
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "パータリプトラ",
+      "score": 62.08157894736841,
+      "ev": 0.9895613929123279,
+      "odds": 28.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 81.57894736842105
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カナタコナタ",
+      "score": 61.59631578947368,
+      "ev": 1.0166959771678514,
+      "odds": 6.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 88.8157894736842
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スマートジュリアス",
+      "score": 53.813421052631575,
+      "ev": 0.9948035012936046,
+      "odds": 4.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 55.92105263157895
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "サヨノパララックス",
+      "score": 46.9278947368421,
+      "ev": 0.9774637995527269,
+      "odds": 33.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 7.8947368421052655
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ライトオブヌカタ",
+      "score": 49.94499999999999,
+      "ev": 0.9793621788441277,
+      "odds": 2.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "エブリデイ",
+      "score": 37.147105263157904,
+      "ev": 0.9541388311444121,
+      "odds": 18.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 29.605263157894733
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シュテフィ",
+      "score": 32.09315789473684,
+      "ev": 0.9440520761225684,
+      "odds": 18.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 13.157894736842108
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ラッキーバック",
+      "score": 28.756315789473685,
+      "ev": 0.9118277588758718,
+      "odds": 9.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 26.315789473684216
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010405",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ライトオブヌカタ",
+        "time": "1:27.0",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "スマートジュリアス",
+        "time": "1:27.1",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "パータリプトラ",
+        "time": "1:27.3",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "ラッキーバック",
+        "time": "1:27.6",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "スターオブロンドン",
+        "time": "1:27.6",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "エブリデイ",
+        "time": "1:27.6",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "カナタコナタ",
+        "time": "1:28.8",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "シュテフィ",
+        "time": "1:28.8",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "メイショウリュウシ",
+        "time": "1:29.1",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "サヨノパララックス",
+        "time": "1:29.5",
+        "lastThreeF": 40.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 290
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 150
+        },
+        {
+          "horseId": 5,
+          "payout": 150
+        },
+        {
+          "horseId": 3,
+          "payout": 480
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 850
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 930
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-5",
+          "payout": 1650
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 370
+        },
+        {
+          "combination": "3-7",
+          "payout": 1060
+        },
+        {
+          "combination": "3-5",
+          "payout": 1380
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-7",
+          "payout": 5740
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-5-3",
+          "payout": 16730
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 820,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1400,
+    "surface": "dirt",
+    "startTime": "12:10",
+    "raceDate": "20260111",
+    "headCount": 10
+  }
+}

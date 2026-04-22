@@ -1,0 +1,383 @@
+{
+  "raceId": "202504020806",
+  "raceName": "稲妻S",
+  "date": "2025-08-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ニシノコニャック",
+      "score": 72.48693548387097,
+      "ev": 1.0225430132957118,
+      "odds": 18,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 64.51612903225808
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "テイエムタリスマ",
+      "score": 66.27354838709677,
+      "ev": 1.0103246057491,
+      "odds": 13.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 51.61290322580645
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メイショウカゼマチ",
+      "score": 58.95358422939068,
+      "ev": 0.9863720613075704,
+      "odds": 29.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 37.99283154121863
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カフジテトラゴン",
+      "score": 57.21446236559139,
+      "ev": 1.0050204623838783,
+      "odds": 3.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 4.301075268817205
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ハンベルジャイト",
+      "score": 52.11408602150537,
+      "ev": 0.9809922080831254,
+      "odds": 33.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 47.31182795698924
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スコーピオン",
+      "score": 51.41758064516129,
+      "ev": 0.9817773869481323,
+      "odds": 7.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.35483870967742
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "カンパニョーラ",
+      "score": 44.03365591397849,
+      "ev": 0.9746362552562409,
+      "odds": 20.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 10.75268817204301
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アシャカタカ",
+      "score": 48.715,
+      "ev": 0.975796336903299,
+      "odds": 11.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エコロレジーナ",
+      "score": 42.13698924731183,
+      "ev": 0.9457218194817273,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.086021505376344
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "タツダイヤモンド",
+      "score": 33.76,
+      "ev": 0.9665551418155014,
+      "odds": 47.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "コナブラック",
+      "score": 32.27358422939068,
+      "ev": 0.9434648701204087,
+      "odds": 12.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 37.99283154121863
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020806",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "エコロレジーナ",
+        "time": "0:55.3",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "スコーピオン",
+        "time": "0:55.6",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "コナブラック",
+        "time": "0:55.8",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "タツダイヤモンド",
+        "time": "0:55.8",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ニシノコニャック",
+        "time": "0:56.0",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "カンパニョーラ",
+        "time": "0:56.2",
+        "lastThreeF": 32.4
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ハンベルジャイト",
+        "time": "0:56.2",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "テイエムタリスマ",
+        "time": "0:56.3",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "アシャカタカ",
+        "time": "0:56.3",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "カフジテトラゴン",
+        "time": "0:56.3",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 11,
+        "horseId": 3,
+        "horseName": "メイショウカゼマチ",
+        "time": "0:58.1",
+        "lastThreeF": 35.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 220
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 120
+        },
+        {
+          "horseId": 6,
+          "payout": 210
+        },
+        {
+          "horseId": 11,
+          "payout": 280
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 560
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-9",
+          "payout": 910
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-6",
+          "payout": 1420
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-9",
+          "payout": 380
+        },
+        {
+          "combination": "9-11",
+          "payout": 430
+        },
+        {
+          "combination": "6-11",
+          "payout": 1460
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-9-11",
+          "payout": 2790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-6-11",
+          "payout": 8390
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1840,
+    "ageLimit": "3歳以上",
+    "distance": 1000,
+    "surface": "turf",
+    "startTime": "15:01",
+    "raceDate": "20250817",
+    "headCount": 11
+  }
+}

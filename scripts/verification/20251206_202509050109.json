@@ -1,0 +1,305 @@
+{
+  "raceId": "202509050109",
+  "raceName": "さざんか賞",
+  "date": "2025-12-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ルージュサウダージ",
+      "score": 64.09422360248446,
+      "ev": 1.024759174509554,
+      "odds": 7.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 41.30434782608695
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マクローリン",
+      "score": 57.18366459627328,
+      "ev": 0.9814176435293755,
+      "odds": 154.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 13.043478260869568
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "フォーゲル",
+      "score": 69.59376811594203,
+      "ev": 1.0579104283797975,
+      "odds": 2.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 94.20289855072465
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トップアタック",
+      "score": 58.02071428571428,
+      "ev": 1.0116954807674943,
+      "odds": 3.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ジャスパールビー",
+      "score": 47.27124223602484,
+      "ev": 0.9743846808091534,
+      "odds": 12.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 23.913043478260875
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "エンチャンテッド",
+      "score": 37.77285714285715,
+      "ev": 0.9775419618694965,
+      "odds": 182.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "カイショー",
+      "score": 37.619979296066255,
+      "ev": 0.9302287466945469,
+      "odds": 3.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 63.76811594202899
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "クククトルンナ",
+      "score": 29.11231884057971,
+      "ev": 0.9758127453212735,
+      "odds": 147.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 7.971014492753627
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "フォーゲル",
+        "time": "1:09.1",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "トップアタック",
+        "time": "1:09.1",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "カイショー",
+        "time": "1:09.5",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ルージュサウダージ",
+        "time": "1:09.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "マクローリン",
+        "time": "1:10.1",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "エンチャンテッド",
+        "time": "1:10.8",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ジャスパールビー",
+        "time": "1:11.0",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "クククトルンナ",
+        "time": "1:11.4",
+        "lastThreeF": 35.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-4",
+          "payout": 570
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 130
+        },
+        {
+          "combination": "3-7",
+          "payout": 170
+        },
+        {
+          "combination": "4-7",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-7",
+          "payout": 330
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-4-7",
+          "payout": 1240
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 210
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20251206",
+    "headCount": 8
+  }
+}

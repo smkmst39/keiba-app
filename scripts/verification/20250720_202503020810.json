@@ -1,0 +1,358 @@
+{
+  "raceId": "202503020810",
+  "raceName": "猪苗代特別",
+  "date": "2025-07-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マーシャルポイント",
+      "score": 66.61571428571428,
+      "ev": 0.9931752136382883,
+      "odds": 37.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 42.857142857142854
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "イサチルカゼニタツ",
+      "score": 65.48985008818342,
+      "ev": 0.9922765057302018,
+      "odds": 35.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.807760141093485
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴァイルマティ",
+      "score": 62.234920634920634,
+      "ev": 1.004195741050303,
+      "odds": 19.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.015873015873016
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フィデリオグリーン",
+      "score": 51.83,
+      "ev": 0.9803431725998303,
+      "odds": 122.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フロムナウオン",
+      "score": 51.320476190476185,
+      "ev": 0.9809659689865772,
+      "odds": 21.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 61.9047619047619
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "デルバイス",
+      "score": 48.56722222222221,
+      "ev": 0.9796920540640316,
+      "odds": 204.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.555555555555555
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ユキワリザクラ",
+      "score": 50.3,
+      "ev": 0.9807569291034001,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マイネルトルファン",
+      "score": 40.4920634920635,
+      "ev": 0.9492892615463471,
+      "odds": 5.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 1.5873015873015885
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "プリズマジコ",
+      "score": 35.46515873015873,
+      "ev": 0.921548237710364,
+      "odds": 3.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 3.968253968253966
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ミスティア",
+      "score": 28.78809523809524,
+      "ev": 0.9119190392800989,
+      "odds": 6.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 2.3809523809523827
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020810",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ユキワリザクラ",
+        "time": "2:03.7",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "ミスティア",
+        "time": "2:03.8",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "プリズマジコ",
+        "time": "2:04.1",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ヴァイルマティ",
+        "time": "2:04.2",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "マイネルトルファン",
+        "time": "2:04.5",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "フロムナウオン",
+        "time": "2:04.6",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "フィデリオグリーン",
+        "time": "2:05.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "マーシャルポイント",
+        "time": "2:06.7",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "デルバイス",
+        "time": "2:07.4",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "イサチルカゼニタツ",
+        "time": "2:10.9",
+        "lastThreeF": 42.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 220
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 10,
+          "payout": 120
+        },
+        {
+          "horseId": 9,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 200
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-10",
+          "payout": 600
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-10",
+          "payout": 860
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-10",
+          "payout": 190
+        },
+        {
+          "combination": "7-9",
+          "payout": 180
+        },
+        {
+          "combination": "9-10",
+          "payout": 290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "7-9-10",
+          "payout": 430
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-10-9",
+          "payout": 2280
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "15:10",
+    "raceDate": "20250720",
+    "headCount": 10
+  }
+}

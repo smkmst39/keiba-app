@@ -1,0 +1,279 @@
+{
+  "raceId": "202507030302",
+  "raceName": "2歳新馬",
+  "date": "2025-08-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エンヴェロップ",
+      "score": 69.88978723404254,
+      "ev": 1.0328501861499788,
+      "odds": 5.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.617021276595745
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フェスティヴドレス",
+      "score": 64.03595744680851,
+      "ev": 0.9887555693123009,
+      "odds": 35.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 18.723404255319146
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ダンシングドール",
+      "score": 57.293617021276596,
+      "ev": 0.9809055249082268,
+      "odds": 98,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.51063829787234
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ルビーエクリプス",
+      "score": 52.0568085106383,
+      "ev": 0.979087272085603,
+      "odds": 10.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.255319148936167
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コニーアイランド",
+      "score": 50.3,
+      "ev": 0.9714865674059632,
+      "odds": 1.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マユナイト",
+      "score": 38.35,
+      "ev": 0.9772997115904758,
+      "odds": 68.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ウィズクィーン",
+      "score": 35.82808510638298,
+      "ev": 0.916393579199801,
+      "odds": 2.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 62.553191489361694
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030302",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "コニーアイランド",
+        "time": "1:35.4",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ウィズクィーン",
+        "time": "1:35.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ダンシングドール",
+        "time": "1:35.7",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "エンヴェロップ",
+        "time": "1:36.0",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "フェスティヴドレス",
+        "time": "1:36.1",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "マユナイト",
+        "time": "1:36.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "ルビーエクリプス",
+        "time": "1:36.4",
+        "lastThreeF": 34.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-7",
+          "payout": 350
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 140
+        },
+        {
+          "combination": "3-5",
+          "payout": 1450
+        },
+        {
+          "combination": "3-7",
+          "payout": 1860
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-7",
+          "payout": 3760
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-7-3",
+          "payout": 8700
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "10:10",
+    "raceDate": "20250802",
+    "headCount": 7
+  }
+}

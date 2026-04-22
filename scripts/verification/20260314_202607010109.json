@@ -1,0 +1,358 @@
+{
+  "raceId": "202607010109",
+  "raceName": "鶴舞特別",
+  "date": "2026-03-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイネルアズーロ",
+      "score": 64.46499999999999,
+      "ev": 1.00347665359402,
+      "odds": 11,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 27.499999999999996
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ディーンズリスター",
+      "score": 59.90749999999999,
+      "ev": 0.9858988761354767,
+      "odds": 24.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 1.250000000000001
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "フォートポータル",
+      "score": 68.74499999999999,
+      "ev": 0.9831674591659364,
+      "odds": 229.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スイートオレンジ",
+      "score": 60.47,
+      "ev": 1.005319370022937,
+      "odds": 7.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ダノンジャガー",
+      "score": 56.18749999999999,
+      "ev": 0.9921950074940263,
+      "odds": 8.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 66.24999999999999
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コスモアチーブ",
+      "score": 49.58749999999999,
+      "ev": 0.9779920797958177,
+      "odds": 28.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 53.75000000000001
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サンライズバブル",
+      "score": 50.3,
+      "ev": 0.9741518821259092,
+      "odds": 7.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ニュークレド",
+      "score": 45.265,
+      "ev": 0.9534017133307475,
+      "odds": 4.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 89.99999999999999
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ロードガレリア",
+      "score": 39.78,
+      "ev": 0.9323897085230783,
+      "odds": 2.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "マーゴットソラーレ",
+      "score": 27.375,
+      "ev": 0.9324342417146716,
+      "odds": 15.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 2.500000000000002
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202607010109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ニュークレド",
+        "time": "2:11.4",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "マイネルアズーロ",
+        "time": "2:11.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ディーンズリスター",
+        "time": "2:11.9",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "サンライズバブル",
+        "time": "2:11.9",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ロードガレリア",
+        "time": "2:12.3",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "スイートオレンジ",
+        "time": "2:12.4",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ダノンジャガー",
+        "time": "2:12.5",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "コスモアチーブ",
+        "time": "2:13.2",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "マーゴットソラーレ",
+        "time": "2:13.7",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "フォートポータル",
+        "time": "2:15.3",
+        "lastThreeF": 39
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 440
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 200
+        },
+        {
+          "horseId": 1,
+          "payout": 380
+        },
+        {
+          "horseId": 2,
+          "payout": 540
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 1610
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 2430
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-1",
+          "payout": 5080
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 1040
+        },
+        {
+          "combination": "2-8",
+          "payout": 2090
+        },
+        {
+          "combination": "1-2",
+          "payout": 3070
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-8",
+          "payout": 13730
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-1-2",
+          "payout": 51580
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "4歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "14:10",
+    "raceDate": "20260314",
+    "headCount": 10
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "raceId": "202508031004",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サンライズウェーヴ",
+      "score": 71.14719512195121,
+      "ev": 0.9948721209935673,
+      "odds": 39.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.658536585365866
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アナザーエース",
+      "score": 62.92097560975609,
+      "ev": 0.988527666913275,
+      "odds": 37.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 18.292682926829272
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ナムラドーギー",
+      "score": 61.64524390243902,
+      "ev": 0.9818859403954526,
+      "odds": 88.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.073170731707318
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "バラジ",
+      "score": 57.67499999999999,
+      "ev": 1.0024085976178958,
+      "odds": 2.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ビーアイオラクル",
+      "score": 55.683902439024386,
+      "ev": 0.9807365224545775,
+      "odds": 52.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.170731707317074
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウウネビ",
+      "score": 48.33780487804877,
+      "ev": 0.9732010697429936,
+      "odds": 15.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 21.341463414634152
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ハイウェイスター",
+      "score": 50.20560975609756,
+      "ev": 0.97872096838632,
+      "odds": 23.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 92.68292682926828
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ブルーセルリアン",
+      "score": 46.66512195121952,
+      "ev": 0.9789975936981697,
+      "odds": 118.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.53658536585367
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ネイチャーシップ",
+      "score": 44.315,
+      "ev": 0.9508892414986919,
+      "odds": 4.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "テーオーサンドニ",
+      "score": 37.19719512195122,
+      "ev": 0.9347530264744504,
+      "odds": 7.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 28.65853658536586
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ヘヴンリーハンド",
+      "score": 34.7109756097561,
+      "ev": 0.9138538258745529,
+      "odds": 3.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 43.292682926829265
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508031004",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "メイショウウネビ",
+        "time": "3:18.8",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "ネイチャーシップ",
+        "time": "3:19.0",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "アナザーエース",
+        "time": "3:19.6",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ナムラドーギー",
+        "time": "3:19.7",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ビーアイオラクル",
+        "time": "3:21.7",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ハイウェイスター",
+        "time": "3:22.1",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "テーオーサンドニ",
+        "time": "3:24.9",
+        "lastThreeF": 14.1
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "サンライズウェーヴ",
+        "time": "3:25.2",
+        "lastThreeF": 14.1
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "ブルーセルリアン",
+        "time": "3:29.9",
+        "lastThreeF": 14.4
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "ヘヴンリーハンド",
+        "time": "3:30.6",
+        "lastThreeF": 14.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 1580
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 370
+        },
+        {
+          "horseId": 9,
+          "payout": 180
+        },
+        {
+          "horseId": 2,
+          "payout": 560
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 1590
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-9",
+          "payout": 3240
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-9",
+          "payout": 6900
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-9",
+          "payout": 930
+        },
+        {
+          "combination": "2-6",
+          "payout": 3580
+        },
+        {
+          "combination": "2-9",
+          "payout": 1190
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-9",
+          "payout": 15330
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-9-2",
+          "payout": 92910
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2910,
+    "surface": "turf",
+    "startTime": "11:35",
+    "raceDate": "20251101",
+    "headCount": 11
+  }
+}

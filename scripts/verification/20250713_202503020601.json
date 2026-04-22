@@ -1,0 +1,328 @@
+{
+  "raceId": "202503020601",
+  "raceName": "2歳未勝利",
+  "date": "2025-07-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "リアアーテシアン",
+      "score": 65.60253886010362,
+      "ev": 0.9921820608440186,
+      "odds": 33.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.388601036269424
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エレクトロン",
+      "score": 66.73749999999998,
+      "ev": 0.9832712100251336,
+      "odds": 263.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "コパノセビリア",
+      "score": 60.58305699481865,
+      "ev": 0.9820473567835606,
+      "odds": 202.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 30.5699481865285
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "リュウノエッセンス",
+      "score": 54.19749999999999,
+      "ev": 0.9877754493856045,
+      "odds": 14.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ナンヨーラーク",
+      "score": 51.13082901554404,
+      "ev": 0.9801677163607339,
+      "odds": 217.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.290155440414509
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "リオンアンサー",
+      "score": 46.475090673575124,
+      "ev": 0.9769675633199412,
+      "odds": 39.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25.90673575129534
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フォトンゲイザー",
+      "score": 41.23150259067357,
+      "ev": 0.9511866774830148,
+      "odds": 9.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.025906735751299
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "イイクニパッション",
+      "score": 38.1065932642487,
+      "ev": 0.931555153415152,
+      "odds": 1.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 28.432642487046632
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ビップレオン",
+      "score": 28.52222797927461,
+      "ev": 0.9756718408375755,
+      "odds": 74.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 22.27979274611399
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020601",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "フォトンゲイザー",
+        "time": "1:11.7",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "イイクニパッション",
+        "time": "1:12.9",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "エレクトロン",
+        "time": "1:13.1",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "コパノセビリア",
+        "time": "1:13.4",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "リュウノエッセンス",
+        "time": "1:13.8",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "リオンアンサー",
+        "time": "1:14.9",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ナンヨーラーク",
+        "time": "1:15.2",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "ビップレオン",
+        "time": "1:15.8",
+        "lastThreeF": 40.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 920
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 130
+        },
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 1370
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 250
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-8",
+          "payout": 250
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-8",
+          "payout": 1000
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-8",
+          "payout": 160
+        },
+        {
+          "combination": "2-7",
+          "payout": 6210
+        },
+        {
+          "combination": "2-8",
+          "payout": 2430
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-8",
+          "payout": 10280
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-8-2",
+          "payout": 68520
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "10:10",
+    "raceDate": "20250713",
+    "headCount": 9
+  }
+}

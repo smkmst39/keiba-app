@@ -1,0 +1,306 @@
+{
+  "raceId": "202606020807",
+  "raceName": "3歳1勝クラス",
+  "date": "2026-03-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヘルメスギャング",
+      "score": 61.69857142857142,
+      "ev": 0.9821875464806766,
+      "odds": 69.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラディアントスター",
+      "score": 59.24936507936507,
+      "ev": 1.0140749142599923,
+      "odds": 2.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 48.659003831417635
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "グランアルト",
+      "score": 52.3779365079365,
+      "ev": 0.9834640707186287,
+      "odds": 17.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 21.072796934865902
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "プラウディッツ",
+      "score": 74.54499999999999,
+      "ev": 1.0745029783886777,
+      "odds": 1.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フクスケ",
+      "score": 47.6779365079365,
+      "ev": 0.9794179987289647,
+      "odds": 246,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 30.92501368363438
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マイネルマスター",
+      "score": 42.3684126984127,
+      "ev": 0.9636918889884178,
+      "odds": 15.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 30.268199233716476
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ノーウェアマン",
+      "score": 34.21031746031746,
+      "ev": 0.9670307609730651,
+      "odds": 25.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 4.980842911877397
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "コスモエルヴァル",
+      "score": 32.86666666666667,
+      "ev": 0.9659690957758165,
+      "odds": 35.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.49425287356322
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606020807",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ラディアントスター",
+        "time": "1:59.1",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "プラウディッツ",
+        "time": "1:59.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "コスモエルヴァル",
+        "time": "1:59.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "グランアルト",
+        "time": "1:59.8",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "マイネルマスター",
+        "time": "1:59.9",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ノーウェアマン",
+        "time": "2:00.4",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ヘルメスギャング",
+        "time": "2:01.4",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "フクスケ",
+        "time": "2:02.3",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 100
+        },
+        {
+          "horseId": 4,
+          "payout": 100
+        },
+        {
+          "horseId": 8,
+          "payout": 190
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 140
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-4",
+          "payout": 280
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 110
+        },
+        {
+          "combination": "2-8",
+          "payout": 370
+        },
+        {
+          "combination": "4-8",
+          "payout": 390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-8",
+          "payout": 600
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-4-8",
+          "payout": 1670
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 820,
+    "ageLimit": "3歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:15",
+    "raceDate": "20260322",
+    "headCount": 8
+  }
+}

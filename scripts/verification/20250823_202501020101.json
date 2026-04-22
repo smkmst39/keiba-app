@@ -1,0 +1,306 @@
+{
+  "raceId": "202501020101",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "オーシャンステラ",
+      "score": 71.72233333333332,
+      "ev": 1.018933084882764,
+      "odds": 15.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 51.33333333333332
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サザンテイオー",
+      "score": 65.04490476190475,
+      "ev": 0.9825998260994627,
+      "odds": 101.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 39.333333333333336
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カデナボニータ",
+      "score": 64.35714285714285,
+      "ev": 0.9898663999110473,
+      "odds": 33.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ペプチドエレノア",
+      "score": 53.612714285714276,
+      "ev": 0.9838530041965429,
+      "odds": 17.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.999999999999993
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "モズプリフォール",
+      "score": 46.636063492063485,
+      "ev": 0.9761354231889137,
+      "odds": 45.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 37.44444444444444
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トーセンライティア",
+      "score": 41.19285714285714,
+      "ev": 0.9779794541700059,
+      "odds": 371.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 9.999999999999998
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ユイノカタリベ",
+      "score": 37.11642857142857,
+      "ev": 0.9771898105953878,
+      "odds": 282.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ストロベリーツリー",
+      "score": 33.30677777777778,
+      "ev": 0.9090368890444545,
+      "odds": 1.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 37.44444444444444
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020101",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ストロベリーツリー",
+        "time": "1:50.2",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "カデナボニータ",
+        "time": "1:50.7",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "サザンテイオー",
+        "time": "1:50.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "オーシャンステラ",
+        "time": "1:50.9",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ペプチドエレノア",
+        "time": "1:52.0",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "モズプリフォール",
+        "time": "1:52.9",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "トーセンライティア",
+        "time": "1:53.1",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ユイノカタリベ",
+        "time": "1:56.4",
+        "lastThreeF": 42.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 110
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 100
+        },
+        {
+          "horseId": 3,
+          "payout": 200
+        },
+        {
+          "horseId": 2,
+          "payout": 360
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-8",
+          "payout": 620
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-3",
+          "payout": 680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-8",
+          "payout": 280
+        },
+        {
+          "combination": "2-8",
+          "payout": 620
+        },
+        {
+          "combination": "2-3",
+          "payout": 1950
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-8",
+          "payout": 2670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-3-2",
+          "payout": 5290
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "10:00",
+    "raceDate": "20250823",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "raceId": "202504020206",
+  "raceName": "豊栄特別",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ペッレグリーニ",
+      "score": 65.16445283018868,
+      "ev": 0.9828297379376227,
+      "odds": 65.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 32.49056603773586
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "デルバイス",
+      "score": 61.98264150943396,
+      "ev": 0.9822032950897311,
+      "odds": 327.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.528301886792454
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アンビバレント",
+      "score": 57.70915094339622,
+      "ev": 0.9813619197438191,
+      "odds": 88.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 12.830188679245285
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "デンクマール",
+      "score": 58.00999999999999,
+      "ev": 1.0084230329381996,
+      "odds": 1.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コートアリシアン",
+      "score": 50.745,
+      "ev": 0.9798160111437499,
+      "odds": 3.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.000000000000004
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メタルスピード",
+      "score": 69.50141509433962,
+      "ev": 0.9947344389910217,
+      "odds": 28.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25.28301886792453
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テラメリタ",
+      "score": 49.472169811320754,
+      "ev": 0.9774020261535556,
+      "odds": 13.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 49.433962264150956
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "シャンパンマーク",
+      "score": 43.28707547169811,
+      "ev": 0.9740898640450613,
+      "odds": 30.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.4150943396226445
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エイムフォーエース",
+      "score": 42.7172641509434,
+      "ev": 0.9736411206212057,
+      "odds": 32.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 72.45283018867927
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メイショウヨゾラ",
+      "score": 30.919999999999998,
+      "ev": 0.9408760573905286,
+      "odds": 12.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "チェルノボーグ",
+      "score": 29.19981132075472,
+      "ev": 0.911982892095983,
+      "odds": 10,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 33.9622641509434
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020206",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "コートアリシアン",
+        "time": "1:31.8",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "テラメリタ",
+        "time": "1:32.1",
+        "lastThreeF": 32.7
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "メイショウヨゾラ",
+        "time": "1:32.1",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "メタルスピード",
+        "time": "1:32.4",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "デンクマール",
+        "time": "1:32.5",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "シャンパンマーク",
+        "time": "1:32.5",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 7,
+        "horseId": 11,
+        "horseName": "チェルノボーグ",
+        "time": "1:32.6",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "アンビバレント",
+        "time": "1:32.8",
+        "lastThreeF": 32.7
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ペッレグリーニ",
+        "time": "1:32.8",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "エイムフォーエース",
+        "time": "1:32.9",
+        "lastThreeF": 33.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 320
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 170
+        },
+        {
+          "horseId": 7,
+          "payout": 320
+        },
+        {
+          "horseId": 10,
+          "payout": 330
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 1310
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 1510
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-7",
+          "payout": 2660
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 490
+        },
+        {
+          "combination": "5-10",
+          "payout": 570
+        },
+        {
+          "combination": "7-10",
+          "payout": 1130
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-7-10",
+          "payout": 3870
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-7-10",
+          "payout": 15710
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "ハンデ",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "15:10",
+    "raceDate": "20250727",
+    "headCount": 11
+  }
+}

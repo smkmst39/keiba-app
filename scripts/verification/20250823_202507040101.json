@@ -1,0 +1,254 @@
+{
+  "raceId": "202507040101",
+  "raceName": "3歳以上障害OP",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パープルアドミラル",
+      "score": 61.63487179487179,
+      "ev": 0.988417146094291,
+      "odds": 26.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 35.256410256410255
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "クラウンセト",
+      "score": 55.76961538461538,
+      "ev": 0.9990485302448543,
+      "odds": 1.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 30.769230769230766
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ティートラップ",
+      "score": 49.0048717948718,
+      "ev": 0.979623918927425,
+      "odds": 87,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.256410256410255
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "テイエムエメラルド",
+      "score": 68.62987179487179,
+      "ev": 1.035648215522125,
+      "odds": 9.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.256410256410255
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヘザルフェン",
+      "score": 37.45,
+      "ev": 0.92709385031787,
+      "odds": 2.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "グルーヴビート",
+      "score": 33.03,
+      "ev": 0.9237865928117329,
+      "odds": 7.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040101",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ヘザルフェン",
+        "time": "3:37.7",
+        "lastThreeF": 13.1
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "パープルアドミラル",
+        "time": "3:39.3",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "クラウンセト",
+        "time": "3:39.7",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "グルーヴビート",
+        "time": "3:40.5",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "テイエムエメラルド",
+        "time": "3:43.4",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ティートラップ",
+        "time": "3:48.5",
+        "lastThreeF": 13.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 270
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 190
+        },
+        {
+          "horseId": 1,
+          "payout": 880
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 1810
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-1",
+          "payout": 2330
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 350
+        },
+        {
+          "combination": "2-5",
+          "payout": 120
+        },
+        {
+          "combination": "1-2",
+          "payout": 280
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 610
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-1-2",
+          "payout": 5120
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害3歳以上",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1430,
+    "ageLimit": "3歳以上",
+    "distance": 3330,
+    "surface": "turf",
+    "startTime": "09:50",
+    "raceDate": "20250823",
+    "headCount": 6
+  }
+}

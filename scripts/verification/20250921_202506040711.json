@@ -1,0 +1,383 @@
+{
+  "raceId": "202506040711",
+  "raceName": "オールカマー",
+  "date": "2025-09-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コスモキュランダ",
+      "score": 68.9292731277533,
+      "ev": 1.0380122785682304,
+      "odds": 8.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.418502202643172
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リビアングラス",
+      "score": 66.17922907488986,
+      "ev": 1.0108214553648802,
+      "odds": 14.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.38325991189427
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クロミナンス",
+      "score": 58.656079295154186,
+      "ev": 0.9959498798438166,
+      "odds": 13.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 32.86343612334802
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "レガレイラ",
+      "score": 58.27621145374449,
+      "ev": 1.010397933070605,
+      "odds": 3.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 40.969162995594715
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ホーエリート",
+      "score": 53.54947136563876,
+      "ev": 0.9917105283938971,
+      "odds": 4.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 47.57709251101323
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シュバルツクーゲル",
+      "score": 49.968259911894265,
+      "ev": 0.9798776014394597,
+      "odds": 66.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 6.607929515418505
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヨーホーレイク",
+      "score": 48.074933920704844,
+      "ev": 0.972053335404316,
+      "odds": 8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 55.947136563876654
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "リカンカブール",
+      "score": 41.04863436123348,
+      "ev": 0.978114392027445,
+      "odds": 92.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 22.90748898678414
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ドゥラドーレス",
+      "score": 45.025000000000006,
+      "ev": 0.958008602098952,
+      "odds": 3.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "フェアエールング",
+      "score": 36.68477973568282,
+      "ev": 0.9690070243600527,
+      "odds": 33.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.823788546255507
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ワイドエンペラー",
+      "score": 30.07,
+      "ev": 0.9759441628707557,
+      "odds": 181.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506040711",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "レガレイラ",
+        "time": "2:10.2",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "ドゥラドーレス",
+        "time": "2:10.4",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ヨーホーレイク",
+        "time": "2:10.7",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "フェアエールング",
+        "time": "2:10.7",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ホーエリート",
+        "time": "2:10.8",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "リカンカブール",
+        "time": "2:11.0",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 7,
+        "horseId": 11,
+        "horseName": "ワイドエンペラー",
+        "time": "2:11.0",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "コスモキュランダ",
+        "time": "2:11.0",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "シュバルツクーゲル",
+        "time": "2:11.1",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "クロミナンス",
+        "time": "2:11.1",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "リビアングラス",
+        "time": "2:12.1",
+        "lastThreeF": 36.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 150
+        },
+        {
+          "horseId": 9,
+          "payout": 130
+        },
+        {
+          "horseId": 7,
+          "payout": 200
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-7",
+          "payout": 670
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-9",
+          "payout": 680
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-9",
+          "payout": 1400
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-9",
+          "payout": 340
+        },
+        {
+          "combination": "4-7",
+          "payout": 680
+        },
+        {
+          "combination": "7-9",
+          "payout": 550
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-7-9",
+          "payout": 1970
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-9-7",
+          "payout": 7740
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "G2",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 6700,
+    "ageLimit": "3歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "15:45",
+    "raceDate": "20250921",
+    "headCount": 11
+  }
+}

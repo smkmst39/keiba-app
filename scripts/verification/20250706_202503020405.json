@@ -1,0 +1,306 @@
+{
+  "raceId": "202503020405",
+  "raceName": "2歳新馬",
+  "date": "2025-07-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ウィナーズロジャー",
+      "score": 70.47251908396946,
+      "ev": 0.9937872528140212,
+      "odds": 28.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.66412213740458
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "イチザペガサス",
+      "score": 64.58124318429661,
+      "ev": 0.9823227028753528,
+      "odds": 66.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.977099236641223
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ラジカル",
+      "score": 59.8411123227917,
+      "ev": 0.9814182417452082,
+      "odds": 67.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.137404580152673
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メイクイット",
+      "score": 55.04405670665212,
+      "ev": 0.9820116753661426,
+      "odds": 36,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.316248636859335
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ラディアントスター",
+      "score": 53.81428571428572,
+      "ev": 0.9853653415788483,
+      "odds": 2.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スターオブアダム",
+      "score": 43.495528898582336,
+      "ev": 0.9629935214306745,
+      "odds": 11.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.977099236641223
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タイダルロック",
+      "score": 37.471428571428575,
+      "ev": 0.9229979535336658,
+      "odds": 1.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ハデステソーロ",
+      "score": 34.54656488549619,
+      "ev": 0.9254689029712777,
+      "odds": 6.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 40.458015267175576
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020405",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "タイダルロック",
+        "time": "2:08.1",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ラディアントスター",
+        "time": "2:08.8",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "イチザペガサス",
+        "time": "2:09.3",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "スターオブアダム",
+        "time": "2:09.5",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ハデステソーロ",
+        "time": "2:10.8",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "メイクイット",
+        "time": "2:11.0",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ラジカル",
+        "time": "2:11.9",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ウィナーズロジャー",
+        "time": "2:12.7",
+        "lastThreeF": 38.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 570
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 190
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-5",
+          "payout": 360
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 140
+        },
+        {
+          "combination": "2-7",
+          "payout": 1150
+        },
+        {
+          "combination": "2-5",
+          "payout": 1490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-7",
+          "payout": 3390
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-5-2",
+          "payout": 9620
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:35",
+    "raceDate": "20250706",
+    "headCount": 8
+  }
+}

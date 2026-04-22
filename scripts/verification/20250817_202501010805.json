@@ -1,0 +1,230 @@
+{
+  "raceId": "202501010805",
+  "raceName": "2歳新馬",
+  "date": "2025-08-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジャスティンシカゴ",
+      "score": 73.95306122448979,
+      "ev": 1.0551679126436606,
+      "odds": 2.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 83.67346938775509
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スーパーガール",
+      "score": 61.76887755102041,
+      "ev": 0.9949162240252714,
+      "odds": 11.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 32.6530612244898
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "オーケーグレイス",
+      "score": 53.60918367346939,
+      "ev": 0.9798942976144824,
+      "odds": 25.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.020408163265294
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ショウナンバーボン",
+      "score": 41.425000000000004,
+      "ev": 0.9433088187834354,
+      "odds": 5.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ジーティーメティオ",
+      "score": 38,
+      "ev": 0.9213921277540901,
+      "odds": 1.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010805",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ジャスティンシカゴ",
+        "time": "1:52.6",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ジーティーメティオ",
+        "time": "1:52.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ショウナンバーボン",
+        "time": "1:54.1",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "スーパーガール",
+        "time": "1:54.1",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "オーケーグレイス",
+        "time": "1:59.3",
+        "lastThreeF": 42
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 220
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 350
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 110
+        },
+        {
+          "combination": "1-4",
+          "payout": 170
+        },
+        {
+          "combination": "4-5",
+          "payout": 150
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-5",
+          "payout": 190
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-4",
+          "payout": 630
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 220
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "雨",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "12:20",
+    "raceDate": "20250817",
+    "headCount": 5
+  }
+}

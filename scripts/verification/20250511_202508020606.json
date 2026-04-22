@@ -1,0 +1,385 @@
+{
+  "raceId": "202508020606",
+  "raceName": "3歳1勝クラス",
+  "date": "2025-05-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヒメモモアスク",
+      "score": 64.44247899159664,
+      "ev": 1.0334935057002845,
+      "odds": 1.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 1.6806722689075588
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "タマモカンパネラ",
+      "score": 62.43726890756302,
+      "ev": 1.0028028656671746,
+      "odds": 14.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.487394957983195
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴァンアグレアブル",
+      "score": 58.76907563025209,
+      "ev": 0.995588189974973,
+      "odds": 13.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 73.94957983193278
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フィングステン",
+      "score": 54.32617647058823,
+      "ev": 0.9827399229213932,
+      "odds": 21.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.88235294117647
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "リュミナーズ",
+      "score": 50.22588235294117,
+      "ev": 0.9798785267061167,
+      "odds": 56,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 29.41176470588236
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "サンナイアガラ",
+      "score": 46.96,
+      "ev": 0.979236186451826,
+      "odds": 229.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サリーチェ",
+      "score": 73.835,
+      "ev": 1.070440300967025,
+      "odds": 3.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "コンテナライン",
+      "score": 40.24957983193278,
+      "ev": 0.9716654705226054,
+      "odds": 28,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 33.613445378151255
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ミッドナイトゲイル",
+      "score": 38.47352941176471,
+      "ev": 0.9775670504920543,
+      "odds": 133.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 17.647058823529406
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サンコンクエスト",
+      "score": 37.20596638655462,
+      "ev": 0.9531774366836862,
+      "odds": 18.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.6890756302521
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ツキノアカリ",
+      "score": 32.35348739495799,
+      "ev": 0.9218135747688705,
+      "odds": 6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 21.008403361344534
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020606",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 11,
+        "horseName": "ツキノアカリ",
+        "time": "1:53.3",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "サンコンクエスト",
+        "time": "1:53.5",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ヴァンアグレアブル",
+        "time": "1:53.6",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ヒメモモアスク",
+        "time": "1:53.7",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "リュミナーズ",
+        "time": "1:54.5",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "サリーチェ",
+        "time": "1:54.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "タマモカンパネラ",
+        "time": "1:54.7",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "サンナイアガラ",
+        "time": "1:55.4",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "ミッドナイトゲイル",
+        "time": "1:56.1",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "フィングステン",
+        "time": "1:56.9",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 11,
+        "horseId": 8,
+        "horseName": "コンテナライン",
+        "time": "1:57.3",
+        "lastThreeF": 39.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 11,
+          "payout": 600
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 11,
+          "payout": 290
+        },
+        {
+          "horseId": 10,
+          "payout": 610
+        },
+        {
+          "horseId": 3,
+          "payout": 380
+        }
+      ],
+      "waku": [
+        {
+          "combination": "8-8",
+          "payout": 5640
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "10-11",
+          "payout": 7380
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "11-10",
+          "payout": 12610
+        }
+      ],
+      "wide": [
+        {
+          "combination": "10-11",
+          "payout": 1940
+        },
+        {
+          "combination": "3-11",
+          "payout": 770
+        },
+        {
+          "combination": "3-10",
+          "payout": 1920
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-10-11",
+          "payout": 14670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "11-10-3",
+          "payout": 86430
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 11,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 800,
+    "ageLimit": "3歳",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "12:45",
+    "raceDate": "20250511",
+    "headCount": 11
+  }
+}

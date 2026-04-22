@@ -1,0 +1,306 @@
+{
+  "raceId": "202510020606",
+  "raceName": "2歳新馬",
+  "date": "2025-07-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アダマント",
+      "score": 71.75987261146496,
+      "ev": 1.035374358545459,
+      "odds": 9.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.85987261146498
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リトゥリア",
+      "score": 66.3037306642402,
+      "ev": 1.0287484115652556,
+      "odds": 4.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.675159235668794
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "トレッチェ",
+      "score": 60.84758871701546,
+      "ev": 1.008278874948688,
+      "odds": 4.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 39.49044585987262
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "キャスケード",
+      "score": 54.39399454049135,
+      "ev": 0.9808134492737791,
+      "odds": 28.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.10828025477707
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ジュジュドール",
+      "score": 53.81428571428572,
+      "ev": 0.9818923815725356,
+      "odds": 3.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "リーガルスプレンダ",
+      "score": 48.136487716105556,
+      "ev": 0.96059126896414,
+      "odds": 3.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 92.99363057324842
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スウィープシャルム",
+      "score": 39.02302092811647,
+      "ev": 0.9532003642412082,
+      "odds": 11.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.751592356687905
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ケンヴォイジャー",
+      "score": 32.2,
+      "ev": 0.9760401569958123,
+      "odds": 78.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020606",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ジュジュドール",
+        "time": "1:11.2",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "リトゥリア",
+        "time": "1:11.6",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "トレッチェ",
+        "time": "1:11.7",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "リーガルスプレンダ",
+        "time": "1:11.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "アダマント",
+        "time": "1:11.8",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "キャスケード",
+        "time": "1:12.2",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "スウィープシャルム",
+        "time": "1:12.5",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ケンヴォイジャー",
+        "time": "1:13.3",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 340
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 2,
+          "payout": 150
+        },
+        {
+          "horseId": 3,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 790
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 1750
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 330
+        },
+        {
+          "combination": "3-5",
+          "payout": 300
+        },
+        {
+          "combination": "2-3",
+          "payout": 330
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 980
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-3",
+          "payout": 4560
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "12:55",
+    "raceDate": "20250713",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "raceId": "202509040805",
+  "raceName": "2歳新馬",
+  "date": "2025-09-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フリーガー",
+      "score": 73.85225806451612,
+      "ev": 1.0418921474728942,
+      "odds": 5.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 81.93548387096774
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "オグナ",
+      "score": 68.01272401433691,
+      "ev": 0.9827716891996034,
+      "odds": 112.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.87455197132617
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アスピラシオン",
+      "score": 67.52,
+      "ev": 0.9907166544057517,
+      "odds": 21.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フリーマン",
+      "score": 58.029999999999994,
+      "ev": 0.9808970951390913,
+      "odds": 268.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ラミエルノムスコ",
+      "score": 55.20064516129032,
+      "ev": 0.981463152304794,
+      "odds": 25.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.83870967741936
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "エアビーアゲイル",
+      "score": 55.813870967741934,
+      "ev": 0.9896188392267614,
+      "odds": 3.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 89.03225806451613
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クラウンインジエア",
+      "score": 48.756129032258066,
+      "ev": 0.9664897953964022,
+      "odds": 7.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.967741935483872
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "タケルフォーカス",
+      "score": 43.906129032258065,
+      "ev": 0.9729794427195405,
+      "odds": 29.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.967741935483872
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "イエッサー",
+      "score": 42.87290322580645,
+      "ev": 0.9605083758987879,
+      "odds": 14.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 56.774193548387096
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ダンツウルス",
+      "score": 37.01258064516129,
+      "ev": 0.9678014552909606,
+      "odds": 26.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.354838709677423
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モスカテル",
+      "score": 34.802724014336924,
+      "ev": 0.9107077700099142,
+      "odds": 2.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.87455197132617
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040805",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "フリーガー",
+        "time": "2:01.5",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "エアビーアゲイル",
+        "time": "2:01.5",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "モスカテル",
+        "time": "2:01.7",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "ダンツウルス",
+        "time": "2:02.0",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ラミエルノムスコ",
+        "time": "2:02.7",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "アスピラシオン",
+        "time": "2:03.0",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "クラウンインジエア",
+        "time": "2:03.1",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "タケルフォーカス",
+        "time": "2:03.4",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "フリーマン",
+        "time": "2:04.2",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "オグナ",
+        "time": "2:04.3",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 11,
+        "horseId": 9,
+        "horseName": "イエッサー",
+        "time": "2:04.3",
+        "lastThreeF": 38
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 580
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 150
+        },
+        {
+          "horseId": 6,
+          "payout": 120
+        },
+        {
+          "horseId": 11,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 730
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 970
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-6",
+          "payout": 2020
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 340
+        },
+        {
+          "combination": "1-11",
+          "payout": 270
+        },
+        {
+          "combination": "6-11",
+          "payout": 190
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-6-11",
+          "payout": 810
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-6-11",
+          "payout": 5470
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 580
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20250927",
+    "headCount": 11
+  }
+}

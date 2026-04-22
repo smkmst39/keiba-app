@@ -1,0 +1,375 @@
+{
+  "raceId": "202501010510",
+  "raceName": "藻岩山特別",
+  "date": "2025-08-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ルーチェロッサ",
+      "score": 64.59963562753036,
+      "ev": 0.9827236328927087,
+      "odds": 120.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 8.097165991902834
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "グランドゴールド",
+      "score": 66.0356882591093,
+      "ev": 0.9830064797899292,
+      "odds": 133.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 29.149797570850204
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "リッチブラック",
+      "score": 63.4313967611336,
+      "ev": 0.9899741398489538,
+      "odds": 47.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.627530364372475
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マイネルオーシャン",
+      "score": 57.191497975708494,
+      "ev": 1.0002322549365936,
+      "odds": 9.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 22.267206477732792
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カテリーナ",
+      "score": 52.53874493927125,
+      "ev": 0.9855696529572514,
+      "odds": 8.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 5.668016194331981
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ハイディージェン",
+      "score": 50.02283400809716,
+      "ev": 0.9798525660398724,
+      "odds": 62.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 25.910931174089068
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グレン",
+      "score": 45.894999999999996,
+      "ev": 0.9790395421884083,
+      "odds": 383.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "レッセパッセ",
+      "score": 43.59597165991903,
+      "ev": 0.9785867224112538,
+      "odds": 84.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 11.74089068825911
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サクラファレル",
+      "score": 42.60082995951417,
+      "ev": 0.9478143587232757,
+      "odds": 1.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 70.44534412955467
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エラン",
+      "score": 35.638542510121454,
+      "ev": 0.9323106599162875,
+      "odds": 7.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 32.388663967611336
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "スピーディブレイク",
+      "score": 36.935,
+      "ev": 0.9527476829129231,
+      "odds": 13.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010510",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "サクラファレル",
+        "time": "2:03.1",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "カテリーナ",
+        "time": "2:03.4",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "スピーディブレイク",
+        "time": "2:03.6",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "マイネルオーシャン",
+        "time": "2:03.8",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "グランドゴールド",
+        "time": "2:04.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "エラン",
+        "time": "2:04.0",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "レッセパッセ",
+        "time": "2:04.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "リッチブラック",
+        "time": "2:04.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ルーチェロッサ",
+        "time": "2:04.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "グレン",
+        "time": "2:07.0",
+        "lastThreeF": 37.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 130
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 150
+        },
+        {
+          "horseId": 11,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 670
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-9",
+          "payout": 560
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-5",
+          "payout": 800
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-9",
+          "payout": 260
+        },
+        {
+          "combination": "9-11",
+          "payout": 310
+        },
+        {
+          "combination": "5-11",
+          "payout": 620
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-9-11",
+          "payout": 1090
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-5-11",
+          "payout": 2980
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:50",
+    "raceDate": "20250809",
+    "headCount": 11
+  }
+}

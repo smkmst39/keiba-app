@@ -1,0 +1,254 @@
+{
+  "raceId": "202504030101",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メープルタフィー",
+      "score": 71.3040909090909,
+      "ev": 0.9941448029787252,
+      "odds": 25.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 56.363636363636374
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウールヴヘジン",
+      "score": 65.39,
+      "ev": 1.0186157384037242,
+      "odds": 5.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ロット",
+      "score": 54.85681818181818,
+      "ev": 0.9816555568499031,
+      "odds": 45.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.272727272727277
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ストロングエース",
+      "score": 51.639545454545456,
+      "ev": 0.9760625946491671,
+      "odds": 1.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 80.6818181818182
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ブルージェネシス",
+      "score": 38.515,
+      "ev": 0.9692463876916174,
+      "odds": 35,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ソニックキャット",
+      "score": 34.354090909090914,
+      "ev": 0.9104339947449488,
+      "odds": 3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 73.86363636363637
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504030101",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ストロングエース",
+        "time": "2:04.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ウールヴヘジン",
+        "time": "2:04.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ブルージェネシス",
+        "time": "2:05.2",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ソニックキャット",
+        "time": "2:05.5",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ロット",
+        "time": "2:05.8",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "メープルタフィー",
+        "time": "2:05.9",
+        "lastThreeF": 36.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 300
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-2",
+          "payout": 540
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 150
+        },
+        {
+          "combination": "4-5",
+          "payout": 330
+        },
+        {
+          "combination": "2-5",
+          "payout": 810
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-5",
+          "payout": 1340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-2-5",
+          "payout": 2620
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "10:10",
+    "raceDate": "20250823",
+    "headCount": 6
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "raceId": "202508030306",
+  "raceName": "2歳新馬",
+  "date": "2025-10-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サクライロマウコロ",
+      "score": 74.89999999999999,
+      "ev": 1.0496121395745366,
+      "odds": 9.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ライクシュガー",
+      "score": 65.76510204081632,
+      "ev": 0.982600522187024,
+      "odds": 148.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.1224489795918355
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スラッシュ",
+      "score": 62.666938775510204,
+      "ev": 0.9820069174673159,
+      "odds": 78.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.326530612244902
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "テルヴィセクス",
+      "score": 59.56877551020408,
+      "ev": 1.0082662549521566,
+      "odds": 3.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.530612244897966
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スマートイデアル",
+      "score": 54.339999999999996,
+      "ev": 0.9816459401351145,
+      "odds": 32.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マメタンク",
+      "score": 52.70170068027211,
+      "ev": 0.9819517732378855,
+      "odds": 3.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.37414965986395
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "チョウギャル",
+      "score": 47.157278911564624,
+      "ev": 0.9790352834674545,
+      "odds": 129.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.401360544217688
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "メイショウテリオス",
+      "score": 44.53258503401361,
+      "ev": 0.9565183194985962,
+      "odds": 6.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.7687074829932
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "クロカミジョウ",
+      "score": 41.31605442176871,
+      "ev": 0.9591611119372523,
+      "odds": 13.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.931972789115648
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "タイニーワンダー",
+      "score": 36.71857142857143,
+      "ev": 0.9325638150578737,
+      "odds": 9.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.285714285714283
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ゲキシン",
+      "score": 34.44897959183674,
+      "ev": 0.9256061937281868,
+      "odds": 7.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.775510204081634
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030306",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "マメタンク",
+        "time": "1:12.4",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "タイニーワンダー",
+        "time": "1:12.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "メイショウテリオス",
+        "time": "1:13.3",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "テルヴィセクス",
+        "time": "1:13.6",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "サクライロマウコロ",
+        "time": "1:14.4",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "スマートイデアル",
+        "time": "1:14.4",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "クロカミジョウ",
+        "time": "1:14.6",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "スラッシュ",
+        "time": "1:15.3",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 9,
+        "horseId": 11,
+        "horseName": "ゲキシン",
+        "time": "1:15.4",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "ライクシュガー",
+        "time": "1:16.9",
+        "lastThreeF": 40.5
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "チョウギャル",
+        "time": "1:18.3",
+        "lastThreeF": 41.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 10,
+          "payout": 290
+        },
+        {
+          "horseId": 8,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 650
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-10",
+          "payout": 1380
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-10",
+          "payout": 2240
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-10",
+          "payout": 500
+        },
+        {
+          "combination": "6-8",
+          "payout": 490
+        },
+        {
+          "combination": "8-10",
+          "payout": 1130
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-8-10",
+          "payout": 3200
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-10-8",
+          "payout": 12480
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "12:40",
+    "raceDate": "20251011",
+    "headCount": 11
+  }
+}

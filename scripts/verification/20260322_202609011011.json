@@ -1,0 +1,359 @@
+{
+  "raceId": "202609011011",
+  "raceName": "阪神大賞典",
+  "date": "2026-03-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アドマイヤテラ",
+      "score": 69.09844036697248,
+      "ev": 1.0504151310085668,
+      "odds": 3.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 36.69724770642201
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シュヴァリエローズ",
+      "score": 65.57619266055046,
+      "ev": 0.9913261793903575,
+      "odds": 32.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.055045871559635
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ファミリータイム",
+      "score": 64.00371559633027,
+      "ev": 1.005238522360986,
+      "odds": 12.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 59.63302752293577
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アクアヴァーナル",
+      "score": 57.836055045871554,
+      "ev": 0.9931700246719568,
+      "odds": 13.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 54.58715596330275
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ダノンシーマ",
+      "score": 58.144999999999996,
+      "ev": 1.0075490981994506,
+      "odds": 3.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "レッドバンデ",
+      "score": 44.162110091743116,
+      "ev": 0.9528273854322987,
+      "odds": 3.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 9.174311926605503
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マイネルエンペラー",
+      "score": 44.898302752293574,
+      "ev": 0.960566766559055,
+      "odds": 7.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25.229357798165136
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "メイショウブレゲ",
+      "score": 38.82871559633028,
+      "ev": 0.977597763537869,
+      "odds": 174.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 9.633027522935777
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サンライズソレイユ",
+      "score": 36.66100917431193,
+      "ev": 0.9686944004701916,
+      "odds": 35.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 67.43119266055045
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ダンディズム",
+      "score": 31.845,
+      "ev": 0.9762312331517427,
+      "odds": 223.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609011011",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "アドマイヤテラ",
+        "time": "3:02.0",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "アクアヴァーナル",
+        "time": "3:02.5",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ダノンシーマ",
+        "time": "3:02.7",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "シュヴァリエローズ",
+        "time": "3:03.0",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "マイネルエンペラー",
+        "time": "3:03.0",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "サンライズソレイユ",
+        "time": "3:03.2",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "レッドバンデ",
+        "time": "3:03.8",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "メイショウブレゲ",
+        "time": "3:03.9",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "ファミリータイム",
+        "time": "3:04.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "ダンディズム",
+        "time": "3:05.4",
+        "lastThreeF": 37.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 240
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-4",
+          "payout": 1750
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 1690
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-4",
+          "payout": 2540
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 570
+        },
+        {
+          "combination": "1-5",
+          "payout": 260
+        },
+        {
+          "combination": "4-5",
+          "payout": 560
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-5",
+          "payout": 1540
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-4-5",
+          "payout": 8030
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 310
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "G2",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 6700,
+    "ageLimit": "4歳以上",
+    "distance": 3000,
+    "surface": "turf",
+    "startTime": "15:45",
+    "raceDate": "20260322",
+    "headCount": 10
+  }
+}

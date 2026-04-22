@@ -1,0 +1,358 @@
+{
+  "raceId": "202510020312",
+  "raceName": "フィリピンT",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アイヲツグモノ",
+      "score": 66.97,
+      "ev": 0.99209333013142,
+      "odds": 22.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "インプロバイザー",
+      "score": 65.77097122302158,
+      "ev": 1.0079016319615122,
+      "odds": 11.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 31.65467625899282
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ロードマイライフ",
+      "score": 61.40071942446043,
+      "ev": 1.0188060286161795,
+      "odds": 4.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.63309352517986
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フーコサンライズ",
+      "score": 60.47,
+      "ev": 1.015186178366953,
+      "odds": 4.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コーパスクリスティ",
+      "score": 52.42845323741006,
+      "ev": 0.9801955081483356,
+      "odds": 55.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.4388489208633108
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "システムリブート",
+      "score": 48.51460431654675,
+      "ev": 0.9709504135497735,
+      "odds": 5.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 35.251798561151084
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ソングオブライフ",
+      "score": 45.647158273381294,
+      "ev": 0.9575356492083344,
+      "odds": 3.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.899280575539574
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ベンガン",
+      "score": 38.64553956834533,
+      "ev": 0.9775152114784257,
+      "odds": 93.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 6.474820143884899
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ミッキーチャレンジ",
+      "score": 36.842446043165474,
+      "ev": 0.9686582903475534,
+      "odds": 20.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.35251798561151
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メイショウピース",
+      "score": 37.54100719424461,
+      "ev": 0.9368066944145615,
+      "odds": 6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 92.08633093525181
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020312",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "メイショウピース",
+        "time": "1:08.5",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "システムリブート",
+        "time": "1:08.5",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ベンガン",
+        "time": "1:08.7",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "ミッキーチャレンジ",
+        "time": "1:08.7",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ロードマイライフ",
+        "time": "1:08.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "アイヲツグモノ",
+        "time": "1:09.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "フーコサンライズ",
+        "time": "1:09.0",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ソングオブライフ",
+        "time": "1:09.1",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "インプロバイザー",
+        "time": "1:09.6",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "コーパスクリスティ",
+        "time": "1:10.1",
+        "lastThreeF": 35.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 600
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 230
+        },
+        {
+          "horseId": 6,
+          "payout": 270
+        },
+        {
+          "horseId": 8,
+          "payout": 1770
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 1270
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-10",
+          "payout": 1790
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-6",
+          "payout": 3870
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-10",
+          "payout": 730
+        },
+        {
+          "combination": "8-10",
+          "payout": 5740
+        },
+        {
+          "combination": "6-8",
+          "payout": 5610
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-8-10",
+          "payout": 40270
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-6-8",
+          "payout": 157830
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "16:15",
+    "raceDate": "20250705",
+    "headCount": 10
+  }
+}

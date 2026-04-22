@@ -1,0 +1,359 @@
+{
+  "raceId": "202507030112",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-26",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ダイシンビヨンド",
+      "score": 63.93499999999999,
+      "ev": 1.0077083844536556,
+      "odds": 14.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ミッキーストライク",
+      "score": 56.86119266055046,
+      "ev": 0.9854314604068942,
+      "odds": 42.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 16.055045871559635
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ミッドナイトホーク",
+      "score": 57.1633486238532,
+      "ev": 0.9814182199150909,
+      "odds": 64.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 12.385321100917428
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マルクパージュ",
+      "score": 52.424816513761456,
+      "ev": 0.9804717113040616,
+      "odds": 52.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.3761467889908237
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レッドフェルメール",
+      "score": 54.04499999999999,
+      "ev": 0.9959067689934408,
+      "odds": 2.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アスクムービーオン",
+      "score": 43.43422018348623,
+      "ev": 0.9747034587605373,
+      "odds": 25.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 18.348623853211006
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ザカリナン",
+      "score": 40.7101376146789,
+      "ev": 0.9725269470909933,
+      "odds": 34.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 11.467889908256879
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "リアルフォルゴーレ",
+      "score": 35.42123853211009,
+      "ev": 0.9507529388954932,
+      "odds": 17.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 3.211009174311926
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ノクナレア",
+      "score": 30.688715596330276,
+      "ev": 0.9180797695100347,
+      "odds": 6.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 59.63302752293577
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ミニトランザット",
+      "score": 65.94908256880734,
+      "ev": 1.0434629167455425,
+      "odds": 2.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 6.8807339449541285
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030112",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "ミニトランザット",
+        "time": "1:33.0",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "レッドフェルメール",
+        "time": "1:33.2",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "ノクナレア",
+        "time": "1:33.3",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ダイシンビヨンド",
+        "time": "1:33.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ミッキーストライク",
+        "time": "1:33.7",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ザカリナン",
+        "time": "1:33.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "マルクパージュ",
+        "time": "1:33.7",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "リアルフォルゴーレ",
+        "time": "1:33.9",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "アスクムービーオン",
+        "time": "1:34.7",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "ミッドナイトホーク",
+        "time": "1:34.8",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 240
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-8",
+          "payout": 200
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-10",
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-5",
+          "payout": 510
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-10",
+          "payout": 160
+        },
+        {
+          "combination": "9-10",
+          "payout": 270
+        },
+        {
+          "combination": "5-9",
+          "payout": 280
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-9-10",
+          "payout": 410
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-5-9",
+          "payout": 1620
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 240
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "18:15",
+    "raceDate": "20250726",
+    "headCount": 10
+  }
+}

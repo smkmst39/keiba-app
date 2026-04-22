@@ -1,0 +1,359 @@
+{
+  "raceId": "202503020301",
+  "raceName": "3歳以上障害OP",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "リレーションシップ",
+      "score": 70.5716129032258,
+      "ev": 1.0457864075415397,
+      "odds": 6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 62.096774193548384
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ジーククローネ",
+      "score": 65.38499999999999,
+      "ev": 1.0414904855112919,
+      "odds": 3.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 25
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ブラビオ",
+      "score": 56.678387096774195,
+      "ev": 0.9933353136035209,
+      "odds": 12.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.903225806451612
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "テンメジャーガール",
+      "score": 56.4774193548387,
+      "ev": 0.9929334542136699,
+      "odds": 12.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 55.645161290322584
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ニシノパプルブリリ",
+      "score": 49.14999999999999,
+      "ev": 0.9793125559773036,
+      "odds": 38.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウコホク",
+      "score": 44.51870967741935,
+      "ev": 0.9789020562880513,
+      "odds": 111.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 15.322580645161288
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テイエムエメラルド",
+      "score": 40.83967741935484,
+      "ev": 0.9616638913857279,
+      "odds": 12.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 22.58064516129032
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "モントライゼ",
+      "score": 45.135000000000005,
+      "ev": 0.9605058203495016,
+      "odds": 2.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シャンドゥレール",
+      "score": 37.77161290322581,
+      "ev": 0.9702115696156889,
+      "odds": 23.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 62.096774193548384
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エターナリー",
+      "score": 33.56725806451613,
+      "ev": 0.9471218062902282,
+      "odds": 19.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 41.93548387096773
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020301",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ジーククローネ",
+        "time": "3:01.7",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ニシノパプルブリリ",
+        "time": "3:01.9",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "テイエムエメラルド",
+        "time": "3:02.3",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "シャンドゥレール",
+        "time": "3:02.6",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "リレーションシップ",
+        "time": "3:02.9",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ブラビオ",
+        "time": "3:03.0",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "モントライゼ",
+        "time": "3:03.1",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "テンメジャーガール",
+        "time": "3:03.6",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "エターナリー",
+        "time": "3:03.9",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "メイショウコホク",
+        "time": "3:06.2",
+        "lastThreeF": 13.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 170
+        },
+        {
+          "horseId": 5,
+          "payout": 840
+        },
+        {
+          "horseId": 7,
+          "payout": 510
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-5",
+          "payout": 7690
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 5640
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-5",
+          "payout": 7060
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 1860
+        },
+        {
+          "combination": "2-7",
+          "payout": 1170
+        },
+        {
+          "combination": "5-7",
+          "payout": 4900
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-7",
+          "payout": 20790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-5-7",
+          "payout": 100830
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害3歳以上",
+    "raceGrade": "L",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "別定",
+    "prize": 1430,
+    "ageLimit": "3歳以上",
+    "distance": 2750,
+    "surface": "turf",
+    "startTime": "10:10",
+    "raceDate": "20250705",
+    "headCount": 10
+  }
+}

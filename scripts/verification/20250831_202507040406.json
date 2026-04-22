@@ -1,0 +1,455 @@
+{
+  "raceId": "202507040406",
+  "raceName": "2歳新馬",
+  "date": "2025-08-31",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エターナルビジョン",
+      "score": 69.1,
+      "ev": 1.0307257854304988,
+      "odds": 6.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ヒロウッドテール",
+      "score": 67.81763602251407,
+      "ev": 0.98292594484161,
+      "odds": 57.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.829268292682922
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メイショウナナシロ",
+      "score": 65.4389305816135,
+      "ev": 0.9898902678890825,
+      "odds": 26.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 34.756097560975604
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ナクソス",
+      "score": 61.29193245778612,
+      "ev": 0.986728620143705,
+      "odds": 23.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.195121951219512
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "パンサーズ",
+      "score": 59.58517823639774,
+      "ev": 1.0017096017927811,
+      "odds": 5.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.70731707317073
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ボンスヴニール",
+      "score": 56.393058161350844,
+      "ev": 0.9807484365718871,
+      "odds": 134.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25.60975609756097
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ジーモンスター",
+      "score": 52.74118198874296,
+      "ev": 0.9802095766972169,
+      "odds": 48,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.585365853658535
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "カヴァレリッツォ",
+      "score": 51.069793621013126,
+      "ev": 0.9746765986353377,
+      "odds": 3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.70731707317073
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "リアンマヒナ",
+      "score": 47.24108818011258,
+      "ev": 0.9790040841274834,
+      "odds": 98.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.634146341463417
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ヴィシュヴァナート",
+      "score": 44.93311444652909,
+      "ev": 0.9785641876208243,
+      "odds": 65.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.780487804878053
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ジョーカー",
+      "score": 46.51538461538462,
+      "ev": 0.9573153212315243,
+      "odds": 3.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "クラックショット",
+      "score": 39.00863039399625,
+      "ev": 0.954349893979223,
+      "odds": 11.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.51219512195122
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "サウンドラッシュ",
+      "score": 40.237242026266415,
+      "ev": 0.9706766441010929,
+      "odds": 32.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 89.6341463414634
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "タイセイアストロ",
+      "score": 33.15487804878049,
+      "ev": 0.965277090150802,
+      "odds": 27.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.46341463414634
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040406",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "カヴァレリッツォ",
+        "time": "1:34.2",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 14,
+        "horseName": "タイセイアストロ",
+        "time": "1:35.0",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "パンサーズ",
+        "time": "1:35.2",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "ジョーカー",
+        "time": "1:35.2",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ジーモンスター",
+        "time": "1:35.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 12,
+        "horseName": "クラックショット",
+        "time": "1:35.9",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 7,
+        "horseId": 13,
+        "horseName": "サウンドラッシュ",
+        "time": "1:36.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "メイショウナナシロ",
+        "time": "1:36.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ボンスヴニール",
+        "time": "1:36.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "リアンマヒナ",
+        "time": "1:36.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "ヒロウッドテール",
+        "time": "1:36.9",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 12,
+        "horseId": 4,
+        "horseName": "ナクソス",
+        "time": "1:36.9",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 13,
+        "horseId": 1,
+        "horseName": "エターナルビジョン",
+        "time": "1:37.3",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 14,
+        "horseId": 10,
+        "horseName": "ヴィシュヴァナート",
+        "time": "1:37.4",
+        "lastThreeF": 37.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 300
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 140
+        },
+        {
+          "horseId": 14,
+          "payout": 510
+        },
+        {
+          "horseId": 5,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-8",
+          "payout": 1920
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "8-14",
+          "payout": 3970
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-14",
+          "payout": 6800
+        }
+      ],
+      "wide": [
+        {
+          "combination": "8-14",
+          "payout": 1420
+        },
+        {
+          "combination": "5-8",
+          "payout": 390
+        },
+        {
+          "combination": "5-14",
+          "payout": 1930
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-8-14",
+          "payout": 6100
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-14-5",
+          "payout": 37860
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "12:55",
+    "raceDate": "20250831",
+    "headCount": 14
+  }
+}

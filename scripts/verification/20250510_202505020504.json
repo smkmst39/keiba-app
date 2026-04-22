@@ -1,0 +1,306 @@
+{
+  "raceId": "202505020504",
+  "raceName": "3歳未勝利",
+  "date": "2025-05-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ナヴァラトゥナ",
+      "score": 72.77,
+      "ev": 1.0636742586976864,
+      "odds": 2.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "モンツァフレイバー",
+      "score": 63.753089500860575,
+      "ev": 0.9824262130025037,
+      "odds": 153.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.819277108433736
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エターナルシルバー",
+      "score": 59.47871772805507,
+      "ev": 0.9959308860780195,
+      "odds": 17,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 34.251290877796905
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ホウオウアーネスト",
+      "score": 50.69161790017211,
+      "ev": 0.9788038142779834,
+      "odds": 13.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 40.963855421686745
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "キングズトゥルー",
+      "score": 47.764546758462416,
+      "ev": 0.979309861477077,
+      "odds": 72.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 14.056224899598394
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "レッドアトラーニ",
+      "score": 44.093861158921406,
+      "ev": 0.9575104397677696,
+      "odds": 9.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.293172690763043
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "イリュストル",
+      "score": 39.69076592082616,
+      "ev": 0.93472376803262,
+      "odds": 1.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 56.62650602409639
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ルディシャ",
+      "score": 32.2,
+      "ev": 0.9762761516628181,
+      "odds": 70.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505020504",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "イリュストル",
+        "time": "2:28.3",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "ナヴァラトゥナ",
+        "time": "2:28.5",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ホウオウアーネスト",
+        "time": "2:28.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "キングズトゥルー",
+        "time": "2:28.7",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "エターナルシルバー",
+        "time": "2:29.1",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "レッドアトラーニ",
+        "time": "2:29.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "モンツァフレイバー",
+        "time": "2:30.0",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ルディシャ",
+        "time": "2:32.1",
+        "lastThreeF": 37.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-7",
+          "payout": 170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-1",
+          "payout": 330
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-7",
+          "payout": 130
+        },
+        {
+          "combination": "4-7",
+          "payout": 310
+        },
+        {
+          "combination": "1-4",
+          "payout": 290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-7",
+          "payout": 530
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-1-4",
+          "payout": 1560
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "3歳",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "11:45",
+    "raceDate": "20250510",
+    "headCount": 8
+  }
+}

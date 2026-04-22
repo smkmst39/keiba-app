@@ -1,0 +1,279 @@
+{
+  "raceId": "202508030402",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マシン",
+      "score": 66.03738255033556,
+      "ev": 1.040588930993883,
+      "odds": 4.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 32.88590604026846
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サイン",
+      "score": 67.685,
+      "ev": 1.0470905646642916,
+      "odds": 4.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マクローリン",
+      "score": 56.44499999999999,
+      "ev": 0.9811368301118977,
+      "odds": 114.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "グロリアス",
+      "score": 51.6184899328859,
+      "ev": 0.9829526379350527,
+      "odds": 8.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 22.81879194630873
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ロードステラート",
+      "score": 43.77134228187919,
+      "ev": 0.9527253088007845,
+      "odds": 3.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 24.161073825503355
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジーティースティア",
+      "score": 36.922281879194635,
+      "ev": 0.9256983543740599,
+      "odds": 4.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 61.07382550335571
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヴィエントデコラ",
+      "score": 32.30278523489933,
+      "ev": 0.9219755532081685,
+      "odds": 6.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.134228187919465
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030402",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "サイン",
+        "time": "1:53.8",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ヴィエントデコラ",
+        "time": "1:54.0",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "マシン",
+        "time": "1:54.5",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ジーティースティア",
+        "time": "1:55.2",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "グロリアス",
+        "time": "1:55.6",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ロードステラート",
+        "time": "1:55.8",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "マクローリン",
+        "time": "1:57.4",
+        "lastThreeF": 40.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 420
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 290
+        },
+        {
+          "horseId": 7,
+          "payout": 330
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 1210
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-7",
+          "payout": 1770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 460
+        },
+        {
+          "combination": "1-2",
+          "payout": 370
+        },
+        {
+          "combination": "1-7",
+          "payout": 390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-7",
+          "payout": 1260
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-7-1",
+          "payout": 6040
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 420
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "10:20",
+    "raceDate": "20251012",
+    "headCount": 7
+  }
+}

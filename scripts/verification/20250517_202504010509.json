@@ -1,0 +1,334 @@
+{
+  "raceId": "202504010509",
+  "raceName": "尖閣湾特別",
+  "date": "2025-05-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "バガン",
+      "score": 67.6460736196319,
+      "ev": 1.0301327705048662,
+      "odds": 5.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 11.65644171779141
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フォーグッド",
+      "score": 67.12062883435581,
+      "ev": 0.9921251380172446,
+      "odds": 47.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.39877300613497
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "シーズオブホープ",
+      "score": 59.519999999999996,
+      "ev": 0.9862225737253281,
+      "odds": 30.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ネイサン",
+      "score": 53.20366564417177,
+      "ev": 0.980329344580374,
+      "odds": 64.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 1.2269938650306738
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アンテロース",
+      "score": 50.231288343558276,
+      "ev": 0.9775226574587675,
+      "odds": 19.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 53.987730061349694
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アドマイヤソラ",
+      "score": 49.707499999999996,
+      "ev": 0.9730114737442664,
+      "odds": 3.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ファイナルヒート",
+      "score": 43.885184049079754,
+      "ev": 0.9504037428728312,
+      "odds": 2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 79.14110429447852
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スピンザブラッド",
+      "score": 39.873450920245396,
+      "ev": 0.9438611239814715,
+      "odds": 6.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 58.89570552147239
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "パーセルペーパー",
+      "score": 32.37791411042945,
+      "ev": 0.9762860825018551,
+      "odds": 70,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.0674846625766876
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504010509",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "アンテロース",
+        "time": "2:03.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "フォーグッド",
+        "time": "2:03.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "バガン",
+        "time": "2:03.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "アドマイヤソラ",
+        "time": "2:03.3",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ネイサン",
+        "time": "2:03.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "スピンザブラッド",
+        "time": "2:03.8",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "シーズオブホープ",
+        "time": "2:03.8",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ファイナルヒート",
+        "time": "2:04.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "パーセルペーパー",
+        "time": "2:05.1",
+        "lastThreeF": 36.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 1990
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 420
+        },
+        {
+          "horseId": 2,
+          "payout": 580
+        },
+        {
+          "horseId": 1,
+          "payout": 220
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-5",
+          "payout": 10810
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 13520
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 30140
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 3100
+        },
+        {
+          "combination": "1-5",
+          "payout": 780
+        },
+        {
+          "combination": "1-2",
+          "payout": 1460
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 15470
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-1",
+          "payout": 133650
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20250517",
+    "headCount": 9
+  }
+}

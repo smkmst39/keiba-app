@@ -1,0 +1,362 @@
+{
+  "raceId": "202508020712",
+  "raceName": "4歳以上2勝クラス",
+  "date": "2025-05-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ホルトバージ",
+      "score": 67.19333333333333,
+      "ev": 1.0287060056814872,
+      "odds": 6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 28.333333333333343
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アルタビスタ",
+      "score": 64.99999999999999,
+      "ev": 0.9904733494244097,
+      "odds": 43.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アラナコア",
+      "score": 62.08416666666667,
+      "ev": 1.0210458336838428,
+      "odds": 2.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 20.416666666666668
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "バガリーロータス",
+      "score": 56.02499999999999,
+      "ev": 0.9835041446385008,
+      "odds": 21.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.000000000000002
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "トーレ",
+      "score": 53.713333333333324,
+      "ev": 0.9842727631570433,
+      "odds": 17.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 35.833333333333336
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヒロノラメール",
+      "score": 51.91833333333332,
+      "ev": 0.9812610572225422,
+      "odds": 8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 63.33333333333332
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "シンリミテス",
+      "score": 44.314166666666665,
+      "ev": 0.9576421180688119,
+      "odds": 8.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 2.916666666666668
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "チカミリオン",
+      "score": 41.10083333333334,
+      "ev": 0.9597883354795291,
+      "odds": 18,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.083333333333336
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "パカーラン",
+      "score": 41.745000000000005,
+      "ev": 0.9420776901324602,
+      "odds": 4.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ヴォルスター",
+      "score": 32.02916666666667,
+      "ev": 0.9421776661899739,
+      "odds": 12,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.41666666666667
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020712",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ヒロノラメール",
+        "time": "1:49.9",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "ホルトバージ",
+        "time": "1:50.3",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "トーレ",
+        "time": "1:50.3",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "パカーラン",
+        "time": "1:50.5",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "チカミリオン",
+        "time": "1:50.9",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "アラナコア",
+        "time": "1:51.0",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "シンリミテス",
+        "time": "1:51.0",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "ヴォルスター",
+        "time": "1:52.1",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "バガリーロータス",
+        "time": "1:53.0",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "アルタビスタ",
+        "time": "1:53.2",
+        "lastThreeF": 40.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 800
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 220
+        },
+        {
+          "horseId": 1,
+          "payout": 190
+        },
+        {
+          "horseId": 5,
+          "payout": 410
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 2860
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 2750
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-1",
+          "payout": 5930
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 820
+        },
+        {
+          "combination": "5-6",
+          "payout": 1200
+        },
+        {
+          "combination": "1-5",
+          "payout": 1360
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-6",
+          "payout": 8790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-1-5",
+          "payout": 49680
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "16:10",
+    "raceDate": "20250517",
+    "headCount": 10,
+    "trackCondition": "重",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場1R 中の最頻値"
+  }
+}

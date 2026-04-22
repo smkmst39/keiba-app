@@ -1,0 +1,336 @@
+{
+  "raceId": "202609020309",
+  "raceName": "アザレア賞",
+  "date": "2026-04-04",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヘルメスギャング",
+      "score": 63.52249999999999,
+      "ev": 0.9823902018790026,
+      "odds": 225,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 1.7241379310344787
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アーレムアレス",
+      "score": 69.04499999999999,
+      "ev": 1.0493475504697507,
+      "odds": 1.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.1724137931034475
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カットソロ",
+      "score": 60.345,
+      "ev": 0.9977042358830988,
+      "odds": 15.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 44.827586206896555
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブラックオリンピア",
+      "score": 59.982499999999995,
+      "ev": 1.0139943434868828,
+      "odds": 2.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 87.50000000000001
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サントルドパリ",
+      "score": 51.875,
+      "ev": 0.9804733266148695,
+      "odds": 34.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.12068965517241
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ノンブルドール",
+      "score": 50.772499999999994,
+      "ev": 0.9784525860667729,
+      "odds": 7.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヴァロンブローサ",
+      "score": 38.175,
+      "ev": 0.9697844673450148,
+      "odds": 32.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 5.1724137931034475
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サトノリシャール",
+      "score": 36.56249999999999,
+      "ev": 0.9685263808068658,
+      "odds": 21,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 56.896551724137936
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "タガノアルトゥーラ",
+      "score": 31.135,
+      "ev": 0.94072949513995,
+      "odds": 14.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609020309",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ブラックオリンピア",
+        "time": "2:27.0",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "アーレムアレス",
+        "time": "2:27.3",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "カットソロ",
+        "time": "2:27.6",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "タガノアルトゥーラ",
+        "time": "2:27.7",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ノンブルドール",
+        "time": "2:28.1",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "サトノリシャール",
+        "time": "2:28.4",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "サントルドパリ",
+        "time": "2:28.8",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ヘルメスギャング",
+        "time": "2:29.1",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "ヴァロンブローサ",
+        "time": "2:29.4",
+        "lastThreeF": 36.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 290
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 120
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-4",
+          "payout": 260
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 310
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-2",
+          "payout": 640
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 170
+        },
+        {
+          "combination": "3-4",
+          "payout": 510
+        },
+        {
+          "combination": "2-3",
+          "payout": 390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-4",
+          "payout": 790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-2-3",
+          "payout": 3750
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "weather": "曇",
+    "handicap": "馬齢",
+    "prize": 1140,
+    "ageLimit": "3歳",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20260404",
+    "headCount": 9,
+    "trackCondition": "良",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場2R 中の最頻値"
+  }
+}

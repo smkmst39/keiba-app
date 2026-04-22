@@ -1,0 +1,456 @@
+{
+  "raceId": "202505050409",
+  "raceName": "銀嶺S",
+  "date": "2025-11-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "カンパニョーラ",
+      "score": 66.97,
+      "ev": 0.9918847303996214,
+      "odds": 36.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ダノンフィーゴ",
+      "score": 68.01201791359325,
+      "ev": 1.0434601473332095,
+      "odds": 2.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 36.3013698630137
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "トクシーカイザー",
+      "score": 64.3790358271865,
+      "ev": 1.0195095665092513,
+      "odds": 8.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 22.602739726027394
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ハピネスアゲン",
+      "score": 61.73920442571127,
+      "ev": 0.9819580482929489,
+      "odds": 81.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 26.027397260273972
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ベンヌ",
+      "score": 63.54615384615384,
+      "ev": 1.0261605987935312,
+      "odds": 2.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "フラムリンガム",
+      "score": 55.22803477344573,
+      "ev": 0.9806969228562086,
+      "odds": 63,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 11.64383561643836
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フウセツ",
+      "score": 53.09977871443624,
+      "ev": 0.9856941692457877,
+      "odds": 4.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 36.13013698630137
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "エコロアレス",
+      "score": 50.819810326659635,
+      "ev": 0.9798431094436264,
+      "odds": 63.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 27.397260273972606
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アジアミッション",
+      "score": 44.99765015806112,
+      "ev": 0.9787154358185287,
+      "odds": 260,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 61.643835616438345
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メイショウコバト",
+      "score": 45.10316122233931,
+      "ev": 0.9787358718836484,
+      "odds": 59.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.712328767123278
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "エリンアキレウス",
+      "score": 41.234357218124345,
+      "ev": 0.9779865369100496,
+      "odds": 51.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 15.068493150684926
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "グレノークス",
+      "score": 34.81377239199157,
+      "ev": 0.976742956528118,
+      "odds": 90.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 32.87671232876712
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "キュムロンニンバス",
+      "score": 36.77900948366702,
+      "ev": 0.9771235963544318,
+      "odds": 88.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 36.13013698630137
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "レーウィン",
+      "score": 36.095684931506845,
+      "ev": 0.949912456370797,
+      "odds": 11.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 73.2876712328767
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505050409",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ダノンフィーゴ",
+        "time": "1:23.4",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 2,
+        "horseId": 12,
+        "horseName": "グレノークス",
+        "time": "1:23.9",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ベンヌ",
+        "time": "1:24.0",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "カンパニョーラ",
+        "time": "1:24.2",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "エリンアキレウス",
+        "time": "1:24.3",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "アジアミッション",
+        "time": "1:24.4",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "フウセツ",
+        "time": "1:24.6",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "トクシーカイザー",
+        "time": "1:24.6",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 9,
+        "horseId": 13,
+        "horseName": "キュムロンニンバス",
+        "time": "1:24.7",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 10,
+        "horseId": 14,
+        "horseName": "レーウィン",
+        "time": "1:24.7",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "メイショウコバト",
+        "time": "1:24.8",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 12,
+        "horseId": 6,
+        "horseName": "フラムリンガム",
+        "time": "1:25.5",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 13,
+        "horseId": 8,
+        "horseName": "エコロアレス",
+        "time": "1:25.7",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 14,
+        "horseId": 4,
+        "horseName": "ハピネスアゲン",
+        "time": "1:27.0",
+        "lastThreeF": 38.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 290
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 140
+        },
+        {
+          "horseId": 12,
+          "payout": 910
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-7",
+          "payout": 4120
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-12",
+          "payout": 9470
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-12",
+          "payout": 12560
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-12",
+          "payout": 1800
+        },
+        {
+          "combination": "2-5",
+          "payout": 210
+        },
+        {
+          "combination": "5-12",
+          "payout": 2500
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-12",
+          "payout": 6190
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-12-5",
+          "payout": 54110
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 290
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "ハンデ",
+    "prize": 1840,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1400,
+    "surface": "dirt",
+    "startTime": "14:15",
+    "raceDate": "20251116",
+    "headCount": 14
+  }
+}

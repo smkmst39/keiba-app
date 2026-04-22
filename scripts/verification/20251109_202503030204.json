@@ -1,0 +1,358 @@
+{
+  "raceId": "202503030204",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フォルガイル",
+      "score": 68.91666666666667,
+      "ev": 1.0389561194197796,
+      "odds": 7.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 33.5632183908046
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ローンウルフ",
+      "score": 65.83,
+      "ev": 1.0291494269611234,
+      "odds": 5.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "グラヴィテ",
+      "score": 59.529999999999994,
+      "ev": 0.9872834018950162,
+      "odds": 20.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 13.103448275862068
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サトノリアン",
+      "score": 56.8,
+      "ev": 0.9927875536551706,
+      "odds": 19.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "グローリーアテイン",
+      "score": 50.38999999999999,
+      "ev": 0.9800592399416205,
+      "odds": 13.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 21.379310344827587
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マグナレガリア",
+      "score": 48.40499999999999,
+      "ev": 0.972235265305582,
+      "odds": 2.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 2.7586206896551704
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アルカンサス",
+      "score": 44.754999999999995,
+      "ev": 0.9688698409126261,
+      "odds": 16.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.758620689655178
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ノーダブルディップ",
+      "score": 41.35,
+      "ev": 0.9513736716518677,
+      "odds": 7.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 53.10344827586208
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ヒットアンドロール",
+      "score": 33.410000000000004,
+      "ev": 0.9665368462508398,
+      "odds": 21.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 35.86206896551724
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "カールスタード",
+      "score": 34.215,
+      "ev": 0.9287049619242721,
+      "odds": 5.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.10344827586208
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503030204",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ローンウルフ",
+        "time": "3:03.3",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "マグナレガリア",
+        "time": "3:03.6",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "グラヴィテ",
+        "time": "3:03.6",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "フォルガイル",
+        "time": "3:04.2",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "アルカンサス",
+        "time": "3:04.5",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "カールスタード",
+        "time": "3:04.6",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "グローリーアテイン",
+        "time": "3:05.0",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "ヒットアンドロール",
+        "time": "3:08.0",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "サトノリアン",
+        "time": "3:08.0",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "ノーダブルディップ",
+        "time": "3:14.6",
+        "lastThreeF": 14.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 560
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 160
+        },
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 3,
+          "payout": 410
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-6",
+          "payout": 620
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-6",
+          "payout": 640
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-6",
+          "payout": 1770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-6",
+          "payout": 310
+        },
+        {
+          "combination": "2-3",
+          "payout": 1200
+        },
+        {
+          "combination": "3-6",
+          "payout": 860
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-6",
+          "payout": 3790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-6-3",
+          "payout": 16180
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2750,
+    "surface": "turf",
+    "startTime": "11:15",
+    "raceDate": "20251109",
+    "headCount": 10
+  }
+}

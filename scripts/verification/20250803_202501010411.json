@@ -1,0 +1,456 @@
+{
+  "raceId": "202501010411",
+  "raceName": "クイーンS",
+  "date": "2025-08-03",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パレハ",
+      "score": 61.66769575715763,
+      "ev": 0.989420330338685,
+      "odds": 26.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 30.941704035874434
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フェアエールング",
+      "score": 58.59515350120731,
+      "ev": 1.0078320119940278,
+      "odds": 7.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 26.905829596412556
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "グランスラムアスク",
+      "score": 55.616153846153836,
+      "ev": 0.9811426601136018,
+      "odds": 304,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ココナッツブラウン",
+      "score": 65.17035874439462,
+      "ev": 1.0411367765484223,
+      "odds": 4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 17.937219730941706
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コンクシェル",
+      "score": 54.49291652293894,
+      "ev": 0.9809176202492107,
+      "odds": 162.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 11.210762331838566
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ドナベティ",
+      "score": 54.13306484994825,
+      "ev": 0.9808455242014592,
+      "odds": 161.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 41.70403587443946
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "レーゼドラマ",
+      "score": 48.91637461193515,
+      "ev": 0.9768058194885357,
+      "odds": 7.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 80.26905829596413
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "シングザットソング",
+      "score": 47.53807002414626,
+      "ev": 0.9780968851748311,
+      "odds": 43,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 38.11659192825111
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ビヨンドザヴァレー",
+      "score": 62.12382545705415,
+      "ev": 0.9897858714890296,
+      "odds": 24.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 14.349775784753364
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アルジーヌ",
+      "score": 48.99884615384616,
+      "ev": 0.9763377367522623,
+      "odds": 2.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ライラック",
+      "score": 36.2915729561918,
+      "ev": 0.9690839717940541,
+      "odds": 39.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 9.417040358744394
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "アリスヴェリテ",
+      "score": 39.021317695757155,
+      "ev": 0.9581789552494858,
+      "odds": 11.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.730941704035875
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "クリスマスパレード",
+      "score": 34.94765436357365,
+      "ev": 0.9320278357739373,
+      "odds": 8.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 59.64125560538117
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "フィールシンパシー",
+      "score": 31.26641255605381,
+      "ev": 0.965056821372257,
+      "odds": 29.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 20.627802690582957
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010411",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "アルジーヌ",
+        "time": "1:46.0",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ココナッツブラウン",
+        "time": "1:46.0",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "フェアエールング",
+        "time": "1:46.1",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "ライラック",
+        "time": "1:46.3",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "パレハ",
+        "time": "1:46.3",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ビヨンドザヴァレー",
+        "time": "1:46.3",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "シングザットソング",
+        "time": "1:46.5",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 8,
+        "horseId": 12,
+        "horseName": "アリスヴェリテ",
+        "time": "1:47.0",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 9,
+        "horseId": 13,
+        "horseName": "クリスマスパレード",
+        "time": "1:47.0",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "レーゼドラマ",
+        "time": "1:47.2",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "ドナベティ",
+        "time": "1:47.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 12,
+        "horseId": 3,
+        "horseName": "グランスラムアスク",
+        "time": "1:47.4",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 13,
+        "horseId": 5,
+        "horseName": "コンクシェル",
+        "time": "1:47.6",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 14,
+        "horseId": 14,
+        "horseName": "フィールシンパシー",
+        "time": "1:47.8",
+        "lastThreeF": 37.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 290
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 150
+        },
+        {
+          "horseId": 2,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-6",
+          "payout": 730
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-10",
+          "payout": 800
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-4",
+          "payout": 1740
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-10",
+          "payout": 350
+        },
+        {
+          "combination": "2-10",
+          "payout": 360
+        },
+        {
+          "combination": "2-4",
+          "payout": 590
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-10",
+          "payout": 1730
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-4-2",
+          "payout": 6540
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "G3",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 3800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "15:25",
+    "raceDate": "20250803",
+    "headCount": 14
+  }
+}

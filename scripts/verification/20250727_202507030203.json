@@ -1,0 +1,254 @@
+{
+  "raceId": "202507030203",
+  "raceName": "2歳新馬",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ロードメルヴェイユ",
+      "score": 61.72,
+      "ev": 0.9870141011108592,
+      "odds": 31.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リントゥラウル",
+      "score": 56.19714285714285,
+      "ev": 0.9912286556336432,
+      "odds": 8.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 32.01970443349753
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ロックターミガン",
+      "score": 47.30285714285714,
+      "ev": 0.9641284062570845,
+      "odds": 6.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 5.911330049261082
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エコロレーヴ",
+      "score": 39.78000000000001,
+      "ev": 0.9557542507367944,
+      "odds": 15.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.448275862068965
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クールドリオン",
+      "score": 35.17142857142857,
+      "ev": 0.9139560190433008,
+      "odds": 1.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.23152709359605
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダノンセフィーロ",
+      "score": 74.89999999999999,
+      "ev": 1.0652686465654047,
+      "odds": 2.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030203",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ロックターミガン",
+        "time": "2:01.5",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ダノンセフィーロ",
+        "time": "2:02.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "クールドリオン",
+        "time": "2:02.1",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ロードメルヴェイユ",
+        "time": "2:02.7",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "リントゥラウル",
+        "time": "2:04.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "エコロレーヴ",
+        "time": "2:05.1",
+        "lastThreeF": 38.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 670
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 220
+        },
+        {
+          "horseId": 6,
+          "payout": 160
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-6",
+          "payout": 940
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-6",
+          "payout": 1770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-6",
+          "payout": 180
+        },
+        {
+          "combination": "3-5",
+          "payout": 170
+        },
+        {
+          "combination": "5-6",
+          "payout": 120
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 320
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-6-5",
+          "payout": 5200
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "10:40",
+    "raceDate": "20250727",
+    "headCount": 6
+  }
+}

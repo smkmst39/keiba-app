@@ -1,0 +1,336 @@
+{
+  "raceId": "202509040207",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-09-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ミッドナイトホーク",
+      "score": 65.1325,
+      "ev": 0.9828626442046595,
+      "odds": 82,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.24137931034483
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エイユーファイヤー",
+      "score": 59.743333333333325,
+      "ev": 1.015967371210085,
+      "odds": 2.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 16.091954022988507
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ディニテ",
+      "score": 56.49583333333333,
+      "ev": 0.9915703839423347,
+      "odds": 16.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.264367816091955
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "モズカトレア",
+      "score": 50.586666666666666,
+      "ev": 0.9799007092976691,
+      "odds": 12.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 35.63218390804598
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ストーンズ",
+      "score": 72.77,
+      "ev": 1.0674186063096225,
+      "odds": 2.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "パワーアイガー",
+      "score": 45.6825,
+      "ev": 0.9790215751564788,
+      "odds": 282.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マテンロウノカゼ",
+      "score": 38.275,
+      "ev": 0.9555871042771802,
+      "odds": 12.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 6.896551724137932
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サーティファイド",
+      "score": 33.446666666666665,
+      "ev": 0.976605190544892,
+      "odds": 136.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 27.658045977011497
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サルタール",
+      "score": 33.6,
+      "ev": 0.912709429325317,
+      "odds": 5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.13793103448276
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040207",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "モズカトレア",
+        "time": "1:52.8",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "エイユーファイヤー",
+        "time": "1:53.2",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ディニテ",
+        "time": "1:53.7",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "ストーンズ",
+        "time": "1:54.1",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "マテンロウノカゼ",
+        "time": "1:54.4",
+        "lastThreeF": 40.8
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "サーティファイド",
+        "time": "1:54.6",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ミッドナイトホーク",
+        "time": "1:55.0",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "パワーアイガー",
+        "time": "1:55.0",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "サルタール",
+        "time": "1:56.0",
+        "lastThreeF": 41.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 1210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 220
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 240
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-4",
+          "payout": 980
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 1130
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-2",
+          "payout": 3230
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 400
+        },
+        {
+          "combination": "3-4",
+          "payout": 1480
+        },
+        {
+          "combination": "2-3",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-4",
+          "payout": 2880
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-2-3",
+          "payout": 22310
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "13:25",
+    "raceDate": "20250907",
+    "headCount": 9
+  }
+}

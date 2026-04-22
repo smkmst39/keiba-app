@@ -1,0 +1,307 @@
+{
+  "raceId": "202509040301",
+  "raceName": "2歳未勝利",
+  "date": "2025-09-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "カムアップローゼス",
+      "score": 69.92999999999999,
+      "ev": 1.055550076380886,
+      "odds": 1.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マーゴットデイズ",
+      "score": 63.95768907563024,
+      "ev": 1.006008480694515,
+      "odds": 12.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.588235294117652
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ノースミソロジー",
+      "score": 59.96449579831932,
+      "ev": 1.0162823022646676,
+      "odds": 4.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.264705882352946
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "チョウモーレツ",
+      "score": 52.930714285714274,
+      "ev": 0.9804283300188212,
+      "odds": 211.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ガルディエンヌ",
+      "score": 48.86957983193277,
+      "ev": 0.9762821139381588,
+      "odds": 17,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 51.47058823529412
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヴォーカライズ",
+      "score": 40.08844537815126,
+      "ev": 0.946370647057807,
+      "odds": 5.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 15.44117647058824
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サトノリシャール",
+      "score": 36.790252100840334,
+      "ev": 0.935973765496452,
+      "odds": 7.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 6.617647058823531
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ブラッドムーン",
+      "score": 33.52205882352941,
+      "ev": 0.9664178632039699,
+      "odds": 46.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.794117647058826
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040301",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ノースミソロジー",
+        "time": "1:54.7",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "カムアップローゼス",
+        "time": "1:54.7",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "サトノリシャール",
+        "time": "1:55.2",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ヴォーカライズ",
+        "time": "1:55.4",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "マーゴットデイズ",
+        "time": "1:56.6",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ブラッドムーン",
+        "time": "1:56.8",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ガルディエンヌ",
+        "time": "1:58.0",
+        "lastThreeF": 41
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "チョウモーレツ",
+        "time": "1:59.9",
+        "lastThreeF": 41.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 430
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 140
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-3",
+          "payout": 340
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-1",
+          "payout": 980
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-3",
+          "payout": 140
+        },
+        {
+          "combination": "3-7",
+          "payout": 300
+        },
+        {
+          "combination": "1-7",
+          "payout": 220
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-7",
+          "payout": 550
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-1-7",
+          "payout": 3150
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "10:01",
+    "raceDate": "20250913",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "raceId": "202506040309",
+  "raceName": "松戸特別",
+  "date": "2025-09-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "インジケーター",
+      "score": 72.59645390070921,
+      "ev": 0.9839244415116347,
+      "odds": 76.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.28368794326241
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "デフィニティーボ",
+      "score": 62.24992907801418,
+      "ev": 0.9877596604228489,
+      "odds": 21,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 31.20567375886525
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "フォーワンセルフ",
+      "score": 62.83063829787234,
+      "ev": 0.9820512986669292,
+      "odds": 55.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.14893617021277
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トゥーザムーン",
+      "score": 60.51329787234042,
+      "ev": 1.012136373507165,
+      "odds": 3.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 48.936170212765965
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ラファールドール",
+      "score": 55.85826241134751,
+      "ev": 0.9871395455420111,
+      "odds": 13.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 44.53900709219859
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クリノラピダス",
+      "score": 52.75237588652482,
+      "ev": 0.9801182266235253,
+      "odds": 94.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 54.609929078014176
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ロードブレイズ",
+      "score": 49.642765957446805,
+      "ev": 0.9704356904252283,
+      "odds": 3.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 82.97872340425532
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "タナサンブラック",
+      "score": 43.89152482269503,
+      "ev": 0.9546985837266326,
+      "odds": 6.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 29.078014184397166
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "イデアユウシン",
+      "score": 39.225,
+      "ev": 0.9775235936322854,
+      "odds": 77.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エアロソニック",
+      "score": 37.00063829787234,
+      "ev": 0.9509694752551602,
+      "odds": 13.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.14893617021277
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ベルベルコンパス",
+      "score": 36.935,
+      "ev": 0.9216871540132362,
+      "odds": 3.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506040309",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 11,
+        "horseName": "ベルベルコンパス",
+        "time": "2:36.1",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ラファールドール",
+        "time": "2:36.6",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "タナサンブラック",
+        "time": "2:36.6",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "エアロソニック",
+        "time": "2:36.7",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "トゥーザムーン",
+        "time": "2:36.7",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "インジケーター",
+        "time": "2:37.2",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "イデアユウシン",
+        "time": "2:38.0",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "デフィニティーボ",
+        "time": "2:38.6",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "フォーワンセルフ",
+        "time": "2:38.7",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "クリノラピダス",
+        "time": "2:38.8",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "ロードブレイズ",
+        "time": "2:39.7",
+        "lastThreeF": 39.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 11,
+          "payout": 320
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 11,
+          "payout": 190
+        },
+        {
+          "horseId": 5,
+          "payout": 290
+        },
+        {
+          "horseId": 8,
+          "payout": 210
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-8",
+          "payout": 2020
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-11",
+          "payout": 2460
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "11-5",
+          "payout": 3670
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-11",
+          "payout": 830
+        },
+        {
+          "combination": "8-11",
+          "payout": 430
+        },
+        {
+          "combination": "5-8",
+          "payout": 950
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-8-11",
+          "payout": 4020
+        }
+      ],
+      "santan": [
+        {
+          "combination": "11-5-8",
+          "payout": 17650
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 11,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "曇",
+    "handicap": "ハンデ",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 2400,
+    "surface": "dirt",
+    "startTime": "14:15",
+    "raceDate": "20250913",
+    "headCount": 11,
+    "trackCondition": "稍重",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場6R 中の最頻値"
+  }
+}

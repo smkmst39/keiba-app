@@ -1,0 +1,307 @@
+{
+  "raceId": "202507040108",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エコテーラー",
+      "score": 67.2732679738562,
+      "ev": 1.0451514568480933,
+      "odds": 4.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 5.228758169934644
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フルレゾン",
+      "score": 60.885107376283834,
+      "ev": 1.0199731038404147,
+      "odds": 4.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 10.457516339869283
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マドモアゼルアスク",
+      "score": 62.22714285714285,
+      "ev": 1.0026313072116397,
+      "odds": 12.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マーゴットレジーナ",
+      "score": 54.63659663865545,
+      "ev": 0.9953451680330301,
+      "odds": 1.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 29.411764705882366
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ルミエールドゥース",
+      "score": 50.04752100840336,
+      "ev": 0.9786288722600095,
+      "odds": 14.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 41.176470588235304
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヒルノセビリア",
+      "score": 37.77285714285715,
+      "ev": 0.9774439137583116,
+      "odds": 56.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ノーランサンライズ",
+      "score": 37.65740896358543,
+      "ev": 0.9542116233427181,
+      "odds": 14.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 21.568627450980397
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "バレンシア",
+      "score": 35.44630718954248,
+      "ev": 0.9679416780966987,
+      "odds": 48.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 62.09150326797387
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "フルレゾン",
+        "time": "1:57.9",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "マーゴットレジーナ",
+        "time": "1:58.6",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ノーランサンライズ",
+        "time": "1:58.7",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "エコテーラー",
+        "time": "1:58.8",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "マドモアゼルアスク",
+        "time": "1:58.9",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "バレンシア",
+        "time": "1:59.2",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ルミエールドゥース",
+        "time": "2:00.2",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "ヒルノセビリア",
+        "time": "2:00.4",
+        "lastThreeF": 35.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 420
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 130
+        },
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 190
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-4",
+          "payout": 860
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 180
+        },
+        {
+          "combination": "2-7",
+          "payout": 620
+        },
+        {
+          "combination": "4-7",
+          "payout": 440
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-7",
+          "payout": 1320
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-4-7",
+          "payout": 6200
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:45",
+    "raceDate": "20250823",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "raceId": "202608020203",
+  "raceName": "3歳未勝利",
+  "date": "2026-02-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジャイアンバローズ",
+      "score": 69.613231292517,
+      "ev": 1.0170225526981365,
+      "odds": 14.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.210884353741495
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "タケルフォーカス",
+      "score": 65.59183673469386,
+      "ev": 1.02657132533397,
+      "odds": 6.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.204081632653061
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "グランシャン",
+      "score": 62.28095238095238,
+      "ev": 0.9890360520335536,
+      "odds": 40.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.809523809523814
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "セイカンサンラン",
+      "score": 57.510306122448974,
+      "ev": 0.9813199873142454,
+      "odds": 124.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.36734693877551
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ベルウッドバモス",
+      "score": 53.05510204081632,
+      "ev": 0.9804430513859428,
+      "odds": 294.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.122448979591833
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダテオトコ",
+      "score": 47.33802721088435,
+      "ev": 0.9772709452366792,
+      "odds": 27.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.965986394557824
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "リードアクター",
+      "score": 40.35857142857143,
+      "ev": 0.9717757666335329,
+      "odds": 26.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 14.28571428571428
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ファントムヴォルト",
+      "score": 38.27,
+      "ev": 0.977532839654753,
+      "odds": 238.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "パラダイスフェイス",
+      "score": 36.0241156462585,
+      "ev": 0.9218154621727441,
+      "odds": 2.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 13.605442176870747
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アスクチャンスマン",
+      "score": 38,
+      "ev": 0.9295938891458667,
+      "odds": 1.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608020203",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "アスクチャンスマン",
+        "time": "2:01.3",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "パラダイスフェイス",
+        "time": "2:02.2",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ダテオトコ",
+        "time": "2:02.7",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "グランシャン",
+        "time": "2:02.8",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ジャイアンバローズ",
+        "time": "2:03.1",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "リードアクター",
+        "time": "2:03.5",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "タケルフォーカス",
+        "time": "2:03.6",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "セイカンサンラン",
+        "time": "2:04.1",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "ファントムヴォルト",
+        "time": "2:04.1",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ベルウッドバモス",
+        "time": "2:04.9",
+        "lastThreeF": 40.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 240
+        }
+      ],
+      "waku": [
+        {
+          "combination": "8-8",
+          "payout": 200
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "9-10",
+          "payout": 190
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-9",
+          "payout": 360
+        }
+      ],
+      "wide": [
+        {
+          "combination": "9-10",
+          "payout": 140
+        },
+        {
+          "combination": "6-10",
+          "payout": 360
+        },
+        {
+          "combination": "6-9",
+          "payout": 470
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-9-10",
+          "payout": 630
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-9-6",
+          "payout": 1540
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1900,
+    "surface": "dirt",
+    "startTime": "10:55",
+    "raceDate": "20260201",
+    "headCount": 10
+  }
+}

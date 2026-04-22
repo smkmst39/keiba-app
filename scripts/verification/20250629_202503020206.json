@@ -1,0 +1,279 @@
+{
+  "raceId": "202503020206",
+  "raceName": "2歳新馬",
+  "date": "2025-06-29",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アビエーション",
+      "score": 64.3493983152828,
+      "ev": 0.9894525588368913,
+      "odds": 41.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.127557160048134
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ハッピーエンジェル",
+      "score": 56.8,
+      "ev": 0.9982542040387903,
+      "odds": 3.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ビースタニング",
+      "score": 51.2572202166065,
+      "ev": 0.9784780264050743,
+      "odds": 14.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.469314079422386
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コパノセビリア",
+      "score": 45.735379061371845,
+      "ev": 0.9751476716670847,
+      "odds": 43,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.29963898916968
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ナンヨーラーク",
+      "score": 38.685018050541515,
+      "ev": 0.9774323660412387,
+      "odds": 57.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 5.776173285198557
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ハイティー",
+      "score": 38,
+      "ev": 0.9260151365048245,
+      "odds": 1.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "セイウンアインス",
+      "score": 69.5187725631769,
+      "ev": 1.0337009066412657,
+      "odds": 7.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.220216606498198
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020206",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ハッピーエンジェル",
+        "time": "1:10.2",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ハイティー",
+        "time": "1:10.7",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "セイウンアインス",
+        "time": "1:10.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "アビエーション",
+        "time": "1:12.0",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ビースタニング",
+        "time": "1:12.8",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ナンヨーラーク",
+        "time": "1:13.0",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "コパノセビリア",
+        "time": "1:13.4",
+        "lastThreeF": 37.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 130
+        },
+        {
+          "horseId": 6,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-6",
+          "payout": 230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-6",
+          "payout": 580
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-6",
+          "payout": 120
+        },
+        {
+          "combination": "2-7",
+          "payout": 210
+        },
+        {
+          "combination": "6-7",
+          "payout": 150
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-7",
+          "payout": 240
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-6-7",
+          "payout": 1380
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "13:05",
+    "raceDate": "20250629",
+    "headCount": 7
+  }
+}

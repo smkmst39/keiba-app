@@ -1,0 +1,383 @@
+{
+  "raceId": "202510020310",
+  "raceName": "TAインディア賞",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブラックサウザー",
+      "score": 65.17542483660131,
+      "ev": 0.9829794269019895,
+      "odds": 80.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 32.67973856209151
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "コーラルハート",
+      "score": 58.73862745098039,
+      "ev": 0.9816975642772496,
+      "odds": 111.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 9.803921568627452
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "トーレ",
+      "score": 53.059999999999995,
+      "ev": 0.9890670109222662,
+      "odds": 7.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トゥルブレンシア",
+      "score": 56.04588235294117,
+      "ev": 0.984645259159031,
+      "odds": 39.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.411764705882366
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アレナパラシオ",
+      "score": 69.88225490196078,
+      "ev": 1.0191677340838483,
+      "odds": 17.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.60784313725491
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ギマール",
+      "score": 49.46771241830065,
+      "ev": 0.9785129838358033,
+      "odds": 14.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 16.339869281045754
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "バイファーザベスト",
+      "score": 48.04552287581699,
+      "ev": 0.9795680749868212,
+      "odds": 67.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 24.83660130718955
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "タカサンフェイス",
+      "score": 45.16542483660131,
+      "ev": 0.9699451490548255,
+      "odds": 15.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 32.67973856209151
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "キングツェッペリン",
+      "score": 39.64869281045752,
+      "ev": 0.9715835185659593,
+      "odds": 29,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 37.90849673202616
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メイショウズイウン",
+      "score": 38.14,
+      "ev": 0.9319085892521493,
+      "odds": 1.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ケイアイメキラ",
+      "score": 28.988954248366014,
+      "ev": 0.963092140239981,
+      "odds": 37.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 30.326797385620928
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020310",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "メイショウズイウン",
+        "time": "1:46.6",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "キングツェッペリン",
+        "time": "1:46.8",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ギマール",
+        "time": "1:47.2",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "トゥルブレンシア",
+        "time": "1:47.3",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "タカサンフェイス",
+        "time": "1:47.3",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "トーレ",
+        "time": "1:47.5",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "バイファーザベスト",
+        "time": "1:47.9",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "アレナパラシオ",
+        "time": "1:48.0",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ブラックサウザー",
+        "time": "1:48.3",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "コーラルハート",
+        "time": "1:48.4",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ケイアイメキラ",
+        "time": "1:48.4",
+        "lastThreeF": 38.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 120
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 250
+        },
+        {
+          "horseId": 6,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 440
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "9-10",
+          "payout": 930
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-9",
+          "payout": 960
+        }
+      ],
+      "wide": [
+        {
+          "combination": "9-10",
+          "payout": 410
+        },
+        {
+          "combination": "6-10",
+          "payout": 270
+        },
+        {
+          "combination": "6-9",
+          "payout": 1960
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-9-10",
+          "payout": 2560
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-9-6",
+          "payout": 6230
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "15:01",
+    "raceDate": "20250705",
+    "headCount": 11
+  }
+}

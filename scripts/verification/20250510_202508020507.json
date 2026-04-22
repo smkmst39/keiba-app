@@ -1,0 +1,383 @@
+{
+  "raceId": "202508020507",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2025-05-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "レディーヴァリュー",
+      "score": 66.62256198347107,
+      "ev": 1.0425211166813166,
+      "odds": 3.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 42.97520661157025
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ファームツエンティ",
+      "score": 64.345,
+      "ev": 0.9907093115303797,
+      "odds": 27.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マテンロウゴールド",
+      "score": 62.55,
+      "ev": 1.026473497258936,
+      "odds": 3.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トリオンファルマン",
+      "score": 55.392782369146005,
+      "ev": 0.9809135513936263,
+      "odds": 89,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 40.22038567493114
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "キングピン",
+      "score": 56.70227272727272,
+      "ev": 1.0034309746062493,
+      "odds": 3.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 59.09090909090908
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヤマニンアラクリア",
+      "score": 51.58471074380165,
+      "ev": 0.9801632806251922,
+      "odds": 104.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.115702479338847
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タマモランプ",
+      "score": 48.1149173553719,
+      "ev": 0.9716745253512798,
+      "odds": 8.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 26.033057851239672
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サスケ",
+      "score": 46.96090909090909,
+      "ev": 0.9650458752693097,
+      "odds": 4.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 63.636363636363626
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "オーサムピクチャ",
+      "score": 39.68938016528926,
+      "ev": 0.9778196485478643,
+      "odds": 101.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.247933884297524
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "スナークサファイア",
+      "score": 37.157782369146005,
+      "ev": 0.9773208701605994,
+      "odds": 223.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 40.22038567493114
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "マハナ",
+      "score": 29.195289256198347,
+      "ev": 0.9757520903648773,
+      "odds": 61.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 33.884297520661164
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020507",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "レディーヴァリュー",
+        "time": "2:01.6",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "トリオンファルマン",
+        "time": "2:02.1",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "マテンロウゴールド",
+        "time": "2:02.5",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ファームツエンティ",
+        "time": "2:02.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "キングピン",
+        "time": "2:02.7",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "サスケ",
+        "time": "2:02.7",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "オーサムピクチャ",
+        "time": "2:02.8",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "ヤマニンアラクリア",
+        "time": "2:02.8",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "タマモランプ",
+        "time": "2:02.8",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "マハナ",
+        "time": "2:03.3",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "スナークサファイア",
+        "time": "2:03.4",
+        "lastThreeF": 36.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 350
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 180
+        },
+        {
+          "horseId": 4,
+          "payout": 1470
+        },
+        {
+          "horseId": 3,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-4",
+          "payout": 10270
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 12810
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-4",
+          "payout": 14750
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 3260
+        },
+        {
+          "combination": "1-3",
+          "payout": 360
+        },
+        {
+          "combination": "3-4",
+          "payout": 3630
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-4",
+          "payout": 8910
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-4-3",
+          "payout": 62690
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 350
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:25",
+    "raceDate": "20250510",
+    "headCount": 11
+  }
+}

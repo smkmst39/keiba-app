@@ -1,0 +1,299 @@
+{
+  "raceId": "202509030105",
+  "raceName": "2歳新馬",
+  "date": "2025-06-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "カレイジャスビート",
+      "score": 69.62857142857142,
+      "ev": 1.0302983690552519,
+      "odds": 6.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "チュウワカーネギー",
+      "score": 58.94183673469387,
+      "ev": 1.0025266848096772,
+      "odds": 2.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.632653061224492
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ホワイトフレイムス",
+      "score": 56.48163265306122,
+      "ev": 0.986619263694625,
+      "odds": 14.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 55.10204081632652
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アスクエジンバラ",
+      "score": 72.79897959183673,
+      "ev": 1.0548423952076036,
+      "odds": 4.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 63.775510204081634
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ソンブレロ",
+      "score": 50.33935860058309,
+      "ev": 0.9795024614139991,
+      "odds": 54.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 40.08746355685131
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アンドゥーリル",
+      "score": 44.69591836734694,
+      "ev": 0.9549945653519863,
+      "odds": 5.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 33.6734693877551
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ツーエムボヌール",
+      "score": 37.471428571428575,
+      "ev": 0.977073407648132,
+      "odds": 63.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アンディムジーク",
+      "score": 33.44285714285714,
+      "ev": 0.9210070746734396,
+      "odds": 6.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.428571428571423
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509030105",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "チュウワカーネギー",
+        "time": "1:36.2",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "アンドゥーリル",
+        "time": "1:36.3",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ホワイトフレイムス",
+        "time": "1:36.5",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "アスクエジンバラ",
+        "time": "1:36.5",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "アンディムジーク",
+        "time": "1:36.7",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ツーエムボヌール",
+        "time": "1:38.0",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "カレイジャスビート",
+        "time": "1:38.0",
+        "lastThreeF": 33.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 150
+        },
+        {
+          "horseId": 3,
+          "payout": 230
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-6",
+          "payout": 660
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-6",
+          "payout": 1040
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-6",
+          "payout": 270
+        },
+        {
+          "combination": "2-3",
+          "payout": 540
+        },
+        {
+          "combination": "3-6",
+          "payout": 880
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-6",
+          "payout": 2340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-6-3",
+          "payout": 7590
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20250607",
+    "headCount": 8
+  }
+}

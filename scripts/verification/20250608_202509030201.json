@@ -1,0 +1,382 @@
+{
+  "raceId": "202509030201",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-06-08",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "イグニス",
+      "score": 68.97872881355931,
+      "ev": 1.0149717534990612,
+      "odds": 19.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 16.271186440677965
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ゴールデンスロープ",
+      "score": 67.8272033898305,
+      "ev": 0.9832718545759331,
+      "odds": 88.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.79661016949152
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "オステリア",
+      "score": 60.5293220338983,
+      "ev": 0.987375467037709,
+      "odds": 28.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 40.67796610169492
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メイショウカゲカツ",
+      "score": 59.30796610169491,
+      "ev": 0.9864195285642035,
+      "odds": 40.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.033898305084747
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ナムラドーギー",
+      "score": 53.98499999999999,
+      "ev": 0.9856332906966314,
+      "odds": 14.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "サンダーアラート",
+      "score": 52.08525423728813,
+      "ev": 0.9838320571216231,
+      "odds": 3.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.745762711864412
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テイエムデンセツ",
+      "score": 44.96762711864407,
+      "ev": 0.9787988856670584,
+      "odds": 139,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 2.3728813559322033
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "デザートスター",
+      "score": 43.64025423728813,
+      "ev": 0.9566265047527235,
+      "odds": 5.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 24.745762711864412
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "タマモエース",
+      "score": 40.051864406779664,
+      "ev": 0.9367402143492979,
+      "odds": 2.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.135593220338984
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ロードプレジール",
+      "score": 39.56,
+      "ev": 0.9438522694810407,
+      "odds": 5.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "カズラポニアン",
+      "score": 31.233305084745766,
+      "ev": 0.9761114694738048,
+      "odds": 100.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 1.6949152542372874
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509030201",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "サンダーアラート",
+        "time": "3:20.8",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "タマモエース",
+        "time": "3:21.3",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ゴールデンスロープ",
+        "time": "3:22.4",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "イグニス",
+        "time": "3:22.8",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "ロードプレジール",
+        "time": "3:23.6",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "オステリア",
+        "time": "3:24.2",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ナムラドーギー",
+        "time": "3:26.1",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "メイショウカゲカツ",
+        "time": "3:27.2",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 9,
+        "horseId": 11,
+        "horseName": "カズラポニアン",
+        "time": "3:27.3",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "テイエムデンセツ",
+        "time": "3:35.3",
+        "lastThreeF": 14.5
+      },
+      {
+        "rank": 11,
+        "horseId": 8,
+        "horseName": "デザートスター",
+        "time": "3:41.0",
+        "lastThreeF": 14.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 1230
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 310
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-9",
+          "payout": 420
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-9",
+          "payout": 950
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-9",
+          "payout": 210
+        },
+        {
+          "combination": "2-6",
+          "payout": 3640
+        },
+        {
+          "combination": "2-9",
+          "payout": 2990
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-9",
+          "payout": 13510
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-9-2",
+          "payout": 56830
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2970,
+    "surface": "turf",
+    "startTime": "09:50",
+    "raceDate": "20250608",
+    "headCount": 11
+  }
+}

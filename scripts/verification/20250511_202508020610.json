@@ -1,0 +1,383 @@
+{
+  "raceId": "202508020610",
+  "raceName": "橘S",
+  "date": "2025-05-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "モンテシート",
+      "score": 70.70838862559242,
+      "ev": 1.0586464740405535,
+      "odds": 3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 64.45497630331754
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ネーヴェフレスカ",
+      "score": 65.47905213270141,
+      "ev": 0.9916077578769515,
+      "odds": 22.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 37.914691943127956
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ムイ",
+      "score": 58.664573459715626,
+      "ev": 0.9955922010343071,
+      "odds": 14.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.061611374407576
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スリールミニョン",
+      "score": 58.169999999999995,
+      "ev": 1.009235394979321,
+      "odds": 4.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サウスバンク",
+      "score": 53.23644549763032,
+      "ev": 0.9848966616034415,
+      "odds": 13.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 42.180094786729846
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ドゥアムール",
+      "score": 52.471255924170606,
+      "ev": 0.981355575302865,
+      "odds": 41.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 49.763033175355446
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マテンロウサン",
+      "score": 43.804218009478674,
+      "ev": 0.9526229537074631,
+      "odds": 4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 31.27962085308056
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アンダースコア",
+      "score": 45.11405213270142,
+      "ev": 0.9788892363415485,
+      "odds": 51.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 37.914691943127956
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ナイスデスネ",
+      "score": 41.83,
+      "ev": 0.9782421493656395,
+      "odds": 197.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "フードマン",
+      "score": 37.10182464454976,
+      "ev": 0.9369682162880779,
+      "odds": 8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 27.014218009478668
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ミーントゥビー",
+      "score": 31.684763033175358,
+      "ev": 0.9424314007971131,
+      "odds": 13.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.47867298578199
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020610",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ムイ",
+        "time": "1:21.8",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ドゥアムール",
+        "time": "1:21.8",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "マテンロウサン",
+        "time": "1:21.9",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "ミーントゥビー",
+        "time": "1:22.0",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "モンテシート",
+        "time": "1:22.1",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ネーヴェフレスカ",
+        "time": "1:22.1",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "サウスバンク",
+        "time": "1:22.2",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "フードマン",
+        "time": "1:22.2",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "スリールミニョン",
+        "time": "1:22.4",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "アンダースコア",
+        "time": "1:23.0",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 11,
+        "horseId": 9,
+        "horseName": "ナイスデスネ",
+        "time": "1:24.6",
+        "lastThreeF": 36.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 1440
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 360
+        },
+        {
+          "horseId": 6,
+          "payout": 990
+        },
+        {
+          "horseId": 7,
+          "payout": 220
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-6",
+          "payout": 3440
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-6",
+          "payout": 30920
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-6",
+          "payout": 52990
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-6",
+          "payout": 6970
+        },
+        {
+          "combination": "3-7",
+          "payout": 1160
+        },
+        {
+          "combination": "6-7",
+          "payout": 1900
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-7",
+          "payout": 34020
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-6-7",
+          "payout": 356210
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 2000,
+    "ageLimit": "3歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "14:50",
+    "raceDate": "20250511",
+    "headCount": 11
+  }
+}

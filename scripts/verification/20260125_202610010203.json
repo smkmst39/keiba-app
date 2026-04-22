@@ -1,0 +1,456 @@
+{
+  "raceId": "202610010203",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2026-01-25",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マカニ",
+      "score": 67.82681818181818,
+      "ev": 1.0123902691327193,
+      "odds": 13.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.77272727272727
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アイファーモービル",
+      "score": 67.82244755244754,
+      "ev": 1.044763476318139,
+      "odds": 4.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 63.63636363636363
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ララアヴリル",
+      "score": 60.99353146853146,
+      "ev": 1.0181049343882815,
+      "odds": 3.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 19.318181818181817
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スパークルジョイ",
+      "score": 66.12097902097902,
+      "ev": 1.0090606642411077,
+      "odds": 14.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 95.45454545454545
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヨドノゴールド",
+      "score": 55.58024475524474,
+      "ev": 0.9884863444704788,
+      "odds": 10.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 23.86363636363636
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アームズクイーン",
+      "score": 51.05814685314685,
+      "ev": 0.97996597213979,
+      "odds": 70.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 19.318181818181817
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "カップッチョ",
+      "score": 51.33377622377621,
+      "ev": 0.9800197718720149,
+      "odds": 210.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.68181818181818
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ハッピービバーク",
+      "score": 54.67576923076922,
+      "ev": 0.9826883642638001,
+      "odds": 23.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "オコジュ",
+      "score": 46.7113986013986,
+      "ev": 0.979117536098815,
+      "odds": 153,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.86363636363636
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シュシュトディエス",
+      "score": 42.48811188811189,
+      "ev": 0.9782931983522059,
+      "odds": 318,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 42.83216783216783
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ヒラボクカレラ",
+      "score": 40.59265734265735,
+      "ev": 0.9384645417392511,
+      "odds": 3.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 59.09090909090908
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ラインパシオン",
+      "score": 42.53101398601398,
+      "ev": 0.973206289423762,
+      "odds": 29.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 86.36363636363636
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "セイルロケット",
+      "score": 34.683461538461536,
+      "ev": 0.9283171036028252,
+      "odds": 7.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ジェイエルバース",
+      "score": 34.836363636363636,
+      "ev": 0.9767996637333929,
+      "odds": 57.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.45454545454545
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202610010203",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ララアヴリル",
+        "time": "0:58.9",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "アイファーモービル",
+        "time": "0:59.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ヨドノゴールド",
+        "time": "0:59.6",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "オコジュ",
+        "time": "0:59.7",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "マカニ",
+        "time": "0:59.8",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "カップッチョ",
+        "time": "1:00.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 12,
+        "horseName": "ラインパシオン",
+        "time": "1:00.2",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "ヒラボクカレラ",
+        "time": "1:00.2",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "スパークルジョイ",
+        "time": "1:01.0",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "アームズクイーン",
+        "time": "1:01.2",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 11,
+        "horseId": 13,
+        "horseName": "セイルロケット",
+        "time": "1:01.4",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 12,
+        "horseId": 14,
+        "horseName": "ジェイエルバース",
+        "time": "1:01.9",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 13,
+        "horseId": 10,
+        "horseName": "シュシュトディエス",
+        "time": "1:02.0",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 14,
+        "horseId": 8,
+        "horseName": "ハッピービバーク",
+        "time": "1:02.5",
+        "lastThreeF": 38.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 360
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 150
+        },
+        {
+          "horseId": 2,
+          "payout": 170
+        },
+        {
+          "horseId": 5,
+          "payout": 230
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-3",
+          "payout": 600
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-3",
+          "payout": 790
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-2",
+          "payout": 1710
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-3",
+          "payout": 400
+        },
+        {
+          "combination": "3-5",
+          "payout": 630
+        },
+        {
+          "combination": "2-5",
+          "payout": 630
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 2310
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-2-5",
+          "payout": 9350
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 820,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1000,
+    "surface": "dirt",
+    "startTime": "10:45",
+    "raceDate": "20260125",
+    "headCount": 14
+  }
+}

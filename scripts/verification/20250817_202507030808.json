@@ -1,0 +1,253 @@
+{
+  "raceId": "202507030808",
+  "raceName": "常滑特別",
+  "date": "2025-08-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メアヴィア",
+      "score": 57.08070175438596,
+      "ev": 0.9857447484699056,
+      "odds": 24,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 5.701754385964911
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ジャスティンガルフ",
+      "score": 56.78552631578947,
+      "ev": 0.9937704836401822,
+      "odds": 10.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 60.526315789473685
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "バヤシーフェイス",
+      "score": 68.74499999999999,
+      "ev": 0.9837731432730766,
+      "odds": 54.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "タマモランプ",
+      "score": 43.261929824561406,
+      "ev": 0.9586812731674382,
+      "odds": 7.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 21.929824561403503
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ピースヒロフェイス",
+      "score": 39.1509649122807,
+      "ev": 0.9584394281789277,
+      "odds": 11.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.964912280701755
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダノンジョーカー",
+      "score": 34.45,
+      "ev": 0.918041977091422,
+      "odds": 1.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030808",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ダノンジョーカー",
+        "time": "2:04.1",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ピースヒロフェイス",
+        "time": "2:04.2",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "タマモランプ",
+        "time": "2:04.4",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ジャスティンガルフ",
+        "time": "2:04.8",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "バヤシーフェイス",
+        "time": "2:04.8",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "メアヴィア",
+        "time": "2:04.9",
+        "lastThreeF": 33.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 110
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 190
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 340
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 470
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 150
+        },
+        {
+          "combination": "4-6",
+          "payout": 170
+        },
+        {
+          "combination": "4-5",
+          "payout": 340
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-6",
+          "payout": 450
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-4",
+          "payout": 1250
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "16:10",
+    "raceDate": "20250817",
+    "headCount": 6
+  }
+}

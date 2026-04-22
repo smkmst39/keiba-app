@@ -1,0 +1,334 @@
+{
+  "raceId": "202508020809",
+  "raceName": "白川特別",
+  "date": "2025-05-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マルカブリッツ",
+      "score": 69.74088235294117,
+      "ev": 1.03479778138586,
+      "odds": 9.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 29.41176470588236
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シュプリンガー",
+      "score": 64.1325,
+      "ev": 0.982345268522893,
+      "odds": 88.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "キャリーハピネス",
+      "score": 61.02117647058823,
+      "ev": 0.9974635027657188,
+      "odds": 15.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.882352941176475
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アメジストブラック",
+      "score": 56.169852941176465,
+      "ev": 0.992999815681654,
+      "odds": 5.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.764705882352942
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アドミラブルエース",
+      "score": 50.88147058823529,
+      "ev": 0.9797944944802003,
+      "odds": 171.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.352941176470594
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "キープスマイリング",
+      "score": 47.940735294117644,
+      "ev": 0.9792284138368349,
+      "odds": 65.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 51.17647058823529
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アイザックバローズ",
+      "score": 43.675,
+      "ev": 0.9545164096799215,
+      "odds": 9.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サトノスカイターフ",
+      "score": 37.99279411764706,
+      "ev": 0.9370155525681585,
+      "odds": 5.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 26.470588235294123
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アクアヴァーナル",
+      "score": 35.987058823529416,
+      "ev": 0.9185475085255099,
+      "odds": 1.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 65.29411764705884
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020809",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "アクアヴァーナル",
+        "time": "2:24.8",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "アメジストブラック",
+        "time": "2:25.3",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "サトノスカイターフ",
+        "time": "2:25.7",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "シュプリンガー",
+        "time": "2:25.8",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "キャリーハピネス",
+        "time": "2:26.0",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "マルカブリッツ",
+        "time": "2:26.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "キープスマイリング",
+        "time": "2:26.7",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "アイザックバローズ",
+        "time": "2:26.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "アドミラブルエース",
+        "time": "2:29.5",
+        "lastThreeF": 38.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 170
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 140
+        },
+        {
+          "horseId": 8,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-8",
+          "payout": 290
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-9",
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-4",
+          "payout": 580
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-9",
+          "payout": 190
+        },
+        {
+          "combination": "8-9",
+          "payout": 180
+        },
+        {
+          "combination": "4-8",
+          "payout": 310
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-8-9",
+          "payout": 490
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-4-8",
+          "payout": 1380
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "4歳以上",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20250518",
+    "headCount": 9
+  }
+}

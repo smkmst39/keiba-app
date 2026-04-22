@@ -1,0 +1,230 @@
+{
+  "raceId": "202507040205",
+  "raceName": "2歳新馬",
+  "date": "2025-08-24",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アーサーバローズ",
+      "score": 72.725,
+      "ev": 1.0501523031203566,
+      "odds": 3.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 62.5
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "タイセイパルス",
+      "score": 64.5875,
+      "ev": 0.9999619242199108,
+      "odds": 12,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 81.25
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マイネルホウセン",
+      "score": 56.45,
+      "ev": 0.9896953937592868,
+      "odds": 1.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フィラーエ",
+      "score": 41.425000000000004,
+      "ev": 0.9431054977711739,
+      "odds": 8.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ソラーロ",
+      "score": 34.0125,
+      "ev": 0.9210772659732541,
+      "odds": 8.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.249999999999993
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040205",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ソラーロ",
+        "time": "2:05.9",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "タイセイパルス",
+        "time": "2:06.2",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "フィラーエ",
+        "time": "2:06.7",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "マイネルホウセン",
+        "time": "2:06.7",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "アーサーバローズ",
+        "time": "2:06.9",
+        "lastThreeF": 34.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 890
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 560
+        },
+        {
+          "horseId": 2,
+          "payout": 710
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 2170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 5390
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 580
+        },
+        {
+          "combination": "4-5",
+          "payout": 500
+        },
+        {
+          "combination": "2-4",
+          "payout": 740
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-5",
+          "payout": 2830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-4",
+          "payout": 20220
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20250824",
+    "headCount": 5
+  }
+}

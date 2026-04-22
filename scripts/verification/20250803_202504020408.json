@@ -1,0 +1,382 @@
+{
+  "raceId": "202504020408",
+  "raceName": "燕特別",
+  "date": "2025-08-03",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジェットブレード",
+      "score": 67.83472727272728,
+      "ev": 1.0159225175599662,
+      "odds": 18.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.90909090909091
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "キヨラ",
+      "score": 64.345,
+      "ev": 0.9828930044300661,
+      "odds": 136,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "パッションリッチ",
+      "score": 58.07872727272727,
+      "ev": 1.0127482440033808,
+      "odds": 3.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 22.909090909090914
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "パナランギン",
+      "score": 59.675090909090905,
+      "ev": 0.9819572804639911,
+      "odds": 219.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.363636363636374
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ショウナンダール",
+      "score": 49.58090909090909,
+      "ev": 0.9799346783830258,
+      "odds": 143.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 3.6363636363636362
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ウインリュクス",
+      "score": 47.304,
+      "ev": 0.9716551543236863,
+      "odds": 9.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ルトンワージ",
+      "score": 46.38381818181818,
+      "ev": 0.9658813500043718,
+      "odds": 4.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 51.272727272727266
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "トラストエムシー",
+      "score": 42.57418181818182,
+      "ev": 0.9653071901139576,
+      "odds": 12.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 24.72727272727273
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "レヴーズマン",
+      "score": 43.25,
+      "ev": 0.9533226953455161,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ボナーテソーロ",
+      "score": 36.104454545454544,
+      "ev": 0.9689374398880826,
+      "odds": 49.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.81818181818182
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モアナフリューゲル",
+      "score": 33.845090909090914,
+      "ev": 0.97678164437061,
+      "odds": 101,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.363636363636374
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020408",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "パッションリッチ",
+        "time": "2:12.3",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "ボナーテソーロ",
+        "time": "2:12.3",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "レヴーズマン",
+        "time": "2:12.3",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ウインリュクス",
+        "time": "2:12.4",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ジェットブレード",
+        "time": "2:12.7",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "トラストエムシー",
+        "time": "2:12.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 11,
+        "horseName": "モアナフリューゲル",
+        "time": "2:12.8",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "キヨラ",
+        "time": "2:13.3",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "ショウナンダール",
+        "time": "2:13.4",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "パナランギン",
+        "time": "2:13.7",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "ルトンワージ",
+        "time": "2:13.8",
+        "lastThreeF": 35.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 150
+        },
+        {
+          "horseId": 10,
+          "payout": 560
+        },
+        {
+          "horseId": 9,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-8",
+          "payout": 4120
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-10",
+          "payout": 6330
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-10",
+          "payout": 6980
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-10",
+          "payout": 1700
+        },
+        {
+          "combination": "3-9",
+          "payout": 250
+        },
+        {
+          "combination": "9-10",
+          "payout": 1060
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-9-10",
+          "payout": 3630
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-10-9",
+          "payout": 29260
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "16:20",
+    "raceDate": "20250803",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "raceId": "202606010207",
+  "raceName": "3歳1勝クラス",
+  "date": "2026-01-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コスモエルヴァル",
+      "score": 71.49895683453236,
+      "ev": 0.9953071994580902,
+      "odds": 45.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.482014388489205
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ステラスペース",
+      "score": 64.68672661870504,
+      "ev": 1.0050941919219636,
+      "odds": 13.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0.7194244604316552
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アンソニー",
+      "score": 63.71622302158273,
+      "ev": 1.0171478192906354,
+      "odds": 5.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 54.676258992805735
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ヒシアムルーズ",
+      "score": 58.093525179856115,
+      "ev": 0.9997503251288883,
+      "odds": 9.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.30215827338129
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サンブライト",
+      "score": 56.36999999999999,
+      "ev": 0.9836043681122181,
+      "odds": 34.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "セヴェロ",
+      "score": 46.96942446043165,
+      "ev": 0.9616633026602522,
+      "odds": 4.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 33.093525179856115
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "チャリングクロス",
+      "score": 45.91541566746602,
+      "ev": 0.9620693763909665,
+      "odds": 5.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 42.7657873701039
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "フロレセール",
+      "score": 40.604100719424466,
+      "ev": 0.9370441861482495,
+      "odds": 2.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 89.20863309352517
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ユメシルベ",
+      "score": 35.945,
+      "ev": 0.9495121080270392,
+      "odds": 14.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ストロングエース",
+      "score": 33.30478417266187,
+      "ev": 0.976440633621442,
+      "odds": 142,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 37.41007194244604
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606010207",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ステラスペース",
+        "time": "2:01.1",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "フロレセール",
+        "time": "2:01.2",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "チャリングクロス",
+        "time": "2:01.3",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "ユメシルベ",
+        "time": "2:01.4",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "アンソニー",
+        "time": "2:01.6",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "コスモエルヴァル",
+        "time": "2:01.7",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "セヴェロ",
+        "time": "2:02.2",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ヒシアムルーズ",
+        "time": "2:02.4",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "サンブライト",
+        "time": "2:03.3",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "ストロングエース",
+        "time": "2:04.0",
+        "lastThreeF": 38.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 1380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 290
+        },
+        {
+          "horseId": 8,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-7",
+          "payout": 1390
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 2530
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-8",
+          "payout": 6840
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 770
+        },
+        {
+          "combination": "2-7",
+          "payout": 990
+        },
+        {
+          "combination": "7-8",
+          "payout": 350
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-8",
+          "payout": 3640
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-8-7",
+          "payout": 35060
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 820,
+    "ageLimit": "3歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:25",
+    "raceDate": "20260105",
+    "headCount": 10
+  }
+}

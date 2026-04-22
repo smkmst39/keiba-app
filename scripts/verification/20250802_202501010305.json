@@ -1,0 +1,383 @@
+{
+  "raceId": "202501010305",
+  "raceName": "2歳新馬",
+  "date": "2025-08-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "オーシャンステラ",
+      "score": 67.17374269005848,
+      "ev": 1.0078972095765653,
+      "odds": 10.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.409356725146196
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リピース",
+      "score": 63.6872514619883,
+      "ev": 0.982125901314108,
+      "odds": 51,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 33.91812865497076
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ハヤテノオジョー",
+      "score": 60.09900584795321,
+      "ev": 0.9944270787730943,
+      "odds": 10.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.67251461988303
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブラックジャック",
+      "score": 69.67660818713449,
+      "ev": 1.032260169596607,
+      "odds": 8.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.941520467836257
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レッドスティンガー",
+      "score": 58.57976608187134,
+      "ev": 1.0030689647319022,
+      "odds": 3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 73.09941520467835
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "サンダーバード",
+      "score": 53.26169590643275,
+      "ev": 0.9828180062909156,
+      "odds": 2.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.02923976608186
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ポペット",
+      "score": 48.11321637426901,
+      "ev": 0.9766425681916527,
+      "odds": 26.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.88304093567252
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ウチュウノセカイ",
+      "score": 43.27,
+      "ev": 0.972954020644123,
+      "odds": 37.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ビョウブガウラ",
+      "score": 45.38000000000001,
+      "ev": 0.958243906339755,
+      "odds": 7.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サンエンジェルス",
+      "score": 36.26309941520468,
+      "ev": 0.9769044079428504,
+      "odds": 62.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.432748538011693
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ブルーメンフェスト",
+      "score": 32.23391812865497,
+      "ev": 0.9761372614019682,
+      "odds": 74.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0.5847953216374233
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010305",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ポペット",
+        "time": "1:29.3",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "レッドスティンガー",
+        "time": "1:29.8",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "サンダーバード",
+        "time": "1:29.9",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ハヤテノオジョー",
+        "time": "1:29.9",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "サンエンジェルス",
+        "time": "1:30.2",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "オーシャンステラ",
+        "time": "1:30.3",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "ビョウブガウラ",
+        "time": "1:30.3",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ウチュウノセカイ",
+        "time": "1:30.4",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "ブラックジャック",
+        "time": "1:30.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "リピース",
+        "time": "1:30.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ブルーメンフェスト",
+        "time": "1:33.4",
+        "lastThreeF": 38.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 2630
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 400
+        },
+        {
+          "horseId": 5,
+          "payout": 120
+        },
+        {
+          "horseId": 6,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 380
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 5530
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-5",
+          "payout": 13710
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 1330
+        },
+        {
+          "combination": "6-7",
+          "payout": 1020
+        },
+        {
+          "combination": "5-6",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-7",
+          "payout": 3200
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-5-6",
+          "payout": 47450
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1500,
+    "surface": "turf",
+    "startTime": "12:20",
+    "raceDate": "20250802",
+    "headCount": 11
+  }
+}

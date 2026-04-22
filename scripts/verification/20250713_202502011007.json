@@ -1,0 +1,456 @@
+{
+  "raceId": "202502011007",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ロートホルン",
+      "score": 64.25307692307692,
+      "ev": 1.0352082285717612,
+      "odds": 1.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "パルティキュリエ",
+      "score": 59.558615384615386,
+      "ev": 1.009249753709901,
+      "odds": 6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 67.99999999999999
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ハーエクセレンシー",
+      "score": 61.644487179487164,
+      "ev": 1.0024235564090258,
+      "odds": 19.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 73.33333333333333
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "イリスレーン",
+      "score": 69.40233333333332,
+      "ev": 0.9951321349791592,
+      "odds": 23.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 11.333333333333332
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "エイトスターズ",
+      "score": 58.18735897435897,
+      "ev": 0.9862231336466375,
+      "odds": 41.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 62.66666666666666
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ソニックドライブ",
+      "score": 47.717897435897434,
+      "ev": 0.9747658902807389,
+      "odds": 18.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 10.666666666666666
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "エイシンジェンマ",
+      "score": 48.16576923076922,
+      "ev": 0.9730485540220533,
+      "odds": 8.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ウインシャーガス",
+      "score": 49.36964102564103,
+      "ev": 0.9768739021972332,
+      "odds": 7.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.33333333333332
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エリム",
+      "score": 42.003846153846155,
+      "ev": 0.9783418006447827,
+      "odds": 201.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 9.999999999999998
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ピリカサンライズ",
+      "score": 38.78938461538462,
+      "ev": 0.9708136842907382,
+      "odds": 20.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "シャーリーゴールド",
+      "score": 63.65020512820512,
+      "ev": 0.9826406834325192,
+      "odds": 84.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 40.666666666666664
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ダークブロンド",
+      "score": 40.57658974358974,
+      "ev": 0.9780583530671552,
+      "odds": 62.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 52.666666666666664
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "フラッシングレート",
+      "score": 33.39379487179487,
+      "ev": 0.9665275116543366,
+      "odds": 26.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 57.33333333333333
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ネクストヒロイン",
+      "score": 28.235333333333333,
+      "ev": 0.9756074274946863,
+      "odds": 330.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 17.33333333333333
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502011007",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ロートホルン",
+        "time": "1:46.6",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ウインシャーガス",
+        "time": "1:46.7",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "パルティキュリエ",
+        "time": "1:46.8",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ハーエクセレンシー",
+        "time": "1:46.9",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ソニックドライブ",
+        "time": "1:47.2",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "エイシンジェンマ",
+        "time": "1:47.2",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "エイトスターズ",
+        "time": "1:47.2",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "イリスレーン",
+        "time": "1:47.2",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 9,
+        "horseId": 13,
+        "horseName": "フラッシングレート",
+        "time": "1:47.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 10,
+        "horseId": 12,
+        "horseName": "ダークブロンド",
+        "time": "1:47.6",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 11,
+        "horseId": 9,
+        "horseName": "エリム",
+        "time": "1:47.8",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 12,
+        "horseId": 10,
+        "horseName": "ピリカサンライズ",
+        "time": "1:47.9",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 13,
+        "horseId": 11,
+        "horseName": "シャーリーゴールド",
+        "time": "1:48.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 14,
+        "horseId": 14,
+        "horseName": "ネクストヒロイン",
+        "time": "1:49.0",
+        "lastThreeF": 35.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 8,
+          "payout": 200
+        },
+        {
+          "horseId": 2,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-5",
+          "payout": 420
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 820
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-8",
+          "payout": 940
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 350
+        },
+        {
+          "combination": "1-2",
+          "payout": 240
+        },
+        {
+          "combination": "2-8",
+          "payout": 650
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-8",
+          "payout": 1300
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-8-2",
+          "payout": 3820
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:15",
+    "raceDate": "20250713",
+    "headCount": 14
+  }
+}

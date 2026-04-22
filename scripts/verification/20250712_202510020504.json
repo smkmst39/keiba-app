@@ -1,0 +1,278 @@
+{
+  "raceId": "202510020504",
+  "raceName": "ソレイユJS",
+  "date": "2025-07-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ネビーイーム",
+      "score": 66.80017667844523,
+      "ev": 1.0485287787530708,
+      "odds": 2.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 21.554770318021202
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "オールザワールド",
+      "score": 59.4,
+      "ev": 1.0187809471629627,
+      "odds": 2.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ナイトスピアー",
+      "score": 58.050176678445226,
+      "ev": 0.9966774088405428,
+      "odds": 10.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.554770318021202
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スズカハービン",
+      "score": 48.18621908127208,
+      "ev": 0.9768514396669038,
+      "odds": 15.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 18.72791519434629
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アサクサゲンキ",
+      "score": 50.3,
+      "ev": 0.9817600221184785,
+      "odds": 9.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マイネルヴァッサー",
+      "score": 33.62593639575972,
+      "ev": 0.9767586135873915,
+      "odds": 74,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 4.240282685512367
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グルーヴビート",
+      "score": 31.906484098939927,
+      "ev": 0.9441301388365732,
+      "odds": 17.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.0600706713780903
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020504",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ネビーイーム",
+        "time": "3:47.8",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "オールザワールド",
+        "time": "3:48.7",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "アサクサゲンキ",
+        "time": "3:48.9",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ナイトスピアー",
+        "time": "3:49.0",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "スズカハービン",
+        "time": "3:49.5",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "グルーヴビート",
+        "time": "3:50.6",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "マイネルヴァッサー",
+        "time": "3:51.1",
+        "lastThreeF": 13.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-2",
+          "payout": 360
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 120
+        },
+        {
+          "combination": "1-5",
+          "payout": 230
+        },
+        {
+          "combination": "2-5",
+          "payout": 260
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-5",
+          "payout": 380
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-2-5",
+          "payout": 1150
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 210
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 170
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害3歳以上",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1750,
+    "ageLimit": "3歳以上",
+    "distance": 3390,
+    "surface": "turf",
+    "startTime": "11:35",
+    "raceDate": "20250712",
+    "headCount": 7
+  }
+}

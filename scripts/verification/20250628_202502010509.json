@@ -1,0 +1,305 @@
+{
+  "raceId": "202502010509",
+  "raceName": "長万部特別",
+  "date": "2025-06-28",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ハリウッドメモリー",
+      "score": 68.57963525835865,
+      "ev": 1.0459027199471087,
+      "odds": 1.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 81.91489361702128
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スプリングデイ",
+      "score": 56.42714285714285,
+      "ev": 0.9809392028027224,
+      "odds": 64.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エルサトアナ",
+      "score": 53.57816109422491,
+      "ev": 0.9861901958043132,
+      "odds": 6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.40425531914894
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アルマロクザン",
+      "score": 49.26354103343464,
+      "ev": 0.9795504368794523,
+      "odds": 120.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 27.6595744680851
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ラセーヌシュメール",
+      "score": 42.97360182370821,
+      "ev": 0.9733241714331087,
+      "odds": 28.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.3404255319149
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アジュマン",
+      "score": 40.062917933130706,
+      "ev": 0.935335309196455,
+      "odds": 2.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.68085106382979
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ブルーアイドガール",
+      "score": 69.92999999999999,
+      "ev": 1.036910774002811,
+      "odds": 6.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "フリントロック",
+      "score": 31.845,
+      "ev": 0.9761736053894247,
+      "odds": 166.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010509",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "エルサトアナ",
+        "time": "1:08.6",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ブルーアイドガール",
+        "time": "1:08.6",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "アジュマン",
+        "time": "1:08.9",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ハリウッドメモリー",
+        "time": "1:09.0",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ラセーヌシュメール",
+        "time": "1:09.0",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "フリントロック",
+        "time": "1:09.1",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "スプリングデイ",
+        "time": "1:09.2",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "アルマロクザン",
+        "time": "1:09.5",
+        "lastThreeF": 34.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 600
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 300
+        },
+        {
+          "horseId": 7,
+          "payout": 390
+        },
+        {
+          "horseId": 6,
+          "payout": 180
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-7",
+          "payout": 1260
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-7",
+          "payout": 3080
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-7",
+          "payout": 410
+        },
+        {
+          "combination": "3-6",
+          "payout": 270
+        },
+        {
+          "combination": "6-7",
+          "payout": 270
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-7",
+          "payout": 1340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-7-6",
+          "payout": 9770
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20250628",
+    "headCount": 8
+  }
+}

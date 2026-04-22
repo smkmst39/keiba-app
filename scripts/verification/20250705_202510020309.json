@@ -1,0 +1,305 @@
+{
+  "raceId": "202510020309",
+  "raceName": "ロイヤルバンコクSC賞",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サラコスティ",
+      "score": 65.89287375415282,
+      "ev": 1.037414666418775,
+      "odds": 4.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.95348837209302
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ミュージシャン",
+      "score": 58.00470099667773,
+      "ev": 1.0065990221262668,
+      "odds": 2.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 8.837209302325583
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "レッドイステル",
+      "score": 74.89999999999999,
+      "ev": 1.0726015730730083,
+      "odds": 3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ホースワン",
+      "score": 54.54161129568105,
+      "ev": 0.980653512191624,
+      "odds": 105.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 27.77408637873755
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゼンノインヴォーク",
+      "score": 44.46428571428571,
+      "ev": 0.9589620287911101,
+      "odds": 9.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "キーパフォーマー",
+      "score": 42.190415282392024,
+      "ev": 0.9729639035520198,
+      "odds": 23.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 8.837209302325583
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サンライズグラシア",
+      "score": 36.73014950166113,
+      "ev": 0.9686977290344267,
+      "odds": 33.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.581395348837211
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オーシンエス",
+      "score": 32.84313953488372,
+      "ev": 0.9441518978141741,
+      "odds": 13,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.209302325581394
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020309",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ミュージシャン",
+        "time": "2:00.1",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "キーパフォーマー",
+        "time": "2:00.2",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "オーシンエス",
+        "time": "2:00.7",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "サンライズグラシア",
+        "time": "2:00.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ゼンノインヴォーク",
+        "time": "2:01.6",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ホースワン",
+        "time": "2:01.6",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "サラコスティ",
+        "time": "2:02.1",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "レッドイステル",
+        "time": "2:02.9",
+        "lastThreeF": 39.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 130
+        },
+        {
+          "horseId": 6,
+          "payout": 320
+        },
+        {
+          "horseId": 8,
+          "payout": 210
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-6",
+          "payout": 2420
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-6",
+          "payout": 3160
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-6",
+          "payout": 700
+        },
+        {
+          "combination": "2-8",
+          "payout": 370
+        },
+        {
+          "combination": "6-8",
+          "payout": 1390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-8",
+          "payout": 4680
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-6-8",
+          "payout": 20080
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20250705",
+    "headCount": 8
+  }
+}

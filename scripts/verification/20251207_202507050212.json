@@ -1,0 +1,358 @@
+{
+  "raceId": "202507050212",
+  "raceName": "栄特別",
+  "date": "2025-12-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "メイショウアイル",
+      "score": 70.24662337662338,
+      "ev": 1.0352002088746877,
+      "odds": 6.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 56.493506493506494
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メイショウアゴナス",
+      "score": 63.133636363636356,
+      "ev": 0.9820881003593142,
+      "odds": 102.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 4.545454545454549
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヤマニンヒストリア",
+      "score": 64.99474025974025,
+      "ev": 1.028888861259962,
+      "odds": 4.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 88.96103896103895
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サミダレナイツ",
+      "score": 55.00896103896103,
+      "ev": 0.9821299250289067,
+      "odds": 29,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 5.8441558441558445
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "オーサムユニバンス",
+      "score": 55.08948051948051,
+      "ev": 0.9909579639691164,
+      "odds": 4.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 77.92207792207792
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ホウオウレイヴン",
+      "score": 52.99045454545454,
+      "ev": 0.9823360147206923,
+      "odds": 6.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 81.81818181818183
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "トゥルーサクセサー",
+      "score": 44.45188311688311,
+      "ev": 0.9651113376683119,
+      "odds": 13.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.532467532467535
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マハートマーベル",
+      "score": 39.335,
+      "ev": 0.9775314120177544,
+      "odds": 76.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サリーチェ",
+      "score": 41.15844155844157,
+      "ev": 0.971522174286034,
+      "odds": 24.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 83.76623376623377
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アスクコモンタレヴ",
+      "score": 35.870000000000005,
+      "ev": 0.9173594758239982,
+      "odds": 3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507050212",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ホウオウレイヴン",
+        "time": "2:12.1",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "サミダレナイツ",
+        "time": "2:12.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "メイショウアイル",
+        "time": "2:12.6",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "オーサムユニバンス",
+        "time": "2:12.8",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "アスクコモンタレヴ",
+        "time": "2:12.8",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "トゥルーサクセサー",
+        "time": "2:12.9",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "サリーチェ",
+        "time": "2:13.0",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ヤマニンヒストリア",
+        "time": "2:13.5",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "メイショウアゴナス",
+        "time": "2:13.6",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "マハートマーベル",
+        "time": "2:13.6",
+        "lastThreeF": 35.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 660
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 240
+        },
+        {
+          "horseId": 4,
+          "payout": 550
+        },
+        {
+          "horseId": 1,
+          "payout": 250
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-6",
+          "payout": 9850
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-6",
+          "payout": 7860
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-4",
+          "payout": 12750
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-6",
+          "payout": 2090
+        },
+        {
+          "combination": "1-6",
+          "payout": 740
+        },
+        {
+          "combination": "1-4",
+          "payout": 2090
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-6",
+          "payout": 12780
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-4-1",
+          "payout": 94060
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "16:30",
+    "raceDate": "20251207",
+    "headCount": 10
+  }
+}

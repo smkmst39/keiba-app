@@ -1,0 +1,384 @@
+{
+  "raceId": "202508040302",
+  "raceName": "2歳未勝利",
+  "date": "2025-11-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ファフロツキーズ",
+      "score": 71.35,
+      "ev": 0.9953452219860744,
+      "odds": 38.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ショーンバローズ",
+      "score": 65.41,
+      "ev": 0.9826844112477545,
+      "odds": 80.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "タイムレスラブ",
+      "score": 58.11714285714286,
+      "ev": 0.9812701687898563,
+      "odds": 122.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 23.57142857142857
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "リフラ",
+      "score": 62.79428571428571,
+      "ev": 1.0017716777264936,
+      "odds": 12.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 82.14285714285714
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アイカンアズーラ",
+      "score": 53.85499999999999,
+      "ev": 0.9844364726720405,
+      "odds": 18.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 9.999999999999995
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ユナダイヤ",
+      "score": 51.395714285714284,
+      "ev": 0.9799667386695015,
+      "odds": 54.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.857142857142856
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "メロウアンバー",
+      "score": 45.65857142857143,
+      "ev": 0.9788541828005652,
+      "odds": 280.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.285714285714285
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スマートジュリアス",
+      "score": 46.29428571428572,
+      "ev": 0.9595492305216465,
+      "odds": 1.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.14285714285714
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ミッキージャンプ",
+      "score": 39.65814285714286,
+      "ev": 0.9430491223536943,
+      "odds": 5.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.07142857142859
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シャマレル",
+      "score": 35.86642857142857,
+      "ev": 0.9769552748813364,
+      "odds": 158.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.714285714285714
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "リリーサンライズ",
+      "score": 36.84,
+      "ev": 0.968576285605704,
+      "odds": 31.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 80
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040302",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "スマートジュリアス",
+        "time": "1:25.0",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "アイカンアズーラ",
+        "time": "1:25.3",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "リフラ",
+        "time": "1:26.4",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "ミッキージャンプ",
+        "time": "1:26.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ユナダイヤ",
+        "time": "1:26.6",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "リリーサンライズ",
+        "time": "1:27.1",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "タイムレスラブ",
+        "time": "1:27.2",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "メロウアンバー",
+        "time": "1:27.4",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "シャマレル",
+        "time": "1:28.0",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "ショーンバローズ",
+        "time": "1:28.0",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 11,
+        "horseId": 1,
+        "horseName": "ファフロツキーズ",
+        "time": "1:29.5",
+        "lastThreeF": 40.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 120
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 100
+        },
+        {
+          "horseId": 5,
+          "payout": 150
+        },
+        {
+          "horseId": 4,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 510
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 570
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-5",
+          "payout": 680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 240
+        },
+        {
+          "combination": "4-8",
+          "payout": 230
+        },
+        {
+          "combination": "4-5",
+          "payout": 620
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-8",
+          "payout": 870
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-5-4",
+          "payout": 2130
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1400,
+    "surface": "dirt",
+    "startTime": "10:35",
+    "raceDate": "20251115",
+    "headCount": 11
+  }
+}

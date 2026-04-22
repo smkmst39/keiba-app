@@ -1,0 +1,480 @@
+{
+  "raceId": "202603010404",
+  "raceName": "3歳未勝利",
+  "date": "2026-04-19",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ゴールデンボート",
+      "score": 68.035,
+      "ev": 0.9831408139802253,
+      "odds": 137.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トゥルージョワ",
+      "score": 67.29428571428572,
+      "ev": 1.0099774660841574,
+      "odds": 12.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.85714285714286,
+        "training": 92.85714285714286,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "サトノワーグナー",
+      "score": 68.40357142857141,
+      "ev": 1.0442400551850999,
+      "odds": 2.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 84.99999999999999
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ヒケヤイワフネ",
+      "score": 60.51799999999999,
+      "ev": 0.9816889215911704,
+      "odds": 300.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 78.57142857142857,
+        "training": 78.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 49.57142857142857
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アスクハッピーマン",
+      "score": 59.89114285714285,
+      "ev": 0.9862713819268798,
+      "odds": 22.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジーゲスツーク",
+      "score": 56.26942857142857,
+      "ev": 0.9834732766153139,
+      "odds": 27.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 64.28571428571429,
+        "training": 64.28571428571429,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 5.999999999999998
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マルシュボヌール",
+      "score": 57.396714285714275,
+      "ev": 0.9908605196596919,
+      "odds": 19,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 76.99999999999999
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "タイガーゲイト",
+      "score": 50.897999999999996,
+      "ev": 0.9798308392733962,
+      "odds": 85.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 41
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アドフランマム",
+      "score": 51.41528571428571,
+      "ev": 0.978892030351805,
+      "odds": 7.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 76.99999999999999
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アラクラン",
+      "score": 50.18557142857143,
+      "ev": 0.9750917636238216,
+      "odds": 5.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 35.714285714285715,
+        "training": 35.714285714285715,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 88.99999999999999
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "アイビーチーキー",
+      "score": 43.66385714285714,
+      "ev": 0.9549372821338239,
+      "odds": 5.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.999999999999996
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "オーケーグリット",
+      "score": 40.52914285714286,
+      "ev": 0.9778281168084617,
+      "odds": 83.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 21.428571428571427,
+        "training": 21.428571428571427,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 43.99999999999999
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "グランドタルマエ",
+      "score": 36.50342857142858,
+      "ev": 0.9770505587491377,
+      "odds": 215.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 69
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "エッジランナー",
+      "score": 30.909714285714287,
+      "ev": 0.9759701448608875,
+      "odds": 296.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.142857142857142,
+        "training": 7.142857142857142,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 18.000000000000004
+      }
+    },
+    {
+      "horseId": 15,
+      "horseName": "ストリートクイーン",
+      "score": 34.694,
+      "ev": 0.9272171441710738,
+      "odds": 5.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 43
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202603010404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "アラクラン",
+        "time": "1:46.3",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "アイビーチーキー",
+        "time": "1:46.5",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "マルシュボヌール",
+        "time": "1:47.4",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "サトノワーグナー",
+        "time": "1:47.4",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 5,
+        "horseId": 15,
+        "horseName": "ストリートクイーン",
+        "time": "1:47.6",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "アスクハッピーマン",
+        "time": "1:47.8",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "タイガーゲイト",
+        "time": "1:48.8",
+        "lastThreeF": 39.8
+      },
+      {
+        "rank": 8,
+        "horseId": 14,
+        "horseName": "エッジランナー",
+        "time": "1:49.3",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "アドフランマム",
+        "time": "1:49.4",
+        "lastThreeF": 40.3
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "トゥルージョワ",
+        "time": "1:49.6",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 11,
+        "horseId": 12,
+        "horseName": "オーケーグリット",
+        "time": "1:50.0",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 12,
+        "horseId": 1,
+        "horseName": "ゴールデンボート",
+        "time": "1:51.2",
+        "lastThreeF": 41.2
+      },
+      {
+        "rank": 13,
+        "horseId": 4,
+        "horseName": "ヒケヤイワフネ",
+        "time": "1:51.4",
+        "lastThreeF": 41.5
+      },
+      {
+        "rank": 14,
+        "horseId": 6,
+        "horseName": "ジーゲスツーク",
+        "time": "1:51.5",
+        "lastThreeF": 41.3
+      },
+      {
+        "rank": 15,
+        "horseId": 13,
+        "horseName": "グランドタルマエ",
+        "time": "1:57.0",
+        "lastThreeF": 45.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 580
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 220
+        },
+        {
+          "horseId": 11,
+          "payout": 190
+        },
+        {
+          "horseId": 7,
+          "payout": 390
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-6",
+          "payout": 1530
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "10-11",
+          "payout": 1570
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-11",
+          "payout": 3000
+        }
+      ],
+      "wide": [
+        {
+          "combination": "10-11",
+          "payout": 600
+        },
+        {
+          "combination": "7-10",
+          "payout": 1650
+        },
+        {
+          "combination": "7-11",
+          "payout": 1270
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "7-10-11",
+          "payout": 8870
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-11-7",
+          "payout": 41590
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "11:10",
+    "raceDate": "20260419",
+    "headCount": 15
+  }
+}

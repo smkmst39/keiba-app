@@ -1,0 +1,360 @@
+{
+  "raceId": "202508020807",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2025-05-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブルーワール",
+      "score": 69.73499999999999,
+      "ev": 1.0315800909186328,
+      "odds": 6.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ハギノカノア",
+      "score": 63.09114035087719,
+      "ev": 0.9819638893772844,
+      "odds": 52.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 56.14035087719299
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "デンタルフロス",
+      "score": 59.70114035087719,
+      "ev": 0.9813210481675133,
+      "odds": 73.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 56.14035087719298
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メイショウコナン",
+      "score": 53.62719298245613,
+      "ev": 0.9833850714658912,
+      "odds": 4.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 77.19298245614034
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ポルトドール",
+      "score": 52.00991228070175,
+      "ev": 0.9772514155198428,
+      "odds": 3.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 64.91228070175438
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "タケノシンセイ",
+      "score": 44.5,
+      "ev": 0.9550156169194689,
+      "odds": 5.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "メイショウカシワデ",
+      "score": 42.8421052631579,
+      "ev": 0.9424818334897216,
+      "odds": 4.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.105263157894726
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "トゥルース",
+      "score": 38.53859649122808,
+      "ev": 0.9692320920251328,
+      "odds": 46.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.59649122807018
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "タマモネモフィラ",
+      "score": 67.08087719298246,
+      "ev": 0.9908818315601666,
+      "odds": 41.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50.877192982456144
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シゲルオトヒメ",
+      "score": 36.22043859649123,
+      "ev": 0.9486843379522332,
+      "odds": 17.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 75.43859649122805
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020807",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "メイショウカシワデ",
+        "time": "1:59.1",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "ブルーワール",
+        "time": "1:59.3",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "タケノシンセイ",
+        "time": "1:59.4",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "メイショウコナン",
+        "time": "1:59.4",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ポルトドール",
+        "time": "1:59.6",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ハギノカノア",
+        "time": "2:00.0",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "シゲルオトヒメ",
+        "time": "2:00.0",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "トゥルース",
+        "time": "2:00.1",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "デンタルフロス",
+        "time": "2:00.7",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "タマモネモフィラ",
+        "time": "2:01.0",
+        "lastThreeF": 37.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 410
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 170
+        },
+        {
+          "horseId": 1,
+          "payout": 170
+        },
+        {
+          "horseId": 6,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 1190
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-7",
+          "payout": 1230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-1",
+          "payout": 2120
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-7",
+          "payout": 420
+        },
+        {
+          "combination": "6-7",
+          "payout": 390
+        },
+        {
+          "combination": "1-6",
+          "payout": 430
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-6-7",
+          "payout": 1290
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-1-6",
+          "payout": 6250
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "重",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "4歳以上",
+    "courseTurn": "右",
+    "distance": 1900,
+    "surface": "dirt",
+    "startTime": "13:15",
+    "raceDate": "20250518",
+    "headCount": 10
+  }
+}

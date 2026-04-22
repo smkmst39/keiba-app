@@ -1,0 +1,278 @@
+{
+  "raceId": "202507030403",
+  "raceName": "2歳新馬",
+  "date": "2025-08-03",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サーディンラン",
+      "score": 71.38828124999999,
+      "ev": 1.0497038119272148,
+      "odds": 4.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 39.453125000000014
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラエトゥス",
+      "score": 68.75,
+      "ev": 1.0277891412464397,
+      "odds": 6.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ダディーズサンクス",
+      "score": 56.8,
+      "ev": 0.9829179026283555,
+      "odds": 24,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ヴォーカライズ",
+      "score": 51.239062499999996,
+      "ev": 0.9748643024748749,
+      "odds": 5.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.156250000000005
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フルールドール",
+      "score": 49.8015625,
+      "ev": 0.968149525538289,
+      "odds": 1.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 91.40625000000001
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "グッドホース",
+      "score": 39.25625,
+      "ev": 0.9774154749782323,
+      "odds": 58.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.625000000000005
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "エルナト",
+      "score": 33.3328125,
+      "ev": 0.9207446761411432,
+      "odds": 7.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.531250000000007
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030403",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ラエトゥス",
+        "time": "1:36.9",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "サーディンラン",
+        "time": "1:36.9",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "エルナト",
+        "time": "1:37.1",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "フルールドール",
+        "time": "1:37.3",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "グッドホース",
+        "time": "1:37.6",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ヴォーカライズ",
+        "time": "1:37.6",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ダディーズサンクス",
+        "time": "1:37.9",
+        "lastThreeF": 35
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 690
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 330
+        },
+        {
+          "horseId": 1,
+          "payout": 260
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 1200
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-1",
+          "payout": 2540
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 450
+        },
+        {
+          "combination": "2-7",
+          "payout": 580
+        },
+        {
+          "combination": "1-7",
+          "payout": 470
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-7",
+          "payout": 1850
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-1-7",
+          "payout": 10140
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 1200
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "10:40",
+    "raceDate": "20250803",
+    "headCount": 7
+  }
+}

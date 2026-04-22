@@ -1,0 +1,358 @@
+{
+  "raceId": "202504010610",
+  "raceName": "信濃川特別",
+  "date": "2025-05-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ドラゴンヘッド",
+      "score": 68.60731707317072,
+      "ev": 0.9928516205642952,
+      "odds": 20.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 62.19512195121951
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ストップザタイム",
+      "score": 61.947560975609754,
+      "ev": 1.0186063999612947,
+      "odds": 5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 79.26829268292684
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "サダムオプシス",
+      "score": 58.568292682926824,
+      "ev": 1.0004722478026835,
+      "odds": 5.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.487804878048784
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エコロレイズ",
+      "score": 54.32682926829268,
+      "ev": 0.9874026089017187,
+      "odds": 6.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.04878048780488
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "マイネルオーシャン",
+      "score": 73.55475609756097,
+      "ev": 1.0466515133259915,
+      "odds": 8.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 82.9268292682927
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ピクシレーション",
+      "score": 49.42999999999999,
+      "ev": 0.9780783816645517,
+      "odds": 36.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "コスモエクスプレス",
+      "score": 46.266951219512194,
+      "ev": 0.9756417282417921,
+      "odds": 20.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 36.585365853658544
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ファミリータイム",
+      "score": 38.18853658536586,
+      "ev": 0.9270926230334067,
+      "odds": 4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 47.5609756097561
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ミスティア",
+      "score": 35.235,
+      "ev": 0.9478581720589966,
+      "odds": 11.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "バードウォッチャー",
+      "score": 33.119512195121956,
+      "ev": 0.922054414396895,
+      "odds": 8.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.853658536585366
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504010610",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ドラゴンヘッド",
+        "time": "2:01.4",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ストップザタイム",
+        "time": "2:01.5",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "サダムオプシス",
+        "time": "2:01.6",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "マイネルオーシャン",
+        "time": "2:01.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ミスティア",
+        "time": "2:01.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ファミリータイム",
+        "time": "2:01.9",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "エコロレイズ",
+        "time": "2:02.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "ピクシレーション",
+        "time": "2:02.2",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "コスモエクスプレス",
+        "time": "2:02.4",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "バードウォッチャー",
+        "time": "2:02.8",
+        "lastThreeF": 35.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 2020
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 410
+        },
+        {
+          "horseId": 2,
+          "payout": 190
+        },
+        {
+          "horseId": 3,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-2",
+          "payout": 4950
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-2",
+          "payout": 5050
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-2",
+          "payout": 11360
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-2",
+          "payout": 1640
+        },
+        {
+          "combination": "1-3",
+          "payout": 1210
+        },
+        {
+          "combination": "2-3",
+          "payout": 470
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-3",
+          "payout": 5660
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-2-3",
+          "payout": 45550
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:40",
+    "raceDate": "20250518",
+    "headCount": 10
+  }
+}

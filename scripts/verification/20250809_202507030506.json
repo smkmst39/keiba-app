@@ -1,0 +1,382 @@
+{
+  "raceId": "202507030506",
+  "raceName": "中京スポニチ賞",
+  "date": "2025-08-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アドマイヤジェイ",
+      "score": 67.93255319148936,
+      "ev": 0.99413671462141,
+      "odds": 20.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 16.595744680851066
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "コト",
+      "score": 60.933617021276596,
+      "ev": 0.9885591322650951,
+      "odds": 29.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 8.51063829787234
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ジッピーレーサー",
+      "score": 62.771808510638294,
+      "ev": 0.9825060053095279,
+      "odds": 155.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 24.255319148936167
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スリールミニョン",
+      "score": 53.059999999999995,
+      "ev": 0.9891380019069783,
+      "odds": 5.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "タガノアンファン",
+      "score": 53.2959574468085,
+      "ev": 0.9923626967648072,
+      "odds": 3.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 18.723404255319146
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "パルティクラール",
+      "score": 51.93340425531915,
+      "ev": 0.9855467815298162,
+      "odds": 9.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.127659574468087
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "メイショウコギク",
+      "score": 46.85180851063829,
+      "ev": 0.9793342693144762,
+      "odds": 82.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.255319148936169
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ジュンゴールド",
+      "score": 42.393787234042556,
+      "ev": 0.9644609930507388,
+      "odds": 16.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 21.617021276595743
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ダノンキラウェア",
+      "score": 39.30478723404256,
+      "ev": 0.9452908627618709,
+      "odds": 5.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 13.617021276595745
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "カンシン",
+      "score": 41.334999999999994,
+      "ev": 0.944703149944048,
+      "odds": 4.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "タイセイカレント",
+      "score": 32.31393617021276,
+      "ev": 0.923006306022982,
+      "odds": 9.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 8.085106382978722
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030506",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "スリールミニョン",
+        "time": "1:21.0",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "アドマイヤジェイ",
+        "time": "1:21.1",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ジュンゴールド",
+        "time": "1:21.1",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ジッピーレーサー",
+        "time": "1:21.1",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ダノンキラウェア",
+        "time": "1:21.1",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "タイセイカレント",
+        "time": "1:21.2",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "コト",
+        "time": "1:21.2",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "カンシン",
+        "time": "1:21.3",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "タガノアンファン",
+        "time": "1:21.3",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "パルティクラール",
+        "time": "1:21.5",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "メイショウコギク",
+        "time": "1:21.5",
+        "lastThreeF": 33.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 530
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 240
+        },
+        {
+          "horseId": 1,
+          "payout": 500
+        },
+        {
+          "horseId": 8,
+          "payout": 590
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-4",
+          "payout": 4820
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 5640
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-1",
+          "payout": 8340
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 1760
+        },
+        {
+          "combination": "4-8",
+          "payout": 1980
+        },
+        {
+          "combination": "1-8",
+          "payout": 4220
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-8",
+          "payout": 30730
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-1-8",
+          "payout": 117430
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "15:01",
+    "raceDate": "20250809",
+    "headCount": 11
+  }
+}

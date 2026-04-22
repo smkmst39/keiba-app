@@ -1,0 +1,336 @@
+{
+  "raceId": "202507030701",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コパノロケット",
+      "score": 69.5865923566879,
+      "ev": 0.994764733350075,
+      "odds": 22.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.751592356687905
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ゴーゴーシャチョウ",
+      "score": 66.29769108280253,
+      "ev": 1.0287054560892792,
+      "odds": 6.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.210191082802552
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マイントップスター",
+      "score": 58.809999999999995,
+      "ev": 0.9815708854940371,
+      "odds": 208.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カガラプンツェル",
+      "score": 51.54855095541401,
+      "ev": 0.9814219317273654,
+      "odds": 11.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 21.65605095541402
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "テーオーグレーザー",
+      "score": 52.770159235668785,
+      "ev": 0.9876508995130185,
+      "odds": 3.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 42.675159235668794
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ヴィエントデコラ",
+      "score": 47.14578025477707,
+      "ev": 0.9771037867610994,
+      "odds": 29.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.10828025477707
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ラッキーバック",
+      "score": 38.445286624203824,
+      "ev": 0.941025950502051,
+      "odds": 9.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 34.315286624203814
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サンブル",
+      "score": 35.18351910828025,
+      "ev": 0.9769223681496204,
+      "odds": 95.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 33.12101910828026
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アウトザロー",
+      "score": 37.644999999999996,
+      "ev": 0.9281333053640636,
+      "odds": 1.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030701",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "テーオーグレーザー",
+        "time": "1:12.7",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ラッキーバック",
+        "time": "1:13.3",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "サンブル",
+        "time": "1:14.2",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ヴィエントデコラ",
+        "time": "1:14.4",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ゴーゴーシャチョウ",
+        "time": "1:14.6",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "カガラプンツェル",
+        "time": "1:14.7",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "コパノロケット",
+        "time": "1:14.7",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "アウトザロー",
+        "time": "1:15.5",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "マイントップスター",
+        "time": "1:19.6",
+        "lastThreeF": 43.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 340
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 300
+        },
+        {
+          "horseId": 8,
+          "payout": 950
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 1370
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 1460
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-7",
+          "payout": 2640
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 570
+        },
+        {
+          "combination": "5-8",
+          "payout": 2020
+        },
+        {
+          "combination": "7-8",
+          "payout": 3570
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-7-8",
+          "payout": 14100
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-7-8",
+          "payout": 65560
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "左",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "09:35",
+    "raceDate": "20250816",
+    "headCount": 9
+  }
+}

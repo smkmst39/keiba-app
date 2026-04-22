@@ -1,0 +1,358 @@
+{
+  "raceId": "202502010609",
+  "raceName": "臥牛山特別",
+  "date": "2025-06-29",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "レクスノヴァス",
+      "score": 69.67299999999999,
+      "ev": 1.051008897748821,
+      "odds": 2.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 15.999999999999998
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウィンスタンリー",
+      "score": 65.83,
+      "ev": 1.0248485437837311,
+      "odds": 5.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "タルタロス",
+      "score": 60.544999999999995,
+      "ev": 0.987100695288569,
+      "odds": 37.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "トゥルブレンツ",
+      "score": 54.88466666666667,
+      "ev": 0.9806743164616457,
+      "odds": 65.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 52.666666666666664
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サングラデーション",
+      "score": 53.968999999999994,
+      "ev": 0.9819849273107405,
+      "odds": 43.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ボルケーノ",
+      "score": 51.57033333333332,
+      "ev": 0.9801188959660297,
+      "odds": 20.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 57.33333333333333
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マイネルゼウス",
+      "score": 47.12233333333333,
+      "ev": 0.9632929774233805,
+      "odds": 2.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 51.33333333333332
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マイバラード",
+      "score": 41.212,
+      "ev": 0.9601516993241601,
+      "odds": 19.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.000000000000002
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シュバルツマサムネ",
+      "score": 33.534,
+      "ev": 0.9243504643360724,
+      "odds": 8.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 38
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エイトスターズ",
+      "score": 35.83466666666667,
+      "ev": 0.949693521985057,
+      "odds": 15.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 62.66666666666666
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010609",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "シュバルツマサムネ",
+        "time": "1:59.1",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "レクスノヴァス",
+        "time": "1:59.1",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "マイネルゼウス",
+        "time": "1:59.7",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "サングラデーション",
+        "time": "1:59.9",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "トゥルブレンツ",
+        "time": "2:00.2",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "タルタロス",
+        "time": "2:00.2",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "マイバラード",
+        "time": "2:00.3",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "ウィンスタンリー",
+        "time": "2:01.0",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ボルケーノ",
+        "time": "2:01.1",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "エイトスターズ",
+        "time": "2:01.6",
+        "lastThreeF": 37.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 890
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 220
+        },
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 7,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-8",
+          "payout": 710
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-9",
+          "payout": 1490
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-1",
+          "payout": 3660
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-9",
+          "payout": 530
+        },
+        {
+          "combination": "7-9",
+          "payout": 440
+        },
+        {
+          "combination": "1-7",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-7-9",
+          "payout": 1210
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-1-7",
+          "payout": 12530
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20250629",
+    "headCount": 10
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "raceId": "202505050108",
+  "raceName": "3歳以上2勝クラス",
+  "date": "2025-11-08",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クロシェットノエル",
+      "score": 71.97920074349442,
+      "ev": 1.044111816285282,
+      "odds": 9.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 55.76208178438663
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マフィン",
+      "score": 63.21635953266064,
+      "ev": 0.9823017595773044,
+      "odds": 220.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 7.80669144981413
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "シルバープリペット",
+      "score": 57.492142857142845,
+      "ev": 0.9811878400502833,
+      "odds": 170.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コスモアバンサ",
+      "score": 53.12629049389271,
+      "ev": 0.9813530204979454,
+      "odds": 36.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.613382899628256
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クラッシファイド",
+      "score": 52.749285714285705,
+      "ev": 0.9852978170615543,
+      "odds": 4.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "エストゥペンダ",
+      "score": 40.68363781200213,
+      "ev": 0.9383388650638157,
+      "odds": 1.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50.18587360594796
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ビーオンザカバー",
+      "score": 39.451991502920876,
+      "ev": 0.9335453537352286,
+      "odds": 4.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 34.14763674986724
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ルクスドヌーヴ",
+      "score": 32.40559479553903,
+      "ev": 0.9763060549370659,
+      "odds": 255,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.66542750929368
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505050108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "エストゥペンダ",
+        "time": "1:58.3",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ビーオンザカバー",
+        "time": "1:58.4",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "クラッシファイド",
+        "time": "1:58.8",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "クロシェットノエル",
+        "time": "1:58.8",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "コスモアバンサ",
+        "time": "1:59.3",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ルクスドヌーヴ",
+        "time": "1:59.6",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "シルバープリペット",
+        "time": "1:59.9",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "マフィン",
+        "time": "2:00.2",
+        "lastThreeF": 34.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "6-7",
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-7",
+          "payout": 460
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-7",
+          "payout": 140
+        },
+        {
+          "combination": "5-6",
+          "payout": 120
+        },
+        {
+          "combination": "5-7",
+          "payout": 190
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-7",
+          "payout": 260
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-7-5",
+          "payout": 1040
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:50",
+    "raceDate": "20251108",
+    "headCount": 8
+  }
+}

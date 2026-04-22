@@ -1,0 +1,329 @@
+{
+  "raceId": "202508030411",
+  "raceName": "太秦S",
+  "date": "2025-10-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ネバーモア",
+      "score": 67.77654028436018,
+      "ev": 1.0368129661861047,
+      "odds": 7.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 38.38862559241706
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ハビレ",
+      "score": 65.01212085308056,
+      "ev": 1.0279697591684023,
+      "odds": 8.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 15.165876777251183
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "サーマルソアリング",
+      "score": 55.6746682464455,
+      "ev": 0.9913123906267446,
+      "odds": 16,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 13.270142180094787
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エナハツホ",
+      "score": 55.9842298578199,
+      "ev": 0.9811931308423539,
+      "odds": 124.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 30.80568720379147
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カネトシゴウト",
+      "score": 51.55710900473934,
+      "ev": 0.9812320018268818,
+      "odds": 44.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.639810426540283
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジンセイ",
+      "score": 51.4825,
+      "ev": 0.9858616721369416,
+      "odds": 1.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タイセイドレフォン",
+      "score": 41.425000000000004,
+      "ev": 0.9731290041014823,
+      "odds": 31.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ハピ",
+      "score": 32.392263033175354,
+      "ev": 0.923620848751465,
+      "odds": 9.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 9.47867298578199
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ルヴァンユニベール",
+      "score": 28.844928909952607,
+      "ev": 0.8953414324882057,
+      "odds": 4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 27.843601895734597
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030411",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ハピ",
+        "time": "1:50.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "カネトシゴウト",
+        "time": "1:50.7",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ジンセイ",
+        "time": "1:50.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ハビレ",
+        "time": "1:50.9",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "サーマルソアリング",
+        "time": "1:51.0",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ルヴァンユニベール",
+        "time": "1:51.1",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "タイセイドレフォン",
+        "time": "1:51.4",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "エナハツホ",
+        "time": "1:51.5",
+        "lastThreeF": 36.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 910
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 200
+        },
+        {
+          "horseId": 5,
+          "payout": 550
+        },
+        {
+          "horseId": 6,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-8",
+          "payout": 5850
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 17870
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-5",
+          "payout": 37400
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 2820
+        },
+        {
+          "combination": "6-8",
+          "payout": 300
+        },
+        {
+          "combination": "5-6",
+          "payout": 1030
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-8",
+          "payout": 7490
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-5-6",
+          "payout": 98250
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "L",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 2200,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "15:30",
+    "raceDate": "20251012",
+    "headCount": 9
+  }
+}

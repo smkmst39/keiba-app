@@ -1,0 +1,307 @@
+{
+  "raceId": "202502010701",
+  "raceName": "2歳未勝利",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "トウカイマシェリ",
+      "score": 71.85514492753622,
+      "ev": 1.053531426876932,
+      "odds": 1.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 53.62318840579709
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "タヤスロレンヌ",
+      "score": 66.20545548654243,
+      "ev": 1.021619775168877,
+      "odds": 9.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.10144927536232
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ショウナンカリス",
+      "score": 64.35714285714285,
+      "ev": 1.0249887357848857,
+      "odds": 4.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "プレセピオ",
+      "score": 53.229409937888185,
+      "ev": 0.9805257451413143,
+      "odds": 41.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.391304347826082
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コンフィアンサ",
+      "score": 50.49399585921325,
+      "ev": 0.9761079039644077,
+      "odds": 19.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.75362318840579
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ワイズギャング",
+      "score": 42.934233954451344,
+      "ev": 0.9434380152913536,
+      "odds": 5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.420289855072461
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サマーカムカム",
+      "score": 37.11642857142857,
+      "ev": 0.9770645669686959,
+      "odds": 198.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "カンレイスター",
+      "score": 34.11905797101449,
+      "ev": 0.9449406150382136,
+      "odds": 11.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 51.44927536231884
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010701",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "トウカイマシェリ",
+        "time": "1:10.4",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ワイズギャング",
+        "time": "1:10.6",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "プレセピオ",
+        "time": "1:11.0",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ショウナンカリス",
+        "time": "1:11.3",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "タヤスロレンヌ",
+        "time": "1:11.5",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "カンレイスター",
+        "time": "1:12.0",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "コンフィアンサ",
+        "time": "1:12.3",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "サマーカムカム",
+        "time": "1:12.4",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 170
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 4,
+          "payout": 560
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 450
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-6",
+          "payout": 760
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 200
+        },
+        {
+          "combination": "1-4",
+          "payout": 1220
+        },
+        {
+          "combination": "4-6",
+          "payout": 1210
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-6",
+          "payout": 3740
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-6-4",
+          "payout": 11490
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 170
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "09:50",
+    "raceDate": "20250705",
+    "headCount": 8
+  }
+}

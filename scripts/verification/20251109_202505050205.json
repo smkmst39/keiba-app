@@ -1,0 +1,254 @@
+{
+  "raceId": "202505050205",
+  "raceName": "2歳新馬",
+  "date": "2025-11-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ゴールデンパゴーダ",
+      "score": 63.09983870967742,
+      "ev": 0.9876284624679281,
+      "odds": 41.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.790322580645164
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラスターヴァース",
+      "score": 54.339999999999996,
+      "ev": 0.9810164384478891,
+      "odds": 36.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴォートセレスト",
+      "score": 71.44338709677419,
+      "ev": 1.0496313295328996,
+      "odds": 4.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 40.40322580645162
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アイムイン",
+      "score": 52.760000000000005,
+      "ev": 0.9791191840734845,
+      "odds": 1.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クオンタムスター",
+      "score": 41.10016129032259,
+      "ev": 0.9575571510748451,
+      "odds": 14.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.209677419354836
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴコウコイコイ",
+      "score": 35.21693548387097,
+      "ev": 0.9129106796648395,
+      "odds": 3.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 52.01612903225807
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505050205",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ヴォートセレスト",
+        "time": "2:00.8",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "アイムイン",
+        "time": "2:00.8",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "クオンタムスター",
+        "time": "2:01.1",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ゴールデンパゴーダ",
+        "time": "2:01.7",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ゴコウコイコイ",
+        "time": "2:01.8",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ラスターヴァース",
+        "time": "2:01.8",
+        "lastThreeF": 34.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 410
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 150
+        },
+        {
+          "horseId": 4,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 270
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-4",
+          "payout": 680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 150
+        },
+        {
+          "combination": "3-5",
+          "payout": 310
+        },
+        {
+          "combination": "4-5",
+          "payout": 290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-5",
+          "payout": 610
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-4-5",
+          "payout": 2490
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 410
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20251109",
+    "headCount": 6
+  }
+}

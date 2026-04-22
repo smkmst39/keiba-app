@@ -1,0 +1,383 @@
+{
+  "raceId": "202505030302",
+  "raceName": "3歳未勝利",
+  "date": "2025-06-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "イフルジャンス",
+      "score": 70.145,
+      "ev": 1.0553941526575024,
+      "odds": 1.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エバーグリーン",
+      "score": 61.45633858267716,
+      "ev": 0.9820640931566106,
+      "odds": 193.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.574803149606299
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クラレット",
+      "score": 58.88523622047243,
+      "ev": 1.0049500290309943,
+      "odds": 5.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 20.866141732283467
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "レイデアンジェロ",
+      "score": 69.56492125984252,
+      "ev": 0.9946233446290974,
+      "odds": 26.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.37795275590551
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アレグランサ",
+      "score": 53.663188976377945,
+      "ev": 0.982137083062368,
+      "odds": 31.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 6.692913385826774
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マイネルフィスキオ",
+      "score": 50.718503937007874,
+      "ev": 0.9795621884367274,
+      "odds": 12.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 1.1811023622047254
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アイスフィールド",
+      "score": 47.54307086614173,
+      "ev": 0.9793328702800747,
+      "odds": 463.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 71.25984251968505
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "デルマジュテーム",
+      "score": 43.78744094488189,
+      "ev": 0.9785956270554254,
+      "odds": 223.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.28346456692914
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "タナハシ",
+      "score": 35.31787401574804,
+      "ev": 0.9677320863589175,
+      "odds": 31.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 12.204724409448819
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "オビドス",
+      "score": 35.535,
+      "ev": 0.9195128835224797,
+      "odds": 4.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ドラゴンラック",
+      "score": 33.74027559055118,
+      "ev": 0.9766233335281848,
+      "odds": 186.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.677165354330704
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505030302",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "オビドス",
+        "time": "2:26.9",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "イフルジャンス",
+        "time": "2:27.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "タナハシ",
+        "time": "2:28.3",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "マイネルフィスキオ",
+        "time": "2:28.4",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "デルマジュテーム",
+        "time": "2:28.6",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "エバーグリーン",
+        "time": "2:29.0",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "クラレット",
+        "time": "2:29.4",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "アレグランサ",
+        "time": "2:29.6",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "アイスフィールド",
+        "time": "2:29.9",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "レイデアンジェロ",
+        "time": "2:30.0",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "ドラゴンラック",
+        "time": "2:31.2",
+        "lastThreeF": 38.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 470
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 140
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 270
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-8",
+          "payout": 310
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-10",
+          "payout": 300
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-1",
+          "payout": 710
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-10",
+          "payout": 180
+        },
+        {
+          "combination": "9-10",
+          "payout": 760
+        },
+        {
+          "combination": "1-9",
+          "payout": 510
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-9-10",
+          "payout": 1320
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-1-9",
+          "payout": 6920
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "3歳",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "10:40",
+    "raceDate": "20250614",
+    "headCount": 11
+  }
+}

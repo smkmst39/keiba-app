@@ -1,0 +1,384 @@
+{
+  "raceId": "202503020712",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-19",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "オコジュ",
+      "score": 69.93855421686746,
+      "ev": 0.9952905901552827,
+      "odds": 29.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.457831325301207
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アイファーチーター",
+      "score": 63.55951807228915,
+      "ev": 0.9825618955937563,
+      "odds": 200.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 4.819277108433736
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ピコテンダー",
+      "score": 63.74090361445783,
+      "ev": 1.0319548922148287,
+      "odds": 1.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 40.96385542168676
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エコロヴァイス",
+      "score": 59.161927710843365,
+      "ev": 1.0138551271530138,
+      "odds": 3.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 80.72289156626505
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "オオゾラヒバリ",
+      "score": 54.689397590361445,
+      "ev": 0.9808088060364805,
+      "odds": 132.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.024096385542171
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "キボウノホシ",
+      "score": 52.46126506024096,
+      "ev": 0.9836843818818131,
+      "odds": 18.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 37.349397590361455
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アルヴァレス",
+      "score": 51.69499999999999,
+      "ev": 0.9808679746111766,
+      "odds": 33,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スターチスブーケ",
+      "score": 38.57951807228916,
+      "ev": 0.9776248513642023,
+      "odds": 52,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 4.819277108433736
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ニシノルミリオン",
+      "score": 42.57921686746988,
+      "ev": 0.9784153513584657,
+      "odds": 185.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 57.83132530120483
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "グラスブランシュ",
+      "score": 30.919999999999998,
+      "ev": 0.9411102512321105,
+      "odds": 10.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "サザンレイク",
+      "score": 29.242530120481927,
+      "ev": 0.963117960702784,
+      "odds": 24.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 34.6987951807229
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020712",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "グラスブランシュ",
+        "time": "1:09.8",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "オオゾラヒバリ",
+        "time": "1:09.8",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ピコテンダー",
+        "time": "1:09.9",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "アルヴァレス",
+        "time": "1:09.9",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "オコジュ",
+        "time": "1:10.1",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "エコロヴァイス",
+        "time": "1:10.2",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "キボウノホシ",
+        "time": "1:10.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "スターチスブーケ",
+        "time": "1:10.3",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "ニシノルミリオン",
+        "time": "1:10.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "サザンレイク",
+        "time": "1:11.4",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "アイファーチーター",
+        "time": "1:13.1",
+        "lastThreeF": 37.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 1030
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 200
+        },
+        {
+          "horseId": 5,
+          "payout": 940
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-8",
+          "payout": 13050
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-10",
+          "payout": 39120
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-5",
+          "payout": 67740
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-10",
+          "payout": 6900
+        },
+        {
+          "combination": "3-10",
+          "payout": 330
+        },
+        {
+          "combination": "3-5",
+          "payout": 1800
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-10",
+          "payout": 12490
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-5-3",
+          "payout": 282650
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1150,
+    "surface": "dirt",
+    "startTime": "16:30",
+    "raceDate": "20250719",
+    "headCount": 11
+  }
+}

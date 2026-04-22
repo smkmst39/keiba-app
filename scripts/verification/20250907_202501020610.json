@@ -1,0 +1,454 @@
+{
+  "raceId": "202501020610",
+  "raceName": "HTB賞",
+  "date": "2025-09-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コスモアンソロジー",
+      "score": 68.80379981464318,
+      "ev": 1.0324389526039623,
+      "odds": 8.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 92.7710843373494
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "セイウンガレオン",
+      "score": 56.8025671918443,
+      "ev": 0.9809614929625619,
+      "odds": 178.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 20.481927710843372
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ドゥカート",
+      "score": 69.6520203892493,
+      "ev": 1.014411201653328,
+      "odds": 16.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 95.18072289156626
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ルクスジニア",
+      "score": 60.261816496756246,
+      "ev": 1.012580853329893,
+      "odds": 2.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 43.37349397590361
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ショウナンバルドル",
+      "score": 56.508864689527336,
+      "ev": 0.9944770501022142,
+      "odds": 6.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 45.968489341983336
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "カテリーナ",
+      "score": 70.84698795180722,
+      "ev": 1.038747510401661,
+      "odds": 6.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.120481927710845
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マイネルバーテクス",
+      "score": 57.030676552363296,
+      "ev": 0.9810055124369208,
+      "odds": 187.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 85.54216867469879
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ウインアクトゥール",
+      "score": 49.230769230769226,
+      "ev": 0.9750032291044171,
+      "odds": 16.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "コスモアバンサ",
+      "score": 49.112006487488415,
+      "ev": 0.9779096185333814,
+      "odds": 32.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 53.01204819277109
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エイムフォーエース",
+      "score": 44.383846153846164,
+      "ev": 0.9785649864313997,
+      "odds": 64.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ルクスドヌーヴ",
+      "score": 40.36038461538462,
+      "ev": 0.9777885576972892,
+      "odds": 317.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "タイキラフター",
+      "score": 38.68186283595922,
+      "ev": 0.9546464443804273,
+      "odds": 10.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50.602409638554214
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "トレミニョン",
+      "score": 36.5758109360519,
+      "ev": 0.9505822842163884,
+      "odds": 19.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.50602409638555
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "バルティカ",
+      "score": 27.23,
+      "ev": 0.9610188706691704,
+      "odds": 33.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020610",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 12,
+        "horseName": "タイキラフター",
+        "time": "1:49.6",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "コスモアンソロジー",
+        "time": "1:49.8",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ウインアクトゥール",
+        "time": "1:49.9",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 4,
+        "horseId": 14,
+        "horseName": "バルティカ",
+        "time": "1:49.9",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ドゥカート",
+        "time": "1:50.0",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ルクスジニア",
+        "time": "1:50.1",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "カテリーナ",
+        "time": "1:50.1",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 8,
+        "horseId": 13,
+        "horseName": "トレミニョン",
+        "time": "1:50.2",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "ショウナンバルドル",
+        "time": "1:50.3",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "エイムフォーエース",
+        "time": "1:50.4",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "マイネルバーテクス",
+        "time": "1:50.6",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 12,
+        "horseId": 2,
+        "horseName": "セイウンガレオン",
+        "time": "1:52.6",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 13,
+        "horseId": 11,
+        "horseName": "ルクスドヌーヴ",
+        "time": "1:52.6",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 14,
+        "horseId": 9,
+        "horseName": "コスモアバンサ",
+        "time": "1:53.1",
+        "lastThreeF": 40.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 12,
+          "payout": 1020
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 12,
+          "payout": 300
+        },
+        {
+          "horseId": 1,
+          "payout": 260
+        },
+        {
+          "horseId": 8,
+          "payout": 370
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 4040
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-12",
+          "payout": 4180
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "12-1",
+          "payout": 9890
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-12",
+          "payout": 1230
+        },
+        {
+          "combination": "8-12",
+          "payout": 1500
+        },
+        {
+          "combination": "1-8",
+          "payout": 1570
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-8-12",
+          "payout": 15670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "12-1-8",
+          "payout": 98740
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 12,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:50",
+    "raceDate": "20250907",
+    "headCount": 14
+  }
+}

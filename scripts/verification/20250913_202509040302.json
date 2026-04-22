@@ -1,0 +1,307 @@
+{
+  "raceId": "202509040302",
+  "raceName": "2歳未勝利",
+  "date": "2025-09-13",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "レッドレベンディス",
+      "score": 71.3267857142857,
+      "ev": 1.0445928152746264,
+      "odds": 6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.39285714285714
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ユウトザイノセント",
+      "score": 62.76017857142856,
+      "ev": 1.0035114993208671,
+      "odds": 11.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 18.303571428571434
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ナムラライラック",
+      "score": 53.58714285714285,
+      "ev": 0.9805459042808083,
+      "odds": 209,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メッチャエエヤン",
+      "score": 53.4117857142857,
+      "ev": 0.9805113941437693,
+      "odds": 53.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 20.535714285714285
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ミスジェイド",
+      "score": 46.27678571428571,
+      "ev": 0.9791072321931282,
+      "odds": 131.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 31.249999999999993
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ラッキーバック",
+      "score": 43.48295918367347,
+      "ev": 0.9511481900125937,
+      "odds": 3.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 31.122448979591837
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フレンズプラス",
+      "score": 38.01517857142858,
+      "ev": 0.9774813549119588,
+      "odds": 120.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.375000000000002
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "イダテンシャチョウ",
+      "score": 37.644999999999996,
+      "ev": 0.9281700816590972,
+      "odds": 1.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040302",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "イダテンシャチョウ",
+        "time": "1:12.7",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "ラッキーバック",
+        "time": "1:12.8",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "フレンズプラス",
+        "time": "1:13.4",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "レッドレベンディス",
+        "time": "1:14.6",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ミスジェイド",
+        "time": "1:15.0",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ユウトザイノセント",
+        "time": "1:15.3",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ナムラライラック",
+        "time": "1:15.6",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "メッチャエエヤン",
+        "time": "1:16.2",
+        "lastThreeF": 40.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 140
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 470
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "6-8",
+          "payout": 190
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-6",
+          "payout": 290
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-8",
+          "payout": 120
+        },
+        {
+          "combination": "7-8",
+          "payout": 770
+        },
+        {
+          "combination": "6-7",
+          "payout": 940
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-7-8",
+          "payout": 1600
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-6-7",
+          "payout": 3110
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "10:30",
+    "raceDate": "20250913",
+    "headCount": 8
+  }
+}

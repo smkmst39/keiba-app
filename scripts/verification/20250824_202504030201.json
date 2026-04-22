@@ -1,0 +1,278 @@
+{
+  "raceId": "202504030201",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-24",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ガリレア",
+      "score": 68.00333333333333,
+      "ev": 1.0110388386931015,
+      "odds": 13.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 17.816091954022987
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラプランセス",
+      "score": 64.86166666666666,
+      "ev": 1.02997002526442,
+      "odds": 1.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 39.08045977011494
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "イントゥゴールデン",
+      "score": 56.44499999999999,
+      "ev": 0.9808766539630882,
+      "odds": 263.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クラウンプレゼンタ",
+      "score": 51.54055555555555,
+      "ev": 0.9799315933713013,
+      "odds": 197.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 33.716475095785434
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ムーングレイル",
+      "score": 46.44499999999999,
+      "ev": 0.9631953068128292,
+      "odds": 6.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 39.6551724137931
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マルターズドン",
+      "score": 38.32833333333333,
+      "ev": 0.9538566779428768,
+      "odds": 16.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.74712643678161
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スターオブブライト",
+      "score": 37.644999999999996,
+      "ev": 0.9772539930629898,
+      "odds": 59.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504030201",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ガリレア",
+        "time": "1:37.4",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ムーングレイル",
+        "time": "1:37.4",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "マルターズドン",
+        "time": "1:37.5",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ラプランセス",
+        "time": "1:37.5",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "スターオブブライト",
+        "time": "1:38.7",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "クラウンプレゼンタ",
+        "time": "1:39.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "イントゥゴールデン",
+        "time": "1:40.7",
+        "lastThreeF": 35.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 1340
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 970
+        },
+        {
+          "horseId": 5,
+          "payout": 740
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 2220
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 4330
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 360
+        },
+        {
+          "combination": "1-6",
+          "payout": 680
+        },
+        {
+          "combination": "5-6",
+          "payout": 440
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-6",
+          "payout": 3460
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-6",
+          "payout": 20500
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 1340
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "10:10",
+    "raceDate": "20250824",
+    "headCount": 7
+  }
+}

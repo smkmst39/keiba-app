@@ -1,0 +1,253 @@
+{
+  "raceId": "202509030308",
+  "raceName": "三田特別",
+  "date": "2025-06-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タナサンブラック",
+      "score": 66.97,
+      "ev": 0.9923829167112853,
+      "odds": 20.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ローレルキャニオン",
+      "score": 64.10214285714285,
+      "ev": 0.9825349306043775,
+      "odds": 72.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.19211822660097
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ムジェロ",
+      "score": 50.998571428571424,
+      "ev": 0.9798903078921516,
+      "odds": 47.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 28.078817733990142
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ゲルチュタール",
+      "score": 46.381428571428565,
+      "ev": 0.9613942444234413,
+      "odds": 1.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 51.23152709359605
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ファミリータイム",
+      "score": 40.73571428571429,
+      "ev": 0.9596571423250444,
+      "odds": 10.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 56.650246305418705
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダノンシーマ",
+      "score": 37.644999999999996,
+      "ev": 0.9272267358217363,
+      "odds": 2.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509030308",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ゲルチュタール",
+        "time": "2:26.0",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ファミリータイム",
+        "time": "2:26.9",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ダノンシーマ",
+        "time": "2:27.1",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "タナサンブラック",
+        "time": "2:27.9",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ローレルキャニオン",
+        "time": "2:29.3",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ムジェロ",
+        "time": "2:29.6",
+        "lastThreeF": 38
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 190
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-5",
+          "payout": 700
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 140
+        },
+        {
+          "combination": "4-6",
+          "payout": 110
+        },
+        {
+          "combination": "5-6",
+          "payout": 150
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-6",
+          "payout": 160
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-5-6",
+          "payout": 930
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "雨",
+    "trackCondition": "重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "13:55",
+    "raceDate": "20250614",
+    "headCount": 6
+  }
+}

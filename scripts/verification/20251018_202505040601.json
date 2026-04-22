@@ -1,0 +1,384 @@
+{
+  "raceId": "202505040601",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サイモフェーン",
+      "score": 74.54499999999999,
+      "ev": 1.074376007810186,
+      "odds": 1.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フクスケ",
+      "score": 63.568888888888885,
+      "ev": 0.982551583427487,
+      "odds": 71.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 4.980842911877397
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カンタベリービーム",
+      "score": 61.653888888888886,
+      "ev": 0.9821734694996874,
+      "odds": 256.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.980842911877397
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マテンロウストーム",
+      "score": 55.56888888888888,
+      "ev": 0.9897199521735792,
+      "odds": 18.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 18.773946360153264
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "キタイノホシ",
+      "score": 52.209999999999994,
+      "ev": 0.9803087875563551,
+      "odds": 271.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "カシノユメミヅキ",
+      "score": 51.62777777777778,
+      "ev": 0.980193828636618,
+      "odds": 496.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.858237547892724
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マッドゲイル",
+      "score": 46.23222222222222,
+      "ev": 0.9660557463005824,
+      "odds": 7.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 48.659003831417635
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サンデーパーティー",
+      "score": 44.67055555555555,
+      "ev": 0.9611221657909459,
+      "odds": 5.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 30.268199233716476
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ラインジーク",
+      "score": 40.20277777777778,
+      "ev": 0.9470076675844367,
+      "odds": 7.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.858237547892724
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ファイヤサラマンダ",
+      "score": 33.89333333333333,
+      "ev": 0.9766921887169137,
+      "odds": 59,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 2.298850574712643
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モズジェネラル",
+      "score": 32.93388888888889,
+      "ev": 0.924043965205182,
+      "odds": 5.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.773946360153264
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505040601",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "サンデーパーティー",
+        "time": "1:38.5",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "サイモフェーン",
+        "time": "1:39.5",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "マッドゲイル",
+        "time": "1:39.7",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "ラインジーク",
+        "time": "1:39.8",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "マテンロウストーム",
+        "time": "1:39.8",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "モズジェネラル",
+        "time": "1:40.4",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "キタイノホシ",
+        "time": "1:40.7",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 8,
+        "horseId": 10,
+        "horseName": "ファイヤサラマンダ",
+        "time": "1:40.9",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "カンタベリービーム",
+        "time": "1:41.5",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "カシノユメミヅキ",
+        "time": "1:41.6",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "フクスケ",
+        "time": "1:45.5",
+        "lastThreeF": 44
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 570
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 130
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 290
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 510
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-1",
+          "payout": 1590
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 240
+        },
+        {
+          "combination": "7-8",
+          "payout": 430
+        },
+        {
+          "combination": "1-7",
+          "payout": 220
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-7-8",
+          "payout": 880
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-1-7",
+          "payout": 6600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "左",
+    "distance": 1600,
+    "surface": "dirt",
+    "startTime": "10:05",
+    "raceDate": "20251018",
+    "headCount": 11
+  }
+}

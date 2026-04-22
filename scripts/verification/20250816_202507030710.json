@@ -1,0 +1,307 @@
+{
+  "raceId": "202507030710",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "テーオーライマン",
+      "score": 69.35059701492537,
+      "ev": 1.0508933451458067,
+      "odds": 2.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 41.044776119402975
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ポイントネモ",
+      "score": 65.64648187633262,
+      "ev": 1.0364245419358982,
+      "odds": 4.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.343283582089548
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ブラックタロー",
+      "score": 59.22348614072494,
+      "ev": 0.9815667701234096,
+      "odds": 64.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 29.850746268656707
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "メリトーリアス",
+      "score": 54.064818763326215,
+      "ev": 0.9805592455147482,
+      "odds": 93.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.43283582089552
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コーカサスゴールド",
+      "score": 47.48577825159914,
+      "ev": 0.9683889901009416,
+      "odds": 8.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 27.611940298507463
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジーティーアメリカ",
+      "score": 43.69363539445629,
+      "ev": 0.9565388684517091,
+      "odds": 7.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 34.75479744136461
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "カビーリア",
+      "score": 37.11642857142857,
+      "ev": 0.9524910377730113,
+      "odds": 17.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オーケアニス",
+      "score": 33.03,
+      "ev": 0.909019901418301,
+      "odds": 2.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030710",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "テーオーライマン",
+        "time": "1:52.7",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "オーケアニス",
+        "time": "1:53.0",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ポイントネモ",
+        "time": "1:54.9",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ジーティーアメリカ",
+        "time": "1:55.6",
+        "lastThreeF": 41.3
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "コーカサスゴールド",
+        "time": "1:55.7",
+        "lastThreeF": 40.5
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "カビーリア",
+        "time": "1:55.7",
+        "lastThreeF": 40.3
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "メリトーリアス",
+        "time": "1:55.8",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ブラックタロー",
+        "time": "1:56.3",
+        "lastThreeF": 41.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 130
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 690
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-8",
+          "payout": 1670
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 240
+        },
+        {
+          "combination": "1-2",
+          "payout": 230
+        },
+        {
+          "combination": "2-8",
+          "payout": 250
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-8",
+          "payout": 790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-8-2",
+          "payout": 4810
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 280
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "17:15",
+    "raceDate": "20250816",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "raceId": "202503020404",
+  "raceName": "2歳新馬",
+  "date": "2025-07-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タイセイフレッサ",
+      "score": 69.58078651685393,
+      "ev": 1.0460082415409984,
+      "odds": 2.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 71.91011235955057
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "グランフォワイエ",
+      "score": 62.1761797752809,
+      "ev": 1.0177003347576887,
+      "odds": 3.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.865168539325842
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "リネンタイリン",
+      "score": 58.16033707865168,
+      "ev": 0.9844695432983541,
+      "odds": 43.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 2.247191011235955
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エレクトロン",
+      "score": 60.14,
+      "ev": 0.9814957996647542,
+      "odds": 132.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ツトムユニバース",
+      "score": 51.562359550561794,
+      "ev": 0.9794247127126893,
+      "odds": 30.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.730337078651685
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ミュークトーマス",
+      "score": 46.96,
+      "ev": 0.9789764341911682,
+      "odds": 116.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "パークヒルシューズ",
+      "score": 45.87674157303371,
+      "ev": 0.9603098983426127,
+      "odds": 6.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.94382022471909
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アドミ",
+      "score": 41.20921348314607,
+      "ev": 0.9460346824195103,
+      "odds": 6.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.089887640449433
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "カゼノハゴロモ",
+      "score": 35.95516853932585,
+      "ev": 0.9674914143292692,
+      "odds": 43.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 1.1235955056179765
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サトノエスケープ",
+      "score": 71.18539325842696,
+      "ev": 1.0377141389971718,
+      "odds": 6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.95505617977527
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ドルマバフチェ",
+      "score": 32.656179775280904,
+      "ev": 0.9424224975910919,
+      "odds": 12.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.865168539325842
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "リネンタイリン",
+        "time": "1:11.6",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "タイセイフレッサ",
+        "time": "1:11.9",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "アドミ",
+        "time": "1:12.1",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "サトノエスケープ",
+        "time": "1:12.2",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "ドルマバフチェ",
+        "time": "1:12.3",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "カゼノハゴロモ",
+        "time": "1:12.3",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ツトムユニバース",
+        "time": "1:12.7",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "パークヒルシューズ",
+        "time": "1:13.3",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "グランフォワイエ",
+        "time": "1:13.6",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 10,
+        "horseId": 6,
+        "horseName": "ミュークトーマス",
+        "time": "1:13.8",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "エレクトロン",
+        "time": "1:14.0",
+        "lastThreeF": 36.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 4310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 570
+        },
+        {
+          "horseId": 1,
+          "payout": 140
+        },
+        {
+          "horseId": 8,
+          "payout": 210
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-3",
+          "payout": 4020
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-3",
+          "payout": 4320
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-1",
+          "payout": 11130
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-3",
+          "payout": 1290
+        },
+        {
+          "combination": "3-8",
+          "payout": 2160
+        },
+        {
+          "combination": "1-8",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-8",
+          "payout": 6660
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-1-8",
+          "payout": 73200
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "11:45",
+    "raceDate": "20250706",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "raceId": "202507030108",
+  "raceName": "遠州灘特別",
+  "date": "2025-07-26",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パルクリチュード",
+      "score": 68.75,
+      "ev": 1.0450589186114965,
+      "odds": 1.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "クリノクリスタル",
+      "score": 57.43043478260869,
+      "ev": 0.9810708719555391,
+      "odds": 106.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.86956521739131
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クリノスワロー",
+      "score": 49.584999999999994,
+      "ev": 0.972936104486994,
+      "odds": 8.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "チカミリオン",
+      "score": 41.001014492753626,
+      "ev": 0.9464603294652925,
+      "odds": 8.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.362318840579718
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ラヴァブル",
+      "score": 38.961666666666666,
+      "ev": 0.9401703241770851,
+      "odds": 6.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16.666666666666675
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "フラーハ",
+      "score": 33.316014492753624,
+      "ev": 0.9227573151871327,
+      "odds": 6.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.362318840579718
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ハギノコラソン",
+      "score": 74.08268115942028,
+      "ev": 1.0484948405056724,
+      "odds": 5.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 92.02898550724639
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "パルクリチュード",
+        "time": "1:54.3",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ハギノコラソン",
+        "time": "1:54.5",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "チカミリオン",
+        "time": "1:54.6",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "クリノクリスタル",
+        "time": "1:55.0",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "フラーハ",
+        "time": "1:55.2",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ラヴァブル",
+        "time": "1:55.9",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "クリノスワロー",
+        "time": "1:56.1",
+        "lastThreeF": 39.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 180
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 120
+        },
+        {
+          "horseId": 7,
+          "payout": 210
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-7",
+          "payout": 530
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-7",
+          "payout": 700
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-7",
+          "payout": 210
+        },
+        {
+          "combination": "1-4",
+          "payout": 280
+        },
+        {
+          "combination": "4-7",
+          "payout": 780
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-7",
+          "payout": 1340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-7-4",
+          "payout": 3930
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 530
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "16:10",
+    "raceDate": "20250726",
+    "headCount": 7
+  }
+}

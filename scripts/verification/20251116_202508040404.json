@@ -1,0 +1,384 @@
+{
+  "raceId": "202508040404",
+  "raceName": "2歳新馬",
+  "date": "2025-11-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ルリエアンレーヴ",
+      "score": 69.1,
+      "ev": 0.9917765403942248,
+      "odds": 29.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ルペイドゥロール",
+      "score": 65.845,
+      "ev": 0.9893375731151626,
+      "odds": 49.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.5
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ダノンアンドレ",
+      "score": 65.10333333333334,
+      "ev": 0.9887818432435892,
+      "odds": 25.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.333333333333336
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コスモタキシード",
+      "score": 59.19,
+      "ev": 0.9810877475612669,
+      "odds": 103.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 20
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "メルカントゥール",
+      "score": 57.073249999999994,
+      "ev": 0.9938245610748689,
+      "odds": 3.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.125000000000014
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ワザオギ",
+      "score": 53.42916666666667,
+      "ev": 0.9800860132469766,
+      "odds": 14.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.91666666666667
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アンティスマ",
+      "score": 49.666666666666664,
+      "ev": 0.9772151689278316,
+      "odds": 24.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 46.666666666666664
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ケイアイブラック",
+      "score": 45.83166666666667,
+      "ev": 0.9785854021002218,
+      "odds": 112,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.166666666666664
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アメリカンイズム",
+      "score": 45.11416666666668,
+      "ev": 0.9490199329065453,
+      "odds": 2.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 95.41666666666669
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "カンフージョン",
+      "score": 41.69,
+      "ev": 0.936191314691406,
+      "odds": 4.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "アンコールアゲイン",
+      "score": 35.1725,
+      "ev": 0.9254188345595294,
+      "odds": 7.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.24999999999999
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508040404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "メルカントゥール",
+        "time": "1:54.4",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "アメリカンイズム",
+        "time": "1:54.6",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ワザオギ",
+        "time": "1:54.6",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "アンコールアゲイン",
+        "time": "1:55.1",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ルペイドゥロール",
+        "time": "1:55.5",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ダノンアンドレ",
+        "time": "1:55.7",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "カンフージョン",
+        "time": "1:56.7",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "コスモタキシード",
+        "time": "1:56.8",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "アンティスマ",
+        "time": "1:56.9",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 10,
+        "horseId": 1,
+        "horseName": "ルリエアンレーヴ",
+        "time": "1:57.0",
+        "lastThreeF": 40.2
+      },
+      {
+        "rank": 11,
+        "horseId": 8,
+        "horseName": "ケイアイブラック",
+        "time": "1:57.1",
+        "lastThreeF": 39.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 9,
+          "payout": 130
+        },
+        {
+          "horseId": 6,
+          "payout": 240
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 580
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-9",
+          "payout": 570
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-9",
+          "payout": 1180
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-9",
+          "payout": 270
+        },
+        {
+          "combination": "5-6",
+          "payout": 680
+        },
+        {
+          "combination": "6-9",
+          "payout": 590
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-9",
+          "payout": 2150
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-9-6",
+          "payout": 7560
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "11:30",
+    "raceDate": "20251116",
+    "headCount": 11
+  }
+}

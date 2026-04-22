@@ -1,0 +1,305 @@
+{
+  "raceId": "202509040701",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-09-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "セイフウサツキ",
+      "score": 68.10882352941177,
+      "ev": 1.029608439507224,
+      "odds": 9.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 44.117647058823536
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トゥルース",
+      "score": 65.66357142857142,
+      "ev": 0.9905207623123543,
+      "odds": 28.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "コパノニコルソン",
+      "score": 60.392142857142844,
+      "ev": 1.0123249427681824,
+      "odds": 4.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ゴールデンスロープ",
+      "score": 58.02071428571428,
+      "ev": 1.0032021996252667,
+      "odds": 1.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "シンドバッド",
+      "score": 47.65928571428571,
+      "ev": 0.9791671203422403,
+      "odds": 103.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "リードアクトレス",
+      "score": 41.423151260504206,
+      "ev": 0.9474818980162902,
+      "odds": 7.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 13.970588235294118
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "エブリモーメント",
+      "score": 37.89789915966387,
+      "ev": 0.9528954698140992,
+      "odds": 19.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.352941176470589
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オステリア",
+      "score": 36.74941176470588,
+      "ev": 0.933098222133906,
+      "odds": 6.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 84.55882352941177
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040701",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "コパノニコルソン",
+        "time": "3:21.8",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ゴールデンスロープ",
+        "time": "3:22.1",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "セイフウサツキ",
+        "time": "3:23.6",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "オステリア",
+        "time": "3:23.9",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "リードアクトレス",
+        "time": "3:26.5",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "エブリモーメント",
+        "time": "3:26.8",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "シンドバッド",
+        "time": "3:28.0",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "トゥルース",
+        "time": "3:31.1",
+        "lastThreeF": 14.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 430
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 130
+        },
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 1,
+          "payout": 220
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 520
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-4",
+          "payout": 1180
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 200
+        },
+        {
+          "combination": "1-3",
+          "payout": 580
+        },
+        {
+          "combination": "1-4",
+          "payout": 290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-4",
+          "payout": 1120
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-4-1",
+          "payout": 6450
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 3,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2970,
+    "surface": "turf",
+    "startTime": "09:45",
+    "raceDate": "20250921",
+    "headCount": 8
+  }
+}

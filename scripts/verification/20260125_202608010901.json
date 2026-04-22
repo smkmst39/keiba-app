@@ -1,0 +1,384 @@
+{
+  "raceId": "202608010901",
+  "raceName": "3歳未勝利",
+  "date": "2026-01-25",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブルーザー",
+      "score": 70.63805555555555,
+      "ev": 0.9951984225453279,
+      "odds": 27.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.63888888888889
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "カセノコンコルド",
+      "score": 61.44694444444444,
+      "ev": 0.9820040620345791,
+      "odds": 122.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 17.361111111111114
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ジューンセクレタ",
+      "score": 58.21027777777777,
+      "ev": 1.0074351611173407,
+      "odds": 4.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0.6944444444444451
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "バケラッタ",
+      "score": 56.64472222222222,
+      "ev": 0.9842636662008039,
+      "odds": 31.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 61.80555555555556
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ロックバンド",
+      "score": 59.785,
+      "ev": 1.013587806595059,
+      "odds": 3.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スマートグロワール",
+      "score": 53.06666666666666,
+      "ev": 0.9858707203476162,
+      "odds": 6.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 41.66666666666668
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ロジャートアリー",
+      "score": 47.89388888888889,
+      "ev": 0.9774255363548148,
+      "odds": 23.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 22.222222222222225
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "テイエムパイロダン",
+      "score": 44.76777777777778,
+      "ev": 0.978745677860037,
+      "odds": 53.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 31.944444444444446
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "テーオーカイザー",
+      "score": 42.19805555555556,
+      "ev": 0.9448733167148727,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.13888888888889
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アフリカンブラック",
+      "score": 33.76,
+      "ev": 0.9765952365565352,
+      "odds": 419.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ブクブクー",
+      "score": 34.66166666666667,
+      "ev": 0.9767713830305225,
+      "odds": 189.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 79.16666666666667
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010901",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ロックバンド",
+        "time": "1:56.1",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "スマートグロワール",
+        "time": "1:56.2",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ジューンセクレタ",
+        "time": "1:56.2",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "テーオーカイザー",
+        "time": "1:56.4",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "バケラッタ",
+        "time": "1:56.6",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "ブクブクー",
+        "time": "1:56.6",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "カセノコンコルド",
+        "time": "1:57.4",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "テイエムパイロダン",
+        "time": "1:57.8",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ブルーザー",
+        "time": "1:57.9",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "ロジャートアリー",
+        "time": "1:58.1",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "アフリカンブラック",
+        "time": "1:58.7",
+        "lastThreeF": 39.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 340
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 120
+        },
+        {
+          "horseId": 6,
+          "payout": 160
+        },
+        {
+          "horseId": 3,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 1200
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 1370
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-6",
+          "payout": 2170
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 370
+        },
+        {
+          "combination": "3-5",
+          "payout": 240
+        },
+        {
+          "combination": "3-6",
+          "payout": 370
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 1700
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-6-3",
+          "payout": 7780
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "10:55",
+    "raceDate": "20260125",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "raceId": "202608010205",
+  "raceName": "3歳未勝利",
+  "date": "2026-01-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイネルシュラハト",
+      "score": 67.47610294117646,
+      "ev": 0.9831442027215844,
+      "odds": 270.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 93.75,
+        "training": 93.75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.764705882352942
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "タガノアルトゥーラ",
+      "score": 64.3180882352941,
+      "ev": 1.0305805621781268,
+      "odds": 3.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.44117647058824
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マサノハヤブサ",
+      "score": 62.18125,
+      "ev": 0.9821127765216974,
+      "odds": 364.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 81.25,
+        "training": 81.25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ノートルダム",
+      "score": 59.917647058823526,
+      "ev": 0.9816718314367991,
+      "odds": 65.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0.7352941176470595
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヨッシーリオ",
+      "score": 58.58812499999999,
+      "ev": 0.9814128433402396,
+      "odds": 52.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 68.75,
+        "training": 68.75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 35.93750000000001
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コティノス",
+      "score": 60.36632352941176,
+      "ev": 1.008147722690875,
+      "odds": 9.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 94.11764705882354
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ショウナンカルメラ",
+      "score": 52.13566176470587,
+      "ev": 0.9801559170934435,
+      "odds": 72.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 56.25,
+        "training": 56.25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 47.05882352941177
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "グリーンゴー",
+      "score": 47.599117647058826,
+      "ev": 0.9654441571016366,
+      "odds": 4.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 33.08823529411765
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アメジストロード",
+      "score": 48.6008088235294,
+      "ev": 0.9794673351863006,
+      "odds": 198.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 43.75,
+        "training": 43.75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.794117647058826
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "オンザムービー",
+      "score": 44.236029411764704,
+      "ev": 0.9786170853508404,
+      "odds": 145.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 30.14705882352942
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "マーズローバー",
+      "score": 46.36154411764706,
+      "ev": 0.9790311311383717,
+      "odds": 119.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 31.25,
+        "training": 31.25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 51.47058823529412
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "アウェイクネス",
+      "score": 43.03176470588235,
+      "ev": 0.9783824971227921,
+      "odds": 63.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 33.82352941176471
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "インナーヴォイス",
+      "score": 40.18610294117647,
+      "ev": 0.9452506912818632,
+      "odds": 9.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 18.75,
+        "training": 18.75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 36.76470588235295
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "コスモグロボーサ",
+      "score": 32.09838235294117,
+      "ev": 0.9762526972704662,
+      "odds": 350.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 4.411764705882358
+      }
+    },
+    {
+      "horseId": 15,
+      "horseName": "アルペングロー",
+      "score": 36.25477941176471,
+      "ev": 0.9212470932501814,
+      "odds": 3.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 6.25,
+        "training": 6.25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.14705882352942
+      }
+    },
+    {
+      "horseId": 16,
+      "horseName": "サイモンシャリオ",
+      "score": 36.935,
+      "ev": 0.9519486020028375,
+      "odds": 12,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 17,
+      "horseName": "コスモブラック",
+      "score": 72.41264705882352,
+      "ev": 1.0210583111738794,
+      "odds": 13.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 63.235294117647065
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010205",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "タガノアルトゥーラ",
+        "time": "2:02.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "オンザムービー",
+        "time": "2:02.4",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 3,
+        "horseId": 15,
+        "horseName": "アルペングロー",
+        "time": "2:02.6",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "グリーンゴー",
+        "time": "2:02.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 13,
+        "horseName": "インナーヴォイス",
+        "time": "2:02.9",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 6,
+        "horseId": 17,
+        "horseName": "コスモブラック",
+        "time": "2:02.9",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "マイネルシュラハト",
+        "time": "2:02.9",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 8,
+        "horseId": 16,
+        "horseName": "サイモンシャリオ",
+        "time": "2:03.0",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "ヨッシーリオ",
+        "time": "2:03.0",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "マーズローバー",
+        "time": "2:03.3",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "ショウナンカルメラ",
+        "time": "2:03.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 12,
+        "horseId": 12,
+        "horseName": "アウェイクネス",
+        "time": "2:03.5",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 13,
+        "horseId": 9,
+        "horseName": "アメジストロード",
+        "time": "2:03.5",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 14,
+        "horseId": 4,
+        "horseName": "ノートルダム",
+        "time": "2:03.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 15,
+        "horseId": 3,
+        "horseName": "マサノハヤブサ",
+        "time": "2:03.6",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 16,
+        "horseId": 14,
+        "horseName": "コスモグロボーサ",
+        "time": "2:04.3",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 17,
+        "horseId": 6,
+        "horseName": "コティノス",
+        "time": "2:10.1",
+        "lastThreeF": 43.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 140
+        },
+        {
+          "horseId": 10,
+          "payout": 1710
+        },
+        {
+          "horseId": 15,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-5",
+          "payout": 8730
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-10",
+          "payout": 21250
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-10",
+          "payout": 33170
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-10",
+          "payout": 4700
+        },
+        {
+          "combination": "2-15",
+          "payout": 290
+        },
+        {
+          "combination": "10-15",
+          "payout": 6140
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-10-15",
+          "payout": 20210
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-10-15",
+          "payout": 157970
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:10",
+    "raceDate": "20260105",
+    "headCount": 17
+  }
+}

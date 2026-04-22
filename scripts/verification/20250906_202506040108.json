@@ -1,0 +1,280 @@
+{
+  "raceId": "202506040108",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-09-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "テンホワイトラブ",
+      "score": 72.95314685314685,
+      "ev": 0.9838737316603287,
+      "odds": 79.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 66.43356643356644
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "フィールオーサム",
+      "score": 65.58636363636364,
+      "ev": 1.029455341933176,
+      "odds": 1.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.45454545454546
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ココボロ",
+      "score": 59.23356643356643,
+      "ev": 0.9812646354740228,
+      "odds": 130.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 41.95804195804197
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ロフティーイデアル",
+      "score": 56.095,
+      "ev": 0.9933552865245776,
+      "odds": 3.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ディペンダブル",
+      "score": 42.37,
+      "ev": 0.9489221996976037,
+      "odds": 7.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ツインクルステージ",
+      "score": 37.8933916083916,
+      "ev": 0.968825226576331,
+      "odds": 22.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.489510489510492
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ビップレーヌ",
+      "score": 33.95409090909091,
+      "ev": 0.944571573175779,
+      "odds": 13.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 36.36363636363637
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506040108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ロフティーイデアル",
+        "time": "1:53.1",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "フィールオーサム",
+        "time": "1:53.5",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ツインクルステージ",
+        "time": "1:54.4",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "ディペンダブル",
+        "time": "1:54.6",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ビップレーヌ",
+        "time": "1:54.9",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "テンホワイトラブ",
+        "time": "1:55.1",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ココボロ",
+        "time": "1:55.5",
+        "lastThreeF": 38.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 120
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-4",
+          "payout": 150
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-2",
+          "payout": 430
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-4",
+          "payout": 110
+        },
+        {
+          "combination": "4-6",
+          "payout": 450
+        },
+        {
+          "combination": "2-6",
+          "payout": 390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-6",
+          "payout": 700
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-2-6",
+          "payout": 2250
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "14:05",
+    "raceDate": "20250906",
+    "headCount": 7
+  }
+}

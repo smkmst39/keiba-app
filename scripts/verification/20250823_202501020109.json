@@ -1,0 +1,335 @@
+{
+  "raceId": "202501020109",
+  "raceName": "クローバー賞",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ベラジオソニック",
+      "score": 74.79259259259258,
+      "ev": 0.9954091411089236,
+      "odds": 22,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 98.14814814814815
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ドルチェミスト",
+      "score": 70.28749999999998,
+      "ev": 1.040358002757561,
+      "odds": 3.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ディアナタコス",
+      "score": 58.809999999999995,
+      "ev": 0.9808921601580453,
+      "odds": 60.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エスカレイト",
+      "score": 58.88157407407407,
+      "ev": 0.9944866614990979,
+      "odds": 5.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 68.51851851851852
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スターオブロンドン",
+      "score": 53.83666666666666,
+      "ev": 0.9794210493822926,
+      "odds": 2.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 91.66666666666666
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ストームサンダー",
+      "score": 49.65657407407407,
+      "ev": 0.9671497657445072,
+      "odds": 6.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 68.51851851851852
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "トーアサジタリウス",
+      "score": 42.239629629629626,
+      "ev": 0.9712926924633526,
+      "odds": 35.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 32.407407407407405
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "トリスティ",
+      "score": 42.04268518518518,
+      "ev": 0.9777866971690412,
+      "odds": 106.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 96.29629629629629
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ウィルラウス",
+      "score": 35.38944444444444,
+      "ev": 0.9455445497012642,
+      "odds": 14.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 61.11111111111111
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ストームサンダー",
+        "time": "1:29.7",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "トーアサジタリウス",
+        "time": "1:30.3",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "トリスティ",
+        "time": "1:30.5",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "スターオブロンドン",
+        "time": "1:30.8",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "エスカレイト",
+        "time": "1:31.5",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ドルチェミスト",
+        "time": "1:31.6",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "ウィルラウス",
+        "time": "1:32.3",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ベラジオソニック",
+        "time": "1:32.4",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "ディアナタコス",
+        "time": "1:32.5",
+        "lastThreeF": 38.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 660
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 210
+        },
+        {
+          "horseId": 7,
+          "payout": 670
+        },
+        {
+          "horseId": 8,
+          "payout": 1910
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 10880
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-7",
+          "payout": 10100
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-7",
+          "payout": 15440
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-7",
+          "payout": 2020
+        },
+        {
+          "combination": "6-8",
+          "payout": 4970
+        },
+        {
+          "combination": "7-8",
+          "payout": 8170
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-7-8",
+          "payout": 75830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-7-8",
+          "payout": 348530
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1600,
+    "ageLimit": "2歳",
+    "distance": 1500,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20250823",
+    "headCount": 9
+  }
+}

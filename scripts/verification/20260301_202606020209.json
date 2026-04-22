@@ -1,0 +1,351 @@
+{
+  "raceId": "202606020209",
+  "raceName": "富里特別",
+  "date": "2026-03-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブラックヴァール",
+      "score": 71.56763636363635,
+      "ev": 1.0205091565905946,
+      "odds": 20,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.54545454545455
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ダイシンアポロン",
+      "score": 66.26545454545453,
+      "ev": 0.992039740879329,
+      "odds": 32.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.818181818181824
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "レイヤードレッド",
+      "score": 57.349999999999994,
+      "ev": 0.9850382353807341,
+      "odds": 44.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "タッチアンドムーブ",
+      "score": 56.48381818181818,
+      "ev": 0.9908950086519318,
+      "odds": 12.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 31.272727272727273
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カリーニョ",
+      "score": 57.43499999999999,
+      "ev": 1.0055249388921066,
+      "odds": 2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "バードウォッチャー",
+      "score": 49.86899999999999,
+      "ev": 0.9779080976548312,
+      "odds": 14.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アメージング",
+      "score": 42.58090909090909,
+      "ev": 0.9734397385590585,
+      "odds": 35,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 3.6363636363636362
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ヤマニンアドホック",
+      "score": 40.973,
+      "ev": 0.9408850582611,
+      "odds": 3.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 16
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "キャピタルリッチ",
+      "score": 37.628727272727275,
+      "ev": 0.9382027184646234,
+      "odds": 7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 22.909090909090914
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ゴーソーファー",
+      "score": 29.191454545454548,
+      "ev": 0.9373117524378458,
+      "odds": 17,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 33.81818181818182
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606020209",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ヤマニンアドホック",
+        "time": "1:57.7",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "カリーニョ",
+        "time": "1:58.6",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "タッチアンドムーブ",
+        "time": "1:58.7",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "レイヤードレッド",
+        "time": "1:58.7",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ダイシンアポロン",
+        "time": "1:59.0",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "バードウォッチャー",
+        "time": "1:59.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ブラックヴァール",
+        "time": "1:59.6",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "アメージング",
+        "time": "2:00.1",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "ゴーソーファー",
+        "time": "2:03.2",
+        "lastThreeF": 37.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 360
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 200
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 310
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 320
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-5",
+          "payout": 770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 170
+        },
+        {
+          "combination": "4-8",
+          "payout": 550
+        },
+        {
+          "combination": "4-5",
+          "payout": 550
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-8",
+          "payout": 1340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-5-4",
+          "payout": 5380
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1580,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20260301",
+    "headCount": 10
+  }
+}

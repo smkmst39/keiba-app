@@ -1,0 +1,307 @@
+{
+  "raceId": "202501020301",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-30",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "リバテイー",
+      "score": 74.54499999999999,
+      "ev": 1.0232626714530861,
+      "odds": 16.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エリカビアリッツ",
+      "score": 60.482571428571426,
+      "ev": 1.0124742037483196,
+      "odds": 2.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 27.999999999999996
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ノアールビーナス",
+      "score": 57.492142857142845,
+      "ev": 1.0009800247709908,
+      "odds": 4.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コマチチャン",
+      "score": 55.27538095238094,
+      "ev": 0.986229777192637,
+      "odds": 10.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 52.666666666666664
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ベンテンカグラ",
+      "score": 52.190285714285714,
+      "ev": 0.980030075464925,
+      "odds": 163.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 72
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アスコットダンス",
+      "score": 43.95919047619048,
+      "ev": 0.9551712079959028,
+      "odds": 7.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 39.333333333333336
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ラスティングスノー",
+      "score": 38.21342857142857,
+      "ev": 0.9268792772828371,
+      "odds": 3.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 73.99999999999999
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "クラリスヒメ",
+      "score": 34.11233333333333,
+      "ev": 0.9765558038806512,
+      "odds": 84.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 51.33333333333332
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501020301",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ラスティングスノー",
+        "time": "1:31.9",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "エリカビアリッツ",
+        "time": "1:32.2",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "アスコットダンス",
+        "time": "1:32.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "コマチチャン",
+        "time": "1:32.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "リバテイー",
+        "time": "1:32.6",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ノアールビーナス",
+        "time": "1:32.6",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ベンテンカグラ",
+        "time": "1:33.2",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "クラリスヒメ",
+        "time": "1:33.6",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 350
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 140
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 330
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-2",
+          "payout": 800
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 160
+        },
+        {
+          "combination": "6-7",
+          "payout": 350
+        },
+        {
+          "combination": "2-6",
+          "payout": 250
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-7",
+          "payout": 670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-2-6",
+          "payout": 2800
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1500,
+    "surface": "turf",
+    "startTime": "09:50",
+    "raceDate": "20250830",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "raceId": "202509050207",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-12-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ポムドール",
+      "score": 66.41196721311475,
+      "ev": 0.9831700554214535,
+      "odds": 118.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 39.344262295081975
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ペレグリン",
+      "score": 70.85499999999999,
+      "ev": 1.0205114644311895,
+      "odds": 14.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ペンテリコン",
+      "score": 59.269672131147544,
+      "ev": 1.0150735566298497,
+      "odds": 4.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 43.44262295081968
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "モンテディアーナ",
+      "score": 58.81598360655737,
+      "ev": 1.0132741511119385,
+      "odds": 2.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.67213114754099
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レストプレドゥモア",
+      "score": 54.5044262295082,
+      "ev": 0.9880868922092997,
+      "odds": 19.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 88.52459016393443
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴールデンチップス",
+      "score": 50.675327868852456,
+      "ev": 0.9807895455086162,
+      "odds": 9.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.557377049180335
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヴィヴァシャス",
+      "score": 49.41303278688524,
+      "ev": 0.9767843646629679,
+      "odds": 5.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 60.65573770491803
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "シュークリーム",
+      "score": 41.52655737704918,
+      "ev": 0.9729402717653517,
+      "odds": 33.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 31.147540983606564
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "モズフラッシュ",
+      "score": 34.61000000000001,
+      "ev": 0.9298152967940377,
+      "odds": 5.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "イチトゼロノアイダ",
+      "score": 34.43180327868852,
+      "ev": 0.9673124725238594,
+      "odds": 20.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 36.0655737704918
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ラブアイミー",
+      "score": 34.177622950819675,
+      "ev": 0.976777712019754,
+      "odds": 55.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 52.459016393442646
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050207",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "モンテディアーナ",
+        "time": "1:12.6",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ペンテリコン",
+        "time": "1:12.7",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "モズフラッシュ",
+        "time": "1:12.7",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ペレグリン",
+        "time": "1:12.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ヴィヴァシャス",
+        "time": "1:13.1",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ポムドール",
+        "time": "1:13.4",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "ゴールデンチップス",
+        "time": "1:13.4",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "シュークリーム",
+        "time": "1:13.5",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "イチトゼロノアイダ",
+        "time": "1:14.2",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "ラブアイミー",
+        "time": "1:14.7",
+        "lastThreeF": 39.1
+      },
+      {
+        "rank": 11,
+        "horseId": 5,
+        "horseName": "レストプレドゥモア",
+        "time": "1:16.0",
+        "lastThreeF": 40.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 290
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 130
+        },
+        {
+          "horseId": 3,
+          "payout": 150
+        },
+        {
+          "horseId": 9,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-4",
+          "payout": 700
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 590
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-3",
+          "payout": 930
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 260
+        },
+        {
+          "combination": "4-9",
+          "payout": 350
+        },
+        {
+          "combination": "3-9",
+          "payout": 540
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-9",
+          "payout": 1410
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-3-9",
+          "payout": 6260
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "13:05",
+    "raceDate": "20251207",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "raceId": "202609010708",
+  "raceName": "阪神スプリングジャンプ",
+  "date": "2026-03-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ゲインサポート",
+      "score": 69.73499999999999,
+      "ev": 0.9836596590132182,
+      "odds": 185.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エコロデュエル",
+      "score": 62.11395348837209,
+      "ev": 1.0233370401130149,
+      "odds": 1.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 20.93023255813954
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヘザルフェン",
+      "score": 56.984534883720926,
+      "ev": 0.9916210390103194,
+      "odds": 16.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.302325581395353
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "レッドファーロ",
+      "score": 53.42406976744185,
+      "ev": 0.9804646816680523,
+      "odds": 55.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.6046511627907
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ポリトナリティー",
+      "score": 43.629999999999995,
+      "ev": 0.9785462238868102,
+      "odds": 232.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウアツイタ",
+      "score": 46.35748062015504,
+      "ev": 0.979080481508327,
+      "odds": 83.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50.38759689922482
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ゴールドブリーズ",
+      "score": 42.203139534883725,
+      "ev": 0.9782667311297595,
+      "odds": 98.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 37.2093023255814
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マイネルメサイア",
+      "score": 68.83217054263565,
+      "ev": 0.9834828132035862,
+      "odds": 99.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 56.58914728682173
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ディナースタ",
+      "score": 36.7253488372093,
+      "ev": 0.9350999050136125,
+      "odds": 5.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 93.0232558139535
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ネビーイーム",
+      "score": 30.512170542635662,
+      "ev": 0.8995341924042626,
+      "odds": 3.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 56.58914728682173
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609010708",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "ディナースタ",
+        "time": "4:30.7",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "エコロデュエル",
+        "time": "4:30.7",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ヘザルフェン",
+        "time": "4:31.0",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "メイショウアツイタ",
+        "time": "4:31.1",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "レッドファーロ",
+        "time": "4:32.0",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "ネビーイーム",
+        "time": "4:32.4",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "マイネルメサイア",
+        "time": "4:32.9",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ゲインサポート",
+        "time": "4:33.1",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "ゴールドブリーズ",
+        "time": "4:33.5",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ポリトナリティー",
+        "time": "4:42.2",
+        "lastThreeF": 14.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 560
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 160
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 210
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-8",
+          "payout": 120
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-9",
+          "payout": 420
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-2",
+          "payout": 1150
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-9",
+          "payout": 190
+        },
+        {
+          "combination": "3-9",
+          "payout": 490
+        },
+        {
+          "combination": "2-3",
+          "payout": 320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-9",
+          "payout": 830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-2-3",
+          "payout": 4430
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 4500,
+    "ageLimit": "4歳以上",
+    "distance": 3900,
+    "surface": "turf",
+    "startTime": "13:45",
+    "raceDate": "20260314",
+    "headCount": 10
+  }
+}

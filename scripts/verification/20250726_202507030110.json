@@ -1,0 +1,384 @@
+{
+  "raceId": "202507030110",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-07-26",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブラックタロー",
+      "score": 67.28605442176871,
+      "ev": 1.0140778284827652,
+      "odds": 18.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 29.931972789115648
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウインドワンピース",
+      "score": 66.3175850340136,
+      "ev": 0.9928592016161077,
+      "odds": 45.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.7687074829932
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ジーティーアメリカ",
+      "score": 58.919659863945576,
+      "ev": 0.9974064985291391,
+      "odds": 19.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 12.925170068027212
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "パーフェクト",
+      "score": 55.742585034013594,
+      "ev": 0.9910756875195591,
+      "odds": 13.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 21.7687074829932
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "テルアスワッド",
+      "score": 55.83931972789115,
+      "ev": 0.9845073785194235,
+      "odds": 26.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25.850340136054417
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シドニーホバート",
+      "score": 52.89999999999999,
+      "ev": 0.9908227979093276,
+      "odds": 4.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "カレンワッツアップ",
+      "score": 45.65857142857143,
+      "ev": 0.9619634740475296,
+      "odds": 4.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.285714285714283
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "テーオーマルコーニ",
+      "score": 44.808775510204086,
+      "ev": 0.9585767755000413,
+      "odds": 2.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.530612244897966
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ショウナンサエッタ",
+      "score": 39.69897959183674,
+      "ev": 0.9591063322466571,
+      "odds": 13,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.775510204081634
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メイショウソウセキ",
+      "score": 35.89,
+      "ev": 0.9686065414630086,
+      "odds": 29.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ポイントネモ",
+      "score": 28.966054421768707,
+      "ev": 0.9630877301988322,
+      "odds": 29.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 29.931972789115648
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030110",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "メイショウソウセキ",
+        "time": "1:53.5",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "ポイントネモ",
+        "time": "1:53.6",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "テーオーマルコーニ",
+        "time": "1:53.6",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "カレンワッツアップ",
+        "time": "1:53.7",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ジーティーアメリカ",
+        "time": "1:54.0",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "テルアスワッド",
+        "time": "1:54.7",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "ウインドワンピース",
+        "time": "1:55.0",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ブラックタロー",
+        "time": "1:55.2",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "シドニーホバート",
+        "time": "1:55.2",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "ショウナンサエッタ",
+        "time": "1:55.3",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "パーフェクト",
+        "time": "1:57.1",
+        "lastThreeF": 41.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 2970
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 590
+        },
+        {
+          "horseId": 11,
+          "payout": 570
+        },
+        {
+          "horseId": 8,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "8-8",
+          "payout": 23280
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "10-11",
+          "payout": 35060
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-11",
+          "payout": 70150
+        }
+      ],
+      "wide": [
+        {
+          "combination": "10-11",
+          "payout": 8140
+        },
+        {
+          "combination": "8-10",
+          "payout": 1210
+        },
+        {
+          "combination": "8-11",
+          "payout": 1370
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "8-10-11",
+          "payout": 26340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-11-8",
+          "payout": 313280
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "17:15",
+    "raceDate": "20250726",
+    "headCount": 11
+  }
+}

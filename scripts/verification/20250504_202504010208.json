@@ -1,0 +1,335 @@
+{
+  "raceId": "202504010208",
+  "raceName": "4歳以上1勝クラス",
+  "date": "2025-05-04",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "トレミニョン",
+      "score": 65.93749999999999,
+      "ev": 1.0342117250045217,
+      "odds": 3.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "パーセルペーパー",
+      "score": 61.45333333333333,
+      "ev": 0.9873847442622015,
+      "odds": 26.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 33.333333333333336
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メイショウタクボク",
+      "score": 54.90749999999999,
+      "ev": 0.9823374568058716,
+      "odds": 22.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クラウドセイル",
+      "score": 52.32388888888888,
+      "ev": 0.9813812601738237,
+      "odds": 5.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 47.22222222222222
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レッドアーバイン",
+      "score": 44.87416666666667,
+      "ev": 0.9665026678026445,
+      "odds": 11.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 16.666666666666668
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コーラスライン",
+      "score": 44.71,
+      "ev": 0.9786186208340869,
+      "odds": 65.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 74.99999999999997
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "メイショウノブカ",
+      "score": 67.83555555555556,
+      "ev": 1.0415293815267161,
+      "odds": 2.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 63.88888888888889
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ケイツールピア",
+      "score": 37.9075,
+      "ev": 0.953073220592295,
+      "odds": 15.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エイシンポリシー",
+      "score": 36.935,
+      "ev": 0.9511985597197499,
+      "odds": 14.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504010208",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "メイショウノブカ",
+        "time": "1:48.3",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "トレミニョン",
+        "time": "1:48.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "クラウドセイル",
+        "time": "1:49.0",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "メイショウタクボク",
+        "time": "1:49.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "レッドアーバイン",
+        "time": "1:49.2",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "コーラスライン",
+        "time": "1:49.4",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ケイツールピア",
+        "time": "1:49.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "パーセルペーパー",
+        "time": "1:49.9",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "エイシンポリシー",
+        "time": "1:50.4",
+        "lastThreeF": 37.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 120
+        },
+        {
+          "horseId": 1,
+          "payout": 140
+        },
+        {
+          "horseId": 4,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 410
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-7",
+          "payout": 440
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-1",
+          "payout": 810
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-7",
+          "payout": 210
+        },
+        {
+          "combination": "4-7",
+          "payout": 250
+        },
+        {
+          "combination": "1-4",
+          "payout": 340
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-7",
+          "payout": 580
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-1-4",
+          "payout": 2520
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 230
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 440
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "4歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:35",
+    "raceDate": "20250504",
+    "headCount": 9
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "raceId": "202504020101",
+  "raceName": "2歳未勝利",
+  "date": "2025-07-26",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ラインカシウス",
+      "score": 68.74499999999999,
+      "ev": 0.9932897458842687,
+      "odds": 39.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サンクスアミリオン",
+      "score": 62.960181598062945,
+      "ev": 0.9888054706260555,
+      "odds": 45.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 3.3898305084745792
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ライヴレッドアイ",
+      "score": 59.277990314769966,
+      "ev": 1.009755548796584,
+      "odds": 2.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 49.15254237288136
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "セイウンアインス",
+      "score": 57.037663438256644,
+      "ev": 1.0010722663798923,
+      "odds": 2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 83.05084745762711
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アドフランマム",
+      "score": 51.68428571428571,
+      "ev": 0.980258488729317,
+      "odds": 5.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "カゼノハゴロモ",
+      "score": 43.34904358353511,
+      "ev": 0.9736033095773172,
+      "odds": 35.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 28.8135593220339
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ツトムユニバース",
+      "score": 41.34354721549637,
+      "ev": 0.9720486889965534,
+      "odds": 24.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 72.88135593220339
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ベアゴーフォー",
+      "score": 28.40966101694915,
+      "ev": 0.9620225996981807,
+      "odds": 20.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 20.338983050847457
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020101",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "セイウンアインス",
+        "time": "1:12.4",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ライヴレッドアイ",
+        "time": "1:12.6",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "ベアゴーフォー",
+        "time": "1:13.4",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "アドフランマム",
+        "time": "1:13.7",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "ラインカシウス",
+        "time": "1:14.0",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "サンクスアミリオン",
+        "time": "1:15.0",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ツトムユニバース",
+        "time": "1:15.8",
+        "lastThreeF": 41.2
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "カゼノハゴロモ",
+        "time": "1:15.8",
+        "lastThreeF": 40.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 190
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-3",
+          "payout": 340
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 120
+        },
+        {
+          "combination": "4-8",
+          "payout": 340
+        },
+        {
+          "combination": "3-8",
+          "payout": 290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-8",
+          "payout": 670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-3-8",
+          "payout": 1780
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "左",
+    "distance": 1200,
+    "surface": "dirt",
+    "startTime": "09:45",
+    "raceDate": "20250726",
+    "headCount": 8
+  }
+}

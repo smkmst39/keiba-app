@@ -1,0 +1,383 @@
+{
+  "raceId": "202509050404",
+  "raceName": "2歳新馬",
+  "date": "2025-12-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ノーブルマドンナ",
+      "score": 66.51353982300884,
+      "ev": 0.990474319714186,
+      "odds": 39,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.026548672566378
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "テイエムスティール",
+      "score": 62.566902654867256,
+      "ev": 1.0173969162167245,
+      "odds": 4.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.601769911504425
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アカウフリューゲル",
+      "score": 58.62026548672566,
+      "ev": 0.9844844467725038,
+      "odds": 34.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.176991150442479
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ゼフィルス",
+      "score": 57.88159292035398,
+      "ev": 0.9996194966019287,
+      "odds": 2.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 61.06194690265486
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "メカニックバレエ",
+      "score": 70.33185840707964,
+      "ev": 0.9933718806242781,
+      "odds": 21.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.238938053097346
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ギフテッドスペック",
+      "score": 50.65,
+      "ev": 0.979609037123593,
+      "odds": 67,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ララディアーブル",
+      "score": 49.02079646017699,
+      "ev": 0.9792999536626642,
+      "odds": 52.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.53097345132743
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "レジーナテンペスタ",
+      "score": 46.760265486725665,
+      "ev": 0.9754843930480566,
+      "odds": 20.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.17699115044248
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "サトノロザリー",
+      "score": 45.38000000000001,
+      "ev": 0.9521848389609693,
+      "odds": 3.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "センリョウヤクシャ",
+      "score": 36.63424778761062,
+      "ev": 0.9678001853493432,
+      "odds": 31.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.831858407079643
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モヴシエラ",
+      "score": 35.459292035398235,
+      "ev": 0.9276342439627152,
+      "odds": 7.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 56.19469026548673
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "テイエムスティール",
+        "time": "1:22.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "ララディアーブル",
+        "time": "1:22.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "メカニックバレエ",
+        "time": "1:22.4",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ギフテッドスペック",
+        "time": "1:22.6",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "センリョウヤクシャ",
+        "time": "1:22.8",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "サトノロザリー",
+        "time": "1:23.0",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "アカウフリューゲル",
+        "time": "1:23.1",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ノーブルマドンナ",
+        "time": "1:23.2",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "レジーナテンペスタ",
+        "time": "1:23.4",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "ゼフィルス",
+        "time": "1:23.6",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 11,
+        "horseId": 11,
+        "horseName": "モヴシエラ",
+        "time": "1:24.2",
+        "lastThreeF": 37.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 460
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 190
+        },
+        {
+          "horseId": 7,
+          "payout": 910
+        },
+        {
+          "horseId": 5,
+          "payout": 460
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-6",
+          "payout": 6130
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 8500
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-7",
+          "payout": 13910
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 2040
+        },
+        {
+          "combination": "2-5",
+          "payout": 980
+        },
+        {
+          "combination": "5-7",
+          "payout": 5290
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-7",
+          "payout": 22910
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-7-5",
+          "payout": 132720
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "11:35",
+    "raceDate": "20251214",
+    "headCount": 11
+  }
+}

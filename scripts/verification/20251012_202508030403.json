@@ -1,0 +1,335 @@
+{
+  "raceId": "202508030403",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クーレスト",
+      "score": 68.08457264957265,
+      "ev": 0.9833047112055171,
+      "odds": 100.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0.8547008547008554
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リアライズグリント",
+      "score": 68.15749999999998,
+      "ev": 1.0463792453122562,
+      "odds": 1.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ラージアンサンブル",
+      "score": 59.62876068376068,
+      "ev": 0.9866092925058734,
+      "odds": 30.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 32.47863247863248
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "テイエムプレミラン",
+      "score": 57.98100427350427,
+      "ev": 0.9853213106725534,
+      "odds": 46.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 52.991452991452995
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コスモブラック",
+      "score": 50.57645299145299,
+      "ev": 0.9781339383449693,
+      "odds": 5.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.094017094017097
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アスクチャンスマン",
+      "score": 47.31839743589743,
+      "ev": 0.9792466999217693,
+      "odds": 187.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 28.205128205128215
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ブレナヴォン",
+      "score": 42.06944444444445,
+      "ev": 0.9444195702867183,
+      "odds": 2.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.111111111111116
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アスピラシオン",
+      "score": 36.457499999999996,
+      "ev": 0.9684972932867889,
+      "odds": 20.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ジーティービキニ",
+      "score": 30.28589743589744,
+      "ev": 0.9391830282990042,
+      "odds": 13,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 28.205128205128215
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030403",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "ブレナヴォン",
+        "time": "1:59.5",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "リアライズグリント",
+        "time": "2:00.1",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "アスクチャンスマン",
+        "time": "2:00.1",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ラージアンサンブル",
+        "time": "2:00.1",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ジーティービキニ",
+        "time": "2:00.3",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "コスモブラック",
+        "time": "2:00.5",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "クーレスト",
+        "time": "2:00.6",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "アスピラシオン",
+        "time": "2:00.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "テイエムプレミラン",
+        "time": "2:02.3",
+        "lastThreeF": 38.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 1210
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-7",
+          "payout": 190
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-7",
+          "payout": 170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-2",
+          "payout": 440
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-7",
+          "payout": 130
+        },
+        {
+          "combination": "6-7",
+          "payout": 3230
+        },
+        {
+          "combination": "2-6",
+          "payout": 2780
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-7",
+          "payout": 5920
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-2-6",
+          "payout": 16290
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "10:50",
+    "raceDate": "20251012",
+    "headCount": 9
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "raceId": "202504020203",
+  "raceName": "2歳新馬",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ホノボノ",
+      "score": 69.2592156862745,
+      "ev": 0.9832049611473161,
+      "odds": 68.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 2.7450980392156885
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ペルウィクトール",
+      "score": 70.28749999999998,
+      "ev": 1.0480202764195965,
+      "odds": 1.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ハングローズ",
+      "score": 59.875,
+      "ev": 0.9856630668344253,
+      "odds": 37.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "セントリアン",
+      "score": 55.87661764705882,
+      "ev": 0.980653435182043,
+      "odds": 68.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.588235294117645
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ガリレア",
+      "score": 51.28686274509804,
+      "ev": 0.9797783525730999,
+      "odds": 83.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.980392156862747
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴールデンブラッド",
+      "score": 48.7896568627451,
+      "ev": 0.968835765321233,
+      "odds": 8.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.45098039215686
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フィロステファニ",
+      "score": 45.56460784313726,
+      "ev": 0.9537469505825099,
+      "odds": 2.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 71.37254901960786
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ディールメーカー",
+      "score": 37.92700980392157,
+      "ev": 0.9689246527516722,
+      "odds": 33.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.215686274509807
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ソニックキャット",
+      "score": 33.178039215686276,
+      "ev": 0.9653028980733372,
+      "odds": 25.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.86274509803922
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020203",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "フィロステファニ",
+        "time": "1:37.1",
+        "lastThreeF": 32.6
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ディールメーカー",
+        "time": "1:37.1",
+        "lastThreeF": 32.8
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ペルウィクトール",
+        "time": "1:37.3",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ゴールデンブラッド",
+        "time": "1:37.5",
+        "lastThreeF": 33.2
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ガリレア",
+        "time": "1:37.5",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ハングローズ",
+        "time": "1:37.6",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "ソニックキャット",
+        "time": "1:38.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ホノボノ",
+        "time": "1:38.9",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "セントリアン",
+        "time": "1:39.7",
+        "lastThreeF": 35.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 280
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 110
+        },
+        {
+          "horseId": 8,
+          "payout": 260
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 880
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-8",
+          "payout": 2370
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-8",
+          "payout": 3680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-8",
+          "payout": 440
+        },
+        {
+          "combination": "2-7",
+          "payout": 120
+        },
+        {
+          "combination": "2-8",
+          "payout": 400
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-8",
+          "payout": 810
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-8-2",
+          "payout": 8660
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "10:50",
+    "raceDate": "20250727",
+    "headCount": 9
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "raceId": "202508030303",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ソルトハッピー",
+      "score": 69.41426829268292,
+      "ev": 1.0302582876175472,
+      "odds": 5.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.780487804878053
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シーミハットク",
+      "score": 66.455,
+      "ev": 1.031618198377973,
+      "odds": 3.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "テーオーレックス",
+      "score": 54.8310975609756,
+      "ev": 0.9803803340481375,
+      "odds": 71.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.829268292682922
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "イノリ",
+      "score": 45.894999999999996,
+      "ev": 0.9747543968536816,
+      "odds": 32,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "テーオーアルアイン",
+      "score": 44.423780487804876,
+      "ev": 0.9482015139790838,
+      "odds": 4.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 89.6341463414634
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "イルミナジーティー",
+      "score": 35.91341463414634,
+      "ev": 0.9159787628898508,
+      "odds": 2.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 64.02439024390243
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030303",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "シーミハットク",
+        "time": "1:48.0",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "テーオーアルアイン",
+        "time": "1:48.3",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "イルミナジーティー",
+        "time": "1:48.5",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ソルトハッピー",
+        "time": "1:48.6",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "テーオーレックス",
+        "time": "1:50.0",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "イノリ",
+        "time": "1:50.9",
+        "lastThreeF": 36.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 310
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 190
+        },
+        {
+          "horseId": 5,
+          "payout": 230
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 490
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-5",
+          "payout": 980
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 190
+        },
+        {
+          "combination": "2-6",
+          "payout": 140
+        },
+        {
+          "combination": "5-6",
+          "payout": 160
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-6",
+          "payout": 330
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-5-6",
+          "payout": 2060
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "10:50",
+    "raceDate": "20251011",
+    "headCount": 6
+  }
+}

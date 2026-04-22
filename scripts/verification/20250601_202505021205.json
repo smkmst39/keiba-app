@@ -1,0 +1,384 @@
+{
+  "raceId": "202505021205",
+  "raceName": "3歳1勝クラス",
+  "date": "2025-06-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パシーヴ",
+      "score": 65.87492125984252,
+      "ev": 0.9911087216532161,
+      "odds": 27.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.37795275590551
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ピーチマカロン",
+      "score": 61.6907874015748,
+      "ev": 0.9819656206852913,
+      "odds": 187.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 36.220472440944874
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "レーティッシュ",
+      "score": 62.764999999999986,
+      "ev": 1.0234795255322462,
+      "odds": 3.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マーズオデッセイ",
+      "score": 53.73992125984251,
+      "ev": 0.9867753751993847,
+      "odds": 6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 26.37795275590551
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "セレジェイラ",
+      "score": 51.50523622047243,
+      "ev": 0.9799001870261045,
+      "odds": 19.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 20.866141732283467
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジーティーエンジン",
+      "score": 48.163858267716535,
+      "ev": 0.9773676837690624,
+      "odds": 45.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 57.48031496062993
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "メルシージュテーム",
+      "score": 47.03771653543308,
+      "ev": 0.9712349311253687,
+      "odds": 16.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 64.96062992125985
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "トリリオンボーイ",
+      "score": 39.225,
+      "ev": 0.9417300647048815,
+      "odds": 9.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ドラゴン",
+      "score": 38.12779527559055,
+      "ev": 0.9279062774363325,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.582677165354326
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ドントゥザムーン",
+      "score": 29.860236220472444,
+      "ev": 0.9631669119644433,
+      "odds": 33.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 20.866141732283467
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "スマイルディシー",
+      "score": 69.13318897637794,
+      "ev": 0.9834091580104355,
+      "odds": 58.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.692913385826774
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505021205",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "トリリオンボーイ",
+        "time": "1:23.0",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "レーティッシュ",
+        "time": "1:23.1",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "ドントゥザムーン",
+        "time": "1:23.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "メルシージュテーム",
+        "time": "1:23.3",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "セレジェイラ",
+        "time": "1:23.5",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ドラゴン",
+        "time": "1:23.5",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "マーズオデッセイ",
+        "time": "1:23.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "パシーヴ",
+        "time": "1:24.0",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "ピーチマカロン",
+        "time": "1:24.7",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 10,
+        "horseId": 11,
+        "horseName": "スマイルディシー",
+        "time": "1:24.7",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "ジーティーエンジン",
+        "time": "1:25.1",
+        "lastThreeF": 36.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 950
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 190
+        },
+        {
+          "horseId": 3,
+          "payout": 130
+        },
+        {
+          "horseId": 10,
+          "payout": 560
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-7",
+          "payout": 320
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-8",
+          "payout": 930
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-3",
+          "payout": 2800
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-8",
+          "payout": 360
+        },
+        {
+          "combination": "8-10",
+          "payout": 2210
+        },
+        {
+          "combination": "3-10",
+          "payout": 1480
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-8-10",
+          "payout": 10330
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-3-10",
+          "payout": 71630
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "重",
+    "handicap": "馬齢",
+    "prize": 800,
+    "ageLimit": "3歳",
+    "courseTurn": "左",
+    "distance": 1400,
+    "surface": "dirt",
+    "startTime": "12:10",
+    "raceDate": "20250601",
+    "headCount": 11
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "raceId": "202608010606",
+  "raceName": "3歳1勝クラス",
+  "date": "2026-01-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ミヤジオズ",
+      "score": 62.83517636684302,
+      "ev": 0.9821276464020418,
+      "odds": 61.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 1.2345679012345718
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウィッキドピケット",
+      "score": 64.00214285714284,
+      "ev": 1.0176460708601374,
+      "odds": 7.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アトモス",
+      "score": 69.1,
+      "ev": 1.0333888474159314,
+      "odds": 9.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ショコラプリン",
+      "score": 56.26353321575543,
+      "ev": 0.9937483430457023,
+      "odds": 5.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 88.06584362139918
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "トリグラフヒル",
+      "score": 48.891693121693116,
+      "ev": 0.968729052884434,
+      "odds": 2.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 51.85185185185185
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クイノールト",
+      "score": 45.13271310993533,
+      "ev": 0.9542188428234984,
+      "odds": 4.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.325102880658434
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ブームバップビート",
+      "score": 39.22288947677836,
+      "ev": 0.9411248506189899,
+      "odds": 9.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 48.55967078189301
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ゴールデンスラム",
+      "score": 29.043991769547326,
+      "ev": 0.962422807265056,
+      "odds": 22.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 31.275720164609055
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608010606",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "トリグラフヒル",
+        "time": "1:53.6",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ショコラプリン",
+        "time": "1:53.8",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "アトモス",
+        "time": "1:54.2",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ミヤジオズ",
+        "time": "1:54.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ブームバップビート",
+        "time": "1:55.2",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ウィッキドピケット",
+        "time": "1:55.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ゴールデンスラム",
+        "time": "1:55.6",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "クイノールト",
+        "time": "1:56.4",
+        "lastThreeF": 39
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 220
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 140
+        },
+        {
+          "horseId": 3,
+          "payout": 200
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 620
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-4",
+          "payout": 940
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 270
+        },
+        {
+          "combination": "3-5",
+          "payout": 340
+        },
+        {
+          "combination": "3-4",
+          "payout": 620
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-5",
+          "payout": 1520
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-4-3",
+          "payout": 4600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 820,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "12:40",
+    "raceDate": "20260117",
+    "headCount": 8
+  }
+}

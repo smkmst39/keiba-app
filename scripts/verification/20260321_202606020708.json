@@ -1,0 +1,359 @@
+{
+  "raceId": "202606020708",
+  "raceName": "ペガサスJS",
+  "date": "2026-03-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ビートザレコード",
+      "score": 65.36999999999999,
+      "ev": 0.9909119308747635,
+      "odds": 32.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 21.379310344827587
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スズカハービン",
+      "score": 67.75999999999999,
+      "ev": 1.0438666388308073,
+      "odds": 4.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.58620689655173
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ゴールデンスロープ",
+      "score": 62.62499999999999,
+      "ev": 1.0019351258617126,
+      "odds": 18.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.86206896551724
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "タマモエース",
+      "score": 56.85499999999999,
+      "ev": 0.9842802176821888,
+      "odds": 23.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 19.310344827586206
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コスモチプリア",
+      "score": 52.34499999999999,
+      "ev": 0.9801919268075551,
+      "odds": 77,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジーティーオウジャ",
+      "score": 48.84777777777777,
+      "ev": 0.9795109939024325,
+      "odds": 67.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 40.996168582375475
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アトラクティーボ",
+      "score": 41.309999999999995,
+      "ev": 0.9780433374041475,
+      "odds": 54.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 6.206896551724134
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "シホノスペランツァ",
+      "score": 43.230000000000004,
+      "ev": 0.9483434887345898,
+      "odds": 1.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 85.51724137931035
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ピーターサイト",
+      "score": 38.315,
+      "ev": 0.9292038114935417,
+      "odds": 4.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 53.10344827586208
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "フォージドブリック",
+      "score": 36.935,
+      "ev": 0.9350639233201401,
+      "odds": 7.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606020708",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "フォージドブリック",
+        "time": "3:42.0",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "ピーターサイト",
+        "time": "3:42.0",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ゴールデンスロープ",
+        "time": "3:42.2",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "アトラクティーボ",
+        "time": "3:44.1",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "スズカハービン",
+        "time": "3:44.2",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ビートザレコード",
+        "time": "3:44.2",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "シホノスペランツァ",
+        "time": "3:44.3",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "ジーティーオウジャ",
+        "time": "3:45.0",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 9,
+        "horseId": 5,
+        "horseName": "コスモチプリア",
+        "time": "3:45.0",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "タマモエース",
+        "time": "3:45.8",
+        "lastThreeF": 13.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 790
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 260
+        },
+        {
+          "horseId": 9,
+          "payout": 200
+        },
+        {
+          "horseId": 3,
+          "payout": 410
+        }
+      ],
+      "waku": [
+        {
+          "combination": "8-8",
+          "payout": 1530
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "9-10",
+          "payout": 1490
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-9",
+          "payout": 3680
+        }
+      ],
+      "wide": [
+        {
+          "combination": "9-10",
+          "payout": 490
+        },
+        {
+          "combination": "3-10",
+          "payout": 1380
+        },
+        {
+          "combination": "3-9",
+          "payout": 970
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-9-10",
+          "payout": 7670
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-9-3",
+          "payout": 40290
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 10,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害4歳以上",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1750,
+    "ageLimit": "4歳以上",
+    "distance": 3350,
+    "surface": "turf",
+    "startTime": "14:01",
+    "raceDate": "20260321",
+    "headCount": 10
+  }
+}

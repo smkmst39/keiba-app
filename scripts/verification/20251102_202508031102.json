@@ -1,0 +1,278 @@
+{
+  "raceId": "202508031102",
+  "raceName": "2歳未勝利",
+  "date": "2025-11-02",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "インフィオラータ",
+      "score": 69.18805555555555,
+      "ev": 1.0457678202534124,
+      "odds": 4.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 7.638888888888887
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ロゼア",
+      "score": 65.61305555555556,
+      "ev": 0.9904070785488808,
+      "odds": 47.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 82.6388888888889
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ワンダフルボンド",
+      "score": 61.535,
+      "ev": 1.0163706088858364,
+      "odds": 1.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ロングホリデー",
+      "score": 52.04194444444444,
+      "ev": 0.9799055187443926,
+      "odds": 4.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 42.36111111111111
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "オドワローズ",
+      "score": 44.144999999999996,
+      "ev": 0.978478573599793,
+      "odds": 84.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダイシンヨーク",
+      "score": 40.32439814814815,
+      "ev": 0.9777447814603337,
+      "odds": 86.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 40.162037037037045
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "タガノアルトゥーラ",
+      "score": 31.618333333333336,
+      "ev": 0.9407267790847106,
+      "odds": 15,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 8.333333333333337
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508031102",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ワンダフルボンド",
+        "time": "2:01.9",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "タガノアルトゥーラ",
+        "time": "2:02.1",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ロングホリデー",
+        "time": "2:02.3",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "インフィオラータ",
+        "time": "2:02.4",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ロゼア",
+        "time": "2:03.1",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "オドワローズ",
+        "time": "2:03.5",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "ダイシンヨーク",
+        "time": "2:03.6",
+        "lastThreeF": 36.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 320
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-7",
+          "payout": 910
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-7",
+          "payout": 1070
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-7",
+          "payout": 240
+        },
+        {
+          "combination": "3-4",
+          "payout": 150
+        },
+        {
+          "combination": "4-7",
+          "payout": 330
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-7",
+          "payout": 440
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-7-4",
+          "payout": 2130
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "10:15",
+    "raceDate": "20251102",
+    "headCount": 7
+  }
+}

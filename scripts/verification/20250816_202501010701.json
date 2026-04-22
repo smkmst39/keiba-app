@@ -1,0 +1,278 @@
+{
+  "raceId": "202501010701",
+  "raceName": "2歳未勝利",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ハイライトニング",
+      "score": 71.01651162790698,
+      "ev": 1.0179975797452632,
+      "odds": 10.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 69.76744186046511
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラシッド",
+      "score": 66.50662790697675,
+      "ev": 0.9829234082015583,
+      "odds": 86.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 67.44186046511629
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エバーシャンティ",
+      "score": 61.535,
+      "ev": 1.0191466681471817,
+      "odds": 3.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブルームオブピース",
+      "score": 50.82984496124031,
+      "ev": 0.9798771333914995,
+      "odds": 109.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.1007751937984467
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "グロリアスマーチ",
+      "score": 40.474186046511626,
+      "ev": 0.9372969324610776,
+      "odds": 2.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 16.279069767441857
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マイネルシンベリン",
+      "score": 38.73782945736434,
+      "ev": 0.930548839619443,
+      "odds": 2.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 43.410852713178286
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クリスタルメモリー",
+      "score": 31.135,
+      "ev": 0.9760500784210308,
+      "odds": 67.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010701",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "マイネルシンベリン",
+        "time": "1:48.8",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "グロリアスマーチ",
+        "time": "1:49.3",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "エバーシャンティ",
+        "time": "1:49.6",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ハイライトニング",
+        "time": "1:50.1",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ラシッド",
+        "time": "1:51.2",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "クリスタルメモリー",
+        "time": "1:51.3",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "ブルームオブピース",
+        "time": "1:51.7",
+        "lastThreeF": 37.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 130
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 250
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 480
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 120
+        },
+        {
+          "combination": "3-6",
+          "payout": 130
+        },
+        {
+          "combination": "3-5",
+          "payout": 150
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 180
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-3",
+          "payout": 860
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "09:55",
+    "raceDate": "20250816",
+    "headCount": 7
+  }
+}

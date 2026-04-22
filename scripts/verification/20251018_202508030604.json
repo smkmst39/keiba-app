@@ -1,0 +1,382 @@
+{
+  "raceId": "202508030604",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-10-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コレペティトール",
+      "score": 64.41794326241134,
+      "ev": 1.0376490407222183,
+      "odds": 3.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 4.964539007092199
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スマラグドス",
+      "score": 63.84986603624901,
+      "ev": 0.9910753864570556,
+      "odds": 22.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 36.72182821118993
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "テーオーサンドニ",
+      "score": 56.88723404255318,
+      "ev": 1.0020230890725337,
+      "odds": 9.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 17.021276595744684
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "セイフウサツキ",
+      "score": 52.04375886524822,
+      "ev": 0.9816313339672674,
+      "odds": 21.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 46.09929078014185
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ホウオウプレシャス",
+      "score": 52.77986603624902,
+      "ev": 0.9855504193784292,
+      "odds": 16,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 36.72182821118993
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ランスオブサターン",
+      "score": 51.2013829787234,
+      "ev": 0.9802393731777344,
+      "odds": 77.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 91.48936170212765
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ゲインサポート",
+      "score": 38.7936170212766,
+      "ev": 0.9441286226225646,
+      "odds": 5.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 8.510638297872344
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アスクオンディープ",
+      "score": 37.612836879432635,
+      "ev": 0.9700876148788248,
+      "odds": 43,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 51.77304964539008
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "カイコウ",
+      "score": 61.85999999999999,
+      "ev": 1.0179345362723065,
+      "odds": 8.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "サトノグレイト",
+      "score": 32.95702127659574,
+      "ev": 0.9765908227482415,
+      "odds": 186.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 10.638297872340425
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ゴールデンスロープ",
+      "score": 37.644999999999996,
+      "ev": 0.93056671552641,
+      "odds": 2.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030604",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ホウオウプレシャス",
+        "time": "3:18.0",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "カイコウ",
+        "time": "3:18.7",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "ゴールデンスロープ",
+        "time": "3:18.9",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "ゲインサポート",
+        "time": "3:19.2",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "セイフウサツキ",
+        "time": "3:19.9",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "テーオーサンドニ",
+        "time": "3:20.1",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "ランスオブサターン",
+        "time": "3:20.6",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "スマラグドス",
+        "time": "3:20.8",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "コレペティトール",
+        "time": "3:21.0",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "サトノグレイト",
+        "time": "3:24.9",
+        "lastThreeF": 14.1
+      },
+      {
+        "rank": 11,
+        "horseId": 8,
+        "horseName": "アスクオンディープ",
+        "time": "3:31.2",
+        "lastThreeF": 14.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 1600
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 290
+        },
+        {
+          "horseId": 9,
+          "payout": 230
+        },
+        {
+          "horseId": 11,
+          "payout": 140
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 2950
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-9",
+          "payout": 3770
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-9",
+          "payout": 8410
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-9",
+          "payout": 1100
+        },
+        {
+          "combination": "5-11",
+          "payout": 540
+        },
+        {
+          "combination": "9-11",
+          "payout": 360
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-9-11",
+          "payout": 2460
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-9-11",
+          "payout": 23470
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "雨",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2910,
+    "surface": "turf",
+    "startTime": "11:25",
+    "raceDate": "20251018",
+    "headCount": 11
+  }
+}

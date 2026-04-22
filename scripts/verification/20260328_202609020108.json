@@ -1,0 +1,383 @@
+{
+  "raceId": "202609020108",
+  "raceName": "三木ホースランドパークJS",
+  "date": "2026-03-28",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブラックボイス",
+      "score": 67.21166666666666,
+      "ev": 1.0159101075400594,
+      "odds": 15.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 4.166666666666665
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "クラップサンダー",
+      "score": 65.07,
+      "ev": 0.9926317595514569,
+      "odds": 34.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 12.5
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スマイルスルー",
+      "score": 62.55,
+      "ev": 1.0329673090474585,
+      "odds": 3.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ホウオウプロサンゲ",
+      "score": 54.22,
+      "ev": 0.9992787769233127,
+      "odds": 1.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 20
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アルカンサス",
+      "score": 52.191666666666656,
+      "ev": 0.9805537853488159,
+      "odds": 133.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 24.16666666666667
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "オールザワールド",
+      "score": 49.099999999999994,
+      "ev": 0.9788578081436319,
+      "odds": 5.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 10.000000000000004
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ナリノモンターニュ",
+      "score": 46.605,
+      "ev": 0.9742409387542511,
+      "odds": 12.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "エンデュミオン",
+      "score": 44.281666666666666,
+      "ev": 0.9758171512607616,
+      "odds": 46.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 54.16666666666667
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "トーアモルペウス",
+      "score": 36.93000000000001,
+      "ev": 0.9698707680995129,
+      "odds": 26.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 40
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "デシマルサーガ",
+      "score": 35.86833333333333,
+      "ev": 0.9772530102025184,
+      "odds": 75.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 60.83333333333334
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "クラウンセト",
+      "score": 29.955000000000002,
+      "ev": 0.9760572627837862,
+      "odds": 133.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 22.500000000000004
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609020108",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ホウオウプロサンゲ",
+        "time": "3:29.8",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "スマイルスルー",
+        "time": "3:31.5",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "オールザワールド",
+        "time": "3:32.8",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ブラックボイス",
+        "time": "3:32.8",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "トーアモルペウス",
+        "time": "3:33.2",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "クラップサンダー",
+        "time": "3:33.2",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "デシマルサーガ",
+        "time": "3:34.0",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ナリノモンターニュ",
+        "time": "3:34.3",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 9,
+        "horseId": 11,
+        "horseName": "クラウンセト",
+        "time": "3:34.3",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "エンデュミオン",
+        "time": "3:34.8",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 11,
+        "horseId": 5,
+        "horseName": "アルカンサス",
+        "time": "3:36.8",
+        "lastThreeF": 13.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 3,
+          "payout": 120
+        },
+        {
+          "horseId": 6,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-4",
+          "payout": 410
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 370
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-3",
+          "payout": 570
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 170
+        },
+        {
+          "combination": "4-6",
+          "payout": 220
+        },
+        {
+          "combination": "3-6",
+          "payout": 280
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-6",
+          "payout": 540
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-3-6",
+          "payout": 1590
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "障害4歳以上",
+    "raceGrade": "L",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1750,
+    "ageLimit": "4歳以上",
+    "distance": 3140,
+    "surface": "turf",
+    "startTime": "13:45",
+    "raceDate": "20260328",
+    "headCount": 11
+  }
+}

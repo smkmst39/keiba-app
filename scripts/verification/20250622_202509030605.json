@@ -1,0 +1,359 @@
+{
+  "raceId": "202509030605",
+  "raceName": "2歳新馬",
+  "date": "2025-06-22",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タガノアバンドーネ",
+      "score": 69.1,
+      "ev": 0.9924055995890687,
+      "odds": 25.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "チェリヴェント",
+      "score": 63.907407407407405,
+      "ev": 1.0138701014974285,
+      "odds": 7.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.85185185185185
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "オーロラボレアリス",
+      "score": 61.90781893004115,
+      "ev": 1.0078041314199886,
+      "odds": 9.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 88.06584362139918
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エコロボルト",
+      "score": 52.962551440329214,
+      "ev": 0.9804173033284134,
+      "odds": 19.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.52674897119342
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "クボウサマ",
+      "score": 49.10123456790123,
+      "ev": 0.9793096224243646,
+      "odds": 178.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 8.641975308641978
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アルバンヌ",
+      "score": 50.3,
+      "ev": 0.9707381808487812,
+      "odds": 4.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "エバーグレイト",
+      "score": 41.25925925925927,
+      "ev": 0.9712911175120451,
+      "odds": 30.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.814814814814817
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "クールデイトナ",
+      "score": 65.54897119341562,
+      "ev": 0.9897124911409195,
+      "odds": 37.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.46502057613169
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "フェスティバルヒル",
+      "score": 39.04485596707819,
+      "ev": 0.9280585447050332,
+      "odds": 1.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.325102880658434
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "バースデイフライト",
+      "score": 34.292455418381344,
+      "ev": 0.9660074773890258,
+      "odds": 43.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 36.076817558299034
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509030605",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "フェスティバルヒル",
+        "time": "1:37.2",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "アルバンヌ",
+        "time": "1:37.3",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "バースデイフライト",
+        "time": "1:37.5",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "クールデイトナ",
+        "time": "1:37.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "オーロラボレアリス",
+        "time": "1:37.9",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "エバーグレイト",
+        "time": "1:38.0",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "チェリヴェント",
+        "time": "1:38.4",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "エコロボルト",
+        "time": "1:38.6",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "タガノアバンドーネ",
+        "time": "1:38.6",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "クボウサマ",
+        "time": "1:39.5",
+        "lastThreeF": 36.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 130
+        },
+        {
+          "horseId": 10,
+          "payout": 440
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 320
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-9",
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-6",
+          "payout": 480
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-9",
+          "payout": 190
+        },
+        {
+          "combination": "9-10",
+          "payout": 700
+        },
+        {
+          "combination": "6-10",
+          "payout": 1550
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-9-10",
+          "payout": 2830
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-6-10",
+          "payout": 5930
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20250622",
+    "headCount": 10
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "raceId": "202506040401",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-09-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フェーングロッテン",
+      "score": 70.44035117056856,
+      "ev": 1.0575533005827589,
+      "odds": 1.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 41.47157190635453
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スラーヴァ",
+      "score": 64.30708193979932,
+      "ev": 0.9826693312473822,
+      "odds": 100.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 3.0100334448160524
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ゴールデンルーキー",
+      "score": 60.47633779264214,
+      "ev": 0.9876584993759059,
+      "odds": 25.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.367892976588632
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シュハリ",
+      "score": 55.94520903010033,
+      "ev": 0.996350937041717,
+      "odds": 9.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 48.49498327759198
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゴーツウキリシマ",
+      "score": 50.663561872909696,
+      "ev": 0.9799255216177293,
+      "odds": 44.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.354515050167224
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スティルシャイニン",
+      "score": 41.0675,
+      "ev": 0.9780908314497763,
+      "odds": 136.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フォーディアライフ",
+      "score": 42.07869565217391,
+      "ev": 0.9526408022492427,
+      "odds": 9.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.391304347826086
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アルカンサス",
+      "score": 41.5475,
+      "ev": 0.9437079538124212,
+      "odds": 4.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "リケアルフナ",
+      "score": 30.29640468227425,
+      "ev": 0.9759687856289887,
+      "odds": 121.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 28.386287625418067
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202506040401",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "フェーングロッテン",
+        "time": "3:18.5",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ゴールデンルーキー",
+        "time": "3:18.9",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ゴーツウキリシマ",
+        "time": "3:19.1",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "フォーディアライフ",
+        "time": "3:19.1",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "シュハリ",
+        "time": "3:19.3",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "アルカンサス",
+        "time": "3:19.8",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "スラーヴァ",
+        "time": "3:20.0",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "リケアルフナ",
+        "time": "3:30.7",
+        "lastThreeF": 14.6
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "スティルシャイニン",
+        "time": "3:34.7",
+        "lastThreeF": 14.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 130
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 100
+        },
+        {
+          "horseId": 3,
+          "payout": 270
+        },
+        {
+          "horseId": 5,
+          "payout": 390
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-3",
+          "payout": 990
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-3",
+          "payout": 800
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-3",
+          "payout": 1000
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-3",
+          "payout": 400
+        },
+        {
+          "combination": "1-5",
+          "payout": 610
+        },
+        {
+          "combination": "3-5",
+          "payout": 2260
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-3-5",
+          "payout": 3920
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-3-5",
+          "payout": 7950
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 130
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2880,
+    "surface": "turf",
+    "startTime": "09:45",
+    "raceDate": "20250914",
+    "headCount": 9
+  }
+}

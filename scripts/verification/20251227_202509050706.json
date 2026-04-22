@@ -1,0 +1,384 @@
+{
+  "raceId": "202509050706",
+  "raceName": "2歳新馬",
+  "date": "2025-12-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ワンダーデリエール",
+      "score": 69.69318181818181,
+      "ev": 1.014277707229496,
+      "odds": 17.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.22727272727273
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "オーキーベルセルク",
+      "score": 67.18954545454545,
+      "ev": 1.0094539562989886,
+      "odds": 14.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.681818181818183
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "サンセットロード",
+      "score": 61.983636363636364,
+      "ev": 0.987769496869116,
+      "odds": 23.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.545454545454546
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クラテロス",
+      "score": 59.28227272727272,
+      "ev": 1.002750448833034,
+      "odds": 5.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.590909090909093
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アメリカンコール",
+      "score": 55.59227272727272,
+      "ev": 0.9942190305206464,
+      "odds": 3.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.590909090909093
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "サヴォアフェール",
+      "score": 51.902272727272724,
+      "ev": 0.9800000000000001,
+      "odds": 4.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.590909090909093
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "レイノルズナンバー",
+      "score": 46.96,
+      "ev": 0.9790477733502649,
+      "odds": 54,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "クラッチスラッガー",
+      "score": 44.12681818181819,
+      "ev": 0.9500380960721637,
+      "odds": 5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.772727272727279
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ブラストビート",
+      "score": 39.777727272727276,
+      "ev": 0.9776639663703639,
+      "odds": 74.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.4090909090909087
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ウイングリフィス",
+      "score": 36.41727272727273,
+      "ev": 0.9770165082979375,
+      "odds": 106.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.090909090909093
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "グランシャン",
+      "score": 38,
+      "ev": 0.9371432324736174,
+      "odds": 6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050706",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "アメリカンコール",
+        "time": "1:54.0",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "サヴォアフェール",
+        "time": "1:54.2",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "クラテロス",
+        "time": "1:55.9",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "クラッチスラッガー",
+        "time": "1:56.3",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "サンセットロード",
+        "time": "1:56.5",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "グランシャン",
+        "time": "1:56.7",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "オーキーベルセルク",
+        "time": "1:57.2",
+        "lastThreeF": 39.6
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "ブラストビート",
+        "time": "1:57.7",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ワンダーデリエール",
+        "time": "1:58.0",
+        "lastThreeF": 40.8
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "レイノルズナンバー",
+        "time": "2:00.0",
+        "lastThreeF": 41.5
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "ウイングリフィス",
+        "time": "2:00.6",
+        "lastThreeF": 40.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 370
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 150
+        },
+        {
+          "horseId": 6,
+          "payout": 150
+        },
+        {
+          "horseId": 4,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 930
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 1050
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-6",
+          "payout": 1880
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 380
+        },
+        {
+          "combination": "4-5",
+          "payout": 410
+        },
+        {
+          "combination": "4-6",
+          "payout": 490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-6",
+          "payout": 1840
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-6-4",
+          "payout": 8430
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "12:35",
+    "raceDate": "20251227",
+    "headCount": 11
+  }
+}

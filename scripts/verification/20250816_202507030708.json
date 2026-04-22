@@ -1,0 +1,306 @@
+{
+  "raceId": "202507030708",
+  "raceName": "長久手特別",
+  "date": "2025-08-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タガノアビー",
+      "score": 67.49857142857142,
+      "ev": 1.0420750620831267,
+      "odds": 1.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エルフストラック",
+      "score": 61.48372180451127,
+      "ev": 0.9993606758483067,
+      "odds": 14.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 56.57894736842105
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ラビットアイ",
+      "score": 56.492117794486205,
+      "ev": 0.9896702860879394,
+      "odds": 10.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 61.403508771929815
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フレミングフープ",
+      "score": 45.19203007518797,
+      "ev": 0.9677329981727887,
+      "odds": 12.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 37.03007518796994
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スターリングアップ",
+      "score": 43.68408521303259,
+      "ev": 0.9739222270988808,
+      "odds": 36.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.228070175438596
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "オデット",
+      "score": 37.75239348370927,
+      "ev": 0.9693160600487664,
+      "odds": 29.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 10.964912280701755
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アレナリア",
+      "score": 66.97,
+      "ev": 0.9830011395324715,
+      "odds": 95.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "レディーヴァリュー",
+      "score": 33.0140350877193,
+      "ev": 0.9081827913111387,
+      "odds": 3.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.035087719298245
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030708",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "レディーヴァリュー",
+        "time": "1:59.7",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "タガノアビー",
+        "time": "1:59.9",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "フレミングフープ",
+        "time": "1:59.9",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "エルフストラック",
+        "time": "2:00.1",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "アレナリア",
+        "time": "2:00.1",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ラビットアイ",
+        "time": "2:00.1",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "スターリングアップ",
+        "time": "2:00.5",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "オデット",
+        "time": "2:00.9",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 120
+        },
+        {
+          "horseId": 1,
+          "payout": 100
+        },
+        {
+          "horseId": 4,
+          "payout": 160
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-8",
+          "payout": 250
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-1",
+          "payout": 690
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-8",
+          "payout": 150
+        },
+        {
+          "combination": "4-8",
+          "payout": 630
+        },
+        {
+          "combination": "1-4",
+          "payout": 270
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-8",
+          "payout": 860
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-1-4",
+          "payout": 4550
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "16:10",
+    "raceDate": "20250816",
+    "headCount": 8
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "raceId": "202502010210",
+  "raceName": "津軽海峡特別",
+  "date": "2025-06-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アンブロジアーナ",
+      "score": 67.15425531914893,
+      "ev": 0.9930818719175725,
+      "odds": 28.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 27.6595744680851
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サパテアール",
+      "score": 71.01260229132569,
+      "ev": 1.0445267610487106,
+      "odds": 5.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 81.91489361702128
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スピーディブレイク",
+      "score": 63.900630114566276,
+      "ev": 0.9905100540103282,
+      "odds": 22.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.595744680851062
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ウォーターハウス",
+      "score": 57.03461538461538,
+      "ev": 0.9850828340561,
+      "odds": 35.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ナチュラルリバー",
+      "score": 61.41615384615383,
+      "ev": 1.014184829934484,
+      "odds": 7.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "スカンジナビア",
+      "score": 56.495883797054006,
+      "ev": 0.9846569953509728,
+      "odds": 48.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 45.744680851063826
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヒルノデプラーツ",
+      "score": 55.23125204582651,
+      "ev": 0.9836573711228056,
+      "odds": 27,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 60.63829787234043
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "タイセイミッション",
+      "score": 44.26076923076923,
+      "ev": 0.9674644678924385,
+      "odds": 16.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "デフィニティーボ",
+      "score": 44.01379705400983,
+      "ev": 0.9669764219230638,
+      "odds": 11.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 44.68085106382979
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "タマモプルメリア",
+      "score": 44.031399345335515,
+      "ev": 0.9670112061139228,
+      "odds": 13.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 26.595744680851062
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "リアド",
+      "score": 37.22623567921441,
+      "ev": 0.9377014481007259,
+      "odds": 6.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.53191489361702
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "クロドラバール",
+      "score": 37.96819967266776,
+      "ev": 0.9300592257621739,
+      "odds": 4.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.297872340425535
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "ファイントパーズ",
+      "score": 35.189738134206216,
+      "ev": 0.9495390472121061,
+      "odds": 16.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 88.29787234042553
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "クォーツァイト",
+      "score": 33.524468085106385,
+      "ev": 0.9462482784054836,
+      "odds": 10.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 84.04255319148936
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010210",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "タマモプルメリア",
+        "time": "1:45.4",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "スピーディブレイク",
+        "time": "1:45.5",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "サパテアール",
+        "time": "1:45.8",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "タイセイミッション",
+        "time": "1:45.8",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "リアド",
+        "time": "1:45.9",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ヒルノデプラーツ",
+        "time": "1:46.1",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "アンブロジアーナ",
+        "time": "1:46.1",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 8,
+        "horseId": 12,
+        "horseName": "クロドラバール",
+        "time": "1:46.2",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "デフィニティーボ",
+        "time": "1:46.3",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ナチュラルリバー",
+        "time": "1:46.5",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 11,
+        "horseId": 14,
+        "horseName": "クォーツァイト",
+        "time": "1:46.5",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 12,
+        "horseId": 13,
+        "horseName": "ファイントパーズ",
+        "time": "1:46.6",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 13,
+        "horseId": 4,
+        "horseName": "ウォーターハウス",
+        "time": "1:46.6",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 14,
+        "horseId": 6,
+        "horseName": "スカンジナビア",
+        "time": "1:49.6",
+        "lastThreeF": 39.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 1370
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 400
+        },
+        {
+          "horseId": 3,
+          "payout": 620
+        },
+        {
+          "horseId": 2,
+          "payout": 220
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-6",
+          "payout": 5730
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-10",
+          "payout": 16800
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-3",
+          "payout": 30080
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-10",
+          "payout": 5110
+        },
+        {
+          "combination": "2-10",
+          "payout": 1230
+        },
+        {
+          "combination": "2-3",
+          "payout": 1750
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-10",
+          "payout": 24960
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-3-2",
+          "payout": 157620
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "ハンデ",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "14:40",
+    "raceDate": "20250615",
+    "headCount": 14
+  }
+}

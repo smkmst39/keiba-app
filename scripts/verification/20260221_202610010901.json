@@ -1,0 +1,456 @@
+{
+  "raceId": "202610010901",
+  "raceName": "3歳未勝利",
+  "date": "2026-02-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ホノボノ",
+      "score": 66.46557460611677,
+      "ev": 0.983187209823673,
+      "odds": 66.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.638554216867469
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ボールドタワー",
+      "score": 67.47048656163113,
+      "ev": 1.0477318201087682,
+      "odds": 3.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 75.90361445783132
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エルアン",
+      "score": 65.31961538461537,
+      "ev": 1.009598439309854,
+      "odds": 13.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ナムラステラ",
+      "score": 53.61470806302131,
+      "ev": 0.9806375128636436,
+      "odds": 127.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 14.45783132530121
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "レッドフレーザー",
+      "score": 51.12564411492122,
+      "ev": 0.9822986576878194,
+      "odds": 6.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 20.481927710843372
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴーゴーコクラ",
+      "score": 47.099230769230765,
+      "ev": 0.9793447990537688,
+      "odds": 102.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ラットバラット",
+      "score": 48.126552363299346,
+      "ev": 0.9795486264561144,
+      "odds": 140.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 42.168674698795186
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "シーズンシート",
+      "score": 41.91146431881372,
+      "ev": 0.9783155118610637,
+      "odds": 117.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 8.43373493975904
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ラインメテオラ",
+      "score": 40.75011121408713,
+      "ev": 0.9608509172007853,
+      "odds": 16.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 37.34939759036144
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "エントルード",
+      "score": 41.47845690454125,
+      "ev": 0.9782296003247375,
+      "odds": 142.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.277108433734938
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "オトコノロマン",
+      "score": 39.031260426320664,
+      "ev": 0.9348812069931148,
+      "odds": 4.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 56.62650602409638
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "オオツカ",
+      "score": 36.2208109360519,
+      "ev": 0.9349831771717438,
+      "odds": 6.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 26.50602409638555
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "サンオブザサン",
+      "score": 33.591987951807226,
+      "ev": 0.9466487269748224,
+      "odds": 18.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 30.120481927710845
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ジャイアンバローズ",
+      "score": 73.41572289156626,
+      "ev": 1.0713233046927177,
+      "odds": 5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 92.7710843373494
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202610010901",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 14,
+        "horseName": "ジャイアンバローズ",
+        "time": "1:46.9",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 2,
+        "horseId": 12,
+        "horseName": "オオツカ",
+        "time": "1:46.9",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ボールドタワー",
+        "time": "1:48.6",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ホノボノ",
+        "time": "1:48.7",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "レッドフレーザー",
+        "time": "1:49.1",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 6,
+        "horseId": 13,
+        "horseName": "サンオブザサン",
+        "time": "1:49.3",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "ラインメテオラ",
+        "time": "1:49.5",
+        "lastThreeF": 40.8
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "オトコノロマン",
+        "time": "1:49.8",
+        "lastThreeF": 40.3
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "エルアン",
+        "time": "1:50.1",
+        "lastThreeF": 39.9
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "シーズンシート",
+        "time": "1:50.1",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "エントルード",
+        "time": "1:50.5",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 12,
+        "horseId": 4,
+        "horseName": "ナムラステラ",
+        "time": "1:50.8",
+        "lastThreeF": 41.5
+      },
+      {
+        "rank": 13,
+        "horseId": 6,
+        "horseName": "ゴーゴーコクラ",
+        "time": "1:51.5",
+        "lastThreeF": 41.5
+      },
+      {
+        "rank": 14,
+        "horseId": 7,
+        "horseName": "ラットバラット",
+        "time": "1:53.2",
+        "lastThreeF": 43.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 14,
+          "payout": 500
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 14,
+          "payout": 170
+        },
+        {
+          "horseId": 12,
+          "payout": 240
+        },
+        {
+          "horseId": 2,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 390
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "12-14",
+          "payout": 2380
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "14-12",
+          "payout": 4570
+        }
+      ],
+      "wide": [
+        {
+          "combination": "12-14",
+          "payout": 810
+        },
+        {
+          "combination": "2-14",
+          "payout": 400
+        },
+        {
+          "combination": "2-12",
+          "payout": 490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-12-14",
+          "payout": 1970
+        }
+      ],
+      "santan": [
+        {
+          "combination": "14-12-2",
+          "payout": 13410
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 500
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "09:45",
+    "raceDate": "20260221",
+    "headCount": 14
+  }
+}

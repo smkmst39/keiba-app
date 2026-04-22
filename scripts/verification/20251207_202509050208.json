@@ -1,0 +1,306 @@
+{
+  "raceId": "202509050208",
+  "raceName": "3歳以上2勝クラス",
+  "date": "2025-12-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "オリエンタルナイト",
+      "score": 69.3676923076923,
+      "ev": 0.9835017777676179,
+      "odds": 135.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 4.615384615384609
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ショウナンガチ",
+      "score": 63.82857142857142,
+      "ev": 1.0042363927619853,
+      "odds": 16.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "コスモアンソロジー",
+      "score": 59.41697802197801,
+      "ev": 1.011299270939485,
+      "odds": 4.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 33.18681318681318
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ジーティームソウ",
+      "score": 54.26917582417581,
+      "ev": 0.989007865704318,
+      "odds": 8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.076923076923077
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ダンツエスプリ",
+      "score": 48.72813186813187,
+      "ev": 0.9779379152240728,
+      "odds": 23.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.307692307692307
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コンフォルツァ",
+      "score": 44.36054945054945,
+      "ev": 0.9526873881500963,
+      "odds": 2.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 64.6153846153846
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "チェルノボーグ",
+      "score": 38.30142857142857,
+      "ev": 0.9291003548049055,
+      "odds": 2.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "サヴァビアン",
+      "score": 32.74115384615385,
+      "ev": 0.9763727618489211,
+      "odds": 177.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 27.692307692307683
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050208",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ジーティームソウ",
+        "time": "1:45.1",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "チェルノボーグ",
+        "time": "1:45.3",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ダンツエスプリ",
+        "time": "1:45.6",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "コスモアンソロジー",
+        "time": "1:45.7",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ショウナンガチ",
+        "time": "1:45.9",
+        "lastThreeF": 34.4
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "コンフォルツァ",
+        "time": "1:46.0",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "サヴァビアン",
+        "time": "1:46.7",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "オリエンタルナイト",
+        "time": "1:47.8",
+        "lastThreeF": 36.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 800
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 200
+        },
+        {
+          "horseId": 7,
+          "payout": 160
+        },
+        {
+          "horseId": 5,
+          "payout": 360
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "4-7",
+          "payout": 1340
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-7",
+          "payout": 3500
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-7",
+          "payout": 410
+        },
+        {
+          "combination": "4-5",
+          "payout": 1440
+        },
+        {
+          "combination": "5-7",
+          "payout": 560
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-7",
+          "payout": 4420
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-7-5",
+          "payout": 30180
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:35",
+    "raceDate": "20251207",
+    "headCount": 8
+  }
+}

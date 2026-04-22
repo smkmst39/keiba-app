@@ -1,0 +1,408 @@
+{
+  "raceId": "202507040106",
+  "raceName": "2歳新馬",
+  "date": "2025-08-23",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "トリグラフヒル",
+      "score": 74.89999999999999,
+      "ev": 1.0677131428312172,
+      "odds": 3.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ブラッドムーン",
+      "score": 66.75017895490335,
+      "ev": 0.9912814519937555,
+      "odds": 24.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90.9090909090909,
+        "training": 90.9090909090909,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 17.322834645669293
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "キャッチアシーフ",
+      "score": 62.93894058697208,
+      "ev": 1.0008835807926904,
+      "odds": 11.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 81.81818181818183,
+        "training": 81.81818181818183,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.4488188976378
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シュガービスケッツ",
+      "score": 60.49778095919828,
+      "ev": 0.9961949712555775,
+      "odds": 15.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 72.72727272727273,
+        "training": 72.72727272727273,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25.1968503937008
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ノースミソロジー",
+      "score": 56.77788117394417,
+      "ev": 0.9981007027483696,
+      "odds": 4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 63.63636363636363,
+        "training": 63.63636363636363,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 18.897637795275596
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ウルトラハート",
+      "score": 53.743020758768786,
+      "ev": 0.9812885805280339,
+      "odds": 34.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 54.54545454545454,
+        "training": 54.54545454545454,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.409448818897637
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ザキノフレンズ",
+      "score": 48.97272727272727,
+      "ev": 0.9740593943701764,
+      "odds": 14.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 45.45454545454545,
+        "training": 45.45454545454545,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マーゴットデイズ",
+      "score": 46.48589835361489,
+      "ev": 0.9757132280711643,
+      "odds": 27,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 36.36363636363637,
+        "training": 36.36363636363637,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 14.96062992125985
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "レッドフレーザー",
+      "score": 43.953400143163925,
+      "ev": 0.9550704501287879,
+      "odds": 8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 27.27272727272727,
+        "training": 27.27272727272727,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.13385826771654
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ダズリングノット",
+      "score": 38.9547602004295,
+      "ev": 0.977481840110482,
+      "odds": 98.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 18.181818181818183,
+        "training": 18.181818181818183,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0.7874015748031451
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モンサンゴールデン",
+      "score": 37.19863994273443,
+      "ev": 0.9228910227899997,
+      "odds": 4.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 9.090909090909092,
+        "training": 9.090909090909092,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.346456692913392
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ハイラブレジェンド",
+      "score": 33.61574803149607,
+      "ev": 0.9764564035479065,
+      "odds": 101.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.409448818897637
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507040106",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "シュガービスケッツ",
+        "time": "1:55.1",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "モンサンゴールデン",
+        "time": "1:56.2",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "ノースミソロジー",
+        "time": "1:56.7",
+        "lastThreeF": 38.6
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "マーゴットデイズ",
+        "time": "1:56.9",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ウルトラハート",
+        "time": "1:57.3",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "ブラッドムーン",
+        "time": "1:58.1",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 7,
+        "horseId": 12,
+        "horseName": "ハイラブレジェンド",
+        "time": "1:58.1",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "トリグラフヒル",
+        "time": "1:58.5",
+        "lastThreeF": 40.7
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "レッドフレーザー",
+        "time": "1:58.7",
+        "lastThreeF": 40.6
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "キャッチアシーフ",
+        "time": "1:58.8",
+        "lastThreeF": 40.1
+      },
+      {
+        "rank": 11,
+        "horseId": 10,
+        "horseName": "ダズリングノット",
+        "time": "2:01.1",
+        "lastThreeF": 41.6
+      },
+      {
+        "rank": 12,
+        "horseId": 7,
+        "horseName": "ザキノフレンズ",
+        "time": "2:07.7",
+        "lastThreeF": 49.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 1540
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 310
+        },
+        {
+          "horseId": 11,
+          "payout": 160
+        },
+        {
+          "horseId": 5,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-8",
+          "payout": 2180
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-11",
+          "payout": 2560
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-11",
+          "payout": 7330
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-11",
+          "payout": 1070
+        },
+        {
+          "combination": "4-5",
+          "payout": 1200
+        },
+        {
+          "combination": "5-11",
+          "payout": 470
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-11",
+          "payout": 4140
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-11-5",
+          "payout": 30340
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "左",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "12:45",
+    "raceDate": "20250823",
+    "headCount": 12
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "raceId": "202505040609",
+  "raceName": "アイビーS",
+  "date": "2025-10-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "スマートプリエール",
+      "score": 69.37140552995392,
+      "ev": 1.0367862415785716,
+      "odds": 6.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.04147465437788
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アートバーゼル",
+      "score": 65.16843317972351,
+      "ev": 1.034564895843439,
+      "odds": 3.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.24884792626728
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "モノポリオ",
+      "score": 57.629999999999995,
+      "ev": 1.0051178098297748,
+      "odds": 3.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ルージュカルデア",
+      "score": 50.89880184331797,
+      "ev": 0.9799411997170983,
+      "odds": 66.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 41.01382488479263
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アンドゥーリル",
+      "score": 45.974884792626725,
+      "ev": 0.95958989019074,
+      "odds": 2.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 86.63594470046084
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コスモギガンティア",
+      "score": 36.22,
+      "ev": 0.9770742383064674,
+      "odds": 148.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "マイネルシンベリン",
+      "score": 33.13548387096775,
+      "ev": 0.9658871683383032,
+      "odds": 20.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.129032258064512
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505040609",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "アンドゥーリル",
+        "time": "1:46.8",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "アートバーゼル",
+        "time": "1:47.0",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "モノポリオ",
+        "time": "1:47.2",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "スマートプリエール",
+        "time": "1:47.3",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "マイネルシンベリン",
+        "time": "1:47.4",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "ルージュカルデア",
+        "time": "1:47.5",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "コスモギガンティア",
+        "time": "1:47.8",
+        "lastThreeF": 34.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 230
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 130
+        },
+        {
+          "horseId": 2,
+          "payout": 150
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 320
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 560
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 140
+        },
+        {
+          "combination": "3-5",
+          "payout": 160
+        },
+        {
+          "combination": "2-3",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 340
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-3",
+          "payout": 1600
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 1700,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20251018",
+    "headCount": 7
+  }
+}

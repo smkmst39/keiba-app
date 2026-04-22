@@ -1,0 +1,383 @@
+{
+  "raceId": "202609010710",
+  "raceName": "難波S",
+  "date": "2026-03-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "チェルノボーグ",
+      "score": 68.26523255813953,
+      "ev": 1.0141638767325205,
+      "odds": 12.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 55.348837209302324
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ディヴァインスター",
+      "score": 58.82720930232558,
+      "ev": 0.9862460093467554,
+      "odds": 31.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 35.813953488372086
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ホウオウアートマン",
+      "score": 57.60930232558138,
+      "ev": 0.9932214312647828,
+      "odds": 10.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 53.95348837209302
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ジーティームソウ",
+      "score": 54.497558139534874,
+      "ev": 0.9913693111052709,
+      "odds": 7.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 8.837209302325583
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "グランデサラス",
+      "score": 49.908720930232555,
+      "ev": 0.979234891506793,
+      "odds": 45.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.581395348837211
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トーホウディアス",
+      "score": 47.090581395348835,
+      "ev": 0.9792548647691306,
+      "odds": 268.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 8.372093023255813
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ミナデオロ",
+      "score": 48.004999999999995,
+      "ev": 0.9686915684952637,
+      "odds": 3.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ジーティーアダマン",
+      "score": 41.94104651162791,
+      "ev": 0.9448561993669802,
+      "odds": 2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 59.069767441860456
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "パンジャ",
+      "score": 69.4346511627907,
+      "ev": 1.0383394769016305,
+      "odds": 9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 66.97674418604652
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ナムラフッカー",
+      "score": 32.98744186046511,
+      "ev": 0.9764831289920816,
+      "odds": 55.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 11.162790697674419
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "アルトゥーム",
+      "score": 31.135,
+      "ev": 0.9644762503285076,
+      "odds": 46.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609010710",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ジーティーアダマン",
+        "time": "1:44.9",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ジーティームソウ",
+        "time": "1:45.0",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "チェルノボーグ",
+        "time": "1:45.3",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "ミナデオロ",
+        "time": "1:45.3",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "ホウオウアートマン",
+        "time": "1:45.4",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "トーホウディアス",
+        "time": "1:45.6",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "ディヴァインスター",
+        "time": "1:45.6",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "アルトゥーム",
+        "time": "1:45.7",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "ナムラフッカー",
+        "time": "1:45.7",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "パンジャ",
+        "time": "1:45.8",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 11,
+        "horseId": 5,
+        "horseName": "グランデサラス",
+        "time": "1:45.8",
+        "lastThreeF": 33.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 200
+        },
+        {
+          "horseId": 1,
+          "payout": 220
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-7",
+          "payout": 690
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-8",
+          "payout": 920
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-4",
+          "payout": 1330
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-8",
+          "payout": 390
+        },
+        {
+          "combination": "1-8",
+          "payout": 510
+        },
+        {
+          "combination": "1-4",
+          "payout": 780
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-8",
+          "payout": 2490
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-4-1",
+          "payout": 7740
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1870,
+    "ageLimit": "4歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "14:55",
+    "raceDate": "20260314",
+    "headCount": 11
+  }
+}

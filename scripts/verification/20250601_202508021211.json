@@ -1,0 +1,383 @@
+{
+  "raceId": "202508021211",
+  "raceName": "白百合S",
+  "date": "2025-06-01",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アタラシイカドデニ",
+      "score": 66.69264705882352,
+      "ev": 0.9914864800011146,
+      "odds": 36.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 28.235294117647065
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "スナークピカソ",
+      "score": 60.654999999999994,
+      "ev": 0.9868254385181798,
+      "odds": 34.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エイヨーアメジスト",
+      "score": 55.243529411764705,
+      "ev": 0.9806619507460137,
+      "odds": 147.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 37.64705882352942
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ロードガレリア",
+      "score": 56.50970588235293,
+      "ev": 0.9945011463836151,
+      "odds": 8.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 43.529411764705884
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "マイユニバース",
+      "score": 56.095,
+      "ev": 0.9965256758451322,
+      "odds": 3.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "キングメーカー",
+      "score": 46.877941176470586,
+      "ev": 0.9609479970668268,
+      "odds": 3.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.705882352941181
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "センツブラッド",
+      "score": 42.436470588235295,
+      "ev": 0.9510432013491359,
+      "odds": 9.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 22.352941176470594
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ライトトラック",
+      "score": 41.64735294117647,
+      "ev": 0.9486064175808752,
+      "odds": 5.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 41.76470588235293
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エイカイカッシーナ",
+      "score": 73.45323529411763,
+      "ev": 0.996705629432464,
+      "odds": 47.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 81.1764705882353
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ニュークレド",
+      "score": 37.52764705882353,
+      "ev": 0.9524280162428858,
+      "odds": 12.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 28.235294117647065
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "バズアップビート",
+      "score": 32.81235294117647,
+      "ev": 0.9433275416405851,
+      "odds": 13.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 71.76470588235294
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508021211",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ライトトラック",
+        "time": "1:45.3",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 7,
+        "horseName": "センツブラッド",
+        "time": "1:45.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 3,
+        "horseId": 11,
+        "horseName": "バズアップビート",
+        "time": "1:45.3",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "ニュークレド",
+        "time": "1:45.3",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "マイユニバース",
+        "time": "1:45.6",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "スナークピカソ",
+        "time": "1:45.8",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "キングメーカー",
+        "time": "1:45.9",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ロードガレリア",
+        "time": "1:46.0",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "アタラシイカドデニ",
+        "time": "1:47.0",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "エイカイカッシーナ",
+        "time": "1:47.4",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 11,
+        "horseId": 3,
+        "horseName": "エイヨーアメジスト",
+        "time": "1:48.9",
+        "lastThreeF": 38.9
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 540
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 210
+        },
+        {
+          "horseId": 7,
+          "payout": 250
+        },
+        {
+          "horseId": 11,
+          "payout": 340
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-7",
+          "payout": 740
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-8",
+          "payout": 2940
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-7",
+          "payout": 4950
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-8",
+          "payout": 1050
+        },
+        {
+          "combination": "8-11",
+          "payout": 1530
+        },
+        {
+          "combination": "7-11",
+          "payout": 1470
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "7-8-11",
+          "payout": 11560
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-7-11",
+          "payout": 53020
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 2000,
+    "ageLimit": "3歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "16:05",
+    "raceDate": "20250601",
+    "headCount": 11
+  }
+}

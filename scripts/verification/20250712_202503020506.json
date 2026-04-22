@@ -1,0 +1,456 @@
+{
+  "raceId": "202503020506",
+  "raceName": "2歳新馬",
+  "date": "2025-07-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マジンタクシー",
+      "score": 71.03333333333333,
+      "ev": 1.0364054869255797,
+      "odds": 8.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 33.33333333333333
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "マツリダシリウス",
+      "score": 67.00196399345334,
+      "ev": 0.9827577363705187,
+      "odds": 54.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.765957446808512
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "リスペクトライト",
+      "score": 63.95782869612656,
+      "ev": 0.9821781074569053,
+      "odds": 174.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.219858156028371
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ムービングアップ",
+      "score": 63.17610474631751,
+      "ev": 1.0205852130986908,
+      "odds": 4.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.68085106382979
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ミスマラッカ",
+      "score": 58.85679214402618,
+      "ev": 0.9812068272783954,
+      "odds": 97.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.14893617021277
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ショーリバース",
+      "score": 58.733224222585925,
+      "ev": 0.9918329890890247,
+      "odds": 12.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 65.95744680851064
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クインズツバキ",
+      "score": 52.48057828696126,
+      "ev": 0.9799709705478385,
+      "odds": 32.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.092198581560282
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ライヴレッドアイ",
+      "score": 50.34140752864157,
+      "ev": 0.9733668250880533,
+      "odds": 7.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.14893617021277
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ボールドタワー",
+      "score": 49.23060556464812,
+      "ev": 0.9699827287966987,
+      "odds": 9.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 48.936170212765965
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ラフレードピエル",
+      "score": 45.24037097654119,
+      "ev": 0.9786141463894934,
+      "odds": 64.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.078014184397166
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ベアゴーフォー",
+      "score": 41.12673213311512,
+      "ev": 0.9778308750231036,
+      "odds": 50.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.092198581560282
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "オスロクィーン",
+      "score": 43.676923076923075,
+      "ev": 0.9463290557110386,
+      "odds": 2.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "フレンドリーエール",
+      "score": 35.03846153846154,
+      "ev": 0.9666864687835076,
+      "odds": 31.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "プリティーミズホ",
+      "score": 35.367375886524826,
+      "ev": 0.9473424524871252,
+      "odds": 10.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 54.609929078014176
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020506",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ショーリバース",
+        "time": "1:10.0",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ライヴレッドアイ",
+        "time": "1:10.4",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 3,
+        "horseId": 13,
+        "horseName": "フレンドリーエール",
+        "time": "1:10.5",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "ラフレードピエル",
+        "time": "1:10.6",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "ムービングアップ",
+        "time": "1:10.8",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "ベアゴーフォー",
+        "time": "1:11.7",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ミスマラッカ",
+        "time": "1:11.8",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "マツリダシリウス",
+        "time": "1:11.9",
+        "lastThreeF": 37.8
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "マジンタクシー",
+        "time": "1:11.9",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "ボールドタワー",
+        "time": "1:12.0",
+        "lastThreeF": 38
+      },
+      {
+        "rank": 11,
+        "horseId": 12,
+        "horseName": "オスロクィーン",
+        "time": "1:12.6",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 12,
+        "horseId": 7,
+        "horseName": "クインズツバキ",
+        "time": "1:12.7",
+        "lastThreeF": 39.4
+      },
+      {
+        "rank": 13,
+        "horseId": 14,
+        "horseName": "プリティーミズホ",
+        "time": "1:13.0",
+        "lastThreeF": 41
+      },
+      {
+        "rank": 14,
+        "horseId": 3,
+        "horseName": "リスペクトライト",
+        "time": "1:13.1",
+        "lastThreeF": 36.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 1210
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 360
+        },
+        {
+          "horseId": 8,
+          "payout": 250
+        },
+        {
+          "horseId": 13,
+          "payout": 710
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-5",
+          "payout": 2520
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-8",
+          "payout": 4170
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-8",
+          "payout": 9100
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-8",
+          "payout": 1400
+        },
+        {
+          "combination": "6-13",
+          "payout": 4190
+        },
+        {
+          "combination": "8-13",
+          "payout": 2630
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-8-13",
+          "payout": 33510
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-8-13",
+          "payout": 179770
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1150,
+    "surface": "dirt",
+    "startTime": "13:05",
+    "raceDate": "20250712",
+    "headCount": 14
+  }
+}

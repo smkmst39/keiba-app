@@ -1,0 +1,382 @@
+{
+  "raceId": "202503020809",
+  "raceName": "南相馬特別",
+  "date": "2025-07-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "コムーネ",
+      "score": 67.07328358208954,
+      "ev": 0.9918073999855692,
+      "odds": 26.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50.74626865671643
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ウイントールキン",
+      "score": 66.12709784411277,
+      "ev": 1.007691415453888,
+      "odds": 13.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 49.08789386401329
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ブラヴィーノ",
+      "score": 66.47246268656716,
+      "ev": 0.9913433259639668,
+      "odds": 36.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 88.05970149253733
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ラトルシェ",
+      "score": 62.618059701492534,
+      "ev": 1.0218309267135488,
+      "odds": 3.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 79.10447761194031
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "セイウンデセオ",
+      "score": 57.18798507462686,
+      "ev": 1.0008599802262472,
+      "odds": 3.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 55.22388059701492
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ノーブルオリンポス",
+      "score": 51.342537313432835,
+      "ev": 0.9786278902606939,
+      "odds": 6.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 11.940298507462693
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スターウェーブ",
+      "score": 47.790000000000006,
+      "ev": 0.9645649648477534,
+      "odds": 3.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マルモリディライト",
+      "score": 40.32597014925373,
+      "ev": 0.9777869441965354,
+      "odds": 172.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 10.447761194029855
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ツィスカリーゼ",
+      "score": 42.072097844112776,
+      "ev": 0.9781241214267314,
+      "odds": 51.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 49.08789386401329
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ハッピーサプライズ",
+      "score": 36.44358208955224,
+      "ev": 0.9503725512375437,
+      "odds": 13.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 46.26865671641792
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "クリノゴッホ",
+      "score": 32.2,
+      "ev": 0.9648712779581404,
+      "odds": 36.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020809",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "スターウェーブ",
+        "time": "1:10.8",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "セイウンデセオ",
+        "time": "1:10.8",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ノーブルオリンポス",
+        "time": "1:11.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "マルモリディライト",
+        "time": "1:11.3",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ツィスカリーゼ",
+        "time": "1:11.4",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "クリノゴッホ",
+        "time": "1:11.4",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "ハッピーサプライズ",
+        "time": "1:11.6",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ラトルシェ",
+        "time": "1:11.7",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "ブラヴィーノ",
+        "time": "1:11.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 10,
+        "horseId": 1,
+        "horseName": "コムーネ",
+        "time": "1:12.3",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "ウイントールキン",
+        "time": "1:12.6",
+        "lastThreeF": 36.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 170
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 6,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 470
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-7",
+          "payout": 700
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-5",
+          "payout": 1420
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-7",
+          "payout": 360
+        },
+        {
+          "combination": "6-7",
+          "payout": 560
+        },
+        {
+          "combination": "5-6",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-7",
+          "payout": 1520
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-5-6",
+          "payout": 7030
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "14:35",
+    "raceDate": "20250720",
+    "headCount": 11
+  }
+}

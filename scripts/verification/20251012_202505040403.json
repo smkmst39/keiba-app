@@ -1,0 +1,359 @@
+{
+  "raceId": "202505040403",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アトリ",
+      "score": 70.79999999999998,
+      "ev": 1.017337038496129,
+      "odds": 11.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ハロングロットル",
+      "score": 60.544999999999995,
+      "ev": 0.9817444505589663,
+      "odds": 170.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "チャリングクロス",
+      "score": 53.97450721908349,
+      "ev": 0.9875186209210594,
+      "odds": 5.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 36.97426239799123
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ツキノマバタキ",
+      "score": 52.262994350282476,
+      "ev": 0.9801379164788244,
+      "odds": 63.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 53.672316384180796
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゼータレティクル",
+      "score": 50.32031073446326,
+      "ev": 0.9790443076411083,
+      "odds": 49.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 48.02259887005649
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "イブキ",
+      "score": 44.3852824858757,
+      "ev": 0.9521961369893865,
+      "odds": 3.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 16.384180790960457
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "フロステリオン",
+      "score": 41.809039548022604,
+      "ev": 0.9781100701608658,
+      "odds": 217.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.293785310734467
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "タイドグラフ",
+      "score": 36.824293785310736,
+      "ev": 0.9685725392835367,
+      "odds": 43,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.039548022598872
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アルデキングダム",
+      "score": 34.43370056497175,
+      "ev": 0.9135882050863195,
+      "odds": 3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 44.63276836158192
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ブリサマリーナ",
+      "score": 70.16494350282485,
+      "ev": 1.0522103261843556,
+      "odds": 3.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 36.72316384180792
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505040403",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "チャリングクロス",
+        "time": "2:00.0",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "イブキ",
+        "time": "2:00.2",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 8,
+        "horseName": "タイドグラフ",
+        "time": "2:00.3",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "アルデキングダム",
+        "time": "2:00.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ゼータレティクル",
+        "time": "2:00.4",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "アトリ",
+        "time": "2:00.7",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 7,
+        "horseId": 10,
+        "horseName": "ブリサマリーナ",
+        "time": "2:01.0",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ツキノマバタキ",
+        "time": "2:01.4",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "フロステリオン",
+        "time": "2:01.7",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "ハロングロットル",
+        "time": "2:02.0",
+        "lastThreeF": 35.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 510
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 220
+        },
+        {
+          "horseId": 6,
+          "payout": 160
+        },
+        {
+          "horseId": 8,
+          "payout": 590
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-6",
+          "payout": 1090
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-6",
+          "payout": 1020
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-6",
+          "payout": 1840
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-6",
+          "payout": 430
+        },
+        {
+          "combination": "3-8",
+          "payout": 1820
+        },
+        {
+          "combination": "6-8",
+          "payout": 1370
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-8",
+          "payout": 5980
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-6-8",
+          "payout": 26760
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "11:05",
+    "raceDate": "20251012",
+    "headCount": 10
+  }
+}

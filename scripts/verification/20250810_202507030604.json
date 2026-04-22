@@ -1,0 +1,431 @@
+{
+  "raceId": "202507030604",
+  "raceName": "2歳新馬",
+  "date": "2025-08-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイコンチェルト",
+      "score": 71.30952380952381,
+      "ev": 1.0150331834467503,
+      "odds": 10.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.0952380952381
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ライツェントライゼ",
+      "score": 68.18388888888889,
+      "ev": 0.9916457667059417,
+      "odds": 31.8,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 91.66666666666666,
+        "training": 91.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 37.222222222222236
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エグジスタンス",
+      "score": 64.49666666666667,
+      "ev": 0.9822132216798519,
+      "odds": 78.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 26.666666666666668
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カラペルソナ",
+      "score": 62.47119047619048,
+      "ev": 1.0092747733666771,
+      "odds": 6.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 44.761904761904766
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ダーリンダーリン",
+      "score": 58.23619047619047,
+      "ev": 0.9810277250102195,
+      "odds": 67.6,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.761904761904763
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アストロレガシー",
+      "score": 59.525000000000006,
+      "ev": 1.0054355327385962,
+      "odds": 3.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 58.333333333333336,
+        "training": 58.333333333333336,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ヒリュウ",
+      "score": 53.135714285714286,
+      "ev": 0.9802475533219516,
+      "odds": 37.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.857142857142854
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "スカイストライプス",
+      "score": 50.88928571428572,
+      "ev": 0.9727299997595403,
+      "odds": 4.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 41.66666666666667,
+        "training": 41.66666666666667,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 57.14285714285715
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "チョウモーレツ",
+      "score": 44.5,
+      "ev": 0.9784266116815351,
+      "odds": 272.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "マテンロウオリジン",
+      "score": 41.977380952380955,
+      "ev": 0.9471827734628611,
+      "odds": 8.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 9.523809523809526
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "マテンロウゲイル",
+      "score": 42.43761904761905,
+      "ev": 0.9407214995070575,
+      "odds": 3.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 70.47619047619047
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "オーバーランダー",
+      "score": 37.04261904761905,
+      "ev": 0.9770144666602544,
+      "odds": 69.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 8.333333333333332,
+        "training": 8.333333333333332,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 30.476190476190478
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "ルクスディグニティ",
+      "score": 32.310476190476194,
+      "ev": 0.9761183783393849,
+      "odds": 79.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 1.904761904761903
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030604",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "アストロレガシー",
+        "time": "2:02.7",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "マテンロウゲイル",
+        "time": "2:02.9",
+        "lastThreeF": 33.1
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "マテンロウオリジン",
+        "time": "2:03.0",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "スカイストライプス",
+        "time": "2:03.3",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 5,
+        "horseId": 4,
+        "horseName": "カラペルソナ",
+        "time": "2:03.5",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 6,
+        "horseId": 5,
+        "horseName": "ダーリンダーリン",
+        "time": "2:03.5",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "ライツェントライゼ",
+        "time": "2:03.8",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 8,
+        "horseId": 13,
+        "horseName": "ルクスディグニティ",
+        "time": "2:03.8",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "マイコンチェルト",
+        "time": "2:03.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "エグジスタンス",
+        "time": "2:04.0",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 11,
+        "horseId": 12,
+        "horseName": "オーバーランダー",
+        "time": "2:04.9",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 12,
+        "horseId": 7,
+        "horseName": "ヒリュウ",
+        "time": "2:07.1",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 13,
+        "horseId": 9,
+        "horseName": "チョウモーレツ",
+        "time": "2:07.8",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 360
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 11,
+          "payout": 150
+        },
+        {
+          "horseId": 10,
+          "payout": 180
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-7",
+          "payout": 580
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-11",
+          "payout": 850
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-11",
+          "payout": 1630
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-11",
+          "payout": 340
+        },
+        {
+          "combination": "6-10",
+          "payout": 650
+        },
+        {
+          "combination": "10-11",
+          "payout": 390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-10-11",
+          "payout": 2010
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-11-10",
+          "payout": 7970
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "11:10",
+    "raceDate": "20250810",
+    "headCount": 13
+  }
+}

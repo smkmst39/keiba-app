@@ -1,0 +1,306 @@
+{
+  "raceId": "202509040508",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-09-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フェイトライン",
+      "score": 60.82232142857142,
+      "ev": 1.0140371896780396,
+      "odds": 6.4,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 9.375000000000002
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アレンテージョ",
+      "score": 71.55642857142857,
+      "ev": 1.0482814594589782,
+      "odds": 5.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 60.71428571428571
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "インペリアルコート",
+      "score": 55.80982142857142,
+      "ev": 0.9811278851374807,
+      "odds": 67.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 13.839285714285715
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "クリアクォーツ",
+      "score": 52.22071428571427,
+      "ev": 0.9804122553252094,
+      "odds": 171.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ツーエムクロノス",
+      "score": 47.10464285714285,
+      "ev": 0.973921650659142,
+      "odds": 14.3,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 2.678571428571431
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "タールベルク",
+      "score": 43.112857142857145,
+      "ev": 0.9785962454269513,
+      "odds": 54.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 12.500000000000004
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "レッドフェルメール",
+      "score": 41.14142857142858,
+      "ev": 0.9440632705197476,
+      "odds": 2.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "エバーグルーヴ",
+      "score": 29.456785714285715,
+      "ev": 0.897467398947865,
+      "odds": 2.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 38.39285714285714
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040508",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "エバーグルーヴ",
+        "time": "1:44.9",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "アレンテージョ",
+        "time": "1:45.0",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "レッドフェルメール",
+        "time": "1:45.1",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "フェイトライン",
+        "time": "1:45.4",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ツーエムクロノス",
+        "time": "1:45.4",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "タールベルク",
+        "time": "1:45.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 4,
+        "horseName": "クリアクォーツ",
+        "time": "1:46.7",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "インペリアルコート",
+        "time": "1:47.1",
+        "lastThreeF": 36.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 260
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 780
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-2",
+          "payout": 1310
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 240
+        },
+        {
+          "combination": "7-8",
+          "payout": 150
+        },
+        {
+          "combination": "2-7",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-7-8",
+          "payout": 350
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-2-7",
+          "payout": 2410
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "13:40",
+    "raceDate": "20250915",
+    "headCount": 8
+  }
+}

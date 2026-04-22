@@ -1,0 +1,358 @@
+{
+  "raceId": "202502010810",
+  "raceName": "横津岳特別",
+  "date": "2025-07-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ウインネモフィラ",
+      "score": 60.029999999999994,
+      "ev": 1.0092256193773361,
+      "odds": 6.9,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ハイラント",
+      "score": 64.60499999999999,
+      "ev": 1.0345585777917874,
+      "odds": 3.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 70
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヒルノデプラーツ",
+      "score": 57.81590909090908,
+      "ev": 0.9813903998080034,
+      "odds": 94.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 23.636363636363633
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブルーペクトライト",
+      "score": 55.70545454545454,
+      "ev": 0.9838984638474916,
+      "odds": 20.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.81818181818183
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コルデアニル",
+      "score": 48.32590909090908,
+      "ev": 0.9795207605360863,
+      "odds": 54.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 13.636363636363635
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "チュウワモーニング",
+      "score": 70.0631818181818,
+      "ev": 1.0180325355561008,
+      "odds": 11.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 22.72727272727273
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "キャリーハピネス",
+      "score": 50.3,
+      "ev": 0.9785548668112611,
+      "odds": 7.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "パープルクラウド",
+      "score": 35.43000000000001,
+      "ev": 0.9769801179561667,
+      "odds": 59.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シテフローラル",
+      "score": 35.86454545454546,
+      "ev": 0.9330516546280692,
+      "odds": 8.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 78.18181818181817
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "バレンタインガール",
+      "score": 29.444545454545455,
+      "ev": 0.8960182898325939,
+      "odds": 2.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 38.18181818181819
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202502010810",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "チュウワモーニング",
+        "time": "2:43.5",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "バレンタインガール",
+        "time": "2:43.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ハイラント",
+        "time": "2:43.6",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 4,
+        "horseId": 9,
+        "horseName": "シテフローラル",
+        "time": "2:43.7",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "キャリーハピネス",
+        "time": "2:43.8",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ウインネモフィラ",
+        "time": "2:43.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "コルデアニル",
+        "time": "2:44.1",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "ヒルノデプラーツ",
+        "time": "2:44.2",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 9,
+        "horseId": 4,
+        "horseName": "ブルーペクトライト",
+        "time": "2:45.0",
+        "lastThreeF": 37.3
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "パープルクラウド",
+        "time": "2:45.2",
+        "lastThreeF": 37.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 1190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 200
+        },
+        {
+          "horseId": 10,
+          "payout": 120
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 1280
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-10",
+          "payout": 1580
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-10",
+          "payout": 4270
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-10",
+          "payout": 460
+        },
+        {
+          "combination": "2-6",
+          "payout": 500
+        },
+        {
+          "combination": "2-10",
+          "payout": 210
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-6-10",
+          "payout": 1360
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-10-2",
+          "payout": 12610
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 1190
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "稍重",
+    "handicap": "ハンデ",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2600,
+    "surface": "turf",
+    "startTime": "14:50",
+    "raceDate": "20250706",
+    "headCount": 10
+  }
+}

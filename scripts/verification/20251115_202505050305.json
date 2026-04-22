@@ -1,0 +1,359 @@
+{
+  "raceId": "202505050305",
+  "raceName": "2歳新馬",
+  "date": "2025-11-15",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブリガンティン",
+      "score": 69.70722021660649,
+      "ev": 0.9831488395879568,
+      "odds": 136.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 10.469314079422386
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トーケンジンロック",
+      "score": 65.7119133574007,
+      "ev": 0.9823952067672372,
+      "odds": 126.2,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 12.274368231046932
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "シーザソング",
+      "score": 62.261010830324906,
+      "ev": 0.9817442646751384,
+      "odds": 52,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 23.465703971119137
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コレオシークエンス",
+      "score": 59.7942238267148,
+      "ev": 1.0055791164647694,
+      "odds": 3.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.624548736462096
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サトノフレア",
+      "score": 58.269675090252704,
+      "ev": 0.9998276184944095,
+      "odds": 2.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 96.02888086642601
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "パテントプール",
+      "score": 54.39999999999999,
+      "ev": 0.9841831354312295,
+      "odds": 6.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "アニゴザントス",
+      "score": 45.75631768953069,
+      "ev": 0.974523969228192,
+      "odds": 30.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.66064981949459
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ミサダメキメル",
+      "score": 40.400000000000006,
+      "ev": 0.9776206326647767,
+      "odds": 226.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "レイワノキセキ",
+      "score": 39.650180505415165,
+      "ev": 0.9396671131579646,
+      "odds": 5.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 57.761732851985556
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ニシノヒノトリ",
+      "score": 34.189169675090255,
+      "ev": 0.9444908671305908,
+      "odds": 13.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 34.29602888086643
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505050305",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "コレオシークエンス",
+        "time": "1:48.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "サトノフレア",
+        "time": "1:48.9",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "パテントプール",
+        "time": "1:49.2",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "ニシノヒノトリ",
+        "time": "1:49.2",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "アニゴザントス",
+        "time": "1:49.3",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "トーケンジンロック",
+        "time": "1:49.9",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ミサダメキメル",
+        "time": "1:50.1",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 8,
+        "horseId": 9,
+        "horseName": "レイワノキセキ",
+        "time": "1:50.2",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ブリガンティン",
+        "time": "1:51.0",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "シーザソング",
+        "time": "1:51.3",
+        "lastThreeF": 35.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 320
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 130
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-5",
+          "payout": 320
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 330
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-5",
+          "payout": 690
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 170
+        },
+        {
+          "combination": "4-6",
+          "payout": 310
+        },
+        {
+          "combination": "5-6",
+          "payout": 260
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-6",
+          "payout": 500
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-5-6",
+          "payout": 2230
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20251115",
+    "headCount": 10
+  }
+}

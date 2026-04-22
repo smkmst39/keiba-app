@@ -1,0 +1,382 @@
+{
+  "raceId": "202501010512",
+  "raceName": "厚岸特別",
+  "date": "2025-08-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヒシアマン",
+      "score": 74.54499999999999,
+      "ev": 1.066603147090083,
+      "odds": 1.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サトノシャムロック",
+      "score": 66.29785714285714,
+      "ev": 0.9909790717082878,
+      "odds": 29.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.42857142857143
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アッシュバーグ",
+      "score": 61.92775510204081,
+      "ev": 0.9819046814034937,
+      "odds": 96.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 40.30612244897959
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マリブオレンジ",
+      "score": 60.33877551020407,
+      "ev": 0.995992239270149,
+      "odds": 12,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 76.53061224489797
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "セイウンビッグバン",
+      "score": 56.263571428571424,
+      "ev": 0.9808158271097701,
+      "odds": 102.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 39.285714285714285
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クイーンズデイ",
+      "score": 52.45510204081633,
+      "ev": 0.9803348241352992,
+      "odds": 39.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 31.122448979591834
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サンウリエル",
+      "score": 44.47530612244898,
+      "ev": 0.9741988401703366,
+      "odds": 37,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 18.36734693877551
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ジャグアール",
+      "score": 44.74989795918367,
+      "ev": 0.9786024962016648,
+      "odds": 66.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 43.877551020408156
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "エフォートレス",
+      "score": 42.48010204081633,
+      "ev": 0.9433232401047128,
+      "odds": 3.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 56.12244897959183
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "レッドレナート",
+      "score": 35.535,
+      "ev": 0.9673242815261818,
+      "odds": 31.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "デアリングエア",
+      "score": 33.14795918367347,
+      "ev": 0.921955161812644,
+      "odds": 8.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 77.55102040816325
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010512",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ヒシアマン",
+        "time": "1:29.1",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 9,
+        "horseName": "エフォートレス",
+        "time": "1:29.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "レッドレナート",
+        "time": "1:29.5",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "アッシュバーグ",
+        "time": "1:29.6",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "サンウリエル",
+        "time": "1:29.6",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "デアリングエア",
+        "time": "1:29.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "ジャグアール",
+        "time": "1:29.9",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "セイウンビッグバン",
+        "time": "1:30.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "クイーンズデイ",
+        "time": "1:30.3",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "サトノシャムロック",
+        "time": "1:32.7",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 11,
+        "horseId": 4,
+        "horseName": "マリブオレンジ",
+        "time": "1:32.8",
+        "lastThreeF": 38.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 160
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 9,
+          "payout": 110
+        },
+        {
+          "horseId": 10,
+          "payout": 330
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-7",
+          "payout": 290
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-9",
+          "payout": 280
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-9",
+          "payout": 400
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-9",
+          "payout": 170
+        },
+        {
+          "combination": "1-10",
+          "payout": 700
+        },
+        {
+          "combination": "9-10",
+          "payout": 650
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-9-10",
+          "payout": 1610
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-9-10",
+          "payout": 3510
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 160
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1110,
+    "ageLimit": "3歳以上",
+    "distance": 1500,
+    "surface": "turf",
+    "startTime": "16:01",
+    "raceDate": "20250809",
+    "headCount": 11
+  }
+}

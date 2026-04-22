@@ -1,0 +1,305 @@
+{
+  "raceId": "202507050109",
+  "raceName": "こうやまき賞",
+  "date": "2025-12-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ショウナンダイン",
+      "score": 64.45710801393727,
+      "ev": 0.9900650243745731,
+      "odds": 22.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 47.5609756097561
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラフターラインズ",
+      "score": 56.42714285714285,
+      "ev": 0.9991400118292256,
+      "odds": 2.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "プレダトゥール",
+      "score": 54.557543554006955,
+      "ev": 0.9805939625279868,
+      "odds": 74.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 28.04878048780488
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "リアライズブラーヴ",
+      "score": 68.95451219512195,
+      "ev": 1.0477912056680487,
+      "odds": 5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 15.853658536585366
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アーリーハーベスト",
+      "score": 49.88362369337979,
+      "ev": 0.9737276518488145,
+      "odds": 4.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 32.22996515679443
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クールデイトナ",
+      "score": 43.44614982578397,
+      "ev": 0.9549817028426973,
+      "odds": 5.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 30.487804878048784
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ローザレイア",
+      "score": 42.91642857142857,
+      "ev": 0.9783334953611075,
+      "odds": 118.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "オーライカモン",
+      "score": 31.34719512195122,
+      "ev": 0.9173917779566308,
+      "odds": 6.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 3.6585365853658485
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507050109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "クールデイトナ",
+        "time": "1:36.8",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "アーリーハーベスト",
+        "time": "1:37.0",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ラフターラインズ",
+        "time": "1:37.0",
+        "lastThreeF": 32.9
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "リアライズブラーヴ",
+        "time": "1:37.1",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "プレダトゥール",
+        "time": "1:37.2",
+        "lastThreeF": 33.4
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "オーライカモン",
+        "time": "1:37.3",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ショウナンダイン",
+        "time": "1:37.6",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ローザレイア",
+        "time": "1:37.8",
+        "lastThreeF": 34
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 550
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 1540
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 3010
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 410
+        },
+        {
+          "combination": "2-6",
+          "payout": 260
+        },
+        {
+          "combination": "2-5",
+          "payout": 220
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-6",
+          "payout": 900
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-2",
+          "payout": 8800
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20251206",
+    "headCount": 8
+  }
+}

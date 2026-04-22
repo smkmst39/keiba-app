@@ -1,0 +1,383 @@
+{
+  "raceId": "202510020311",
+  "raceName": "マレーシアC",
+  "date": "2025-07-05",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ドットクルー",
+      "score": 70.5068085106383,
+      "ev": 1.0202592069679837,
+      "odds": 15,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.255319148936167
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サウンドウォリアー",
+      "score": 61.85999999999999,
+      "ev": 0.9823058109228279,
+      "odds": 52.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アウフヘーベン",
+      "score": 57.83595744680851,
+      "ev": 1.0040849290348905,
+      "odds": 7.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 18.723404255319146
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "コルレオニス",
+      "score": 61.38659574468085,
+      "ev": 1.0242327321144886,
+      "odds": 4.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 57.872340425531924
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アイスグリーン",
+      "score": 55.83808510638297,
+      "ev": 0.9910787128373619,
+      "odds": 10.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 62.553191489361694
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "バッデレイト",
+      "score": 56.095,
+      "ev": 1.0031795873637344,
+      "odds": 2.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ウインリブルマン",
+      "score": 43.27340425531915,
+      "ev": 0.9744335163758845,
+      "odds": 45,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 22.127659574468087
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ワンダイレクト",
+      "score": 44.000957446808506,
+      "ev": 0.9675311126356,
+      "odds": 12.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 18.723404255319146
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "グランアルティスタ",
+      "score": 36.696382978723406,
+      "ev": 0.9773000121320377,
+      "odds": 99.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 11.489361702127658
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メルトユアハート",
+      "score": 36.32478723404255,
+      "ev": 0.9356174493408548,
+      "odds": 9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 13.617021276595745
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "バールデュヴァン",
+      "score": 29.140297872340426,
+      "ev": 0.9631875199386941,
+      "odds": 44.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 32.93617021276596
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202510020311",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 9,
+        "horseName": "グランアルティスタ",
+        "time": "1:47.0",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 2,
+        "horseId": 8,
+        "horseName": "ワンダイレクト",
+        "time": "1:47.0",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "アウフヘーベン",
+        "time": "1:47.0",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "アイスグリーン",
+        "time": "1:47.1",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 5,
+        "horseId": 11,
+        "horseName": "バールデュヴァン",
+        "time": "1:47.1",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "ドットクルー",
+        "time": "1:47.2",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "バッデレイト",
+        "time": "1:47.2",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "コルレオニス",
+        "time": "1:47.6",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "サウンドウォリアー",
+        "time": "1:47.7",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "メルトユアハート",
+        "time": "1:48.2",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 11,
+        "horseId": 7,
+        "horseName": "ウインリブルマン",
+        "time": "1:48.3",
+        "lastThreeF": 36.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 9,
+          "payout": 9950
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 9,
+          "payout": 1460
+        },
+        {
+          "horseId": 8,
+          "payout": 330
+        },
+        {
+          "horseId": 3,
+          "payout": 250
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-7",
+          "payout": 23760
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "8-9",
+          "payout": 38540
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "9-8",
+          "payout": 82280
+        }
+      ],
+      "wide": [
+        {
+          "combination": "8-9",
+          "payout": 7900
+        },
+        {
+          "combination": "3-9",
+          "payout": 4620
+        },
+        {
+          "combination": "3-8",
+          "payout": 1320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-8-9",
+          "payout": 70790
+        }
+      ],
+      "santan": [
+        {
+          "combination": "9-8-3",
+          "payout": 760220
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 9,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "ハンデ",
+    "prize": 1840,
+    "ageLimit": "3歳以上",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "15:35",
+    "raceDate": "20250705",
+    "headCount": 11
+  }
+}

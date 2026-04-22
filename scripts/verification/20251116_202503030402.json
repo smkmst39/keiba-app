@@ -1,0 +1,481 @@
+{
+  "raceId": "202503030402",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-11-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ジュルナール",
+      "score": 69.05351063829787,
+      "ev": 1.0523557848308334,
+      "odds": 3.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.319148936170214
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ローマンレイク",
+      "score": 68.02205167173253,
+      "ev": 0.9834143790066652,
+      "odds": 57.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 92.85714285714286,
+        "training": 92.85714285714286,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.97872340425532
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "タマモジャスミン",
+      "score": 63.50399696048631,
+      "ev": 1.030467800582404,
+      "odds": 4.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 12.765957446808516
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サウンドルーチェ",
+      "score": 59.73987841945288,
+      "ev": 1.0084973125592818,
+      "odds": 5.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 78.57142857142857,
+        "training": 78.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 60.63829787234043
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヴァリオーサ",
+      "score": 56.1169300911854,
+      "ev": 0.9842664548000699,
+      "odds": 28.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 43.61702127659574
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トキメキジニア",
+      "score": 57.01600303951367,
+      "ev": 0.9812439165744106,
+      "odds": 309.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 64.28571428571429,
+        "training": 64.28571428571429,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 37.23404255319149
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グランカッサ",
+      "score": 54.27294832826747,
+      "ev": 0.9870296882837303,
+      "odds": 12.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 17.02127659574468
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ベルフィーヌ",
+      "score": 49.95521276595744,
+      "ev": 0.9798514840545397,
+      "odds": 91.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 6.382978723404258
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "セージグリーン",
+      "score": 53.45928571428571,
+      "ev": 0.9805425094123563,
+      "odds": 73.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ルージュマローネ",
+      "score": 47.62942249240122,
+      "ev": 0.9702851759344183,
+      "odds": 6.7,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 35.714285714285715,
+        "training": 35.714285714285715,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 75.53191489361701
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "キタノマーシャル",
+      "score": 42.74285714285715,
+      "ev": 0.9737166475547694,
+      "odds": 24.1,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "シェリルファミーユ",
+      "score": 40.07331306990882,
+      "ev": 0.9464433744907801,
+      "odds": 7.3,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 21.428571428571427,
+        "training": 21.428571428571427,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 85.1063829787234
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "デュアルアップ",
+      "score": 33.858875379939214,
+      "ev": 0.9766771844706751,
+      "odds": 107.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 23.40425531914894
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "コムルヴァン",
+      "score": 33.69124620060791,
+      "ev": 0.9766441269358189,
+      "odds": 68.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 7.142857142857142,
+        "training": 7.142857142857142,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 65.95744680851064
+      }
+    },
+    {
+      "horseId": 15,
+      "horseName": "ハイゼンスレイ",
+      "score": 31.489148936170213,
+      "ev": 0.9420985942125957,
+      "odds": 13.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 24.46808510638298
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503030402",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 12,
+        "horseName": "シェリルファミーユ",
+        "time": "1:46.2",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "タマモジャスミン",
+        "time": "1:46.4",
+        "lastThreeF": 38.8
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "サウンドルーチェ",
+        "time": "1:46.7",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 4,
+        "horseId": 15,
+        "horseName": "ハイゼンスレイ",
+        "time": "1:47.0",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "セージグリーン",
+        "time": "1:47.2",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 6,
+        "horseId": 8,
+        "horseName": "ベルフィーヌ",
+        "time": "1:47.3",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ヴァリオーサ",
+        "time": "1:47.7",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "キタノマーシャル",
+        "time": "1:47.7",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 9,
+        "horseId": 1,
+        "horseName": "ジュルナール",
+        "time": "1:47.8",
+        "lastThreeF": 40.5
+      },
+      {
+        "rank": 10,
+        "horseId": 10,
+        "horseName": "ルージュマローネ",
+        "time": "1:47.9",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "ローマンレイク",
+        "time": "1:48.4",
+        "lastThreeF": 41
+      },
+      {
+        "rank": 12,
+        "horseId": 7,
+        "horseName": "グランカッサ",
+        "time": "1:48.8",
+        "lastThreeF": 41.1
+      },
+      {
+        "rank": 13,
+        "horseId": 14,
+        "horseName": "コムルヴァン",
+        "time": "1:49.6",
+        "lastThreeF": 39.7
+      },
+      {
+        "rank": 14,
+        "horseId": 6,
+        "horseName": "トキメキジニア",
+        "time": "1:49.8",
+        "lastThreeF": 41.7
+      },
+      {
+        "rank": 15,
+        "horseId": 13,
+        "horseName": "デュアルアップ",
+        "time": "1:51.6",
+        "lastThreeF": 42.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 12,
+          "payout": 730
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 12,
+          "payout": 210
+        },
+        {
+          "horseId": 3,
+          "payout": 160
+        },
+        {
+          "horseId": 4,
+          "payout": 200
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-7",
+          "payout": 1580
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-12",
+          "payout": 1600
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "12-3",
+          "payout": 3400
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-12",
+          "payout": 620
+        },
+        {
+          "combination": "4-12",
+          "payout": 760
+        },
+        {
+          "combination": "3-4",
+          "payout": 420
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-12",
+          "payout": 2860
+        }
+      ],
+      "santan": [
+        {
+          "combination": "12-3-4",
+          "payout": 16320
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 12,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "10:10",
+    "raceDate": "20251116",
+    "headCount": 15
+  }
+}

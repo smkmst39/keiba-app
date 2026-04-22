@@ -1,0 +1,307 @@
+{
+  "raceId": "202503020804",
+  "raceName": "2歳未勝利",
+  "date": "2025-07-20",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヴィビーム",
+      "score": 72.61267605633802,
+      "ev": 1.0560463343410769,
+      "odds": 4.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.56338028169014
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "チュラヴェール",
+      "score": 63.74385311871226,
+      "ev": 1.0223303746104073,
+      "odds": 4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 16.901408450704224
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カイトヴァイター",
+      "score": 59.70080482897384,
+      "ev": 1.0015681693644103,
+      "odds": 7.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 19.71830985915493
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ボールドタワー",
+      "score": 58.02071428571428,
+      "ev": 0.9902865667834341,
+      "odds": 15.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ドリームスマッシュ",
+      "score": 48.25632796780683,
+      "ev": 0.979172628780365,
+      "odds": 53.1,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 22.535211267605632
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ロココ",
+      "score": 47.2075754527163,
+      "ev": 0.9789732804687857,
+      "odds": 69.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 83.09859154929578
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ライヴマルガリータ",
+      "score": 39.485442655935614,
+      "ev": 0.9301089382320654,
+      "odds": 2.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 40.845070422535215
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ライフオブラクーン",
+      "score": 31.845,
+      "ev": 0.901062822561052,
+      "odds": 4.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503020804",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ライフオブラクーン",
+        "time": "1:09.1",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "チュラヴェール",
+        "time": "1:09.9",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ボールドタワー",
+        "time": "1:10.0",
+        "lastThreeF": 37.5
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ヴィビーム",
+        "time": "1:10.5",
+        "lastThreeF": 38.3
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "ライヴマルガリータ",
+        "time": "1:10.9",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "カイトヴァイター",
+        "time": "1:10.9",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "ロココ",
+        "time": "1:11.4",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 8,
+        "horseId": 5,
+        "horseName": "ドリームスマッシュ",
+        "time": "1:13.0",
+        "lastThreeF": 40.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 490
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 180
+        },
+        {
+          "horseId": 2,
+          "payout": 170
+        },
+        {
+          "horseId": 4,
+          "payout": 320
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 1260
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-2",
+          "payout": 2000
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 470
+        },
+        {
+          "combination": "4-8",
+          "payout": 770
+        },
+        {
+          "combination": "2-4",
+          "payout": 820
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-8",
+          "payout": 3490
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-2-4",
+          "payout": 15800
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1150,
+    "surface": "dirt",
+    "startTime": "11:45",
+    "raceDate": "20250720",
+    "headCount": 8
+  }
+}

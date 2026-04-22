@@ -1,0 +1,334 @@
+{
+  "raceId": "202503030205",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サラフィエル",
+      "score": 67.21,
+      "ev": 1.0431873212013096,
+      "odds": 2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 53.10344827586208
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ボルタドマール",
+      "score": 62.35749999999999,
+      "ev": 0.9888370878792164,
+      "odds": 27.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スズノイナズマ",
+      "score": 64.61,
+      "ev": 1.0065029967476313,
+      "odds": 15.3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "イルディヴィーノ",
+      "score": 55.26749999999999,
+      "ev": 0.9964217419207466,
+      "odds": 3.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.206896551724134
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ゴールデンルーキー",
+      "score": 51.535,
+      "ev": 0.980902831409831,
+      "odds": 14.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.379310344827587
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トーアマリシテン",
+      "score": 45.9875,
+      "ev": 0.9640657870405621,
+      "odds": 5.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 35.86206896551724
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "レッドラマンシュ",
+      "score": 44.15,
+      "ev": 0.9583094209913742,
+      "odds": 8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 53.10344827586208
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ベイビーベリッシモ",
+      "score": 38.57749999999999,
+      "ev": 0.9775532724919235,
+      "odds": 85.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 36.55172413793103
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "デスティネ",
+      "score": 29.970000000000002,
+      "ev": 0.9758679690644274,
+      "odds": 52.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 22.758620689655178
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503030205",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "イルディヴィーノ",
+        "time": "3:04.7",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "ゴールデンルーキー",
+        "time": "3:04.8",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "トーアマリシテン",
+        "time": "3:04.9",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ボルタドマール",
+        "time": "3:05.3",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "サラフィエル",
+        "time": "3:05.3",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "デスティネ",
+        "time": "3:05.4",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "レッドラマンシュ",
+        "time": "3:05.7",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "スズノイナズマ",
+        "time": "3:07.5",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "ベイビーベリッシモ",
+        "time": "3:08.7",
+        "lastThreeF": 13.7
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 380
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 140
+        },
+        {
+          "horseId": 5,
+          "payout": 270
+        },
+        {
+          "horseId": 6,
+          "payout": 170
+        }
+      ],
+      "waku": [
+        {
+          "combination": "4-5",
+          "payout": 3030
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-5",
+          "payout": 2820
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-5",
+          "payout": 4440
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-5",
+          "payout": 780
+        },
+        {
+          "combination": "4-6",
+          "payout": 410
+        },
+        {
+          "combination": "5-6",
+          "payout": 760
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-5-6",
+          "payout": 3420
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-5-6",
+          "payout": 18210
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2750,
+    "surface": "turf",
+    "startTime": "12:05",
+    "raceDate": "20251109",
+    "headCount": 9
+  }
+}

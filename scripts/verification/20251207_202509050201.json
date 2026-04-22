@@ -1,0 +1,361 @@
+{
+  "raceId": "202509050201",
+  "raceName": "2歳未勝利",
+  "date": "2025-12-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アルムアポジェ",
+      "score": 68.035,
+      "ev": 0.9832123218479871,
+      "odds": 110.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "プレザントトーン",
+      "score": 66.82,
+      "ev": 0.982976370190086,
+      "odds": 107,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 37.5
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ベンティガスエルテ",
+      "score": 63.55833333333333,
+      "ev": 0.9893718325051309,
+      "odds": 21.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 45.833333333333336
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "スターチューン",
+      "score": 58.15166666666666,
+      "ev": 0.9929298943186394,
+      "odds": 15.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 41.66666666666668
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ビーチェ",
+      "score": 54.19777777777777,
+      "ev": 0.9805251485771395,
+      "odds": 163,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 31.944444444444457
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "エルヴ",
+      "score": 43.79111111111111,
+      "ev": 0.9785041854057612,
+      "odds": 248.9,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 2.7777777777777803
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "オラヴィンリンナ",
+      "score": 46.898888888888884,
+      "ev": 0.9657233986772658,
+      "odds": 5.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 59.72222222222224
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "デアアテナ",
+      "score": 41.28611111111112,
+      "ev": 0.9601771717280453,
+      "odds": 13.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.277777777777782
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ウンナターシャ",
+      "score": 39.97,
+      "ev": 0.9352425969762752,
+      "odds": 4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ペンダント",
+      "score": 32.2270987654321,
+      "ev": 0.9051693396386439,
+      "odds": 1.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 37.19135802469137
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509050201",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 7,
+        "horseName": "オラヴィンリンナ",
+        "time": "1:54.9",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "ペンダント",
+        "time": "1:55.0",
+        "lastThreeF": 37.1
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "スターチューン",
+        "time": "1:56.1",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "アルムアポジェ",
+        "time": "1:56.5",
+        "lastThreeF": 39
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "プレザントトーン",
+        "time": "1:56.8",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 6,
+        "horseId": 9,
+        "horseName": "ウンナターシャ",
+        "time": "1:56.8",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "デアアテナ",
+        "time": "1:57.0",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "エルヴ",
+        "time": "1:57.0",
+        "lastThreeF": 38.2
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "ベンティガスエルテ",
+        "time": "1:57.1",
+        "lastThreeF": 38.7
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ビーチェ",
+        "time": "1:59.5",
+        "lastThreeF": 41.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 7,
+          "payout": 590
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 7,
+          "payout": 150
+        },
+        {
+          "horseId": 10,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 240
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 260
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "7-10",
+          "payout": 410
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "7-10",
+          "payout": 1070
+        }
+      ],
+      "wide": [
+        {
+          "combination": "7-10",
+          "payout": 220
+        },
+        {
+          "combination": "4-7",
+          "payout": 600
+        },
+        {
+          "combination": "4-10",
+          "payout": 390
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-7-10",
+          "payout": 1450
+        }
+      ],
+      "santan": [
+        {
+          "combination": "7-10-4",
+          "payout": 8100
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "09:45",
+    "raceDate": "20251207",
+    "headCount": 10
+  }
+}

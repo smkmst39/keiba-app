@@ -1,0 +1,306 @@
+{
+  "raceId": "202603010310",
+  "raceName": "桑折特別",
+  "date": "2026-04-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マーゴットレジーナ",
+      "score": 63.47357142857142,
+      "ev": 1.0109499290304296,
+      "odds": 5.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ルールーリマ",
+      "score": 74.89999999999999,
+      "ev": 1.0616556041059106,
+      "odds": 3.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "メリザンド",
+      "score": 59.41047619047618,
+      "ev": 0.9987267670136011,
+      "odds": 7.8,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 20.833333333333336
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ムーンストラック",
+      "score": 53.29321428571427,
+      "ev": 0.9802024864111389,
+      "odds": 17.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 6.250000000000005
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "スイートオレンジ",
+      "score": 49.63011904761905,
+      "ev": 0.9666301890815141,
+      "odds": 4.7,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 64.58333333333334
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "シェーラ",
+      "score": 47.35702380952381,
+      "ev": 0.9690411959260976,
+      "odds": 13.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 97.91666666666666
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ウアーシュプルング",
+      "score": 42.55392857142857,
+      "ev": 0.9480165816701254,
+      "odds": 5.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 93.75
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "フィオレストラーダ",
+      "score": 34.865833333333335,
+      "ev": 0.9248881959963258,
+      "odds": 7.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 52.08333333333335
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202603010310",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "フィオレストラーダ",
+        "time": "1:58.5",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ルールーリマ",
+        "time": "1:58.6",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "メリザンド",
+        "time": "1:59.0",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "ムーンストラック",
+        "time": "1:59.1",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "スイートオレンジ",
+        "time": "1:59.1",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "マーゴットレジーナ",
+        "time": "1:59.3",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 7,
+        "horseId": 6,
+        "horseName": "シェーラ",
+        "time": "1:59.5",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ウアーシュプルング",
+        "time": "1:59.9",
+        "lastThreeF": 35.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 740
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 240
+        },
+        {
+          "horseId": 2,
+          "payout": 140
+        },
+        {
+          "horseId": 3,
+          "payout": 240
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 1500
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-2",
+          "payout": 2840
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 550
+        },
+        {
+          "combination": "3-8",
+          "payout": 1160
+        },
+        {
+          "combination": "2-3",
+          "payout": 470
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-8",
+          "payout": 4190
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-2-3",
+          "payout": 23070
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1140,
+    "ageLimit": "4歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:40",
+    "raceDate": "20260418",
+    "headCount": 8
+  }
+}

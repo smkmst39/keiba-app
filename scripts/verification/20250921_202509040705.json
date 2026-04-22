@@ -1,0 +1,335 @@
+{
+  "raceId": "202509040705",
+  "raceName": "2歳新馬",
+  "date": "2025-09-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "バークシャーシチー",
+      "score": 71.29869281045751,
+      "ev": 0.9928600718977804,
+      "odds": 36.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 37.90849673202616
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "レッドホット",
+      "score": 65.92802287581698,
+      "ev": 1.0243915794191847,
+      "odds": 3.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 24.83660130718955
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ストラドーネ",
+      "score": 65.675,
+      "ev": 0.9886907274880297,
+      "odds": 25.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "イルミナジーティー",
+      "score": 59.4703431372549,
+      "ev": 0.9963626507082265,
+      "odds": 6.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 72.54901960784316
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "パンキー",
+      "score": 50.65,
+      "ev": 0.979387839159759,
+      "odds": 65.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "コスモフィレンツェ",
+      "score": 49.34027777777778,
+      "ev": 0.9629017144622355,
+      "odds": 2.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 56.94444444444445
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "クランズクラウン",
+      "score": 46.9217320261438,
+      "ev": 0.9591490379810473,
+      "odds": 5.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 94.77124183006539
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "イサギ",
+      "score": 42.195506535947715,
+      "ev": 0.9451331502070014,
+      "odds": 9.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 92.8104575163399
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ウォーターコトノハ",
+      "score": 34.09542483660131,
+      "ev": 0.965277975474801,
+      "odds": 22.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 32.67973856209151
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040705",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "バークシャーシチー",
+        "time": "1:47.2",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "コスモフィレンツェ",
+        "time": "1:47.3",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "イルミナジーティー",
+        "time": "1:47.5",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "パンキー",
+        "time": "1:47.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "クランズクラウン",
+        "time": "1:48.0",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "レッドホット",
+        "time": "1:48.1",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ストラドーネ",
+        "time": "1:48.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "イサギ",
+        "time": "1:48.3",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 9,
+        "horseId": 9,
+        "horseName": "ウォーターコトノハ",
+        "time": "1:48.7",
+        "lastThreeF": 35.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 3670
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 700
+        },
+        {
+          "horseId": 6,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 190
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-6",
+          "payout": 5350
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 5230
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-6",
+          "payout": 14970
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 1370
+        },
+        {
+          "combination": "1-4",
+          "payout": 2740
+        },
+        {
+          "combination": "4-6",
+          "payout": 320
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-6",
+          "payout": 6930
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-6-4",
+          "payout": 91230
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 3670
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "12:10",
+    "raceDate": "20250921",
+    "headCount": 9
+  }
+}

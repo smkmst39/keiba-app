@@ -1,0 +1,307 @@
+{
+  "raceId": "202501010210",
+  "raceName": "ポプラS",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アスクビックスター",
+      "score": 58.934887218045105,
+      "ev": 0.9815908180983706,
+      "odds": 70.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 1.3157894736842095
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラタフォレスト",
+      "score": 72.1028947368421,
+      "ev": 1.0636118220329114,
+      "odds": 3.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 57.89473684210527
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ドバイブルース",
+      "score": 64.35714285714285,
+      "ev": 1.033144434951795,
+      "odds": 3,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "セクシーブーケ",
+      "score": 50.567030075187965,
+      "ev": 0.9791215729882659,
+      "odds": 9.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 38.81578947368422
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "タンゴバイラリン",
+      "score": 47.249812030075184,
+      "ev": 0.9729269575754976,
+      "odds": 13.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 48.026315789473685
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トップオブジェラス",
+      "score": 42.2918045112782,
+      "ev": 0.9631759652527138,
+      "odds": 15.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 28.947368421052634
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グラウンドビート",
+      "score": 39.4209022556391,
+      "ev": 0.9710118864317674,
+      "odds": 20.7,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 51.973684210526315
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マッシャーブルム",
+      "score": 31.845,
+      "ev": 0.9052601369972906,
+      "odds": 3.2,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202501010210",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 2,
+        "horseName": "ラタフォレスト",
+        "time": "1:42.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ドバイブルース",
+        "time": "1:43.3",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "セクシーブーケ",
+        "time": "1:43.6",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "タンゴバイラリン",
+        "time": "1:43.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "マッシャーブルム",
+        "time": "1:43.7",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "グラウンドビート",
+        "time": "1:44.2",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "アスクビックスター",
+        "time": "1:44.6",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 8,
+        "horseId": 6,
+        "horseName": "トップオブジェラス",
+        "time": "1:44.8",
+        "lastThreeF": 37
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 2,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 2,
+          "payout": 130
+        },
+        {
+          "horseId": 3,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 190
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-3",
+          "payout": 570
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "2-3",
+          "payout": 1170
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-3",
+          "payout": 230
+        },
+        {
+          "combination": "2-4",
+          "payout": 510
+        },
+        {
+          "combination": "3-4",
+          "payout": 440
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-4",
+          "payout": 1270
+        }
+      ],
+      "santan": [
+        {
+          "combination": "2-3-4",
+          "payout": 5680
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 330
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 570
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "3勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "重",
+    "handicap": "定量",
+    "prize": 1840,
+    "ageLimit": "3歳以上",
+    "courseTurn": "右",
+    "distance": 1700,
+    "surface": "dirt",
+    "startTime": "14:50",
+    "raceDate": "20250727",
+    "headCount": 8
+  }
+}

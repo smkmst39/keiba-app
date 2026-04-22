@@ -1,0 +1,306 @@
+{
+  "raceId": "202508030607",
+  "raceName": "3歳以上1勝クラス",
+  "date": "2025-10-18",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ワイドモヒート",
+      "score": 66.86375796178343,
+      "ev": 1.0154285677426014,
+      "odds": 14.3,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 47.13375796178343
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "アスクアットバット",
+      "score": 62.326596906278425,
+      "ev": 0.9826238817688233,
+      "odds": 146.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 10.828025477707007
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "モルティフレーバー",
+      "score": 54.510709736123744,
+      "ev": 0.9966531244125485,
+      "odds": 7.6,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 15.923566878980894
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サイモンイロハニー",
+      "score": 53.58759326660599,
+      "ev": 0.9834153940854924,
+      "odds": 40.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 23.56687898089172
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "サンライズグラシア",
+      "score": 47.920718835304825,
+      "ev": 0.9741211357211048,
+      "odds": 4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 84.07643312101911
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ニホンピロホリデー",
+      "score": 39.619990900818934,
+      "ev": 0.9483966988451856,
+      "odds": 9.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 31.84713375796178
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ルージュスティーズ",
+      "score": 32.501428571428576,
+      "ev": 0.9116594237354358,
+      "odds": 2.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "バガン",
+      "score": 37.644999999999996,
+      "ev": 0.9324954201821606,
+      "odds": 3.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030607",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "バガン",
+        "time": "2:00.3",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "サンライズグラシア",
+        "time": "2:00.5",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ルージュスティーズ",
+        "time": "2:00.6",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "サイモンイロハニー",
+        "time": "2:00.6",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ニホンピロホリデー",
+        "time": "2:01.1",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 6,
+        "horseId": 2,
+        "horseName": "アスクアットバット",
+        "time": "2:02.0",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "モルティフレーバー",
+        "time": "2:02.1",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "ワイドモヒート",
+        "time": "2:02.4",
+        "lastThreeF": 37.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 120
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 7,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-8",
+          "payout": 770
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-5",
+          "payout": 1400
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-8",
+          "payout": 230
+        },
+        {
+          "combination": "7-8",
+          "payout": 180
+        },
+        {
+          "combination": "5-7",
+          "payout": 210
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-7-8",
+          "payout": 460
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-5-7",
+          "payout": 2910
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 800,
+    "ageLimit": "3歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "13:15",
+    "raceDate": "20251018",
+    "headCount": 8
+  }
+}

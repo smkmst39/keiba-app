@@ -1,0 +1,359 @@
+{
+  "raceId": "202505020610",
+  "raceName": "メトロポリタンS",
+  "date": "2025-05-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "エンドロール",
+      "score": 65.92207547169811,
+      "ev": 0.9829750901679768,
+      "odds": 51.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 6.4150943396226445
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シルトホルン",
+      "score": 64.645,
+      "ev": 1.0344746044195678,
+      "odds": 4.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 88.88888888888889,
+        "training": 88.88888888888889,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴォランテ",
+      "score": 59.49226415094339,
+      "ev": 0.9868381789336709,
+      "odds": 38,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 77.77777777777779,
+        "training": 77.77777777777779,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 12.452830188679249
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "グリューネグリーン",
+      "score": 56.829339622641506,
+      "ev": 0.9847416620617123,
+      "odds": 31.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 18.86792452830189
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "マイネルクリソーラ",
+      "score": 53.7654716981132,
+      "ev": 0.991647414986601,
+      "odds": 4.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 55.55555555555556,
+        "training": 55.55555555555556,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 55.09433962264153
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "マイネルカンパーナ",
+      "score": 50.0616037735849,
+      "ev": 0.9785335820008675,
+      "odds": 10.2,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 44.44444444444444,
+        "training": 44.44444444444444,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 31.320754716981135
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ワイドエンペラー",
+      "score": 45.33,
+      "ev": 0.9584412378117257,
+      "odds": 4.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ケイアイサンデラ",
+      "score": 41.29254716981132,
+      "ev": 0.9612739160531679,
+      "odds": 12.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 22.22222222222222,
+        "training": 22.22222222222222,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 21.50943396226415
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "バラジ",
+      "score": 41.85924528301887,
+      "ev": 0.9447786353886285,
+      "odds": 3.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 11.11111111111111,
+        "training": 11.11111111111111,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 95.84905660377359
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "ブレイヴロッカー",
+      "score": 28.868867924528303,
+      "ev": 0.9368210514744767,
+      "odds": 17.6,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 3.7735849056603774
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202505020610",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "マイネルクリソーラ",
+        "time": "2:24.0",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "マイネルカンパーナ",
+        "time": "2:24.0",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 10,
+        "horseName": "ブレイヴロッカー",
+        "time": "2:24.0",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "ヴォランテ",
+        "time": "2:24.1",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "シルトホルン",
+        "time": "2:24.2",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "グリューネグリーン",
+        "time": "2:24.3",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "バラジ",
+        "time": "2:24.3",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "エンドロール",
+        "time": "2:24.4",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "ケイアイサンデラ",
+        "time": "2:25.6",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 10,
+        "horseId": 7,
+        "horseName": "ワイドエンペラー",
+        "time": "2:25.7",
+        "lastThreeF": 36.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 450
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 180
+        },
+        {
+          "horseId": 6,
+          "payout": 270
+        },
+        {
+          "horseId": 10,
+          "payout": 360
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 2320
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 2140
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-6",
+          "payout": 3870
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 640
+        },
+        {
+          "combination": "5-10",
+          "payout": 930
+        },
+        {
+          "combination": "6-10",
+          "payout": 1850
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "5-6-10",
+          "payout": 8500
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-6-10",
+          "payout": 35040
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "オープン",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "別定",
+    "prize": 2800,
+    "ageLimit": "4歳以上",
+    "distance": 2400,
+    "surface": "turf",
+    "startTime": "15:01",
+    "raceDate": "20250511",
+    "headCount": 10
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "raceId": "202508020510",
+  "raceName": "鴨川特別",
+  "date": "2025-05-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "イーサンアイ",
+      "score": 68.74499999999999,
+      "ev": 0.9834350588460794,
+      "odds": 101.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ステラクラウン",
+      "score": 63.562802197802185,
+      "ev": 1.0284457016362434,
+      "odds": 1.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.5384615384615348
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ラウルピドゥ",
+      "score": 55.08175824175824,
+      "ev": 0.9830592283554319,
+      "odds": 47,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.769230769230766
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ライフセービング",
+      "score": 52.533021978021964,
+      "ev": 0.9853339854933764,
+      "odds": 4.4,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.384615384615385
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヤマニンステラータ",
+      "score": 49.153901098901095,
+      "ev": 0.9737009071270588,
+      "odds": 6.8,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.769230769230766
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ハイディージェン",
+      "score": 44.17247252747253,
+      "ev": 0.9581243186345874,
+      "odds": 5.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 30.76923076923077
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "テーオーコンドル",
+      "score": 38.45296703296704,
+      "ev": 0.977514988361252,
+      "odds": 105,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 16.923076923076923
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ダノンフロイデ",
+      "score": 37.644999999999996,
+      "ev": 0.9377133557956294,
+      "odds": 6.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 100
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508020510",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ダノンフロイデ",
+        "time": "2:01.1",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "ステラクラウン",
+        "time": "2:01.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 3,
+        "horseId": 4,
+        "horseName": "ライフセービング",
+        "time": "2:01.7",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 4,
+        "horseId": 6,
+        "horseName": "ハイディージェン",
+        "time": "2:02.1",
+        "lastThreeF": 35.6
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "イーサンアイ",
+        "time": "2:02.3",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ヤマニンステラータ",
+        "time": "2:02.3",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ラウルピドゥ",
+        "time": "2:02.6",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "テーオーコンドル",
+        "time": "2:03.0",
+        "lastThreeF": 36.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 650
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 150
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 4,
+          "payout": 120
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 550
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-2",
+          "payout": 1500
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 210
+        },
+        {
+          "combination": "4-8",
+          "payout": 280
+        },
+        {
+          "combination": "2-4",
+          "payout": 160
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-4-8",
+          "payout": 460
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-2-4",
+          "payout": 4000
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "曇",
+    "trackCondition": "稍重",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "15:01",
+    "raceDate": "20250510",
+    "headCount": 8
+  }
+}

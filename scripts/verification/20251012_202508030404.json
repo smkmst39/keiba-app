@@ -1,0 +1,406 @@
+{
+  "raceId": "202508030404",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-10-12",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ヴィアルークス",
+      "score": 68.34536789297658,
+      "ev": 1.0541466782432856,
+      "odds": 2.2,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 5.351170568561874
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シーク",
+      "score": 62.269100030404374,
+      "ev": 1.0048867879185746,
+      "odds": 14.3,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90.9090909090909,
+        "training": 90.9090909090909,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 25.75250836120402
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エブリモーメント",
+      "score": 62.75947096381879,
+      "ev": 0.9903481099698782,
+      "odds": 46.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 81.81818181818183,
+        "training": 81.81818181818183,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 6.354515050167224
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ブラックバラード",
+      "score": 54.06636363636363,
+      "ev": 0.9833741581984398,
+      "odds": 46.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 72.72727272727273,
+        "training": 72.72727272727273,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フォーディアライフ",
+      "score": 55.62551383399209,
+      "ev": 1.003124848300538,
+      "odds": 4.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 63.63636363636363,
+        "training": 63.63636363636363,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 17.391304347826086
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴットリープ",
+      "score": 47.43486470051687,
+      "ev": 0.9780541095657859,
+      "odds": 38.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 54.54545454545454,
+        "training": 54.54545454545454,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 1.3377926421404673
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スズノイナズマ",
+      "score": 46.81543630282761,
+      "ev": 0.9738929495048428,
+      "odds": 18.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 45.45454545454545,
+        "training": 45.45454545454545,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 48.49498327759198
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アルカンサス",
+      "score": 47.868181818181824,
+      "ev": 0.9760043338968458,
+      "odds": 10.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 36.36363636363637,
+        "training": 36.36363636363637,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ストラクチャー",
+      "score": 41.7999741562785,
+      "ev": 0.9638339482168223,
+      "odds": 10.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 27.27272727272727,
+        "training": 27.27272727272727,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 10.367892976588632
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "シルバースペード",
+      "score": 40.04773639404074,
+      "ev": 0.9603196635123917,
+      "odds": 16.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 18.181818181818183,
+        "training": 18.181818181818183,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 25.75250836120402
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "シュハリ",
+      "score": 37.042900577683184,
+      "ev": 0.9697172682185875,
+      "odds": 43.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 9.090909090909092,
+        "training": 9.090909090909092,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 25.661295226512614
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "オステリア",
+      "score": 34.250351170568564,
+      "ev": 0.9299079020750117,
+      "odds": 8.4,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 41.47157190635453
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030404",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "ヴィアルークス",
+        "time": "3:18.1",
+        "lastThreeF": 13.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "フォーディアライフ",
+        "time": "3:19.3",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 3,
+        "horseId": 12,
+        "horseName": "オステリア",
+        "time": "3:19.4",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "ブラックバラード",
+        "time": "3:19.6",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 5,
+        "horseId": 3,
+        "horseName": "エブリモーメント",
+        "time": "3:20.1",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "シュハリ",
+        "time": "3:20.3",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "ストラクチャー",
+        "time": "3:21.3",
+        "lastThreeF": 13.8
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "スズノイナズマ",
+        "time": "3:21.8",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "シルバースペード",
+        "time": "3:22.8",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 10,
+        "horseId": 8,
+        "horseName": "アルカンサス",
+        "time": "3:22.9",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "ゴットリープ",
+        "time": "3:23.2",
+        "lastThreeF": 14
+      },
+      {
+        "rank": 12,
+        "horseId": 2,
+        "horseName": "シーク",
+        "time": "3:25.9",
+        "lastThreeF": 14.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 220
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 140
+        },
+        {
+          "horseId": 12,
+          "payout": 150
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-5",
+          "payout": 520
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 640
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-5",
+          "payout": 950
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 260
+        },
+        {
+          "combination": "1-12",
+          "payout": 330
+        },
+        {
+          "combination": "5-12",
+          "payout": 490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-12",
+          "payout": 1290
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-5-12",
+          "payout": 3450
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 220
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2910,
+    "surface": "turf",
+    "startTime": "11:20",
+    "raceDate": "20251012",
+    "headCount": 12
+  }
+}

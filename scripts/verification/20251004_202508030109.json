@@ -1,0 +1,306 @@
+{
+  "raceId": "202508030109",
+  "raceName": "りんどう賞",
+  "date": "2025-10-04",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ベルフラム",
+      "score": 68.14290697674419,
+      "ev": 0.9932372549227951,
+      "odds": 36.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 1.8604651162790715
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "カイショー",
+      "score": 62.669734219269095,
+      "ev": 1.024806449019975,
+      "odds": 4.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 16.74418604651163
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "フルールジェンヌ",
+      "score": 60.08280730897009,
+      "ev": 0.9973505751037467,
+      "odds": 18.5,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 32.42524916943522
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アイニードユー",
+      "score": 56.95571428571428,
+      "ev": 0.9979886427077889,
+      "odds": 5.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "メイショウハッケイ",
+      "score": 50.09149501661129,
+      "ev": 0.9756721402106722,
+      "odds": 4.6,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 35.813953488372086
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ラスティングスノー",
+      "score": 45.953089700996685,
+      "ev": 0.9697531547831143,
+      "odds": 18.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 55.348837209302324
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ルージュサウダージ",
+      "score": 37.471428571428575,
+      "ev": 0.9370995534933232,
+      "odds": 6.9,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ファムマルキーズ",
+      "score": 28.22813953488372,
+      "ev": 0.8902674311302647,
+      "odds": 2.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 17.209302325581394
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030109",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "ラスティングスノー",
+        "time": "1:21.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "メイショウハッケイ",
+        "time": "1:21.8",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "フルールジェンヌ",
+        "time": "1:21.8",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "アイニードユー",
+        "time": "1:21.8",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ファムマルキーズ",
+        "time": "1:22.2",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 7,
+        "horseName": "ルージュサウダージ",
+        "time": "1:22.4",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 7,
+        "horseId": 1,
+        "horseName": "ベルフラム",
+        "time": "1:22.6",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "カイショー",
+        "time": "1:22.8",
+        "lastThreeF": 35.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 1880
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 420
+        },
+        {
+          "horseId": 5,
+          "payout": 180
+        },
+        {
+          "horseId": 3,
+          "payout": 420
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 4720
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 10720
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 1250
+        },
+        {
+          "combination": "3-6",
+          "payout": 2160
+        },
+        {
+          "combination": "3-5",
+          "payout": 950
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 11130
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-3",
+          "payout": 79170
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 6,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系2歳",
+    "weather": "小雨",
+    "trackCondition": "重",
+    "handicap": "馬齢",
+    "prize": 1110,
+    "ageLimit": "2歳",
+    "sexLimit": "牝",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "14:15",
+    "raceDate": "20251004",
+    "headCount": 8
+  }
+}

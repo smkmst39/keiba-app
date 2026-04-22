@@ -1,0 +1,386 @@
+{
+  "raceId": "202608020503",
+  "raceName": "3歳未勝利",
+  "date": "2026-02-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マリンパレス",
+      "score": 68.65,
+      "ev": 0.98347567721903,
+      "odds": 193.5,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 28.965517241379306
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "リードアクター",
+      "score": 65.47999999999999,
+      "ev": 0.991413683571862,
+      "odds": 45.1,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 37.93103448275862
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ダテオトコ",
+      "score": 61.06999999999999,
+      "ev": 0.999877583068632,
+      "odds": 16.2,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 25.517241379310352
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "カシノスパーク",
+      "score": 59.75499999999999,
+      "ev": 0.9817296298940005,
+      "odds": 108.1,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 35.862068965517246
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "グロリアス",
+      "score": 54.98499999999999,
+      "ev": 0.9807933009743388,
+      "odds": 111.4,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 17.241379310344826
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "メイショウアカリ",
+      "score": 47.099999999999994,
+      "ev": 0.9679281915842821,
+      "odds": 5.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ロードヴェリタス",
+      "score": 48.309999999999995,
+      "ev": 0.9748302937292551,
+      "odds": 10.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 60
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ピエナオルカ",
+      "score": 45.275,
+      "ev": 0.9577454584389165,
+      "odds": 4.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 40.689655172413794
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "テイエムパイロダン",
+      "score": 40.665,
+      "ev": 0.9779823512616439,
+      "odds": 88.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 24.827586206896544
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "レイサンソク",
+      "score": 38.14,
+      "ev": 0.929734108997466,
+      "odds": 1.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "テンマジックアワー",
+      "score": 30.95,
+      "ev": 0.917205467718334,
+      "odds": 9.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 15.17241379310345
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608020503",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "メイショウアカリ",
+        "time": "2:02.9",
+        "lastThreeF": 37.7
+      },
+      {
+        "rank": 2,
+        "horseId": 10,
+        "horseName": "レイサンソク",
+        "time": "2:02.9",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "ロードヴェリタス",
+        "time": "2:02.9",
+        "lastThreeF": 37.9
+      },
+      {
+        "rank": 4,
+        "horseId": 11,
+        "horseName": "テンマジックアワー",
+        "time": "2:02.9",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "ピエナオルカ",
+        "time": "2:03.3",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "ダテオトコ",
+        "time": "2:03.7",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "グロリアス",
+        "time": "2:04.3",
+        "lastThreeF": 38.5
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "カシノスパーク",
+        "time": "2:04.7",
+        "lastThreeF": 39.2
+      },
+      {
+        "rank": 9,
+        "horseId": 2,
+        "horseName": "リードアクター",
+        "time": "2:05.3",
+        "lastThreeF": 40.5
+      },
+      {
+        "rank": 10,
+        "horseId": 9,
+        "horseName": "テイエムパイロダン",
+        "time": "2:05.5",
+        "lastThreeF": 39.5
+      },
+      {
+        "rank": 11,
+        "horseId": 1,
+        "horseName": "マリンパレス",
+        "time": "2:06.1",
+        "lastThreeF": 40
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 540
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 140
+        },
+        {
+          "horseId": 10,
+          "payout": 110
+        },
+        {
+          "horseId": 7,
+          "payout": 210
+        }
+      ],
+      "waku": [
+        {
+          "combination": "6-8",
+          "payout": 270
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "6-10",
+          "payout": 430
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-10",
+          "payout": 1220
+        }
+      ],
+      "wide": [
+        {
+          "combination": "6-10",
+          "payout": 210
+        },
+        {
+          "combination": "6-7",
+          "payout": 820
+        },
+        {
+          "combination": "7-10",
+          "payout": 360
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "6-7-10",
+          "payout": 1540
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-10-7",
+          "payout": 9480
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "courseTurn": "右",
+    "distance": 1900,
+    "surface": "dirt",
+    "startTime": "10:50",
+    "raceDate": "20260214",
+    "headCount": 11,
+    "trackCondition": "良",
+    "trackConditionFilled": true,
+    "trackConditionSource": "同日同場4R 中の最頻値"
+  }
+}

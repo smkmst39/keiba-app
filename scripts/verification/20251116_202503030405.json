@@ -1,0 +1,375 @@
+{
+  "raceId": "202503030405",
+  "raceName": "3歳以上障害未勝利",
+  "date": "2025-11-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ゴットリープ",
+      "score": 64.49,
+      "ev": 1.0339807122945448,
+      "odds": 4.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 6.206896551724134
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "キタノマキシム",
+      "score": 68.13499999999999,
+      "ev": 1.0346686411187942,
+      "odds": 7.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 53.10344827586208
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アスクオンディープ",
+      "score": 59.83,
+      "ev": 1.008502602159499,
+      "odds": 6.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 53.10344827586208
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ヒロピアーナ",
+      "score": 57.67499999999999,
+      "ev": 0.981357061235531,
+      "odds": 62.8,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アドミラブルエース",
+      "score": 49.809999999999995,
+      "ev": 0.9780832631368528,
+      "odds": 19.2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 7.5862068965517215
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "リオンエトワール",
+      "score": 55.38499999999999,
+      "ev": 0.9944980214040423,
+      "odds": 6.5,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "サウンドブライアン",
+      "score": 45.949999999999996,
+      "ev": 0.9704823517594536,
+      "odds": 13,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 19.310344827586206
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ホークフィールド",
+      "score": 46.1,
+      "ev": 0.9615554479264772,
+      "odds": 2.6,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 85.51724137931035
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "チンプンカンプン",
+      "score": 41.81111111111112,
+      "ev": 0.9729329067508958,
+      "odds": 32.4,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 38.46743295019158
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "アポロプラネット",
+      "score": 37.13,
+      "ev": 0.9692457864707597,
+      "odds": 24.5,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.379310344827587
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "モズクルードラゴン",
+      "score": 32.30111111111111,
+      "ev": 0.9763605669157274,
+      "odds": 83.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 38.46743295019158
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202503030405",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ホークフィールド",
+        "time": "3:01.6",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "アスクオンディープ",
+        "time": "3:02.1",
+        "lastThreeF": 13.2
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "リオンエトワール",
+        "time": "3:02.2",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ゴットリープ",
+        "time": "3:02.2",
+        "lastThreeF": 13.3
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "キタノマキシム",
+        "time": "3:04.5",
+        "lastThreeF": 13.4
+      },
+      {
+        "rank": 6,
+        "horseId": 10,
+        "horseName": "アポロプラネット",
+        "time": "3:05.9",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "アドミラブルエース",
+        "time": "3:05.9",
+        "lastThreeF": 13.5
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "サウンドブライアン",
+        "time": "3:08.2",
+        "lastThreeF": 13.7
+      },
+      {
+        "rank": 9,
+        "horseId": 11,
+        "horseName": "モズクルードラゴン",
+        "time": "3:10.8",
+        "lastThreeF": 13.9
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "ヒロピアーナ",
+        "time": "3:16.6",
+        "lastThreeF": 14.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 260
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 120
+        },
+        {
+          "horseId": 3,
+          "payout": 160
+        },
+        {
+          "horseId": 6,
+          "payout": 160
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-7",
+          "payout": 1020
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "3-8",
+          "payout": 930
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-3",
+          "payout": 1540
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-8",
+          "payout": 400
+        },
+        {
+          "combination": "6-8",
+          "payout": 370
+        },
+        {
+          "combination": "3-6",
+          "payout": 540
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-6-8",
+          "payout": 1730
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-3-6",
+          "payout": 6000
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 7,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "障害3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 840,
+    "ageLimit": "3歳以上",
+    "distance": 2750,
+    "surface": "turf",
+    "startTime": "12:00",
+    "raceDate": "20251116",
+    "headCount": 11
+  }
+}

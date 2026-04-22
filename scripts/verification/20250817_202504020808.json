@@ -1,0 +1,334 @@
+{
+  "raceId": "202504020808",
+  "raceName": "阿賀野川特別",
+  "date": "2025-08-17",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "マイネルトルファン",
+      "score": 68.035,
+      "ev": 1.0135709779645972,
+      "odds": 13.1,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "イクリール",
+      "score": 64.60024193548387,
+      "ev": 1.0336552507407117,
+      "odds": 3.4,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 8.06451612903226
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エイシンナデシコ",
+      "score": 61.24225806451612,
+      "ev": 0.9820235001138203,
+      "odds": 93.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 41.93548387096774
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ピンキープロミス",
+      "score": 53.847338709677416,
+      "ev": 0.9822867153214817,
+      "odds": 26.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 61.29032258064515
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アマキヒ",
+      "score": 51.480000000000004,
+      "ev": 0.9821381331849037,
+      "odds": 1.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ウインマイルート",
+      "score": 46.80508064516129,
+      "ev": 0.9767563777202088,
+      "odds": 48.4,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.35483870967742
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "エコロレイズ",
+      "score": 43.876451612903224,
+      "ev": 0.9578260142938619,
+      "odds": 7.5,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 48.38709677419354
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アナレンマ",
+      "score": 35.06991935483871,
+      "ev": 0.976885167083656,
+      "odds": 50.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 55.645161290322584
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "プレイリードリーム",
+      "score": 33.46290322580646,
+      "ev": 0.9765696666559942,
+      "odds": 66.1,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 21.774193548387093
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202504020808",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "アマキヒ",
+        "time": "2:14.3",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "イクリール",
+        "time": "2:14.6",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ウインマイルート",
+        "time": "2:14.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "エコロレイズ",
+        "time": "2:14.9",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 8,
+        "horseName": "アナレンマ",
+        "time": "2:15.0",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "マイネルトルファン",
+        "time": "2:15.0",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 9,
+        "horseName": "プレイリードリーム",
+        "time": "2:15.0",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ピンキープロミス",
+        "time": "2:15.2",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 9,
+        "horseId": 3,
+        "horseName": "エイシンナデシコ",
+        "time": "2:18.1",
+        "lastThreeF": 37.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 150
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 110
+        },
+        {
+          "horseId": 2,
+          "payout": 120
+        },
+        {
+          "horseId": 6,
+          "payout": 360
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-5",
+          "payout": 270
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-5",
+          "payout": 270
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-2",
+          "payout": 390
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-5",
+          "payout": 170
+        },
+        {
+          "combination": "5-6",
+          "payout": 700
+        },
+        {
+          "combination": "2-6",
+          "payout": 1150
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-5-6",
+          "payout": 1930
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-2-6",
+          "payout": 3870
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1550,
+    "ageLimit": "3歳以上",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "16:20",
+    "raceDate": "20250817",
+    "headCount": 9
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "raceId": "202507030211",
+  "raceName": "3歳未勝利",
+  "date": "2025-07-27",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "パイオニアスクエア",
+      "score": 70.12226114649681,
+      "ev": 1.0397368603396975,
+      "odds": 6.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 35.98726114649683
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ピンクベルズ",
+      "score": 66.63544585987262,
+      "ev": 0.9830506555810378,
+      "odds": 106.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 90,
+        "training": 90,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 39.49044585987262
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "カーボナード",
+      "score": 61.438885350318465,
+      "ev": 0.9820329011330698,
+      "odds": 221.4,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 1.2738853503184715
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "マテンロウアーチ",
+      "score": 58.78328025477706,
+      "ev": 0.9860511869999024,
+      "odds": 35.7,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 70,
+        "training": 70,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 19.10828025477707
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ホウオウレイヴン",
+      "score": 58.6686305732484,
+      "ev": 1.0098068486351006,
+      "odds": 2,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 92.99363057324842
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ルークピオーネ",
+      "score": 45.68,
+      "ev": 0.9789464989578588,
+      "odds": 113.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "リビングストン",
+      "score": 47.790000000000006,
+      "ev": 0.9671949147093136,
+      "odds": 3.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "マイネルトラオム",
+      "score": 44.909904458598724,
+      "ev": 0.9607307927973352,
+      "odds": 8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 30,
+        "training": 30,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 34.39490445859873
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アスクコモンタレヴ",
+      "score": 39.58633757961783,
+      "ev": 0.9710121828285024,
+      "odds": 25.2,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 18.471337579617835
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "オゴオゴ",
+      "score": 35.9702229299363,
+      "ev": 0.977044824035828,
+      "odds": 83,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 10,
+        "training": 10,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 19.745222929936304
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "キングベル",
+      "score": 32.064904458598726,
+      "ev": 0.9204793815491052,
+      "odds": 9.9,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 34.39490445859873
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202507030211",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ホウオウレイヴン",
+        "time": "2:13.6",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 2,
+        "horseId": 1,
+        "horseName": "パイオニアスクエア",
+        "time": "2:13.6",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 3,
+        "horseId": 9,
+        "horseName": "アスクコモンタレヴ",
+        "time": "2:13.7",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 4,
+        "horseId": 10,
+        "horseName": "オゴオゴ",
+        "time": "2:13.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "リビングストン",
+        "time": "2:13.9",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "マテンロウアーチ",
+        "time": "2:14.1",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "マイネルトラオム",
+        "time": "2:14.1",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 8,
+        "horseId": 11,
+        "horseName": "キングベル",
+        "time": "2:14.8",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "ルークピオーネ",
+        "time": "2:14.9",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 10,
+        "horseId": 2,
+        "horseName": "ピンクベルズ",
+        "time": "2:15.2",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 11,
+        "horseId": 3,
+        "horseName": "カーボナード",
+        "time": "2:22.6",
+        "lastThreeF": 41.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 200
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 130
+        },
+        {
+          "horseId": 1,
+          "payout": 180
+        },
+        {
+          "horseId": 9,
+          "payout": 310
+        }
+      ],
+      "waku": [
+        {
+          "combination": "1-5",
+          "payout": 690
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "1-5",
+          "payout": 710
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-1",
+          "payout": 970
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-5",
+          "payout": 300
+        },
+        {
+          "combination": "5-9",
+          "payout": 650
+        },
+        {
+          "combination": "1-9",
+          "payout": 1300
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-5-9",
+          "payout": 3040
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-1-9",
+          "payout": 7930
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 5,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "3歳",
+    "distance": 2200,
+    "surface": "turf",
+    "startTime": "17:45",
+    "raceDate": "20250727",
+    "headCount": 11
+  }
+}

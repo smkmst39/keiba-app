@@ -1,0 +1,336 @@
+{
+  "raceId": "202509040706",
+  "raceName": "2歳新馬",
+  "date": "2025-09-21",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ブランドブラン",
+      "score": 74.89999999999999,
+      "ev": 1.0608429536048791,
+      "odds": 1.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "サリカリーフォリア",
+      "score": 68.16965767634854,
+      "ev": 0.9911214099013598,
+      "odds": 26.9,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 87.5,
+        "training": 87.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 63.485477178423224
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "アルファローバ",
+      "score": 62.564419087136926,
+      "ev": 0.9869179606061549,
+      "odds": 23.9,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 75,
+        "training": 75,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 46.36929460580913
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ユーアーフラワー",
+      "score": 55.262499999999996,
+      "ev": 0.9803605365311012,
+      "odds": 165.9,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 62.5,
+        "training": 62.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "カフジエメンタール",
+      "score": 54.06742738589212,
+      "ev": 0.9827297196378006,
+      "odds": 5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.92116182572615
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ゴディアンフィンチ",
+      "score": 47.770280082987554,
+      "ev": 0.9632944892180353,
+      "odds": 8.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 37.5,
+        "training": 37.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 29.87551867219917
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ファントムヴォルト",
+      "score": 42.339522821576764,
+      "ev": 0.9779377547686467,
+      "odds": 67.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 25,
+        "training": 25,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15.767634854771787
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ボクマダネムイヨ",
+      "score": 40.302126556016596,
+      "ev": 0.9408925848710209,
+      "odds": 5.7,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 12.5,
+        "training": 12.5,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 60.165975103734446
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ワイドバヴァール",
+      "score": 34.678838174273864,
+      "ev": 0.9240246444907739,
+      "odds": 7.8,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 42.738589211618255
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509040706",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 8,
+        "horseName": "ボクマダネムイヨ",
+        "time": "1:56.8",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "サリカリーフォリア",
+        "time": "1:57.9",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 3,
+        "horseId": 1,
+        "horseName": "ブランドブラン",
+        "time": "1:57.9",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 4,
+        "horseId": 5,
+        "horseName": "カフジエメンタール",
+        "time": "1:57.9",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 5,
+        "horseId": 9,
+        "horseName": "ワイドバヴァール",
+        "time": "1:59.3",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "ゴディアンフィンチ",
+        "time": "1:59.9",
+        "lastThreeF": 38.9
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "アルファローバ",
+        "time": "2:00.1",
+        "lastThreeF": 39.3
+      },
+      {
+        "rank": 8,
+        "horseId": 4,
+        "horseName": "ユーアーフラワー",
+        "time": "2:00.2",
+        "lastThreeF": 40
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "ファントムヴォルト",
+        "time": "2:01.4",
+        "lastThreeF": 40.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 8,
+          "payout": 570
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 8,
+          "payout": 170
+        },
+        {
+          "horseId": 2,
+          "payout": 410
+        },
+        {
+          "horseId": 1,
+          "payout": 110
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-8",
+          "payout": 3420
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "2-8",
+          "payout": 5290
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "8-2",
+          "payout": 9750
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-8",
+          "payout": 1170
+        },
+        {
+          "combination": "1-8",
+          "payout": 280
+        },
+        {
+          "combination": "1-2",
+          "payout": 660
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-8",
+          "payout": 2460
+        }
+      ],
+      "santan": [
+        {
+          "combination": "8-2-1",
+          "payout": 27880
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 8,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "courseTurn": "右",
+    "distance": 1800,
+    "surface": "dirt",
+    "startTime": "12:40",
+    "raceDate": "20250921",
+    "headCount": 9
+  }
+}

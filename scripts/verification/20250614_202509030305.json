@@ -1,0 +1,306 @@
+{
+  "raceId": "202509030305",
+  "raceName": "2歳新馬",
+  "date": "2025-06-14",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "カガラプンツェル",
+      "score": 63.82857142857142,
+      "ev": 1.0003371105629466,
+      "odds": 11.7,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "エボニードール",
+      "score": 62.40548408937034,
+      "ev": 0.9870616557476968,
+      "odds": 23.7,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 66.35071090047393
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "マイオウンウェイ",
+      "score": 56.66675693974271,
+      "ev": 0.9936696354776636,
+      "odds": 4.1,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.293838862559234
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "サトノボヤージュ",
+      "score": 51.092958700067705,
+      "ev": 0.972652878874426,
+      "odds": 3.5,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 53.08056872037914
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "フェブリノ",
+      "score": 45.134326337169945,
+      "ev": 0.9785092526701747,
+      "odds": 67.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 41.232227488151665
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダイヤモンドノット",
+      "score": 43.27142857142857,
+      "ev": 0.9431607465958662,
+      "odds": 2.6,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ゴーゴーシャチョウ",
+      "score": 69.51232227488151,
+      "ev": 1.0296844550673487,
+      "odds": 5.1,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.109004739336493
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "メイワキラリ",
+      "score": 32.41990521327015,
+      "ev": 0.9761121808474993,
+      "odds": 59.3,
+      "waku": 8,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 3.7914691943127963
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202509030305",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "マイオウンウェイ",
+        "time": "1:10.5",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "サトノボヤージュ",
+        "time": "1:10.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ダイヤモンドノット",
+        "time": "1:10.8",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "エボニードール",
+        "time": "1:11.2",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "フェブリノ",
+        "time": "1:11.6",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "カガラプンツェル",
+        "time": "1:11.8",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 7,
+        "horseId": 8,
+        "horseName": "メイワキラリ",
+        "time": "1:12.3",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ゴーゴーシャチョウ",
+        "time": "1:12.3",
+        "lastThreeF": 36.8
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 410
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 120
+        },
+        {
+          "horseId": 4,
+          "payout": 120
+        },
+        {
+          "horseId": 6,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-4",
+          "payout": 840
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-4",
+          "payout": 1530
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-4",
+          "payout": 290
+        },
+        {
+          "combination": "3-6",
+          "payout": 230
+        },
+        {
+          "combination": "4-6",
+          "payout": 200
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-4-6",
+          "payout": 630
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-4-6",
+          "payout": 4220
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "小雨",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 750,
+    "ageLimit": "2歳",
+    "distance": 1200,
+    "surface": "turf",
+    "startTime": "12:25",
+    "raceDate": "20250614",
+    "headCount": 8
+  }
+}

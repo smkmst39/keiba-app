@@ -1,0 +1,254 @@
+{
+  "raceId": "202508030702",
+  "raceName": "2歳未勝利",
+  "date": "2025-10-19",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "サーディンラン",
+      "score": 72.09,
+      "ev": 1.0584069514844316,
+      "odds": 1.6,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 88.27586206896551
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ダンツウルス",
+      "score": 59.79,
+      "ev": 1.004724112961622,
+      "odds": 8.5,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 80,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 3.448275862068969
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "コマチチャン",
+      "score": 52.10999999999999,
+      "ev": 0.9806227371469949,
+      "odds": 19.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 60,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 22.758620689655178
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "パンパネイラ",
+      "score": 46.605,
+      "ev": 0.9759971035481535,
+      "odds": 23.3,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 40,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ボンボンベイビー",
+      "score": 45.38000000000001,
+      "ev": 0.967627323195752,
+      "odds": 10.5,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 20,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "クールドリオン",
+      "score": 34.75,
+      "ev": 0.9142022688872797,
+      "odds": 2.8,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 80.6896551724138
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202508030702",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "サーディンラン",
+        "time": "1:47.4",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 2,
+        "horseId": 6,
+        "horseName": "クールドリオン",
+        "time": "1:47.5",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ダンツウルス",
+        "time": "1:47.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 4,
+        "horseId": 3,
+        "horseName": "コマチチャン",
+        "time": "1:47.7",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 5,
+        "horseId": 5,
+        "horseName": "ボンボンベイビー",
+        "time": "1:47.7",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "パンパネイラ",
+        "time": "1:53.7",
+        "lastThreeF": 40.6
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 160
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 110
+        },
+        {
+          "horseId": 6,
+          "payout": 130
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-6",
+          "payout": 180
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-6",
+          "payout": 320
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-6",
+          "payout": 110
+        },
+        {
+          "combination": "1-2",
+          "payout": 160
+        },
+        {
+          "combination": "2-6",
+          "payout": 220
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-2-6",
+          "payout": 280
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-6-2",
+          "payout": 720
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 160
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "OP",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 560,
+    "ageLimit": "2歳",
+    "distance": 1800,
+    "surface": "turf",
+    "startTime": "10:30",
+    "raceDate": "20251019",
+    "headCount": 6
+  }
+}
