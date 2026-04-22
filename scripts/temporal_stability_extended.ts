@@ -119,7 +119,11 @@ async function main(): Promise<void> {
     if (is3B(vd, m)) put(month3B, mth, r);
   }
 
-  const allMonths = Array.from(new Set([...monthAll.keys(), ...month2A.keys(), ...month3B.keys()])).sort();
+  const allMonthsSet = new Set<string>();
+  for (const k of Array.from(monthAll.keys())) allMonthsSet.add(k);
+  for (const k of Array.from(month2A.keys()))  allMonthsSet.add(k);
+  for (const k of Array.from(month3B.keys()))  allMonthsSet.add(k);
+  const allMonths = Array.from(allMonthsSet).sort();
 
   // 930R 期間 (2025-12 〜 2026-04) と拡張分 (2025-05〜2025-11) で分割
   const oldPeriod = allMonths.filter((m) => m >= '2025-12');
