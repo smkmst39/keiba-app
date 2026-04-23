@@ -890,45 +890,75 @@ export function RaceReport({ race }: Props) {
         </div>
       )}
 
-      {/* ====== Section 3: 重要指標TOP5 ====== */}
+      {/* ====== Section 3: スコアTOP5 (5列: 順位/馬番/馬名/スコア/人気) ====== */}
       <div style={section}>
         <SectionHeader title="3. スコアTOP5" subtitle="総合スコア降順" />
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem' }}>
+        <table style={{
+          width: '100%',
+          borderCollapse: 'collapse',
+          tableLayout: 'fixed',  // 各列を %指定で厳密に制御、馬名は ellipsis で折返し回避
+          fontSize: '0.76rem',
+        }}>
+          <colgroup>
+            <col style={{ width: '14%' }} />  {/* 順位 */}
+            <col style={{ width: '12%' }} />  {/* 馬番 */}
+            <col style={{ width: '36%' }} />  {/* 馬名 */}
+            <col style={{ width: '26%' }} />  {/* スコア (数値+バー) */}
+            <col style={{ width: '12%' }} />  {/* 人気 */}
+          </colgroup>
           <thead>
             <tr style={{ background: '#edf2f7' }}>
-              {['順位', '馬名', 'スコア', '上がり評価', '調教評価', 'コメント'].map(h => (
-                <th key={h} style={th}>{h}</th>
-              ))}
+              <th style={{ ...th, textAlign: 'center' }}>順位</th>
+              <th style={{ ...th, textAlign: 'center' }}>馬番</th>
+              <th style={{ ...th, textAlign: 'left' }}>馬名</th>
+              <th style={{ ...th, textAlign: 'center' }}>スコア</th>
+              <th style={{ ...th, textAlign: 'center' }}>人気</th>
             </tr>
           </thead>
           <tbody>
             {byScore.slice(0, 5).map((horse, i) => {
-              const last3f = horse.lastThreeF;
-              const lastEval = last3f === 0 ? '-' : last3f <= 11.2 ? '◎' : last3f <= 11.6 ? '○' : last3f <= 11.9 ? '△' : '▽';
-              const trainEval = last3f === 0 ? '-' : last3f <= 11.0 ? '絶好' : last3f <= 11.4 ? '良好' : last3f <= 11.8 ? '普通' : '低調';
-              const comment = horse.odds >= 10 && (horse.ev ?? 0) >= 1.00 ? '穴馬候補' : horse.odds < 5 ? '上位人気' : '注目';
+              const score = horse.score ?? 0;
+              const pop = popularityRanks.get(horse.id) ?? 0;
               return (
                 <tr key={horse.id} style={{ borderBottom: '1px solid #e2e8f0', background: i === 0 ? '#f0fff4' : '#fff' }}>
-                  <td style={td}>{i + 1}位</td>
-                  <td style={{ ...td, fontWeight: 700 }}>{horse.id}番 {horse.name}</td>
+                  <td style={{ ...td, textAlign: 'center', fontWeight: 700 }}>{i + 1}位</td>
+                  <td style={{ ...td, textAlign: 'center', fontWeight: 700 }}>{horse.id}</td>
+                  <td style={{
+                    ...td,
+                    fontWeight: 700,
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                  }}>{horse.name}</td>
                   <td style={td}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-                      <span style={{ fontWeight: 700, color: i === 0 ? '#276749' : '#333' }}>
-                        {(horse.score ?? 0).toFixed(0)}
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                      <span style={{
+                        fontWeight: 700,
+                        color: i === 0 ? '#276749' : '#333',
+                        minWidth: '1.5rem',
+                        textAlign: 'right',
+                      }}>
+                        {score.toFixed(0)}
                       </span>
-                      <div style={{ width: '50px', height: '5px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                      <div style={{
+                        flex: 1,
+                        height: '5px',
+                        background: '#e2e8f0',
+                        borderRadius: '3px',
+                        overflow: 'hidden',
+                        minWidth: 0,
+                      }}>
                         <div style={{
                           height: '100%',
-                          width: `${horse.score ?? 0}%`,
+                          width: `${score}%`,
                           background: i === 0 ? '#276749' : '#3182ce',
                           borderRadius: '3px',
                         }} />
                       </div>
                     </div>
                   </td>
-                  <td style={{ ...td, textAlign: 'center' }}>{lastEval}</td>
-                  <td style={{ ...td, textAlign: 'center' }}>{trainEval}</td>
-                  <td style={{ ...td, color: '#555' }}>{comment}</td>
+                  <td style={{ ...td, textAlign: 'center', color: '#555' }}>
+                    {pop > 0 ? `${pop}人` : '-'}
+                  </td>
                 </tr>
               );
             })}
