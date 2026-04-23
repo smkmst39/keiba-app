@@ -1,0 +1,277 @@
+{
+  "raceId": "202606030509",
+  "raceName": "山藤賞",
+  "date": "2026-04-11",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "ワッフル",
+      "score": 64.785,
+      "ev": 0.9826867717614804,
+      "odds": 90.8,
+      "waku": 1,
+      "components": {
+        "lastThreeF": 83.33333333333334,
+        "training": 83.33333333333334,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "キタノファーンヒル",
+      "score": 59.34499999999999,
+      "ev": 0.9816214628414766,
+      "odds": 133.6,
+      "waku": 2,
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 66.66666666666666,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ソングオブザバード",
+      "score": 49.99999999999999,
+      "ev": 0.9758288455889552,
+      "odds": 4.7,
+      "waku": 3,
+      "components": {
+        "lastThreeF": 50,
+        "training": 50,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "グランアルト",
+      "score": 42.43,
+      "ev": 0.9630901791833938,
+      "odds": 10.2,
+      "waku": 4,
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コッツォリーノ",
+      "score": 39.12,
+      "ev": 0.9332164887887985,
+      "odds": 1.9,
+      "waku": 5,
+      "components": {
+        "lastThreeF": 16.666666666666664,
+        "training": 16.666666666666664,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "チャリングクロス",
+      "score": 67.03,
+      "ev": 1.0425281503965533,
+      "odds": 3.3,
+      "waku": 6,
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グランセレスト",
+      "score": 34.745,
+      "ev": 0.928865171839812,
+      "odds": 9.8,
+      "waku": 7,
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202606030509",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 6,
+        "horseName": "チャリングクロス",
+        "time": "2:01.2",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 2,
+        "horseId": 5,
+        "horseName": "コッツォリーノ",
+        "time": "2:01.4",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 3,
+        "horseId": 3,
+        "horseName": "ソングオブザバード",
+        "time": "2:01.5",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "ワッフル",
+        "time": "2:02.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 5,
+        "horseId": 7,
+        "horseName": "グランセレスト",
+        "time": "2:02.9",
+        "lastThreeF": 36.8
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "グランアルト",
+        "time": "2:03.3",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 7,
+        "horseId": 2,
+        "horseName": "キタノファーンヒル",
+        "time": "2:03.5",
+        "lastThreeF": 36
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 6,
+          "payout": 330
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 6,
+          "payout": 150
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "5-6",
+          "payout": 270
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "6-5",
+          "payout": 600
+        }
+      ],
+      "wide": [
+        {
+          "combination": "5-6",
+          "payout": 130
+        },
+        {
+          "combination": "3-6",
+          "payout": 200
+        },
+        {
+          "combination": "3-5",
+          "payout": 160
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 320
+        }
+      ],
+      "santan": [
+        {
+          "combination": "6-5-3",
+          "payout": 1470
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 330
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "1勝クラス",
+    "raceCondition": "サラ系3歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 1140,
+    "ageLimit": "3歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:25",
+    "raceDate": "20260411",
+    "headCount": 7
+  }
+}
