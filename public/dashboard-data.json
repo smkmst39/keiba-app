@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T13:44:07.657Z",
+  "generatedAt": "2026-04-23T14:15:06.888Z",
   "summary": {
     "totalRaces": 3233,
     "period": {
@@ -303,6 +303,926 @@
       "label": "ワイド堅実",
       "costPerRace": 100,
       "condition": "両馬 EV≥1.02 & スコア≥65 & オッズ≤10 (C1 のみ除外)"
+    }
+  },
+  "byCategory": {
+    "tight": {
+      "UW|turf|≥2200": {
+        "total": 115,
+        "umarenParticipated": 29,
+        "umarenHits": 2,
+        "umarenROI": 61.724137931034484,
+        "monthlyCV": 1.8637857539492602,
+        "monthsEvaluated": 6
+      },
+      "UW|dirt|1600-1899": {
+        "total": 308,
+        "umarenParticipated": 77,
+        "umarenHits": 7,
+        "umarenROI": 144.15584415584414,
+        "monthlyCV": 2.4861380501728862,
+        "monthsEvaluated": 12
+      },
+      "UW|dirt|≤1200": {
+        "total": 151,
+        "umarenParticipated": 28,
+        "umarenHits": 4,
+        "umarenROI": 118.92857142857143,
+        "monthlyCV": 0.6165360198079372,
+        "monthsEvaluated": 4
+      },
+      "L|turf|≥2200": {
+        "total": 31,
+        "umarenParticipated": 7,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "UW|turf|1201-1599": {
+        "total": 53,
+        "umarenParticipated": 15,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 2
+      },
+      "C1|dirt|1600-1899": {
+        "total": 223,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|turf|1600-1899": {
+        "total": 137,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|turf|1600-1899": {
+        "total": 71,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|dirt|1600-1899": {
+        "total": 40,
+        "umarenParticipated": 7,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|turf|≤1200": {
+        "total": 80,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "UW|dirt|1201-1599": {
+        "total": 102,
+        "umarenParticipated": 16,
+        "umarenHits": 3,
+        "umarenROI": 120.625,
+        "monthlyCV": 1,
+        "monthsEvaluated": 2
+      },
+      "UW|dirt|1900-2199": {
+        "total": 33,
+        "umarenParticipated": 5,
+        "umarenHits": 1,
+        "umarenROI": 110.00000000000001,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "UW|turf|1900-2199": {
+        "total": 125,
+        "umarenParticipated": 34,
+        "umarenHits": 6,
+        "umarenROI": 250.58823529411765,
+        "monthlyCV": 1.2863693309085134,
+        "monthsEvaluated": 5
+      },
+      "C1|turf|1201-1599": {
+        "total": 39,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|turf|1900-2199": {
+        "total": 85,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|dirt|1201-1599": {
+        "total": 84,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|turf|≥2200": {
+        "total": 34,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|dirt|1900-2199": {
+        "total": 12,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|turf|1600-1899": {
+        "total": 18,
+        "umarenParticipated": 6,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|turf|1201-1599": {
+        "total": 5,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|dirt|1600-1899": {
+        "total": 101,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "UW|turf|1600-1899": {
+        "total": 191,
+        "umarenParticipated": 59,
+        "umarenHits": 6,
+        "umarenROI": 197.28813559322035,
+        "monthlyCV": 1.6461118992438637,
+        "monthsEvaluated": 10
+      },
+      "C1|turf|≥2200": {
+        "total": 60,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|dirt|≤1200": {
+        "total": 120,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|turf|1201-1599": {
+        "total": 29,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|dirt|1900-2199": {
+        "total": 3,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|dirt|≤1200": {
+        "total": 49,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|turf|≤1200": {
+        "total": 43,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "L|dirt|≤1200": {
+        "total": 11,
+        "umarenParticipated": 5,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|dirt|1900-2199": {
+        "total": 18,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|turf|1900-2199": {
+        "total": 20,
+        "umarenParticipated": 6,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|dirt|1900-2199": {
+        "total": 3,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|turf|1900-2199": {
+        "total": 7,
+        "umarenParticipated": 2,
+        "umarenHits": 1,
+        "umarenROI": 595,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|dirt|1201-1599": {
+        "total": 40,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|dirt|1900-2199": {
+        "total": 17,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|turf|≤1200": {
+        "total": 22,
+        "umarenParticipated": 5,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1|turf|≥2200": {
+        "total": 7,
+        "umarenParticipated": 4,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|dirt|≤1200": {
+        "total": 20,
+        "umarenParticipated": 5,
+        "umarenHits": 1,
+        "umarenROI": 172,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|turf|1600-1899": {
+        "total": 33,
+        "umarenParticipated": 11,
+        "umarenHits": 2,
+        "umarenROI": 294.5454545454545,
+        "monthlyCV": 1,
+        "monthsEvaluated": 2
+      },
+      "L|dirt|1600-1899": {
+        "total": 19,
+        "umarenParticipated": 3,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|turf|1600-1899": {
+        "total": 25,
+        "umarenParticipated": 10,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|turf|1900-2199": {
+        "total": 46,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|turf|≥2200": {
+        "total": 13,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "UW|turf|≤1200": {
+        "total": 82,
+        "umarenParticipated": 18,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "OP|turf|1201-1599": {
+        "total": 7,
+        "umarenParticipated": 4,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|turf|≥2200": {
+        "total": 14,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1|turf|1600-1899": {
+        "total": 7,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|turf|≥2200": {
+        "total": 17,
+        "umarenParticipated": 4,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|turf|1900-2199": {
+        "total": 12,
+        "umarenParticipated": 3,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "L|turf|≤1200": {
+        "total": 15,
+        "umarenParticipated": 4,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|dirt|1201-1599": {
+        "total": 18,
+        "umarenParticipated": 3,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|dirt|1201-1599": {
+        "total": 4,
+        "umarenParticipated": 2,
+        "umarenHits": 1,
+        "umarenROI": 4600,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "L|dirt|1201-1599": {
+        "total": 10,
+        "umarenParticipated": 4,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|turf|1201-1599": {
+        "total": 16,
+        "umarenParticipated": 5,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|dirt|1600-1899": {
+        "total": 9,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|turf|≤1200": {
+        "total": 10,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "NW|turf|1600-1899": {
+        "total": 94,
+        "umarenParticipated": 38,
+        "umarenHits": 3,
+        "umarenROI": 54.736842105263165,
+        "monthlyCV": 1.4668379204147064,
+        "monthsEvaluated": 6
+      },
+      "NW|turf|1201-1599": {
+        "total": 29,
+        "umarenParticipated": 13,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "NW|turf|≤1200": {
+        "total": 33,
+        "umarenParticipated": 13,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 2
+      },
+      "L|turf|1600-1899": {
+        "total": 6,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "NW|dirt|≤1200": {
+        "total": 23,
+        "umarenParticipated": 10,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "NW|dirt|1201-1599": {
+        "total": 24,
+        "umarenParticipated": 13,
+        "umarenHits": 3,
+        "umarenROI": 339.2307692307692,
+        "monthlyCV": 0,
+        "monthsEvaluated": 2
+      },
+      "L|dirt|1900-2199": {
+        "total": 3,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "UW|dirt|≥2200": {
+        "total": 3,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "NW|turf|1900-2199": {
+        "total": 40,
+        "umarenParticipated": 13,
+        "umarenHits": 1,
+        "umarenROI": 44.61538461538462,
+        "monthlyCV": 0,
+        "monthsEvaluated": 3
+      },
+      "C1|dirt|≥2200": {
+        "total": 11,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "NW|dirt|1600-1899": {
+        "total": 48,
+        "umarenParticipated": 18,
+        "umarenHits": 2,
+        "umarenROI": 67.77777777777779,
+        "monthlyCV": 1.7320508075688772,
+        "monthsEvaluated": 4
+      },
+      "G3|dirt|1201-1599": {
+        "total": 2,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|dirt|1600-1899": {
+        "total": 6,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "L|turf|1201-1599": {
+        "total": 3,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|turf|1900-2199": {
+        "total": 4,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|turf|1201-1599": {
+        "total": 5,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|turf|≤1200": {
+        "total": 1,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|dirt|≥2200": {
+        "total": 4,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|turf|1600-1899": {
+        "total": 9,
+        "umarenParticipated": 3,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "L|turf|1900-2199": {
+        "total": 2,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1|turf|≤1200": {
+        "total": 2,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|turf|≤1200": {
+        "total": 6,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1|turf|1900-2199": {
+        "total": 5,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1|dirt|1600-1899": {
+        "total": 2,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|dirt|≤1200": {
+        "total": 1,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|dirt|1600-1899": {
+        "total": 1,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|turf|≥2200": {
+        "total": 1,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "OP|dirt|≤1200": {
+        "total": 1,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      }
+    },
+    "medium": {
+      "UW|turf": {
+        "total": 566,
+        "umarenParticipated": 155,
+        "umarenHits": 14,
+        "umarenROI": 141.61290322580643,
+        "monthlyCV": 0.9398246500585273,
+        "monthsEvaluated": 12
+      },
+      "UW|dirt": {
+        "total": 597,
+        "umarenParticipated": 126,
+        "umarenHits": 15,
+        "umarenROI": 134.2063492063492,
+        "monthlyCV": 1.8196805934765425,
+        "monthsEvaluated": 12
+      },
+      "L|turf": {
+        "total": 57,
+        "umarenParticipated": 12,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 2
+      },
+      "C1|dirt": {
+        "total": 456,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C1|turf": {
+        "total": 401,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2|turf": {
+        "total": 223,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3|dirt": {
+        "total": 90,
+        "umarenParticipated": 17,
+        "umarenHits": 1,
+        "umarenROI": 50.588235294117645,
+        "monthlyCV": 0,
+        "monthsEvaluated": 2
+      },
+      "OP|turf": {
+        "total": 52,
+        "umarenParticipated": 15,
+        "umarenHits": 1,
+        "umarenROI": 79.33333333333333,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "G2|turf": {
+        "total": 32,
+        "umarenParticipated": 5,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "C2|dirt": {
+        "total": 211,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|dirt": {
+        "total": 12,
+        "umarenParticipated": 2,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "L|dirt": {
+        "total": 43,
+        "umarenParticipated": 14,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 2
+      },
+      "C3|turf": {
+        "total": 108,
+        "umarenParticipated": 31,
+        "umarenHits": 2,
+        "umarenROI": 104.51612903225806,
+        "monthlyCV": 2.23606797749979,
+        "monthsEvaluated": 6
+      },
+      "OP|dirt": {
+        "total": 17,
+        "umarenParticipated": 6,
+        "umarenHits": 1,
+        "umarenROI": 1533.3333333333335,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1|turf": {
+        "total": 21,
+        "umarenParticipated": 8,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G3|turf": {
+        "total": 53,
+        "umarenParticipated": 17,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "NW|turf": {
+        "total": 196,
+        "umarenParticipated": 77,
+        "umarenHits": 4,
+        "umarenROI": 34.54545454545455,
+        "monthlyCV": 1.9034357088199585,
+        "monthsEvaluated": 8
+      },
+      "NW|dirt": {
+        "total": 95,
+        "umarenParticipated": 41,
+        "umarenHits": 5,
+        "umarenROI": 137.31707317073173,
+        "monthlyCV": 1.1885000855812966,
+        "monthsEvaluated": 7
+      },
+      "G1|dirt": {
+        "total": 2,
+        "umarenParticipated": 1,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G2|dirt": {
+        "total": 1,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      }
+    },
+    "classOnly": {
+      "UW": {
+        "total": 1163,
+        "umarenParticipated": 281,
+        "umarenHits": 29,
+        "umarenROI": 138.2918149466192,
+        "monthlyCV": 1.0772077015028718,
+        "monthsEvaluated": 12
+      },
+      "L": {
+        "total": 100,
+        "umarenParticipated": 26,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 5
+      },
+      "C1": {
+        "total": 857,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C2": {
+        "total": 434,
+        "umarenParticipated": 0,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "C3": {
+        "total": 198,
+        "umarenParticipated": 48,
+        "umarenHits": 3,
+        "umarenROI": 85.41666666666666,
+        "monthlyCV": 1.8796626748507321,
+        "monthsEvaluated": 8
+      },
+      "OP": {
+        "total": 69,
+        "umarenParticipated": 21,
+        "umarenHits": 2,
+        "umarenROI": 494.76190476190476,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "G2": {
+        "total": 33,
+        "umarenParticipated": 5,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 1
+      },
+      "G3": {
+        "total": 65,
+        "umarenParticipated": 19,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "G1": {
+        "total": 23,
+        "umarenParticipated": 9,
+        "umarenHits": 0,
+        "umarenROI": 0,
+        "monthlyCV": 0,
+        "monthsEvaluated": 0
+      },
+      "NW": {
+        "total": 291,
+        "umarenParticipated": 118,
+        "umarenHits": 9,
+        "umarenROI": 70.25423728813558,
+        "monthlyCV": 1.29797960791325,
+        "monthsEvaluated": 9
+      }
     }
   },
   "strategy": {

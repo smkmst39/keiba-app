@@ -35,8 +35,27 @@ type VD = {
   results: {
     payouts: { umaren?: Payout[]; umatan?: Payout[]; wide?: Payout[] };
   };
-  meta?: { raceClass?: string; raceDate?: string };
+  meta?: {
+    raceClass?: string;
+    raceGrade?: string;
+    raceDate?: string;
+    surface?: string;
+    distance?: number;
+  };
 };
+
+// ----------------------------------------
+// 信頼度用カテゴリ判定 (lib/reliability/race-category と共有)
+// ----------------------------------------
+
+import { classifyClassKey, distanceBandKey } from '../lib/reliability/race-category';
+
+/** surface キー (turf/dirt) */
+function surfaceKey(s?: string): string {
+  if (s === 'turf') return 'turf';
+  if (s === 'dirt') return 'dirt';
+  return 'unknown';
+}
 
 type BetKind = 'umarenHonmei' | 'umatanHonmei' | 'wideKenjitsu';
 
@@ -141,6 +160,32 @@ async function main(): Promise<void> {
     return m;
   };
 
+  // カテゴリ別集計 (信頼度用、3階層フォールバック)
+  //   tight  = class + surface + distanceBand
+  //   medium = class + surface
+  //   class  = class のみ
+  type CategoryAgg = {
+    total: number;                  // このバケットに該当したレース総数
+    umaren: Agg;
+    monthlyUmaren: Map<string, Agg>; // 月別 umaren Agg (CV計算用)
+  };
+  const emptyCat = (): CategoryAgg => ({ total: 0, umaren: emptyAgg(), monthlyUmaren: new Map() });
+  const byTight  = new Map<string, CategoryAgg>();
+  const byMedium = new Map<string, CategoryAgg>();
+  const byClass  = new Map<string, CategoryAgg>();
+  const getCat = (m: Map<string, CategoryAgg>, k: string): CategoryAgg => {
+    let c = m.get(k); if (!c) { c = emptyCat(); m.set(k, c); }
+    return c;
+  };
+  const accumCat = (c: CategoryAgg, ou: Outcome, month: string): void => {
+    c.total++;
+    addOut(c.umaren, ou);
+    if (ou.cost > 0) {
+      let mo = c.monthlyUmaren.get(month); if (!mo) { mo = emptyAgg(); c.monthlyUmaren.set(month, mo); }
+      addOut(mo, ou);
+    }
+  };
+
   let totalRaces = 0;
   const dateMin: string[] = [], dateMax: string[] = [];
 
@@ -161,6 +206,14 @@ async function main(): Promise<void> {
     const mo = getM(month);
     mo.samples++;
     addOut(mo.umaren, ou); addOut(mo.umatan, ot); addOut(mo.wide, ow);
+
+    // --- カテゴリ別集計 ---
+    const cls  = classifyClassKey({ raceClass: vd.meta?.raceClass, raceGrade: vd.meta?.raceGrade });
+    const surf = surfaceKey(vd.meta?.surface);
+    const band = distanceBandKey(vd.meta?.distance);
+    accumCat(getCat(byTight,  `${cls}|${surf}|${band}`), ou, month);
+    accumCat(getCat(byMedium, `${cls}|${surf}`),         ou, month);
+    accumCat(getCat(byClass,  cls),                       ou, month);
   }
 
   const sortedMonths = Array.from(byMonth.keys()).sort();
@@ -214,6 +267,48 @@ async function main(): Promise<void> {
 
   const formatPeriod = (d: string): string =>
     d.length >= 8 ? `${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}` : d;
+
+  // カテゴリ別の出力形式に変換 (Map → plain object)
+  const serializeCat = (m: Map<string, CategoryAgg>): Record<string, {
+    total: number;
+    umarenParticipated: number;
+    umarenHits: number;
+    umarenROI: number;
+    monthlyCV: number;
+    monthsEvaluated: number;
+  }> => {
+    const out: Record<string, {
+      total: number;
+      umarenParticipated: number;
+      umarenHits: number;
+      umarenROI: number;
+      monthlyCV: number;
+      monthsEvaluated: number;
+    }> = {};
+    for (const [k, v] of Array.from(m.entries())) {
+      const monthlyROIs: number[] = [];
+      for (const a of Array.from(v.monthlyUmaren.values())) {
+        if (a.participated >= 3) monthlyROIs.push(roi(a)); // 月内 <3R は外れ値扱い
+      }
+      let cv = 0;
+      if (monthlyROIs.length >= 2) {
+        const mn = monthlyROIs.reduce((s,x)=>s+x,0)/monthlyROIs.length;
+        if (mn > 0) {
+          const sd = Math.sqrt(monthlyROIs.reduce((s,x)=>s+(x-mn)**2,0)/monthlyROIs.length);
+          cv = sd/mn;
+        }
+      }
+      out[k] = {
+        total: v.total,
+        umarenParticipated: v.umaren.participated,
+        umarenHits: v.umaren.hits,
+        umarenROI: roi(v.umaren),
+        monthlyCV: cv,
+        monthsEvaluated: monthlyROIs.length,
+      };
+    }
+    return out;
+  };
 
   const out = {
     generatedAt: new Date().toISOString(),
@@ -279,6 +374,16 @@ async function main(): Promise<void> {
         costPerRace:    100,
         condition:      '両馬 EV≥1.02 & スコア≥65 & オッズ≤10 (C1 のみ除外)',
       },
+    },
+    // 信頼度用カテゴリ集計 (3階層フォールバック)
+    // キー形式:
+    //   tight:  `${class}|${surface}|${distanceBand}`
+    //   medium: `${class}|${surface}`
+    //   classOnly: `${class}`
+    byCategory: {
+      tight:     serializeCat(byTight),
+      medium:    serializeCat(byMedium),
+      classOnly: serializeCat(byClass),
     },
     strategy: {
       name: 'Phase 2G ハイブリッド',

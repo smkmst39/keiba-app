@@ -15,6 +15,7 @@ import {
   shouldRecommendFuku,
   EXPECTED_ROI,
 } from '@/lib/score/calculator';
+import { ReliabilityCard } from '@/app/components/ReliabilityCard';
 
 // ==========================================
 // ユーティリティ
@@ -1009,6 +1010,9 @@ export function RaceReport({ race }: Props) {
       {hasOdds && betRecs && (
         <div style={section}>
           <SectionHeader title="5A. 🏆 馬券推奨（バックテスト検証済み戦略）" subtitle="930レースの参加条件グリッドサーチで導出した推奨構成" />
+
+          {/* 信頼度カード (Phase 2 ダッシュボード連携): 控えめに補強情報 */}
+          <ReliabilityCard race={race} />
 
           {/* ⭐ 本命級 (110%超) */}
           <div style={{ marginBottom: '0.8rem' }}>
