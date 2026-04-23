@@ -166,14 +166,14 @@ function estComboOdds(h1: Horse, h2?: Horse, h3?: Horse, type: 'umaren' | 'wide'
 // サブコンポーネント
 // ==========================================
 
-/** セクション区切りヘッダー */
+/** セクション区切りヘッダー (密度優先) */
 function SectionHeader({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
-    <div style={{ borderBottom: '2px solid #2b6cb0', paddingBottom: '0.4rem', marginBottom: '0.9rem' }}>
-      <h3 style={{ margin: 0, fontSize: '1rem', fontWeight: 700, color: '#1a365d' }}>
+    <div style={{ borderBottom: '1px solid #2b6cb0', paddingBottom: '0.2rem', marginBottom: '0.4rem' }}>
+      <h3 style={{ margin: 0, fontSize: '0.88rem', fontWeight: 700, color: '#1a365d' }}>
         {title}
         {subtitle && (
-          <span style={{ fontSize: '0.8rem', fontWeight: 400, color: '#718096', marginLeft: '0.5rem' }}>
+          <span style={{ fontSize: '0.68rem', fontWeight: 400, color: '#718096', marginLeft: '0.4rem' }}>
             {subtitle}
           </span>
         )}
@@ -206,27 +206,33 @@ function GradeBadge({ grade }: { grade: ReturnType<typeof detectGrade> }) {
   );
 }
 
-/** メトリクスカード（展開・枠傾向等） */
+/** メトリクスカード（展開・枠傾向等、高密度版） */
 function MetricCard({ label, value }: { label: string; value: string }) {
   const hasData = value !== 'データなし';
   return (
     <div style={{
       background: hasData ? '#ebf8ff' : '#f7fafc',
       border: `1px solid ${hasData ? '#90cdf4' : '#e2e8f0'}`,
-      borderRadius: '6px',
-      padding: '0.5rem 0.75rem',
-      minWidth: '130px',
-      flex: '1',
+      borderRadius: '4px',
+      padding: '0.25rem 0.45rem',
+      minWidth: 0,
     }}>
-      <div style={{ fontSize: '0.7rem', color: '#718096', marginBottom: '0.2rem' }}>{label}</div>
-      <div style={{ fontSize: '0.85rem', fontWeight: 700, color: hasData ? '#2b6cb0' : '#a0aec0' }}>
+      <div style={{ fontSize: '0.6rem', color: '#718096' }}>{label}</div>
+      <div style={{
+        fontSize: '0.72rem',
+        fontWeight: 700,
+        color: hasData ? '#2b6cb0' : '#a0aec0',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+      }}>
         {value}
       </div>
     </div>
   );
 }
 
-/** 予想印カード */
+/** 予想印カード (高密度版: 1行2段構成で1馬=~2.2rem高) */
 function PickCard({
   mark, horse, popularityRanks,
 }: {
@@ -242,11 +248,13 @@ function PickCard({
   if (!horse) {
     return (
       <div style={{
-        border: '1px solid #e2e8f0', borderRadius: '8px', padding: '0.75rem',
-        background: '#f7fafc', minWidth: '150px', flex: '1',
+        border: '1px solid #e2e8f0', borderRadius: '6px',
+        padding: '0.35rem 0.5rem',
+        background: '#f7fafc',
+        display: 'flex', alignItems: 'center', gap: '0.4rem',
       }}>
-        <div style={{ fontSize: '1.4rem', fontWeight: 900, color: '#cbd5e0' }}>{mark}</div>
-        <div style={{ fontSize: '0.8rem', color: '#a0aec0', marginTop: '0.3rem' }}>該当なし</div>
+        <span style={{ fontSize: '1.1rem', fontWeight: 900, color: '#cbd5e0' }}>{mark}</span>
+        <span style={{ fontSize: '0.72rem', color: '#a0aec0' }}>該当なし</span>
       </div>
     );
   }
@@ -255,51 +263,63 @@ function PickCard({
   const pop = popularityRanks.get(horse.id) ?? 0;
   const isBuy = ev >= 1.00;
   const score = horse.score ?? 0;
+  const scoreColor = score >= 70 ? '#276749' : score >= 50 ? '#2b6cb0' : '#c05621';
 
   return (
     <div style={{
       border: `2px solid ${markColor}`,
-      borderRadius: '8px',
-      padding: '0.75rem',
+      borderLeft: `5px solid ${markColor}`,
+      borderRadius: '6px',
+      padding: '0.35rem 0.5rem',
       background: '#fff',
-      minWidth: '150px',
-      flex: '1',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '0.45rem',
+      minHeight: '44px',  // タップ領域最低保証
     }}>
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.4rem', marginBottom: '0.4rem' }}>
-        <span style={{ fontSize: '1.4rem', fontWeight: 900, color: markColor }}>{mark}</span>
-        <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#333' }}>
-          {horse.id}番 {horse.name}
-        </span>
-      </div>
-      <div style={{ fontSize: '0.8rem', color: '#555', marginBottom: '0.35rem' }}>
-        {horse.odds > 0 ? `${horse.odds}倍（${pop || '-'}人気）` : 'オッズ未定'}
-      </div>
-      {/* スコアバー */}
-      <div style={{ marginBottom: '0.4rem' }}>
-        <div style={{ fontSize: '0.7rem', color: '#718096', marginBottom: '0.15rem' }}>
-          総合スコア {score.toFixed(0)}
-        </div>
-        <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
-          <div style={{
-            height: '100%',
-            width: `${score}%`,
-            background: score >= 70 ? '#276749' : score >= 50 ? '#2b6cb0' : '#c05621',
-            borderRadius: '3px',
-          }} />
-        </div>
-      </div>
-      {/* EVバッジ */}
+      {/* 印 */}
       <span style={{
-        display: 'inline-block',
-        padding: '0.1rem 0.4rem',
-        borderRadius: '4px',
-        fontSize: '0.75rem',
-        fontWeight: 700,
-        background: isBuy ? '#276749' : '#718096',
-        color: '#fff',
-      }}>
-        {horse.odds > 0 ? (isBuy ? '買い推奨' : '検討') : '-'}
-      </span>
+        fontSize: '1.15rem',
+        fontWeight: 900,
+        color: markColor,
+        flexShrink: 0,
+        lineHeight: 1,
+        minWidth: '1.3rem',
+        textAlign: 'center',
+      }}>{mark}</span>
+      {/* 本体 (馬番+馬名 / 補助) */}
+      <div style={{ minWidth: 0, flex: 1, lineHeight: 1.2 }}>
+        <div style={{
+          fontSize: '0.82rem',
+          fontWeight: 700,
+          color: '#333',
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        }}>
+          {horse.id}番 {horse.name}
+        </div>
+        <div style={{ fontSize: '0.68rem', color: '#718096' }}>
+          {horse.odds > 0 ? `${horse.odds}倍(${pop || '-'}人)` : '—'}・S{score.toFixed(0)}
+        </div>
+      </div>
+      {/* EVバッジ + スコアミニバー */}
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.15rem', flexShrink: 0 }}>
+        <span style={{
+          padding: '0.08rem 0.35rem',
+          borderRadius: '3px',
+          fontSize: '0.7rem',
+          fontWeight: 700,
+          background: isBuy ? '#276749' : '#718096',
+          color: '#fff',
+          whiteSpace: 'nowrap',
+        }}>
+          {horse.odds > 0 ? (isBuy ? '買い' : '検討') : '-'}
+        </span>
+        <div style={{ width: '48px', height: '4px', background: '#e2e8f0', borderRadius: '2px', overflow: 'hidden' }}>
+          <div style={{ height: '100%', width: `${score}%`, background: scoreColor }} />
+        </div>
+      </div>
     </div>
   );
 }
@@ -331,7 +351,7 @@ const WAKU_COLORS: Record<number, { bg: string; border: string; text: string }> 
   8: { bg: '#ec77ae', border: '#d05590', text: '#ffffff' },
 };
 
-/** スコア順位バッジ (1位=緑 / 2-3位=橙 / それ以外=グレー) */
+/** スコア順位バッジ (高密度版: 1位=緑 / 2-3位=橙 / それ以外=グレー) */
 function RankBadge({ rank }: { rank: number }) {
   const color =
     rank === 1 ? { bg: '#276749', text: '#fff' } :
@@ -343,20 +363,20 @@ function RankBadge({ rank }: { rank: number }) {
       style={{
         background: color.bg,
         color: color.text,
-        minWidth: '2.3rem',
-        height: '2rem',
-        borderRadius: '6px',
+        minWidth: '1.7rem',
+        height: '1.5rem',
+        borderRadius: '4px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         fontWeight: 800,
-        fontSize: '0.78rem',
+        fontSize: '0.7rem',
         lineHeight: 1,
-        padding: '0 0.4rem',
+        padding: '0 0.25rem',
         flexShrink: 0,
       }}
     >
-      {rank}位
+      {rank}
     </div>
   );
 }
@@ -393,27 +413,33 @@ function HorseRankRow({
   const trainEval = l3 === 0 ? '-' : l3 <= 11.0 ? '絶好' : l3 <= 11.4 ? '良好' : l3 <= 11.8 ? '普通' : '低調';
   const runStyle  = l3 === 0 ? '-' : l3 <= 11.4 ? '差・追' : l3 <= 11.8 ? '先・差' : '逃・先';
 
+  const scoreColor = score >= 70 ? '#276749' : score >= 50 ? '#2b6cb0' : '#c05621';
+  const markColor  = mark === '◎' ? '#c05621' : mark === '○' ? '#2b6cb0' : mark === '▲' ? '#276749' : mark === '△' ? '#744210' : '';
+
   return (
-    <div style={{
-      display: 'flex',
-      alignItems: 'center',
-      gap: '0.55rem',
-      padding: '0.5rem 0.55rem',
-      borderLeft: `5px solid ${evC}`,    // EV 色を左端の帯で表現
-      borderBottom: '1px solid #e2e8f0',
-      background: rowBg,
-      flexWrap: 'wrap',
-    }}>
+    <div
+      title={`${horse.jockey}・${runStyle}/${trainEval}`}
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.35rem',
+        padding: '0.28rem 0.4rem',
+        borderLeft: `4px solid ${evC}`,
+        borderBottom: '1px solid #e2e8f0',
+        background: rowBg,
+        minHeight: '36px',     // タップ領域、かつ16頭で ~9.6rem 相当
+      }}
+    >
       {/* 左: 順位バッジ */}
       <RankBadge rank={rank} />
 
-      {/* 枠+馬番 (JRA 枠色) */}
+      {/* 枠+馬番 (JRA 枠色、角丸矩形で省スペース) */}
       <div
         aria-label={`枠${horse.waku}・${horse.id}番`}
         style={{
-          width: '2rem',
-          height: '2rem',
-          borderRadius: '50%',
+          width: '1.6rem',
+          height: '1.5rem',
+          borderRadius: '3px',
           background: waku.bg,
           color: waku.text,
           border: `1px solid ${waku.border}`,
@@ -421,108 +447,57 @@ function HorseRankRow({
           alignItems: 'center',
           justifyContent: 'center',
           fontWeight: 800,
-          fontSize: '0.85rem',
+          fontSize: '0.72rem',
           flexShrink: 0,
         }}
       >
         {horse.id}
       </div>
 
-      {/* 馬名 + 印 + 補助行 (騎手・脚質・調教) */}
-      <div style={{ flex: '1 1 8rem', minWidth: 0 }}>
+      {/* 中央: 印+馬名+補助 (ellipsis で単行に収める) */}
+      <div style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', lineHeight: 1.15 }}>
         <div style={{
-          fontWeight: 700,
-          fontSize: '0.88rem',
+          fontSize: '0.76rem',
           color: '#1a202c',
           whiteSpace: 'nowrap',
           overflow: 'hidden',
           textOverflow: 'ellipsis',
-          lineHeight: 1.25,
         }}>
-          {mark && (
-            <span style={{
-              color: mark === '◎' ? '#c05621' : mark === '○' ? '#2b6cb0' : mark === '▲' ? '#276749' : '#744210',
-              fontWeight: 900,
-              marginRight: '0.25rem',
-            }}>{mark}</span>
-          )}
-          {horse.name}
-          {isKiken && <span title="危険人気馬" style={{ marginLeft: '0.25rem' }}>⚠️</span>}
-          {isAna   && <span title="穴馬候補"   style={{ marginLeft: '0.25rem' }}>🎯</span>}
+          {mark && <span style={{ color: markColor, fontWeight: 900, marginRight: '0.15rem' }}>{mark}</span>}
+          <span style={{ fontWeight: 700 }}>{horse.name}</span>
+          {isKiken && <span title="危険人気馬" style={{ marginLeft: '0.2rem' }}>⚠️</span>}
+          {isAna   && <span title="穴馬候補"   style={{ marginLeft: '0.2rem' }}>🎯</span>}
         </div>
-        <div style={{ fontSize: '0.7rem', color: '#64748b', marginTop: '0.12rem' }}>
-          {horse.odds > 0 ? `${horse.odds}倍 (${pop || '-'}人)` : '—'} ・ {horse.jockey} ・ {runStyle}/{trainEval}
+        <div style={{ fontSize: '0.62rem', color: '#64748b', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+          {horse.odds > 0 ? `${horse.odds}(${pop || '-'})` : '—'} {horse.jockey}
         </div>
       </div>
 
-      {/* 右: EV と スコア (最重要 2指標を縦並び) */}
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'stretch',
-        gap: '0.2rem',
-        flexShrink: 0,
-        minWidth: '6.5rem',
-      }}>
-        {/* EV バッジ: 色分けで瞬時に把握 */}
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-end',
-          gap: '0.3rem',
+      {/* 右: EV バッジ + S 数値 + ミニバー (単行) */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', flexShrink: 0 }}>
+        <span style={{
+          background: evC,
+          color: '#fff',
+          padding: '0.06rem 0.3rem',
+          borderRadius: '3px',
+          fontSize: '0.68rem',
+          fontWeight: 800,
+          whiteSpace: 'nowrap',
+          minWidth: '3.2rem',
+          textAlign: 'center',
         }}>
+          {ev > 0 ? ev.toFixed(2) : '—'}
+        </span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
           <span style={{
-            background: evC,
-            color: '#fff',
-            padding: '0.1rem 0.45rem',
-            borderRadius: '4px',
-            fontSize: '0.78rem',
-            fontWeight: 800,
-            whiteSpace: 'nowrap',
-          }}>
-            EV {ev > 0 ? ev.toFixed(2) : '-'}
-          </span>
-          <span style={{
-            fontSize: '0.68rem',
-            color: evC,
+            fontSize: '0.72rem',
             fontWeight: 700,
-            minWidth: '2.1rem',
+            color: scoreColor,
+            minWidth: '1.4rem',
             textAlign: 'right',
-          }}>
-            {ev > 0 ? evLabel(ev) : ''}
-          </span>
-        </div>
-        {/* スコア: 数値 + バー で順位と絶対値を同時表示 */}
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-end',
-          gap: '0.3rem',
-        }}>
-          <span style={{ fontSize: '0.68rem', color: '#64748b' }}>S</span>
-          <span style={{
-            fontSize: '0.8rem',
-            fontWeight: 700,
-            color: score >= 70 ? '#276749' : score >= 50 ? '#2b6cb0' : '#c05621',
-            minWidth: '1.5rem',
-            textAlign: 'right',
-          }}>
-            {score.toFixed(0)}
-          </span>
-          <div style={{
-            width: '56px',
-            height: '5px',
-            background: '#e2e8f0',
-            borderRadius: '3px',
-            overflow: 'hidden',
-            flexShrink: 0,
-          }}>
-            <div style={{
-              height: '100%',
-              width: `${score}%`,
-              background: score >= 70 ? '#276749' : score >= 50 ? '#3182ce' : '#c05621',
-              borderRadius: '3px',
-            }} />
+          }}>{score.toFixed(0)}</span>
+          <div style={{ width: '32px', height: '4px', background: '#e2e8f0', borderRadius: '2px', overflow: 'hidden' }}>
+            <div style={{ height: '100%', width: `${score}%`, background: scoreColor }} />
           </div>
         </div>
       </div>
@@ -531,17 +506,17 @@ function HorseRankRow({
 }
 
 /** 馬券推奨カード */
-/** Phase 2F: 3段階推奨のヘッダスタイル */
+/** Phase 2F: 3段階推奨のヘッダスタイル (密度優先) */
 function tierHeader(color: string, bg: string): React.CSSProperties {
   return {
-    padding: '0.35rem 0.6rem',
+    padding: '0.2rem 0.5rem',
     background: bg,
     color,
-    fontSize: '0.82rem',
+    fontSize: '0.72rem',
     fontWeight: 700,
-    borderRadius: '6px 6px 0 0',
+    borderRadius: '4px 4px 0 0',
     borderBottom: `2px solid ${color}`,
-    marginBottom: '0.4rem',
+    marginBottom: '0.25rem',
   };
 }
 
@@ -565,54 +540,59 @@ function TieredBetCard({
 
   return (
     <div style={{
-      border: `2px solid ${tierStyle.border}`,
+      border: `1.5px solid ${tierStyle.border}`,
+      borderLeft: `4px solid ${tierStyle.border}`,
       background: tierStyle.bg,
-      borderRadius: '8px',
-      padding: '0.5rem 0.7rem',
-      marginBottom: '0.4rem',
-      fontSize: '0.82rem',
+      borderRadius: '5px',
+      padding: '0.3rem 0.45rem',
+      marginBottom: '0.25rem',
+      fontSize: '0.76rem',
     }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.2rem' }}>
-        <span style={{ fontWeight: 700, fontSize: '0.88rem', color: tierStyle.accent }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', flexWrap: 'wrap' }}>
+        <span style={{ fontWeight: 700, fontSize: '0.78rem', color: tierStyle.accent }}>
           {label}
         </span>
         <span style={{
-          padding: '0.05rem 0.35rem',
+          padding: '0.02rem 0.3rem',
           background: tierStyle.accent,
           color: '#fff',
           borderRadius: '3px',
-          fontSize: '0.7rem',
+          fontSize: '0.64rem',
           fontWeight: 700,
         }}>
-          回収率 {roi.toFixed(1)}%
+          {roi.toFixed(1)}%
         </span>
-        <span style={{ marginLeft: 'auto', fontSize: '0.72rem', color: '#64748b' }}>
+        <span style={{ fontSize: '0.68rem', color: '#1e293b', fontWeight: 700 }}>
+          {horses.map((h) => `${h.id}`).join(ordered ? '→' : '-')}
+        </span>
+        <span style={{ fontSize: '0.64rem', color: '#64748b', whiteSpace: 'nowrap' }}>
+          {horses.map((h) => h.name).join(ordered ? '→' : '/')}
+        </span>
+        <span style={{ marginLeft: 'auto', fontSize: '0.65rem', color: '#64748b', whiteSpace: 'nowrap' }}>
           {costText}
         </span>
       </div>
-      <div style={{ fontWeight: 700, fontSize: '0.9rem', color: '#1e293b', marginBottom: '0.15rem' }}>
-        {horses.map((h) => `${h.id}番 ${h.name}`).join(ordered ? ' → ' : ' - ')}
-      </div>
-      <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
+      <div style={{ fontSize: '0.65rem', color: '#64748b', marginTop: '0.1rem', lineHeight: 1.3 }}>
         {reason}
       </div>
     </div>
   );
 }
 
-/** Phase 2F: 見送り (条件未達) カード */
+/** Phase 2F: 見送り (条件未達) カード (密度優先) */
 function SkipCard({ label, reason }: { label: string; reason: string }) {
   return (
     <div style={{
       border: '1px dashed #cbd5e0',
       background: '#f8fafc',
-      borderRadius: '8px',
-      padding: '0.4rem 0.7rem',
-      marginBottom: '0.4rem',
-      fontSize: '0.78rem',
+      borderRadius: '4px',
+      padding: '0.2rem 0.45rem',
+      marginBottom: '0.25rem',
+      fontSize: '0.68rem',
       color: '#64748b',
+      lineHeight: 1.35,
     }}>
-      <strong>{label}: 見送り</strong> — {reason}
+      <strong style={{ fontSize: '0.72rem' }}>{label}: 見送り</strong> — {reason}
     </div>
   );
 }
@@ -638,41 +618,36 @@ function BetRecommendCard({
 
   return (
     <div style={{
-      border: `2px solid ${color}`,
-      borderRadius: '8px',
-      padding: '0.6rem 0.8rem',
+      border: `1.5px solid ${color}`,
+      borderLeft: `4px solid ${color}`,
+      borderRadius: '5px',
+      padding: '0.3rem 0.45rem',
       background: ev >= 1.00 ? '#f0fff4' : '#f7fafc',
-      flex: '1',
-      minWidth: '150px',
+      minWidth: 0,
     }}>
-      <div style={{ fontSize: '0.75rem', color: '#718096', marginBottom: '0.2rem' }}>{label}</div>
-      {isHybrid ? (
-        <div style={{ fontSize: '0.8rem', color: '#333', marginBottom: '0.25rem', fontWeight: 700 }}>
-          <span style={{ color: '#2f855a' }}>軸:</span> {axes!.map(h => `${h.id}番`).join('・')}
-          <br />
-          <span style={{ color: '#2b6cb0' }}>ひも:</span> {spokes!.map(h => `${h.id}番`).join('・')}
-        </div>
-      ) : (
-        <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#333', marginBottom: '0.25rem' }}>
-          {horses.map(h => `${h.id}番`).join(type === 'santan' || type === 'umatan' ? '→' : '-')}
-        </div>
-      )}
-      <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', marginBottom: '0.1rem', flexWrap: 'wrap' }}>
+        <span style={{ fontSize: '0.7rem', color: '#718096', fontWeight: 700 }}>{label}</span>
         <span style={{
           background: color, color: '#fff',
-          padding: '0.1rem 0.4rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 700,
+          padding: '0.05rem 0.3rem', borderRadius: '3px', fontSize: '0.68rem', fontWeight: 700,
         }}>
           EV {ev.toFixed(2)}
         </span>
-        <span style={{ fontSize: '0.75rem', color: '#555', alignSelf: 'center' }}>
-          ~{estOdds}倍
+        <span style={{ fontSize: '0.65rem', color: '#555', marginLeft: 'auto' }}>
+          ~{estOdds}倍{cost ? ` ・${points}点` : ''}
         </span>
-        {cost && (
-          <span style={{ fontSize: '0.72rem', color: '#4a5568', alignSelf: 'center' }}>
-            {points}点 / {cost.toLocaleString()}円
-          </span>
-        )}
       </div>
+      {isHybrid ? (
+        <div style={{ fontSize: '0.7rem', color: '#333', fontWeight: 700, lineHeight: 1.3 }}>
+          <span style={{ color: '#2f855a' }}>軸</span> {axes!.map(h => h.id).join('・')}
+          {' / '}
+          <span style={{ color: '#2b6cb0' }}>ひも</span> {spokes!.map(h => h.id).join('・')}
+        </div>
+      ) : (
+        <div style={{ fontWeight: 700, fontSize: '0.75rem', color: '#333' }}>
+          {horses.map(h => h.id).join(type === 'santan' || type === 'umatan' ? '→' : '-')}
+        </div>
+      )}
     </div>
   );
 }
@@ -873,36 +848,44 @@ export function RaceReport({ race }: Props) {
         </span>
       </div>
 
-      {/* ====== Section 1: レース概要ヘッダー ====== */}
+      {/* ====== Section 1: レース概要ヘッダー (高密度) ====== */}
       <div style={section}>
         <SectionHeader title="1. レース概要" />
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.6rem', flexWrap: 'wrap' }}>
-          <span style={{ fontWeight: 700, fontSize: '1.1rem' }}>{race.name}</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', marginBottom: '0.25rem', flexWrap: 'wrap' }}>
+          <span style={{ fontWeight: 700, fontSize: '0.92rem' }}>{race.name}</span>
           <GradeBadge grade={grade} />
+          <span style={{ fontSize: '0.7rem', color: '#555' }}>
+            {race.course}・{race.surface === 'turf' ? '芝' : 'ダ'}{race.distance}m・{race.horses.length}頭
+          </span>
         </div>
-        <div style={{ fontSize: '0.85rem', color: '#555', marginBottom: '0.8rem' }}>
-          {race.course}・{race.surface === 'turf' ? '芝' : 'ダート'}{race.distance}m・{race.horses.length}頭立て
-        </div>
-        <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-          <MetricCard label="展開予想"   value={tendency.pace}       />
-          <MetricCard label="枠傾向"     value={tendency.waku}       />
-          <MetricCard label="コース傾向" value={tendency.course}     />
-          <MetricCard label="人気傾向"   value={tendency.popularity} />
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(8rem, 1fr))',
+          gap: '0.3rem',
+        }}>
+          <MetricCard label="展開" value={tendency.pace} />
+          <MetricCard label="枠" value={tendency.waku} />
+          <MetricCard label="コース" value={tendency.course} />
+          <MetricCard label="人気傾向" value={tendency.popularity} />
         </div>
       </div>
 
-      {/* ====== Section 2: 予想印カード ====== */}
+      {/* ====== Section 2: 予想印カード (2列グリッド, 1行2段構成) ====== */}
       {hasOdds && (
         <div style={section}>
-          <SectionHeader title="2. 予想印" subtitle="独自スコア・期待値による自動付与" />
-          <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
+          <SectionHeader title="2. 予想印" subtitle="スコア・期待値で自動付与" />
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(10rem, 1fr))',
+            gap: '0.3rem',
+          }}>
             <PickCard mark="◎" horse={picks.honmei}   popularityRanks={popularityRanks} />
             <PickCard mark="○" horse={picks.taikou}   popularityRanks={popularityRanks} />
             <PickCard mark="▲" horse={picks.sanbante} popularityRanks={popularityRanks} />
             <PickCard mark="△" horse={picks.ana}      popularityRanks={popularityRanks} />
           </div>
-          <p style={{ fontSize: '0.75rem', color: '#718096', margin: '0.5rem 0 0' }}>
-            ◎本命=EV最高・○対抗=スコア2位・▲3番手=スコア3位・△穴=10倍以上でEV1.0超え
+          <p style={{ fontSize: '0.65rem', color: '#718096', margin: '0.3rem 0 0', lineHeight: 1.4 }}>
+            ◎本命=EV最高・○=スコア2位・▲=3位・△=10倍以上&EV1.0超
           </p>
         </div>
       )}
@@ -1101,18 +1084,16 @@ export function RaceReport({ race }: Props) {
           </div>
 
           <div style={{
-            marginTop: '0.75rem',
-            padding: '0.5rem 0.75rem',
+            marginTop: '0.35rem',
+            padding: '0.3rem 0.5rem',
             background: '#fffbeb',
             border: '1px solid #fde68a',
-            borderRadius: '6px',
-            fontSize: '0.73rem',
+            borderRadius: '4px',
+            fontSize: '0.63rem',
             color: '#78350f',
-            lineHeight: 1.5,
+            lineHeight: 1.45,
           }}>
-            <strong>注意:</strong> 三連複・三連単は過学習リスクのため本推奨から除外（サンプル拡大後に再検証）。
-            馬連・馬単・ワイドは 930R バックテストで前後半差 ≤15pt の安定性を確認済みですが、
-            将来の実績を保証するものではありません。
+            <strong>注意:</strong> 三連系は過学習リスクで除外。馬連・馬単・ワイドは 930R で前後半差 ≤15pt の安定性確認済（将来の実績は保証しません）。
           </div>
         </div>
       )}
@@ -1120,8 +1101,12 @@ export function RaceReport({ race }: Props) {
       {/* ====== Section 5: 馬券推奨 ====== */}
       {hasOdds && betRecs && (
         <div style={section}>
-          <SectionHeader title="5. 馬券推奨（全券種）" subtitle="EV1.1以上=緑・1.0〜1.1=青・未満=グレー（推定オッズ）" />
-          <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
+          <SectionHeader title="5. 馬券推奨（全券種）" subtitle="EV≥1.1=緑・≥1.0=青・未満=灰" />
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(11rem, 1fr))',
+            gap: '0.3rem',
+          }}>
             {/* 単勝 */}
             <BetRecommendCard
               label="単勝"
@@ -1153,16 +1138,14 @@ export function RaceReport({ race }: Props) {
             ) : (
               <div style={{
                 border: '1px dashed #cbd5e0',
-                borderRadius: '8px',
-                padding: '0.6rem 0.8rem',
+                borderRadius: '5px',
+                padding: '0.3rem 0.45rem',
                 background: '#f7fafc',
-                flex: '1',
-                minWidth: '150px',
                 color: '#718096',
-                fontSize: '0.8rem',
+                fontSize: '0.7rem',
+                lineHeight: 1.3,
               }}>
-                <div style={{ fontSize: '0.75rem', marginBottom: '0.2rem' }}>複勝</div>
-                <div>推奨なし (EV≥1.07 該当なし)</div>
+                <strong style={{ fontSize: '0.72rem' }}>複勝</strong> — 推奨なし (EV≥1.07 該当なし)
               </div>
             )}
             {/* ワイド (Phase 2E Stage 2: EV上位2頭BOX) */}
@@ -1252,34 +1235,34 @@ export function RaceReport({ race }: Props) {
         </div>
       </div>
 
-      {/* ====== Section 7: AI予想コメント（プレースホルダー） ====== */}
+      {/* ====== Section 7: AI予想コメント (密度優先) ====== */}
       <div style={section}>
-        <SectionHeader title="7. 総評コメント" />
+        <SectionHeader title="7. 総評" />
         <div style={{
           background: '#f7fafc',
           border: '1px solid #e2e8f0',
-          borderRadius: '6px',
-          padding: '0.75rem 1rem',
-          fontSize: '0.85rem',
+          borderRadius: '4px',
+          padding: '0.4rem 0.6rem',
+          fontSize: '0.74rem',
           color: '#4a5568',
-          lineHeight: '1.8',
+          lineHeight: 1.55,
         }}>
           {/* 自動生成テキスト */}
-          <p style={{ margin: '0 0 0.5rem' }}>
+          <p style={{ margin: '0 0 0.3rem' }}>
             <strong>{race.name}</strong>（{race.course}・{race.surface === 'turf' ? '芝' : 'ダート'}{race.distance}m）の独自分析です。
           </p>
-          <p style={{ margin: '0 0 0.5rem' }}>
+          <p style={{ margin: '0 0 0.3rem' }}>
             コース傾向は<strong>{tendency.pace}</strong>。枠は<strong>{tendency.waku}</strong>の傾向があります。
           </p>
           {picks.honmei && (
-            <p style={{ margin: '0 0 0.5rem' }}>
+            <p style={{ margin: '0 0 0.3rem' }}>
               ◎本命は<strong>{picks.honmei.id}番{picks.honmei.name}</strong>
               （{picks.honmei.odds}倍・スコア{(picks.honmei.score ?? 0).toFixed(0)}）。
               EV {(picks.honmei.ev ?? 0).toFixed(2)}と{(picks.honmei.ev ?? 0) >= 1.00 ? '長期回収期待できる水準' : '参考程度'}です。
             </p>
           )}
           {picks.ana && (
-            <p style={{ margin: '0 0 0.5rem' }}>
+            <p style={{ margin: '0 0 0.3rem' }}>
               穴馬として<strong>{picks.ana.id}番{picks.ana.name}</strong>
               （{picks.ana.odds}倍）に注目。EV {(picks.ana.ev ?? 0).toFixed(2)}で妙味があります。
             </p>
@@ -1308,30 +1291,31 @@ const sectionWrap: React.CSSProperties = {
 const reportHeader: React.CSSProperties = {
   display: 'flex',
   alignItems: 'baseline',
-  gap: '0.75rem',
-  marginBottom: '1.2rem',
-  paddingBottom: '0.75rem',
-  borderBottom: '3px solid #2d3748',
+  gap: '0.4rem',
+  marginBottom: '0.5rem',
+  paddingBottom: '0.3rem',
+  borderBottom: '2px solid #2d3748',
   flexWrap: 'wrap',
 };
 
 const section: React.CSSProperties = {
-  marginBottom: '1.8rem',
+  marginBottom: '0.9rem',
 };
 
 const th: React.CSSProperties = {
-  padding: '0.4rem 0.6rem',
+  padding: '0.25rem 0.4rem',
   textAlign: 'left',
   fontWeight: 700,
-  fontSize: '0.8rem',
+  fontSize: '0.7rem',
   color: '#4a5568',
   whiteSpace: 'nowrap',
 };
 
 const td: React.CSSProperties = {
-  padding: '0.4rem 0.6rem',
+  padding: '0.25rem 0.4rem',
   verticalAlign: 'middle',
   whiteSpace: 'nowrap',
+  fontSize: '0.75rem',
 };
 
 function alertHeader(color: string, bg: string, border: string): React.CSSProperties {
@@ -1339,10 +1323,10 @@ function alertHeader(color: string, bg: string, border: string): React.CSSProper
     background: bg,
     border: `1px solid ${border}`,
     borderBottom: 'none',
-    borderRadius: '6px 6px 0 0',
-    padding: '0.35rem 0.6rem',
+    borderRadius: '4px 4px 0 0',
+    padding: '0.2rem 0.45rem',
     fontWeight: 700,
-    fontSize: '0.8rem',
+    fontSize: '0.7rem',
     color,
   };
 }
@@ -1352,8 +1336,9 @@ function alertRow(bg: string, border: string): React.CSSProperties {
     background: bg,
     border: `1px solid ${border}`,
     borderTop: 'none',
-    borderRadius: '0 0 6px 6px',
-    padding: '0.4rem 0.6rem',
-    marginBottom: '0.4rem',
+    borderRadius: '0 0 4px 4px',
+    padding: '0.25rem 0.45rem',
+    marginBottom: '0.25rem',
+    fontSize: '0.72rem',
   };
 }

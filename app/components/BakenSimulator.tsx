@@ -106,44 +106,58 @@ function HorsePill({
   return (
     <button
       onClick={onClick}
+      title={`${horse.id}番 ${horse.name} / ${horse.jockey}`}
       style={{
-        display: 'inline-flex',
+        display: 'flex',
         alignItems: 'center',
-        gap: '0.3rem',
-        padding: '0.25rem 0.6rem',
+        gap: '0.35rem',
+        padding: '0.3rem 0.5rem',
+        minHeight: '44px',  // タップターゲット最低保証 (Apple HIG)
         border: `2px solid ${selected ? '#2b6cb0' : waku.border}`,
-        borderRadius: '999px',
+        borderRadius: '8px',
         cursor: 'pointer',
         background: selected ? '#ebf8ff' : '#f7f7f7',
         fontWeight: selected ? 700 : 400,
-        outline: selected ? '2px solid #2b6cb0' : 'none',
-        outlineOffset: '1px',
+        textAlign: 'left',
+        width: '100%',
+        overflow: 'hidden',
       }}
     >
-      {/* 枠番バッジ（仮予想モードは灰色） */}
+      {/* 枠色付き馬番バッジ */}
       <span
         style={{
-          display: 'inline-block',
-          width: '1.2rem',
-          height: '1.2rem',
-          borderRadius: '3px',
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '1.5rem',
+          height: '1.5rem',
+          borderRadius: '4px',
           background: waku.bg,
           border: `1px solid ${waku.border}`,
           color: waku.text,
-          fontSize: '0.7rem',
-          lineHeight: '1.2rem',
-          textAlign: 'center',
-          fontWeight: 700,
+          fontSize: '0.78rem',
+          fontWeight: 800,
           flexShrink: 0,
         }}
       >
         {horse.id}
       </span>
-      {/* 馬名（上段）＋ 騎手名（下段・小フォント）の2行レイアウト
-          スマホでピル幅が広がりすぎないよう縦積みにする */}
-      <span style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.3 }}>
-        <span style={{ fontSize: '0.85rem' }}>{horse.id}番 {horse.name}</span>
-        <span style={{ fontSize: '0.72rem', color: '#718096', fontWeight: 400 }}>{horse.jockey}</span>
+      {/* 馬名 + 騎手 (縦並び、小フォントで高さ抑える) */}
+      <span style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.15, minWidth: 0, flex: 1 }}>
+        <span style={{
+          fontSize: '0.78rem',
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        }}>{horse.name}</span>
+        <span style={{
+          fontSize: '0.66rem',
+          color: '#718096',
+          fontWeight: 400,
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        }}>{horse.jockey}</span>
       </span>
     </button>
   );
@@ -195,28 +209,36 @@ function ComboCard({
   return (
     <div style={{
       border: cardBorder,
-      borderRadius: '8px',
-      padding: '0.6rem 0.9rem',
+      borderRadius: '6px',
+      padding: '0.3rem 0.45rem',
       background: cardBg,
       opacity: ev !== null && ev < 0.6 ? 0.7 : 1,
       display: 'flex',
       flexDirection: 'column',
-      gap: '0.25rem',
-      minWidth: '140px',
+      gap: '0.15rem',
+      minWidth: 0,  // grid セル内で伸縮可にする
     }}>
-      <div style={{ fontWeight: 700, fontSize: '0.9rem', color: '#333' }}>{label}</div>
-      <div style={{ display: 'flex', gap: '0.4rem', alignItems: 'center', flexWrap: 'wrap' }}>
+      <div style={{
+        fontWeight: 700,
+        fontSize: '0.8rem',
+        color: '#333',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+      }}>{label}</div>
+      <div style={{ display: 'flex', gap: '0.3rem', alignItems: 'center' }}>
         <span style={{
           ...evStyle,
-          padding: '0.1rem 0.4rem',
-          borderRadius: '4px',
-          fontSize: '0.8rem',
+          padding: '0.08rem 0.35rem',
+          borderRadius: '3px',
+          fontSize: '0.72rem',
           fontWeight: 700,
+          whiteSpace: 'nowrap',
         }}>
-          {ev !== null ? `EV ${ev.toFixed(3)}` : 'EV -'}
+          {ev !== null ? `EV ${ev.toFixed(2)}` : 'EV -'}
         </span>
-        <span style={{ fontSize: '0.8rem', color: '#555' }}>S {score.toFixed(1)}</span>
-        <span style={oddsStyle}>{oddsText}</span>
+        <span style={{ fontSize: '0.72rem', color: '#555' }}>S{score.toFixed(0)}</span>
+        <span style={{ ...oddsStyle, fontSize: '0.72rem', marginLeft: 'auto' }}>{oddsText}</span>
       </div>
     </div>
   );
@@ -811,16 +833,26 @@ const styles: Record<string, React.CSSProperties> = {
   raceHeader: {
     display: 'flex',
     alignItems: 'baseline',
-    gap: '1rem',
-    marginBottom: '1rem',
+    gap: '0.6rem',
+    marginBottom: '0.5rem',
     flexWrap: 'wrap',
   },
-  raceMeta: { color: '#555', fontSize: '0.9rem' },
-  tabRow: { display: 'flex', gap: '0.4rem', flexWrap: 'wrap', marginBottom: '1rem' },
-  tab: { padding: '0.35rem 0.9rem', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '0.9rem' },
-  section: { marginBottom: '1.5rem' },
-  sectionTitle: { fontSize: '1rem', fontWeight: 700, margin: '0 0 0.6rem', color: '#333' },
-  hint: { fontSize: '0.85rem', color: '#666', margin: '0 0 0.6rem' },
-  pillGrid: { display: 'flex', flexWrap: 'wrap', gap: '0.5rem' },
-  cardGrid: { display: 'flex', flexWrap: 'wrap', gap: '0.6rem' },
+  raceMeta: { color: '#555', fontSize: '0.78rem' },
+  tabRow: { display: 'flex', gap: '0.25rem', flexWrap: 'wrap', marginBottom: '0.5rem' },
+  tab: { padding: '0.35rem 0.7rem', minHeight: '36px', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '0.8rem' },
+  section: { marginBottom: '0.75rem' },
+  sectionTitle: { fontSize: '0.85rem', fontWeight: 700, margin: '0 0 0.35rem', color: '#333' },
+  hint: { fontSize: '0.72rem', color: '#666', margin: '0 0 0.35rem' },
+  // 馬選択: 3-4列グリッド (モバイル 390px で min 7rem → ~3列、広ければ 4-5列)
+  pillGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(7rem, 1fr))',
+    gap: '0.3rem',
+  },
+  // EV一覧・組み合わせ: 2-3列グリッド (min 10.5rem)
+  cardGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(10.5rem, 1fr))',
+    gap: '0.3rem',
+  },
 };
