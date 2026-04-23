@@ -9,6 +9,47 @@ import { useState, useEffect, useRef } from 'react';
 import type { Race, Grade } from '@/lib/scraper/types';
 import { useSchedule, getTodayStr, type DaySchedule } from '@/app/hooks/useSchedule';
 import { useRaceData } from '@/app/hooks/useRaceData';
+import {
+  detectRaceListHint,
+  REC_STYLE,
+  RELIABILITY_EMOJI,
+  type RaceListHint,
+} from '@/lib/recommendation/detector';
+
+// ==========================================
+// 推奨ヒント用: public/dashboard-data.json の byCategory.classOnly を取得
+// モジュール内キャッシュでタブ内は 1 回のみ fetch
+// ==========================================
+type ByCategoryClassOnly = Record<string, {
+  total: number;
+  umarenParticipated: number;
+  umarenHits: number;
+  umarenROI: number;
+  monthlyCV: number;
+  monthsEvaluated: number;
+}>;
+
+let cachedClassOnly: ByCategoryClassOnly | null = null;
+let classOnlyPromise: Promise<ByCategoryClassOnly | null> | null = null;
+
+async function loadClassOnly(): Promise<ByCategoryClassOnly | null> {
+  if (cachedClassOnly) return cachedClassOnly;
+  if (classOnlyPromise) return classOnlyPromise;
+  classOnlyPromise = (async () => {
+    try {
+      const res = await fetch('/dashboard-data.json', { cache: 'force-cache' });
+      if (!res.ok) return null;
+      const json = await res.json();
+      const co = json?.byCategory?.classOnly as ByCategoryClassOnly | undefined;
+      if (!co) return null;
+      cachedClassOnly = co;
+      return co;
+    } catch {
+      return null;
+    }
+  })();
+  return classOnlyPromise;
+}
 
 type Props = {
   onRaceLoaded: (race: Race) => void;
@@ -73,54 +114,137 @@ function Skeleton({ width, height }: { width: string; height: string }) {
 }
 
 // ==========================================
-// レース一覧アイテム
+// レース一覧アイテム (推奨ヒント表示付き)
+// hint が渡されると背景・左 border + 信頼度バッジを適用
 // ==========================================
 function RaceItem({
-  raceId, raceNum, startTime, raceName, grade, headCount,
-  selected, onClick,
+  raceNum, startTime, raceName, grade, headCount,
+  selected, onClick, hint,
 }: {
   raceId: string; raceNum: number; startTime: string;
   raceName: string; grade: Grade; headCount: number;
   selected: boolean; onClick: () => void;
+  hint: RaceListHint | null;
 }) {
+  const recStyle = hint ? REC_STYLE[hint.level] : null;
+  const emoji    = hint ? RELIABILITY_EMOJI[hint.reliability] : '';
+  const showLabel = hint && (hint.level === 'honmei' || hint.level === 'kenjitsu' || hint.level === 'excluded');
+
+  const bg =
+    selected ? '#ebf8ff' :
+    recStyle && recStyle.bg !== 'transparent' ? recStyle.bg : 'transparent';
+
+  const borderColor =
+    selected ? '#90cdf4' :
+    recStyle && recStyle.borderLeft !== 'transparent' ? recStyle.borderLeft : 'transparent';
+
   return (
     <button
       onClick={onClick}
+      title={hint?.note}
       style={{
         display: 'flex',
         alignItems: 'center',
-        gap: '0.6rem',
+        gap: '0.5rem',
         width: '100%',
-        padding: '0.55rem 0.75rem',
-        background: selected ? '#ebf8ff' : 'transparent',
-        border: selected ? '1px solid #90cdf4' : '1px solid transparent',
+        padding: '0.45rem 0.55rem 0.45rem 0.55rem',
+        background: bg,
+        border: selected ? `1px solid ${borderColor}` : '1px solid transparent',
+        borderLeft:
+          hint && recStyle && recStyle.borderLeft !== 'transparent'
+            ? `4px solid ${recStyle.borderLeft}`
+            : (selected ? `1px solid ${borderColor}` : '1px solid transparent'),
         borderRadius: '6px',
         cursor: 'pointer',
         textAlign: 'left',
         transition: 'background 0.1s',
       }}
     >
+      {/* 推奨ラベル (本命級/堅実級/対象外) */}
+      {showLabel && (
+        <span
+          aria-label={`${recStyle!.label} 推奨`}
+          style={{
+            background: recStyle!.borderLeft,
+            color: '#fff',
+            fontSize: '0.58rem',
+            fontWeight: 800,
+            padding: '0.08rem 0.3rem',
+            borderRadius: '3px',
+            whiteSpace: 'nowrap',
+            flexShrink: 0,
+          }}
+        >
+          {recStyle!.label}
+        </span>
+      )}
+
       <span style={{
-        minWidth: '2.2rem',
+        minWidth: '2rem',
         fontWeight: 700,
-        fontSize: '0.85rem',
+        fontSize: '0.82rem',
         color: selected ? '#2b6cb0' : '#555',
+        flexShrink: 0,
       }}>
         {raceNum}R
       </span>
-      <span style={{ minWidth: '3rem', fontSize: '0.82rem', color: '#666', fontVariantNumeric: 'tabular-nums' }}>
+      <span style={{
+        minWidth: '2.7rem',
+        fontSize: '0.76rem',
+        color: '#666',
+        fontVariantNumeric: 'tabular-nums',
+        flexShrink: 0,
+      }}>
         {startTime}
       </span>
-      <span style={{ flex: 1, fontSize: '0.88rem', color: '#222', fontWeight: selected ? 700 : 400 }}>
+      <span style={{
+        flex: 1,
+        fontSize: '0.82rem',
+        color: '#222',
+        fontWeight: selected ? 700 : 400,
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        minWidth: 0,
+      }}>
         {raceName}
       </span>
       <GradeBadge grade={grade} />
       {headCount > 0 && (
-        <span style={{ fontSize: '0.78rem', color: '#888', minWidth: '2.5rem', textAlign: 'right' }}>
+        <span style={{ fontSize: '0.72rem', color: '#888', minWidth: '2.2rem', textAlign: 'right', flexShrink: 0 }}>
           {headCount}頭
         </span>
       )}
+      {emoji && (
+        <span
+          aria-label={`信頼度: ${hint!.reliability}`}
+          title={`信頼度: ${hint!.reliability}`}
+          style={{ fontSize: '0.78rem', flexShrink: 0 }}
+        >
+          {emoji}
+        </span>
+      )}
     </button>
+  );
+}
+
+// ==========================================
+// 凡例ドット (推奨レベルの色サンプル)
+// ==========================================
+function LegendDot({ bg, border, label }: { bg: string; border: string; label: string }) {
+  return (
+    <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+      <span style={{
+        display: 'inline-block',
+        width: '0.8rem',
+        height: '0.7rem',
+        background: bg,
+        borderLeft: `3px solid ${border}`,
+        borderRadius: '2px',
+        border: `1px solid ${border}40`,
+      }} />
+      <span>{label}</span>
+    </span>
   );
 }
 
@@ -192,6 +316,14 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
   const [selectedVenue, setSelectedVenue]   = useState<string | null>(null);
   const [selectedRaceId, setSelectedRaceId] = useState<string | null>(null);
   const [fetchingRaceId, setFetchingRaceId] = useState<string | null>(null);
+
+  // 推奨ヒント用: クラス別過去実績データ
+  const [classOnly, setClassOnly] = useState<ByCategoryClassOnly | null>(null);
+  useEffect(() => {
+    let active = true;
+    loadClassOnly().then((co) => { if (active) setClassOnly(co); });
+    return () => { active = false; };
+  }, []);
 
   // スケジュール取得後、初回のみデフォルト日付を設定
   // - 本日に開催がある → 本日
@@ -286,16 +418,36 @@ export function RaceSchedule({ onRaceLoaded }: Props) {
           ))}
         </div>
       ) : currentVenue ? (
-        <div style={styles.raceList}>
-          {currentVenue.races.map((r) => (
-            <RaceItem
-              key={r.raceId}
-              {...r}
-              selected={selectedRaceId === r.raceId}
-              onClick={() => handleRaceClick(r.raceId)}
-            />
-          ))}
-        </div>
+        <>
+          {/* 凡例 (推奨ヒント) */}
+          {classOnly && (
+            <div style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '0.4rem',
+              fontSize: '0.62rem',
+              color: '#64748b',
+              padding: '0.15rem 0.2rem 0.3rem',
+              lineHeight: 1.3,
+            }}>
+              <LegendDot bg="#fffbeb" border="#d97706" label="本命級" />
+              <LegendDot bg="#eff6ff" border="#2563eb" label="堅実級" />
+              <LegendDot bg="#f8fafc" border="#94a3b8" label="対象外(C1/C2)" />
+              <span>信頼度: 🟢高 🟡中 🟠注意 🔴低 🚫除外 ⚪不明</span>
+            </div>
+          )}
+          <div style={styles.raceList}>
+            {currentVenue.races.map((r) => (
+              <RaceItem
+                key={r.raceId}
+                {...r}
+                selected={selectedRaceId === r.raceId}
+                onClick={() => handleRaceClick(r.raceId)}
+                hint={classOnly ? detectRaceListHint(r.raceName, r.grade, classOnly) : null}
+              />
+            ))}
+          </div>
+        </>
       ) : !isLoading && availableDates.length === 0 ? (
         <p style={{ color: '#888', fontSize: '0.9rem', padding: '1rem 0' }}>
           前後7日以内の開催はありません
