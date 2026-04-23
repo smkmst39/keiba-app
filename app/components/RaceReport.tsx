@@ -1009,7 +1009,7 @@ export function RaceReport({ race }: Props) {
       {/* ====== Section 5A: 3段階推奨 (Phase 2F: 参加条件最適化) ====== */}
       {hasOdds && betRecs && (
         <div style={section}>
-          <SectionHeader title="5A. 🏆 馬券推奨（バックテスト検証済み戦略）" subtitle="930レースの参加条件グリッドサーチで導出した推奨構成" />
+          <SectionHeader title="5A. 🏆 馬券推奨（バックテスト検証済み戦略）" subtitle="3233レースの参加条件グリッドサーチで導出した推奨構成" />
 
           {/* 信頼度カード (Phase 2 ダッシュボード連携): 控えめに補強情報 */}
           <ReliabilityCard race={race} />
@@ -1127,7 +1127,7 @@ export function RaceReport({ race }: Props) {
             color: '#78350f',
             lineHeight: 1.45,
           }}>
-            <strong>注意:</strong> 三連系は過学習リスクで除外。馬連・馬単・ワイドは 930R で前後半差 ≤15pt の安定性確認済（将来の実績は保証しません）。
+            <strong>注意:</strong> 三連系は過学習リスクで除外。
           </div>
         </div>
       )}
