@@ -311,6 +311,225 @@ function evColor(ev: number): string {
   return '#718096';
 }
 
+/** EV 数値から短いラベルを返す（視認補助） */
+function evLabel(ev: number): string {
+  if (ev >= 1.10) return '強気';
+  if (ev >= 1.00) return '買い';
+  if (ev >= 0.90) return '検討';
+  return '-';
+}
+
+/** JRA 枠色 (app/components/CLAUDE.md と統一) */
+const WAKU_COLORS: Record<number, { bg: string; border: string; text: string }> = {
+  1: { bg: '#ffffff', border: '#aaaaaa', text: '#333333' },
+  2: { bg: '#111111', border: '#111111', text: '#ffffff' },
+  3: { bg: '#e8352a', border: '#c0281f', text: '#ffffff' },
+  4: { bg: '#4fa3db', border: '#2d87c4', text: '#ffffff' },
+  5: { bg: '#f5d800', border: '#d4b800', text: '#333333' },
+  6: { bg: '#159c4a', border: '#0d7438', text: '#ffffff' },
+  7: { bg: '#f08010', border: '#c86400', text: '#ffffff' },
+  8: { bg: '#ec77ae', border: '#d05590', text: '#ffffff' },
+};
+
+/** スコア順位バッジ (1位=緑 / 2-3位=橙 / それ以外=グレー) */
+function RankBadge({ rank }: { rank: number }) {
+  const color =
+    rank === 1 ? { bg: '#276749', text: '#fff' } :
+    rank <= 3  ? { bg: '#b45309', text: '#fff' } :
+                 { bg: '#e2e8f0', text: '#4a5568' };
+  return (
+    <div
+      aria-label={`スコア${rank}位`}
+      style={{
+        background: color.bg,
+        color: color.text,
+        minWidth: '2.3rem',
+        height: '2rem',
+        borderRadius: '6px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontWeight: 800,
+        fontSize: '0.78rem',
+        lineHeight: 1,
+        padding: '0 0.4rem',
+        flexShrink: 0,
+      }}
+    >
+      {rank}位
+    </div>
+  );
+}
+
+/**
+ * 全頭EV一覧の 1 行分カード (モバイル優先の省スペース版)
+ *
+ * 目的:
+ *   - スコア順位を左端のバッジで一目で把握
+ *   - 左側の色帯 = EV 色 (緑/青/グレー) でEVランクを瞬時に視認
+ *   - EV 数値 + スコア数値 + バーで「EV × スコア」を横一列で対比
+ *   - 従来の横幅600pxテーブル → 縦 100% カードに変更、横スクロール不要
+ */
+function HorseRankRow({
+  horse, rank, mark, pop, isKiken, isAna,
+}: {
+  horse: Horse;
+  rank: number;
+  mark: string;
+  pop: number;
+  isKiken: boolean;
+  isAna: boolean;
+}) {
+  const ev    = horse.ev ?? 0;
+  const score = horse.score ?? 0;
+  const evC   = evColor(ev);
+  const waku  = WAKU_COLORS[horse.waku] ?? { bg: '#f1f5f9', border: '#94a3b8', text: '#334155' };
+
+  // 行背景: 危険人気>穴馬>1位強調>通常
+  const rowBg = isKiken ? '#fff5f5' : isAna ? '#fffff0' : rank === 1 ? '#f0fff4' : '#fff';
+
+  // 調教・脚質の近似 (従来の Section 6 と同じロジック)
+  const l3 = horse.lastThreeF;
+  const trainEval = l3 === 0 ? '-' : l3 <= 11.0 ? '絶好' : l3 <= 11.4 ? '良好' : l3 <= 11.8 ? '普通' : '低調';
+  const runStyle  = l3 === 0 ? '-' : l3 <= 11.4 ? '差・追' : l3 <= 11.8 ? '先・差' : '逃・先';
+
+  return (
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: '0.55rem',
+      padding: '0.5rem 0.55rem',
+      borderLeft: `5px solid ${evC}`,    // EV 色を左端の帯で表現
+      borderBottom: '1px solid #e2e8f0',
+      background: rowBg,
+      flexWrap: 'wrap',
+    }}>
+      {/* 左: 順位バッジ */}
+      <RankBadge rank={rank} />
+
+      {/* 枠+馬番 (JRA 枠色) */}
+      <div
+        aria-label={`枠${horse.waku}・${horse.id}番`}
+        style={{
+          width: '2rem',
+          height: '2rem',
+          borderRadius: '50%',
+          background: waku.bg,
+          color: waku.text,
+          border: `1px solid ${waku.border}`,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontWeight: 800,
+          fontSize: '0.85rem',
+          flexShrink: 0,
+        }}
+      >
+        {horse.id}
+      </div>
+
+      {/* 馬名 + 印 + 補助行 (騎手・脚質・調教) */}
+      <div style={{ flex: '1 1 8rem', minWidth: 0 }}>
+        <div style={{
+          fontWeight: 700,
+          fontSize: '0.88rem',
+          color: '#1a202c',
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          lineHeight: 1.25,
+        }}>
+          {mark && (
+            <span style={{
+              color: mark === '◎' ? '#c05621' : mark === '○' ? '#2b6cb0' : mark === '▲' ? '#276749' : '#744210',
+              fontWeight: 900,
+              marginRight: '0.25rem',
+            }}>{mark}</span>
+          )}
+          {horse.name}
+          {isKiken && <span title="危険人気馬" style={{ marginLeft: '0.25rem' }}>⚠️</span>}
+          {isAna   && <span title="穴馬候補"   style={{ marginLeft: '0.25rem' }}>🎯</span>}
+        </div>
+        <div style={{ fontSize: '0.7rem', color: '#64748b', marginTop: '0.12rem' }}>
+          {horse.odds > 0 ? `${horse.odds}倍 (${pop || '-'}人)` : '—'} ・ {horse.jockey} ・ {runStyle}/{trainEval}
+        </div>
+      </div>
+
+      {/* 右: EV と スコア (最重要 2指標を縦並び) */}
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'stretch',
+        gap: '0.2rem',
+        flexShrink: 0,
+        minWidth: '6.5rem',
+      }}>
+        {/* EV バッジ: 色分けで瞬時に把握 */}
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-end',
+          gap: '0.3rem',
+        }}>
+          <span style={{
+            background: evC,
+            color: '#fff',
+            padding: '0.1rem 0.45rem',
+            borderRadius: '4px',
+            fontSize: '0.78rem',
+            fontWeight: 800,
+            whiteSpace: 'nowrap',
+          }}>
+            EV {ev > 0 ? ev.toFixed(2) : '-'}
+          </span>
+          <span style={{
+            fontSize: '0.68rem',
+            color: evC,
+            fontWeight: 700,
+            minWidth: '2.1rem',
+            textAlign: 'right',
+          }}>
+            {ev > 0 ? evLabel(ev) : ''}
+          </span>
+        </div>
+        {/* スコア: 数値 + バー で順位と絶対値を同時表示 */}
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-end',
+          gap: '0.3rem',
+        }}>
+          <span style={{ fontSize: '0.68rem', color: '#64748b' }}>S</span>
+          <span style={{
+            fontSize: '0.8rem',
+            fontWeight: 700,
+            color: score >= 70 ? '#276749' : score >= 50 ? '#2b6cb0' : '#c05621',
+            minWidth: '1.5rem',
+            textAlign: 'right',
+          }}>
+            {score.toFixed(0)}
+          </span>
+          <div style={{
+            width: '56px',
+            height: '5px',
+            background: '#e2e8f0',
+            borderRadius: '3px',
+            overflow: 'hidden',
+            flexShrink: 0,
+          }}>
+            <div style={{
+              height: '100%',
+              width: `${score}%`,
+              background: score >= 70 ? '#276749' : score >= 50 ? '#3182ce' : '#c05621',
+              borderRadius: '3px',
+            }} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /** 馬券推奨カード */
 /** Phase 2F: 3段階推奨のヘッダスタイル */
 function tierHeader(color: string, bg: string): React.CSSProperties {
@@ -991,80 +1210,45 @@ export function RaceReport({ race }: Props) {
         </div>
       )}
 
-      {/* ====== Section 6: 全頭データサマリー ====== */}
+      {/* ====== Section 6: 全頭EV一覧 (スコア順位 × EV 色分け) ====== */}
       <div style={section}>
-        <SectionHeader title="6. 全頭データサマリー" subtitle="総合スコア降順" />
-        <div style={{ overflowX: 'auto' }}>
-          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.8rem', minWidth: '600px' }}>
-            <thead>
-              <tr style={{ background: '#2d3748', color: '#fff' }}>
-                {['番', '馬名', '印', '人気', 'オッズ', '騎手', '脚質', '調教', '総合スコア'].map(h => (
-                  <th key={h} style={{ ...th, color: '#fff', background: 'transparent' }}>{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {byScore.map(horse => {
-                const pop = popularityRanks.get(horse.id) ?? 0;
-                const isKiken = kikenHorses.some(k => k.id === horse.id);
-                const isAna   = anaHorses.some(a => a.id === horse.id);
-                const mark =
-                  horse.id === picks.honmei?.id   ? '◎' :
-                  horse.id === picks.taikou?.id   ? '○' :
-                  horse.id === picks.sanbante?.id ? '▲' :
-                  horse.id === picks.ana?.id      ? '△' : '';
-                const last3f = horse.lastThreeF;
-                const trainEval = last3f === 0 ? '-' : last3f <= 11.0 ? '絶好' : last3f <= 11.4 ? '良好' : last3f <= 11.8 ? '普通' : '低調';
-                // 脚質: lastThreeFから近似（速=差し、遅=先行）
-                const runStyle = last3f === 0 ? '-' : last3f <= 11.4 ? '差・追' : last3f <= 11.8 ? '先・差' : '逃・先';
-                const score = horse.score ?? 0;
-                const rowBg = isKiken ? '#fff5f5' : isAna ? '#fffff0' : '#fff';
-
-                return (
-                  <tr key={horse.id} style={{ borderBottom: '1px solid #e2e8f0', background: rowBg }}>
-                    <td style={{ ...td, textAlign: 'center', fontWeight: 700 }}>{horse.id}</td>
-                    <td style={{ ...td, fontWeight: mark ? 700 : 400 }}>
-                      {horse.name}
-                      {isKiken && <span style={{ color: '#e53e3e', fontSize: '0.7rem', marginLeft: '0.3rem' }}>⚠️</span>}
-                      {isAna   && <span style={{ color: '#c05621', fontSize: '0.7rem', marginLeft: '0.3rem' }}>🎯</span>}
-                    </td>
-                    <td style={{ ...td, textAlign: 'center', fontWeight: 700, color: mark ? '#c05621' : '#ccc' }}>
-                      {mark || '-'}
-                    </td>
-                    <td style={{ ...td, textAlign: 'center' }}>{pop || '-'}</td>
-                    <td style={{ ...td, textAlign: 'right' }}>
-                      {horse.odds > 0 ? `${horse.odds}倍` : '-'}
-                    </td>
-                    <td style={{ ...td, textAlign: 'center', color: '#333' }}>{horse.jockey}</td>
-                    <td style={{ ...td, textAlign: 'center', color: '#555' }}>{runStyle}</td>
-                    <td style={{ ...td, textAlign: 'center', color: '#555' }}>{trainEval}</td>
-                    <td style={td}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-                        <span style={{
-                          fontWeight: 700,
-                          color: score >= 70 ? '#276749' : score >= 50 ? '#2b6cb0' : '#c05621',
-                          minWidth: '2rem',
-                        }}>
-                          {score.toFixed(0)}
-                        </span>
-                        <div style={{ width: '60px', height: '5px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
-                          <div style={{
-                            height: '100%',
-                            width: `${score}%`,
-                            background: score >= 70 ? '#276749' : score >= 50 ? '#3182ce' : '#c05621',
-                            borderRadius: '3px',
-                          }} />
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+        <SectionHeader
+          title="6. 全頭EV一覧"
+          subtitle="スコア順位 × 期待値（EV色分け）"
+        />
+        <div style={{
+          border: '1px solid #e2e8f0',
+          borderRadius: '8px',
+          overflow: 'hidden',
+          background: '#fff',
+        }}>
+          {byScore.map((horse, i) => {
+            const pop = popularityRanks.get(horse.id) ?? 0;
+            const isKiken = kikenHorses.some((k) => k.id === horse.id);
+            const isAna   = anaHorses.some((a) => a.id === horse.id);
+            const mark =
+              horse.id === picks.honmei?.id   ? '◎' :
+              horse.id === picks.taikou?.id   ? '○' :
+              horse.id === picks.sanbante?.id ? '▲' :
+              horse.id === picks.ana?.id      ? '△' : '';
+            return (
+              <HorseRankRow
+                key={horse.id}
+                horse={horse}
+                rank={i + 1}
+                mark={mark}
+                pop={pop}
+                isKiken={isKiken}
+                isAna={isAna}
+              />
+            );
+          })}
         </div>
-        <div style={{ fontSize: '0.73rem', color: '#718096', marginTop: '0.4rem' }}>
-          ⚠️薄赤=危険人気馬 / 🎯薄黄=穴馬候補 / 脚質はラスト3Fから近似
+        <div style={{ fontSize: '0.72rem', color: '#64748b', marginTop: '0.45rem', lineHeight: 1.5 }}>
+          左端の色帯 = EV 色（<span style={{ color: '#276749', fontWeight: 700 }}>緑 EV≥1.10</span>
+          ／<span style={{ color: '#2b6cb0', fontWeight: 700 }}>青 EV≥1.00</span>
+          ／<span style={{ color: '#718096', fontWeight: 700 }}>グレー EV&lt;1.00</span>）・
+          ⚠️=危険人気 ・ 🎯=穴馬 ・ ◎○▲△=予想印
         </div>
       </div>
 
