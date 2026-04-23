@@ -89,6 +89,18 @@ USE_MOCK=false pnpm tsx scripts/test-scraper.ts 202606030511
 > **注意**: `USE_MOCK=false` での実行はnetkeibaへの実アクセスが発生します。
 > 連続実行は控えてください（レート制限: リクエスト間隔 1 秒以上）。
 
+## 週次スクレイプ（GitHub Actions 自動実行）
+
+Phase 2G ハイブリッド戦略の運用データを継続拡大するため、週次スクレイプを
+GitHub Actions で **毎週火曜 08:00 JST** に自動実行しています。
+
+- ワークフロー: `.github/workflows/weekly-scrape.yml`
+- 運用ドキュメント: [`scripts/weekly_scraper_README.md`](scripts/weekly_scraper_README.md)
+- 想定月間消費: 16-24 分/月（無料プラン 2000 分の 1% 程度）
+- 失敗時: GitHub からメール通知（デフォルト）
+
+手動実行は GitHub の **Actions** タブ → **Weekly Race Scraper** → **Run workflow** から可能。
+
 ## ディレクトリ構成
 
 ```

@@ -2,11 +2,34 @@
 
 ## 目的
 Phase 2G ハイブリッド戦略の実運用データを継続的に蓄積し、時系列検証の精度を高める。
-毎週1回、手動または自動で実行して未取得のレースデータを追加する。
+毎週1回、**GitHub Actions で自動実行** して未取得のレースデータを追加する（手動実行も可）。
 
 ## 実行方法
 
-### 手動実行（推奨）
+### 🤖 自動実行（運用中）
+
+`.github/workflows/weekly-scrape.yml` により **毎週火曜 08:00 JST** に自動実行される。
+
+**選定タイミングの根拠**:
+- JRA は土日開催、**月曜中に netkeiba で成績・払戻が確定**する
+- 火曜朝なら前週分の全データが揃っている
+- JST 2-6 時禁止帯を確実に回避（cron は UTC=月曜23時=JST火曜08時）
+- GitHub Actions のスケジュール遅延（通常 5〜15 分）があっても安全
+
+**実行時間目安**: 4-6 分/回 × 週1回 × 4週 = **16-24 分/月**
+GitHub 無料プランの 2000 分/月制限に対して約 1% と十分な余裕。
+
+**通知**: 失敗時は GitHub からメール通知（デフォルト挙動、Secrets 設定不要）。
+
+### 手動実行（GitHub UI）
+
+急ぎで取得したい場合やテスト時:
+
+1. GitHub リポジトリの **Actions** タブを開く
+2. 左メニュー **Weekly Race Scraper** を選択
+3. **Run workflow** → 対象過去日数を入力（デフォルト 14）→ 実行
+
+### 手動実行（ローカル）
 
 ```bash
 # デフォルト: 過去 14 日間 (2週間分) を対象
@@ -17,8 +40,9 @@ pnpm run weekly-scrape -- --days 21
 ```
 
 実行タイミング:
-- **推奨: 毎週月曜朝** (前週末のレース結果が確定している)
-- **禁止: 深夜 2-6 時** (スクリプトが拒否する)
+- **自動: 毎週火曜 08:00 JST**（GitHub Actions）
+- **手動の場合の推奨**: 月曜〜火曜朝
+- **禁止: 深夜 2-6 時 JST** (スクリプトが拒否する)
 
 ### 事前チェックリスト
 
@@ -118,6 +142,7 @@ pnpm run weekly-scrape -- --days 21
 
 | ファイル | 用途 |
 |---|---|
+| `.github/workflows/weekly-scrape.yml` | **GitHub Actions ワークフロー (自動実行定義)** |
 | `scripts/weekly_scraper.ts` | 週次スクレイプ本体 |
 | `scripts/collect-verification.ts` | 下位で呼ばれる収集ロジック |
 | `scripts/fill_track_condition.ts` | 馬場状態の補完 (必要に応じて) |
@@ -125,6 +150,53 @@ pnpm run weekly-scrape -- --days 21
 | `scripts/verification/collect.log` | レース単位の詳細ログ |
 | `lib/scraper/netkeiba.ts` | HTML パースロジック (修正対象) |
 | `lib/scraper/CLAUDE.md` | スクレイパー仕様書 |
+
+## GitHub Actions 自動化の要点
+
+### cron 設計
+```yaml
+schedule:
+  - cron: '0 23 * * 1'   # 月曜 23:00 UTC = 火曜 08:00 JST
+```
+- GitHub Actions の cron は **UTC 指定必須**
+- JST 2-6 時禁止帯 (UTC 17-21 前日) を避ける
+- scheduled run には数分〜十数分の遅延あり、朝8時なら安全マージン大
+
+### Timezone 設定
+ワークフロー env に `TZ: Asia/Tokyo` を設定。
+`weekly_scraper.ts` の `isForbiddenTime()` が `new Date().getHours()` で判定するため、
+デフォルト UTC のままだと禁止時間判定が狂う。
+
+### Permissions
+```yaml
+permissions:
+  contents: write   # 自動コミット/push に必要
+```
+リポジトリ設定の Actions → General → Workflow permissions が **Read/write** になっている必要あり。
+
+### Concurrency
+```yaml
+concurrency:
+  group: weekly-scrape
+  cancel-in-progress: false
+```
+手動実行とスケジュール実行が重なった場合の二重取得を防ぐ。
+
+### 自動コミット
+`github-actions[bot]` 名義で `scripts/verification/` に差分が出たときのみコミット。
+休開催週など新規0件なら正常終了扱い。
+
+### 失敗時の対処
+1. GitHub Actions タブで失敗ログ確認
+2. HTTP 400/403 なら **手動実行を 3 時間以上空ける**
+3. スクレイパー正規表現の破綻なら `lib/scraper/netkeiba.ts` を修正
+4. 継続失敗時は workflow を一時停止（Actions タブから Disable workflow）
+
+### 想定月間消費時間
+- 依存関係インストール: 1-2 分（pnpm キャッシュ効く）
+- 差分検出 + 取得: 2-3 分（新規 50-60R × 2秒 + 休憩）
+- コミット/push: 30 秒
+- **合計: 4-6 分/回 × 4週 ≒ 16-24 分/月**（2000 分無料枠の 1% 程度）
 
 ## 過去の事故記録
 

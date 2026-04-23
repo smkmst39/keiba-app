@@ -1,0 +1,117 @@
+name: Weekly Race Scraper
+
+# ==========================================
+# 週次スクレイプ自動化ワークフロー
+#
+# 実行タイミング: 毎週火曜 08:00 JST (月曜 23:00 UTC)
+#   - 日曜開催分までの成績・払戻が確定済み (月曜中に netkeiba へ登録完了)
+#   - JST 2-6時禁止帯を確実に回避 (cron は UTC=23時=JST 08時)
+#   - GitHub Actions のスケジュール遅延 (通常数分〜十数分) があっても安全
+#
+# 想定実行時間: 4-6 分/回 (依存インストール + 50-60R 取得 + コミット)
+# 月間消費: 16-24 分 / 2000分制限 (無料プラン 1% 程度)
+#
+# 関連ファイル:
+#   - scripts/weekly_scraper.ts
+#   - scripts/weekly_scraper_README.md
+# ==========================================
+
+on:
+  schedule:
+    # 月曜 23:00 UTC = 火曜 08:00 JST
+    - cron: '0 23 * * 1'
+  workflow_dispatch:  # 手動実行 (GitHub UI の Actions タブから)
+    inputs:
+      days:
+        description: '対象過去日数 (デフォルト 14)'
+        required: false
+        default: '14'
+
+# 同時実行を防止 (前回がまだ動作中なら新規は待機・古い方をキャンセル)
+concurrency:
+  group: weekly-scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # 取得したデータを自動コミット/push するため
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30  # アクセス間隔 + バッチ休憩を考慮した上限
+
+    env:
+      TZ: Asia/Tokyo              # weekly_scraper.ts の isForbiddenTime() が JST 判定するため
+      USE_MOCK: 'false'
+      DISABLE_SIRE: 'true'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # auto-commit に必要な push 権限を確保
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Show current state
+        run: |
+          echo "JST 現在時刻: $(date)"
+          echo "既存 JSON 数: $(ls scripts/verification/*.json 2>/dev/null | wc -l)"
+
+      - name: Run weekly scraper
+        id: scrape
+        run: |
+          DAYS="${{ github.event.inputs.days || '14' }}"
+          echo "対象過去日数: $DAYS 日"
+          pnpm run weekly-scrape -- --days "$DAYS"
+
+      - name: Show after state
+        if: always()
+        run: |
+          echo "取得後 JSON 数: $(ls scripts/verification/*.json 2>/dev/null | wc -l)"
+          echo "--- weekly_scrape.log 末尾 ---"
+          tail -30 scripts/verification/weekly_scrape.log 2>/dev/null || echo "(ログなし)"
+
+      - name: Commit new data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/verification/
+
+          # 差分がなければ早期終了 (新規レース 0 件は異常ではない、休開催週もある)
+          if git diff --staged --quiet; then
+            echo "新規データなし — コミットをスキップします"
+            exit 0
+          fi
+
+          # 新規 R 数を算出してコミットメッセージに埋め込む
+          ADDED=$(git diff --staged --name-only | grep -c '^scripts/verification/.*\.json$' || true)
+          DATE_JST=$(date '+%Y-%m-%d')
+          git commit -m "chore: weekly scrape ${DATE_JST} (+${ADDED}R)
+
+          GitHub Actions により自動取得されたレースデータ。
+          詳細ログは scripts/verification/weekly_scrape.log を参照。"
+
+      - name: Push to main
+        # リベースしてから push: 人間の手動作業と競合しないよう
+        run: |
+          if git log origin/main..HEAD --oneline | grep -q .; then
+            git pull --rebase --autostash origin main
+            git push origin main
+          else
+            echo "push する新規コミットなし"
+          fi
