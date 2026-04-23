@@ -251,6 +251,9 @@ function buildVerificationData(race: Race, result: RaceResult, dateIso: string):
       odds: h.odds,
       // Phase 2G: 枠番と血統スコアをバックテストで使えるよう保存
       waku: h.waku,
+      // アプローチ2 軸1: 騎手コース別勝率の集計用 (2026-04-24 追加)
+      //   以降の週次スクレイプで jockey 名が蓄積される
+      jockey: h.jockey,
     })),
     results: result,
     accuracy: { top1ScoreRank, top3EVCount, recommendedHits },
