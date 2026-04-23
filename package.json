@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "weekly-scrape": "tsx scripts/weekly_scraper.ts"
+    "weekly-scrape": "tsx scripts/weekly_scraper.ts",
+    "build-dashboard": "tsx scripts/build_dashboard_data.ts"
   },
   "dependencies": {
     "axios": "^1.7.2",

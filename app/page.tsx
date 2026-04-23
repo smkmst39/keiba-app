@@ -6,6 +6,7 @@
 // ==========================================
 
 import { useState } from 'react';
+import Link from 'next/link';
 import type { Race } from '@/lib/scraper/types';
 import { RaceSelector } from '@/app/components/RaceSelector';
 import { BakenSimulator } from '@/app/components/BakenSimulator';
@@ -18,7 +19,22 @@ export default function Home() {
   return (
     <main style={styles.main}>
       <header style={styles.header}>
-        <h1 style={styles.title}>競馬予想ツール</h1>
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.6rem', flexWrap: 'wrap' }}>
+          <h1 style={styles.title}>競馬予想ツール</h1>
+          <Link href="/dashboard" style={{
+            marginLeft: 'auto',
+            fontSize: '0.72rem',
+            color: '#2b6cb0',
+            textDecoration: 'none',
+            fontWeight: 700,
+            padding: '0.25rem 0.5rem',
+            border: '1px solid #2b6cb0',
+            borderRadius: '4px',
+            whiteSpace: 'nowrap',
+          }}>
+            📊 ダッシュボード
+          </Link>
+        </div>
         <p style={styles.subtitle}>
           レースを選択するとスコア・期待値が自動計算されます
         </p>

@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-04-23T13:44:07.657Z",
+  "summary": {
+    "totalRaces": 3233,
+    "period": {
+      "from": "2025-05-03",
+      "to": "2026-04-19"
+    },
+    "totalPt": 312.5337143109307,
+    "umarenHonmeiROI": 116.96394686907021,
+    "umatanHonmeiROI": 96.5,
+    "wideKenjitsuROI": 99.06976744186046,
+    "overallHitRate": 13.515509601181682,
+    "joinedRacesUmaren": 527
+  },
+  "monthly": [
+    {
+      "month": "2025-05",
+      "samples": 311,
+      "umarenHonmei": {
+        "participated": 37,
+        "hits": 2,
+        "roi": 26.756756756756754
+      },
+      "umatanHonmei": {
+        "participated": 34,
+        "hits": 2,
+        "roi": 20.441176470588236
+      },
+      "wideKenjitsu": {
+        "participated": 27,
+        "hits": 7,
+        "roi": 86.29629629629629
+      }
+    },
+    {
+      "month": "2025-06",
+      "samples": 288,
+      "umarenHonmei": {
+        "participated": 50,
+        "hits": 2,
+        "roi": 9.4
+      },
+      "umatanHonmei": {
+        "participated": 43,
+        "hits": 2,
+        "roi": 9.767441860465116
+      },
+      "wideKenjitsu": {
+        "participated": 43,
+        "hits": 9,
+        "roi": 55.11627906976744
+      }
+    },
+    {
+      "month": "2025-07",
+      "samples": 288,
+      "umarenHonmei": {
+        "participated": 44,
+        "hits": 5,
+        "roi": 197.95454545454544
+      },
+      "umatanHonmei": {
+        "participated": 39,
+        "hits": 5,
+        "roi": 197.94871794871796
+      },
+      "wideKenjitsu": {
+        "participated": 39,
+        "hits": 12,
+        "roi": 112.82051282051282
+      }
+    },
+    {
+      "month": "2025-08",
+      "samples": 360,
+      "umarenHonmei": {
+        "participated": 65,
+        "hits": 7,
+        "roi": 98.15384615384616
+      },
+      "umatanHonmei": {
+        "participated": 48,
+        "hits": 7,
+        "roi": 128.54166666666666
+      },
+      "wideKenjitsu": {
+        "participated": 40,
+        "hits": 10,
+        "roi": 96.75
+      }
+    },
+    {
+      "month": "2025-09",
+      "samples": 240,
+      "umarenHonmei": {
+        "participated": 46,
+        "hits": 2,
+        "roi": 67.17391304347827
+      },
+      "umatanHonmei": {
+        "participated": 37,
+        "hits": 2,
+        "roi": 63.37837837837837
+      },
+      "wideKenjitsu": {
+        "participated": 37,
+        "hits": 8,
+        "roi": 88.37837837837837
+      }
+    },
+    {
+      "month": "2025-10",
+      "samples": 264,
+      "umarenHonmei": {
+        "participated": 50,
+        "hits": 3,
+        "roi": 42.4
+      },
+      "umatanHonmei": {
+        "participated": 40,
+        "hits": 3,
+        "roi": 51
+      },
+      "wideKenjitsu": {
+        "participated": 40,
+        "hits": 10,
+        "roi": 103.75000000000001
+      }
+    },
+    {
+      "month": "2025-11",
+      "samples": 312,
+      "umarenHonmei": {
+        "participated": 61,
+        "hits": 6,
+        "roi": 79.50819672131148
+      },
+      "umatanHonmei": {
+        "participated": 56,
+        "hits": 6,
+        "roi": 76.42857142857142
+      },
+      "wideKenjitsu": {
+        "participated": 47,
+        "hits": 12,
+        "roi": 89.36170212765957
+      }
+    },
+    {
+      "month": "2025-12",
+      "samples": 240,
+      "umarenHonmei": {
+        "participated": 42,
+        "hits": 0,
+        "roi": 0
+      },
+      "umatanHonmei": {
+        "participated": 31,
+        "hits": 0,
+        "roi": 0
+      },
+      "wideKenjitsu": {
+        "participated": 29,
+        "hits": 6,
+        "roi": 117.24137931034481
+      }
+    },
+    {
+      "month": "2026-01",
+      "samples": 216,
+      "umarenHonmei": {
+        "participated": 29,
+        "hits": 3,
+        "roi": 400.34482758620686
+      },
+      "umatanHonmei": {
+        "participated": 25,
+        "hits": 2,
+        "roi": 88.6
+      },
+      "wideKenjitsu": {
+        "participated": 23,
+        "hits": 6,
+        "roi": 102.60869565217392
+      }
+    },
+    {
+      "month": "2026-02",
+      "samples": 258,
+      "umarenHonmei": {
+        "participated": 43,
+        "hits": 4,
+        "roi": 180.2325581395349
+      },
+      "umatanHonmei": {
+        "participated": 38,
+        "hits": 4,
+        "roi": 218.0263157894737
+      },
+      "wideKenjitsu": {
+        "participated": 26,
+        "hits": 7,
+        "roi": 131.92307692307693
+      }
+    },
+    {
+      "month": "2026-03",
+      "samples": 300,
+      "umarenHonmei": {
+        "participated": 38,
+        "hits": 6,
+        "roi": 168.94736842105263
+      },
+      "umatanHonmei": {
+        "participated": 34,
+        "hits": 6,
+        "roi": 191.76470588235296
+      },
+      "wideKenjitsu": {
+        "participated": 23,
+        "hits": 9,
+        "roi": 160.8695652173913
+      }
+    },
+    {
+      "month": "2026-04",
+      "samples": 156,
+      "umarenHonmei": {
+        "participated": 22,
+        "hits": 3,
+        "roi": 420.45454545454544
+      },
+      "umatanHonmei": {
+        "participated": 15,
+        "hits": 2,
+        "roi": 118
+      },
+      "wideKenjitsu": {
+        "participated": 13,
+        "hits": 3,
+        "roi": 66.15384615384615
+      }
+    }
+  ],
+  "byType": {
+    "umarenHonmei": {
+      "roi": 116.96394686907021,
+      "joinedRaces": 527,
+      "totalRaces": 3233,
+      "hits": 43,
+      "hitRate": 8.159392789373813,
+      "recoveryRate": 116.96394686907021,
+      "monthlyCV": 0.9649382307617304,
+      "bestMonth": {
+        "month": "2026-04",
+        "roi": 420.45454545454544
+      },
+      "worstMonth": {
+        "month": "2025-12",
+        "roi": 0
+      },
+      "label": "馬連本命",
+      "costPerRace": 100,
+      "condition": "両馬 EV≥1.00 かつ スコア≥65 (C1/C2 除外)"
+    },
+    "umatanHonmei": {
+      "roi": 96.5,
+      "joinedRaces": 440,
+      "totalRaces": 3233,
+      "hits": 41,
+      "hitRate": 9.318181818181818,
+      "recoveryRate": 96.5,
+      "monthlyCV": 0.7403392411208021,
+      "bestMonth": {
+        "month": "2026-02",
+        "roi": 218.0263157894737
+      },
+      "worstMonth": {
+        "month": "2025-12",
+        "roi": 0
+      },
+      "label": "馬単本命",
+      "costPerRace": 200,
+      "condition": "両馬 EV≥1.00 & スコア≥65 & オッズ≤15 (C1/C2 除外), 2点 BOX"
+    },
+    "wideKenjitsu": {
+      "roi": 99.06976744186046,
+      "joinedRaces": 387,
+      "totalRaces": 3233,
+      "hits": 99,
+      "hitRate": 25.581395348837212,
+      "recoveryRate": 99.06976744186046,
+      "monthlyCV": 0.2683244267775756,
+      "bestMonth": {
+        "month": "2026-03",
+        "roi": 160.8695652173913
+      },
+      "worstMonth": {
+        "month": "2025-06",
+        "roi": 55.11627906976744
+      },
+      "label": "ワイド堅実",
+      "costPerRace": 100,
+      "condition": "両馬 EV≥1.02 & スコア≥65 & オッズ≤10 (C1 のみ除外)"
+    }
+  },
+  "strategy": {
+    "name": "Phase 2G ハイブリッド",
+    "description": "クラス別除外 × EVベースの3段階推奨戦略",
+    "rules": [
+      {
+        "class": "1勝クラス (500万以下)",
+        "umaren": "skip",
+        "umatan": "skip",
+        "wide": "skip"
+      },
+      {
+        "class": "2勝クラス (1000万以下)",
+        "umaren": "skip",
+        "umatan": "skip",
+        "wide": "参加"
+      },
+      {
+        "class": "3勝/OP/G1-G3",
+        "umaren": "参加",
+        "umatan": "参加",
+        "wide": "参加"
+      },
+      {
+        "class": "新馬/未勝利",
+        "umaren": "参加",
+        "umatan": "参加",
+        "wide": "参加"
+      }
+    ],
+    "verificationSummary": "3233R × 時系列CV 3セットで検証済み"
+  }
+}
