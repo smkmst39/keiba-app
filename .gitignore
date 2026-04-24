@@ -29,3 +29,13 @@ pnpm-debug.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# 検証データのバックアップディレクトリ（誤コミット予防）
+scripts/verification/backup_*/
+scripts/verification_backup_*/
+
+# 検証スクリプトのログ
+scripts/verification/collect.log
+
+# 検証レポート（一時的な比較メモ、長期保持は別ファイル名で）
+scripts/verification/comparison_*.md
