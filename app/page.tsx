@@ -12,9 +12,11 @@ import { RaceSelector } from '@/app/components/RaceSelector';
 import { BakenSimulator } from '@/app/components/BakenSimulator';
 import { RaceReport } from '@/app/components/RaceReport';
 import { RaceVerification } from '@/app/components/RaceVerification';
+import { RaceSelectorFAB, RaceSelectorDrawer } from '@/app/components/RaceSelectorDrawer';
 
 export default function Home() {
   const [race, setRace]   = useState<Race | null>(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
     <main style={styles.main}>
@@ -74,7 +76,17 @@ export default function Home() {
           {' '}|{' '}
           <a href="/api/race/202606030511" target="_blank" rel="noreferrer">モックデータ確認</a>
         </p>
+        {/* FAB と下部の重なり防止のためのフッターパディング */}
+        <div style={{ height: '64px' }} aria-hidden="true" />
       </footer>
+
+      {/* レース選択 フローティングドロワー (FAB + ボトムシート) */}
+      <RaceSelectorFAB race={race} onClick={() => setDrawerOpen(true)} />
+      <RaceSelectorDrawer
+        isOpen={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+        onRaceLoaded={setRace}
+      />
     </main>
   );
 }
