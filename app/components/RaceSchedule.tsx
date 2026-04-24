@@ -15,6 +15,8 @@ import {
   RELIABILITY_EMOJI,
   type RaceListHint,
 } from '@/lib/recommendation/detector';
+import { useRaceStatusSummary } from '@/lib/hooks/usePurchaseStatus';
+import { PurchaseStatusIcon } from '@/app/components/PurchaseCheckbox';
 
 // ==========================================
 // 推奨ヒント用: public/dashboard-data.json の byCategory.classOnly を取得
@@ -118,7 +120,7 @@ function Skeleton({ width, height }: { width: string; height: string }) {
 // hint が渡されると背景・左 border + 信頼度バッジを適用
 // ==========================================
 function RaceItem({
-  raceNum, startTime, raceName, grade, headCount,
+  raceId, raceNum, startTime, raceName, grade, headCount,
   selected, onClick, hint,
 }: {
   raceId: string; raceNum: number; startTime: string;
@@ -129,6 +131,7 @@ function RaceItem({
   const recStyle = hint ? REC_STYLE[hint.level] : null;
   const emoji    = hint ? RELIABILITY_EMOJI[hint.reliability] : '';
   const showLabel = hint && (hint.level === 'honmei' || hint.level === 'kenjitsu' || hint.level === 'excluded');
+  const purchaseSummary = useRaceStatusSummary(raceId);
 
   const bg =
     selected ? '#ebf8ff' :
@@ -224,6 +227,7 @@ function RaceItem({
           {emoji}
         </span>
       )}
+      <PurchaseStatusIcon summary={purchaseSummary} />
     </button>
   );
 }

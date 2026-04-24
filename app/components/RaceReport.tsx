@@ -16,6 +16,17 @@ import {
   EXPECTED_ROI,
 } from '@/lib/score/calculator';
 import { ReliabilityCard } from '@/app/components/ReliabilityCard';
+import { PurchaseCheckbox } from '@/app/components/PurchaseCheckbox';
+import type { TicketType } from '@/lib/purchaseStore';
+
+// ----------------------------------------
+// 購入ステータス用の組み合わせ文字列生成
+// ----------------------------------------
+function comboStringFor(type: TicketType, horses: Horse[], ordered = false): string {
+  if (horses.length === 1) return String(horses[0].id);
+  const sep = ordered ? '→' : '-';
+  return horses.map((h) => h.id).join(sep);
+}
 
 // ==========================================
 // ユーティリティ
@@ -524,6 +535,7 @@ function tierHeader(color: string, bg: string): React.CSSProperties {
 /** Phase 2F: 3段階推奨カード (本命/堅実/参考) */
 function TieredBetCard({
   tier, label, roi, horses, reason, costText, ordered = false,
+  raceId, ticketType,
 }: {
   tier: 'honmei' | 'kenjitsu' | 'reference';
   label: string;
@@ -532,6 +544,9 @@ function TieredBetCard({
   reason: string;
   costText: string;
   ordered?: boolean;
+  /** 購入ステータス管理: 未指定なら表示しない */
+  raceId?: string;
+  ticketType?: TicketType;
 }) {
   const tierStyle = {
     honmei:    { border: '#b45309', bg: '#fffbeb', accent: '#b45309' },
@@ -573,8 +588,24 @@ function TieredBetCard({
           {costText}
         </span>
       </div>
-      <div style={{ fontSize: '0.65rem', color: '#64748b', marginTop: '0.1rem', lineHeight: 1.3 }}>
-        {reason}
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.35rem',
+        fontSize: '0.65rem',
+        color: '#64748b',
+        marginTop: '0.1rem',
+        lineHeight: 1.3,
+        flexWrap: 'wrap',
+      }}>
+        <span style={{ flex: 1, minWidth: 0 }}>{reason}</span>
+        {raceId && ticketType && (
+          <PurchaseCheckbox
+            raceId={raceId}
+            ticketType={ticketType}
+            combination={comboStringFor(ticketType, horses, ordered)}
+          />
+        )}
       </div>
     </div>
   );
@@ -600,6 +631,7 @@ function SkipCard({ label, reason }: { label: string; reason: string }) {
 
 function BetRecommendCard({
   label, horses, estOdds, ev, type, axes, spokes, points,
+  raceId, ticketType,
 }: {
   label: string;
   horses: Horse[];
@@ -612,6 +644,9 @@ function BetRecommendCard({
   spokes?: Horse[];
   /** 購入点数（ハイブリッド戦略の場合は自動算出した点数） */
   points?: number;
+  /** 購入ステータス: 未指定なら表示しない */
+  raceId?: string;
+  ticketType?: TicketType;
 }) {
   const color = evColor(ev);
   const isHybrid = axes && spokes && axes.length > 0 && spokes.length > 0;
@@ -645,8 +680,23 @@ function BetRecommendCard({
           <span style={{ color: '#2b6cb0' }}>ひも</span> {spokes!.map(h => h.id).join('・')}
         </div>
       ) : (
-        <div style={{ fontWeight: 700, fontSize: '0.75rem', color: '#333' }}>
-          {horses.map(h => h.id).join(type === 'santan' || type === 'umatan' ? '→' : '-')}
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.35rem',
+          fontWeight: 700,
+          fontSize: '0.75rem',
+          color: '#333',
+          flexWrap: 'wrap',
+        }}>
+          <span>{horses.map(h => h.id).join(type === 'santan' || type === 'umatan' ? '→' : '-')}</span>
+          {raceId && ticketType && horses.length > 0 && (
+            <PurchaseCheckbox
+              raceId={raceId}
+              ticketType={ticketType}
+              combination={comboStringFor(ticketType, horses, type === 'santan' || type === 'umatan')}
+            />
+          )}
         </div>
       )}
     </div>
@@ -1027,6 +1077,7 @@ export function RaceReport({ race }: Props) {
                 horses={betRecs.tieredReco.umarenHonmei.horses}
                 reason={`両馬スコア ${betRecs.tieredReco.umarenHonmei.horses.map((h) => (h.score ?? 0).toFixed(0)).join('/')}、EV ${betRecs.tieredReco.umarenHonmei.horses.map((h) => (h.ev ?? 0).toFixed(2)).join('/')}`}
                 costText="100円（1点）"
+                raceId={race.raceId} ticketType="uren"
               />
             ) : (
               <SkipCard
@@ -1047,6 +1098,7 @@ export function RaceReport({ race }: Props) {
                 ordered
                 reason={`両馬スコア ${betRecs.tieredReco.umatanHonmei.horses.map((h) => (h.score ?? 0).toFixed(0)).join('/')}、オッズ ${betRecs.tieredReco.umatanHonmei.horses.map((h) => h.odds.toFixed(1)).join('/')}`}
                 costText="200円（2点BOX）"
+                raceId={race.raceId} ticketType="utan"
               />
             ) : (
               <SkipCard
@@ -1073,6 +1125,7 @@ export function RaceReport({ race }: Props) {
                 horses={betRecs.tieredReco.wideKenjitsu.horses}
                 reason={`両馬スコア ${betRecs.tieredReco.wideKenjitsu.horses.map((h) => (h.score ?? 0).toFixed(0)).join('/')}、オッズ ${betRecs.tieredReco.wideKenjitsu.horses.map((h) => h.odds.toFixed(1)).join('/')}`}
                 costText="100円（1点）"
+                raceId={race.raceId} ticketType="wide"
               />
             ) : (
               <SkipCard
@@ -1099,6 +1152,7 @@ export function RaceReport({ race }: Props) {
                 horses={[betRecs.tieredReco.tanReference.horse]}
                 reason={`EV ${(betRecs.tieredReco.tanReference.horse.ev ?? 0).toFixed(2)}、参考値`}
                 costText="100円"
+                raceId={race.raceId} ticketType="tan"
               />
             ) : null}
             {betRecs.tieredReco.fukuReference?.horse ? (
@@ -1109,6 +1163,7 @@ export function RaceReport({ race }: Props) {
                 horses={[betRecs.tieredReco.fukuReference.horse]}
                 reason={`EV≥1.07、安定狙い`}
                 costText="100円"
+                raceId={race.raceId} ticketType="fuku"
               />
             ) : (
               <div style={{ color: '#64748b', fontSize: '0.8rem', padding: '0.3rem 0.5rem' }}>
@@ -1148,6 +1203,7 @@ export function RaceReport({ race }: Props) {
               estOdds={betRecs.tan.odds}
               ev={betRecs.tan.ev ?? 0}
               type="tan"
+              raceId={race.raceId} ticketType="tan"
             />
             {/* 馬連 */}
             {betRecs.umaren && (
@@ -1157,6 +1213,7 @@ export function RaceReport({ race }: Props) {
                 estOdds={betRecs.umaren.odds}
                 ev={betRecs.avgEV(betRecs.umaren.horses)}
                 type="umaren"
+                raceId={race.raceId} ticketType="uren"
               />
             )}
             {/* 複勝 (Phase 2E Stage 2: EV≥1.07 の馬のみ推奨・ROI 84.8%) */}
@@ -1168,6 +1225,7 @@ export function RaceReport({ race }: Props) {
                 estOdds={Math.max(1, Math.round(betRecs.fuku.horse.fukuOddsMin * 10) / 10)}
                 ev={betRecs.fuku.horse.ev ?? 0}
                 type="fuku"
+                raceId={race.raceId} ticketType="fuku"
               />
             ) : (
               <div style={{
@@ -1191,6 +1249,7 @@ export function RaceReport({ race }: Props) {
                 estOdds={betRecs.wide.odds}
                 ev={betRecs.avgEV(betRecs.wide.horses)}
                 type="wide"
+                raceId={race.raceId} ticketType="wide"
               />
             )}
             {/* 三連複 (現行: ハイブリッド軸+ひも BOX)
