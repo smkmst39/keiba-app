@@ -36,6 +36,18 @@ export default function Home() {
           }}>
             📊 ダッシュボード
           </Link>
+          <Link href="/purchases" style={{
+            fontSize: '0.72rem',
+            color: '#065f46',
+            textDecoration: 'none',
+            fontWeight: 700,
+            padding: '0.25rem 0.5rem',
+            border: '1px solid #065f46',
+            borderRadius: '4px',
+            whiteSpace: 'nowrap',
+          }}>
+            📒 購入記録
+          </Link>
         </div>
         <p style={styles.subtitle}>
           レースを選択するとスコア・期待値が自動計算されます

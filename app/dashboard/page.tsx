@@ -88,7 +88,8 @@ export default async function DashboardPage() {
 function Nav() {
   return (
     <nav style={styles.nav}>
-      <Link href="/" style={styles.navLink}>← 予想ツールに戻る</Link>
+      <Link href="/" style={styles.navLink}>← 予想ツール</Link>
+      <Link href="/purchases" style={styles.navLink}>📒 購入記録</Link>
     </nav>
   );
 }
@@ -101,8 +102,11 @@ const styles: Record<string, React.CSSProperties> = {
     fontFamily: "'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif",
   },
   nav: {
+    display: 'flex',
+    gap: '0.6rem',
     marginBottom: '0.4rem',
     fontSize: '0.72rem',
+    flexWrap: 'wrap',
   },
   navLink: {
     color: '#2b6cb0',
