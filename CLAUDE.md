@@ -107,6 +107,28 @@ export function BakenSimulator() {}
 
 ---
 
+## Git運用ルール
+
+### 作業開始前の必須チェック
+- 作業を始める前に必ず `git pull origin main` を実行すること
+- ローカルとリモートが乖離するとマージ作業が発生する
+
+### 週次スクレイプとの関係
+- `.github/workflows/weekly-scrape.yml` が毎週火曜 08:00 JST に自動実行される
+- 自動コミット例: `chore: weekly scrape YYYY-MM-DD (+NNR)`
+- 火曜日以降の作業時は特に `git pull origin main` を忘れない
+
+### push が rejected された場合の対処
+1. `git pull origin main` でリモートの変更を取り込む
+2. マージコミットメッセージはデフォルトのまま `:wq` で保存
+3. `git push origin main` で再度 push
+
+### 設定
+- マージ方式: `git config pull.rebase false`（merge方式）
+- 週次スクレイプとコード変更は別ファイルなので競合は起きにくい
+
+---
+
 ## フェーズ管理
 
 | フェーズ | 内容                          | 状態     |
