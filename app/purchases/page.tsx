@@ -14,11 +14,17 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import {
   removePurchaseEntry,
+  recordPurchaseResult,
+  clearPurchaseResult,
+  bulkRecordRaceResults,
+  getOverallROI,
+  getPurchaseStore,
   type PurchaseEntry,
   type RacePurchaseData,
   type TicketType,
 } from '@/lib/purchaseStore';
 import { usePurchaseStore } from '@/lib/hooks/usePurchaseStatus';
+import { promptRecordResult } from '@/app/components/PurchaseCheckbox';
 
 // raceId 5-6桁目 → 競馬場 (lib/scraper/CLAUDE.md と同期)
 const COURSE_MAP: Record<string, string> = {
@@ -69,10 +75,17 @@ function formatDate(iso?: string): string {
 // ----------------------------------------
 type StatusFilter = 'all' | 'planned' | 'purchased';
 type TypeFilter = 'all' | TicketType;
+type ResultFilter = 'all' | 'pending' | 'hit' | 'miss';
 
-function passFilter(e: PurchaseEntry, sf: StatusFilter, tf: TypeFilter): boolean {
+function passFilter(e: PurchaseEntry, sf: StatusFilter, tf: TypeFilter, rf: ResultFilter): boolean {
   if (sf !== 'all' && e.status !== sf) return false;
   if (tf !== 'all' && e.ticketType !== tf) return false;
+  if (rf !== 'all') {
+    if (e.status !== 'purchased') return false; // 結果は purchased のみ
+    if (rf === 'pending') return e.result == null;
+    if (rf === 'hit')     return e.result?.hit === true;
+    if (rf === 'miss')    return e.result?.hit === false;
+  }
   return true;
 }
 
@@ -84,6 +97,7 @@ export default function PurchasesPage() {
   const store = usePurchaseStore();
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('all');
   const [typeFilter,   setTypeFilter]   = useState<TypeFilter>('all');
+  const [resultFilter, setResultFilter] = useState<ResultFilter>('all');
 
   const allRaces: RacePurchaseData[] = useMemo(
     () => Object.values(store.races).sort((a, b) => b.raceId.localeCompare(a.raceId)),
@@ -93,9 +107,9 @@ export default function PurchasesPage() {
   // フィルタ適用後のレース別集計
   const filteredRaces = useMemo(() => {
     return allRaces
-      .map((r) => ({ ...r, entries: r.entries.filter((e) => passFilter(e, statusFilter, typeFilter)) }))
+      .map((r) => ({ ...r, entries: r.entries.filter((e) => passFilter(e, statusFilter, typeFilter, resultFilter)) }))
       .filter((r) => r.entries.length > 0);
-  }, [allRaces, statusFilter, typeFilter]);
+  }, [allRaces, statusFilter, typeFilter, resultFilter]);
 
   // サマリ (フィルタは未適用、全体集計)
   const summary = useMemo(() => {
@@ -124,6 +138,40 @@ export default function PurchasesPage() {
     };
   }, [allRaces]);
 
+  // ROI サマリ (購読再計算は store 変更で自動)
+  const roi = useMemo(() => {
+    // store を依存に入れて再計算
+    void store;
+    return getOverallROI();
+  }, [store]);
+
+  const recordedCount = roi.hitCount + roi.missCount;
+  const progressPct = roi.purchasedCount > 0
+    ? (recordedCount / roi.purchasedCount) * 100
+    : 0;
+
+  // JSON エクスポート
+  const handleExport = () => {
+    if (typeof window === 'undefined') return;
+    const data = getPurchaseStore();
+    const json = JSON.stringify(data, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const now = new Date();
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, '0');
+    const dd = String(now.getDate()).padStart(2, '0');
+    const hh = String(now.getHours()).padStart(2, '0');
+    const mi = String(now.getMinutes()).padStart(2, '0');
+    const filename = `purchase-history-${yyyy}${mm}${dd}-${hh}${mi}.json`;
+    const a = document.createElement('a');
+    a.href = url; a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <main style={styles.main}>
       <nav style={styles.nav}>
@@ -132,9 +180,30 @@ export default function PurchasesPage() {
       </nav>
 
       <header style={styles.header}>
-        <h1 style={styles.title}>📒 購入記録</h1>
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <h1 style={styles.title}>📒 購入記録</h1>
+          <button
+            type="button"
+            onClick={handleExport}
+            style={{
+              marginLeft: 'auto',
+              fontSize: '0.7rem',
+              padding: '0.25rem 0.55rem',
+              border: '1px solid #2563eb',
+              borderRadius: '4px',
+              background: '#fff',
+              color: '#2563eb',
+              fontWeight: 700,
+              cursor: 'pointer',
+              whiteSpace: 'nowrap',
+            }}
+            aria-label="購入記録 JSON をダウンロード"
+          >
+            📥 JSONエクスポート
+          </button>
+        </div>
         <p style={styles.subtitle}>
-          手動チェック機能で記録した「購入予定 / 購入済」一覧 ({summary.raceCount}R / {summary.entryCount}件)
+          手動チェック機能で記録した「購入予定 / 購入済 / 結果」一覧 ({summary.raceCount}R / {summary.entryCount}件)
         </p>
       </header>
 
@@ -142,15 +211,51 @@ export default function PurchasesPage() {
       <section style={card}>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(6rem, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(5.5rem, 1fr))',
           gap: '0.3rem',
         }}>
-          <Tile label="合計購入額" value={`¥${summary.totalAmount.toLocaleString()}`} color="#065f46" />
+          <Tile label="合計購入額" value={`¥${roi.totalSpent.toLocaleString()}`} color="#065f46" />
+          <Tile label="合計払戻"   value={`¥${roi.totalPayout.toLocaleString()}`} color="#0369a1" />
+          <Tile
+            label="ROI"
+            value={recordedCount > 0 ? `${roi.roi.toFixed(1)}%` : '—'}
+            color={roi.roi >= 100 ? '#065f46' : roi.roi >= 50 ? '#92400e' : '#7f1d1d'}
+          />
+          <Tile label="🎯 的中"    value={`${roi.hitCount}件`} color="#b45309" />
+          <Tile label="❌ 不的中"  value={`${roi.missCount}件`} color="#7f1d1d" />
+          <Tile label="⏳ 未記録"  value={`${roi.pendingCount}件`} color="#475569" />
           <Tile label="購入レース" value={`${summary.raceCount}R`} color="#1a365d" />
-          <Tile label="エントリ" value={`${summary.entryCount}件`} color="#1a365d" />
-          <Tile label="📝 予定" value={`${summary.plannedCount}件`} color="#92400e" />
-          <Tile label="💰 購入済" value={`${summary.purchasedCount}件`} color="#065f46" />
+          <Tile label="📝 予定"    value={`${summary.plannedCount}件`} color="#92400e" />
         </div>
+
+        {/* 結果記録 進捗バー */}
+        {roi.purchasedCount > 0 && (
+          <div style={{ marginTop: '0.4rem' }}>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              fontSize: '0.62rem',
+              color: '#64748b',
+              marginBottom: '0.15rem',
+            }}>
+              <span>結果記録の進捗</span>
+              <span>{recordedCount}/{roi.purchasedCount} ({progressPct.toFixed(0)}%)</span>
+            </div>
+            <div style={{
+              height: '6px',
+              background: '#e2e8f0',
+              borderRadius: '3px',
+              overflow: 'hidden',
+            }}>
+              <div style={{
+                width: `${progressPct}%`,
+                height: '100%',
+                background: progressPct >= 100 ? '#065f46' : '#3b82f6',
+                transition: 'width 0.2s',
+              }} />
+            </div>
+          </div>
+        )}
 
         {summary.byType.size > 0 && (
           <div style={{
@@ -184,14 +289,23 @@ export default function PurchasesPage() {
 
       {/* フィルタ */}
       <section style={card}>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', alignItems: 'center', fontSize: '0.72rem' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem 0.5rem', alignItems: 'center', fontSize: '0.72rem' }}>
           <span style={{ color: '#64748b', fontWeight: 700 }}>状態:</span>
           {(['all', 'planned', 'purchased'] as StatusFilter[]).map((s) => (
             <FilterBtn
               key={s}
               active={statusFilter === s}
               onClick={() => setStatusFilter(s)}
-              label={s === 'all' ? '全て' : s === 'planned' ? '📝 予定のみ' : '💰 購入済のみ'}
+              label={s === 'all' ? '全て' : s === 'planned' ? '📝 予定' : '💰 購入済'}
+            />
+          ))}
+          <span style={{ color: '#64748b', fontWeight: 700, marginLeft: '0.35rem' }}>結果:</span>
+          {(['all', 'pending', 'hit', 'miss'] as ResultFilter[]).map((r) => (
+            <FilterBtn
+              key={r}
+              active={resultFilter === r}
+              onClick={() => setResultFilter(r)}
+              label={r === 'all' ? '全て' : r === 'pending' ? '⏳未記録' : r === 'hit' ? '🎯的中' : '❌不的中'}
             />
           ))}
           <span style={{ color: '#64748b', fontWeight: 700, marginLeft: '0.35rem' }}>券種:</span>
@@ -237,10 +351,30 @@ export default function PurchasesPage() {
 }
 
 // ----------------------------------------
-// レースブロック
+// レースブロック (一括ハズレボタン付き)
 // ----------------------------------------
 function RaceBlock({ race }: { race: RacePurchaseData }) {
   const dec = decodeRaceId(race.raceId);
+
+  // 結果未記録 purchased エントリの券種別カウント (一括ハズレボタン用)
+  const pendingByType = new Map<TicketType, number>();
+  for (const e of race.entries) {
+    if (e.status === 'purchased' && !e.result) {
+      pendingByType.set(e.ticketType, (pendingByType.get(e.ticketType) ?? 0) + 1);
+    }
+  }
+
+  const handleBulkMiss = (ticketType: TicketType, count: number) => {
+    if (typeof window === 'undefined') return;
+    if (!window.confirm(
+      `${dec.venue} ${dec.raceNum} の${TICKET_LABEL[ticketType]} 結果未記録 ${count}件を全てハズレにしますか?`,
+    )) return;
+    const recorded = bulkRecordRaceResults(race.raceId, ticketType, false);
+    if (typeof window !== 'undefined') {
+      window.alert(`${recorded}件をハズレ記録しました`);
+    }
+  };
+
   return (
     <section style={card}>
       <div style={{
@@ -268,6 +402,39 @@ function RaceBlock({ race }: { race: RacePurchaseData }) {
         </span>
       </div>
 
+      {/* 一括ハズレボタン (券種別、未記録 ≥ 1 件のみ) */}
+      {pendingByType.size > 0 && (
+        <div style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: '0.25rem',
+          marginBottom: '0.3rem',
+          fontSize: '0.65rem',
+          alignItems: 'center',
+        }}>
+          <span style={{ color: '#64748b', fontWeight: 700 }}>一括ハズレ:</span>
+          {Array.from(pendingByType.entries()).map(([t, n]) => (
+            <button
+              key={t}
+              type="button"
+              onClick={() => handleBulkMiss(t, n)}
+              style={{
+                padding: '0.12rem 0.4rem',
+                border: '1px solid #fca5a5',
+                borderRadius: '3px',
+                background: '#fff5f5',
+                color: '#7f1d1d',
+                fontWeight: 700,
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              ❌ {TICKET_LABEL[t]} {n}件
+            </button>
+          ))}
+        </div>
+      )}
+
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
         {race.entries.map((e, idx) => (
           <EntryRow
@@ -292,18 +459,40 @@ function EntryRow({
   const isPurchased = entry.status === 'purchased';
   const color = TICKET_COLOR[entry.ticketType];
   const dt = formatDate(entry.purchasedAt ?? entry.plannedAt);
+  const result = entry.result;
+
+  // 結果状態 → 行背景色
+  const rowBg =
+    result?.hit ? '#fef3c7' :     // 的中: 金
+    result && !result.hit ? '#fee2e2' :  // 不的中: 赤
+    isPurchased ? '#f0fdf4' :     // 購入済 (未記録): 緑
+    '#fffbeb';                     // 予定: 橙
+
+  const handleRecord = () => {
+    if (!isPurchased) return;
+    const r = promptRecordResult(entry.result);
+    if (!r) return;
+    recordPurchaseResult(raceId, entryIndex, r);
+  };
+
+  const handleClearResult = () => {
+    if (typeof window === 'undefined') return;
+    if (!window.confirm('結果記録を取り消しますか？')) return;
+    clearPurchaseResult(raceId, entryIndex);
+  };
 
   return (
     <div
       style={{
         display: 'flex',
         alignItems: 'center',
-        gap: '0.4rem',
+        gap: '0.35rem',
         padding: '0.3rem 0.4rem',
         borderLeft: `4px solid ${color}`,
-        background: isPurchased ? '#f0fdf4' : '#fffbeb',
+        background: rowBg,
         borderRadius: '3px',
         minWidth: 0,
+        flexWrap: 'wrap',
       }}
     >
       {/* 状態 */}
@@ -342,7 +531,7 @@ function EntryRow({
           fontSize: '0.78rem',
           fontWeight: 700,
           color: '#1e293b',
-          flex: 1,
+          flex: '1 1 5rem',
           minWidth: 0,
           whiteSpace: 'nowrap',
           overflow: 'hidden',
@@ -367,10 +556,66 @@ function EntryRow({
         </span>
       )}
 
+      {/* 結果バッジ + 操作 (purchased のみ) */}
+      {isPurchased && (
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem', flexShrink: 0 }}>
+          {result == null ? (
+            <>
+              <span style={{
+                fontSize: '0.62rem',
+                padding: '0.05rem 0.3rem',
+                borderRadius: '3px',
+                background: '#475569',
+                color: '#fff',
+                fontWeight: 700,
+                whiteSpace: 'nowrap',
+              }}>⏳ 未記録</span>
+              <button
+                type="button"
+                onClick={handleRecord}
+                style={{ ...resultBtnStyle, color: '#1d4ed8', borderColor: '#93c5fd' }}
+              >
+                📊 結果
+              </button>
+            </>
+          ) : result.hit ? (
+            <>
+              <span style={{
+                fontSize: '0.62rem',
+                padding: '0.05rem 0.3rem',
+                borderRadius: '3px',
+                background: '#b45309',
+                color: '#fff',
+                fontWeight: 700,
+                whiteSpace: 'nowrap',
+              }}>🎯 ¥{result.payout.toLocaleString()}</span>
+              <button type="button" onClick={handleRecord} style={resultBtnStyle}>編集</button>
+              <button type="button" onClick={handleClearResult}
+                style={{ ...resultBtnStyle, color: '#991b1b', borderColor: '#fca5a5' }}>✕</button>
+            </>
+          ) : (
+            <>
+              <span style={{
+                fontSize: '0.62rem',
+                padding: '0.05rem 0.3rem',
+                borderRadius: '3px',
+                background: '#7f1d1d',
+                color: '#fff',
+                fontWeight: 700,
+                whiteSpace: 'nowrap',
+              }}>❌ 外れ</span>
+              <button type="button" onClick={handleRecord} style={resultBtnStyle}>編集</button>
+              <button type="button" onClick={handleClearResult}
+                style={{ ...resultBtnStyle, color: '#991b1b', borderColor: '#fca5a5' }}>✕</button>
+            </>
+          )}
+        </span>
+      )}
+
       {/* 日時 */}
       <span
         style={{
-          fontSize: '0.62rem',
+          fontSize: '0.6rem',
           color: '#64748b',
           whiteSpace: 'nowrap',
           flexShrink: 0,
@@ -406,6 +651,18 @@ function EntryRow({
     </div>
   );
 }
+
+const resultBtnStyle: React.CSSProperties = {
+  fontSize: '0.6rem',
+  color: '#475569',
+  background: '#fff',
+  border: '1px solid #cbd5e1',
+  borderRadius: '3px',
+  padding: '0.05rem 0.3rem',
+  cursor: 'pointer',
+  whiteSpace: 'nowrap',
+  lineHeight: 1.2,
+};
 
 // ----------------------------------------
 // 共通サブコンポーネント

@@ -21,6 +21,13 @@ export type TicketType =
   | 'santan'    // 三連単
   | 'wakuren';  // 枠連
 
+/** 結果記録 (フェーズ2) — purchased エントリにのみ後から付与可能 */
+export type PurchaseResult = {
+  hit: boolean;             // 的中
+  payout: number;           // 払戻金額 (円、不的中=0)
+  recordedAt: string;       // ISO 結果記録日時
+};
+
 export type PurchaseEntry = {
   status: PurchaseStatus;
   ticketType: TicketType;
@@ -28,6 +35,7 @@ export type PurchaseEntry = {
   plannedAt?: string;       // ISO
   purchasedAt?: string;     // ISO
   amount?: number;          // 円
+  result?: PurchaseResult;  // 結果記録 (フェーズ2、未記録は undefined)
 };
 
 export type RacePurchaseData = {
@@ -248,4 +256,126 @@ export function markAsPurchased(
 export function removeByKey(raceId: string, ticketType: TicketType, combination: string): void {
   const existing = findEntry(raceId, ticketType, combination);
   if (existing) removePurchaseEntry(raceId, existing.index);
+}
+
+// ----------------------------------------
+// 結果記録 API (フェーズ2)
+// ----------------------------------------
+
+/** 単一エントリの結果を記録 (上書き可) */
+export function recordPurchaseResult(
+  raceId: string,
+  entryIndex: number,
+  result: PurchaseResult,
+): void {
+  updatePurchaseEntry(raceId, entryIndex, { result });
+}
+
+/** 単一エントリの結果記録をクリア (purchased 状態は維持) */
+export function clearPurchaseResult(raceId: string, entryIndex: number): void {
+  mutateStore((s) => {
+    const race = s.races[raceId];
+    if (!race) return s;
+    const entries = race.entries.map((e, i) => {
+      if (i !== entryIndex) return e;
+      const { result: _drop, ...rest } = e;
+      return rest as PurchaseEntry;
+    });
+    return { ...s, races: { ...s.races, [raceId]: { ...race, entries } } };
+  });
+}
+
+/**
+ * 一括ハズレ記録: 指定 (raceId, ticketType) の result 未記録 purchased エントリ全てを
+ * hit=false, payout=0 で記録。誤タップ防止のため呼び出し側で confirm 必須。
+ */
+export function bulkRecordRaceResults(
+  raceId: string,
+  ticketType: TicketType,
+  hit: false,
+  payout = 0,
+): number {
+  let count = 0;
+  mutateStore((s) => {
+    const race = s.races[raceId];
+    if (!race) return s;
+    const recordedAt = new Date().toISOString();
+    const entries = race.entries.map((e) => {
+      if (
+        e.status === 'purchased' &&
+        e.ticketType === ticketType &&
+        !e.result
+      ) {
+        count++;
+        return { ...e, result: { hit, payout, recordedAt } };
+      }
+      return e;
+    });
+    return { ...s, races: { ...s.races, [raceId]: { ...race, entries } } };
+  });
+  return count;
+}
+
+// ----------------------------------------
+// ROI 集計 API (フェーズ2)
+// ----------------------------------------
+
+export type RaceROI = {
+  totalSpent: number;
+  totalPayout: number;
+  roi: number;       // %
+  recordedCount: number;  // 結果記録済件数
+  pendingCount: number;   // 未記録件数 (purchased で result なし)
+};
+
+export type OverallROI = {
+  totalSpent: number;
+  totalPayout: number;
+  roi: number;       // %
+  hitCount: number;
+  missCount: number;
+  pendingCount: number;
+  purchasedCount: number;
+};
+
+/**
+ * レース単位の ROI。result 未記録エントリは集計対象外 (totalSpent から除外)。
+ * purchased が 0 件なら null。
+ */
+export function getRaceROI(raceId: string): RaceROI | null {
+  const entries = getRacePurchases(raceId);
+  let totalSpent = 0, totalPayout = 0;
+  let recordedCount = 0, pendingCount = 0;
+  let purchasedAny = false;
+  for (const e of entries) {
+    if (e.status !== 'purchased') continue;
+    purchasedAny = true;
+    if (!e.result) { pendingCount++; continue; }
+    totalSpent += e.amount ?? 0;
+    totalPayout += e.result.payout;
+    recordedCount++;
+  }
+  if (!purchasedAny) return null;
+  const roi = totalSpent > 0 ? (totalPayout / totalSpent) * 100 : 0;
+  return { totalSpent, totalPayout, roi, recordedCount, pendingCount };
+}
+
+/** 全期間 ROI。result 未記録は totalSpent から除外。 */
+export function getOverallROI(): OverallROI {
+  const store = getPurchaseStore();
+  let totalSpent = 0, totalPayout = 0;
+  let hitCount = 0, missCount = 0, pendingCount = 0, purchasedCount = 0;
+  for (const race of Object.values(store.races)) {
+    for (const e of race.entries) {
+      if (e.status !== 'purchased') continue;
+      purchasedCount++;
+      if (!e.result) { pendingCount++; continue; }
+      totalSpent += e.amount ?? 0;
+      totalPayout += e.result.payout;
+      if (e.result.hit) hitCount++;
+      else missCount++;
+    }
+  }
+  const roi = totalSpent > 0 ? (totalPayout / totalSpent) * 100 : 0;
+  return { totalSpent, totalPayout, roi, hitCount, missCount, pendingCount, purchasedCount };
 }

@@ -16,9 +16,46 @@ import {
   planPurchase,
   markAsPurchased,
   removeByKey,
+  recordPurchaseResult,
+  clearPurchaseResult,
+  findEntry,
   type TicketType,
+  type PurchaseResult,
 } from '@/lib/purchaseStore';
 import { usePurchaseEntry } from '@/lib/hooks/usePurchaseStatus';
+
+const MAX_PAYOUT = 1_000_000;
+
+/** 払戻金額入力 (0 〜 100万円の整数) */
+function promptPayout(defaultValue?: number): number | null {
+  if (typeof window === 'undefined') return null;
+  const raw = window.prompt(
+    `払戻金額 (円) を入力 (0〜${MAX_PAYOUT.toLocaleString()})`,
+    String(defaultValue ?? 0),
+  );
+  if (raw == null) return null;
+  const n = Number(raw.replace(/[^\d]/g, ''));
+  if (!Number.isFinite(n) || n < 0 || n > MAX_PAYOUT) {
+    window.alert(`0〜${MAX_PAYOUT.toLocaleString()}円の範囲で入力してください`);
+    return null;
+  }
+  return Math.floor(n);
+}
+
+/** 結果記録ダイアログ (confirm 的中? + prompt 払戻) */
+export function promptRecordResult(currentResult?: PurchaseResult): PurchaseResult | null {
+  if (typeof window === 'undefined') return null;
+  const hit = window.confirm('的中しましたか？\n\n[OK] 的中 → 払戻金額を入力\n[キャンセル] 不的中');
+  if (hit) {
+    const payout = promptPayout(currentResult?.payout || 1000);
+    if (payout == null || payout <= 0) {
+      window.alert('的中の場合は1円以上の払戻金額を入力してください');
+      return null;
+    }
+    return { hit: true, payout, recordedAt: new Date().toISOString() };
+  }
+  return { hit: false, payout: 0, recordedAt: new Date().toISOString() };
+}
 
 export type PurchaseCheckboxProps = {
   raceId: string;
@@ -63,6 +100,22 @@ export function PurchaseCheckbox({
     removeByKey(raceId, ticketType, combination);
   }, [raceId, ticketType, combination]);
 
+  const handleRecordResult = useCallback(() => {
+    if (!entry) return;
+    const result = promptRecordResult(entry.result);
+    if (!result) return;
+    const cur = findEntry(raceId, ticketType, combination);
+    if (!cur) return;
+    recordPurchaseResult(raceId, cur.index, result);
+  }, [entry, raceId, ticketType, combination]);
+
+  const handleClearResult = useCallback(() => {
+    if (typeof window !== 'undefined' && !window.confirm('結果記録を取り消しますか？')) return;
+    const cur = findEntry(raceId, ticketType, combination);
+    if (!cur) return;
+    clearPurchaseResult(raceId, cur.index);
+  }, [raceId, ticketType, combination]);
+
   // --- 未登録: 「+ 予定」ボタン ---
   if (!entry) {
     return (
@@ -90,61 +143,153 @@ export function PurchaseCheckbox({
 
   // --- planned / purchased ---
   const isPurchased = entry.status === 'purchased';
+  const result = entry.result;
 
   return (
     <span
       style={{
         display: 'inline-flex',
-        alignItems: 'center',
-        gap: '0.2rem',
+        flexDirection: 'column',
+        alignItems: 'flex-end',
+        gap: '0.15rem',
         fontSize: '0.62rem',
         whiteSpace: 'nowrap',
         flexShrink: 0,
       }}
     >
-      {/* ステータスバッジ */}
-      <span
-        style={{
-          padding: '0.08rem 0.3rem',
-          borderRadius: '3px',
-          fontWeight: 700,
-          background: isPurchased ? '#065f46' : '#92400e',
-          color: '#fff',
-        }}
-        aria-label={isPurchased ? '購入済' : '購入予定'}
-      >
-        {isPurchased ? `💰 ¥${(entry.amount ?? 0).toLocaleString()}` : '📝 予定'}
+      {/* === 1段目: 購入ステータス === */}
+      <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem' }}>
+        <span
+          style={{
+            padding: '0.08rem 0.3rem',
+            borderRadius: '3px',
+            fontWeight: 700,
+            background: isPurchased ? '#065f46' : '#92400e',
+            color: '#fff',
+          }}
+          aria-label={isPurchased ? '購入済' : '購入予定'}
+        >
+          {isPurchased ? `💰 ¥${(entry.amount ?? 0).toLocaleString()}` : '📝 予定'}
+        </span>
+
+        {isPurchased ? (
+          <button type="button" onClick={handlePurchase} aria-label="金額を編集" style={btnStyle}>
+            編集
+          </button>
+        ) : (
+          <button
+            type="button"
+            onClick={handlePurchase}
+            aria-label="購入済にする"
+            style={{ ...btnStyle, color: '#065f46', borderColor: '#6ee7b7' }}
+          >
+            💰 購入
+          </button>
+        )}
+        <button
+          type="button"
+          onClick={handleRemove}
+          aria-label="取消"
+          title="取消"
+          style={{ ...btnStyle, color: '#991b1b', borderColor: '#fca5a5' }}
+        >
+          ✕
+        </button>
       </span>
 
-      {/* アクションボタン */}
-      {isPurchased ? (
-        <button
-          type="button"
-          onClick={handlePurchase}
-          aria-label="金額を編集"
-          style={btnStyle}
-        >
-          編集
-        </button>
-      ) : (
-        <button
-          type="button"
-          onClick={handlePurchase}
-          aria-label="購入済にする"
-          style={{ ...btnStyle, color: '#065f46', borderColor: '#6ee7b7' }}
-        >
-          💰 購入
-        </button>
+      {/* === 2段目: 結果記録 (purchased のみ) === */}
+      {isPurchased && (
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem' }}>
+          {result == null ? (
+            <>
+              <span
+                style={{
+                  padding: '0.08rem 0.3rem',
+                  borderRadius: '3px',
+                  fontWeight: 700,
+                  background: '#475569',
+                  color: '#fff',
+                }}
+                aria-label="結果未記録"
+              >
+                ⏳ 未記録
+              </span>
+              <button
+                type="button"
+                onClick={handleRecordResult}
+                aria-label="結果を記録"
+                style={{ ...btnStyle, color: '#1d4ed8', borderColor: '#93c5fd' }}
+              >
+                📊 結果
+              </button>
+            </>
+          ) : result.hit ? (
+            <>
+              <span
+                style={{
+                  padding: '0.08rem 0.3rem',
+                  borderRadius: '3px',
+                  fontWeight: 700,
+                  background: '#b45309',
+                  color: '#fff',
+                }}
+                aria-label="的中"
+              >
+                🎯 ¥{result.payout.toLocaleString()}
+              </span>
+              <button
+                type="button"
+                onClick={handleRecordResult}
+                aria-label="結果を編集"
+                style={btnStyle}
+              >
+                編集
+              </button>
+              <button
+                type="button"
+                onClick={handleClearResult}
+                aria-label="結果記録を取消"
+                title="結果記録を取消"
+                style={{ ...btnStyle, color: '#991b1b', borderColor: '#fca5a5' }}
+              >
+                ✕
+              </button>
+            </>
+          ) : (
+            <>
+              <span
+                style={{
+                  padding: '0.08rem 0.3rem',
+                  borderRadius: '3px',
+                  fontWeight: 700,
+                  background: '#7f1d1d',
+                  color: '#fff',
+                }}
+                aria-label="不的中"
+              >
+                ❌ 外れ
+              </span>
+              <button
+                type="button"
+                onClick={handleRecordResult}
+                aria-label="結果を編集"
+                style={btnStyle}
+              >
+                編集
+              </button>
+              <button
+                type="button"
+                onClick={handleClearResult}
+                aria-label="結果記録を取消"
+                title="結果記録を取消"
+                style={{ ...btnStyle, color: '#991b1b', borderColor: '#fca5a5' }}
+              >
+                ✕
+              </button>
+            </>
+          )}
+        </span>
       )}
-      <button
-        type="button"
-        onClick={handleRemove}
-        aria-label="取消"
-        title="取消"
-        style={{ ...btnStyle, color: '#991b1b', borderColor: '#fca5a5' }}
-      >
-        ✕
-      </button>
     </span>
   );
 }
