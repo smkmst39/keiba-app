@@ -4,6 +4,8 @@
 // ==========================================
 
 import type { Horse, Race, BetType } from '../scraper/types';
+import type { PastRace } from '../scraper/horse_history';
+import { filterCourseRecord, findPreviousYearSameRace } from '../scraper/horse_history';
 
 // ==========================================
 // 定数
@@ -235,14 +237,71 @@ function scoreWeightChange(horse: Horse): number {
 }
 
 /**
- * 同コース成績スコア（0〜100）
- * Phase 1-C: 未実装のため中立値 50 を返す。
- * Phase 1-D 以降で Horse 型に courseWinRate / coursePlaceRate が追加されたら実装。
+ * 同コース成績スコア（0〜100） — Phase 1-D で実装
+ *
+ * 入力 horse.pastRaces から「同条件 (同競馬場 + 同距離カテゴリ + 同芝/ダ) ×
+ * 過去1年以内」のレースを抽出し、各走の rank と上がり3F を合成して評価する。
+ *
+ * - 経験ゼロまたは pastRaces 未取得 → 50（中央値）
+ * - サンプル < 3走 → trust = matched/3 で 50 とブレンド
+ * - 重賞 (raceGrade が L 以上) のみ「前年同レース成績」を 30% 加算
+ *
+ * race の必須プロパティ: course, distance, surface, raceGrade(任意), name
  */
-function scoreCourseRecord(_horse: Horse): number {
-  // TODO: Phase 1-D で実装
-  // return horse.courseWinRate * 50 + horse.coursePlaceRate * 50;
-  return 50;
+function scoreCourseRecord(horse: Horse, race?: Race): number {
+  // race が無い場合（calcScore 互換ラッパーなど）は中央値 50 を返す
+  if (!race) return 50;
+  const baseDate = race.fetchedAt ?? new Date();
+  const matched = horse.pastRaces
+    ? filterCourseRecord(horse.pastRaces, baseDate, race.course, race.surface, race.distance)
+    : [];
+
+  let baseScore: number;
+  if (matched.length === 0) {
+    baseScore = 50;
+  } else {
+    const avg = matched.reduce((s, p) => s + scoreOnePastRace(p), 0) / matched.length;
+    const trust = Math.min(matched.length / 3, 1);
+    baseScore = avg * trust + 50 * (1 - trust);
+  }
+
+  return applyPrevYearAdjustment(horse, race, baseScore, baseDate);
+}
+
+/** 1走分のパフォーマンススコア（0〜100）: 着順60% + 上がり3F40% */
+function scoreOnePastRace(past: PastRace): number {
+  const rankScore =
+    past.rank === 1 ? 100 :
+    past.rank === 2 ? 80 :
+    past.rank === 3 ? 65 :
+    past.rank <= 5 ? 50 :
+    past.rank <= 9 ? 30 :
+    10;
+
+  // 上がり3F: 33.0秒=100, 34.0=75, 35.0=50, 36.0=25 を目安に線形マップ
+  const lastThreeFScore = past.lastThreeF > 0
+    ? clamp(100 - (past.lastThreeF - 33.0) * 25, 0, 100)
+    : 50;
+
+  return rankScore * 0.6 + lastThreeFScore * 0.4;
+}
+
+/** 重賞 (raceGrade が L 以上) のみ前年同レース成績を 30% で加算 */
+function applyPrevYearAdjustment(
+  horse: Horse,
+  race: Race,
+  baseScore: number,
+  baseDate: Date,
+): number {
+  if (!isStakesRace(race.raceGrade)) return baseScore;
+  if (!horse.pastRaces) return baseScore * 0.7 + 50 * 0.3;
+  const prev = findPreviousYearSameRace(horse.pastRaces, baseDate, race.name);
+  const prevScore = prev ? scoreOnePastRace(prev) : 50;
+  return baseScore * 0.7 + prevScore * 0.3;
+}
+
+function isStakesRace(grade: Race['raceGrade']): boolean {
+  return grade === 'G1' || grade === 'G2' || grade === 'G3' || grade === 'L';
 }
 
 /**
@@ -377,13 +436,14 @@ function calcScoreInternal(
   trainingScores: number[],
   jockeyScores: number[],
   breedingScores: number[],
+  race?: Race,
 ): number {
   const idx = allHorses.findIndex((h) => h.id === horse.id);
 
   const s = {
     lastThreeF:   idx >= 0 ? threeFScores[idx]   : 50,
     training:     idx >= 0 ? trainingScores[idx] : 50,
-    courseRecord: scoreCourseRecord(horse),
+    courseRecord: scoreCourseRecord(horse, race),
     prevClass:    scorePrevClass(horse),
     breeding:     idx >= 0 ? breedingScores[idx] : 50,
     weightChange: scoreWeightChange(horse),
@@ -455,7 +515,7 @@ export function calcAllComponentScores(
     out.set(horse.id, {
       lastThreeF:   threeFScores[i]   ?? 50,
       training:     trainingScores[i] ?? 50,
-      courseRecord: scoreCourseRecord(horse),
+      courseRecord: scoreCourseRecord(horse, race),
       prevClass:    scorePrevClass(horse),
       breeding:     breedingScores[i] ?? 50,
       weightChange: scoreWeightChange(horse),
@@ -475,7 +535,7 @@ export function calcAllScores(race: Race, jockeyRates: Map<string, number> = new
   const breedingScores = scoreBreeding(allHorses);
 
   const scored = allHorses.map((horse, i) => {
-    const score = calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores, breedingScores);
+    const score = calcScoreInternal(horse, allHorses, threeFScores, trainingScores, jockeyScores, breedingScores, race);
     return { ...horse, score, breedingScore: breedingScores[i] };
   });
 
