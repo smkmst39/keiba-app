@@ -10,6 +10,7 @@ import type { Race, Horse, ComboOddsData, RaceResult, Grade } from './types';
 import { MOCK_NZT_2026 } from './__mocks__/202606030511';
 import { classifyPrevRace } from '../score/calculator';
 import { fetchSireStatsForHorses, getDistanceBand, type SireStatsByHorseNum } from './sire';
+import { fetchHorseResults, type PastRace } from './horse_history';
 
 // ==========================================
 // 定数
@@ -496,6 +497,22 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
     }
   }
 
+  // 過去戦績（Phase 1-D: scoreCourseRecord 用）。DISABLE_PAST_RACES=true で無効化。
+  // 1.5秒間隔のシリアル取得 (18頭で約27秒)。7日キャッシュが効くため2回目以降は短縮。
+  const pastRacesMap = new Map<number, PastRace[]>();
+  if (process.env.DISABLE_PAST_RACES !== 'true') {
+    for (const card of Array.from(cardResult.horseMap.values())) {
+      if (!card.horseId) continue;
+      try {
+        const past = await fetchHorseResults(card.horseId);
+        pastRacesMap.set(card.id, past);
+      } catch (e) {
+        console.warn(`[scraper] 過去戦績取得失敗 馬番${card.id}:`, e);
+      }
+      await sleep(SCRAPE_INTERVAL_MS);
+    }
+  }
+
   // 血統フィットネス計算に使う「レースの条件」を先に決める
   const raceBand = getDistanceBand(cardResult.distance);
 
@@ -531,6 +548,7 @@ export async function fetchRaceData(raceId: string): Promise<Race | null> {
       fatherId: sire?.fatherId,
       breedingFitness,
       // breedingScore は calcAllScores で normalize して付与
+      pastRaces: pastRacesMap.get(id),
     });
   }
 

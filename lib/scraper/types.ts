@@ -29,6 +29,10 @@ export type Horse = {
   /** 父馬の「当該コース×距離帯」連対率 (0〜1)。normalize 前のレート */
   breedingFitness?: number;
   breedingScore?: number;  // 血統適性スコア（0〜100。scoreBreeding で算出）
+
+  // --- Phase 1-D: 過去戦績（scoreCourseRecord で使用） ---
+  /** 競走馬個別ページから取得した全戦績。失敗時 undefined → スコア側で 50 フォールバック */
+  pastRaces?: import('./horse_history').PastRace[];
 };
 
 /** 距離帯の分類（血統スコア計算で使用） */
