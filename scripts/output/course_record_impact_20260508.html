@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>courseRecord 影響度確認 20260508</title>
+<style>
+  body { font-family: system-ui, "Hiragino Sans", "Yu Gothic", sans-serif; padding: 1.5rem; background: #f7fafc; color: #1a202c; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0 0 0.5rem; }
+  h2 { font-size: 1.05rem; margin: 1.2rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 2px solid #2b6cb0; color: #2b6cb0; }
+  section { background: #fff; border-radius: 8px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; }
+  .summary-card { padding: 0.8rem; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; }
+  .summary-card .label { font-size: 0.7rem; color: #718096; }
+  .summary-card .value { font-size: 1.1rem; font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+  th, td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #e2e8f0; text-align: left; }
+  th { background: #f7fafc; font-weight: 600; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.kiken { text-align: center; }
+  tbody tr:nth-child(even) { background: #f7fafc; }
+  .ok { color: #2f855a; font-weight: 700; }
+  .ng { color: #c53030; font-weight: 700; }
+  .note { font-size: 0.78rem; color: #4a5568; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>courseRecord 影響度確認レポート</h1>
+  <div class="note">生成: 2026-05-08T07:53:07.360+09:00 / 対象: モック ニュージーランドトロフィー / 全15頭</div>
+
+  <section>
+    <h2>サマリー</h2>
+    <div class="summary-grid">
+      <div class="summary-card"><div class="label">スコア中央値 (旧→新)</div><div class="value">53.2 → 52.6</div></div>
+      <div class="summary-card"><div class="label">スコア最大 (旧→新)</div><div class="value">72.0 → 78.5</div></div>
+      <div class="summary-card"><div class="label">EV中央値 (旧→新)</div><div class="value">0.980 → 0.980</div></div>
+      <div class="summary-card"><div class="label">危険人気馬数 (旧→新)</div><div class="value">0 → 0頭</div></div>
+    </div>
+    <p class="note" style="margin-top: 0.8rem">
+      健全性チェック: 旧 <span class="ng">NG</span>
+      / 新 <span class="ng">NG</span>
+      (基準: 全馬スコア 0〜100 / EV中央値 0.85〜1.10 / 人気薄EV平均 &lt; 0.9)
+    </p>
+  </section>
+
+  <section>
+    <h2>馬別比較 (旧 = pastRaces 未設定 / 新 = 人工 pastRaces 注入)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="num">馬番</th><th>馬名</th><th class="num">オッズ</th><th class="num">人気</th>
+          <th class="num">CR旧</th><th class="num">CR新</th><th class="num">CR差</th>
+          <th class="num">スコア旧</th><th class="num">スコア新</th><th class="num">差</th>
+          <th class="num">EV旧</th><th class="num">EV新</th>
+          <th>危旧</th><th>危新</th>
+        </tr>
+      </thead>
+      <tbody><tr>
+    <td class="num">1</td>
+    <td>ハノハノ</td>
+    <td class="num">14.6</td>
+    <td class="num">7</td>
+    <td class="num">50.0</td>
+    <td class="num">64.0</td>
+    <td class="num" style="color:#2f855a">+14.0</td>
+    <td class="num">56.2</td>
+    <td class="num">59.0</td>
+    <td class="num" style="color:#2f855a">+2.8</td>
+    <td class="num">0.986</td>
+    <td class="num">0.992</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">2</td>
+    <td>マダックス</td>
+    <td class="num">304.9</td>
+    <td class="num">15</td>
+    <td class="num">50.0</td>
+    <td class="num">21.0</td>
+    <td class="num" style="color:#c53030">-29.0</td>
+    <td class="num">34.7</td>
+    <td class="num">29.0</td>
+    <td class="num" style="color:#c53030">-5.7</td>
+    <td class="num">0.977</td>
+    <td class="num">0.976</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">3</td>
+    <td>レザベーション</td>
+    <td class="num">6.3</td>
+    <td class="num">4</td>
+    <td class="num">50.0</td>
+    <td class="num">64.0</td>
+    <td class="num" style="color:#2f855a">+14.0</td>
+    <td class="num">63.0</td>
+    <td class="num">65.8</td>
+    <td class="num" style="color:#2f855a">+2.8</td>
+    <td class="num">1.011</td>
+    <td class="num">1.020</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">4</td>
+    <td>ヒズマスターピース</td>
+    <td class="num">22.8</td>
+    <td class="num">9</td>
+    <td class="num">50.0</td>
+    <td class="num">44.0</td>
+    <td class="num" style="color:#c53030">-6.0</td>
+    <td class="num">53.2</td>
+    <td class="num">52.0</td>
+    <td class="num" style="color:#c53030">-1.2</td>
+    <td class="num">0.980</td>
+    <td class="num">0.980</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">5</td>
+    <td>ジーネキング</td>
+    <td class="num">8.4</td>
+    <td class="num">5</td>
+    <td class="num">50.0</td>
+    <td class="num">64.0</td>
+    <td class="num" style="color:#2f855a">+14.0</td>
+    <td class="num">60.4</td>
+    <td class="num">63.2</td>
+    <td class="num" style="color:#2f855a">+2.8</td>
+    <td class="num">1.003</td>
+    <td class="num">1.012</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">6</td>
+    <td>シュペルリング</td>
+    <td class="num">4.1</td>
+    <td class="num">2</td>
+    <td class="num">50.0</td>
+    <td class="num">83.0</td>
+    <td class="num" style="color:#2f855a">+33.0</td>
+    <td class="num">69.4</td>
+    <td class="num">75.9</td>
+    <td class="num" style="color:#2f855a">+6.5</td>
+    <td class="num">1.042</td>
+    <td class="num">1.069</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">7</td>
+    <td>ロデオドライブ</td>
+    <td class="num">38.5</td>
+    <td class="num">11</td>
+    <td class="num">50.0</td>
+    <td class="num">21.0</td>
+    <td class="num" style="color:#c53030">-29.0</td>
+    <td class="num">43.5</td>
+    <td class="num">37.8</td>
+    <td class="num" style="color:#c53030">-5.7</td>
+    <td class="num">0.973</td>
+    <td class="num">0.969</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">8</td>
+    <td>スマイルカーブ</td>
+    <td class="num">51.2</td>
+    <td class="num">13</td>
+    <td class="num">50.0</td>
+    <td class="num">21.0</td>
+    <td class="num" style="color:#c53030">-29.0</td>
+    <td class="num">38.2</td>
+    <td class="num">32.5</td>
+    <td class="num" style="color:#c53030">-5.7</td>
+    <td class="num">0.977</td>
+    <td class="num">0.976</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">9</td>
+    <td>ブルズアイプリンス</td>
+    <td class="num">18.3</td>
+    <td class="num">8</td>
+    <td class="num">50.0</td>
+    <td class="num">44.0</td>
+    <td class="num" style="color:#c53030">-6.0</td>
+    <td class="num">58.5</td>
+    <td class="num">57.3</td>
+    <td class="num" style="color:#c53030">-1.2</td>
+    <td class="num">0.990</td>
+    <td class="num">0.989</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">10</td>
+    <td>ジーティーシンドウ</td>
+    <td class="num">3.2</td>
+    <td class="num">1</td>
+    <td class="num">50.0</td>
+    <td class="num">83.0</td>
+    <td class="num" style="color:#2f855a">+33.0</td>
+    <td class="num">72.0</td>
+    <td class="num">78.5</td>
+    <td class="num" style="color:#2f855a">+6.5</td>
+    <td class="num">1.052</td>
+    <td class="num">1.079</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">11</td>
+    <td>ゴーラッキー</td>
+    <td class="num">77.4</td>
+    <td class="num">14</td>
+    <td class="num">50.0</td>
+    <td class="num">21.0</td>
+    <td class="num" style="color:#c53030">-29.0</td>
+    <td class="num">37.4</td>
+    <td class="num">31.6</td>
+    <td class="num" style="color:#c53030">-5.7</td>
+    <td class="num">0.977</td>
+    <td class="num">0.976</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">12</td>
+    <td>アルデトップガン</td>
+    <td class="num">10.7</td>
+    <td class="num">6</td>
+    <td class="num">50.0</td>
+    <td class="num">64.0</td>
+    <td class="num" style="color:#2f855a">+14.0</td>
+    <td class="num">49.8</td>
+    <td class="num">52.6</td>
+    <td class="num" style="color:#2f855a">+2.8</td>
+    <td class="num">0.974</td>
+    <td class="num">0.980</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">13</td>
+    <td>ガリレア</td>
+    <td class="num">5.8</td>
+    <td class="num">3</td>
+    <td class="num">50.0</td>
+    <td class="num">64.0</td>
+    <td class="num" style="color:#2f855a">+14.0</td>
+    <td class="num">66.7</td>
+    <td class="num">69.5</td>
+    <td class="num" style="color:#2f855a">+2.8</td>
+    <td class="num">1.022</td>
+    <td class="num">1.032</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">14</td>
+    <td>ディールメーカー</td>
+    <td class="num">29.6</td>
+    <td class="num">10</td>
+    <td class="num">50.0</td>
+    <td class="num">44.0</td>
+    <td class="num" style="color:#c53030">-6.0</td>
+    <td class="num">47.9</td>
+    <td class="num">46.7</td>
+    <td class="num" style="color:#c53030">-1.2</td>
+    <td class="num">0.976</td>
+    <td class="num">0.976</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr><tr>
+    <td class="num">15</td>
+    <td>ミリオンクラウン</td>
+    <td class="num">44.1</td>
+    <td class="num">12</td>
+    <td class="num">50.0</td>
+    <td class="num">21.0</td>
+    <td class="num" style="color:#c53030">-29.0</td>
+    <td class="num">42.7</td>
+    <td class="num">36.9</td>
+    <td class="num" style="color:#c53030">-5.7</td>
+    <td class="num">0.972</td>
+    <td class="num">0.968</td>
+    <td class="kiken"></td>
+    <td class="kiken"></td>
+  </tr></tbody>
+    </table>
+    <p class="note">
+      <b>CR</b> = courseRecord (重み 19.8%)。<br>
+      <b>注入した人工データ</b>: 各馬3走、オッズ低い (人気) 馬ほど着順・上がり3F が良好な構成。
+    </p>
+  </section>
+
+  <section>
+    <h2>所感と限界</h2>
+    <ul class="note">
+      <li>本レポートは <b>モック1レース + 人工 pastRaces</b> による動作確認。実環境のスコア分布変化は本番予想で別途観察が必要。</li>
+      <li>CR新の値は注入した人工 pastRaces で決まる: 人気馬ほど高得点・人気薄ほど低得点となる構成のため、score の人気間ギャップが拡大する方向。</li>
+      <li>実環境では同条件マッチ率が下がる (= 多くの馬で CR=50 のまま) 可能性があり、本レポートほど大きな変化は出ない見込み。</li>
+      <li>WEIGHTS は不変。courseRecord (0.198) の重みで CR 差分は最終 score の差分に乗る。Phase 2H で重み再チューニングが推奨。</li>
+      <li>kikenHorses 増減: 変化なし。</li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>
