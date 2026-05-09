@@ -215,11 +215,24 @@ function scoreLastThreeF(allHorses: Horse[]): number[] {
 
 /**
  * 調教ラスト1F スコア（0〜100）
- * Phase 1-C では lastThreeF をそのまま使用（同フィールド）。
- * Phase 1-B 以降で調教専用フィールドが追加されたら差し替える。
+ *
+ * Horse.lastThreeF (※命名と実態の乖離あり: 実際は調教ラスト1F の近似秒、11.0〜12.5)
+ * を直接 rankScore する。値が小さいほど高得点。
+ *
+ * 2026-05-09 (Phase 2H 暫定): 旧実装は scoreLastThreeF を素通しで呼んでおり値が
+ * 完全同一になっていた。lastThreeF (前走上がり3F の方) を pastRaces ベースに切り替え
+ * るのに合わせて、こちらは Horse.lastThreeF (調教近似秒) を直接使う独立関数に分離。
+ *
+ * 値が無い馬 (lastThreeF<=0) は有効馬の平均値で補完してから rankScore する
+ * (scoreBreeding と同じ avg-fallback パターン)。全馬無効なら全員 50。
  */
 function scoreTraining(allHorses: Horse[]): number[] {
-  return scoreLastThreeF(allHorses);
+  const raw = allHorses.map((h) => (h.lastThreeF > 0 ? h.lastThreeF : -1));
+  const known = raw.filter((v) => v > 0);
+  if (known.length === 0) return allHorses.map(() => 50);
+  const avg = known.reduce((s, v) => s + v, 0) / known.length;
+  const filled = raw.map((v) => (v > 0 ? v : avg));
+  return rankScore(filled, true);
 }
 
 /**
