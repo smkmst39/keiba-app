@@ -204,13 +204,32 @@ function rankScore(values: number[], ascending: boolean): number[] {
 // ==========================================
 
 /**
- * 上がり3F スコア（0〜100）
- * lastThreeF を使用。値が小さいほど高得点（速いほど良い）。
- * Phase 1-C では前走上がり3F と調教ラスト1F が同一フィールドのため兼用。
+ * 上がり3F スコア（0〜100） — 実走の前走上がり3F に基づく
+ *
+ * horse.pastRaces[0].lastThreeF (= /horse/result/{id}/ から取得した直近1走の
+ * 実走上がり3F、典型値 33.0〜37.0) を使用。値が小さいほど高得点（速いほど良い）。
+ *
+ * 2026-05-09 (Phase 2H 暫定): 旧実装は Horse.lastThreeF (実態は調教近似秒で
+ * scoreTraining と完全同一) を使っていた。courseRecord 実装で pastRaces 取得が
+ * 整ったため、こちらは「真の前走上がり3F」へ移行し、scoreTraining と独立化する。
+ *
+ * フォールバック: pastRaces 未取得 / 値欠損の馬は有効馬の平均値で補完
+ * (scoreBreeding と同じ avg-fallback)。全馬無効 (USE_MOCK / fetchPreEntry /
+ * DISABLE_PAST_RACES=true 等) なら全員 50。
+ *
+ * 注: Horse.lastThreeF というフィールド名と中身（調教近似秒）の乖離は既知の
+ * 負債。リネームは Phase 2H 範囲外 (lib/score/CLAUDE.md 参照)。
  */
 function scoreLastThreeF(allHorses: Horse[]): number[] {
-  const values = allHorses.map((h) => (h.lastThreeF > 0 ? h.lastThreeF : 99));
-  return rankScore(values, true);
+  const raw = allHorses.map((h) => {
+    const v = h.pastRaces?.[0]?.lastThreeF ?? 0;
+    return v > 0 ? v : -1;
+  });
+  const known = raw.filter((v) => v > 0);
+  if (known.length === 0) return allHorses.map(() => 50);
+  const avg = known.reduce((s, v) => s + v, 0) / known.length;
+  const filled = raw.map((v) => (v > 0 ? v : avg));
+  return rankScore(filled, true);
 }
 
 /**
