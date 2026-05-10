@@ -261,6 +261,120 @@ for (const [rank, expected, i] of cases) {
 }
 
 // =============================
+// 5. タイムリーキ防止 (2026-05-09 第二バグ対応)
+//    /horse/result/{id}/ の競走成績は事後収集なので「検証対象レース当日」や
+//    「baseDate より新しいレース」が混入する。これらを過去走として扱わないこと。
+// =============================
+console.log('\n=== 5. タイムリーキ防止 ===');
+{
+  const baseDate = new Date(2025, 4, 4); // 2025/05/04 (天皇賞春当日)
+
+  // 5.1-5.2: 自レース除外 (同日)
+  // 注: filterCourseRecord は「過去1年以内」フィルタ。前年同レース (1年と数日前) は範囲外のため
+  //     ここでは「半年前」を採用してフィルタ単体の挙動を検証する。前年同名レース補正は
+  //     findPreviousYearSameRace 側 (5.7-5.10) で別途検証。
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2025/05/04', course: '京都', surface: 'turf', distance: 3200, rank: 15, raceName: '天皇賞(春)(GI)' }),
+      makePast({ date: '2024/12/01', course: '京都', surface: 'turf', distance: 3200, rank: 2 }), // 半年前 (1年以内)
+    ];
+    const filtered = filterCourseRecord(pasts, baseDate, '京都', 'turf', 3200);
+    assert(filtered.length === 1, '5.1 自レース (同日) は除外される', `got ${filtered.length}走 (期待: 1)`);
+    assert(filtered[0]?.date === '2024/12/01', '5.2 残ったのは半年前のレース',
+      `got date=${filtered[0]?.date}`);
+  }
+
+  // 5.3-5.4: 未来レース除外
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2026/05/03', course: '京都', surface: 'turf', distance: 3200, rank: 5 }), // 1年後
+      makePast({ date: '2024/12/01', course: '京都', surface: 'turf', distance: 3200, rank: 2 }), // 半年前 (1年以内)
+    ];
+    const filtered = filterCourseRecord(pasts, baseDate, '京都', 'turf', 3200);
+    assert(filtered.length === 1, '5.3 未来レース (1年後) は除外される', `got ${filtered.length}走`);
+    assert(filtered[0]?.date === '2024/12/01', '5.4 残ったのは半年前のレース');
+  }
+
+  // 5.5: 翌日のレースも除外
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2025/05/05', course: '京都', surface: 'turf', distance: 3200, rank: 1 }),
+    ];
+    const filtered = filterCourseRecord(pasts, baseDate, '京都', 'turf', 3200);
+    assert(filtered.length === 0, '5.5 翌日 (baseDate+1日) のレースも除外');
+  }
+
+  // 5.6: 1日前は採用される (境界)
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2025/05/03', course: '京都', surface: 'turf', distance: 3200, rank: 3 }),
+    ];
+    const filtered = filterCourseRecord(pasts, baseDate, '京都', 'turf', 3200);
+    assert(filtered.length === 1, '5.6 baseDate-1日 (前日) は採用');
+  }
+
+  // 5.7-5.9: findPreviousYearSameRace の自レース・未来レース除外
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2025/05/04', course: '京都', surface: 'turf', distance: 3200, rank: 15, raceName: '天皇賞(春)(GI)' }),
+      makePast({ date: '2024/04/28', course: '京都', surface: 'turf', distance: 3200, rank: 2, raceName: '天皇賞(春)(GI)' }),
+    ];
+    const found = findPreviousYearSameRace(pasts, baseDate, '天皇賞(春)');
+    assert(found !== null, '5.7 自レース除外後でも前年同名が見つかる');
+    assert(found?.date === '2024/04/28', '5.8 拾われたのは前年 (自レースではない)',
+      `got date=${found?.date} rank=${found?.rank}`);
+  }
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2025/05/04', course: '京都', surface: 'turf', distance: 3200, rank: 15, raceName: '天皇賞(春)(GI)' }),
+    ];
+    const found = findPreviousYearSameRace(pasts, baseDate, '天皇賞(春)');
+    assert(found === null, '5.9 自レースしか持たない → null (補正対象なし)');
+  }
+  {
+    const pasts: PastRace[] = [
+      makePast({ date: '2026/05/03', course: '京都', surface: 'turf', distance: 3200, rank: 5, raceName: '天皇賞(春)(GI)' }),
+    ];
+    const found = findPreviousYearSameRace(pasts, baseDate, '天皇賞(春)');
+    assert(found === null, '5.10 未来レースしか持たない → null (補正対象なし)');
+  }
+}
+
+// =============================
+// 6. raceDate ベースの baseDate 構築 (parseRaceDate)
+// =============================
+console.log('\n=== 6. raceDate ベース baseDate ===');
+{
+  // race.raceDate (YYYYMMDD) が優先されることで、過去レース検証時でも
+  // 当時の時間軸でフィルタが効くこと
+  const horse = makeHorse({
+    id: 1,
+    pastRaces: [
+      // 自レース (検証対象 raceDate=2025/05/04 と同日) → 除外されるべき
+      makePast({ date: '2025/05/04', course: '京都', surface: 'turf', distance: 3200, rank: 15, lastThreeF: 38.0 }),
+      // 前年 (1年以内) → 採用されるべき
+      makePast({ date: '2024/05/05', course: '京都', surface: 'turf', distance: 3200, rank: 1, lastThreeF: 35.0 }),
+    ],
+  });
+  const race: Race = {
+    ...makeRace({ course: '京都', surface: 'turf', distance: 3200 }),
+    raceDate: '20250504',
+    // fetchedAt はあえて1年後に設定: raceDate が優先されることの確認
+    fetchedAt: new Date('2026-05-11T15:00:00+09:00'),
+  };
+  const comps = calcAllComponentScores({ ...race, horses: [horse] });
+  const cr = comps.get(1)!.courseRecord;
+  // 期待:
+  //   - 自レース (rank=15) は除外 → matched は前年1走のみ
+  //   - 前年 rank=1 → 100点, 上3F=35.0 → 50点, scoreOnePastRace = 100*0.6 + 50*0.4 = 80
+  //   - trust = 1/3, baseScore = 80*(1/3) + 50*(2/3) ≈ 60
+  //   - 平場 raceGrade なし → 重賞補正なし、baseScore がそのまま courseRecord
+  assert(cr > 55 && cr < 65,
+    '6.1 raceDate 基準で自レース除外、前年のみ採用 → courseRecord ≈ 60',
+    `got courseRecord=${cr.toFixed(2)}`);
+}
+
+// =============================
 // 結果集計
 // =============================
 console.log(`\n========================================`);
