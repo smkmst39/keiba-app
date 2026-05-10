@@ -167,8 +167,18 @@ export function filterCourseRecord(
 
 /**
  * 同名レースの過去2年分のうち最新を1走返す（重賞前年同レース補正用）。
- * レース名は括弧表記（クラス・グレード）を除去して比較する。
- *   例: "天皇賞(春)(G1)" と "天皇賞(春)" は同一視
+ *
+ * レース名の正規化方針:
+ *   - グレード表記の括弧のみ削除: (G1) (GI) (GⅠ) (G2) (GII) (GⅡ) (G3) (GIII) (GⅢ) (L) (LISTED)
+ *   - クラス表記の括弧のみ削除: (1勝クラス) (2勝クラス) (3勝クラス) (500万下) (1000万下) (1600万下)
+ *   - 季節区分・コース区分など意味的識別子の括弧は **保持する**: (春) (秋) (中央) (短距離) etc.
+ *   例:
+ *     "天皇賞(春)(G1)" と "天皇賞(春)" は同一視（→ "天皇賞(春)"）
+ *     "天皇賞(春)(GI)" と "天皇賞(秋)(GI)" は **別レース**（→ "天皇賞(春)" / "天皇賞(秋)"）
+ *
+ * 2026-05-09: 旧実装は `\([^)]*\)` で**全括弧を一括削除**しており、季節区分まで
+ * 失われて「天皇賞(春)」と「天皇賞(秋)」が同一視される重大バグがあった。本番動作確認
+ * 時に「15/15頭が前年同名レース所有」という異常検出で発覚したため厳密化。
  *
  * 該当なしは null。
  */
@@ -179,15 +189,33 @@ export function findPreviousYearSameRace(
 ): PastRace | null {
   const twoYearsAgo = new Date(baseDate);
   twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
-  const norm = (s: string) => s.replace(/\([^)]*\)/g, '').trim();
-  const target = norm(raceName);
+  const target = normalizeRaceName(raceName);
   if (!target) return null;
   for (const p of pasts) {
     if (p.rank < 1) continue;
     const d = new Date(p.date.replace(/\//g, '-'));
     if (Number.isNaN(d.getTime())) continue;
     if (d < twoYearsAgo) continue;
-    if (norm(p.raceName) === target) return p;
+    if (normalizeRaceName(p.raceName) === target) return p;
   }
   return null;
+}
+
+/**
+ * レース名の正規化。グレード/クラス括弧のみ削除し、意味的識別子の括弧は保持する。
+ * 重賞前年同レース補正の比較で使用。テスト容易化のため export している。
+ */
+export function normalizeRaceName(s: string): string {
+  return s
+    // グレード表記: (G1)(G2)(G3)(GI)(GII)(GIII) (半角ローマ数字)
+    .replace(/\(G[123IⅠⅡⅢ]+\)/gi, '')
+    // リステッド: (L) (LISTED) (Listed)
+    .replace(/\(L\)|\(LISTED\)/gi, '')
+    // 旧クラス表記: (500万下) (1000万下) (1600万下)
+    .replace(/\(\d+万下\)/g, '')
+    // 新クラス表記: (1勝クラス) (2勝クラス) (3勝クラス)
+    .replace(/\(\d+勝クラス\)/g, '')
+    // 余分な空白の正規化
+    .replace(/\s+/g, ' ')
+    .trim();
 }
