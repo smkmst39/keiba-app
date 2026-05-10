@@ -142,6 +142,11 @@ export async function fetchHorseResults(horseId: string): Promise<PastRace[]> {
 /**
  * 過去1年・同条件 (同競馬場 + 同距離カテゴリ + 同芝/ダ) でフィルタ。
  * 取消・中止 (rank<1) や日付パース失敗は除外。
+ *
+ * 2026-05-09 (タイムリーキ防止): baseDate 以降の過去走 (= 検証対象レース当日や
+ * baseDate より未来のレース) も除外。事後収集された /horse/result/{id}/ には
+ * 検証対象レース自身や、それより新しいレースまで含まれているため、これらを
+ * 「過去走」として扱うのは誤り (本来見られるはずのない情報の混入)。
  */
 export function filterCourseRecord(
   pasts: PastRace[],
@@ -155,9 +160,10 @@ export function filterCourseRecord(
   const band = getDistanceBand(distance);
   return pasts.filter((p) => {
     if (p.rank < 1) return false;
-    const d = new Date(p.date.replace(/\//g, '-'));
-    if (Number.isNaN(d.getTime())) return false;
+    const d = parseHistoryDate(p.date);
+    if (d === null) return false;
     if (d < oneYearAgo) return false;
+    if (d >= baseDate) return false; // 自レース・未来レース除外
     if (p.course !== course) return false;
     if (p.surface !== surface) return false;
     if (getDistanceBand(p.distance) !== band) return false;
@@ -193,12 +199,47 @@ export function findPreviousYearSameRace(
   if (!target) return null;
   for (const p of pasts) {
     if (p.rank < 1) continue;
-    const d = new Date(p.date.replace(/\//g, '-'));
-    if (Number.isNaN(d.getTime())) continue;
+    const d = parseHistoryDate(p.date);
+    if (d === null) continue;
     if (d < twoYearsAgo) continue;
+    if (d >= baseDate) continue; // タイムリーキ防止: 自レース・未来レース除外
     if (normalizeRaceName(p.raceName) === target) return p;
   }
   return null;
+}
+
+/**
+ * 過去走の日付文字列 "YYYY/MM/DD" を Date (ローカルタイム 0:00) に変換。
+ * パース失敗 (空・形式不一致) は null を返す。
+ *
+ * Date(y, m-1, d) を使用してローカルタイム 0:00 で構築する。
+ * `new Date("YYYY-MM-DD")` だと UTC 0:00 として解釈されるため、JST 環境では
+ * 日付がずれて見える。同様にローカルタイムで baseDate (parseRaceDate) と
+ * 比較できるようにここで揃える。
+ */
+export function parseHistoryDate(s: string): Date | null {
+  if (!s) return null;
+  const m = s.match(/^(\d{4})[\/\-](\d{1,2})[\/\-](\d{1,2})/);
+  if (!m) return null;
+  const y = parseInt(m[1], 10);
+  const mo = parseInt(m[2], 10) - 1;
+  const d = parseInt(m[3], 10);
+  if (Number.isNaN(y) || Number.isNaN(mo) || Number.isNaN(d)) return null;
+  return new Date(y, mo, d);
+}
+
+/**
+ * Race.raceDate ("YYYYMMDD") を Date (ローカルタイム 0:00) に変換。
+ * 不正フォーマットの場合は null を返す (呼び出し側でフォールバック)。
+ *
+ * parseHistoryDate と同じくローカルタイム 0:00 で構築する。
+ */
+export function parseRaceDate(raceDate: string | undefined): Date | null {
+  if (!raceDate || !/^\d{8}$/.test(raceDate)) return null;
+  const y = parseInt(raceDate.slice(0, 4), 10);
+  const mo = parseInt(raceDate.slice(4, 6), 10) - 1;
+  const d = parseInt(raceDate.slice(6, 8), 10);
+  return new Date(y, mo, d);
 }
 
 /**

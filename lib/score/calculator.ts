@@ -5,7 +5,7 @@
 
 import type { Horse, Race, BetType } from '../scraper/types';
 import type { PastRace } from '../scraper/horse_history';
-import { filterCourseRecord, findPreviousYearSameRace } from '../scraper/horse_history';
+import { filterCourseRecord, findPreviousYearSameRace, parseRaceDate } from '../scraper/horse_history';
 
 // ==========================================
 // 定数
@@ -283,7 +283,10 @@ function scoreWeightChange(horse: Horse): number {
 function scoreCourseRecord(horse: Horse, race?: Race): number {
   // race が無い場合（calcScore 互換ラッパーなど）は中央値 50 を返す
   if (!race) return 50;
-  const baseDate = race.fetchedAt ?? new Date();
+  // baseDate は race.raceDate (YYYYMMDD、開催日) を優先。fetchedAt (実行時刻) は
+  // 過去レース検証時にタイムリーキを生むためフォールバック用途のみ。
+  // どちらも無ければ new Date() (= 現在時刻、リアルタイム想定)。
+  const baseDate = parseRaceDate(race.raceDate) ?? race.fetchedAt ?? new Date();
   const matched = horse.pastRaces
     ? filterCourseRecord(horse.pastRaces, baseDate, race.course, race.surface, race.distance)
     : [];
