@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>本番動作確認 2026-05-11</title>
+<style>
+  body { font-family: system-ui, "Hiragino Sans", "Yu Gothic", sans-serif; padding: 1.5rem; background: #f7fafc; color: #1a202c; line-height: 1.5; }
+  .container { max-width: 1400px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 0.5rem; }
+  h2 { font-size: 1.15rem; margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 2px solid #2b6cb0; color: #2b6cb0; }
+  h3 { font-size: 0.95rem; margin: 1rem 0 0.5rem; color: #4a5568; }
+  section { background: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .meta-line { color: #4a5568; font-size: 0.85rem; margin-bottom: 1rem; }
+  .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; }
+  .summary-card { padding: 0.8rem; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; }
+  .summary-card .label { font-size: 0.7rem; color: #718096; }
+  .summary-card .value { font-size: 1.05rem; font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+  th, td { padding: 0.35rem 0.5rem; border-bottom: 1px solid #e2e8f0; text-align: left; }
+  th { background: #f7fafc; font-weight: 600; font-size: 0.72rem; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tbody tr:nth-child(even) { background: #f7fafc; }
+  .ok { color: #2f855a; font-weight: 700; }
+  .ng { color: #c53030; font-weight: 700; }
+  .stakes-note { padding: 0.8rem 1rem; background: #fff5e0; border-left: 4px solid #f6ad55; font-size: 0.85rem; margin-bottom: 1rem; }
+  .note { font-size: 0.78rem; color: #4a5568; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>本番動作確認レポート (Phase 2H 暫定)</h1>
+  <div class="meta-line">
+    生成: 2026-05-11T17:43:22.579+09:00 / SCRAPE_INTERVAL_MS=1500ms / 対象 2 レース / 取得合計 51.1秒
+  </div>
+  <section>
+    <h2>平場: 4歳以上2勝クラス (中山12R 2026/4/26)</h2>
+    <div class="meta-line">raceId=202608030212 / レース名=4歳以上2勝クラス / グレード=OP / 取得時間=24.5秒</div>
+
+    <div class="stakes-note"><b>重賞補正</b>: 平場 (raceGrade=OP)。重賞補正は素通し</div>
+
+    <h3>取得サマリ</h3>
+    <div class="summary-grid">
+      <div class="summary-card"><div class="label">pastRaces 取得率</div><div class="value">14/14 (100.0%)</div></div>
+      <div class="summary-card"><div class="label">未取得馬番</div><div class="value" style="font-size:0.85rem">なし</div></div>
+      <div class="summary-card"><div class="label">スコア中央値 (旧→新)</div><div class="value">51.0 → 49.4</div></div>
+      <div class="summary-card"><div class="label">スコア最大 (旧→新)</div><div class="value">56.6 → 66.9</div></div>
+      <div class="summary-card"><div class="label">スコア最小 (旧→新)</div><div class="value">43.0 → 35.6</div></div>
+      <div class="summary-card"><div class="label">スコア標準偏差 (旧→新)</div><div class="value">4.13 → 9.74</div></div>
+      <div class="summary-card"><div class="label">EV中央値 (旧→新)</div><div class="value">0.980 → 0.979</div></div>
+      <div class="summary-card"><div class="label">健全性 (旧/新)</div><div class="value"><span class="ng">NG</span> / <span class="ng">NG</span></div></div>
+    </div>
+
+    <h3>馬別比較 (旧 = pastRaces 無効, 新 = pastRaces 有効)</h3>
+    <table>
+      <thead><tr>
+        <th class="num">馬番</th><th>馬名</th><th class="num">オッズ</th>
+        <th class="num">調教<br>近似秒</th><th class="num">前走<br>上3F</th><th class="num">過去<br>走数</th>
+        <th class="num">CR旧</th><th class="num">CR新</th>
+        <th class="num">L3F旧</th><th class="num">L3F新</th>
+        <th class="num">Tr旧</th><th class="num">Tr新</th>
+        <th class="num">スコア<br>旧</th><th class="num">スコア<br>新</th><th class="num">差</th>
+        <th class="num">EV旧</th><th class="num">EV新</th>
+      </tr></thead>
+      <tbody><tr>
+      <td class="num">1</td>
+      <td>キングオブフジ</td>
+      <td class="num">88.1</td>
+      <td class="num">11.8</td>
+      <td class="num">36.5</td>
+      <td class="num">26</td>
+      <td class="num">50.0</td>
+      <td class="num">34.3</td>
+      <td class="num">50.0</td>
+      <td class="num">92.3</td>
+      <td class="num">92.3</td>
+      <td class="num">92.3</td>
+      <td class="num">51.0</td>
+      <td class="num">58.2</td>
+      <td class="num" style="color:#2f855a">+7.2</td>
+      <td class="num">0.980</td>
+      <td class="num">0.982</td>
+    </tr><tr>
+      <td class="num">2</td>
+      <td>テイエムパイロット</td>
+      <td class="num">9.9</td>
+      <td class="num">11.0</td>
+      <td class="num">38.2</td>
+      <td class="num">16</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">46.2</td>
+      <td class="num">100.0</td>
+      <td class="num">100.0</td>
+      <td class="num">56.0</td>
+      <td class="num">55.1</td>
+      <td class="num" style="color:#c53030">-0.9</td>
+      <td class="num">0.996</td>
+      <td class="num">0.998</td>
+    </tr><tr>
+      <td class="num">3</td>
+      <td>アークドール</td>
+      <td class="num">5.9</td>
+      <td class="num">11.8</td>
+      <td class="num">37.4</td>
+      <td class="num">25</td>
+      <td class="num">50.0</td>
+      <td class="num">37.3</td>
+      <td class="num">50.0</td>
+      <td class="num">76.9</td>
+      <td class="num">84.6</td>
+      <td class="num">84.6</td>
+      <td class="num">56.6</td>
+      <td class="num">60.7</td>
+      <td class="num" style="color:#2f855a">+4.0</td>
+      <td class="num">0.998</td>
+      <td class="num">1.016</td>
+    </tr><tr>
+      <td class="num">4</td>
+      <td>スマートシーカー</td>
+      <td class="num">44.4</td>
+      <td class="num">11.8</td>
+      <td class="num">36.4</td>
+      <td class="num">9</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">100.0</td>
+      <td class="num">76.9</td>
+      <td class="num">76.9</td>
+      <td class="num">54.7</td>
+      <td class="num">66.9</td>
+      <td class="num" style="color:#2f855a">+12.2</td>
+      <td class="num">0.983</td>
+      <td class="num">0.994</td>
+    </tr><tr>
+      <td class="num">5</td>
+      <td>メイショウオオコ</td>
+      <td class="num">92.2</td>
+      <td class="num">11.8</td>
+      <td class="num">36.8</td>
+      <td class="num">25</td>
+      <td class="num">50.0</td>
+      <td class="num">30.3</td>
+      <td class="num">50.0</td>
+      <td class="num">84.6</td>
+      <td class="num">69.2</td>
+      <td class="num">69.2</td>
+      <td class="num">55.2</td>
+      <td class="num">59.7</td>
+      <td class="num" style="color:#2f855a">+4.6</td>
+      <td class="num">0.981</td>
+      <td class="num">0.982</td>
+    </tr><tr>
+      <td class="num">6</td>
+      <td>ストップヤーニング</td>
+      <td class="num">6.0</td>
+      <td class="num">11.8</td>
+      <td class="num">37.4</td>
+      <td class="num">11</td>
+      <td class="num">50.0</td>
+      <td class="num">39.3</td>
+      <td class="num">50.0</td>
+      <td class="num">69.2</td>
+      <td class="num">61.5</td>
+      <td class="num">61.5</td>
+      <td class="num">53.2</td>
+      <td class="num">55.8</td>
+      <td class="num" style="color:#2f855a">+2.6</td>
+      <td class="num">0.987</td>
+      <td class="num">1.000</td>
+    </tr><tr>
+      <td class="num">7</td>
+      <td>シホノペルフェット</td>
+      <td class="num">163.8</td>
+      <td class="num">11.8</td>
+      <td class="num">41.0</td>
+      <td class="num">14</td>
+      <td class="num">50.0</td>
+      <td class="num">35.3</td>
+      <td class="num">50.0</td>
+      <td class="num">0.0</td>
+      <td class="num">53.8</td>
+      <td class="num">53.8</td>
+      <td class="num">50.7</td>
+      <td class="num">35.6</td>
+      <td class="num" style="color:#c53030">-15.1</td>
+      <td class="num">0.980</td>
+      <td class="num">0.977</td>
+    </tr><tr>
+      <td class="num">8</td>
+      <td>タガノヘラクレス</td>
+      <td class="num">11.5</td>
+      <td class="num">11.8</td>
+      <td class="num">39.2</td>
+      <td class="num">13</td>
+      <td class="num">50.0</td>
+      <td class="num">39.3</td>
+      <td class="num">50.0</td>
+      <td class="num">23.1</td>
+      <td class="num">46.2</td>
+      <td class="num">46.2</td>
+      <td class="num">51.0</td>
+      <td class="num">42.3</td>
+      <td class="num" style="color:#c53030">-8.7</td>
+      <td class="num">0.980</td>
+      <td class="num">0.965</td>
+    </tr><tr>
+      <td class="num">9</td>
+      <td>ライノ</td>
+      <td class="num">3.5</td>
+      <td class="num">11.8</td>
+      <td class="num">38.7</td>
+      <td class="num">9</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">38.5</td>
+      <td class="num">38.5</td>
+      <td class="num">38.5</td>
+      <td class="num">53.8</td>
+      <td class="num">51.0</td>
+      <td class="num" style="color:#c53030">-2.8</td>
+      <td class="num">0.991</td>
+      <td class="num">0.986</td>
+    </tr><tr>
+      <td class="num">10</td>
+      <td>ショーダンサー</td>
+      <td class="num">12.1</td>
+      <td class="num">11.8</td>
+      <td class="num">38.9</td>
+      <td class="num">11</td>
+      <td class="num">50.0</td>
+      <td class="num">46.7</td>
+      <td class="num">50.0</td>
+      <td class="num">30.8</td>
+      <td class="num">30.8</td>
+      <td class="num">30.8</td>
+      <td class="num">48.5</td>
+      <td class="num">43.1</td>
+      <td class="num" style="color:#c53030">-5.4</td>
+      <td class="num">0.975</td>
+      <td class="num">0.967</td>
+    </tr><tr>
+      <td class="num">11</td>
+      <td>クリノフィガロ</td>
+      <td class="num">43.1</td>
+      <td class="num">11.8</td>
+      <td class="num">37.4</td>
+      <td class="num">27</td>
+      <td class="num">50.0</td>
+      <td class="num">34.1</td>
+      <td class="num">50.0</td>
+      <td class="num">61.5</td>
+      <td class="num">23.1</td>
+      <td class="num">23.1</td>
+      <td class="num">43.0</td>
+      <td class="num">42.7</td>
+      <td class="num" style="color:#c53030">-0.3</td>
+      <td class="num">0.974</td>
+      <td class="num">0.975</td>
+    </tr><tr>
+      <td class="num">12</td>
+      <td>ゼンエスポワール</td>
+      <td class="num">4.7</td>
+      <td class="num">11.8</td>
+      <td class="num">37.7</td>
+      <td class="num">13</td>
+      <td class="num">50.0</td>
+      <td class="num">49.3</td>
+      <td class="num">50.0</td>
+      <td class="num">53.8</td>
+      <td class="num">15.4</td>
+      <td class="num">15.4</td>
+      <td class="num">46.9</td>
+      <td class="num">47.7</td>
+      <td class="num" style="color:#2f855a">+0.8</td>
+      <td class="num">0.964</td>
+      <td class="num">0.973</td>
+    </tr><tr>
+      <td class="num">13</td>
+      <td>トラヴェリンバンド</td>
+      <td class="num">49.5</td>
+      <td class="num">11.8</td>
+      <td class="num">39.6</td>
+      <td class="num">12</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">15.4</td>
+      <td class="num">7.7</td>
+      <td class="num">7.7</td>
+      <td class="num">45.0</td>
+      <td class="num">36.6</td>
+      <td class="num" style="color:#c53030">-8.4</td>
+      <td class="num">0.975</td>
+      <td class="num">0.970</td>
+    </tr><tr>
+      <td class="num">14</td>
+      <td>グレイルクエスト</td>
+      <td class="num">16.3</td>
+      <td class="num">11.8</td>
+      <td class="num">39.7</td>
+      <td class="num">12</td>
+      <td class="num">50.0</td>
+      <td class="num">53.3</td>
+      <td class="num">50.0</td>
+      <td class="num">7.7</td>
+      <td class="num">0.0</td>
+      <td class="num">0.0</td>
+      <td class="num">47.1</td>
+      <td class="num">37.4</td>
+      <td class="num" style="color:#c53030">-9.7</td>
+      <td class="num">0.973</td>
+      <td class="num">0.956</td>
+    </tr></tbody>
+    </table>
+    <p class="note">CR=courseRecord, L3F=scoreLastThreeF (前走実走上3F由来), Tr=scoreTraining (調教近似秒由来)。</p>
+  </section>
+<section>
+    <h2>重賞: 天皇賞(春) 2025 G1</h2>
+    <div class="meta-line">raceId=202508020411 / レース名=天皇賞(春) / グレード=G1 / 取得時間=26.6秒</div>
+
+    <div class="stakes-note"><b>重賞補正</b>: 重賞 (G1)。レース名 &quot;天皇賞(春)&quot; 正規化=&quot;天皇賞(春)&quot;。前年同名所有馬: 3/15頭 (自/未来レース除外後)</div>
+
+    <h3>取得サマリ</h3>
+    <div class="summary-grid">
+      <div class="summary-card"><div class="label">pastRaces 取得率</div><div class="value">15/15 (100.0%)</div></div>
+      <div class="summary-card"><div class="label">未取得馬番</div><div class="value" style="font-size:0.85rem">なし</div></div>
+      <div class="summary-card"><div class="label">スコア中央値 (旧→新)</div><div class="value">51.9 → 53.7</div></div>
+      <div class="summary-card"><div class="label">スコア最大 (旧→新)</div><div class="value">57.1 → 64.0</div></div>
+      <div class="summary-card"><div class="label">スコア最小 (旧→新)</div><div class="value">48.1 → 37.7</div></div>
+      <div class="summary-card"><div class="label">スコア標準偏差 (旧→新)</div><div class="value">3.00 → 8.63</div></div>
+      <div class="summary-card"><div class="label">EV中央値 (旧→新)</div><div class="value">0.980 → 0.980</div></div>
+      <div class="summary-card"><div class="label">健全性 (旧/新)</div><div class="value"><span class="ng">NG</span> / <span class="ng">NG</span></div></div>
+    </div>
+
+    <h3>馬別比較 (旧 = pastRaces 無効, 新 = pastRaces 有効)</h3>
+    <table>
+      <thead><tr>
+        <th class="num">馬番</th><th>馬名</th><th class="num">オッズ</th>
+        <th class="num">調教<br>近似秒</th><th class="num">前走<br>上3F</th><th class="num">過去<br>走数</th>
+        <th class="num">CR旧</th><th class="num">CR新</th>
+        <th class="num">L3F旧</th><th class="num">L3F新</th>
+        <th class="num">Tr旧</th><th class="num">Tr新</th>
+        <th class="num">スコア<br>旧</th><th class="num">スコア<br>新</th><th class="num">差</th>
+        <th class="num">EV旧</th><th class="num">EV新</th>
+      </tr></thead>
+      <tbody><tr>
+      <td class="num">1</td>
+      <td>アラタ</td>
+      <td class="num">200.2</td>
+      <td class="num">11.8</td>
+      <td class="num">34.3</td>
+      <td class="num">33</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">92.9</td>
+      <td class="num">100.0</td>
+      <td class="num">100.0</td>
+      <td class="num">51.9</td>
+      <td class="num">62.4</td>
+      <td class="num" style="color:#2f855a">+10.5</td>
+      <td class="num">0.980</td>
+      <td class="num">0.982</td>
+    </tr><tr>
+      <td class="num">2</td>
+      <td>ウインエアフォルク</td>
+      <td class="num">278.9</td>
+      <td class="num">11.8</td>
+      <td class="num">35.4</td>
+      <td class="num">40</td>
+      <td class="num">50.0</td>
+      <td class="num">47.2</td>
+      <td class="num">50.0</td>
+      <td class="num">42.9</td>
+      <td class="num">92.9</td>
+      <td class="num">92.9</td>
+      <td class="num">56.8</td>
+      <td class="num">54.5</td>
+      <td class="num" style="color:#c53030">-2.3</td>
+      <td class="num">0.981</td>
+      <td class="num">0.980</td>
+    </tr><tr>
+      <td class="num">3</td>
+      <td>ブローザホーン</td>
+      <td class="num">11.4</td>
+      <td class="num">11.8</td>
+      <td class="num">37.0</td>
+      <td class="num">26</td>
+      <td class="num">50.0</td>
+      <td class="num">58.2</td>
+      <td class="num">50.0</td>
+      <td class="num">21.4</td>
+      <td class="num">85.7</td>
+      <td class="num">85.7</td>
+      <td class="num">56.9</td>
+      <td class="num">51.5</td>
+      <td class="num" style="color:#c53030">-5.3</td>
+      <td class="num">0.988</td>
+      <td class="num">0.978</td>
+    </tr><tr>
+      <td class="num">4</td>
+      <td>ジャンカズマ</td>
+      <td class="num">193.8</td>
+      <td class="num">11.8</td>
+      <td class="num">40.8</td>
+      <td class="num">34</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">0.0</td>
+      <td class="num">78.6</td>
+      <td class="num">78.6</td>
+      <td class="num">53.3</td>
+      <td class="num">41.1</td>
+      <td class="num" style="color:#c53030">-12.2</td>
+      <td class="num">0.980</td>
+      <td class="num">0.978</td>
+    </tr><tr>
+      <td class="num">5</td>
+      <td>サンライズアース</td>
+      <td class="num">4.5</td>
+      <td class="num">11.8</td>
+      <td class="num">36.7</td>
+      <td class="num">11</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">28.6</td>
+      <td class="num">71.4</td>
+      <td class="num">71.4</td>
+      <td class="num">54.4</td>
+      <td class="num">49.2</td>
+      <td class="num" style="color:#c53030">-5.2</td>
+      <td class="num">0.987</td>
+      <td class="num">0.966</td>
+    </tr><tr>
+      <td class="num">6</td>
+      <td>ヘデントール</td>
+      <td class="num">3.1</td>
+      <td class="num">11.8</td>
+      <td class="num">35.1</td>
+      <td class="num">11</td>
+      <td class="num">50.0</td>
+      <td class="num">52.3</td>
+      <td class="num">50.0</td>
+      <td class="num">64.3</td>
+      <td class="num">64.3</td>
+      <td class="num">64.3</td>
+      <td class="num">57.1</td>
+      <td class="num">61.0</td>
+      <td class="num" style="color:#2f855a">+3.9</td>
+      <td class="num">0.997</td>
+      <td class="num">1.011</td>
+    </tr><tr>
+      <td class="num">7</td>
+      <td>プラダリア</td>
+      <td class="num">57.0</td>
+      <td class="num">11.8</td>
+      <td class="num">34.3</td>
+      <td class="num">24</td>
+      <td class="num">50.0</td>
+      <td class="num">45.8</td>
+      <td class="num">50.0</td>
+      <td class="num">85.7</td>
+      <td class="num">57.1</td>
+      <td class="num">57.1</td>
+      <td class="num">56.1</td>
+      <td class="num">64.0</td>
+      <td class="num" style="color:#2f855a">+7.9</td>
+      <td class="num">0.981</td>
+      <td class="num">0.982</td>
+    </tr><tr>
+      <td class="num">8</td>
+      <td>ショウナンラプンタ</td>
+      <td class="num">9.7</td>
+      <td class="num">11.8</td>
+      <td class="num">34.5</td>
+      <td class="num">13</td>
+      <td class="num">50.0</td>
+      <td class="num">48.1</td>
+      <td class="num">50.0</td>
+      <td class="num">78.6</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">54.6</td>
+      <td class="num">61.2</td>
+      <td class="num" style="color:#2f855a">+6.6</td>
+      <td class="num">0.986</td>
+      <td class="num">1.006</td>
+    </tr><tr>
+      <td class="num">9</td>
+      <td>シュヴァリエローズ</td>
+      <td class="num">31.4</td>
+      <td class="num">11.8</td>
+      <td class="num">34.8</td>
+      <td class="num">38</td>
+      <td class="num">50.0</td>
+      <td class="num">58.9</td>
+      <td class="num">50.0</td>
+      <td class="num">71.4</td>
+      <td class="num">42.9</td>
+      <td class="num">42.9</td>
+      <td class="num">51.8</td>
+      <td class="num">58.8</td>
+      <td class="num" style="color:#2f855a">+7.0</td>
+      <td class="num">0.979</td>
+      <td class="num">0.985</td>
+    </tr><tr>
+      <td class="num">10</td>
+      <td>リミットバスター</td>
+      <td class="num">249.4</td>
+      <td class="num">11.8</td>
+      <td class="num">38.5</td>
+      <td class="num">20</td>
+      <td class="num">50.0</td>
+      <td class="num">51.6</td>
+      <td class="num">50.0</td>
+      <td class="num">7.1</td>
+      <td class="num">35.7</td>
+      <td class="num">35.7</td>
+      <td class="num">49.8</td>
+      <td class="num">39.7</td>
+      <td class="num" style="color:#c53030">-10.1</td>
+      <td class="num">0.979</td>
+      <td class="num">0.978</td>
+    </tr><tr>
+      <td class="num">11</td>
+      <td>マイネルエンペラー</td>
+      <td class="num">19.7</td>
+      <td class="num">11.8</td>
+      <td class="num">35.3</td>
+      <td class="num">24</td>
+      <td class="num">50.0</td>
+      <td class="num">65.2</td>
+      <td class="num">50.0</td>
+      <td class="num">50.0</td>
+      <td class="num">28.6</td>
+      <td class="num">28.6</td>
+      <td class="num">50.7</td>
+      <td class="num">53.7</td>
+      <td class="num" style="color:#2f855a">+3.0</td>
+      <td class="num">0.976</td>
+      <td class="num">0.982</td>
+    </tr><tr>
+      <td class="num">12</td>
+      <td>ワープスピード</td>
+      <td class="num">117.8</td>
+      <td class="num">11.8</td>
+      <td class="num">33.9</td>
+      <td class="num">29</td>
+      <td class="num">50.0</td>
+      <td class="num">49.7</td>
+      <td class="num">50.0</td>
+      <td class="num">100.0</td>
+      <td class="num">21.4</td>
+      <td class="num">21.4</td>
+      <td class="num">50.3</td>
+      <td class="num">62.4</td>
+      <td class="num" style="color:#2f855a">+12.1</td>
+      <td class="num">0.980</td>
+      <td class="num">0.982</td>
+    </tr><tr>
+      <td class="num">13</td>
+      <td>ジャスティンパレス</td>
+      <td class="num">4.9</td>
+      <td class="num">11.8</td>
+      <td class="num">35.2</td>
+      <td class="num">24</td>
+      <td class="num">50.0</td>
+      <td class="num">42.3</td>
+      <td class="num">50.0</td>
+      <td class="num">57.1</td>
+      <td class="num">14.3</td>
+      <td class="num">14.3</td>
+      <td class="num">49.5</td>
+      <td class="num">49.7</td>
+      <td class="num" style="color:#2f855a">+0.2</td>
+      <td class="num">0.968</td>
+      <td class="num">0.968</td>
+    </tr><tr>
+      <td class="num">14</td>
+      <td>ビザンチンドリーム</td>
+      <td class="num">11.6</td>
+      <td class="num">11.8</td>
+      <td class="num">0.0</td>
+      <td class="num">12</td>
+      <td class="num">50.0</td>
+      <td class="num">49.1</td>
+      <td class="num">50.0</td>
+      <td class="num">35.7</td>
+      <td class="num">7.1</td>
+      <td class="num">7.1</td>
+      <td class="num">48.1</td>
+      <td class="num">44.4</td>
+      <td class="num" style="color:#c53030">-3.7</td>
+      <td class="num">0.971</td>
+      <td class="num">0.964</td>
+    </tr><tr>
+      <td class="num">15</td>
+      <td>ハヤテノフクノスケ</td>
+      <td class="num">17.5</td>
+      <td class="num">11.8</td>
+      <td class="num">37.5</td>
+      <td class="num">14</td>
+      <td class="num">50.0</td>
+      <td class="num">36.2</td>
+      <td class="num">50.0</td>
+      <td class="num">14.3</td>
+      <td class="num">0.0</td>
+      <td class="num">0.0</td>
+      <td class="num">49.1</td>
+      <td class="num">37.7</td>
+      <td class="num" style="color:#c53030">-11.4</td>
+      <td class="num">0.973</td>
+      <td class="num">0.951</td>
+    </tr></tbody>
+    </table>
+    <p class="note">CR=courseRecord, L3F=scoreLastThreeF (前走実走上3F由来), Tr=scoreTraining (調教近似秒由来)。</p>
+  </section>
+  <section>
+    <h2>次フェーズ提案</h2>
+    <ul class="note">
+      <li>本番取得が機能しているなら <b>Phase 2H 本格チューニング (WEIGHTS 再最適化)</b> に進める状態。
+        ただしバックテストはタイムリーキ問題があるため週次収集の蓄積が必要。</li>
+      <li>pastRaces 取得率 &lt; 90% / 健全性 NG / 重賞補正未発動 等が観察された場合は別途対処。</li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>
