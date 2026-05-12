@@ -1,0 +1,468 @@
+{
+  "raceId": "202605020604",
+  "raceName": "3歳未勝利",
+  "date": "2026-05-10",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クリアーゲイル",
+      "score": 72,
+      "ev": 0.9957618504304532,
+      "odds": 32.2,
+      "waku": 1,
+      "jockey": "団野",
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ラルクアンレーヴ",
+      "score": 67.03153846153846,
+      "ev": 0.9919139253029928,
+      "odds": 36.8,
+      "waku": 2,
+      "jockey": "松若",
+      "components": {
+        "lastThreeF": 92.3076923076923,
+        "training": 92.3076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ポイズンオーク",
+      "score": 62.773076923076914,
+      "ev": 0.982153968494597,
+      "odds": 53,
+      "waku": 3,
+      "jockey": "津村",
+      "components": {
+        "lastThreeF": 84.61538461538461,
+        "training": 84.61538461538461,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ランブルスコ",
+      "score": 62.419615384615376,
+      "ev": 1.0217106428474543,
+      "odds": 1.9,
+      "waku": 3,
+      "jockey": "ルメール",
+      "components": {
+        "lastThreeF": 76.92307692307693,
+        "training": 76.92307692307693,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アテナガール",
+      "score": 60.29115384615383,
+      "ev": 0.9816734246633636,
+      "odds": 149.4,
+      "waku": 4,
+      "jockey": "斎藤",
+      "components": {
+        "lastThreeF": 69.23076923076923,
+        "training": 69.23076923076923,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ベルウッドバイオ",
+      "score": 57.80769230769231,
+      "ev": 0.9847703318359889,
+      "odds": 24.4,
+      "waku": 4,
+      "jockey": "ディー",
+      "components": {
+        "lastThreeF": 61.53846153846154,
+        "training": 61.53846153846154,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ゴンファロニエーレ",
+      "score": 53.90423076923076,
+      "ev": 0.9887360870640614,
+      "odds": 2.5,
+      "waku": 5,
+      "jockey": "レーン",
+      "components": {
+        "lastThreeF": 53.84615384615385,
+        "training": 53.84615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "プリティウーマン",
+      "score": 47.160769230769226,
+      "ev": 0.9765246077782122,
+      "odds": 34.9,
+      "waku": 5,
+      "jockey": "岩田望",
+      "components": {
+        "lastThreeF": 46.15384615384615,
+        "training": 46.15384615384615,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "ドラゴングローリア",
+      "score": 44.322307692307696,
+      "ev": 0.9743263040593193,
+      "odds": 26.2,
+      "waku": 6,
+      "jockey": "佐々木",
+      "components": {
+        "lastThreeF": 38.46153846153847,
+        "training": 38.46153846153847,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "フキョウワオン",
+      "score": 42.90384615384615,
+      "ev": 0.9529109917845525,
+      "odds": 9.5,
+      "waku": 6,
+      "jockey": "三浦",
+      "components": {
+        "lastThreeF": 30.76923076923077,
+        "training": 30.76923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "フォーエバーラブ",
+      "score": 43.61538461538462,
+      "ev": 0.9737788132415246,
+      "odds": 42.5,
+      "waku": 7,
+      "jockey": "柴田大",
+      "components": {
+        "lastThreeF": 23.076923076923077,
+        "training": 23.076923076923077,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "ベアダイヤモンド",
+      "score": 40.776923076923076,
+      "ev": 0.9715805095226316,
+      "odds": 47.1,
+      "waku": 7,
+      "jockey": "西村淳",
+      "components": {
+        "lastThreeF": 15.384615384615385,
+        "training": 15.384615384615385,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "アルマサーガ",
+      "score": 37.93846153846154,
+      "ev": 0.9773455514509347,
+      "odds": 518.6,
+      "waku": 8,
+      "jockey": "▲佐藤",
+      "components": {
+        "lastThreeF": 7.6923076923076925,
+        "training": 7.6923076923076925,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "パルミエ",
+      "score": 30.130000000000003,
+      "ev": 0.9758336963662138,
+      "odds": 126.5,
+      "waku": 8,
+      "jockey": "原",
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202605020604",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "ランブルスコ",
+        "time": "2:03.5",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 2,
+        "horseId": 12,
+        "horseName": "ベアダイヤモンド",
+        "time": "2:03.6",
+        "lastThreeF": 33.6
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "ベルウッドバイオ",
+        "time": "2:03.7",
+        "lastThreeF": 33.9
+      },
+      {
+        "rank": 4,
+        "horseId": 7,
+        "horseName": "ゴンファロニエーレ",
+        "time": "2:03.7",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 5,
+        "horseId": 10,
+        "horseName": "フキョウワオン",
+        "time": "2:03.8",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 6,
+        "horseId": 11,
+        "horseName": "フォーエバーラブ",
+        "time": "2:04.0",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 7,
+        "horseId": 3,
+        "horseName": "ポイズンオーク",
+        "time": "2:04.3",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 8,
+        "horseId": 1,
+        "horseName": "クリアーゲイル",
+        "time": "2:04.3",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 9,
+        "horseId": 8,
+        "horseName": "プリティウーマン",
+        "time": "2:04.3",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 10,
+        "horseId": 14,
+        "horseName": "パルミエ",
+        "time": "2:04.4",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 11,
+        "horseId": 2,
+        "horseName": "ラルクアンレーヴ",
+        "time": "2:04.4",
+        "lastThreeF": 34.1
+      },
+      {
+        "rank": 12,
+        "horseId": 5,
+        "horseName": "アテナガール",
+        "time": "2:04.7",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 13,
+        "horseId": 9,
+        "horseName": "ドラゴングローリア",
+        "time": "2:04.8",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 14,
+        "horseId": 13,
+        "horseName": "アルマサーガ",
+        "time": "2:04.9",
+        "lastThreeF": 34.3
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 110
+        },
+        {
+          "horseId": 12,
+          "payout": 920
+        },
+        {
+          "horseId": 6,
+          "payout": 380
+        }
+      ],
+      "waku": [
+        {
+          "combination": "3-7",
+          "payout": 1760
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-12",
+          "payout": 5610
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-12",
+          "payout": 6350
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-12",
+          "payout": 2110
+        },
+        {
+          "combination": "4-6",
+          "payout": 700
+        },
+        {
+          "combination": "6-12",
+          "payout": 9730
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-6-12",
+          "payout": 25440
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-12-6",
+          "payout": 93640
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 4,
+    "top3EVCount": 1,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "11:35",
+    "raceDate": "20260510",
+    "headCount": 14
+  }
+}

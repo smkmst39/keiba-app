@@ -1,0 +1,313 @@
+{
+  "raceId": "202608030510",
+  "raceName": "鴨川特別",
+  "date": "2026-05-09",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "クラヴァンス",
+      "score": 67.03,
+      "ev": 1.025556846632087,
+      "odds": 6,
+      "waku": 1,
+      "jockey": "坂井",
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "メディテラニアン",
+      "score": 66.37357142857142,
+      "ev": 1.034429771045926,
+      "odds": 3.4,
+      "waku": 2,
+      "jockey": "岩田望",
+      "components": {
+        "lastThreeF": 85.71428571428571,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ヴィスマール",
+      "score": 61.45714285714285,
+      "ev": 1.0155836283890045,
+      "odds": 4.9,
+      "waku": 3,
+      "jockey": "西村淳",
+      "components": {
+        "lastThreeF": 71.42857142857143,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "リッチブラック",
+      "score": 54.055714285714274,
+      "ev": 0.980360586837066,
+      "odds": 79.3,
+      "waku": 4,
+      "jockey": "吉村",
+      "components": {
+        "lastThreeF": 57.14285714285714,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "アオイタケル",
+      "score": 49.849285714285706,
+      "ev": 0.9710872366531873,
+      "odds": 2.3,
+      "waku": 5,
+      "jockey": "川田",
+      "components": {
+        "lastThreeF": 42.857142857142854,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ダノンカゼルタ",
+      "score": 45.642857142857146,
+      "ev": 0.9674813682825278,
+      "odds": 10.9,
+      "waku": 6,
+      "jockey": "松山",
+      "components": {
+        "lastThreeF": 28.57142857142857,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ミカエルパシャ",
+      "score": 40.01642857142857,
+      "ev": 0.9566974756696722,
+      "odds": 18.4,
+      "waku": 7,
+      "jockey": "北村友",
+      "components": {
+        "lastThreeF": 14.285714285714285,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ヴォラヴィア",
+      "score": 32.97,
+      "ev": 0.9763191940488027,
+      "odds": 95.1,
+      "waku": 8,
+      "jockey": "川又",
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608030510",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 3,
+        "horseName": "ヴィスマール",
+        "time": "1:58.2",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 2,
+        "horseId": 2,
+        "horseName": "メディテラニアン",
+        "time": "1:58.4",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 3,
+        "horseId": 5,
+        "horseName": "アオイタケル",
+        "time": "1:58.5",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 4,
+        "horseId": 1,
+        "horseName": "クラヴァンス",
+        "time": "1:58.8",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 5,
+        "horseId": 6,
+        "horseName": "ダノンカゼルタ",
+        "time": "1:58.9",
+        "lastThreeF": 34.7
+      },
+      {
+        "rank": 6,
+        "horseId": 4,
+        "horseName": "リッチブラック",
+        "time": "1:59.5",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 7,
+        "horseId": 7,
+        "horseName": "ミカエルパシャ",
+        "time": "1:59.7",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 8,
+        "horseId": 8,
+        "horseName": "ヴォラヴィア",
+        "time": "1:59.8",
+        "lastThreeF": 35.4
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 3,
+          "payout": 490
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 3,
+          "payout": 120
+        },
+        {
+          "horseId": 2,
+          "payout": 110
+        },
+        {
+          "horseId": 5,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "2-3",
+          "payout": 650
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "3-2",
+          "payout": 1760
+        }
+      ],
+      "wide": [
+        {
+          "combination": "2-3",
+          "payout": 180
+        },
+        {
+          "combination": "3-5",
+          "payout": 230
+        },
+        {
+          "combination": "2-5",
+          "payout": 160
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-3-5",
+          "payout": 440
+        }
+      ],
+      "santan": [
+        {
+          "combination": "3-2-5",
+          "payout": 4140
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1580,
+    "ageLimit": "4歳以上",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:55",
+    "raceDate": "20260509",
+    "headCount": 8
+  }
+}
