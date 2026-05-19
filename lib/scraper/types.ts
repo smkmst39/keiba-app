@@ -2,6 +2,8 @@
 // 競馬データ型定義
 // ==========================================
 
+import type { PastRace } from './horse_history';
+
 /** 出走馬の情報 */
 export type Horse = {
   id: number;          // 馬番
@@ -178,7 +180,28 @@ export type RaceResult = {
   payouts: RacePayouts;
 };
 
-/** 検証データ（ローカル保存用） */
+/** 各指標のコンポーネントスコア (0〜100)。重み最適化やバックテスト用。
+ *  本来は lib/score/calculator.ts の ScoreComponents と構造一致。
+ *  循環参照を避けるため types.ts 側にインライン定義する。
+ */
+export type VerificationComponents = {
+  lastThreeF: number;
+  training: number;
+  courseRecord: number;
+  prevClass: number;
+  breeding: number;
+  weightChange: number;
+  jockey: number;
+};
+
+/** 検証データ（ローカル保存用）
+ *
+ * 2026-05-19 (Phase 2H D-1): predictions の optional フィールドを正式に型定義に追加。
+ *   - waku/jockey/components は collect-verification.ts:246-257 で既に書かれていたが
+ *     型が追従しておらず、TypeScript からは見えなかった (型ズレ)
+ *   - pastRaces は今コミットでバックテスト再現用に追加 (D-1)
+ *   - すべて optional のため、既存3341件の JSON は影響なし (後方互換維持)
+ */
 export type VerificationData = {
   raceId: string;
   raceName: string;
@@ -189,6 +212,17 @@ export type VerificationData = {
     score: number;
     ev: number;
     odds: number;
+    /** 枠番。collect-verification.ts で既に書かれていたが型が追従していなかった */
+    waku?: number;
+    /** 騎手名。collect-verification.ts で既に書かれていたが型が追従していなかった */
+    jockey?: string;
+    /** 各指標スコア。collect-verification.ts で既に書かれていたが型が追従していなかった */
+    components?: VerificationComponents | null;
+    /** 過去走（Phase 2H D-1 で追加。pastRaces を保存することでバックテスト時に
+     *  当時の courseRecord/scoreLastThreeF を再現できる。タイムリーキ防止は
+     *  calcAllScores 側の baseDate フィルタが効くため安全。
+     *  既存3341件の JSON はこのフィールド無し（undefined）→ 50 フォールバック。 */
+    pastRaces?: PastRace[];
   }[];
   results: RaceResult;
   accuracy: {
