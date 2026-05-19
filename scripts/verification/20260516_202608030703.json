@@ -1,0 +1,568 @@
+{
+  "raceId": "202608030703",
+  "raceName": "3歳未勝利",
+  "date": "2026-05-16",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "アラビアンジョイ",
+      "score": 59.76764705882352,
+      "ev": 1.0037895111705133,
+      "odds": 6.3,
+      "waku": 1,
+      "jockey": "松山",
+      "components": {
+        "lastThreeF": 76.47058823529412,
+        "training": 76.47058823529412,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ジョービスコッティ",
+      "score": 61.147058823529406,
+      "ev": 0.9870078236459202,
+      "odds": 26.9,
+      "waku": 1,
+      "jockey": "吉村",
+      "components": {
+        "lastThreeF": 70.58823529411765,
+        "training": 70.58823529411765,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "スカイピア",
+      "score": 56.846470588235285,
+      "ev": 0.9837016745485145,
+      "odds": 43.8,
+      "waku": 2,
+      "jockey": "▲森田",
+      "components": {
+        "lastThreeF": 64.70588235294117,
+        "training": 64.70588235294117,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "アクアアイ",
+      "score": 56.45088235294117,
+      "ev": 0.9969877973985662,
+      "odds": 2.1,
+      "waku": 2,
+      "jockey": "岩田望",
+      "components": {
+        "lastThreeF": 58.82352941176471,
+        "training": 58.82352941176471,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヴェネラブル",
+      "score": 52.505294117647054,
+      "ev": 0.9800910806416815,
+      "odds": 186.3,
+      "waku": 3,
+      "jockey": "菱田",
+      "components": {
+        "lastThreeF": 52.94117647058824,
+        "training": 52.94117647058824,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "ジェム",
+      "score": 52.109705882352934,
+      "ev": 0.9800150518744812,
+      "odds": 227.5,
+      "waku": 3,
+      "jockey": "鮫島駿",
+      "components": {
+        "lastThreeF": 47.05882352941176,
+        "training": 47.05882352941176,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "パープルウインド",
+      "score": 49.939117647058815,
+      "ev": 0.9795978828767578,
+      "odds": 296.6,
+      "waku": 4,
+      "jockey": "藤懸",
+      "components": {
+        "lastThreeF": 41.17647058823529,
+        "training": 41.17647058823529,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "ロジャートアリー",
+      "score": 69.47441176470588,
+      "ev": 0.9833524038562695,
+      "odds": 56.4,
+      "waku": 4,
+      "jockey": "田口",
+      "components": {
+        "lastThreeF": 94.11764705882352,
+        "training": 94.11764705882352,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シャンティフレーズ",
+      "score": 48.12352941176471,
+      "ev": 0.9792489419251387,
+      "odds": 449.2,
+      "waku": 5,
+      "jockey": "川須",
+      "components": {
+        "lastThreeF": 35.294117647058826,
+        "training": 35.294117647058826,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "メイショウユウゲン",
+      "score": 40.98294117647059,
+      "ev": 0.9778765802819503,
+      "odds": 184.7,
+      "waku": 5,
+      "jockey": "酒井",
+      "components": {
+        "lastThreeF": 29.411764705882355,
+        "training": 29.411764705882355,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "タワワ",
+      "score": 65.13323529411764,
+      "ev": 0.9825180658608226,
+      "odds": 50.7,
+      "waku": 6,
+      "jockey": "池添",
+      "components": {
+        "lastThreeF": 82.35294117647058,
+        "training": 82.35294117647058,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "オリヒメボシ",
+      "score": 62.688823529411756,
+      "ev": 0.9820482702591854,
+      "odds": 86.1,
+      "waku": 6,
+      "jockey": "北村友",
+      "components": {
+        "lastThreeF": 88.23529411764706,
+        "training": 88.23529411764706,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "キシャール",
+      "score": 38.81235294117647,
+      "ev": 0.9545941128422667,
+      "odds": 15.4,
+      "waku": 7,
+      "jockey": "高杉",
+      "components": {
+        "lastThreeF": 23.52941176470588,
+        "training": 23.52941176470588,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "ドールズ",
+      "score": 41.61176470588236,
+      "ev": 0.9779974349319681,
+      "odds": 482.7,
+      "waku": 7,
+      "jockey": "高倉",
+      "components": {
+        "lastThreeF": 17.647058823529413,
+        "training": 17.647058823529413,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 15,
+      "horseName": "マイシドニー",
+      "score": 38.376176470588234,
+      "ev": 0.9537558179593074,
+      "odds": 17.9,
+      "waku": 7,
+      "jockey": "△田山",
+      "components": {
+        "lastThreeF": 11.76470588235294,
+        "training": 11.76470588235294,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 16,
+      "horseName": "ルナフィオーレ",
+      "score": 36.205588235294115,
+      "ev": 0.9678336511928287,
+      "odds": 21.6,
+      "waku": 8,
+      "jockey": "Ｍデムーロ",
+      "components": {
+        "lastThreeF": 5.88235294117647,
+        "training": 5.88235294117647,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 17,
+      "horseName": "ルナカカオ",
+      "score": 71.645,
+      "ev": 0.9837695728539931,
+      "odds": 52.7,
+      "waku": 8,
+      "jockey": "松若",
+      "components": {
+        "lastThreeF": 100,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 18,
+      "horseName": "タナブイハチターボ",
+      "score": 34.745,
+      "ev": 0.9135539978538596,
+      "odds": 3.2,
+      "waku": 8,
+      "jockey": "幸",
+      "components": {
+        "lastThreeF": 0,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608030703",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 13,
+        "horseName": "キシャール",
+        "time": "1:20.9",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 2,
+        "horseId": 18,
+        "horseName": "タナブイハチターボ",
+        "time": "1:21.0",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 3,
+        "horseId": 2,
+        "horseName": "ジョービスコッティ",
+        "time": "1:21.2",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "アクアアイ",
+        "time": "1:21.3",
+        "lastThreeF": 34.2
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "アラビアンジョイ",
+        "time": "1:21.3",
+        "lastThreeF": 34
+      },
+      {
+        "rank": 6,
+        "horseId": 3,
+        "horseName": "スカイピア",
+        "time": "1:21.4",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 7,
+        "horseId": 16,
+        "horseName": "ルナフィオーレ",
+        "time": "1:21.6",
+        "lastThreeF": 34.3
+      },
+      {
+        "rank": 8,
+        "horseId": 12,
+        "horseName": "オリヒメボシ",
+        "time": "1:21.7",
+        "lastThreeF": 33.8
+      },
+      {
+        "rank": 9,
+        "horseId": 7,
+        "horseName": "パープルウインド",
+        "time": "1:21.8",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 10,
+        "horseId": 5,
+        "horseName": "ヴェネラブル",
+        "time": "1:21.8",
+        "lastThreeF": 34.5
+      },
+      {
+        "rank": 11,
+        "horseId": 6,
+        "horseName": "ジェム",
+        "time": "1:22.0",
+        "lastThreeF": 35.5
+      },
+      {
+        "rank": 12,
+        "horseId": 17,
+        "horseName": "ルナカカオ",
+        "time": "1:22.0",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 13,
+        "horseId": 10,
+        "horseName": "メイショウユウゲン",
+        "time": "1:22.0",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 14,
+        "horseId": 9,
+        "horseName": "シャンティフレーズ",
+        "time": "1:22.2",
+        "lastThreeF": 34.6
+      },
+      {
+        "rank": 15,
+        "horseId": 11,
+        "horseName": "タワワ",
+        "time": "1:22.4",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 16,
+        "horseId": 15,
+        "horseName": "マイシドニー",
+        "time": "1:22.4",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 17,
+        "horseId": 8,
+        "horseName": "ロジャートアリー",
+        "time": "1:22.5",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 18,
+        "horseId": 14,
+        "horseName": "ドールズ",
+        "time": "1:22.9",
+        "lastThreeF": 35.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 13,
+          "payout": 1540
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 13,
+          "payout": 470
+        },
+        {
+          "horseId": 18,
+          "payout": 230
+        },
+        {
+          "horseId": 2,
+          "payout": 780
+        }
+      ],
+      "waku": [
+        {
+          "combination": "7-8",
+          "payout": 1250
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "13-18",
+          "payout": 2500
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "13-18",
+          "payout": 5570
+        }
+      ],
+      "wide": [
+        {
+          "combination": "13-18",
+          "payout": 750
+        },
+        {
+          "combination": "2-13",
+          "payout": 5730
+        },
+        {
+          "combination": "2-18",
+          "payout": 1560
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "2-13-18",
+          "payout": 21260
+        }
+      ],
+      "santan": [
+        {
+          "combination": "13-18-2",
+          "payout": 120270
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 15,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 590,
+    "ageLimit": "3歳",
+    "distance": 1400,
+    "surface": "turf",
+    "startTime": "10:40",
+    "raceDate": "20260516",
+    "headCount": 18
+  }
+}
