@@ -254,6 +254,13 @@ function buildVerificationData(race: Race, result: RaceResult, dateIso: string):
       // アプローチ2 軸1: 騎手コース別勝率の集計用 (2026-04-24 追加)
       //   以降の週次スクレイプで jockey 名が蓄積される
       jockey: h.jockey,
+      // Phase 2H D-1 (2026-05-19 追加): pastRaces を保存することで、
+      //   バックテスト時に scoreCourseRecord / scoreLastThreeF を再現できる。
+      //   タイムリーキ防止は calcAllScores 側の baseDate フィルタが効くため安全
+      //   (filterCourseRecord / findPreviousYearSameRace が d >= baseDate を除外)。
+      //   既存3341件の JSON は未保存 (pastRaces=undefined) → 50 フォールバック動作。
+      //   DISABLE_PAST_RACES=true 環境では h.pastRaces=undefined のまま保存される。
+      pastRaces: h.pastRaces,
     })),
     results: result,
     accuracy: { top1ScoreRank, top3EVCount, recommendedHits },
