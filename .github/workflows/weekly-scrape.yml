@@ -86,6 +86,22 @@ jobs:
           echo "--- weekly_scrape.log 末尾 ---"
           tail -30 scripts/verification/weekly_scrape.log 2>/dev/null || echo "(ログなし)"
 
+      # Phase 2H D-1: pastRaces 保存導入 (~20KB/レース 追加) によりリポジトリが
+      # 緩やかに肥大化する。100MB → 200MB → 300MB の節目で警告を出し、
+      # 圧縮 (.json.gz 化) or 別ディレクトリ移行の検討タイミングを通知する。
+      - name: Verification dir size check
+        if: always()
+        run: |
+          SIZE_MB=$(du -sm scripts/verification 2>/dev/null | cut -f1)
+          echo "verification dir size: ${SIZE_MB} MB"
+          if [ -n "$SIZE_MB" ] && [ "$SIZE_MB" -gt 300 ]; then
+            echo "::warning::verification ディレクトリが ${SIZE_MB}MB に達しました。.json.gz 化 or 別ディレクトリ移行を検討してください (300MB 超過)"
+          elif [ -n "$SIZE_MB" ] && [ "$SIZE_MB" -gt 200 ]; then
+            echo "::warning::verification ディレクトリが ${SIZE_MB}MB に達しました。サイズ抑制策の検討時期 (200MB 超過)"
+          elif [ -n "$SIZE_MB" ] && [ "$SIZE_MB" -gt 100 ]; then
+            echo "::notice::verification ディレクトリが ${SIZE_MB}MB に達しました (100MB 超過、警戒範囲外)"
+          fi
+
       - name: Commit new data
         run: |
           git config user.name  "github-actions[bot]"
