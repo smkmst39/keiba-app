@@ -5,7 +5,7 @@
 
 import type { Horse, Race, BetType } from '../scraper/types';
 import type { PastRace } from '../scraper/horse_history';
-import { filterCourseRecord, findPreviousYearSameRace, parseRaceDate } from '../scraper/horse_history';
+import { filterCourseRecord, findPreviousYearSameRace, parseRaceDate, parseHistoryDate } from '../scraper/horse_history';
 
 // ==========================================
 // 定数
@@ -351,11 +351,20 @@ function isStakesRace(grade: Race['raceGrade']): boolean {
 export function classifyPrevRace(name: string): number {
   if (!name) return 50; // 前走情報なし = 中立
 
+  // 正規化: グレード表記の揺れを吸収
+  // 注意: 英大文字 I (U+0049) の連続もケアする必要あり。
+  //   netkeiba の表記は "(GI)" "(GII)" "(GIII)" で英大文字 I を使う。
+  //   ローマ数字 Ⅰ Ⅱ Ⅲ (U+2160-2162) と全角 １ ２ ３ もケアする。
+  //   2026-05-24 修正: G + (III/II/I or 全角/ローマ数字) を「桁数の多い順」に置換。
+  //   順序が重要: GIII を先に処理しないと GI/GII にマッチして誤変換される。
   const n = name
     .replace(/[ＧｇGg]/g, 'G')
-    .replace(/[Ⅰ１]/g, '1')
-    .replace(/[Ⅱ２]/g, '2')
-    .replace(/[Ⅲ３]/g, '3');
+    .replace(/G(III|Ⅲ)(?![IⅠ-Ⅻ])/g, 'G3')   // GIII / GⅢ → G3 (後続に I が続かない)
+    .replace(/G(II|Ⅱ)(?![IⅠ-Ⅻ])/g, 'G2')    // GII / GⅡ → G2
+    .replace(/G(I|Ⅰ)(?![IⅠ-Ⅻ])/g, 'G1')     // GI / GⅠ → G1
+    .replace(/[１]/g, '1')                    // 全角数字
+    .replace(/[２]/g, '2')
+    .replace(/[３]/g, '3');
 
   // グレード競走
   if (/G1/.test(n)) return 100;
@@ -382,13 +391,33 @@ export function classifyPrevRace(name: string): number {
 /**
  * 前走クラススコア（0〜100）
  *
- * Horse.prevRaceClass が付与されていればその値、
- * なければ Horse.prevRaceName から classifyPrevRace で判定する。
- * どちらもなければ中立値 50。
+ * 優先順位:
+ *   1. Horse.prevRaceClass (number) が付与されていればその値
+ *   2. Horse.prevRaceName から classifyPrevRace で判定
+ *   3. (Phase 2H D-1 以降) pastRaces から baseDate より前の最新走を取り
+ *      その raceName を classifyPrevRace に渡す。タイムリーキ防止のため
+ *      baseDate (race.raceDate) より前のレースのみ対象とする
+ *   4. 中立値 50 (フォールバック)
+ *
+ * 2026-05-24: 出馬表ベースの prevRaceName 取得がスクレイパー側で全件失敗して
+ * いた問題 (全49,033頭で prevClass=50) に対応するため、pastRaces (D-1 で
+ * 取得済み) からのフォールバック経路を追加した。既存3,557R は pastRaces 未保存
+ * のため遡及効果なし。D-2 観察フェーズ以降の新形式 JSON で有効化される。
  */
-function scorePrevClass(horse: Horse): number {
+function scorePrevClass(horse: Horse, race?: Race): number {
   if (typeof horse.prevRaceClass === 'number') return horse.prevRaceClass;
   if (horse.prevRaceName) return classifyPrevRace(horse.prevRaceName);
+  // フォールバック: pastRaces から baseDate より前の最新走を使う
+  if (race && horse.pastRaces && horse.pastRaces.length > 0) {
+    const baseDate = parseRaceDate(race.raceDate) ?? race.fetchedAt ?? new Date();
+    for (const p of horse.pastRaces) {
+      if (p.rank < 1) continue;
+      const d = parseHistoryDate(p.date);
+      if (d === null) continue;
+      if (d >= baseDate) continue; // タイムリーキ防止: 自レース・未来レース除外
+      return classifyPrevRace(p.raceName);
+    }
+  }
   return 50;
 }
 
@@ -479,7 +508,7 @@ function calcScoreInternal(
     lastThreeF:   idx >= 0 ? threeFScores[idx]   : 50,
     training:     idx >= 0 ? trainingScores[idx] : 50,
     courseRecord: scoreCourseRecord(horse, race),
-    prevClass:    scorePrevClass(horse),
+    prevClass:    scorePrevClass(horse, race),
     breeding:     idx >= 0 ? breedingScores[idx] : 50,
     weightChange: scoreWeightChange(horse),
     jockey:       idx >= 0 ? jockeyScores[idx]   : 50,
@@ -551,7 +580,7 @@ export function calcAllComponentScores(
       lastThreeF:   threeFScores[i]   ?? 50,
       training:     trainingScores[i] ?? 50,
       courseRecord: scoreCourseRecord(horse, race),
-      prevClass:    scorePrevClass(horse),
+      prevClass:    scorePrevClass(horse, race),
       breeding:     breedingScores[i] ?? 50,
       weightChange: scoreWeightChange(horse),
       jockey:       jockeyScores[i]   ?? 50,

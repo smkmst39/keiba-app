@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-05-24T08:22:12.147+09:00",
+  "fileCount": 3557,
+  "recentN": 100,
+  "recentRange": {
+    "first": "20260510_202604010409.json",
+    "last": "20260517_202608030812.json"
+  },
+  "summary": {
+    "error": 10,
+    "warning": 0,
+    "notice": 1
+  },
+  "bAll": {
+    "totalRaces": 3557,
+    "totalHorses": 49033,
+    "withPastRaces": 0,
+    "componentDistinct": {
+      "lastThreeF": 97,
+      "training": 97,
+      "courseRecord": 1,
+      "prevClass": 1,
+      "breeding": 1,
+      "weightChange": 6,
+      "jockey": 976
+    },
+    "componentFifty": {
+      "lastThreeF": 1165,
+      "training": 1165,
+      "courseRecord": 49033,
+      "prevClass": 49033,
+      "breeding": 49033,
+      "weightChange": 4082,
+      "jockey": 4571
+    },
+    "sameLastThreeFTraining": 49033
+  },
+  "bRecent": {
+    "totalRaces": 100,
+    "totalHorses": 1361,
+    "withPastRaces": 0,
+    "componentDistinct": {
+      "lastThreeF": 97,
+      "training": 97,
+      "courseRecord": 1,
+      "prevClass": 1,
+      "breeding": 1,
+      "weightChange": 6,
+      "jockey": 1
+    },
+    "componentFifty": {
+      "lastThreeF": 37,
+      "training": 37,
+      "courseRecord": 1361,
+      "prevClass": 1361,
+      "breeding": 1361,
+      "weightChange": 118,
+      "jockey": 1361
+    },
+    "sameLastThreeFTraining": 1361
+  },
+  "findings": [
+    {
+      "id": "AUD-1",
+      "severity": "ERROR",
+      "message": "courseRecord: 直近100R で distinct=1 (全件 1)"
+    },
+    {
+      "id": "AUD-1",
+      "severity": "ERROR",
+      "message": "prevClass: 直近100R で distinct=1 (全件 1)"
+    },
+    {
+      "id": "AUD-1",
+      "severity": "ERROR",
+      "message": "breeding: 直近100R で distinct=1 (全件 1)"
+    },
+    {
+      "id": "AUD-1",
+      "severity": "ERROR",
+      "message": "jockey: 直近100R で distinct=1 (全件 976)"
+    },
+    {
+      "id": "AUD-2",
+      "severity": "ERROR",
+      "message": "courseRecord: 直近100R で 50占有率=100.0% (全件 100.0%)"
+    },
+    {
+      "id": "AUD-2",
+      "severity": "ERROR",
+      "message": "prevClass: 直近100R で 50占有率=100.0% (全件 100.0%)"
+    },
+    {
+      "id": "AUD-2",
+      "severity": "ERROR",
+      "message": "breeding: 直近100R で 50占有率=100.0% (全件 100.0%)"
+    },
+    {
+      "id": "AUD-2",
+      "severity": "ERROR",
+      "message": "jockey: 直近100R で 50占有率=100.0% (全件 9.3%)"
+    },
+    {
+      "id": "AUD-3",
+      "severity": "ERROR",
+      "message": "lastThreeF === training の馬: 直近100R で 100.0% (全件 100.0%)",
+      "detail": "Phase 2H D-1 で独立化済。95% 以上残っているなら旧 JSON のみ or 改修未反映"
+    },
+    {
+      "id": "AUD-4",
+      "severity": "ERROR",
+      "message": "pastRaces 保存率: 直近100R で 0.0% (0/1361)",
+      "detail": "D-1 改修後 (5-26 火曜以降) の収集は 100% 近いはず"
+    },
+    {
+      "id": "AUD-4",
+      "severity": "NOTICE",
+      "message": "pastRaces 保存率: 全件で 0.0% (0/49033)",
+      "detail": "D-3 (全件再収集) の進捗指標"
+    }
+  ],
+  "thresholds": {
+    "DISTINCT_ERROR": 3,
+    "DISTINCT_WARNING": 10,
+    "DISTINCT_NOTICE": 50,
+    "FIFTY_RATIO_ERROR": 80,
+    "FIFTY_RATIO_WARNING": 50,
+    "FIFTY_RATIO_NOTICE": 30,
+    "SAME_RATIO_ERROR": 95,
+    "SAME_RATIO_WARNING": 50,
+    "COVERAGE_RECENT_ERROR": 80,
+    "COVERAGE_RECENT_WARNING": 95,
+    "COVERAGE_FULL_NOTICE": 30
+  }
+}
