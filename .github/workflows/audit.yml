@@ -1,0 +1,117 @@
+name: Verification Data Audit
+
+# ==========================================
+# verification データ品質監査ワークフロー (フェーズ1)
+#
+# 目的: 「スコア5要素が全件50固定で数ヶ月放置」事件 (2026-05-23 発覚) の
+#       再発防止。週次スクレイプ翌日に異常分布を自動検知する。
+#
+# 実行タイミング: 毎週水曜 09:00 JST (火曜 24:00 UTC)
+#   - 週次スクレイプ (火曜 08:00 JST) の翌日に走らせ、新規データを監査
+#   - JST 2-6 時帯を確実に回避
+#
+# 想定実行時間: 1-2 分 (3,557+ ファイルを集計するが計算は軽量)
+#
+# 関連:
+#   - scripts/audit/run_audit.ts
+#   - docs/proposals/2026-05-23-audit-system-design.md
+# ==========================================
+
+on:
+  schedule:
+    # 火曜 24:00 UTC = 水曜 09:00 JST
+    - cron: '0 0 * * 3'
+  workflow_dispatch:  # 手動実行 (Actions タブから)
+  push:
+    paths:
+      - 'scripts/audit/**'
+      - '.github/workflows/audit.yml'
+
+concurrency:
+  group: data-audit
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # レポート自動コミット用
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      TZ: Asia/Tokyo
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Show current state
+        run: |
+          echo "JST 現在時刻: $(date)"
+          echo "verification 件数: $(ls scripts/verification/*.json 2>/dev/null | wc -l)"
+
+      # 監査本体。ERROR 検出時は exit 1 でジョブ失敗扱い (但しレポート自体は出力済)
+      - name: Run audit
+        id: audit
+        continue-on-error: true
+        run: pnpm tsx scripts/audit/run_audit.ts
+
+      - name: Show audit report tail
+        if: always()
+        run: |
+          LATEST=$(ls -t scripts/audit/reports/audit_*.md 2>/dev/null | head -1)
+          if [ -n "$LATEST" ]; then
+            echo "--- $LATEST 末尾 ---"
+            tail -40 "$LATEST"
+          fi
+
+      # レポートをリポジトリに蓄積 (週次で履歴化)
+      - name: Commit audit report
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/audit/reports/
+          if git diff --staged --quiet; then
+            echo "新規レポートなし - コミットスキップ"
+            exit 0
+          fi
+          DATE_JST=$(date '+%Y-%m-%d')
+          git commit -m "chore: weekly audit report ${DATE_JST}
+
+          GitHub Actions により自動生成された verification データ品質監査レポート。"
+
+      - name: Push report
+        if: always()
+        run: |
+          if git log origin/main..HEAD --oneline 2>/dev/null | grep -q .; then
+            git pull --rebase --autostash origin main
+            git push origin main
+          else
+            echo "push する新規コミットなし"
+          fi
+
+      # ERROR 検出時はジョブ全体を失敗扱いにする (Actions ダッシュボードで赤くする)
+      - name: Fail if audit detected errors
+        if: steps.audit.outcome == 'failure'
+        run: |
+          echo "::error::audit で ERROR が検出されました。レポートを確認してください"
+          exit 1
