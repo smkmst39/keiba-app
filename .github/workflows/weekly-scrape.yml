@@ -86,6 +86,21 @@ jobs:
           echo "--- weekly_scrape.log 末尾 ---"
           tail -30 scripts/verification/weekly_scrape.log 2>/dev/null || echo "(ログなし)"
 
+      # Phase 2H R-1 (2026-05-23): GitHub Actions 環境からの db.netkeiba.com
+      # アクセス失敗 (jockey 50固定) の原因確定のため、収集ログを artifact 化。
+      # stats.ts の HTTP 取得メタログ ([stats] HTTP OK / HTTP失敗) を 7日間保存し、
+      # Actions Web UI からダウンロードして解析できるようにする。
+      - name: Upload scrape logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-scrape-logs-${{ github.run_number }}
+          path: |
+            scripts/verification/collect.log
+            scripts/verification/weekly_scrape.log
+          retention-days: 7
+          if-no-files-found: warn
+
       # Phase 2H D-1: pastRaces 保存導入 (~20KB/レース 追加) によりリポジトリが
       # 緩やかに肥大化する。100MB → 200MB → 300MB の節目で警告を出し、
       # 圧縮 (.json.gz 化) or 別ディレクトリ移行の検討タイミングを通知する。

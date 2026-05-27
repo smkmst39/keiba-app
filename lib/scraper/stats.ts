@@ -28,11 +28,43 @@ async function fetchDbPage(url: string): Promise<string | null> {
       headers: { 'User-Agent': USER_AGENT, Referer: `${BASE_DB}/` },
       timeout: 10000,
       responseType: 'arraybuffer',
+      validateStatus: () => true, // HTTP 4xx/5xx でも throw せず status をログするため
     });
+
+    // HTTP メタ情報のログ (Phase 2H R-1, 2026-05-26 以降の Actions 実行で
+    // jockey 50固定の原因 (HTTP 取得失敗 or 空 HTML) を確定するため)
+    const contentType = String(res.headers['content-type'] ?? '');
+    const setCookieHeader = res.headers['set-cookie'];
+    const setCookieCount = Array.isArray(setCookieHeader)
+      ? setCookieHeader.length
+      : (setCookieHeader ? 1 : 0);
+    const bodyBytes = (res.data as ArrayBuffer)?.byteLength ?? 0;
+
+    if (res.status !== 200) {
+      // 失敗時: status と body 冒頭 (200B) を残す。Cookie 値は出さず件数のみ
+      const decoder = new TextDecoder('euc-jp', { fatal: false });
+      const text = res.data ? decoder.decode(res.data as unknown as ArrayBuffer) : '';
+      const head = text.slice(0, 200).replace(/\s+/g, ' ');
+      console.error(
+        `[stats] HTTP失敗 ${url} status=${res.status} type=${contentType} ` +
+        `bodyBytes=${bodyBytes} setCookieCount=${setCookieCount} head="${head}"`,
+      );
+      return null;
+    }
+
+    // 成功時: 1行のメタログのみ (大量出力を抑える)
+    console.log(
+      `[stats] HTTP OK ${url} status=200 type=${contentType} ` +
+      `bodyBytes=${bodyBytes} setCookieCount=${setCookieCount}`,
+    );
+
     const decoder = new TextDecoder('euc-jp', { fatal: false });
     return decoder.decode(res.data as unknown as ArrayBuffer);
   } catch (err) {
-    console.error(`[stats] fetchDbPage失敗: ${url}`, err);
+    // 例外 (ネットワークエラー、タイムアウト等)
+    const msg = err instanceof Error ? err.message : String(err);
+    const code = (err as { code?: string } | undefined)?.code ?? 'unknown';
+    console.error(`[stats] fetchDbPage 例外 ${url} code=${code} err="${msg}"`);
     return null;
   }
 }
