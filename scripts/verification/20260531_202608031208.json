@@ -1,0 +1,323 @@
+{
+  "raceId": "202608031208",
+  "raceName": "4歳以上2勝クラス",
+  "date": "2026-05-31",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "フィオレストラーダ",
+      "score": 54.83,
+      "ev": 0.9903166937656224,
+      "odds": 5.7,
+      "waku": 1,
+      "jockey": "松若",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ステラクラウン",
+      "score": 56.9492857142857,
+      "ev": 1.0011247048871723,
+      "odds": 3.5,
+      "waku": 2,
+      "jockey": "団野",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 85.71428571428571,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エコテーラー",
+      "score": 55.87357142857142,
+      "ev": 0.9884739416673312,
+      "odds": 14.9,
+      "waku": 3,
+      "jockey": "藤懸",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 71.42857142857143,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "ホウオウタイタン",
+      "score": 53.37785714285713,
+      "ev": 0.9858059483652223,
+      "odds": 5.4,
+      "waku": 4,
+      "jockey": "△田山",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 57.14285714285714,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ヴォワラクテ",
+      "score": 50.52714285714285,
+      "ev": 0.9792377161993974,
+      "odds": 33.4,
+      "waku": 5,
+      "jockey": "角田和",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 42.857142857142854,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "モモンウールー",
+      "score": 48.741428571428564,
+      "ev": 0.9794627473140831,
+      "odds": 60.1,
+      "waku": 6,
+      "jockey": "★河原田",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 28.57142857142857,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "スターリングアップ",
+      "score": 48.020714285714284,
+      "ev": 0.9732282656552805,
+      "odds": 14.2,
+      "waku": 7,
+      "jockey": "菱田",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 14.285714285714285,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 50
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "パフュームセント",
+      "score": 43.75,
+      "ev": 0.9498740505253963,
+      "odds": 2.3,
+      "waku": 8,
+      "jockey": "池添",
+      "pastRaces": [],
+      "components": {
+        "lastThreeF": 50,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 50
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202608031208",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 1,
+        "horseName": "フィオレストラーダ",
+        "time": "1:59.4",
+        "lastThreeF": 34.9
+      },
+      {
+        "rank": 2,
+        "horseId": 4,
+        "horseName": "ホウオウタイタン",
+        "time": "1:59.6",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 3,
+        "horseId": 7,
+        "horseName": "スターリングアップ",
+        "time": "1:59.6",
+        "lastThreeF": 34.8
+      },
+      {
+        "rank": 4,
+        "horseId": 8,
+        "horseName": "パフュームセント",
+        "time": "1:59.8",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "ステラクラウン",
+        "time": "2:00.0",
+        "lastThreeF": 35.1
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "モモンウールー",
+        "time": "2:00.2",
+        "lastThreeF": 35.4
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ヴォワラクテ",
+        "time": "2:00.3",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 8,
+        "horseId": 3,
+        "horseName": "エコテーラー",
+        "time": "2:00.6",
+        "lastThreeF": 36.2
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 1,
+          "payout": 570
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 1,
+          "payout": 230
+        },
+        {
+          "horseId": 4,
+          "payout": 200
+        },
+        {
+          "horseId": 7,
+          "payout": 260
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "1-4",
+          "payout": 1360
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "1-4",
+          "payout": 2770
+        }
+      ],
+      "wide": [
+        {
+          "combination": "1-4",
+          "payout": 520
+        },
+        {
+          "combination": "1-7",
+          "payout": 1490
+        },
+        {
+          "combination": "4-7",
+          "payout": 820
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "1-4-7",
+          "payout": 6940
+        }
+      ],
+      "santan": [
+        {
+          "combination": "1-4-7",
+          "payout": 23100
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 3,
+    "top3EVCount": 0,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系4歳以上",
+    "raceGrade": "OP",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1190,
+    "ageLimit": "4歳以上",
+    "sexLimit": "牝",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "14:00",
+    "raceDate": "20260531",
+    "headCount": 8
+  }
+}
