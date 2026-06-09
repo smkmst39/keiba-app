@@ -1,0 +1,338 @@
+{
+  "raceId": "202609030105",
+  "raceName": "2歳新馬",
+  "date": "2026-06-06",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "タイドビート",
+      "score": 47.66744186046512,
+      "ev": 0.9591389148856366,
+      "odds": 4,
+      "waku": 1,
+      "jockey": "松山",
+      "pastRaces": [
+        {
+          "date": "2026/06/06",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:37.7",
+          "lastThreeF": 34.1,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 0,
+        "training": 100,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 51.16279069767441
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "シャプシュ",
+      "score": 51.959999999999994,
+      "ev": 0.9790541537542743,
+      "odds": 20.7,
+      "waku": 2,
+      "jockey": "△田山",
+      "pastRaces": [
+        {
+          "date": "2026/06/06",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:37.7",
+          "lastThreeF": 33.5,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 40,
+        "training": 80,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "ロジクラウン",
+      "score": 65.02,
+      "ev": 1.024351527819757,
+      "odds": 2.2,
+      "waku": 3,
+      "jockey": "川田",
+      "pastRaces": [
+        {
+          "date": "2026/06/06",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:36.6",
+          "lastThreeF": 33,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 80,
+        "training": 60,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "シャインラブ",
+      "score": 44.811395348837216,
+      "ev": 0.9642028061921218,
+      "odds": 11.7,
+      "waku": 4,
+      "jockey": "西村淳",
+      "pastRaces": [
+        {
+          "date": "2026/06/06",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:37.6",
+          "lastThreeF": 33.7,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 20,
+        "training": 40,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 47.09302325581394
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ジーティーサクラ",
+      "score": 59.90930232558139,
+      "ev": 1.005145025436351,
+      "odds": 2.7,
+      "waku": 5,
+      "jockey": "北村友",
+      "pastRaces": [
+        {
+          "date": "2026/06/06",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:36.3",
+          "lastThreeF": 32.4,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 100,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 13.953488372093027
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "エコロラーダ",
+      "score": 49.94232558139535,
+      "ev": 0.9738440753513202,
+      "odds": 18.4,
+      "waku": 6,
+      "jockey": "坂井",
+      "pastRaces": [
+        {
+          "date": "2026/06/06",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:37.5",
+          "lastThreeF": 33.3,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 60,
+        "training": 0,
+        "courseRecord": 50,
+        "prevClass": 50,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 53.48837209302325
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609030105",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 5,
+        "horseName": "ジーティーサクラ",
+        "time": "1:36.3",
+        "lastThreeF": 32.4
+      },
+      {
+        "rank": 2,
+        "horseId": 3,
+        "horseName": "ロジクラウン",
+        "time": "1:36.6",
+        "lastThreeF": 33
+      },
+      {
+        "rank": 3,
+        "horseId": 6,
+        "horseName": "エコロラーダ",
+        "time": "1:37.5",
+        "lastThreeF": 33.3
+      },
+      {
+        "rank": 4,
+        "horseId": 4,
+        "horseName": "シャインラブ",
+        "time": "1:37.6",
+        "lastThreeF": 33.7
+      },
+      {
+        "rank": 5,
+        "horseId": 2,
+        "horseName": "シャプシュ",
+        "time": "1:37.7",
+        "lastThreeF": 33.5
+      },
+      {
+        "rank": 6,
+        "horseId": 1,
+        "horseName": "タイドビート",
+        "time": "1:37.7",
+        "lastThreeF": 34.1
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 5,
+          "payout": 270
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 5,
+          "payout": 120
+        },
+        {
+          "horseId": 3,
+          "payout": 110
+        }
+      ],
+      "waku": [],
+      "umaren": [
+        {
+          "combination": "3-5",
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "5-3",
+          "payout": 600
+        }
+      ],
+      "wide": [
+        {
+          "combination": "3-5",
+          "payout": 150
+        },
+        {
+          "combination": "5-6",
+          "payout": 410
+        },
+        {
+          "combination": "3-6",
+          "payout": 490
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "3-5-6",
+          "payout": 1060
+        }
+      ],
+      "santan": [
+        {
+          "combination": "5-3-6",
+          "payout": 3180
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 2,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 290
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "新馬",
+    "raceCondition": "サラ系2歳",
+    "raceGrade": "G1",
+    "weather": "晴",
+    "trackCondition": "良",
+    "handicap": "馬齢",
+    "prize": 780,
+    "ageLimit": "2歳",
+    "distance": 1600,
+    "surface": "turf",
+    "startTime": "12:15",
+    "raceDate": "20260606",
+    "headCount": 6
+  }
+}

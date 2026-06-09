@@ -1,0 +1,1464 @@
+{
+  "raceId": "202609030206",
+  "raceName": "3歳未勝利",
+  "date": "2026-06-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "プリュイドール",
+      "score": 56.199298039215684,
+      "ev": 0.9896909486132774,
+      "odds": 26.1,
+      "waku": 1,
+      "jockey": "西村淳",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 13,
+          "time": "2:02.0",
+          "lastThreeF": 36,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/24",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:56.3",
+          "lastThreeF": 40.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/01",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:58.4",
+          "lastThreeF": 40.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/01/17",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:28.4",
+          "lastThreeF": 37.6,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 93.33333333333333,
+        "courseRecord": 40.4,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 58.823529411764696
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "ハナコトバ",
+      "score": 57.025691101055806,
+      "ev": 1.0060540960921738,
+      "odds": 11.3,
+      "waku": 1,
+      "jockey": "渡辺竜",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 4,
+          "time": "2:01.1",
+          "lastThreeF": 35.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/23",
+          "course": "新潟",
+          "distance": 2400,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 10,
+          "time": "2:30.1",
+          "lastThreeF": 37.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/21",
+          "course": "中京",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "2:00.6",
+          "lastThreeF": 35,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/01",
+          "course": "小倉",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "2:04.1",
+          "lastThreeF": 36.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/08",
+          "course": "小倉",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "2:02.8",
+          "lastThreeF": 35.5,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 73.33333333333333,
+        "training": 86.66666666666667,
+        "courseRecord": 36.8,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 90.04524886877829
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "クリムゾンバースト",
+      "score": 49.32890618401206,
+      "ev": 0.9809040514199505,
+      "odds": 80.5,
+      "waku": 2,
+      "jockey": "△田山",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 10,
+          "time": "2:01.6",
+          "lastThreeF": 36.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/19",
+          "course": "福島",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "2:01.4",
+          "lastThreeF": 36.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/01/10",
+          "course": "京都",
+          "distance": 1900,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "2:03.7",
+          "lastThreeF": 38.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/12/20",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:34.7",
+          "lastThreeF": 34.4,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/12/07",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:36.8",
+          "lastThreeF": 33.6,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 53.333333333333336,
+        "training": 80,
+        "courseRecord": 37.69999999999999,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 22.17194570135747
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "エースフライト",
+      "score": 63.66951915535444,
+      "ev": 1.061480277776167,
+      "odds": 4.4,
+      "waku": 2,
+      "jockey": "坂井",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 1,
+          "time": "2:00.0",
+          "lastThreeF": 35,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/14",
+          "course": "阪神",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": -1,
+          "time": "",
+          "lastThreeF": 0,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/12/28",
+          "course": "阪神",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:47.4",
+          "lastThreeF": 36.1,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/12/06",
+          "course": "中山",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "2:01.6",
+          "lastThreeF": 35.1,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 100,
+        "training": 73.33333333333333,
+        "courseRecord": 44.633333333333326,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 63.80090497737556
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "ペガサスジルシ",
+      "score": 53.04719999999999,
+      "ev": 1.014519449641425,
+      "odds": 3.2,
+      "waku": 3,
+      "jockey": "川田",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 7,
+          "time": "2:01.3",
+          "lastThreeF": 36.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/23",
+          "course": "京都",
+          "distance": 2200,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "2:14.3",
+          "lastThreeF": 35.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/29",
+          "course": "中京",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "2:02.7",
+          "lastThreeF": 33.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/10/25",
+          "course": "京都",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:36.7",
+          "lastThreeF": 36.4,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 46.666666666666664,
+        "training": 66.66666666666666,
+        "courseRecord": 53.9,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "アリュウ",
+      "score": 32.19868536953243,
+      "ev": 0.977117451978653,
+      "odds": 126.4,
+      "waku": 3,
+      "jockey": "角田和",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 6,
+          "time": "2:01.3",
+          "lastThreeF": 37.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/11",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 7,
+          "time": "2:02.0",
+          "lastThreeF": 36,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/25",
+          "course": "園田",
+          "distance": 1870,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 4,
+          "time": "2:08.3",
+          "lastThreeF": 41.3,
+          "raceName": "JRA交流諭鶴羽山特"
+        },
+        {
+          "date": "2026/01/11",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:57.5",
+          "lastThreeF": 42,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 13.333333333333334,
+        "training": 60,
+        "courseRecord": 38.266666666666666,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 30,
+        "jockey": 15.837104072398192
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "ラッキーシグネチャ",
+      "score": 52.03815354449472,
+      "ev": 0.9815029248759699,
+      "odds": 209.7,
+      "waku": 4,
+      "jockey": "◇古川奈",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 8,
+          "time": "2:01.6",
+          "lastThreeF": 35.8,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/23",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 14,
+          "time": "1:48.0",
+          "lastThreeF": 36.2,
+          "raceName": "3歳未勝利"
+        }
+      ],
+      "components": {
+        "lastThreeF": 80,
+        "training": 53.333333333333336,
+        "courseRecord": 39.19999999999999,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 9.049773755656108
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "アスクウルトラモア",
+      "score": 36.8972,
+      "ev": 0.978156048799286,
+      "odds": 499.8,
+      "waku": 4,
+      "jockey": "★河原田",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 14,
+          "time": "2:02.2",
+          "lastThreeF": 36.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/24",
+          "course": "京都",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 16,
+          "time": "1:34.9",
+          "lastThreeF": 36.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/07",
+          "course": "阪神",
+          "distance": 2400,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 12,
+          "time": "2:33.5",
+          "lastThreeF": 36.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/21",
+          "course": "小倉",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 14,
+          "time": "1:50.7",
+          "lastThreeF": 36.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/11/08",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 14,
+          "time": "1:23.6",
+          "lastThreeF": 35.4,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/10/25",
+          "course": "京都",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:36.4",
+          "lastThreeF": 35.9,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 26.666666666666668,
+        "training": 46.666666666666664,
+        "courseRecord": 38.900000000000006,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "シャイニーデイ",
+      "score": 44.832576470588236,
+      "ev": 0.9799101471518661,
+      "odds": 520.3,
+      "waku": 5,
+      "jockey": "▲森田",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 15,
+          "time": "2:02.3",
+          "lastThreeF": 36.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/21",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 10,
+          "time": "2:13.0",
+          "lastThreeF": 41.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/01/04",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:57.9",
+          "lastThreeF": 40,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 60,
+        "training": 40,
+        "courseRecord": 36.8,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.882352941176471
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "レイワノキセキ",
+      "score": 38.962353846153846,
+      "ev": 0.9744501869306371,
+      "odds": 34.4,
+      "waku": 5,
+      "jockey": "太宰",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 9,
+          "time": "2:01.6",
+          "lastThreeF": 36.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/25",
+          "course": "京都",
+          "distance": 2200,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "2:13.8",
+          "lastThreeF": 35.8,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/05",
+          "course": "阪神",
+          "distance": 2400,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 6,
+          "time": "2:28.4",
+          "lastThreeF": 37,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/22",
+          "course": "阪神",
+          "distance": 2400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "2:28.4",
+          "lastThreeF": 34.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/21",
+          "course": "小倉",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:49.8",
+          "lastThreeF": 35.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/01/25",
+          "course": "小倉",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:59.9",
+          "lastThreeF": 35.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/12/28",
+          "course": "阪神",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:47.3",
+          "lastThreeF": 34.7,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/12/06",
+          "course": "中京",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "2:02.5",
+          "lastThreeF": 34.6,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/11/15",
+          "course": "東京",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:50.2",
+          "lastThreeF": 34.1,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 41.9,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 7.692307692307692
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ビップヴォルフ",
+      "score": 60.70770799396682,
+      "ev": 1.034708987735261,
+      "odds": 5.4,
+      "waku": 6,
+      "jockey": "Ｍデムーロ",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 2,
+          "time": "2:00.8",
+          "lastThreeF": 35.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/25",
+          "course": "京都",
+          "distance": 2200,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "2:13.3",
+          "lastThreeF": 35.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/12",
+          "course": "中山",
+          "distance": 2200,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "2:14.1",
+          "lastThreeF": 34.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/07",
+          "course": "小倉",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 8,
+          "time": "2:01.9",
+          "lastThreeF": 37,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/01/25",
+          "course": "小倉",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:59.7",
+          "lastThreeF": 34.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/11/23",
+          "course": "京都",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "2:01.1",
+          "lastThreeF": 35.8,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/11/08",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:48.4",
+          "lastThreeF": 35.1,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 93.33333333333333,
+        "training": 100,
+        "courseRecord": 44.599999999999994,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 14.027149321266966
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "チュオンソン",
+      "score": 31.86439668174962,
+      "ev": 0.9770435581642009,
+      "odds": 65.7,
+      "waku": 6,
+      "jockey": "松本",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 5,
+          "time": "2:01.2",
+          "lastThreeF": 36.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/25",
+          "course": "京都",
+          "distance": 2200,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "2:14.2",
+          "lastThreeF": 36.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/22",
+          "course": "中京",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "2:01.5",
+          "lastThreeF": 35.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/21",
+          "course": "阪神",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 13,
+          "time": "1:59.0",
+          "lastThreeF": 40.6,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 20,
+        "training": 26.666666666666668,
+        "courseRecord": 42.50000000000001,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 14.93212669683258
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "ショウナンアンバー",
+      "score": 26.637150829562596,
+      "ev": 0.9758880864141412,
+      "odds": 464.1,
+      "waku": 7,
+      "jockey": "吉村",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 16,
+          "time": "2:03.1",
+          "lastThreeF": 37.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/05",
+          "course": "阪神",
+          "distance": 2400,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 12,
+          "time": "2:30.5",
+          "lastThreeF": 38.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/22",
+          "course": "阪神",
+          "distance": 2400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": -1,
+          "time": "",
+          "lastThreeF": 0,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/01",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "2:03.8",
+          "lastThreeF": 35.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/12/20",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 14,
+          "time": "2:02.8",
+          "lastThreeF": 36,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/11/30",
+          "course": "京都",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "2:03.2",
+          "lastThreeF": 35.7,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 6.666666666666667,
+        "training": 20,
+        "courseRecord": 22.333333333333336,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 85,
+        "jockey": 21.266968325791854
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "テイクザスローン",
+      "score": 27.920286576168934,
+      "ev": 0.9761717208841125,
+      "odds": 51.5,
+      "waku": 7,
+      "jockey": "高倉",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 12,
+          "time": "2:02.0",
+          "lastThreeF": 37.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/17",
+          "course": "京都",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "2:01.0",
+          "lastThreeF": 35.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/02",
+          "course": "京都",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "2:02.0",
+          "lastThreeF": 34.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/07",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 15,
+          "time": "1:36.8",
+          "lastThreeF": 36.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/12/20",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "2:02.3",
+          "lastThreeF": 35.8,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/12/07",
+          "course": "中京",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:58.0",
+          "lastThreeF": 41.7,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/08/30",
+          "course": "中京",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "2:02.7",
+          "lastThreeF": 34.9,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/06/15",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 6,
+          "time": "1:38.4",
+          "lastThreeF": 37,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 0,
+        "training": 13.333333333333334,
+        "courseRecord": 40.83333333333335,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 10.407239819004527
+      }
+    },
+    {
+      "horseId": 15,
+      "horseName": "フレアオブセンス",
+      "score": 42.036079939668184,
+      "ev": 0.9658397489883334,
+      "odds": 3.3,
+      "waku": 8,
+      "jockey": "斎藤",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 3,
+          "time": "2:00.8",
+          "lastThreeF": 36.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/10",
+          "course": "京都",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:59.7",
+          "lastThreeF": 35.8,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/26",
+          "course": "京都",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "2:00.6",
+          "lastThreeF": 36.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/04/11",
+          "course": "福島",
+          "distance": 2600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "2:40.9",
+          "lastThreeF": 36.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/29",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "2:00.4",
+          "lastThreeF": 35.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/03/01",
+          "course": "小倉",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 4,
+          "time": "1:46.8",
+          "lastThreeF": 39.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/02/14",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:47.7",
+          "lastThreeF": 36.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/01/24",
+          "course": "小倉",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:47.3",
+          "lastThreeF": 35.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/11/29",
+          "course": "京都",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:36.1",
+          "lastThreeF": 35.2,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 40,
+        "training": 6.666666666666667,
+        "courseRecord": 56.500000000000014,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 40.27149321266968
+      }
+    },
+    {
+      "horseId": 16,
+      "horseName": "シェーネエルデ",
+      "score": 50.45979155354449,
+      "ev": 0.9811540312628737,
+      "odds": 51,
+      "waku": 8,
+      "jockey": "鮫島駿",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "阪神",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 11,
+          "time": "2:01.8",
+          "lastThreeF": 35.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2026/05/16",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:49.5",
+          "lastThreeF": 34.4,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/11/08",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:48.6",
+          "lastThreeF": 35.5,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 86.66666666666667,
+        "training": 0,
+        "courseRecord": 48.2,
+        "prevClass": 20,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 38.00904977375566
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202609030206",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 4,
+        "horseName": "エースフライト",
+        "time": "2:00.0",
+        "lastThreeF": 35
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "ビップヴォルフ",
+        "time": "2:00.8",
+        "lastThreeF": 35.2
+      },
+      {
+        "rank": 3,
+        "horseId": 15,
+        "horseName": "フレアオブセンス",
+        "time": "2:00.8",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 4,
+        "horseId": 2,
+        "horseName": "ハナコトバ",
+        "time": "2:01.1",
+        "lastThreeF": 35.9
+      },
+      {
+        "rank": 5,
+        "horseId": 12,
+        "horseName": "チュオンソン",
+        "time": "2:01.2",
+        "lastThreeF": 36.9
+      },
+      {
+        "rank": 6,
+        "horseId": 6,
+        "horseName": "アリュウ",
+        "time": "2:01.3",
+        "lastThreeF": 37.2
+      },
+      {
+        "rank": 7,
+        "horseId": 5,
+        "horseName": "ペガサスジルシ",
+        "time": "2:01.3",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 8,
+        "horseId": 7,
+        "horseName": "ラッキーシグネチャ",
+        "time": "2:01.6",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 9,
+        "horseId": 10,
+        "horseName": "レイワノキセキ",
+        "time": "2:01.6",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 10,
+        "horseId": 3,
+        "horseName": "クリムゾンバースト",
+        "time": "2:01.6",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 11,
+        "horseId": 16,
+        "horseName": "シェーネエルデ",
+        "time": "2:01.8",
+        "lastThreeF": 35.7
+      },
+      {
+        "rank": 12,
+        "horseId": 14,
+        "horseName": "テイクザスローン",
+        "time": "2:02.0",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 13,
+        "horseId": 1,
+        "horseName": "プリュイドール",
+        "time": "2:02.0",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 14,
+        "horseId": 8,
+        "horseName": "アスクウルトラモア",
+        "time": "2:02.2",
+        "lastThreeF": 36.7
+      },
+      {
+        "rank": 15,
+        "horseId": 9,
+        "horseName": "シャイニーデイ",
+        "time": "2:02.3",
+        "lastThreeF": 36.1
+      },
+      {
+        "rank": 16,
+        "horseId": 13,
+        "horseName": "ショウナンアンバー",
+        "time": "2:03.1",
+        "lastThreeF": 37.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 4,
+          "payout": 440
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 4,
+          "payout": 180
+        },
+        {
+          "horseId": 11,
+          "payout": 160
+        },
+        {
+          "horseId": 15,
+          "payout": 120
+        }
+      ],
+      "waku": [
+        {
+          "combination": "2-6",
+          "payout": 1210
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "4-11",
+          "payout": 1260
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "4-11",
+          "payout": 2150
+        }
+      ],
+      "wide": [
+        {
+          "combination": "4-11",
+          "payout": 480
+        },
+        {
+          "combination": "4-15",
+          "payout": 530
+        },
+        {
+          "combination": "11-15",
+          "payout": 350
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "4-11-15",
+          "payout": 1900
+        }
+      ],
+      "santan": [
+        {
+          "combination": "4-11-15",
+          "payout": 9650
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 440
+      },
+      {
+        "type": "馬連",
+        "hit": true,
+        "payout": 1260
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "未勝利",
+    "raceCondition": "サラ系3歳",
+    "raceGrade": "G1",
+    "weather": "雨",
+    "trackCondition": "稍重",
+    "handicap": "馬齢",
+    "prize": 580,
+    "ageLimit": "3歳",
+    "distance": 2000,
+    "surface": "turf",
+    "startTime": "12:40",
+    "raceDate": "20260607",
+    "headCount": 16
+  }
+}

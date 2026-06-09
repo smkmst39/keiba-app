@@ -1,0 +1,3169 @@
+{
+  "raceId": "202605030212",
+  "raceName": "小金井特別",
+  "date": "2026-06-07",
+  "predictions": [
+    {
+      "horseId": 1,
+      "horseName": "テンカムテキ",
+      "score": 54.79564102564103,
+      "ev": 0.9908197746633121,
+      "odds": 13.4,
+      "waku": 1,
+      "jockey": "丹内",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:36.8",
+          "lastThreeF": 36.5,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/04/05",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 1,
+          "time": "1:51.8",
+          "lastThreeF": 38,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2026/03/14",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:53.7",
+          "lastThreeF": 39.7,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2026/01/10",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:54.4",
+          "lastThreeF": 39.3,
+          "raceName": "黒竹賞(1勝クラス)"
+        },
+        {
+          "date": "2025/12/14",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 6,
+          "time": "1:54.6",
+          "lastThreeF": 38,
+          "raceName": "2歳1勝クラス"
+        },
+        {
+          "date": "2025/10/04",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:38.9",
+          "lastThreeF": 38.2,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/09/13",
+          "course": "中山",
+          "distance": 2000,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 7,
+          "time": "2:04.6",
+          "lastThreeF": 36.1,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 53.333333333333336,
+        "training": 100,
+        "courseRecord": 53.333333333333336,
+        "prevClass": 30,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 25.384615384615383
+      }
+    },
+    {
+      "horseId": 2,
+      "horseName": "トーホウキザン",
+      "score": 57.923974358974355,
+      "ev": 0.9817146577098373,
+      "odds": 444.2,
+      "waku": 1,
+      "jockey": "藤懸",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:37.5",
+          "lastThreeF": 36.2,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/03/28",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 12,
+          "time": "1:54.0",
+          "lastThreeF": 38.4,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/12",
+          "course": "船橋",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:42.3",
+          "lastThreeF": 39.2,
+          "raceName": "ハートビートレイン(A2B1)"
+        },
+        {
+          "date": "2026/01/10",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:54.9",
+          "lastThreeF": 38.2,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/11/15",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:38.5",
+          "lastThreeF": 36.2,
+          "raceName": "三浦特別(2勝クラス)"
+        },
+        {
+          "date": "2025/10/26",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 9,
+          "time": "1:36.5",
+          "lastThreeF": 35.6,
+          "raceName": "三鷹特別(2勝クラス)"
+        },
+        {
+          "date": "2025/10/05",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:38.4",
+          "lastThreeF": 36.5,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/07/26",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:25.0",
+          "lastThreeF": 36.9,
+          "raceName": "四日市特別(2勝クラス)"
+        },
+        {
+          "date": "2025/06/08",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:36.8",
+          "lastThreeF": 35.8,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2025/05/18",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 6,
+          "time": "1:35.9",
+          "lastThreeF": 35.3,
+          "raceName": "青梅特別(2勝クラス)"
+        },
+        {
+          "date": "2025/05/03",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 7,
+          "time": "1:36.8",
+          "lastThreeF": 35.8,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/03/30",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:25.7",
+          "lastThreeF": 36.7,
+          "raceName": "鈴鹿特別(2勝クラス)"
+        },
+        {
+          "date": "2025/02/13",
+          "course": "船橋",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:42.9",
+          "lastThreeF": 40,
+          "raceName": "ハートビートレイン(A2B1)"
+        },
+        {
+          "date": "2025/01/13",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:25.7",
+          "lastThreeF": 37,
+          "raceName": "鳥羽特別(2勝クラス)"
+        },
+        {
+          "date": "2024/11/24",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:25.3",
+          "lastThreeF": 36.8,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/10/13",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:25.5",
+          "lastThreeF": 37.6,
+          "raceName": "亀岡特別(2勝クラス)"
+        },
+        {
+          "date": "2024/09/29",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 10,
+          "time": "1:24.5",
+          "lastThreeF": 36.6,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/08/10",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:25.0",
+          "lastThreeF": 38,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2024/05/25",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:25.9",
+          "lastThreeF": 37.3,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2024/03/23",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 3,
+          "time": "1:24.0",
+          "lastThreeF": 35.9,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2024/03/02",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 5,
+          "time": "1:25.4",
+          "lastThreeF": 37.1,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2024/02/03",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:25.3",
+          "lastThreeF": 36.5,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2024/01/08",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:25.7",
+          "lastThreeF": 37.1,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2023/11/05",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:38.8",
+          "lastThreeF": 36.9,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/10/15",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 7,
+          "time": "1:26.3",
+          "lastThreeF": 38.2,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/09/17",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:26.1",
+          "lastThreeF": 37.9,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/08/26",
+          "course": "札幌",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:47.5",
+          "lastThreeF": 38.7,
+          "raceName": "ニセコ特別(1勝クラス)"
+        },
+        {
+          "date": "2023/08/13",
+          "course": "札幌",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:48.7",
+          "lastThreeF": 38,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/07/23",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:25.8",
+          "lastThreeF": 37.9,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/05/27",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:25.3",
+          "lastThreeF": 36.3,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2023/05/06",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:26.2",
+          "lastThreeF": 36.7,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2023/04/22",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:38.9",
+          "lastThreeF": 39.4,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2023/02/11",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:25.8",
+          "lastThreeF": 37.3,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2023/01/18",
+          "course": "船橋",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:46.9",
+          "lastThreeF": 40.9,
+          "raceName": "ベストレイン特別(3歳未格)"
+        },
+        {
+          "date": "2022/11/06",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:27.1",
+          "lastThreeF": 38.2,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2022/10/15",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:56.4",
+          "lastThreeF": 41.1,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2022/09/24",
+          "course": "中京",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 5,
+          "time": "1:54.8",
+          "lastThreeF": 39.2,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2022/06/11",
+          "course": "中京",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:36.1",
+          "lastThreeF": 35.3,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 80,
+        "training": 93.33333333333333,
+        "courseRecord": 29.999999999999996,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 5.384615384615384
+      }
+    },
+    {
+      "horseId": 3,
+      "horseName": "エンファサイズ",
+      "score": 39.065333333333335,
+      "ev": 0.9779006493146442,
+      "odds": 296.7,
+      "waku": 2,
+      "jockey": "長浜",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 16,
+          "time": "1:40.1",
+          "lastThreeF": 39.5,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/16",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:25.2",
+          "lastThreeF": 36.5,
+          "raceName": "立川特別(2勝クラス)"
+        },
+        {
+          "date": "2026/03/29",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:25.2",
+          "lastThreeF": 37,
+          "raceName": "鈴鹿特別(2勝クラス)"
+        },
+        {
+          "date": "2026/01/31",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": -1,
+          "time": "",
+          "lastThreeF": 0,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/11/23",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:39.5",
+          "lastThreeF": 36.4,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/10/25",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 15,
+          "time": "1:54.7",
+          "lastThreeF": 40.4,
+          "raceName": "菅名岳特別(2勝クラス)"
+        },
+        {
+          "date": "2025/08/16",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:53.7",
+          "lastThreeF": 37.5,
+          "raceName": "瀬波温泉特別(2勝クラス)"
+        },
+        {
+          "date": "2025/03/23",
+          "course": "中山",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:34.9",
+          "lastThreeF": 36.8,
+          "raceName": "鎌ケ谷特別(2勝クラス)"
+        },
+        {
+          "date": "2024/09/16",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:22.1",
+          "lastThreeF": 34.7,
+          "raceName": "桑名特別(2勝クラス)"
+        },
+        {
+          "date": "2024/05/11",
+          "course": "新潟",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:36.2",
+          "lastThreeF": 33.7,
+          "raceName": "三国特別(1勝クラス)"
+        },
+        {
+          "date": "2024/01/13",
+          "course": "京都",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:35.6",
+          "lastThreeF": 35.1,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2023/12/17",
+          "course": "中京",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:34.9",
+          "lastThreeF": 34.4,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/10/01",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 7,
+          "time": "1:34.1",
+          "lastThreeF": 33.3,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/09/17",
+          "course": "阪神",
+          "distance": 1200,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:09.4",
+          "lastThreeF": 34.1,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2023/02/18",
+          "course": "阪神",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "1:48.2",
+          "lastThreeF": 34.4,
+          "raceName": "つばき賞(1勝クラス)"
+        },
+        {
+          "date": "2022/12/18",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 17,
+          "time": "1:35.6",
+          "lastThreeF": 36.9,
+          "raceName": "朝日フューチュリティ(GI)"
+        },
+        {
+          "date": "2022/11/12",
+          "course": "阪神",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:34.5",
+          "lastThreeF": 34.2,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 0,
+        "training": 86.66666666666667,
+        "courseRecord": 37.33333333333334,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 0
+      }
+    },
+    {
+      "horseId": 4,
+      "horseName": "フィーチャリング",
+      "score": 50.46007692307691,
+      "ev": 0.9802051445141269,
+      "odds": 69,
+      "waku": 2,
+      "jockey": "原",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:37.8",
+          "lastThreeF": 36.6,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/17",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:37.6",
+          "lastThreeF": 35.5,
+          "raceName": "青梅特別(2勝クラス)"
+        },
+        {
+          "date": "2026/03/29",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:25.4",
+          "lastThreeF": 36.5,
+          "raceName": "鈴鹿特別(2勝クラス)"
+        },
+        {
+          "date": "2026/01/31",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:25.7",
+          "lastThreeF": 36.1,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/11/30",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:24.8",
+          "lastThreeF": 36.1,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/11/15",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:25.3",
+          "lastThreeF": 34.8,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/10/26",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 3,
+          "time": "1:36.2",
+          "lastThreeF": 34.5,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/09/07",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "1:56.1",
+          "lastThreeF": 41.1,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/04/06",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 13,
+          "time": "1:56.9",
+          "lastThreeF": 41.4,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2025/02/15",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:39.2",
+          "lastThreeF": 37.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/12/07",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:55.4",
+          "lastThreeF": 38.6,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/11/16",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:39.4",
+          "lastThreeF": 36.6,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/09/14",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 13,
+          "time": "2:02.8",
+          "lastThreeF": 44.8,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 40,
+        "training": 80,
+        "courseRecord": 49,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 8.846153846153845
+      }
+    },
+    {
+      "horseId": 5,
+      "horseName": "コパノエビータ",
+      "score": 39.961333333333336,
+      "ev": 0.9780818581046862,
+      "odds": 531.3,
+      "waku": 3,
+      "jockey": "嶋田",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 14,
+          "time": "1:38.9",
+          "lastThreeF": 38.4,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/17",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:38.1",
+          "lastThreeF": 36.3,
+          "raceName": "青梅特別(2勝クラス)"
+        },
+        {
+          "date": "2026/03/22",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 13,
+          "time": "1:56.4",
+          "lastThreeF": 41,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/05/11",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 14,
+          "time": "1:55.6",
+          "lastThreeF": 40.6,
+          "raceName": "五泉特別(2勝クラス)"
+        },
+        {
+          "date": "2025/04/19",
+          "course": "福島",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:47.0",
+          "lastThreeF": 38.2,
+          "raceName": "ラジオ福島賞(2勝クラス)"
+        },
+        {
+          "date": "2025/02/08",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:39.3",
+          "lastThreeF": 37.7,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/01/25",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:25.2",
+          "lastThreeF": 36.6,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2024/11/10",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:26.6",
+          "lastThreeF": 36.8,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/10/20",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 13,
+          "time": "1:56.2",
+          "lastThreeF": 40.8,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/06/29",
+          "course": "函館",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:45.5",
+          "lastThreeF": 37.6,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2024/06/16",
+          "course": "函館",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:46.6",
+          "lastThreeF": 37.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/05/11",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:55.8",
+          "lastThreeF": 38.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/04/14",
+          "course": "福島",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:48.3",
+          "lastThreeF": 38.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/03/24",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:56.2",
+          "lastThreeF": 39.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/02/24",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 2,
+          "time": "1:55.8",
+          "lastThreeF": 39.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/01/21",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 9,
+          "time": "1:56.8",
+          "lastThreeF": 40.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/01/07",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:57.9",
+          "lastThreeF": 40.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2023/10/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:41.1",
+          "lastThreeF": 39.9,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2023/09/16",
+          "course": "中山",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:13.5",
+          "lastThreeF": 37.8,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2023/08/27",
+          "course": "新潟",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:14.3",
+          "lastThreeF": 37.7,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 6.666666666666667,
+        "training": 73.33333333333333,
+        "courseRecord": 37.66666666666668,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 15
+      }
+    },
+    {
+      "horseId": 6,
+      "horseName": "トラヴェリンバンド",
+      "score": 45.414923076923074,
+      "ev": 0.979184802746228,
+      "odds": 55.7,
+      "waku": 3,
+      "jockey": "ゴンサルベ",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:37.6",
+          "lastThreeF": 37.4,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/17",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:37.4",
+          "lastThreeF": 37,
+          "raceName": "青梅特別(2勝クラス)"
+        },
+        {
+          "date": "2026/04/26",
+          "course": "京都",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 13,
+          "time": "1:53.0",
+          "lastThreeF": 39.6,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/22",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:25.6",
+          "lastThreeF": 37.1,
+          "raceName": "大島特別(2勝クラス)"
+        },
+        {
+          "date": "2025/11/01",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 6,
+          "time": "1:23.5",
+          "lastThreeF": 36.4,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/10/11",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 1,
+          "time": "1:24.8",
+          "lastThreeF": 36.4,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/09/20",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:25.0",
+          "lastThreeF": 37.8,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/06/14",
+          "course": "阪神",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 11,
+          "time": "1:13.8",
+          "lastThreeF": 37.3,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/03/22",
+          "course": "中京",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:12.5",
+          "lastThreeF": 37.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/03/01",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:26.7",
+          "lastThreeF": 39,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/02/02",
+          "course": "京都",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 3,
+          "time": "1:13.2",
+          "lastThreeF": 37.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/10/14",
+          "course": "東京",
+          "distance": 1300,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:19.3",
+          "lastThreeF": 37,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/09/21",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:26.2",
+          "lastThreeF": 39.1,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/08/31",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 2,
+          "time": "1:27.5",
+          "lastThreeF": 38.2,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 26.666666666666668,
+        "training": 66.66666666666666,
+        "courseRecord": 49.333333333333336,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 36.15384615384615
+      }
+    },
+    {
+      "horseId": 7,
+      "horseName": "グレイスザクラウン",
+      "score": 44.54362564102564,
+      "ev": 0.9790085898509983,
+      "odds": 178.4,
+      "waku": 4,
+      "jockey": "木幡巧",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 13,
+          "time": "1:38.3",
+          "lastThreeF": 37,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/17",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:38.1",
+          "lastThreeF": 36.2,
+          "raceName": "青梅特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/02",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 4,
+          "time": "1:37.2",
+          "lastThreeF": 35.9,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/21",
+          "course": "阪神",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "1:55.2",
+          "lastThreeF": 38.5,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/01/05",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 9,
+          "time": "1:54.8",
+          "lastThreeF": 38.7,
+          "raceName": "初茜賞(2勝クラス)"
+        },
+        {
+          "date": "2025/11/15",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "1:38.6",
+          "lastThreeF": 36.5,
+          "raceName": "三浦特別(2勝クラス)"
+        },
+        {
+          "date": "2025/10/05",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:37.5",
+          "lastThreeF": 36.1,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/08/16",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:53.5",
+          "lastThreeF": 37.6,
+          "raceName": "瀬波温泉特別(2勝クラス)"
+        },
+        {
+          "date": "2025/06/15",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 1,
+          "time": "1:35.8",
+          "lastThreeF": 35.9,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/05/31",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 4,
+          "time": "1:35.9",
+          "lastThreeF": 36,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2025/03/30",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 1,
+          "time": "1:54.6",
+          "lastThreeF": 38.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/03/15",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 3,
+          "time": "1:56.1",
+          "lastThreeF": 39.5,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/02/22",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:41.6",
+          "lastThreeF": 38.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/11/03",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 15,
+          "time": "1:41.8",
+          "lastThreeF": 37,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/09/08",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 16,
+          "time": "2:07.3",
+          "lastThreeF": 46.9,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 33.33333333333333,
+        "training": 60,
+        "courseRecord": 41.2,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 4.615384615384614
+      }
+    },
+    {
+      "horseId": 8,
+      "horseName": "セントラルヴァレー",
+      "score": 45.6774358974359,
+      "ev": 0.9769515754071244,
+      "odds": 30.1,
+      "waku": 4,
+      "jockey": "岩田望",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "1:38.1",
+          "lastThreeF": 37.6,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/02/22",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:24.3",
+          "lastThreeF": 36.2,
+          "raceName": "大島特別(2勝クラス)"
+        },
+        {
+          "date": "2026/02/10",
+          "course": "東京",
+          "distance": 1300,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 2,
+          "time": "1:18.6",
+          "lastThreeF": 35.7,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/01/31",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:25.0",
+          "lastThreeF": 35.9,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/11/22",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:24.7",
+          "lastThreeF": 37.6,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/11/09",
+          "course": "東京",
+          "distance": 1300,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 5,
+          "time": "1:18.3",
+          "lastThreeF": 36.9,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/08/23",
+          "course": "新潟",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:11.0",
+          "lastThreeF": 36.4,
+          "raceName": "岩室温泉特別(2勝クラス)"
+        },
+        {
+          "date": "2025/06/22",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:24.2",
+          "lastThreeF": 37.6,
+          "raceName": "甲州街道特別(2勝クラス)"
+        },
+        {
+          "date": "2025/03/15",
+          "course": "中京",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:12.5",
+          "lastThreeF": 36.2,
+          "raceName": "伊良湖特別(2勝クラス)"
+        },
+        {
+          "date": "2025/02/23",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:25.5",
+          "lastThreeF": 37.6,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/02/02",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 3,
+          "time": "1:24.7",
+          "lastThreeF": 36.8,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/01/13",
+          "course": "中京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:25.1",
+          "lastThreeF": 37.1,
+          "raceName": "鳥羽特別(2勝クラス)"
+        },
+        {
+          "date": "2024/11/16",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:25.0",
+          "lastThreeF": 37,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/11/03",
+          "course": "東京",
+          "distance": 1300,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 2,
+          "time": "1:17.3",
+          "lastThreeF": 35.9,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/09/15",
+          "course": "中山",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:12.5",
+          "lastThreeF": 37.3,
+          "raceName": "浦安特別(2勝クラス)"
+        },
+        {
+          "date": "2024/06/22",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 12,
+          "time": "1:37.1",
+          "lastThreeF": 38.1,
+          "raceName": "日野特別(2勝クラス)"
+        },
+        {
+          "date": "2024/05/04",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 5,
+          "time": "1:37.6",
+          "lastThreeF": 38,
+          "raceName": "青竜S(OP)"
+        },
+        {
+          "date": "2024/03/31",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:25.7",
+          "lastThreeF": 38.1,
+          "raceName": "バイオレットS(OP)"
+        },
+        {
+          "date": "2024/02/03",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:26.7",
+          "lastThreeF": 36.8,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2023/12/10",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:54.7",
+          "lastThreeF": 39.5,
+          "raceName": "2歳1勝クラス"
+        },
+        {
+          "date": "2023/11/18",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 1,
+          "time": "1:37.3",
+          "lastThreeF": 38.2,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2023/10/15",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "不",
+          "rank": 2,
+          "time": "1:38.4",
+          "lastThreeF": 38.2,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 20,
+        "training": 53.333333333333336,
+        "courseRecord": 50,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 58.46153846153847
+      }
+    },
+    {
+      "horseId": 9,
+      "horseName": "アースイオス",
+      "score": 42.196461538461534,
+      "ev": 0.9785338947984809,
+      "odds": 565.7,
+      "waku": 5,
+      "jockey": "小林脩",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:37.9",
+          "lastThreeF": 36.5,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/17",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:38.2",
+          "lastThreeF": 36.1,
+          "raceName": "青梅特別(2勝クラス)"
+        },
+        {
+          "date": "2026/04/25",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 11,
+          "time": "1:38.3",
+          "lastThreeF": 35.8,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/04/12",
+          "course": "中山",
+          "distance": 2400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 12,
+          "time": "2:37.7",
+          "lastThreeF": 39.3,
+          "raceName": "印西特別(2勝クラス)"
+        },
+        {
+          "date": "2026/04/04",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 14,
+          "time": "1:56.5",
+          "lastThreeF": 39.1,
+          "raceName": "千葉日報杯(2勝クラス)"
+        },
+        {
+          "date": "2026/02/28",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 15,
+          "time": "1:55.0",
+          "lastThreeF": 39.4,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/01/25",
+          "course": "小倉",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 16,
+          "time": "1:49.1",
+          "lastThreeF": 38.8,
+          "raceName": "響灘特別(2勝クラス)"
+        },
+        {
+          "date": "2025/09/07",
+          "course": "札幌",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 14,
+          "time": "1:49.9",
+          "lastThreeF": 39.9,
+          "raceName": "旭川特別(2勝クラス)"
+        },
+        {
+          "date": "2025/06/28",
+          "course": "福島",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:47.1",
+          "lastThreeF": 37.7,
+          "raceName": "いわき特別(2勝クラス)"
+        },
+        {
+          "date": "2025/03/02",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:54.3",
+          "lastThreeF": 38.7,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2025/01/25",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:55.1",
+          "lastThreeF": 37.8,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2025/01/12",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:55.0",
+          "lastThreeF": 38.8,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2024/12/07",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:55.2",
+          "lastThreeF": 37.3,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2024/07/13",
+          "course": "函館",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:46.8",
+          "lastThreeF": 37.2,
+          "raceName": "湯浜特別(1勝クラス)"
+        },
+        {
+          "date": "2024/06/23",
+          "course": "函館",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:46.2",
+          "lastThreeF": 38.8,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2024/02/24",
+          "course": "中山",
+          "distance": 2200,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 7,
+          "time": "2:17.5",
+          "lastThreeF": 37.7,
+          "raceName": "水仙賞(1勝クラス)"
+        },
+        {
+          "date": "2023/12/10",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "1:55.0",
+          "lastThreeF": 39,
+          "raceName": "2歳1勝クラス"
+        },
+        {
+          "date": "2023/11/25",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 14,
+          "time": "1:39.0",
+          "lastThreeF": 37.6,
+          "raceName": "カトレアS(OP)"
+        },
+        {
+          "date": "2023/10/29",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:38.7",
+          "lastThreeF": 37.8,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 46.666666666666664,
+        "training": 46.666666666666664,
+        "courseRecord": 27.66666666666667,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 38.07692307692307
+      }
+    },
+    {
+      "horseId": 10,
+      "horseName": "マクリール",
+      "score": 66.28733333333334,
+      "ev": 1.0481215952777851,
+      "odds": 1.9,
+      "waku": 5,
+      "jockey": "ルメール",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:36.3",
+          "lastThreeF": 35.8,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/09",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:37.1",
+          "lastThreeF": 36.3,
+          "raceName": "青竜S(OP)"
+        },
+        {
+          "date": "2026/02/18",
+          "course": "大井",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:55.2",
+          "lastThreeF": 37.9,
+          "raceName": "雲取賞競走(JpnIII)"
+        },
+        {
+          "date": "2026/01/10",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:54.1",
+          "lastThreeF": 38.8,
+          "raceName": "黒竹賞(1勝クラス)"
+        },
+        {
+          "date": "2025/11/24",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:37.1",
+          "lastThreeF": 36,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/10/25",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 2,
+          "time": "1:38.3",
+          "lastThreeF": 36.4,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 93.33333333333333,
+        "training": 40,
+        "courseRecord": 59.666666666666686,
+        "prevClass": 55,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 100
+      }
+    },
+    {
+      "horseId": 11,
+      "horseName": "ホウキボシ",
+      "score": 49.08984615384615,
+      "ev": 0.979712105468245,
+      "odds": 29.2,
+      "waku": 6,
+      "jockey": "松山",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:36.3",
+          "lastThreeF": 36.2,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/04/25",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 13,
+          "time": "1:39.4",
+          "lastThreeF": 38.2,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/01/25",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:54.1",
+          "lastThreeF": 37.6,
+          "raceName": "初霞賞(2勝クラス)"
+        },
+        {
+          "date": "2024/12/28",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:53.4",
+          "lastThreeF": 37.9,
+          "raceName": "コントレイルC(2勝クラス)"
+        },
+        {
+          "date": "2024/12/07",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:53.6",
+          "lastThreeF": 38.9,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2024/11/10",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:37.2",
+          "lastThreeF": 36.2,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2024/02/03",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:34.2",
+          "lastThreeF": 34.4,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2024/01/14",
+          "course": "中山",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:34.7",
+          "lastThreeF": 34.7,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2023/08/12",
+          "course": "新潟",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:46.6",
+          "lastThreeF": 34.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2023/07/16",
+          "course": "福島",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:51.0",
+          "lastThreeF": 37.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2023/03/25",
+          "course": "中京",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "重",
+          "rank": 11,
+          "time": "1:38.9",
+          "lastThreeF": 35.7,
+          "raceName": "3歳未勝利"
+        }
+      ],
+      "components": {
+        "lastThreeF": 73.33333333333333,
+        "training": 33.33333333333333,
+        "courseRecord": 35.333333333333336,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 50,
+        "jockey": 47.30769230769231
+      }
+    },
+    {
+      "horseId": 12,
+      "horseName": "パイシャオピン",
+      "score": 58.00484615384615,
+      "ev": 0.9869240535183547,
+      "odds": 26,
+      "waku": 6,
+      "jockey": "横山武",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:36.8",
+          "lastThreeF": 36,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/23",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 4,
+          "time": "1:37.1",
+          "lastThreeF": 34.6,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/03/22",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:54.1",
+          "lastThreeF": 38.9,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/28",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 3,
+          "time": "1:53.1",
+          "lastThreeF": 38.2,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/01/10",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:54.2",
+          "lastThreeF": 37.7,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/12/13",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:54.3",
+          "lastThreeF": 37.3,
+          "raceName": "3歳以上2勝クラス"
+        },
+        {
+          "date": "2025/10/11",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 1,
+          "time": "1:37.7",
+          "lastThreeF": 36.6,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/09/27",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:55.5",
+          "lastThreeF": 37.3,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:37.2",
+          "lastThreeF": 36.2,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/05/18",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 2,
+          "time": "1:34.8",
+          "lastThreeF": 35,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2025/05/04",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 1,
+          "time": "1:37.6",
+          "lastThreeF": 35.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/01/25",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:59.6",
+          "lastThreeF": 40.4,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 86.66666666666667,
+        "training": 26.666666666666668,
+        "courseRecord": 51.99999999999998,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 95,
+        "jockey": 47.30769230769231
+      }
+    },
+    {
+      "horseId": 13,
+      "horseName": "ベラジオワールド",
+      "score": 59.826153846153844,
+      "ev": 1.0135897312737272,
+      "odds": 8.9,
+      "waku": 7,
+      "jockey": "横山和",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:36.4",
+          "lastThreeF": 35.3,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/16",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:24.0",
+          "lastThreeF": 35.6,
+          "raceName": "立川特別(2勝クラス)"
+        },
+        {
+          "date": "2026/04/26",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 4,
+          "time": "1:24.1",
+          "lastThreeF": 35.7,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/22",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:24.4",
+          "lastThreeF": 35.6,
+          "raceName": "大島特別(2勝クラス)"
+        },
+        {
+          "date": "2026/02/01",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:24.8",
+          "lastThreeF": 37.3,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2025/10/18",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 6,
+          "time": "1:21.0",
+          "lastThreeF": 34.1,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/09/28",
+          "course": "中山",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:33.2",
+          "lastThreeF": 34.9,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/08/30",
+          "course": "新潟",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:21.2",
+          "lastThreeF": 34.5,
+          "raceName": "新発田城特別(1勝クラス)"
+        },
+        {
+          "date": "2025/05/17",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:22.4",
+          "lastThreeF": 34.7,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/04/26",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:21.2",
+          "lastThreeF": 34.9,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/03/29",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "稍",
+          "rank": 3,
+          "time": "1:50.9",
+          "lastThreeF": 36.1,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2025/01/06",
+          "course": "中山",
+          "distance": 1600,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:35.7",
+          "lastThreeF": 34.9,
+          "raceName": "3歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 100,
+        "training": 20,
+        "courseRecord": 50,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 37.69230769230769
+      }
+    },
+    {
+      "horseId": 14,
+      "horseName": "リベッチオ",
+      "score": 53.75317948717949,
+      "ev": 0.9939383681389792,
+      "odds": 5.1,
+      "waku": 7,
+      "jockey": "戸崎圭",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:36.6",
+          "lastThreeF": 36.3,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/03/28",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 8,
+          "time": "1:55.1",
+          "lastThreeF": 41,
+          "raceName": "伏竜S(OP)"
+        },
+        {
+          "date": "2026/01/31",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:37.5",
+          "lastThreeF": 36.9,
+          "raceName": "3歳1勝クラス"
+        },
+        {
+          "date": "2025/12/07",
+          "course": "中京",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:53.8",
+          "lastThreeF": 37.6,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2025/06/29",
+          "course": "福島",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 10,
+          "time": "1:51.9",
+          "lastThreeF": 38.8,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 66.66666666666666,
+        "training": 13.333333333333334,
+        "courseRecord": 53.66666666666667,
+        "prevClass": 55,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 37.30769230769231
+      }
+    },
+    {
+      "horseId": 15,
+      "horseName": "アスゴッド",
+      "score": 33.99051282051282,
+      "ev": 0.9768743077021345,
+      "odds": 204.6,
+      "waku": 8,
+      "jockey": "高杉",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 15,
+          "time": "1:39.2",
+          "lastThreeF": 38.1,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/23",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 8,
+          "time": "1:24.5",
+          "lastThreeF": 36.9,
+          "raceName": "オーストラリアT(2勝クラス)"
+        },
+        {
+          "date": "2026/03/01",
+          "course": "中山",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:12.2",
+          "lastThreeF": 37.4,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/14",
+          "course": "京都",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 1,
+          "time": "1:12.7",
+          "lastThreeF": 36.5,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2026/02/01",
+          "course": "小倉",
+          "distance": 1000,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "0:59.2",
+          "lastThreeF": 36.1,
+          "raceName": "4歳以上1勝クラス"
+        },
+        {
+          "date": "2025/11/15",
+          "course": "福島",
+          "distance": 1150,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 11,
+          "time": "1:10.2",
+          "lastThreeF": 37.3,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/07/19",
+          "course": "函館",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 8,
+          "time": "1:46.6",
+          "lastThreeF": 37.7,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/07/12",
+          "course": "函館",
+          "distance": 1000,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 9,
+          "time": "0:59.7",
+          "lastThreeF": 35.6,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/06/22",
+          "course": "函館",
+          "distance": 1000,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 1,
+          "time": "0:58.5",
+          "lastThreeF": 35.1,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/06/15",
+          "course": "函館",
+          "distance": 1000,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "0:58.6",
+          "lastThreeF": 35.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/03/16",
+          "course": "阪神",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 9,
+          "time": "1:28.3",
+          "lastThreeF": 40.2,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/03/01",
+          "course": "阪神",
+          "distance": 1200,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:14.0",
+          "lastThreeF": 38.3,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2024/12/28",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:27.1",
+          "lastThreeF": 38.4,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/12/15",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:26.1",
+          "lastThreeF": 37.7,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/11/10",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:26.0",
+          "lastThreeF": 38.8,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/10/27",
+          "course": "東京",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:22.0",
+          "lastThreeF": 35.4,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/10/13",
+          "course": "京都",
+          "distance": 1400,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 4,
+          "time": "1:22.0",
+          "lastThreeF": 35.4,
+          "raceName": "もみじS(OP)"
+        },
+        {
+          "date": "2024/07/27",
+          "course": "札幌",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:49.9",
+          "lastThreeF": 35.9,
+          "raceName": "2歳未勝利"
+        },
+        {
+          "date": "2024/07/14",
+          "course": "函館",
+          "distance": 1800,
+          "surface": "turf",
+          "trackCondition": "良",
+          "rank": 5,
+          "time": "1:52.9",
+          "lastThreeF": 35.6,
+          "raceName": "2歳新馬"
+        }
+      ],
+      "components": {
+        "lastThreeF": 13.333333333333334,
+        "training": 6.666666666666667,
+        "courseRecord": 50,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 70,
+        "jockey": 22.30769230769231
+      }
+    },
+    {
+      "horseId": 16,
+      "horseName": "ヘリオトロープ",
+      "score": 50.14092307692309,
+      "ev": 0.9828119643383653,
+      "odds": 4.9,
+      "waku": 8,
+      "jockey": "レーン",
+      "pastRaces": [
+        {
+          "date": "2026/06/07",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 7,
+          "time": "1:37.1",
+          "lastThreeF": 36.4,
+          "raceName": "小金井特別(2勝クラス)"
+        },
+        {
+          "date": "2026/05/02",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "稍",
+          "rank": 2,
+          "time": "1:36.7",
+          "lastThreeF": 35.8,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2026/02/14",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 3,
+          "time": "1:37.5",
+          "lastThreeF": 36.5,
+          "raceName": "4歳以上2勝クラス"
+        },
+        {
+          "date": "2025/10/18",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 1,
+          "time": "1:37.2",
+          "lastThreeF": 37.5,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/09/07",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:53.1",
+          "lastThreeF": 38.9,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/06/28",
+          "course": "福島",
+          "distance": 1700,
+          "surface": "dirt",
+          "trackCondition": "良",
+          "rank": 2,
+          "time": "1:45.8",
+          "lastThreeF": 37.8,
+          "raceName": "3歳以上1勝クラス"
+        },
+        {
+          "date": "2025/05/10",
+          "course": "東京",
+          "distance": 1600,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 1,
+          "time": "1:36.1",
+          "lastThreeF": 35.6,
+          "raceName": "3歳未勝利"
+        },
+        {
+          "date": "2025/03/08",
+          "course": "中山",
+          "distance": 1800,
+          "surface": "dirt",
+          "trackCondition": "重",
+          "rank": 4,
+          "time": "1:55.8",
+          "lastThreeF": 39.1,
+          "raceName": "3歳未勝利"
+        }
+      ],
+      "components": {
+        "lastThreeF": 60,
+        "training": 0,
+        "courseRecord": 54.66666666666668,
+        "prevClass": 40,
+        "breeding": 50,
+        "weightChange": 100,
+        "jockey": 66.15384615384615
+      }
+    }
+  ],
+  "results": {
+    "raceId": "202605030212",
+    "results": [
+      {
+        "rank": 1,
+        "horseId": 10,
+        "horseName": "マクリール",
+        "time": "1:36.3",
+        "lastThreeF": 35.8
+      },
+      {
+        "rank": 2,
+        "horseId": 11,
+        "horseName": "ホウキボシ",
+        "time": "1:36.3",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 3,
+        "horseId": 13,
+        "horseName": "ベラジオワールド",
+        "time": "1:36.4",
+        "lastThreeF": 35.3
+      },
+      {
+        "rank": 4,
+        "horseId": 14,
+        "horseName": "リベッチオ",
+        "time": "1:36.6",
+        "lastThreeF": 36.3
+      },
+      {
+        "rank": 5,
+        "horseId": 1,
+        "horseName": "テンカムテキ",
+        "time": "1:36.8",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 6,
+        "horseId": 12,
+        "horseName": "パイシャオピン",
+        "time": "1:36.8",
+        "lastThreeF": 36
+      },
+      {
+        "rank": 7,
+        "horseId": 16,
+        "horseName": "ヘリオトロープ",
+        "time": "1:37.1",
+        "lastThreeF": 36.4
+      },
+      {
+        "rank": 8,
+        "horseId": 2,
+        "horseName": "トーホウキザン",
+        "time": "1:37.5",
+        "lastThreeF": 36.2
+      },
+      {
+        "rank": 9,
+        "horseId": 6,
+        "horseName": "トラヴェリンバンド",
+        "time": "1:37.6",
+        "lastThreeF": 37.4
+      },
+      {
+        "rank": 10,
+        "horseId": 4,
+        "horseName": "フィーチャリング",
+        "time": "1:37.8",
+        "lastThreeF": 36.6
+      },
+      {
+        "rank": 11,
+        "horseId": 9,
+        "horseName": "アースイオス",
+        "time": "1:37.9",
+        "lastThreeF": 36.5
+      },
+      {
+        "rank": 12,
+        "horseId": 8,
+        "horseName": "セントラルヴァレー",
+        "time": "1:38.1",
+        "lastThreeF": 37.6
+      },
+      {
+        "rank": 13,
+        "horseId": 7,
+        "horseName": "グレイスザクラウン",
+        "time": "1:38.3",
+        "lastThreeF": 37
+      },
+      {
+        "rank": 14,
+        "horseId": 5,
+        "horseName": "コパノエビータ",
+        "time": "1:38.9",
+        "lastThreeF": 38.4
+      },
+      {
+        "rank": 15,
+        "horseId": 15,
+        "horseName": "アスゴッド",
+        "time": "1:39.2",
+        "lastThreeF": 38.1
+      },
+      {
+        "rank": 16,
+        "horseId": 3,
+        "horseName": "エンファサイズ",
+        "time": "1:40.1",
+        "lastThreeF": 39.5
+      }
+    ],
+    "payouts": {
+      "tan": [
+        {
+          "horseId": 10,
+          "payout": 190
+        }
+      ],
+      "fuku": [
+        {
+          "horseId": 10,
+          "payout": 130
+        },
+        {
+          "horseId": 11,
+          "payout": 420
+        },
+        {
+          "horseId": 13,
+          "payout": 200
+        }
+      ],
+      "waku": [
+        {
+          "combination": "5-6",
+          "payout": 1100
+        }
+      ],
+      "umaren": [
+        {
+          "combination": "10-11",
+          "payout": 2690
+        }
+      ],
+      "umatan": [
+        {
+          "combination": "10-11",
+          "payout": 3530
+        }
+      ],
+      "wide": [
+        {
+          "combination": "10-11",
+          "payout": 890
+        },
+        {
+          "combination": "10-13",
+          "payout": 400
+        },
+        {
+          "combination": "11-13",
+          "payout": 2710
+        }
+      ],
+      "sanfuku": [
+        {
+          "combination": "10-11-13",
+          "payout": 6120
+        }
+      ],
+      "santan": [
+        {
+          "combination": "10-11-13",
+          "payout": 20680
+        }
+      ]
+    }
+  },
+  "accuracy": {
+    "top1ScoreRank": 1,
+    "top3EVCount": 2,
+    "recommendedHits": [
+      {
+        "type": "単勝",
+        "hit": true,
+        "payout": 190
+      },
+      {
+        "type": "馬連",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連複",
+        "hit": false,
+        "payout": 0
+      },
+      {
+        "type": "三連単",
+        "hit": false,
+        "payout": 0
+      }
+    ]
+  },
+  "meta": {
+    "raceClass": "2勝クラス",
+    "raceCondition": "サラ系3歳以上",
+    "weather": "曇",
+    "trackCondition": "良",
+    "handicap": "定量",
+    "prize": 1580,
+    "ageLimit": "3歳以上",
+    "courseTurn": "左",
+    "distance": 1600,
+    "surface": "dirt",
+    "startTime": "16:30",
+    "raceDate": "20260607",
+    "headCount": 16
+  }
+}
