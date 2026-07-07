@@ -777,6 +777,53 @@ function calcSantanProb(
 }
 
 /**
+ * 馬連（順不同2頭が1-2着）の確率
+ * P = P(h1→h2) + P(h2→h1)  — umatan の条件付き正規化を両順序で合算
+ *
+ * 2026-05-28: 旧実装は p1×p2×2 の素朴な近似で、条件付き正規化 (Harville 風)
+ * より人気馬ペアを大きく過小評価していた (例: 2番人気×1番人気で約半分)。
+ */
+function calcUmarenProb(h1: Horse, h2: Horse, allHorses: Horse[]): number {
+  return calcUmatanProb(h1, h2, allHorses) + calcUmatanProb(h2, h1, allHorses);
+}
+
+/**
+ * 三連複（順不同3頭が1-2-3着）の確率
+ * P = 6通りの着順パターンの三連単確率の合計
+ *
+ * 2026-05-28: 旧実装は p1×p2×p3×6 の素朴な近似。条件付き正規化に統一。
+ */
+function calcSanfukuProb(h1: Horse, h2: Horse, h3: Horse, allHorses: Horse[]): number {
+  return (
+    calcSantanProb(h1, h2, h3, allHorses) +
+    calcSantanProb(h1, h3, h2, allHorses) +
+    calcSantanProb(h2, h1, h3, allHorses) +
+    calcSantanProb(h2, h3, h1, allHorses) +
+    calcSantanProb(h3, h1, h2, allHorses) +
+    calcSantanProb(h3, h2, h1, allHorses)
+  );
+}
+
+/**
+ * ワイド（2頭がともに3着以内）の確率
+ * P(h1, h2 とも top3) = Σ_{k ≠ h1,h2} P(top3 の集合が {h1, h2, k})
+ *                     = Σ_k calcSanfukuProb(h1, h2, k)
+ *
+ * 2026-05-28: 旧実装はワイドを馬連と同一式 (p1×p2×2) で計算していた。
+ * ワイドは「1-2着」ではなく「ともに3着以内」なので的中範囲が広く、
+ * 確率は馬連の2〜3倍になるのが正しい。18頭立てでも 16×6 = 96 通りの
+ * 条件付き積で計算量は問題にならない。
+ */
+function calcWideProb(h1: Horse, h2: Horse, allHorses: Horse[]): number {
+  let total = 0;
+  for (const k of allHorses) {
+    if (k.id === h1.id || k.id === h2.id) continue;
+    total += calcSanfukuProb(h1, h2, k, allHorses);
+  }
+  return total;
+}
+
+/**
  * 複数馬の組み合わせ期待値を返す
  * @param horses 対象馬リスト（score 付与済み）
  * @param oddsVal その組み合わせのオッズ
@@ -791,44 +838,45 @@ export function calcComboEV(
 ): number {
   if (oddsVal <= 0 || horses.length === 0) return 0;
 
-  const probs = horses.map((h) => calcAdjProb(h, allHorses));
-
   let combinedProb: number;
   switch (type) {
     case 'umaren':
+    case 'waku':
+      // 2頭・順不同 (枠連は代表馬ペアで馬連と同じ扱い)
+      // 条件付き正規化: P(h1→h2) + P(h2→h1)
+      combinedProb = (horses[0] && horses[1])
+        ? calcUmarenProb(horses[0], horses[1], allHorses)
+        : 0;
+      break;
     case 'wide':
-      // 2頭・順不同
-      combinedProb = probs[0] * (probs[1] ?? 0) * 2;
+      // 2頭がともに3着以内 (馬連より的中範囲が広い)
+      combinedProb = (horses[0] && horses[1])
+        ? calcWideProb(horses[0], horses[1], allHorses)
+        : 0;
       break;
     case 'umatan':
       // 条件付き確率: P(h1→h2) = P(h1) × P(h2|h1)
       // 同じ2頭でも着順によってEVが異なる
-      if (horses[0] && horses[1]) {
-        combinedProb = calcUmatanProb(horses[0], horses[1], allHorses);
-      } else {
-        combinedProb = 0;
-      }
+      combinedProb = (horses[0] && horses[1])
+        ? calcUmatanProb(horses[0], horses[1], allHorses)
+        : 0;
       break;
     case 'sanfuku':
-      // 3頭・順不同
-      combinedProb = probs[0] * (probs[1] ?? 0) * (probs[2] ?? 0) * 6;
+      // 3頭・順不同 = 6通りの着順パターンの合計
+      combinedProb = (horses[0] && horses[1] && horses[2])
+        ? calcSanfukuProb(horses[0], horses[1], horses[2], allHorses)
+        : 0;
       break;
     case 'santan':
       // 条件付き確率: P(h1→h2→h3) = P(h1) × P(h2|h1) × P(h3|h1,h2)
       // 同じ3頭でも着順によってEVが異なる
-      if (horses[0] && horses[1] && horses[2]) {
-        combinedProb = calcSantanProb(horses[0], horses[1], horses[2], allHorses);
-      } else {
-        combinedProb = 0;
-      }
-      break;
-    case 'waku':
-      // 枠連は馬連と同じ扱い
-      combinedProb = probs[0] * (probs[1] ?? 0) * 2;
+      combinedProb = (horses[0] && horses[1] && horses[2])
+        ? calcSantanProb(horses[0], horses[1], horses[2], allHorses)
+        : 0;
       break;
     default:
       // 単勝・複勝は1頭のみ
-      combinedProb = probs[0];
+      combinedProb = calcAdjProb(horses[0], allHorses);
   }
 
   return combinedProb * oddsVal;
