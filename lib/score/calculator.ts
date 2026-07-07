@@ -303,15 +303,19 @@ function scoreCourseRecord(horse: Horse, race?: Race): number {
   return applyPrevYearAdjustment(horse, race, baseScore, baseDate);
 }
 
+/** 着順 → 0〜100 スコア（scoreOnePastRace / scorePrevClass で共用） */
+function rankToScore(rank: number): number {
+  return rank === 1 ? 100 :
+    rank === 2 ? 80 :
+    rank === 3 ? 65 :
+    rank <= 5 ? 50 :
+    rank <= 9 ? 30 :
+    10;
+}
+
 /** 1走分のパフォーマンススコア（0〜100）: 着順60% + 上がり3F40% */
 function scoreOnePastRace(past: PastRace): number {
-  const rankScore =
-    past.rank === 1 ? 100 :
-    past.rank === 2 ? 80 :
-    past.rank === 3 ? 65 :
-    past.rank <= 5 ? 50 :
-    past.rank <= 9 ? 30 :
-    10;
+  const rankScore = rankToScore(past.rank);
 
   // 上がり3F: 33.0秒=100, 34.0=75, 35.0=50, 36.0=25 を目安に線形マップ
   const lastThreeFScore = past.lastThreeF > 0
@@ -388,26 +392,35 @@ export function classifyPrevRace(name: string): number {
   return 35;
 }
 
+/** 前走クラススコアの「格 vs 着順」ブレンド比率（Phase 2H-C で再チューニング候補） */
+const PREV_CLASS_WEIGHT = 0.6;  // 格 (相手関係の強さ)
+const PREV_RANK_WEIGHT = 0.4;   // 着順 (そこでの結果)
+
 /**
  * 前走クラススコア（0〜100）
  *
  * 優先順位:
- *   1. Horse.prevRaceClass (number) が付与されていればその値
- *   2. Horse.prevRaceName から classifyPrevRace で判定
- *   3. (Phase 2H D-1 以降) pastRaces から baseDate より前の最新走を取り
- *      その raceName を classifyPrevRace に渡す。タイムリーキ防止のため
- *      baseDate (race.raceDate) より前のレースのみ対象とする
+ *   1. (2026-05-28〜) pastRaces から baseDate より前の最新走を取り、
+ *      「格 (classifyPrevRace) × 0.6 + 着順 (rankToScore) × 0.4」のブレンドで評価。
+ *      タイムリーキ防止のため baseDate (race.raceDate) より前のレースのみ対象
+ *   2. Horse.prevRaceClass (number) が付与されていればその値（着順情報なし）
+ *   3. Horse.prevRaceName から classifyPrevRace で判定（着順情報なし）
  *   4. 中立値 50 (フォールバック)
  *
- * 2026-05-24: 出馬表ベースの prevRaceName 取得がスクレイパー側で全件失敗して
- * いた問題 (全49,033頭で prevClass=50) に対応するため、pastRaces (D-1 で
- * 取得済み) からのフォールバック経路を追加した。既存3,557R は pastRaces 未保存
- * のため遡及効果なし。D-2 観察フェーズ以降の新形式 JSON で有効化される。
+ * 2026-05-28: 旧実装は「格のみ」の評価で、G1 15着 (100) > 1勝クラス圧勝 (30) と
+ * いう倒錯があった。pastRaces には rank が入っているため、着順をブレンドして
+ * 「強い相手と戦った格」と「そこで出した結果」の両方を反映する。
+ *   例: G1 1着 = 100 / G1 15着 = 64 / 1勝クラス 1着 = 58 / 未勝利 1着 = 52
+ * pastRaces を prevRaceClass/prevRaceName より優先する理由: 同じ「前走」を指すが
+ * pastRaces には rank があり情報量が厳密に多い。将来 prevRaceName のスクレイパー
+ * 取得が復活しても、rank 込み評価が影に隠れないようにする (CLAUDE.md 事例10 対策)。
+ *
+ * (経緯) 2026-05-24: prevRaceName 全件取得失敗 (全49,033頭で prevClass=50) への
+ * 対応として pastRaces フォールバックを追加。既存3,557R は pastRaces 未保存のため
+ * 遡及効果なし。D-2 観察フェーズ以降の新形式 JSON で有効化される。
  */
 function scorePrevClass(horse: Horse, race?: Race): number {
-  if (typeof horse.prevRaceClass === 'number') return horse.prevRaceClass;
-  if (horse.prevRaceName) return classifyPrevRace(horse.prevRaceName);
-  // フォールバック: pastRaces から baseDate より前の最新走を使う
+  // 優先1: pastRaces (格 + 着順のブレンド評価)
   if (race && horse.pastRaces && horse.pastRaces.length > 0) {
     const baseDate = parseRaceDate(race.raceDate) ?? race.fetchedAt ?? new Date();
     for (const p of horse.pastRaces) {
@@ -415,9 +428,16 @@ function scorePrevClass(horse: Horse, race?: Race): number {
       const d = parseHistoryDate(p.date);
       if (d === null) continue;
       if (d >= baseDate) continue; // タイムリーキ防止: 自レース・未来レース除外
-      return classifyPrevRace(p.raceName);
+      const classScore = classifyPrevRace(p.raceName);
+      return clamp(
+        classScore * PREV_CLASS_WEIGHT + rankToScore(p.rank) * PREV_RANK_WEIGHT,
+        0, 100,
+      );
     }
   }
+  // 優先2-3: スクレイパー由来の前走情報 (着順なし、格のみ)
+  if (typeof horse.prevRaceClass === 'number') return horse.prevRaceClass;
+  if (horse.prevRaceName) return classifyPrevRace(horse.prevRaceName);
   return 50;
 }
 
