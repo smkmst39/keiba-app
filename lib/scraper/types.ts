@@ -223,6 +223,12 @@ export type VerificationData = {
      *  calcAllScores 側の baseDate フィルタが効くため安全。
      *  既存3341件の JSON はこのフィールド無し（undefined）→ 50 フォールバック。 */
     pastRaces?: PastRace[];
+    /** 複勝オッズ下限/上限（2026-05-28 追加）。
+     *  将来の複勝 EV 再較正 (市場 implied probability ベースへの変更) に備えて
+     *  保存する。現行の複勝 EV 式 (単勝確率×3 近似) の閾値 1.07 を再導出する
+     *  バックテストにはこの値が必須。既存 JSON は未保存 (undefined)。 */
+    fukuOddsMin?: number;
+    fukuOddsMax?: number;
   }[];
   results: RaceResult;
   accuracy: {

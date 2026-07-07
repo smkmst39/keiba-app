@@ -261,6 +261,12 @@ function buildVerificationData(race: Race, result: RaceResult, dateIso: string):
       //   既存3341件の JSON は未保存 (pastRaces=undefined) → 50 フォールバック動作。
       //   DISABLE_PAST_RACES=true 環境では h.pastRaces=undefined のまま保存される。
       pastRaces: h.pastRaces,
+      // 2026-05-28 追加: 複勝オッズを保存。将来の複勝 EV 再較正 (市場 implied
+      //   probability ベース) のバックテストに必須。現行式 (単勝確率×3 近似) の
+      //   閾値 EV_THRESHOLD_FUKU_BUY=1.07 は複勝オッズ未保存データで導出されて
+      //   おり、式を変える際はこの値での再導出が必要になる。
+      fukuOddsMin: h.fukuOddsMin,
+      fukuOddsMax: h.fukuOddsMax,
     })),
     results: result,
     accuracy: { top1ScoreRank, top3EVCount, recommendedHits },
