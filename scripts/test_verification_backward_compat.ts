@@ -63,15 +63,16 @@ for (let i = 0; i < files.length; i++) {
       throw new Error('results.results 欠落');
     }
 
-    // pastRaces は未保存のはず (改修後も既存3341件は不変)
-    const hasPastRaces = data.predictions.some(
-      (p) => 'pastRaces' in p && p.pastRaces !== undefined,
+    // 形式判定 (2026-05-28 更新):
+    //   D-1 改修後の週次スクレイプ (2026-05-23 収集分〜) は pastRaces キーを
+    //   保存する新形式。旧形式 (キーなし) と新形式が混在するのが正常な状態に
+    //   なったため、「pastRaces を含んではいけない」という旧アサーションは廃止。
+    //   代わりに「実データを持つ馬がいるか」で動的算出/フォールバックの期待を分岐。
+    const hasNonEmptyPastRaces = data.predictions.some(
+      (p) => Array.isArray(p.pastRaces) && p.pastRaces.length > 0,
     );
-    if (hasPastRaces) {
-      throw new Error('pastRaces が既存JSONに含まれている (期待: 未保存)');
-    }
 
-    // C2: Horse 再構築 + calcAllScores
+    // C2: Horse 再構築 + calcAllScores (保存されている pastRaces はそのまま渡す)
     const horses: Horse[] = data.predictions.map((p) => ({
       id: p.horseId,
       name: p.horseName,
@@ -83,8 +84,8 @@ for (let i = 0; i < files.length; i++) {
       trainer: '',
       weight: 0,
       weightDiff: 0,
-      lastThreeF: 0, // 既存JSONには無いのでフォールバック発動を狙う
-      // pastRaces は意図的に省略 → undefined
+      lastThreeF: 0, // 旧JSONには無いのでフォールバック発動を狙う
+      pastRaces: p.pastRaces, // 旧形式: undefined / 新形式: 配列 (空含む)
     }));
 
     const ymd = (data.date ?? '').replace(/-/g, '');
@@ -105,22 +106,28 @@ for (let i = 0; i < files.length; i++) {
     const comps = calcAllComponentScores(race);
     restore();
 
-    // 全馬で courseRecord=50 / lastThreeF=50 (pastRaces なしフォールバック)
-    let allFallback = true;
-    let firstBadId = -1;
-    let firstBadFields = '';
-    for (const h of scored.horses) {
-      const c = comps.get(h.id);
-      if (!c) continue;
-      if (c.courseRecord !== 50 || c.lastThreeF !== 50) {
-        allFallback = false;
-        firstBadId = h.id;
-        firstBadFields = `courseRecord=${c.courseRecord}, lastThreeF=${c.lastThreeF}`;
-        break;
+    // 期待値の分岐:
+    //   pastRaces 実データなし (旧形式 or 新形式で全馬空配列)
+    //     → 全馬で courseRecord=50 / lastThreeF=50 (フォールバック)
+    //   pastRaces 実データあり (新形式で取得成功)
+    //     → 動的算出されるため 50 固定は要求しない (NaN/レンジチェックのみ)
+    if (!hasNonEmptyPastRaces) {
+      let allFallback = true;
+      let firstBadId = -1;
+      let firstBadFields = '';
+      for (const h of scored.horses) {
+        const c = comps.get(h.id);
+        if (!c) continue;
+        if (c.courseRecord !== 50 || c.lastThreeF !== 50) {
+          allFallback = false;
+          firstBadId = h.id;
+          firstBadFields = `courseRecord=${c.courseRecord}, lastThreeF=${c.lastThreeF}`;
+          break;
+        }
       }
-    }
-    if (!allFallback) {
-      throw new Error(`フォールバック値違反: 馬${firstBadId} (${firstBadFields})`);
+      if (!allFallback) {
+        throw new Error(`フォールバック値違反: 馬${firstBadId} (${firstBadFields})`);
+      }
     }
 
     // スコアが NaN でないこと
